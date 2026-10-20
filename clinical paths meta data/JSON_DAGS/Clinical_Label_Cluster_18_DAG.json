@@ -1,0 +1,291 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 13,
+    "edge_count": 11
+  },
+  "nodes": [
+    {
+      "id": "Neurofeedback",
+      "label": "Neurofeedback",
+      "type": "Procedure",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0005860",
+        "MeSH": "D058256"
+      },
+      "synonyms": [
+        "LZNFB",
+        "LORETA Z-score neurofeedback",
+        "Theta/Beta Neurofeedback",
+        "EEG Biofeedback"
+      ]
+    },
+    {
+      "id": "QualityOfLife",
+      "label": "Quality of Life",
+      "type": "Phenotype",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0034442"
+      },
+      "synonyms": [
+        "QoL"
+      ]
+    },
+    {
+      "id": "Flumazenil",
+      "label": "Flumazenil",
+      "type": "Chemical",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0016393",
+        "ChEBI": "CHEBI:5124"
+      },
+      "synonyms": [
+        "Ro 15-1788",
+        "Ethyl 8-fluoro-5,6-dihydro-5-methyl-6-oxo-4H-imidazo(1,5-a)(1,4)benzodiazepine-3-carboxylate"
+      ]
+    },
+    {
+      "id": "BrainConnectivity",
+      "label": "Brain Connectivity",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C4255375"
+      },
+      "synonyms": [
+        "Structural Node Strength",
+        "Neural Connectivity"
+      ]
+    },
+    {
+      "id": "Tetrafluorobornylphthalimide",
+      "label": "Tetrafluorobornylphthalimide",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "Unmapped"
+      },
+      "synonyms": [
+        "TFBP",
+        "TFNBP"
+      ]
+    },
+    {
+      "id": "Inflammation",
+      "label": "Inflammation",
+      "type": "PathologicProcess",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0021368",
+        "GO": "GO:0006954"
+      },
+      "synonyms": [
+        "Neuroinflammation"
+      ]
+    },
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "Traumatic Brain Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111"
+      },
+      "synonyms": [
+        "Brain Injury",
+        "TBI",
+        "Traumatic Brain Injury Lesion"
+      ]
+    },
+    {
+      "id": "MotorCoordination",
+      "label": "Motor Coordination",
+      "type": "Function",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0010072"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Cytokines",
+      "label": "Cytokines",
+      "type": "Protein",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "UMLS_CUI": "C0010804",
+        "HGNC_Group": "Cytokines"
+      },
+      "synonyms": [
+        "Proinflammatory Cytokine"
+      ]
+    },
+    {
+      "id": "Teratogenesis",
+      "label": "Teratogenesis",
+      "type": "PathologicProcess",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0039527"
+      },
+      "synonyms": [
+        "Teratogenicity"
+      ]
+    },
+    {
+      "id": "Cognition",
+      "label": "Cognition",
+      "type": "Function",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0009241"
+      },
+      "synonyms": [
+        "Cognitive Function"
+      ]
+    },
+    {
+      "id": "Memory",
+      "label": "Memory",
+      "type": "Function",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0025477"
+      },
+      "synonyms": [
+        "Immediate Recall",
+        "Delayed Recall",
+        "Recognition Memory",
+        "Immediate Memory"
+      ]
+    },
+    {
+      "id": "Attention",
+      "label": "Attention",
+      "type": "Function",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0004268"
+      },
+      "synonyms": [
+        "Selective Attention"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "Neurofeedback",
+      "target": "QualityOfLife",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        373
+      ],
+      "confidence": "High",
+      "metadata": "Context: LORETA Z-score neurofeedback improves QoL scores"
+    },
+    {
+      "source": "Neurofeedback",
+      "target": "Cognition",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        373
+      ],
+      "confidence": "High",
+      "metadata": "Context: Improves cognitive function"
+    },
+    {
+      "source": "Neurofeedback",
+      "target": "Memory",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        373
+      ],
+      "confidence": "High",
+      "metadata": "Context: Improves immediate/delayed recall and recognition memory"
+    },
+    {
+      "source": "Neurofeedback",
+      "target": "Attention",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        373
+      ],
+      "confidence": "High",
+      "metadata": "Context: Improves selective attention"
+    },
+    {
+      "source": "Flumazenil",
+      "target": "BrainConnectivity",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        495
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Binding potential associated with structural node strength"
+    },
+    {
+      "source": "Tetrafluorobornylphthalimide",
+      "target": "Inflammation",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        364
+      ],
+      "confidence": "High",
+      "metadata": "Context: Mitigates neuroinflammation"
+    },
+    {
+      "source": "Tetrafluorobornylphthalimide",
+      "target": "TraumaticBrainInjury",
+      "mechanism": "treats",
+      "evidence_ref": [
+        364
+      ],
+      "confidence": "High",
+      "metadata": "Context: Prevents brain injury lesion and mitigates injury outcomes"
+    },
+    {
+      "source": "Tetrafluorobornylphthalimide",
+      "target": "MotorCoordination",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        364
+      ],
+      "confidence": "High",
+      "metadata": "Context: Improves motor coordination"
+    },
+    {
+      "source": "Tetrafluorobornylphthalimide",
+      "target": "Cytokines",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        364
+      ],
+      "confidence": "High",
+      "metadata": "Context: Prevents proinflammatory cytokine generation"
+    },
+    {
+      "source": "Tetrafluorobornylphthalimide",
+      "target": "Teratogenesis",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        364
+      ],
+      "confidence": "High",
+      "metadata": "Context: Designed to lack teratogenicity (prevents risk compared to Thalidomide)"
+    },
+    {
+      "source": "Neurofeedback",
+      "target": "QualityOfLife",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        373
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Associated with improvement in Total CIQ-R Scores (Social Integration)"
+    }
+  ]
+}

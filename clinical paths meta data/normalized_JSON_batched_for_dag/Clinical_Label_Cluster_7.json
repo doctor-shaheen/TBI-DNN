@@ -1,0 +1,156 @@
+[
+    {
+        "source_abstract_id":147,
+        "subject":"Microglial Exosomes",
+        "relation":"upregulates",
+        "object":"MicroRNA-124-3p",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":147,
+        "subject":"MicroRNA-124-3p",
+        "relation":"prevents",
+        "object":"Neurodegeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":147,
+        "subject":"MicroRNA-124-3p",
+        "relation":"transfers_to",
+        "object":"Hippocampal Neurons",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":147,
+        "subject":"MicroRNA-124-3p",
+        "relation":"targets",
+        "object":"RELA Proto-Oncogene",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":147,
+        "subject":"MicroRNA-124-3p",
+        "relation":"mediates",
+        "object":"Cognitive Outcome",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":513,
+        "subject":"MicroRNA-144",
+        "relation":"downregulates",
+        "object":"ADAM Metallopeptidase Domain 10",
+        "entity_variants":"miR-144_variant, ADAM10_variant"
+    },
+    {
+        "source_abstract_id":513,
+        "subject":"MicroRNA-144",
+        "relation":"causes",
+        "object":"Cognitive Impairment",
+        "entity_variants":"miR-144_variant, cognitive_impairments_variant"
+    },
+    {
+        "source_abstract_id":513,
+        "subject":"ADAM Metallopeptidase Domain 10",
+        "relation":"abrogates",
+        "object":"Neuroprotection by MicroRNA-144 Inhibitor",
+        "entity_variants":"ADAM10_variant, miR-144_inhibitor_variant"
+    },
+    {
+        "source_abstract_id":513,
+        "subject":"MicroRNA-144",
+        "relation":"inhibits",
+        "object":"Neuron Viability",
+        "entity_variants":"miR-144_variant, neuron_viability_variant"
+    },
+    {
+        "source_abstract_id":513,
+        "subject":"MicroRNA-144",
+        "relation":"suppresses",
+        "object":"Lactate Dehydrogenase Release",
+        "entity_variants":"miR-144_variant, LDH_release_variant"
+    },
+    {
+        "source_abstract_id":513,
+        "subject":"MicroRNA-144",
+        "relation":"reduces",
+        "object":"Caspase-3 Activity",
+        "entity_variants":"miR-144_variant, caspase-3_activity_variant"
+    },
+    {
+        "source_abstract_id":513,
+        "subject":"MicroRNA-144",
+        "relation":"enhances",
+        "object":"Cell Viability",
+        "entity_variants":"miR-144_variant, cell_viability_variant"
+    },
+    {
+        "source_abstract_id":513,
+        "subject":"MicroRNA-144",
+        "relation":"inhibits",
+        "object":"Cognitive Deficits",
+        "entity_variants":"miR-144_variant, cognitive_deficits_variant"
+    },
+    {
+        "source_abstract_id":513,
+        "subject":"MicroRNA-144",
+        "relation":"confers",
+        "object":"Improved Neurological Outcome",
+        "entity_variants":"miR-144_variant, neurological_outcome_variant"
+    },
+    {
+        "source_abstract_id":610,
+        "subject":"MicroRNA-7844-5p",
+        "relation":"targets",
+        "object":"Protein Phosphatase 1 Regulatory Inhibitor Subunit 1B",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":610,
+        "subject":"MicroRNA-7844-5p",
+        "relation":"targets",
+        "object":"LIM Zinc Finger Domain Containing 1",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":610,
+        "subject":"MicroRNA-7844-5p",
+        "relation":"targets",
+        "object":"Autophagy Related 12",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":610,
+        "subject":"MicroRNA-7844-5p",
+        "relation":"targets",
+        "object":"Microtubule Associated Protein 1 Light Chain 3 Beta",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":610,
+        "subject":"MicroRNA-7844-5p",
+        "relation":"targets",
+        "object":"Integrin Subunit Alpha 1",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":610,
+        "subject":"MicroRNA-7844-5p",
+        "relation":"targets",
+        "object":"Mitogen-Activated Protein Kinase 1",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":610,
+        "subject":"MicroRNA-7844-5p",
+        "relation":"targets",
+        "object":"Glycogen Synthase Kinase 3 Beta",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":610,
+        "subject":"MicroRNA-7844-5p",
+        "relation":"targets",
+        "object":"Mitogen-Activated Protein Kinase 8",
+        "entity_variants":null
+    }
+]

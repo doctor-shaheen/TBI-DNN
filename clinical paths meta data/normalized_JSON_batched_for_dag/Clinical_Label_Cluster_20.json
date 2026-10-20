@@ -1,0 +1,114 @@
+[
+    {
+        "source_abstract_id":554,
+        "subject":"Branched-Chain Amino Acids",
+        "relation":"improves",
+        "object":"Sleep Quality",
+        "entity_variants":"BCAA (leucine\/isoleucine\/valine)"
+    },
+    {
+        "source_abstract_id":554,
+        "subject":"Branched-Chain Amino Acids",
+        "relation":"reduces",
+        "object":"Insomnia",
+        "entity_variants":"BCAA (leucine\/isoleucine\/valine)"
+    },
+    {
+        "source_abstract_id":554,
+        "subject":"Branched-Chain Amino Acids",
+        "relation":"improves",
+        "object":"Wake After Sleep Onset",
+        "entity_variants":"BCAA (leucine\/isoleucine\/valine)"
+    },
+    {
+        "source_abstract_id":554,
+        "subject":"Branched-Chain Amino Acids",
+        "relation":"mediates",
+        "object":"Glutamate Production",
+        "entity_variants":"BCAA (leucine\/isoleucine\/valine)"
+    },
+    {
+        "source_abstract_id":554,
+        "subject":"Branched-Chain Amino Acids",
+        "relation":"improves",
+        "object":"Neuropsychological Performance",
+        "entity_variants":"BCAA (leucine\/isoleucine\/valine)"
+    },
+    {
+        "source_abstract_id":554,
+        "subject":"Branched-Chain Amino Acids",
+        "relation":"reduces",
+        "object":"Cognitive Decline",
+        "entity_variants":"BCAA (leucine\/isoleucine\/valine)"
+    },
+    {
+        "source_abstract_id":554,
+        "subject":"Branched-Chain Amino Acids",
+        "relation":"improves",
+        "object":"Biomarkers Related to Branched-Chain Amino Acid Consumption",
+        "entity_variants":"BCAA (leucine\/isoleucine\/valine)"
+    },
+    {
+        "source_abstract_id":555,
+        "subject":"Branched-Chain Amino Acids",
+        "relation":"restores",
+        "object":"Sleep-Wake Patterns",
+        "entity_variants":"isoleucine, leucine, valine"
+    },
+    {
+        "source_abstract_id":555,
+        "subject":"Branched-Chain Amino Acids",
+        "relation":"improves",
+        "object":"Cognitive Function",
+        "entity_variants":"isoleucine, leucine, valine"
+    },
+    {
+        "source_abstract_id":555,
+        "subject":"Branched-Chain Amino Acids",
+        "relation":"diagnoses",
+        "object":"Polysomnography",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":555,
+        "subject":"Age",
+        "relation":"confounds",
+        "object":"Effect of Branched-Chain Amino Acids on Sleep",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":555,
+        "subject":"Sex",
+        "relation":"confounds",
+        "object":"Effect of Branched-Chain Amino Acids on Sleep",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":555,
+        "subject":"Recent Traumatic Brain Injury",
+        "relation":"confounds",
+        "object":"Effect of Branched-Chain Amino Acids on Sleep",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":555,
+        "subject":"Pain",
+        "relation":"confounds",
+        "object":"Effect of Branched-Chain Amino Acids on Sleep",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":555,
+        "subject":"Depression",
+        "relation":"confounds",
+        "object":"Effect of Branched-Chain Amino Acids on Sleep",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":555,
+        "subject":"Post-Traumatic Stress Disorder",
+        "relation":"confounds",
+        "object":"Effect of Branched-Chain Amino Acids on Sleep",
+        "entity_variants":null
+    }
+]

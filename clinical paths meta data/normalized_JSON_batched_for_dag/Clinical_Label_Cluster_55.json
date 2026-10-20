@@ -1,0 +1,219 @@
+[
+    {
+        "source_abstract_id":303,
+        "subject":"Traumatic brain injury",
+        "relation":"triggers",
+        "object":"Progranulin",
+        "entity_variants":"PGRN"
+    },
+    {
+        "source_abstract_id":303,
+        "subject":"Progranulin",
+        "relation":"mediates",
+        "object":"Neurodegenerative conditions",
+        "entity_variants":"PGRN"
+    },
+    {
+        "source_abstract_id":303,
+        "subject":"Progranulin",
+        "relation":"upregulates",
+        "object":"Neuroinflammation",
+        "entity_variants":"PGRN"
+    },
+    {
+        "source_abstract_id":313,
+        "subject":"Traumatic Brain Injury",
+        "relation":"correlates_with",
+        "object":"S100B Protein",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":313,
+        "subject":"Traumatic Brain Injury",
+        "relation":"correlates_with",
+        "object":"Calbindin 2",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":366,
+        "subject":"S100B Protein",
+        "relation":"negatively_correlates_with",
+        "object":"Cognitive Outcome",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":366,
+        "subject":"S100B Protein",
+        "relation":"negatively_correlates_with",
+        "object":"Resting State Functional Connectivity",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":366,
+        "subject":"S100B Protein",
+        "relation":"correlates_with",
+        "object":"Behavioral Measures",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":368,
+        "subject":"Lipocalin-2",
+        "relation":"upregulates",
+        "object":"Interleukin-6",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":368,
+        "subject":"Interleukin-6",
+        "relation":"upregulates",
+        "object":"Lipocalin-2",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":368,
+        "subject":"Lipocalin-2",
+        "relation":"triggers",
+        "object":"Interleukin-6 Signaling",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":368,
+        "subject":"Traumatic Brain Injury",
+        "relation":"increases",
+        "object":"Interleukin-6",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":368,
+        "subject":"Lipocalin-2",
+        "relation":"binds_to",
+        "object":"Interleukin-6 Receptors",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":368,
+        "subject":"Interleukin-6",
+        "relation":"binds_to",
+        "object":"Lipocalin-2 Receptors",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":368,
+        "subject":"Lipocalin-2",
+        "relation":"mediates",
+        "object":"Neuroinflammation",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":368,
+        "subject":"Interleukin-6",
+        "relation":"mediates",
+        "object":"Neuroinflammation",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":368,
+        "subject":"Lipocalin-2",
+        "relation":"reduces",
+        "object":"Interleukin-6 Expression",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":372,
+        "subject":"Inflammation",
+        "relation":"upregulates",
+        "object":"S100 Protein",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":386,
+        "subject":"Traumatic Brain Injury",
+        "relation":"upregulates",
+        "object":"Neurogranin",
+        "entity_variants":"not_reported"
+    },
+    {
+        "source_abstract_id":386,
+        "subject":"Neurogranin",
+        "relation":"binds_to",
+        "object":"Neuron",
+        "entity_variants":"not_reported"
+    },
+    {
+        "source_abstract_id":404,
+        "subject":"Traumatic Brain Injury",
+        "relation":"triggers",
+        "object":"Interleukin-6",
+        "entity_variants":"IL-6"
+    },
+    {
+        "source_abstract_id":404,
+        "subject":"Traumatic Brain Injury",
+        "relation":"triggers",
+        "object":"S100 Calcium Binding Protein B",
+        "entity_variants":"S100B"
+    },
+    {
+        "source_abstract_id":420,
+        "subject":"Traumatic Brain Injury",
+        "relation":"upregulates",
+        "object":"Neurogranin",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":420,
+        "subject":"Traumatic Brain Injury",
+        "relation":"upregulates",
+        "object":"Fatty Acid-Binding Protein, Heart",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":470,
+        "subject":"Neurodegenerative Disease",
+        "relation":"contains",
+        "object":"Neurogranin",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":470,
+        "subject":"Alzheimer Disease",
+        "relation":"contains",
+        "object":"Neurogranin",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":552,
+        "subject":"Hyperbaric Oxygen Therapy",
+        "relation":"modulates",
+        "object":"S100B Protein",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":404,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Interleukin-18",
+        "entity_variants":"IL-18|"
+    },
+    {
+        "source_abstract_id":313,
+        "subject":"Traumatic Brain Injury",
+        "relation":"correlates_with",
+        "object":"Interleukin 16",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":420,
+        "subject":"Traumatic Brain Injury",
+        "relation":"downregulates",
+        "object":"Peroxiredoxin-6",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":420,
+        "subject":"Traumatic Brain Injury",
+        "relation":"downregulates",
+        "object":"Thioredoxin-Dependent Peroxide Reductase",
+        "entity_variants":"unknown"
+    }
+]

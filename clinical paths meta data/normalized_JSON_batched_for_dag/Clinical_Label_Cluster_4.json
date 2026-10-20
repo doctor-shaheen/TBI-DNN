@@ -1,0 +1,2347 @@
+[
+    {
+        "source_abstract_id":17,
+        "subject":"Repetitive Head Impact Exposure",
+        "relation":"upregulates",
+        "object":"Phosphorylated Tau Burden",
+        "entity_variants":"RHI_exposure|"
+    },
+    {
+        "source_abstract_id":46,
+        "subject":"Repetitive Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Tau Protein Accumulation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":46,
+        "subject":"Repetitive Mild Traumatic Brain Injury",
+        "relation":"impairs",
+        "object":"Tau Protein Clearance",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":46,
+        "subject":"Repetitive Mild Traumatic Brain Injury",
+        "relation":"increases",
+        "object":"Tau Protein Residence Time",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":59,
+        "subject":"F-18 FDDNP PET Imaging",
+        "relation":"diagnoses",
+        "object":"Neuropathological Patterns",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":99,
+        "subject":"Chronic Traumatic Encephalopathy Tissue",
+        "relation":"exhibits",
+        "object":"Braak Neurofibrillary Tangle Stage III",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":225,
+        "subject":"Blast Exposure",
+        "relation":"causes",
+        "object":"Serum Tau Protein",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":234,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Tau Protein",
+        "entity_variants":"mTBI, PTSD present"
+    },
+    {
+        "source_abstract_id":238,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Semantic Variant Primary Progressive Aphasia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":367,
+        "subject":"Synaptojanin-1",
+        "relation":"inhibits",
+        "object":"Glycogen Synthase Kinase 3 Beta",
+        "entity_variants":"GSK-3β"
+    },
+    {
+        "source_abstract_id":447,
+        "subject":"Phosphorylated Tau Protein",
+        "relation":"elevated_in",
+        "object":"Repetitive Traumatic Brain Injury",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":450,
+        "subject":"Traumatic Brain Injury with Loss of Consciousness",
+        "relation":"associated_with_higher_levels_of",
+        "object":"Hippocampal Phosphorylated Tau Protein",
+        "entity_variants":"none|"
+    },
+    {
+        "source_abstract_id":450,
+        "subject":"Traumatic Brain Injury with Loss of Consciousness",
+        "relation":"no_significant_difference_in",
+        "object":"Phosphorylated TDP-43",
+        "entity_variants":"none|"
+    },
+    {
+        "source_abstract_id":476,
+        "subject":"Controlled Cortical Impact",
+        "relation":"increases",
+        "object":"Total Tau Protein Levels",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":476,
+        "subject":"Controlled Cortical Impact",
+        "relation":"increases",
+        "object":"Phosphorylated Tau Protein Levels",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":510,
+        "subject":"Head Trauma",
+        "relation":"increases",
+        "object":"Tau Protein",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":447,
+        "subject":"Career Length",
+        "relation":"associated_with",
+        "object":"Phosphorylated Tau Protein",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":60,
+        "subject":"Repetitive Head Impacts",
+        "relation":"causes",
+        "object":"Total Tau Protein",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":110,
+        "subject":"Repetitive Head Impacts",
+        "relation":"causes",
+        "object":"Phosphorylated Tau Pathology",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":151,
+        "subject":"Plasma Phosphorylated Tau",
+        "relation":"not_associated_with",
+        "object":"Years of Repetitive Head Impact Exposure",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":64,
+        "subject":"Tau Protein Uptake",
+        "relation":"is_reduced_in",
+        "object":"Cerebral Blood Vessels from Repetitive Mild Traumatic Brain Injury",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":234,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Tau Protein",
+        "entity_variants":"mTBI|"
+    },
+    {
+        "source_abstract_id":7,
+        "subject":"Astrocytic Degeneration",
+        "relation":"negatively_correlated_with",
+        "object":"Tauopathies",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":15,
+        "subject":"Phosphorylated Tau Protein Burden",
+        "relation":"causes",
+        "object":"Functional Activities Questionnaire Score",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":15,
+        "subject":"Phosphorylated Tau Protein Burden",
+        "relation":"causes",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":20,
+        "subject":"Ballooned Neurons",
+        "relation":"similar_to",
+        "object":"Tauopathies",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":22,
+        "subject":"High Phosphorylated Tau Deposits",
+        "relation":"associated_with",
+        "object":"Chronic Traumatic Encephalopathy Neuropathologic Change",
+        "entity_variants":"not_applicable"
+    },
+    {
+        "source_abstract_id":30,
+        "subject":"Chronic Traumatic Encephalopathy Stage",
+        "relation":"increases",
+        "object":"Phosphorylated Tau Protein Severity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":30,
+        "subject":"Chronic Traumatic Encephalopathy Stage",
+        "relation":"associated_with",
+        "object":"Phosphorylated Tau Protein Distribution",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":39,
+        "subject":"Phosphorylated Tau Protein",
+        "relation":"interacts_with",
+        "object":"Neuroinflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":40,
+        "subject":"Tau Protein",
+        "relation":"interacts_with",
+        "object":"Neurofibrillary Tangles",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":40,
+        "subject":"Tau Protein",
+        "relation":"interacts_with",
+        "object":"Neuropil Threads",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":40,
+        "subject":"Tau Protein",
+        "relation":"interacts_with",
+        "object":"Dot-Like Grains",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":40,
+        "subject":"Neurofibrillary Tangles",
+        "relation":"located_in",
+        "object":"Cerebral Cortex, Upper Layer",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":40,
+        "subject":"Astrocytic Tangles",
+        "relation":"less_frequent_in",
+        "object":"Alzheimer Disease Neuropathologic Change",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":49,
+        "subject":"Plasma Phosphorylated Tau 181",
+        "relation":"increases",
+        "object":"Neuronal Damage",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":49,
+        "subject":"Plasma Phosphorylated Tau 217",
+        "relation":"increases",
+        "object":"Neuronal Damage",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":49,
+        "subject":"Former Boxers",
+        "relation":"exhibits",
+        "object":"Elevated Plasma Phosphorylated Tau 181",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":49,
+        "subject":"Former Boxers",
+        "relation":"exhibits",
+        "object":"Elevated Plasma Phosphorylated Tau 217",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":49,
+        "subject":"Longitudinal Analysis",
+        "relation":"demonstrates",
+        "object":"Elevation of Plasma Neurofilament Light and Phosphorylated Tau 181",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":51,
+        "subject":"Contact Sports",
+        "relation":"causes",
+        "object":"Hyperphosphorylated Tau Protein",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":51,
+        "subject":"Microtubule-Associated Protein Tau Gene",
+        "relation":"potentially_influences",
+        "object":"Chronic Traumatic Encephalopathy Pathology",
+        "entity_variants":"H1 haplotype"
+    },
+    {
+        "source_abstract_id":59,
+        "subject":"Chronic Traumatic Encephalopathy",
+        "relation":"associated_with",
+        "object":"Tauopathies",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":59,
+        "subject":"F-18 FDDNP Positron Emission Tomography Imaging",
+        "relation":"detects",
+        "object":"Paired Helical Filament Tau Distribution",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":64,
+        "subject":"Mural Cell Dysfunction",
+        "relation":"decreases",
+        "object":"Tau Protein Uptake",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":64,
+        "subject":"Mural Cell Dysfunction",
+        "relation":"causes",
+        "object":"Tau Protein Deposition",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":64,
+        "subject":"Caveolin-1 Decrease",
+        "relation":"impairs",
+        "object":"Tau Protein Uptake",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":64,
+        "subject":"Mural Cell Degeneration",
+        "relation":"associated_with",
+        "object":"Decreased Tau Protein Uptake",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":64,
+        "subject":"Mural Cell Depletion",
+        "relation":"associated_with",
+        "object":"Reduced Tau Protein Uptake",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":70,
+        "subject":"Chronic Traumatic Encephalopathy",
+        "relation":"associated_with",
+        "object":"Tauopathies",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":70,
+        "subject":"Cognitive Symptoms",
+        "relation":"mediated_by",
+        "object":"Tauopathies",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":72,
+        "subject":"Concussion",
+        "relation":"increases",
+        "object":"Plasma Phosphorylated Tau 181",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":72,
+        "subject":"Concussion",
+        "relation":"causes",
+        "object":"Plasma Phosphorylated Tau 217",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":72,
+        "subject":"Concussion",
+        "relation":"causes",
+        "object":"Plasma Phosphorylated Tau 231",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":76,
+        "subject":"Cerebrospinal Fluid Total Tau Protein",
+        "relation":"associated_with",
+        "object":"Cognitive Performance",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":76,
+        "subject":"Cerebrospinal Fluid Total Tau Protein",
+        "relation":"causes",
+        "object":"Alzheimer Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":76,
+        "subject":"Cerebrospinal Fluid Total Tau Protein",
+        "relation":"associated_with",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":76,
+        "subject":"Multiple Concussions",
+        "relation":"increases",
+        "object":"Cerebrospinal Fluid Total Tau Protein",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":76,
+        "subject":"Cerebrospinal Fluid Total Tau Protein",
+        "relation":"associated_with",
+        "object":"Alzheimer Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":76,
+        "subject":"Multiple Concussions",
+        "relation":"causes",
+        "object":"Cerebrospinal Fluid Total Tau Protein",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":76,
+        "subject":"Cerebrospinal Fluid Total Tau Protein",
+        "relation":"associated_with",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":78,
+        "subject":"Traumatic Brain Injury",
+        "relation":"no_direct_causal_link",
+        "object":"Neurofibrillary Tangles",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":78,
+        "subject":"Neurofibrillary Tangles",
+        "relation":"associated_with",
+        "object":"Alzheimer Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":80,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Neurofibrillary Tangles",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":83,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Plasma Phosphorylated Tau 181",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":83,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Total Tau Protein",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":85,
+        "subject":"Traumatic Brain Injury",
+        "relation":"no_direct_causal_link",
+        "object":"Phosphorylated Tau Protein 181",
+        "entity_variants":"p-tau181"
+    },
+    {
+        "source_abstract_id":85,
+        "subject":"Total Tau Protein",
+        "relation":"predicts",
+        "object":"Brain Atrophy Rates",
+        "entity_variants":"t-tau"
+    },
+    {
+        "source_abstract_id":86,
+        "subject":"Traumatic Brain Injury",
+        "relation":"no_direct_causal_link",
+        "object":"Paired Helical Filament Tangles",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":88,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Tau Protein Aggregation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":88,
+        "subject":"Tau Protein Aggregation",
+        "relation":"mediates",
+        "object":"Chronic Traumatic Encephalopathy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":88,
+        "subject":"Tau Protein Aggregation",
+        "relation":"detected_by",
+        "object":"Tau Positron Emission Tomography",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":88,
+        "subject":"Tau Protein Aggregation",
+        "relation":"associated_with",
+        "object":"Neuropathological Features",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":95,
+        "subject":"Plasma Phosphorylated Tau",
+        "relation":"associated_with",
+        "object":"Cognitive Impairment",
+        "entity_variants":"pTau"
+    },
+    {
+        "source_abstract_id":99,
+        "subject":"National Football League Players",
+        "relation":"exhibits",
+        "object":"Variable Tau Protein Uptake",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":99,
+        "subject":"Tau Protein",
+        "relation":"correlates_with",
+        "object":"Cognitive Concerns",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":107,
+        "subject":"Delta Secretase",
+        "relation":"cleaves",
+        "object":"Tau Protein",
+        "entity_variants":"Tau N368"
+    },
+    {
+        "source_abstract_id":107,
+        "subject":"Tau Protein",
+        "relation":"induces",
+        "object":"Neuroinflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":107,
+        "subject":"Tau Protein",
+        "relation":"induces",
+        "object":"Neurotoxicity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":110,
+        "subject":"Phosphorylated Tau Pathology",
+        "relation":"predicts",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":115,
+        "subject":"Serum Tau Protein Levels",
+        "relation":"indicates",
+        "object":"Blood-Brain Barrier Disruption",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":118,
+        "subject":"Tau Protein",
+        "relation":"binds_to",
+        "object":"AV-1451 Radioligand",
+        "entity_variants":"Paired Helical Filament Tau"
+    },
+    {
+        "source_abstract_id":118,
+        "subject":"Chronic Traumatic Encephalopathy",
+        "relation":"associated_with",
+        "object":"Tau Aggregates",
+        "entity_variants":"abundant tau aggregates"
+    },
+    {
+        "source_abstract_id":118,
+        "subject":"AV-1451 Radioligand",
+        "relation":"detects",
+        "object":"Tau Aggregates",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":118,
+        "subject":"Abnormally Hyperphosphorylated Tau Protein",
+        "relation":"reduced_in",
+        "object":"Chronic Traumatic Encephalopathy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":118,
+        "subject":"Tau Seeding Activity",
+        "relation":"reduced_in",
+        "object":"Chronic Traumatic Encephalopathy",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":118,
+        "subject":"Tau Aggregates",
+        "relation":"present_in",
+        "object":"Chronic Traumatic Encephalopathy Brain Tissue",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":118,
+        "subject":"AV-1451 Radioligand",
+        "relation":"detects",
+        "object":"Tau Protein in Chronic Traumatic Encephalopathy",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":118,
+        "subject":"Chronic Traumatic Encephalopathy",
+        "relation":"associated_with",
+        "object":"Disease-Specific Tau Protein Conformations",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":118,
+        "subject":"Tau Aggregates",
+        "relation":"detected_in",
+        "object":"Choroid Plexus",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":125,
+        "subject":"Tau Protein",
+        "relation":"associated_with",
+        "object":"Cognitive Decline",
+        "entity_variants":"Total Tau"
+    },
+    {
+        "source_abstract_id":125,
+        "subject":"Tau Protein",
+        "relation":"associated_with",
+        "object":"Cognitive Decline",
+        "entity_variants":"Total Tau"
+    },
+    {
+        "source_abstract_id":125,
+        "subject":"Phosphorylated Tau 231",
+        "relation":"associated_with",
+        "object":"Cognitive Decline",
+        "entity_variants":"Phosphorylated Tau 231"
+    },
+    {
+        "source_abstract_id":125,
+        "subject":"Total Tau Protein",
+        "relation":"associated_with",
+        "object":"Cognitive Decline",
+        "entity_variants":"Total Tau"
+    },
+    {
+        "source_abstract_id":134,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Tau Pathology",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":134,
+        "subject":"Tau Pathology",
+        "relation":"associated_with",
+        "object":"Neurodegeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":134,
+        "subject":"Flortaucipir Binding",
+        "relation":"associated_with",
+        "object":"Phosphorylated Tau Protein",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":136,
+        "subject":"Chronic Traumatic Encephalopathy",
+        "relation":"causes",
+        "object":"Tau Isoforms",
+        "entity_variants":"3R\/4R Tau"
+    },
+    {
+        "source_abstract_id":136,
+        "subject":"Chronic Traumatic Encephalopathy",
+        "relation":"causes",
+        "object":"Tau Protein Accumulation",
+        "entity_variants":"Tau Accumulation"
+    },
+    {
+        "source_abstract_id":136,
+        "subject":"Alzheimer Disease",
+        "relation":"causes",
+        "object":"Tau Isoforms",
+        "entity_variants":"3R\/4R Tau"
+    },
+    {
+        "source_abstract_id":136,
+        "subject":"Alzheimer Disease",
+        "relation":"causes",
+        "object":"Tau Protein Accumulation",
+        "entity_variants":"Tau Accumulation"
+    },
+    {
+        "source_abstract_id":136,
+        "subject":"Tau Isoforms",
+        "relation":"correlates_with",
+        "object":"Extracellular Tau Pathology",
+        "entity_variants":"3R Tau"
+    },
+    {
+        "source_abstract_id":136,
+        "subject":"Tau Isoforms",
+        "relation":"correlates_with",
+        "object":"Disease Severity",
+        "entity_variants":"3R Tau, 4R Tau"
+    },
+    {
+        "source_abstract_id":136,
+        "subject":"Tau Isoforms",
+        "relation":"affects",
+        "object":"Biomarkers",
+        "entity_variants":"Tau Isoforms"
+    },
+    {
+        "source_abstract_id":136,
+        "subject":"Tau Isoforms",
+        "relation":"affects",
+        "object":"Differential Diagnosis",
+        "entity_variants":"Tau Isoforms"
+    },
+    {
+        "source_abstract_id":138,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Tau Pathology",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":138,
+        "subject":"Pathogenic Tau Protein",
+        "relation":"inhibits",
+        "object":"Neuroprotective Activity",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":143,
+        "subject":"Traumatic Brain Injury",
+        "relation":"physically_interacts_with",
+        "object":"Tau Protein",
+        "entity_variants":"N\/A|"
+    },
+    {
+        "source_abstract_id":143,
+        "subject":"Tau Protein",
+        "relation":"associated_with",
+        "object":"Neuropsychiatric Symptoms",
+        "entity_variants":"N\/A|"
+    },
+    {
+        "source_abstract_id":143,
+        "subject":"Tau Protein",
+        "relation":"upregulates",
+        "object":"Psychotic Disorder",
+        "entity_variants":"N\/A|"
+    },
+    {
+        "source_abstract_id":143,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Tau Protein",
+        "entity_variants":"N\/A|"
+    },
+    {
+        "source_abstract_id":143,
+        "subject":"11C-PBB3",
+        "relation":"physically_interacts_with",
+        "object":"Tau Protein",
+        "entity_variants":"N\/A|"
+    },
+    {
+        "source_abstract_id":143,
+        "subject":"Tau Protein",
+        "relation":"mediates",
+        "object":"Neuropsychiatric Symptoms",
+        "entity_variants":"N\/A|"
+    },
+    {
+        "source_abstract_id":143,
+        "subject":"11C-PBB3",
+        "relation":"associated_with",
+        "object":"Tau Protein",
+        "entity_variants":"N\/A|"
+    },
+    {
+        "source_abstract_id":145,
+        "subject":"Plasma Tau Protein",
+        "relation":"associated_with",
+        "object":"Mild Traumatic Brain Injury",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":151,
+        "subject":"Plasma Phosphorylated Tau Protein 181",
+        "relation":"differentiates",
+        "object":"Healthy Control Subjects",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":151,
+        "subject":"Plasma Phosphorylated Tau Protein 217",
+        "relation":"differentiates",
+        "object":"Healthy Control Subjects",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":151,
+        "subject":"Plasma Phosphorylated Tau Protein 217",
+        "relation":"differentiates",
+        "object":"Amyloid Beta Negative Traumatic Encephalopathy Syndrome",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":151,
+        "subject":"Plasma Phosphorylated Tau Protein 181",
+        "relation":"differentiates",
+        "object":"Amyloid Beta Negative Traumatic Encephalopathy Syndrome",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":151,
+        "subject":"Plasma Phosphorylated Tau Protein",
+        "relation":"associated_with",
+        "object":"Tau PET Signal",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":151,
+        "subject":"Plasma Phosphorylated Tau Protein 181",
+        "relation":"not_useful_as_biomarker_for",
+        "object":"Chronic Traumatic Encephalopathy Tauopathy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":151,
+        "subject":"Plasma Phosphorylated Tau Protein 217",
+        "relation":"not_useful_as_biomarker_for",
+        "object":"Chronic Traumatic Encephalopathy Tauopathy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":151,
+        "subject":"Plasma Phosphorylated Tau Protein",
+        "relation":"associated_with",
+        "object":"Chronic Traumatic Encephalopathy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":151,
+        "subject":"Plasma Phosphorylated Tau Protein",
+        "relation":"identifies",
+        "object":"Traumatic Encephalopathy Syndrome without Alzheimer's Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":165,
+        "subject":"Hyperphosphorylated Tau Protein",
+        "relation":"physically_interacts_with",
+        "object":"Neuron",
+        "entity_variants":"hyperphosphorylated_tau|neurons"
+    },
+    {
+        "source_abstract_id":165,
+        "subject":"Hyperphosphorylated Tau Protein",
+        "relation":"physically_interacts_with",
+        "object":"Astrocyte",
+        "entity_variants":"hyperphosphorylated_tau|astrocytes"
+    },
+    {
+        "source_abstract_id":174,
+        "subject":"Plasma Phosphorylated Tau Protein 181",
+        "relation":"physically_interacts_with",
+        "object":"Fornix Fractional Anisotropy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":174,
+        "subject":"Plasma Phosphorylated Tau Protein 181",
+        "relation":"associated_with",
+        "object":"Corpus Callosum Volume",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":174,
+        "subject":"Plasma Phosphorylated Tau Protein 181",
+        "relation":"associated_with",
+        "object":"Corpus Callosum Medial Diffusivity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":174,
+        "subject":"Plasma Phosphorylated Tau Protein 181",
+        "relation":"associated_with",
+        "object":"Corpus Callosum Axial Diffusivity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":174,
+        "subject":"Plasma Phosphorylated Tau Protein 181",
+        "relation":"associated_with",
+        "object":"Healthy Control Subjects",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":174,
+        "subject":"Plasma Phosphorylated Tau Protein 181",
+        "relation":"no_direct_causal_link",
+        "object":"Longitudinal Changes in Brain Volumes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":179,
+        "subject":"Tau Protein",
+        "relation":"higher_levels_in",
+        "object":"Former Players",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":179,
+        "subject":"Tau Protein",
+        "relation":"correlates_with",
+        "object":"Years of Play",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":179,
+        "subject":"Tau Protein",
+        "relation":"higher_levels_in",
+        "object":"Bilateral Medial Temporal Lobe",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":179,
+        "subject":"Tau Protein",
+        "relation":"higher_levels_in",
+        "object":"Bilateral Superior Frontal Gyrus",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":179,
+        "subject":"Tau Protein",
+        "relation":"higher_levels_in",
+        "object":"Left Parietal Lobe",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":179,
+        "subject":"Tau Protein",
+        "relation":"no_association_with",
+        "object":"Cognitive Scores",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":179,
+        "subject":"Tau Protein",
+        "relation":"no_association_with",
+        "object":"Neuropsychiatric Scores",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":179,
+        "subject":"Years of Play",
+        "relation":"correlates_with",
+        "object":"Tau Protein Deposition",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":180,
+        "subject":"Traumatic Brain Injury",
+        "relation":"no_direct_causal_link",
+        "object":"Tau Protein",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":180,
+        "subject":"Beta Amyloid",
+        "relation":"no_direct_causal_link",
+        "object":"Tau Protein",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":180,
+        "subject":"Tau Protein",
+        "relation":"no_direct_causal_link",
+        "object":"Glucose Metabolism",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":208,
+        "subject":"Amyloid Beta",
+        "relation":"triggers",
+        "object":"Tau Phosphorylation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":208,
+        "subject":"Tau Protein",
+        "relation":"causes",
+        "object":"Cognitive Deficits",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":208,
+        "subject":"Cellular Prion Protein",
+        "relation":"mediates",
+        "object":"Phosphorylated Tau Protein",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":208,
+        "subject":"Calpain Hyperactivation",
+        "relation":"not_required_for",
+        "object":"Phosphorylated Tau Protein Generation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":208,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Total Tau Protein",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":219,
+        "subject":"Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Tau Aggregates",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":221,
+        "subject":"Cerebral Amyloid Angiopathy",
+        "relation":"associated_with",
+        "object":"Sulcal Tau Pathology",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":228,
+        "subject":"Total Tau Protein",
+        "relation":"higher_levels_in",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":228,
+        "subject":"Traumatic Brain Injury",
+        "relation":"no_effect_on",
+        "object":"Total Tau Protein Levels",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":234,
+        "subject":"Tau Protein",
+        "relation":"associated_with",
+        "object":"Cognitive Impairment",
+        "entity_variants":"tau|"
+    },
+    {
+        "source_abstract_id":234,
+        "subject":"Tau Protein",
+        "relation":"predicts",
+        "object":"Cognitive Decline",
+        "entity_variants":"tau|"
+    },
+    {
+        "source_abstract_id":235,
+        "subject":"Tau Protein",
+        "relation":"correlates_with",
+        "object":"Age at Death",
+        "entity_variants":"AT8-positive tau|"
+    },
+    {
+        "source_abstract_id":235,
+        "subject":"Tau Protein",
+        "relation":"correlates_with",
+        "object":"Age at Symptom Onset",
+        "entity_variants":"AT8-positive tau|"
+    },
+    {
+        "source_abstract_id":235,
+        "subject":"Tau Protein",
+        "relation":"correlates_with",
+        "object":"Time from Retirement to Death",
+        "entity_variants":"AT8-positive tau|"
+    },
+    {
+        "source_abstract_id":235,
+        "subject":"Tau Protein",
+        "relation":"correlates_with",
+        "object":"Dystrophic Neurite Clusters",
+        "entity_variants":"AT8-positive tau|"
+    },
+    {
+        "source_abstract_id":235,
+        "subject":"Tau Protein",
+        "relation":"correlates_with",
+        "object":"Chronic Traumatic Encephalopathy Stage",
+        "entity_variants":"AT8-positive tau|"
+    },
+    {
+        "source_abstract_id":235,
+        "subject":"Tau Protein",
+        "relation":"correlates_with",
+        "object":"AT8-positive Neurons",
+        "entity_variants":"AT8-positive tau|"
+    },
+    {
+        "source_abstract_id":235,
+        "subject":"Tau Protein",
+        "relation":"correlates_with",
+        "object":"Neurite Clusters",
+        "entity_variants":"AT8-positive tau|"
+    },
+    {
+        "source_abstract_id":235,
+        "subject":"Tau Protein",
+        "relation":"correlates_with",
+        "object":"Amyloid Beta Pathology",
+        "entity_variants":"Aβ pathology|"
+    },
+    {
+        "source_abstract_id":235,
+        "subject":"Tau Protein",
+        "relation":"correlates_with",
+        "object":"Dystrophic Neurites",
+        "entity_variants":"AT8-positive tau|"
+    },
+    {
+        "source_abstract_id":235,
+        "subject":"Tau Protein",
+        "relation":"correlates_with",
+        "object":"Neuronal Death",
+        "entity_variants":"AT8-positive tau|"
+    },
+    {
+        "source_abstract_id":236,
+        "subject":"Chronic Mild Traumatic Brain Injury",
+        "relation":"triggers",
+        "object":"Phosphorylated Tau Protein at Threonine 181",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":236,
+        "subject":"Chronic Mild Traumatic Brain Injury",
+        "relation":"triggers",
+        "object":"Phosphorylated Tau Protein at Serine 396",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":244,
+        "subject":"Traumatic Brain Injury",
+        "relation":"triggers",
+        "object":"Phosphorylated Tau Protein",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":244,
+        "subject":"Traumatic Brain Injury",
+        "relation":"triggers",
+        "object":"Total Tau Protein",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":244,
+        "subject":"Phosphorylated Tau Protein",
+        "relation":"upregulates",
+        "object":"Phosphorylated Tau to Total Tau Protein Ratio",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":244,
+        "subject":"Phosphorylated Tau to Total Tau Protein Ratio",
+        "relation":"associated_with",
+        "object":"Disability Rating Scale",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":244,
+        "subject":"Phosphorylated Tau to Total Tau Protein Ratio",
+        "relation":"associated_with",
+        "object":"Glasgow Outcome Scale Extended",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":244,
+        "subject":"Chronic Phosphorylated Tau Protein",
+        "relation":"associated_with",
+        "object":"Disability Rating Scale",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":244,
+        "subject":"Chronic Phosphorylated Tau Protein",
+        "relation":"associated_with",
+        "object":"Glasgow Outcome Scale Extended",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":244,
+        "subject":"Total Tau Protein",
+        "relation":"associated_with",
+        "object":"Disability Rating Scale",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":244,
+        "subject":"Total Tau Protein",
+        "relation":"associated_with",
+        "object":"Glasgow Outcome Scale Extended",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":256,
+        "subject":"Self-reported Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Cerebrospinal Fluid Total Tau Protein",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":256,
+        "subject":"Cerebrospinal Fluid Phosphorylated Tau Protein",
+        "relation":"compared_with",
+        "object":"Cerebrospinal Fluid Total Tau Protein",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":260,
+        "subject":"Impact Injury",
+        "relation":"causes",
+        "object":"Phosphorylated Tauopathy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":296,
+        "subject":"Cognitive Decline",
+        "relation":"mediated_by",
+        "object":"Tau Protein",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":296,
+        "subject":"Tau Protein",
+        "relation":"associated_with",
+        "object":"Brain Atrophy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":306,
+        "subject":"Tau Protein",
+        "relation":"associated_with",
+        "object":"Concussion History",
+        "entity_variants":"rs2435200 AA|"
+    },
+    {
+        "source_abstract_id":306,
+        "subject":"Tau Protein",
+        "relation":"associated_with",
+        "object":"Multiple Concussions",
+        "entity_variants":"rs2435200 AG|"
+    },
+    {
+        "source_abstract_id":306,
+        "subject":"Tau Protein",
+        "relation":"associated_with",
+        "object":"Neurodegeneration",
+        "entity_variants":"rs2435211 C>T - rs2435200 G>A haplotype|"
+    },
+    {
+        "source_abstract_id":306,
+        "subject":"Tau Gene Polymorphisms",
+        "relation":"influences",
+        "object":"Concussion Risk",
+        "entity_variants":"rs2435211, rs2435200|"
+    },
+    {
+        "source_abstract_id":314,
+        "subject":"Tau Protein",
+        "relation":"predicts",
+        "object":"Perceptual Reasoning",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":314,
+        "subject":"Tau Protein",
+        "relation":"predicts",
+        "object":"Executive Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":325,
+        "subject":"Hyperphosphorylated Tau Protein",
+        "relation":"physically_interacts_with",
+        "object":"Brain Atrophy",
+        "entity_variants":"p-tau|"
+    },
+    {
+        "source_abstract_id":326,
+        "subject":"Traumatic Brain Injury",
+        "relation":"triggers",
+        "object":"Tau Hyperphosphorylation",
+        "entity_variants":"not specified|"
+    },
+    {
+        "source_abstract_id":326,
+        "subject":"Substance P",
+        "relation":"upregulates",
+        "object":"Tau Hyperphosphorylation",
+        "entity_variants":"not specified|"
+    },
+    {
+        "source_abstract_id":326,
+        "subject":"NK1 Receptor Antagonist",
+        "relation":"prevents",
+        "object":"Tau Hyperphosphorylation",
+        "entity_variants":"not specified|"
+    },
+    {
+        "source_abstract_id":326,
+        "subject":"Blast Traumatic Brain Injury",
+        "relation":"triggers",
+        "object":"Tau Hyperphosphorylation",
+        "entity_variants":"not specified|"
+    },
+    {
+        "source_abstract_id":326,
+        "subject":"Repeated Concussive Traumatic Brain Injury",
+        "relation":"triggers",
+        "object":"Tau Hyperphosphorylation",
+        "entity_variants":"not specified|"
+    },
+    {
+        "source_abstract_id":328,
+        "subject":"Tau Protein",
+        "relation":"associated_with",
+        "object":"Clinical Symptoms",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":328,
+        "subject":"Symptom Duration",
+        "relation":"no_association_with",
+        "object":"Tau Protein",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":337,
+        "subject":"Phosphorylated Tau Protein Burden",
+        "relation":"associated_with",
+        "object":"Cognitive Difficulties",
+        "entity_variants":"none|"
+    },
+    {
+        "source_abstract_id":343,
+        "subject":"Circular Tau Transferrin Receptor Bifunctional Aptamer",
+        "relation":"physically_interacts_with",
+        "object":"Tau Protein",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":343,
+        "subject":"Circular Tau Transferrin Receptor Bifunctional Aptamer",
+        "relation":"upregulates",
+        "object":"Brain Exposure",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":343,
+        "subject":"Circular Tau Transferrin Receptor Bifunctional Aptamer",
+        "relation":"triggers",
+        "object":"Tau Phosphorylation Inhibition",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":343,
+        "subject":"Circular Tau Transferrin Receptor Bifunctional Aptamer",
+        "relation":"mediates",
+        "object":"Cognitive Memory Deficits",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":343,
+        "subject":"Tau Protein",
+        "relation":"triggers",
+        "object":"Tauopathy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":343,
+        "subject":"Circular Tau Transferrin Receptor Bifunctional Aptamer",
+        "relation":"disrupts",
+        "object":"Tauopathy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":343,
+        "subject":"Tau Protein",
+        "relation":"physically_interacts_with",
+        "object":"Transferrin Receptor",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":343,
+        "subject":"Circular Tau Transferrin Receptor Bifunctional Aptamer",
+        "relation":"enhances",
+        "object":"Therapeutic Agent Delivery",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":343,
+        "subject":"Tauopathy",
+        "relation":"results_in",
+        "object":"Cognitive Memory Deficits",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":358,
+        "subject":"Traumatic Brain Injury",
+        "relation":"upregulates",
+        "object":"Total Tau Protein",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":358,
+        "subject":"Traumatic Brain Injury",
+        "relation":"upregulates",
+        "object":"Phosphorylated Tau Protein at Threonine 181",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":367,
+        "subject":"synaptojanin_1",
+        "relation":"downregulates",
+        "object":"phospho_tau",
+        "entity_variants":"pTau|"
+    },
+    {
+        "source_abstract_id":367,
+        "subject":"GSK-3β",
+        "relation":"phosphorylates",
+        "object":"tau",
+        "entity_variants":"pTau|"
+    },
+    {
+        "source_abstract_id":367,
+        "subject":"blast_TBI",
+        "relation":"triggers",
+        "object":"Tau_hyper_phosphorylation",
+        "entity_variants":"pTau|"
+    },
+    {
+        "source_abstract_id":376,
+        "subject":"amyloid_beta",
+        "relation":"associates_with",
+        "object":"tau",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":392,
+        "subject":"plasma_TAU",
+        "relation":"predicts",
+        "object":"gray_matter_atrophy",
+        "entity_variants":"N\/A|"
+    },
+    {
+        "source_abstract_id":400,
+        "subject":"plasma_P-tau181",
+        "relation":"downregulates",
+        "object":"verbal_memory",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":400,
+        "subject":"plasma_P-tau181",
+        "relation":"downregulates",
+        "object":"white_matter_microstructure",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":400,
+        "subject":"plasma_P-tau181",
+        "relation":"no_direct_causal_link",
+        "object":"brain_age",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":416,
+        "subject":"traumatic_brain_injury",
+        "relation":"causes",
+        "object":"phosphorylated_tau_accumulation",
+        "entity_variants":"none|"
+    },
+    {
+        "source_abstract_id":439,
+        "subject":"traumatic_brain_injury",
+        "relation":"induces",
+        "object":"cis_phosphorylated_tau",
+        "entity_variants":"cis_p-tau|"
+    },
+    {
+        "source_abstract_id":439,
+        "subject":"cis_phosphorylated_tau",
+        "relation":"positively_correlates_with",
+        "object":"axonal_injury",
+        "entity_variants":"cis_p-tau|"
+    },
+    {
+        "source_abstract_id":439,
+        "subject":"cis_phosphorylated_tau",
+        "relation":"correlates_with",
+        "object":"clinical_outcome",
+        "entity_variants":"cis_p-tau|"
+    },
+    {
+        "source_abstract_id":439,
+        "subject":"cis_phosphorylated_tau",
+        "relation":"contributes_to",
+        "object":"neuropathology",
+        "entity_variants":"cis_p-tau|"
+    },
+    {
+        "source_abstract_id":439,
+        "subject":"cis_phosphorylated_tau",
+        "relation":"mediates",
+        "object":"brain_dysfunction",
+        "entity_variants":"cis_p-tau|"
+    },
+    {
+        "source_abstract_id":439,
+        "subject":"cis_phosphorylated_tau",
+        "relation":"attenuates",
+        "object":"neuropathology",
+        "entity_variants":"cis_p-tau|"
+    },
+    {
+        "source_abstract_id":439,
+        "subject":"cis_phosphorylated_tau",
+        "relation":"delays",
+        "object":"pathological_features",
+        "entity_variants":"cis_p-tau|"
+    },
+    {
+        "source_abstract_id":442,
+        "subject":"Morin",
+        "relation":"opposes",
+        "object":"p(Thr231)Tau",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":447,
+        "subject":"quality_of_life",
+        "relation":"correlates_with",
+        "object":"pTau",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":450,
+        "subject":"pTau",
+        "relation":"higher_levels_in",
+        "object":"Alzheimer's_disease",
+        "entity_variants":"none|"
+    },
+    {
+        "source_abstract_id":450,
+        "subject":"pTau",
+        "relation":"higher_levels_in",
+        "object":"temporal_cortex",
+        "entity_variants":"none|"
+    },
+    {
+        "source_abstract_id":451,
+        "subject":"tau",
+        "relation":"mediates",
+        "object":"neuronal_pathology",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":451,
+        "subject":"tau",
+        "relation":"binds_to",
+        "object":"astrocytic_pathology",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":460,
+        "subject":"tau_aggregation",
+        "relation":"contributes_to",
+        "object":"cochlear_neurodegeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":460,
+        "subject":"tau_aggregation",
+        "relation":"mediates",
+        "object":"neurodegeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":469,
+        "subject":"football_play_years",
+        "relation":"upregulates",
+        "object":"phosphorylated_tau",
+        "entity_variants":"none|"
+    },
+    {
+        "source_abstract_id":469,
+        "subject":"phosphorylated_tau",
+        "relation":"upregulates",
+        "object":"dementia",
+        "entity_variants":"none|"
+    },
+    {
+        "source_abstract_id":470,
+        "subject":"NDE",
+        "relation":"contains",
+        "object":"total_tau",
+        "entity_variants":"N\/A|"
+    },
+    {
+        "source_abstract_id":470,
+        "subject":"NDE",
+        "relation":"contains",
+        "object":"P-T181-tau",
+        "entity_variants":"N\/A|"
+    },
+    {
+        "source_abstract_id":470,
+        "subject":"NDE",
+        "relation":"contains",
+        "object":"P-S396-tau",
+        "entity_variants":"N\/A|"
+    },
+    {
+        "source_abstract_id":476,
+        "subject":"traumatic_brain_injury",
+        "relation":"triggers",
+        "object":"tau_hyperphosphorylation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":476,
+        "subject":"tau_hyperphosphorylation",
+        "relation":"leads_to",
+        "object":"microtubule_instability",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":476,
+        "subject":"microtubule_instability",
+        "relation":"triggers",
+        "object":"tau_mediated_neurodegeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":476,
+        "subject":"T-tau_levels",
+        "relation":"correlates_with",
+        "object":"injury_severity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":476,
+        "subject":"P-tau_levels",
+        "relation":"correlates_with",
+        "object":"injury_severity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":476,
+        "subject":"TBI",
+        "relation":"affects",
+        "object":"tauopathy_related_dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":476,
+        "subject":"tau",
+        "relation":"serves_as",
+        "object":"biomarker",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":497,
+        "subject":"tauopathy",
+        "relation":"associated_with",
+        "object":"chronic_traumatic_encephalopathy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":517,
+        "subject":"traumatic_brain_injury",
+        "relation":"upregulates",
+        "object":"tau",
+        "entity_variants":"none|"
+    },
+    {
+        "source_abstract_id":517,
+        "subject":"cognitive_decline",
+        "relation":"associated_with",
+        "object":"tau",
+        "entity_variants":"none|"
+    },
+    {
+        "source_abstract_id":517,
+        "subject":"tau",
+        "relation":"correlates_with",
+        "object":"cognitive_decline",
+        "entity_variants":"none|"
+    },
+    {
+        "source_abstract_id":519,
+        "subject":"AD_PRS",
+        "relation":"moderates",
+        "object":"plasma_tau",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":519,
+        "subject":"plasma_tau",
+        "relation":"interacts_with",
+        "object":"AD_PRS",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":519,
+        "subject":"plasma_tau",
+        "relation":"serves_as",
+        "object":"biomarker_for_AD_related_changes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":544,
+        "subject":"phosphorylated_tau",
+        "relation":"binds_to",
+        "object":"body_mass_index",
+        "entity_variants":"P-tau 217|P-tau 181"
+    },
+    {
+        "source_abstract_id":544,
+        "subject":"cognitive_impairment",
+        "relation":"no_direct_causal_link",
+        "object":"phosphorylated_tau",
+        "entity_variants":"none|"
+    },
+    {
+        "source_abstract_id":544,
+        "subject":"body_mass_index",
+        "relation":"triggers",
+        "object":"phosphorylated_tau",
+        "entity_variants":"none|"
+    },
+    {
+        "source_abstract_id":544,
+        "subject":"phosphorylated_tau",
+        "relation":"no_direct_causal_link",
+        "object":"cognitive_decline",
+        "entity_variants":"none|"
+    },
+    {
+        "source_abstract_id":544,
+        "subject":"phosphorylated_tau",
+        "relation":"no_direct_causal_link",
+        "object":"body_mass_index",
+        "entity_variants":"none|"
+    },
+    {
+        "source_abstract_id":544,
+        "subject":"phosphorylated_tau",
+        "relation":"binds_to",
+        "object":"cognitive_impairment",
+        "entity_variants":"none|"
+    },
+    {
+        "source_abstract_id":566,
+        "subject":"functional_connectivity",
+        "relation":"associated_with",
+        "object":"tauopathy_patterns",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":595,
+        "subject":"tau",
+        "relation":"binds_to",
+        "object":"18F-T807",
+        "entity_variants":"unknown|"
+    },
+    {
+        "source_abstract_id":595,
+        "subject":"18F-T807",
+        "relation":"upregulates",
+        "object":"tau",
+        "entity_variants":"unknown|"
+    },
+    {
+        "source_abstract_id":600,
+        "subject":"racial_identity",
+        "relation":"affects",
+        "object":"p-tau181\/t-tau_ratio",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":600,
+        "subject":"cumulative_head_impact_index",
+        "relation":"no_direct_causal_link",
+        "object":"p-tau181\/t-tau_ratio",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":628,
+        "subject":"collision_sports",
+        "relation":"no_direct_causal_link",
+        "object":"tau_phosphorylated_at_threonine_181",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":119,
+        "subject":"Military Exposure",
+        "relation":"binds_to",
+        "object":"Tau Protein",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":119,
+        "subject":"Military Exposure",
+        "relation":"binds_to",
+        "object":"Tau Aggregation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":328,
+        "subject":"Blast Exposure",
+        "relation":"binds_to",
+        "object":"Tau Protein",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":328,
+        "subject":"Blast Exposure",
+        "relation":"causes",
+        "object":"Tau Deposition",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":460,
+        "subject":"Blast Exposure",
+        "relation":"causes",
+        "object":"Tau Aggregation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":15,
+        "subject":"Years Played Ice Hockey",
+        "relation":"causes",
+        "object":"Phosphorylated Tau Protein Burden",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":211,
+        "subject":"Contact Sports",
+        "relation":"causes",
+        "object":"Motor Outcomes",
+        "entity_variants":"Timed Up and Go Test Times"
+    },
+    {
+        "source_abstract_id":304,
+        "subject":"Collision Sport Participation",
+        "relation":"increases",
+        "object":"Tau Protein",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":628,
+        "subject":"Collision Sports",
+        "relation":"not_causally_associated_with",
+        "object":"Tau Protein",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":447,
+        "subject":"Depressive Disorder",
+        "relation":"correlates_with",
+        "object":"Phosphorylated Tau Protein",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":72,
+        "subject":"Concussion",
+        "relation":"upregulates",
+        "object":"Total Tau Protein",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":328,
+        "subject":"Blunt Concussion",
+        "relation":"negatively_associated_with",
+        "object":"Tau Protein",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":447,
+        "subject":"Headache After Concussion",
+        "relation":"correlates_with",
+        "object":"Phosphorylated Tau Protein",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":46,
+        "subject":"Apolipoprotein E4",
+        "relation":"upregulates",
+        "object":"Tau protein accumulation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":46,
+        "subject":"Apolipoprotein E4",
+        "relation":"influences",
+        "object":"Tau protein elimination",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":46,
+        "subject":"Apolipoprotein E4",
+        "relation":"affects",
+        "object":"Tau protein dynamics",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":367,
+        "subject":"Apolipoprotein E4",
+        "relation":"increases",
+        "object":"Phosphorylated tau protein",
+        "entity_variants":"pTau|"
+    },
+    {
+        "source_abstract_id":234,
+        "subject":"Posttraumatic Stress Disorder",
+        "relation":"upregulates",
+        "object":"Tau Protein",
+        "entity_variants":"PTSD"
+    },
+    {
+        "source_abstract_id":234,
+        "subject":"Posttraumatic Stress Disorder",
+        "relation":"influences",
+        "object":"Tau Protein",
+        "entity_variants":"PTSD"
+    },
+    {
+        "source_abstract_id":234,
+        "subject":"Posttraumatic Stress Disorder",
+        "relation":"modulates",
+        "object":"Tau Protein",
+        "entity_variants":"PTSD"
+    },
+    {
+        "source_abstract_id":19,
+        "subject":"Uncinate Fasciculus",
+        "relation":"progresses_in",
+        "object":"Posttraumatic Stress Disorder",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":32,
+        "subject":"Chronic Traumatic Encephalopathy-like Changes",
+        "relation":"associated_with",
+        "object":"Hyperphosphorylated Tau Protein",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":94,
+        "subject":"Traumatic Brain Injury",
+        "relation":"upregulates",
+        "object":"Tau Protein",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":94,
+        "subject":"Tau Protein",
+        "relation":"correlates_with",
+        "object":"Postconcussive Symptoms",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":94,
+        "subject":"Traumatic Brain Injury",
+        "relation":"upregulates",
+        "object":"Tau Protein",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":94,
+        "subject":"Traumatic Brain Injury",
+        "relation":"upregulates",
+        "object":"Tau Protein",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":94,
+        "subject":"Tau Protein",
+        "relation":"correlates_with",
+        "object":"Chronic Symptoms",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":126,
+        "subject":"Tau Protein Pathology",
+        "relation":"causes",
+        "object":"Chronic Traumatic Encephalopathy",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":197,
+        "subject":"Traumatic Brain Injury",
+        "relation":"triggers",
+        "object":"Tau Protein Aggregation",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":197,
+        "subject":"Traumatic Brain Injury",
+        "relation":"downregulates",
+        "object":"Serum Tau Protein Levels",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":294,
+        "subject":"Football Exposure",
+        "relation":"no_direct_causal_link",
+        "object":"Tau Protein Pathology",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":294,
+        "subject":"Flortaucipir Binding",
+        "relation":"correlates_with",
+        "object":"Tau Protein Pathology",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":294,
+        "subject":"Flortaucipir W-maps",
+        "relation":"matches",
+        "object":"Tau Burden",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":294,
+        "subject":"Flortaucipir W-scores",
+        "relation":"correlates_with",
+        "object":"Tau Burden",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":294,
+        "subject":"Tau Protein Pathology",
+        "relation":"associated_with",
+        "object":"Chronic Traumatic Encephalopathy",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":294,
+        "subject":"Tau Protein Pathology",
+        "relation":"is_measured_by",
+        "object":"Flortaucipir PET Imaging",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":294,
+        "subject":"Chronic Traumatic Encephalopathy",
+        "relation":"is_characterized_by",
+        "object":"Tau Protein Pathology",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":294,
+        "subject":"Flortaucipir PET Imaging",
+        "relation":"treats",
+        "object":"Tau Biomarker",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":300,
+        "subject":"Blast Traumatic Brain Injury",
+        "relation":"triggers",
+        "object":"Tauopathy",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":300,
+        "subject":"Endoplasmic Reticulum Stress",
+        "relation":"mediates",
+        "object":"Tauopathy",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":306,
+        "subject":"Concussion",
+        "relation":"triggers",
+        "object":"Tau Protein Accumulation",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":313,
+        "subject":"Traumatic Brain Injury",
+        "relation":"correlates_with",
+        "object":"Total Tau Protein",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":313,
+        "subject":"Traumatic Brain Injury",
+        "relation":"correlates_with",
+        "object":"Phosphorylated Tau Protein (pTau231)",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":315,
+        "subject":"Exosomal Tau Protein",
+        "relation":"diagnoses",
+        "object":"Control Group",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":315,
+        "subject":"Exosomal Tau Protein",
+        "relation":"associated_with",
+        "object":"Memory Performance",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":315,
+        "subject":"Exosomal Tau Protein",
+        "relation":"associated_with",
+        "object":"Psychomotor Speed",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":420,
+        "subject":"Traumatic Brain Injury",
+        "relation":"upregulates",
+        "object":"Tau Protein",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":568,
+        "subject":"Traumatic Brain Injury",
+        "relation":"no_direct_causal_link",
+        "object":"Tau PET Imaging",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":595,
+        "subject":"Mild Cognitive Impairment",
+        "relation":"upregulates",
+        "object":"Tau Protein",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":595,
+        "subject":"Traumatic Brain Injury",
+        "relation":"triggers",
+        "object":"Tau Protein",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":595,
+        "subject":"Tau Protein",
+        "relation":"mediates",
+        "object":"Cognitive Decline",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":595,
+        "subject":"Tau Protein",
+        "relation":"binds_to",
+        "object":"Cerebellum",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":595,
+        "subject":"Tau Protein",
+        "relation":"upregulates",
+        "object":"Distribution Volume Ratio",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":595,
+        "subject":"Tau Protein",
+        "relation":"upregulates",
+        "object":"Standardized Uptake Value Ratio",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":595,
+        "subject":"Traumatic Brain Injury",
+        "relation":"increases",
+        "object":"Tau Protein Binding",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":595,
+        "subject":"Tau Protein",
+        "relation":"mediates",
+        "object":"Neurodegeneration",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":607,
+        "subject":"Total Tau Protein",
+        "relation":"correlates_with",
+        "object":"Return to Play",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":607,
+        "subject":"Sex",
+        "relation":"influences",
+        "object":"Total Tau Protein",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":607,
+        "subject":"Total Tau Protein",
+        "relation":"correlates_with",
+        "object":"Injury Response",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":607,
+        "subject":"Total Tau Protein",
+        "relation":"predicts",
+        "object":"Injury Severity",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":607,
+        "subject":"Total Tau Protein Trajectory",
+        "relation":"correlates_with",
+        "object":"Gender",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":607,
+        "subject":"Total Tau Protein Levels",
+        "relation":"influences",
+        "object":"Neurodegenerative Risk",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":607,
+        "subject":"Total Tau Protein",
+        "relation":"serves_as",
+        "object":"Biomarker",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":519,
+        "subject":"Plasma Tau Protein",
+        "relation":"associated_with",
+        "object":"Cortical Thickness Change",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":519,
+        "subject":"Plasma Tau Protein",
+        "relation":"correlates_with",
+        "object":"Cortical Thickness Change",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":110,
+        "subject":"Microglial Activation",
+        "relation":"mediates",
+        "object":"Phosphorylated Tau Pathology",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":110,
+        "subject":"Microglial Activation",
+        "relation":"upregulates",
+        "object":"Phosphorylated Tau Pathology",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":138,
+        "subject":"Microglial Activity",
+        "relation":"mediates",
+        "object":"Tau Proteostasis",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":329,
+        "subject":"M1 Microglia",
+        "relation":"causes",
+        "object":"Phosphorylated Tau Accumulation",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":234,
+        "subject":"Tau Protein",
+        "relation":"binds_to",
+        "object":"Amyloid Beta",
+        "entity_variants":"tau, Aβ42"
+    },
+    {
+        "source_abstract_id":173,
+        "subject":"Sleep Quality",
+        "relation":"predicts",
+        "object":"Tau Proteins",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":197,
+        "subject":"Repeated Sports-Related Concussions",
+        "relation":"causes",
+        "object":"Tau Protein Aggregation",
+        "entity_variants":"unknown|"
+    },
+    {
+        "source_abstract_id":197,
+        "subject":"Repeated Sports-Related Concussions",
+        "relation":"not_associated_with",
+        "object":"Serum Tau Protein Levels",
+        "entity_variants":"unknown|"
+    },
+    {
+        "source_abstract_id":134,
+        "subject":"Flortaucipir Binding",
+        "relation":"associated_with",
+        "object":"Tau Protein",
+        "entity_variants":null
+    }
+]

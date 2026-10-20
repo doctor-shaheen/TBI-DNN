@@ -1,0 +1,131 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 4,
+    "edge_count": 4
+  },
+  "nodes": [
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "Traumatic Brain Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111",
+        "MeSH": "D001930"
+      },
+      "synonyms": [
+        "TBI",
+        "Head Injury",
+        "Head Trauma",
+        "Concussion",
+        "Mild Traumatic Brain Injury",
+        "Moderate-Severe Traumatic Brain Injury",
+        "Chronic Traumatic Brain Injury"
+      ]
+    },
+    {
+      "id": "ParkinsonDisease",
+      "label": "Parkinson Disease",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0030567",
+        "MeSH": "D010300"
+      },
+      "synonyms": [
+        "Paralysis Agitans",
+        "Primary Parkinsonism",
+        "Idiopathic Parkinson Disease"
+      ]
+    },
+    {
+      "id": "ChronicTraumaticEncephalopathy",
+      "label": "Chronic Traumatic Encephalopathy",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0600155",
+        "MeSH": "D000086382"
+      },
+      "synonyms": [
+        "CTE",
+        "Dementia Pugilistica",
+        "Punch Drunk Syndrome"
+      ]
+    },
+    {
+      "id": "ParkinsonianDisorders",
+      "label": "Parkinsonian Disorders",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0030554",
+        "MeSH": "D010302"
+      },
+      "synonyms": [
+        "Parkinsonism",
+        "Parkinsonian Signs",
+        "Secondary Parkinsonism"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "ParkinsonDisease",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        80,
+        97,
+        129,
+        171,
+        207,
+        226,
+        273,
+        277,
+        287,
+        339,
+        346,
+        465,
+        466,
+        506,
+        609
+      ],
+      "confidence": "High",
+      "metadata": "Context: Includes Mild, Moderate-Severe, and Concussion variants. Conflicting evidence (no association) noted in refs 277 and 287. Supports both causal and risk-increasing relationships."
+    },
+    {
+      "source": "ParkinsonDisease",
+      "target": "TraumaticBrainInjury",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        218,
+        347
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Reverse causality likely due to increased risk of falls/injury in PD patients."
+    },
+    {
+      "source": "ChronicTraumaticEncephalopathy",
+      "target": "ParkinsonianDisorders",
+      "mechanism": "causes",
+      "evidence_ref": [
+        104
+      ],
+      "confidence": "High",
+      "metadata": "Specific link between CTE and Parkinsonism."
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "ParkinsonianDisorders",
+      "mechanism": "causes",
+      "evidence_ref": [
+        80
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Progression of Parkinsonian Signs."
+    }
+  ]
+}

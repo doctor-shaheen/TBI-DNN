@@ -1,0 +1,338 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 15,
+    "edge_count": 12
+  },
+  "nodes": [
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "Traumatic Brain Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111",
+        "MeSH_ID": "D001930"
+      },
+      "synonyms": [
+        "TBI",
+        "Brain Injury",
+        "Head Injury"
+      ]
+    },
+    {
+      "id": "BoneMarrowStemCells",
+      "label": "Bone Marrow Stem Cell",
+      "type": "Cell",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0019973",
+        "MeSH_ID": "D006412"
+      },
+      "synonyms": [
+        "Bone Marrow Stem/Progenitor Cell Pool",
+        "BMSCs"
+      ]
+    },
+    {
+      "id": "InnateImmuneResponse",
+      "label": "Innate Immune Response",
+      "type": "Process",
+      "location": "Systemic",
+      "identifiers": {
+        "GO": "GO:0045087",
+        "UMLS_CUI": "C0021356"
+      },
+      "synonyms": [
+        "Innate Immunity"
+      ]
+    },
+    {
+      "id": "ExtracellularVesicle",
+      "label": "Extracellular Vesicle",
+      "type": "Cell_Component",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "GO": "GO:1903561",
+        "UMLS_CUI": "C4042770"
+      },
+      "synonyms": [
+        "EVs",
+        "Exosomes",
+        "Microvesicles"
+      ]
+    },
+    {
+      "id": "IL1B",
+      "label": "IL1B",
+      "type": "Protein",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "HGNC_ID": "HGNC:5992",
+        "UMLS_CUI": "C0021753",
+        "UniProt_ID": "P01584"
+      },
+      "synonyms": [
+        "Interleukin-1 Beta",
+        "IL-1 beta"
+      ]
+    },
+    {
+      "id": "IL18",
+      "label": "IL18",
+      "type": "Protein",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "HGNC_ID": "HGNC:5986",
+        "UMLS_CUI": "C0064660",
+        "UniProt_ID": "Q14116"
+      },
+      "synonyms": [
+        "Interleukin-18"
+      ]
+    },
+    {
+      "id": "p38MAPKCascade",
+      "label": "p38MAPKCascade",
+      "type": "Process",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "GO": "GO:0038066",
+        "UMLS_CUI": "C1518546"
+      },
+      "synonyms": [
+        "p38 Mitogen-Activated Protein Kinase Signaling",
+        "p38 MAPK Signaling"
+      ]
+    },
+    {
+      "id": "Cognition",
+      "label": "Cognition",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "GO": "GO:0050890",
+        "UMLS_CUI": "C0009241"
+      },
+      "synonyms": [
+        "Cognitive Function",
+        "Cognitive Impairments"
+      ]
+    },
+    {
+      "id": "Affect",
+      "label": "Affect",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0001750",
+        "MeSH_ID": "D000339"
+      },
+      "synonyms": [
+        "Mood Function",
+        "Mood"
+      ]
+    },
+    {
+      "id": "MesenchymalStemCells",
+      "label": "Mesenchymal Stem Cell",
+      "type": "Cell",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0025514",
+        "MeSH_ID": "D044968"
+      },
+      "synonyms": [
+        "MSCs",
+        "Human Mesenchymal Stem Cells",
+        "Adipose Tissue-Derived Mesenchymal Stem Cells"
+      ]
+    },
+    {
+      "id": "BrainLesion",
+      "label": "Brain Lesion",
+      "type": "Pathology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006114"
+      },
+      "synonyms": [
+        "Brain Lesion Volume"
+      ]
+    },
+    {
+      "id": "Inflammation",
+      "label": "Inflammation",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0021368",
+        "GO": "GO:0006954"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "VisualPerception",
+      "label": "Visual Perception",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "GO": "GO:0007601",
+        "UMLS_CUI": "C0042789"
+      },
+      "synonyms": [
+        "Visual Function"
+      ]
+    },
+    {
+      "id": "SensorimotorCoordination",
+      "label": "Sensorimotor Coordination",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0036658"
+      },
+      "synonyms": [
+        "Sensorimotor Responses"
+      ]
+    },
+    {
+      "id": "Behavior",
+      "label": "Behavior",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0004924",
+        "GO": "GO:0007610"
+      },
+      "synonyms": [
+        "Behavioral Deficits"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "BoneMarrowStemCells",
+      "mechanism": "activates",
+      "evidence_ref": [
+        187,
+        363
+      ],
+      "confidence": "High",
+      "metadata": "Context: Mobilization/Induction"
+    },
+    {
+      "source": "BoneMarrowStemCells",
+      "target": "InnateImmuneResponse",
+      "mechanism": "activates",
+      "evidence_ref": [
+        187,
+        363
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Induction/Affects"
+    },
+    {
+      "source": "ExtracellularVesicle",
+      "target": "IL1B",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        253
+      ],
+      "confidence": "High",
+      "metadata": "Source: Human Mesenchymal Stem Cells"
+    },
+    {
+      "source": "ExtracellularVesicle",
+      "target": "IL18",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        253
+      ],
+      "confidence": "High",
+      "metadata": "Source: Human Mesenchymal Stem Cells"
+    },
+    {
+      "source": "ExtracellularVesicle",
+      "target": "p38MAPKCascade",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        253
+      ],
+      "confidence": "High",
+      "metadata": "Source: Human Mesenchymal Stem Cells"
+    },
+    {
+      "source": "ExtracellularVesicle",
+      "target": "Cognition",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        253
+      ],
+      "confidence": "High",
+      "metadata": "Context: Prevents impairment/improves function; Source: Human Mesenchymal Stem Cells"
+    },
+    {
+      "source": "ExtracellularVesicle",
+      "target": "Affect",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        253
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Improves mood; Source: Human Mesenchymal Stem Cells"
+    },
+    {
+      "source": "MesenchymalStemCells",
+      "target": "BrainLesion",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        268
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Decreases volume"
+    },
+    {
+      "source": "Inflammation",
+      "target": "MesenchymalStemCells",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        269
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Decreases efficacy"
+    },
+    {
+      "source": "MesenchymalStemCells",
+      "target": "VisualPerception",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        196
+      ],
+      "confidence": "Medium",
+      "metadata": "Source: Adipose Tissue-Derived"
+    },
+    {
+      "source": "MesenchymalStemCells",
+      "target": "SensorimotorCoordination",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        268
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Improves responses"
+    },
+    {
+      "source": "MesenchymalStemCells",
+      "target": "Behavior",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        269
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Improves deficits"
+    }
+  ]
+}

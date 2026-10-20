@@ -1,0 +1,114 @@
+[
+    {
+        "source_abstract_id":48,
+        "subject":"Traumatic Brain Injury",
+        "relation":"no_direct_causal_link",
+        "object":"Perivascular Spaces",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":54,
+        "subject":"Traumatic Brain Injury",
+        "relation":"modulates",
+        "object":"Enlarged Perivascular Spaces",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":54,
+        "subject":"Sleep",
+        "relation":"modulates",
+        "object":"Enlarged Perivascular Spaces",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":54,
+        "subject":"Sleep",
+        "relation":"associated_with",
+        "object":"Enlarged Perivascular Spaces",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":131,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Perivascular Spaces",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":131,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Perivascular Spaces",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":131,
+        "subject":"Career Stage",
+        "relation":"causes",
+        "object":"Perivascular Spaces",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":131,
+        "subject":"Career Stage",
+        "relation":"causes",
+        "object":"Perivascular Spaces",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":131,
+        "subject":"Perivascular Spaces",
+        "relation":"mediates",
+        "object":"Brain Waste Clearance",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":458,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Increased Perivascular Space Burden",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":458,
+        "subject":"Increased Perivascular Space Burden",
+        "relation":"associated_with",
+        "object":"Post-Concussion Symptoms",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":458,
+        "subject":"Increased Perivascular Space Burden",
+        "relation":"predicts",
+        "object":"Chronic Memory Problems",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":461,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Enlarged Perivascular Spaces Burden",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":461,
+        "subject":"Enlarged Perivascular Spaces Burden",
+        "relation":"correlates_with",
+        "object":"Post-Concussion Symptoms",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":461,
+        "subject":"Enlarged perivascular spaces burden",
+        "relation":"enhances_prediction_of",
+        "object":"Chronic memory problems",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":461,
+        "subject":"Enlarged perivascular spaces burden",
+        "relation":"associated_with",
+        "object":"Memory problems",
+        "entity_variants":null
+    }
+]

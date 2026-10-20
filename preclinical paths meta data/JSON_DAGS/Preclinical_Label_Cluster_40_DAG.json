@@ -1,0 +1,291 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 13,
+    "edge_count": 11
+  },
+  "nodes": [
+    {
+      "id": "CR2-Crry",
+      "label": "CR2-Crry",
+      "type": "Protein",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "Custom_ID": "CR2-Crry",
+        "Comment": "Recombinant fusion protein targeting C3 activation"
+      },
+      "synonyms": [
+        "CR2Crry",
+        "CR2-Crry fusion protein"
+      ]
+    },
+    {
+      "id": "ComplementActivation",
+      "label": "Complement Activation",
+      "type": "Process",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "GO_ID": "GO:0006956",
+        "UMLS_CUI": "C0009589"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "C3",
+      "label": "C3",
+      "type": "Protein",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "HGNC_ID": "HGNC:1318",
+        "UMLS_CUI": "C0009514",
+        "UniProt_ID": "P01024"
+      },
+      "synonyms": [
+        "Complement Component 3"
+      ]
+    },
+    {
+      "id": "ASC-CCM",
+      "label": "ASC-CCM",
+      "type": "Therapeutic",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "Custom_ID": "ASC-CCM",
+        "Comment": "Adipose-derived Stem Cell Conditioned Medium"
+      },
+      "synonyms": [
+        "Adipose-derived Stem Cell Conditioned Medium"
+      ]
+    },
+    {
+      "id": "RetinalFunction",
+      "label": "Retinal Function",
+      "type": "Process",
+      "location": "Neuron",
+      "identifiers": {
+        "UMLS_CUI": "C0035305",
+        "Comment": "Function captured by Electroretinogram (A-wave, B-wave)"
+      },
+      "synonyms": [
+        "B-wave Response",
+        "A-wave Response",
+        "Electroretinography Response"
+      ]
+    },
+    {
+      "id": "CCL2",
+      "label": "CCL2",
+      "type": "Protein",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "HGNC_ID": "HGNC:10618",
+        "UMLS_CUI": "C0034633",
+        "UniProt_ID": "P13500"
+      },
+      "synonyms": [
+        "MCP1",
+        "Chemokine (C-C motif) ligand 2"
+      ]
+    },
+    {
+      "id": "MotorDysfunction",
+      "label": "Motor Dysfunction",
+      "type": "Disease",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0026604"
+      },
+      "synonyms": [
+        "Neuromotor Impairment"
+      ]
+    },
+    {
+      "id": "NeurodegenerativeDisease",
+      "label": "Neurodegenerative Disease",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0524851"
+      },
+      "synonyms": [
+        "Neurodegenerative Processes",
+        "Neurodegenerative Disorders"
+      ]
+    },
+    {
+      "id": "CCR2",
+      "label": "CCR2",
+      "type": "Protein",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "HGNC_ID": "HGNC:1603",
+        "UMLS_CUI": "C1413344",
+        "UniProt_ID": "P41597"
+      },
+      "synonyms": [
+        "C-C chemokine receptor type 2"
+      ]
+    },
+    {
+      "id": "BlastInjury",
+      "label": "Blast Injury",
+      "type": "Disease",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0005697"
+      },
+      "synonyms": [
+        "Blast Exposure"
+      ]
+    },
+    {
+      "id": "IL1B",
+      "label": "IL1B",
+      "type": "Protein",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "HGNC_ID": "HGNC:5992",
+        "UMLS_CUI": "C0021753",
+        "UniProt_ID": "P01584"
+      },
+      "synonyms": [
+        "Interleukin-1 beta"
+      ]
+    },
+    {
+      "id": "CognitiveImpairment",
+      "label": "Cognitive Impairment",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0338656"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Astrogliosis",
+      "label": "Astrogliosis",
+      "type": "Process",
+      "location": "Astrocyte",
+      "identifiers": {
+        "UMLS_CUI": "C0017639"
+      },
+      "synonyms": [
+        "Astrocyte Activation"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "CR2-Crry",
+      "target": "ComplementActivation",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        56
+      ],
+      "confidence": "High",
+      "metadata": "Reduces complement activation"
+    },
+    {
+      "source": "CR2-Crry",
+      "target": "C3",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        56
+      ],
+      "confidence": "High",
+      "metadata": "Context: Reduces Complement Component 3 Deposition"
+    },
+    {
+      "source": "ASC-CCM",
+      "target": "RetinalFunction",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        196
+      ],
+      "confidence": "High",
+      "metadata": "Improves A-wave and B-wave responses"
+    },
+    {
+      "source": "CCL2",
+      "target": "MotorDysfunction",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        305
+      ],
+      "confidence": "Medium",
+      "metadata": "Associated with Neuromotor Impairment"
+    },
+    {
+      "source": "CCL2",
+      "target": "NeurodegenerativeDisease",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        305
+      ],
+      "confidence": "High",
+      "metadata": "Upregulates and mediates neurodegenerative processes"
+    },
+    {
+      "source": "CCL2",
+      "target": "CCR2",
+      "mechanism": "binds",
+      "evidence_ref": [
+        305
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "BlastInjury",
+      "target": "CCL2",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        305
+      ],
+      "confidence": "High",
+      "metadata": "Context: Blast exposure causes increased levels"
+    },
+    {
+      "source": "BlastInjury",
+      "target": "CCR2",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        305
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "IL1B",
+      "target": "CognitiveImpairment",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        148
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "CR2-Crry",
+      "target": "CognitiveImpairment",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        56
+      ],
+      "confidence": "Medium",
+      "metadata": "Treats Spatial Learning deficits"
+    },
+    {
+      "source": "CR2-Crry",
+      "target": "Astrogliosis",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        56
+      ],
+      "confidence": "High",
+      "metadata": "Decreases Astrocyte Activation"
+    }
+  ]
+}

@@ -1,0 +1,428 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 16,
+    "edge_count": 19
+  },
+  "nodes": [
+    {
+      "id": "Cognition",
+      "label": "Cognition",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0009240",
+        "GO_ID": "GO:0050890"
+      },
+      "synonyms": [
+        "Cognitive Function",
+        "Cognitive Performance",
+        "Cognitive Recovery",
+        "Cognitive Improvement",
+        "Cognitive Outcomes",
+        "Global Cognition",
+        "Intelligence Quotient"
+      ]
+    },
+    {
+      "id": "Memory",
+      "label": "Memory",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0025260",
+        "GO_ID": "GO:0007613"
+      },
+      "synonyms": [
+        "Memory Performance",
+        "Long-Term Memory"
+      ]
+    },
+    {
+      "id": "Attention",
+      "label": "Attention",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0004268",
+        "GO_ID": "GO:0007613"
+      },
+      "synonyms": [
+        "Sustained Attention",
+        "Mindful Attention",
+        "Secondary Attentional Scores",
+        "Vigilance"
+      ]
+    },
+    {
+      "id": "CognitiveRehabilitation",
+      "label": "Cognitive Rehabilitation",
+      "type": "Procedure",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0553712"
+      },
+      "synonyms": [
+        "Cognitive Training",
+        "Computerized Cognitive Training",
+        "Active Rehabilitation",
+        "Cognitive Therapy",
+        "Commercial Cognitive Training",
+        "Noncommercial Cognitive Training",
+        "Conventional Cognitive Training"
+      ]
+    },
+    {
+      "id": "Cranioplasty",
+      "label": "Cranioplasty",
+      "type": "Procedure",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0010280"
+      },
+      "synonyms": [
+        "Surgical Intervention"
+      ]
+    },
+    {
+      "id": "Cerebrolysin",
+      "label": "Cerebrolysin",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0007797",
+        "CAS": "12656-61-0"
+      },
+      "synonyms": [
+        "FPF 1070"
+      ]
+    },
+    {
+      "id": "TranscranialMagneticStimulation",
+      "label": "Transcranial Magnetic Stimulation",
+      "type": "Procedure",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0040656"
+      },
+      "synonyms": [
+        "TMS"
+      ]
+    },
+    {
+      "id": "TranscranialDirectCurrentStimulation",
+      "label": "Transcranial Direct Current Stimulation",
+      "type": "Procedure",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C2936636"
+      },
+      "synonyms": [
+        "tDCS",
+        "Neuromodulation"
+      ]
+    },
+    {
+      "id": "CranialElectrotherapyStimulation",
+      "label": "Cranial Electrotherapy Stimulation",
+      "type": "Procedure",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0162598"
+      },
+      "synonyms": [
+        "Cranial Electrical Stimulation",
+        "CES"
+      ]
+    },
+    {
+      "id": "PhysicalActivity",
+      "label": "Physical Activity",
+      "type": "Process",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0026606"
+      },
+      "synonyms": [
+        "Exercise"
+      ]
+    },
+    {
+      "id": "SocialSupport",
+      "label": "Social Support",
+      "type": "Process",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0037398"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Ethanol",
+      "label": "Ethanol",
+      "type": "Chemical",
+      "location": "Blood",
+      "identifiers": {
+        "UMLS_CUI": "C0001962",
+        "ChEBI_ID": "CHEBI:16236"
+      },
+      "synonyms": [
+        "Blood Alcohol Concentration",
+        "Alcohol"
+      ]
+    },
+    {
+      "id": "CorpusCallosum",
+      "label": "Corpus Callosum",
+      "type": "Anatomy",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0010094"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Mood",
+      "label": "Mood",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0026523"
+      },
+      "synonyms": [
+        "Affect",
+        "Emotional Control",
+        "Behavior"
+      ]
+    },
+    {
+      "id": "InstrumentalActivitiesOfDailyLiving",
+      "label": "Instrumental Activities of Daily Living",
+      "type": "Process",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0021677"
+      },
+      "synonyms": [
+        "IADL",
+        "Functional Measures"
+      ]
+    },
+    {
+      "id": "CerebrovascularCirculation",
+      "label": "Cerebrovascular Circulation",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0007784"
+      },
+      "synonyms": [
+        "Cerebral Blood Flow"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "CognitiveRehabilitation",
+      "target": "Cognition",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        68,
+        242,
+        527,
+        563,
+        630
+      ],
+      "confidence": "High",
+      "metadata": "Includes Cognitive Training, Rehab, and Computerized variants"
+    },
+    {
+      "source": "CognitiveRehabilitation",
+      "target": "Memory",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        527,
+        549
+      ],
+      "confidence": "High",
+      "metadata": "Context: Long-term memory"
+    },
+    {
+      "source": "CognitiveRehabilitation",
+      "target": "Attention",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        242,
+        369
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Sustained and Mindful Attention"
+    },
+    {
+      "source": "CognitiveRehabilitation",
+      "target": "Mood",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        369,
+        527,
+        594
+      ],
+      "confidence": "Medium",
+      "metadata": "Includes coping strategies and emotional control"
+    },
+    {
+      "source": "CognitiveRehabilitation",
+      "target": "InstrumentalActivitiesOfDailyLiving",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        527,
+        68
+      ],
+      "confidence": "Medium",
+      "metadata": "Improves functional measures"
+    },
+    {
+      "source": "Cranioplasty",
+      "target": "Cognition",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        522
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Post-surgical recovery of function"
+    },
+    {
+      "source": "Cerebrolysin",
+      "target": "Cognition",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        390
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "PhysicalActivity",
+      "target": "Cognition",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        344,
+        617
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "TranscranialMagneticStimulation",
+      "target": "Cognition",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        365
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "TranscranialDirectCurrentStimulation",
+      "target": "Cognition",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        630
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "CranialElectrotherapyStimulation",
+      "target": "Cognition",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        630
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "Ethanol",
+      "target": "Cognition",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        430
+      ],
+      "confidence": "Low",
+      "metadata": "Context: Blood Alcohol Concentration negatively associated with improvement"
+    },
+    {
+      "source": "CorpusCallosum",
+      "target": "Attention",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        588
+      ],
+      "confidence": "Low",
+      "metadata": "Context: Structure volume/integrity increases attentional scores"
+    },
+    {
+      "source": "SocialSupport",
+      "target": "Cognition",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        232
+      ],
+      "confidence": "Low",
+      "metadata": "Predictive relationship"
+    },
+    {
+      "source": "CerebrovascularCirculation",
+      "target": "Cognition",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        370
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Cerebral blood flow influences recovery"
+    },
+    {
+      "source": "CognitiveRehabilitation",
+      "target": "CognitiveRehabilitation",
+      "mechanism": "compared_to",
+      "evidence_ref": [
+        242,
+        454
+      ],
+      "confidence": "Low",
+      "metadata": "Comparison between commercial/noncommercial or active control"
+    },
+    {
+      "source": "TranscranialDirectCurrentStimulation",
+      "target": "CognitiveRehabilitation",
+      "mechanism": "is_applied_with",
+      "evidence_ref": [
+        630
+      ],
+      "confidence": "Medium",
+      "metadata": "Combined therapy context"
+    },
+    {
+      "source": "Attention",
+      "target": "Cognition",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        78
+      ],
+      "confidence": "High",
+      "metadata": "Cognitive outcomes associated with attention"
+    },
+    {
+      "source": "Memory",
+      "target": "Cognition",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        212
+      ],
+      "confidence": "Medium",
+      "metadata": "Memory performance trends toward recovery"
+    }
+  ]
+}

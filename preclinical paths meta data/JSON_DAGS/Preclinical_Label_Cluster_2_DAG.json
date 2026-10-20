@@ -1,0 +1,499 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 20,
+    "edge_count": 22
+  },
+  "nodes": [
+    {
+      "id": "Donepezil",
+      "label": "Donepezil",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0529736",
+        "ChEBI_ID": "CHEBI:4815"
+      },
+      "synonyms": [
+        "Aricept",
+        "E-2020"
+      ]
+    },
+    {
+      "id": "Neuroinflammation",
+      "label": "Neuroinflammation",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0494470",
+        "GO_ID": "GO:0002544"
+      },
+      "synonyms": [
+        "Neuronal inflammation"
+      ]
+    },
+    {
+      "id": "CellSurvival",
+      "label": "Cell Survival",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0007609",
+        "GO_ID": "GO:0008219"
+      },
+      "synonyms": [
+        "Cell Viability"
+      ]
+    },
+    {
+      "id": "ReactiveOxygenSpecies",
+      "label": "Reactive Oxygen Species",
+      "type": "Chemical",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "UMLS_CUI": "C0034791",
+        "ChEBI_ID": "CHEBI:26523"
+      },
+      "synonyms": [
+        "ROS"
+      ]
+    },
+    {
+      "id": "LDHA",
+      "label": "LDHA",
+      "type": "Protein",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "UMLS_CUI": "C1416952",
+        "HGNC_ID": "HGNC:6535",
+        "UniProt_ID": "P00338"
+      },
+      "synonyms": [
+        "Lactate Dehydrogenase A",
+        "LDH muscle subunit",
+        "Lactate Dehydrogenase"
+      ]
+    },
+    {
+      "id": "Apoptosis",
+      "label": "Apoptosis",
+      "type": "Process",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "UMLS_CUI": "C0162638",
+        "GO_ID": "GO:0006915"
+      },
+      "synonyms": [
+        "Programmed Cell Death",
+        "TUNEL Positive Cells"
+      ]
+    },
+    {
+      "id": "PTGS2",
+      "label": "PTGS2",
+      "type": "Protein",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "UMLS_CUI": "C0085223",
+        "HGNC_ID": "HGNC:9605",
+        "UniProt_ID": "P35354"
+      },
+      "synonyms": [
+        "Cyclooxygenase-2",
+        "COX-2"
+      ]
+    },
+    {
+      "id": "BNIP3L",
+      "label": "BNIP3L",
+      "type": "Protein",
+      "location": "Mitochondria",
+      "identifiers": {
+        "UMLS_CUI": "C1332386",
+        "HGNC_ID": "HGNC:1085",
+        "UniProt_ID": "O60238"
+      },
+      "synonyms": [
+        "NIX",
+        "BCL2/adenovirus E1B 19 kDa protein-interacting protein 3-like"
+      ]
+    },
+    {
+      "id": "Cognition",
+      "label": "Cognition",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0009241",
+        "GO_ID": "GO:0050890"
+      },
+      "synonyms": [
+        "Cognitive Performance",
+        "Cognitive Function"
+      ]
+    },
+    {
+      "id": "BrainEdema",
+      "label": "Brain Edema",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006114"
+      },
+      "synonyms": [
+        "Cerebral Edema"
+      ]
+    },
+    {
+      "id": "CerebralAtrophy",
+      "label": "Cerebral Atrophy",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0154676"
+      },
+      "synonyms": [
+        "Cortical Tissue Loss",
+        "Brain Atrophy"
+      ]
+    },
+    {
+      "id": "BlastInjuries",
+      "label": "Blast Injuries",
+      "type": "Disease",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0005704"
+      },
+      "synonyms": [
+        "Blast Injury"
+      ]
+    },
+    {
+      "id": "AQP4",
+      "label": "AQP4",
+      "type": "Protein",
+      "location": "Astrocyte",
+      "identifiers": {
+        "UMLS_CUI": "C1412586",
+        "HGNC_ID": "HGNC:637",
+        "UniProt_ID": "P55087"
+      },
+      "synonyms": [
+        "Aquaporin-4"
+      ]
+    },
+    {
+      "id": "GlymphaticSystem",
+      "label": "Glymphatic System",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C3812836"
+      },
+      "synonyms": [
+        "Glymphatic Clearance Pathway"
+      ]
+    },
+    {
+      "id": "CerebralCortex",
+      "label": "Cerebral Cortex",
+      "type": "Location",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0007776"
+      },
+      "synonyms": [
+        "Cortex"
+      ]
+    },
+    {
+      "id": "APP",
+      "label": "APP",
+      "type": "Protein",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "UMLS_CUI": "C0054941",
+        "HGNC_ID": "HGNC:620",
+        "UniProt_ID": "P05067"
+      },
+      "synonyms": [
+        "Amyloid Beta",
+        "Amyloid Precursor Protein",
+        "Abeta Aggregation"
+      ]
+    },
+    {
+      "id": "CapillaryDensity",
+      "label": "Capillary Density",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C3641208"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "NeurologicDeficits",
+      "label": "Neurologic Deficits",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0521654"
+      },
+      "synonyms": [
+        "Neurological Deficit"
+      ]
+    },
+    {
+      "id": "BloodBrainBarrier",
+      "label": "Blood Brain Barrier",
+      "type": "Location",
+      "location": "Blood",
+      "identifiers": {
+        "UMLS_CUI": "C0005763"
+      },
+      "synonyms": [
+        "BBB"
+      ]
+    },
+    {
+      "id": "AdiposeDerivedStemCells",
+      "label": "Adipose Derived Stem Cells",
+      "type": "Cell",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C1510862"
+      },
+      "synonyms": [
+        "ADSC",
+        "Adipose-derived Stem Cell Conditioned Medium"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "Donepezil",
+      "target": "Neuroinflammation",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        356
+      ],
+      "confidence": "High",
+      "metadata": "Input 'causes' corrected to 'inhibits' based on context of downregulating COX-2 and ROS"
+    },
+    {
+      "source": "Donepezil",
+      "target": "CellSurvival",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        356
+      ],
+      "confidence": "High",
+      "metadata": "Context: Increases Cell Viability"
+    },
+    {
+      "source": "Donepezil",
+      "target": "ReactiveOxygenSpecies",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        356
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "Donepezil",
+      "target": "LDHA",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        356
+      ],
+      "confidence": "Medium",
+      "metadata": "Input: Lactate Dehydrogenase"
+    },
+    {
+      "source": "Donepezil",
+      "target": "Apoptosis",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        356
+      ],
+      "confidence": "High",
+      "metadata": "Input: Downregulates TUNEL Positive Cells"
+    },
+    {
+      "source": "Donepezil",
+      "target": "PTGS2",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        356
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "Donepezil",
+      "target": "BNIP3L",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        356
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "Donepezil",
+      "target": "Cognition",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        356
+      ],
+      "confidence": "High",
+      "metadata": "Context: Improves Cognitive Performance"
+    },
+    {
+      "source": "Donepezil",
+      "target": "BrainEdema",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        356
+      ],
+      "confidence": "High",
+      "metadata": "Context: Decreases Brain Edema"
+    },
+    {
+      "source": "Donepezil",
+      "target": "CerebralAtrophy",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        356
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Decreases Cortical Tissue Loss"
+    },
+    {
+      "source": "BlastInjuries",
+      "target": "AQP4",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        4
+      ],
+      "confidence": "Medium",
+      "metadata": "Input 'causes' refined to 'modulates' expression/polarization"
+    },
+    {
+      "source": "AQP4",
+      "target": "GlymphaticSystem",
+      "mechanism": "regulates",
+      "evidence_ref": [
+        4,
+        152
+      ],
+      "confidence": "High",
+      "metadata": "Merged 'affects' and 'physically_interacts_with'"
+    },
+    {
+      "source": "AQP4",
+      "target": "Neuroinflammation",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        4,
+        152
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "AQP4",
+      "target": "CerebralCortex",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        4
+      ],
+      "confidence": "Low",
+      "metadata": "Context: Affects function"
+    },
+    {
+      "source": "APP",
+      "target": "AQP4",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        70
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Amyloid Beta Aggregation decreases AQP4 Expression"
+    },
+    {
+      "source": "AQP4",
+      "target": "CapillaryDensity",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        70
+      ],
+      "confidence": "Low",
+      "metadata": "Context: Affects"
+    },
+    {
+      "source": "AQP4",
+      "target": "BrainEdema",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        152
+      ],
+      "confidence": "High",
+      "metadata": "Context: Facilitates edema formation (cytotoxic); Input 'causes' retained as 'contributes_to'"
+    },
+    {
+      "source": "AQP4",
+      "target": "NeurologicDeficits",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        152
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Causes Deficit"
+    },
+    {
+      "source": "AQP4",
+      "target": "BloodBrainBarrier",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        152
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Input 'protects' mapped to 'modulates' (maintenance of integrity)"
+    },
+    {
+      "source": "AQP4",
+      "target": "APP",
+      "mechanism": "transports",
+      "evidence_ref": [
+        152
+      ],
+      "confidence": "High",
+      "metadata": "Context: Facilitates Amyloid Beta Clearance (mapped to transport/clearance)"
+    },
+    {
+      "source": "AQP4",
+      "target": "Cognition",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        152
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "AdiposeDerivedStemCells",
+      "target": "AQP4",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        196
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Conditioned Medium restores AQP4"
+    }
+  ]
+}

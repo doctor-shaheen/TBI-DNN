@@ -1,0 +1,408 @@
+[
+    {
+        "source_abstract_id":33,
+        "subject":"Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Mitochondrial Complex I Activity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":41,
+        "subject":"Traumatic Brain Injury",
+        "relation":"alters",
+        "object":"Metabolism",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":41,
+        "subject":"Traumatic Brain Injury",
+        "relation":"alters",
+        "object":"Glycolysis",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":296,
+        "subject":"Insulin-Like Growth Factor 1",
+        "relation":"causes",
+        "object":"Mitophagy",
+        "entity_variants":"exosomal miR-let-7e"
+    },
+    {
+        "source_abstract_id":299,
+        "subject":"Matrix Metalloproteinase-9",
+        "relation":"mediates",
+        "object":"Blood-Brain Barrier Disruption",
+        "entity_variants":"MMP-9 knockout"
+    },
+    {
+        "source_abstract_id":318,
+        "subject":"Traumatic Brain Injury",
+        "relation":"triggers",
+        "object":"Glucose Uptake",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":320,
+        "subject":"Mitophagy",
+        "relation":"reduces",
+        "object":"Long-Term Complications",
+        "entity_variants":"rlmTBI"
+    },
+    {
+        "source_abstract_id":325,
+        "subject":"Traumatic Brain Injury",
+        "relation":"decreases",
+        "object":"Cholesterol Metabolism",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":403,
+        "subject":"Astrocytic Mitochondrial Dynamics",
+        "relation":"affects",
+        "object":"Synaptic Transmission",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":222,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Dynamin-Related Protein 1",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":375,
+        "subject":"Traumatic Brain Injury",
+        "relation":"upregulates",
+        "object":"Dynamin-Related Protein 1",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":18,
+        "subject":"Mitochondrial Integrity",
+        "relation":"associated_with",
+        "object":"Risk of Neurodegenerative Diseases",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":21,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Mitochondrial Dysfunction",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":21,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Metabolic Dysfunction",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":33,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Mitochondrial Dysfunction",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":33,
+        "subject":"Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Mitochondrial Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":41,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Mitochondrial Dysfunction",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":155,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Metabolic Derangements",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":210,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Mitochondrial Dysfunction",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":210,
+        "subject":"Mitochondrial Dysfunction",
+        "relation":"causes",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":222,
+        "subject":"Dynamin-1-like Protein",
+        "relation":"mediates",
+        "object":"Mitochondrial Dysfunction",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":222,
+        "subject":"Mdivi-1",
+        "relation":"reduces",
+        "object":"Mitochondrial Membrane Potential",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":222,
+        "subject":"Mdivi-1",
+        "relation":"reduces",
+        "object":"Cortical Lesion Volume",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":222,
+        "subject":"Mdivi-1",
+        "relation":"reduces",
+        "object":"Blood-Brain Barrier Permeability",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":222,
+        "subject":"Mdivi-1",
+        "relation":"reduces",
+        "object":"Brain Edema",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":222,
+        "subject":"Mdivi-1",
+        "relation":"reduces",
+        "object":"Oxidative Stress",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":222,
+        "subject":"Mdivi-1",
+        "relation":"improves",
+        "object":"Behavioral Performance",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":222,
+        "subject":"Mdivi-1",
+        "relation":"reduces",
+        "object":"Anxiety-like Behavior",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":225,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Mitochondrial Dysfunction",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":248,
+        "subject":"Traumatic Brain Injury",
+        "relation":"increases",
+        "object":"Mitochondrial Oxidative Metabolism",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":292,
+        "subject":"Miro1",
+        "relation":"causes",
+        "object":"Neuronal Apoptosis",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":292,
+        "subject":"Miro1",
+        "relation":"upregulates",
+        "object":"BAX Protein",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":292,
+        "subject":"Miro1",
+        "relation":"downregulates",
+        "object":"BCL2 Protein",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":292,
+        "subject":"Miro1",
+        "relation":"mediates",
+        "object":"Mitochondrial Transport",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":292,
+        "subject":"Miro1",
+        "relation":"causes",
+        "object":"Brain Edema",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":292,
+        "subject":"Miro1",
+        "relation":"causes",
+        "object":"Neurological Deficits",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":292,
+        "subject":"Mitochondrial Transport",
+        "relation":"affects",
+        "object":"Neuronal Apoptosis",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":292,
+        "subject":"Mitochondrial Transport",
+        "relation":"affects",
+        "object":"Brain Edema",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":292,
+        "subject":"Mitochondrial Transport",
+        "relation":"affects",
+        "object":"Neurological Deficits",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":292,
+        "subject":"Miro1",
+        "relation":"affects",
+        "object":"Energy Deficiency",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":299,
+        "subject":"Matrix Metalloproteinase-9",
+        "relation":"causes",
+        "object":"Mitophagy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":299,
+        "subject":"Matrix Metalloproteinase-9",
+        "relation":"binds_to",
+        "object":"Damaged Mitochondria",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":299,
+        "subject":"Matrix Metalloproteinase-9 Inhibition",
+        "relation":"eliminates",
+        "object":"Damaged Mitochondria",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":313,
+        "subject":"Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Mitochondrial Electron Transport Chain",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":375,
+        "subject":"Mdivi-1",
+        "relation":"inhibits",
+        "object":"Dynamin-1-like Protein",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":375,
+        "subject":"Mdivi-1",
+        "relation":"reduces",
+        "object":"Brain Edema",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":375,
+        "subject":"Mdivi-1",
+        "relation":"improves",
+        "object":"Functional Outcome",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":375,
+        "subject":"Mdivi-1",
+        "relation":"reduces",
+        "object":"Lesion Volume",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":375,
+        "subject":"Mdivi-1",
+        "relation":"inhibits",
+        "object":"Cytochrome c",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":375,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Mitochondrial Dysfunction",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":375,
+        "subject":"Mdivi-1",
+        "relation":"maintains",
+        "object":"Normal Mitochondrial Morphology",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":379,
+        "subject":"Mitochondrial Function",
+        "relation":"improves",
+        "object":"Memory Impairment",
+        "entity_variants":"Mitochondrial Function"
+    },
+    {
+        "source_abstract_id":403,
+        "subject":"Military Blast Injury",
+        "relation":"causes",
+        "object":"Mitochondrial Dysfunction",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":403,
+        "subject":"Mitochondrial Dysfunction",
+        "relation":"causes",
+        "object":"Reactive Oxygen Species",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":403,
+        "subject":"Mitochondrial Dysfunction",
+        "relation":"causes",
+        "object":"Cytochrome c Release",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":403,
+        "subject":"Phosphorylated Dynamin-1-like Protein at Ser616",
+        "relation":"upregulates",
+        "object":"Mitochondrial Fission",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":403,
+        "subject":"Mitochondrial Fission",
+        "relation":"causes",
+        "object":"Mitochondrial Fragmentation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":403,
+        "subject":"Mitochondrial Fragmentation",
+        "relation":"contributes_to",
+        "object":"Neuroprotection",
+        "entity_variants":null
+    }
+]

@@ -1,0 +1,163 @@
+[
+    {
+        "source_abstract_id":68,
+        "subject":"Cognitive Training",
+        "relation":"treats",
+        "object":"Depressive Symptoms",
+        "entity_variants":"improvement"
+    },
+    {
+        "source_abstract_id":36,
+        "subject":"Poor Cognitive Outcome",
+        "relation":"associated_with",
+        "object":"Preexisting Depressive Disorder",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":66,
+        "subject":"Depressive Disorder",
+        "relation":"causes",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":66,
+        "subject":"Depressive Disorder",
+        "relation":"causes",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":215,
+        "subject":"Age",
+        "relation":"upregulates",
+        "object":"Depressive Disorder",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":283,
+        "subject":"Adverse Childhood Experiences",
+        "relation":"causes",
+        "object":"Depressive Disorder",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":286,
+        "subject":"Depressive Disorder",
+        "relation":"upregulates",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":286,
+        "subject":"Depressive Disorder",
+        "relation":"upregulates",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":311,
+        "subject":"Depressive Disorder",
+        "relation":"causes",
+        "object":"Vascular Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":311,
+        "subject":"Depressive Disorder",
+        "relation":"causes",
+        "object":"Vascular Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":311,
+        "subject":"Depressive Disorder",
+        "relation":"causes",
+        "object":"Vascular Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":322,
+        "subject":"Depressive Disorder",
+        "relation":"associated_with",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":331,
+        "subject":"Depressive Disorder",
+        "relation":"associated_with",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":335,
+        "subject":"Depressive Disorder",
+        "relation":"upregulates",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":375,
+        "subject":"Depressive Disorder",
+        "relation":"upregulates",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":383,
+        "subject":"Mild Cognitive Impairment",
+        "relation":"associated_with",
+        "object":"Depressive Disorder",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":397,
+        "subject":"Physical Inactivity",
+        "relation":"mediates",
+        "object":"Major Depressive Disorder",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":397,
+        "subject":"Major Depressive Disorder",
+        "relation":"mediates",
+        "object":"Cognitive Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":437,
+        "subject":"Depressive Disorder",
+        "relation":"predicts",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":496,
+        "subject":"Depressive Disorder",
+        "relation":"increases_risk_of",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":537,
+        "subject":"Depressive Symptoms",
+        "relation":"predicts",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":562,
+        "subject":"Depressive Disorder",
+        "relation":"correlates_with",
+        "object":"Cognitive Impairment",
+        "entity_variants":"depression severity"
+    },
+    {
+        "source_abstract_id":591,
+        "subject":"Depressive Disorder",
+        "relation":"influences",
+        "object":"Conversion to Dementia",
+        "entity_variants":null
+    }
+]

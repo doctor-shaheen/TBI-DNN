@@ -1,0 +1,128 @@
+[
+    {
+        "source_abstract_id":425,
+        "subject":"Traumatic Brain Injury",
+        "relation":"upregulates",
+        "object":"Mitochondrial Cannabinoid Receptor 1",
+        "entity_variants":"none|"
+    },
+    {
+        "source_abstract_id":425,
+        "subject":"Mitochondrial Cannabinoid Receptor 1",
+        "relation":"causes",
+        "object":"Metabolic Defects",
+        "entity_variants":"none|"
+    },
+    {
+        "source_abstract_id":425,
+        "subject":"Mitochondrial Cannabinoid Receptor 1",
+        "relation":"inhibits",
+        "object":"cAMP\/PKA\/Complex I",
+        "entity_variants":"none|"
+    },
+    {
+        "source_abstract_id":425,
+        "subject":"Mitochondrial Cannabinoid Receptor 1",
+        "relation":"exacerbates",
+        "object":"Neuronal Apoptosis",
+        "entity_variants":"none|"
+    },
+    {
+        "source_abstract_id":425,
+        "subject":"Mitochondrial Cannabinoid Receptor 1",
+        "relation":"upregulates",
+        "object":"AKT",
+        "entity_variants":"none|"
+    },
+    {
+        "source_abstract_id":425,
+        "subject":"Mitochondrial Cannabinoid Receptor 1",
+        "relation":"has_complex_role_in",
+        "object":"Metabolic Defects and Neuronal Apoptosis",
+        "entity_variants":"none|"
+    },
+    {
+        "source_abstract_id":529,
+        "subject":"EH-201",
+        "relation":"induces",
+        "object":"Erythropoietin",
+        "entity_variants":"EH-201|"
+    },
+    {
+        "source_abstract_id":529,
+        "subject":"EH-201",
+        "relation":"induces",
+        "object":"PPAR-gamma Coactivator 1-alpha",
+        "entity_variants":"EH-201|"
+    },
+    {
+        "source_abstract_id":529,
+        "subject":"EH-201",
+        "relation":"induces",
+        "object":"Hemoglobin",
+        "entity_variants":"EH-201|"
+    },
+    {
+        "source_abstract_id":529,
+        "subject":"EH-201",
+        "relation":"affects",
+        "object":"Mitochondrial Function",
+        "entity_variants":"EH-201|"
+    },
+    {
+        "source_abstract_id":581,
+        "subject":"Cannabinol",
+        "relation":"modulates",
+        "object":"Mitochondrial Function",
+        "entity_variants":"CBN"
+    },
+    {
+        "source_abstract_id":581,
+        "subject":"Cannabinol",
+        "relation":"prevents",
+        "object":"Oxytosis",
+        "entity_variants":"CBN"
+    },
+    {
+        "source_abstract_id":581,
+        "subject":"Cannabinol",
+        "relation":"prevents",
+        "object":"Ferroptosis",
+        "entity_variants":"CBN"
+    },
+    {
+        "source_abstract_id":581,
+        "subject":"Cannabinol",
+        "relation":"treats",
+        "object":"Neuroprotection",
+        "entity_variants":"CBN"
+    },
+    {
+        "source_abstract_id":581,
+        "subject":"CP1 Compound",
+        "relation":"demonstrates",
+        "object":"Improved Efficacy",
+        "entity_variants":"CP1"
+    },
+    {
+        "source_abstract_id":581,
+        "subject":"Cannabinol Analogs",
+        "relation":"develops",
+        "object":"New Therapeutics",
+        "entity_variants":"CP1-CP4"
+    },
+    {
+        "source_abstract_id":581,
+        "subject":"Cannabinol Analogs",
+        "relation":"preserves",
+        "object":"Potency",
+        "entity_variants":"CP1-CP4"
+    },
+    {
+        "source_abstract_id":581,
+        "subject":"Cannabinol",
+        "relation":"targets",
+        "object":"Neuronal Cells",
+        "entity_variants":"CBN"
+    }
+]

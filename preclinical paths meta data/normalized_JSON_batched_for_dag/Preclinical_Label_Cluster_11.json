@@ -1,0 +1,240 @@
+[
+    {
+        "source_abstract_id":77,
+        "subject":"VCE-005.1",
+        "relation":"causes",
+        "object":"Hypoxia-Inducible Factor 1-alpha",
+        "entity_variants":"not applicable|"
+    },
+    {
+        "source_abstract_id":77,
+        "subject":"VCE-005.1",
+        "relation":"upregulates",
+        "object":"Hypoxia-Inducible Factor-dependent Genes",
+        "entity_variants":"not applicable|"
+    },
+    {
+        "source_abstract_id":77,
+        "subject":"VCE-005.1",
+        "relation":"treats",
+        "object":"Vascular Endothelial Cells",
+        "entity_variants":"not applicable|"
+    },
+    {
+        "source_abstract_id":77,
+        "subject":"VCE-005.1",
+        "relation":"causes",
+        "object":"Angiogenesis",
+        "entity_variants":"not applicable|"
+    },
+    {
+        "source_abstract_id":77,
+        "subject":"VCE-005.1",
+        "relation":"prevents",
+        "object":"Peripheral Immune Cell Infiltration",
+        "entity_variants":"not applicable|"
+    },
+    {
+        "source_abstract_id":77,
+        "subject":"VCE-005.1",
+        "relation":"preserves",
+        "object":"Blood-Brain Barrier Integrity",
+        "entity_variants":"not applicable|"
+    },
+    {
+        "source_abstract_id":77,
+        "subject":"VCE-005.1",
+        "relation":"prevents",
+        "object":"Apoptosis in Neuronal Cells",
+        "entity_variants":"not applicable|"
+    },
+    {
+        "source_abstract_id":77,
+        "subject":"VCE-005.1",
+        "relation":"improves",
+        "object":"Locomotor Coordination",
+        "entity_variants":"not applicable|"
+    },
+    {
+        "source_abstract_id":77,
+        "subject":"VCE-005.1",
+        "relation":"increases",
+        "object":"Neovascularization",
+        "entity_variants":"not applicable|"
+    },
+    {
+        "source_abstract_id":77,
+        "subject":"VCE-005.1",
+        "relation":"mediates",
+        "object":"Anti-Inflammatory Effects",
+        "entity_variants":"not applicable|"
+    },
+    {
+        "source_abstract_id":229,
+        "subject":"Recombinant Human Erythropoietin",
+        "relation":"upregulates",
+        "object":"Neurogenesis",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":229,
+        "subject":"Recombinant Human Erythropoietin",
+        "relation":"causes",
+        "object":"Increased Excitatory Synaptic Density",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":229,
+        "subject":"Recombinant Human Erythropoietin",
+        "relation":"mediates",
+        "object":"Fear Memory Response",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":229,
+        "subject":"Recombinant Human Erythropoietin",
+        "relation":"prevents",
+        "object":"Neurodegeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":229,
+        "subject":"Recombinant Human Erythropoietin",
+        "relation":"improves",
+        "object":"Neurological Outcomes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":229,
+        "subject":"Recombinant Human Erythropoietin",
+        "relation":"improves",
+        "object":"Cognitive Outcomes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":229,
+        "subject":"Recombinant Human Erythropoietin",
+        "relation":"does_not_affect",
+        "object":"Behavioral Assessments",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":229,
+        "subject":"Recombinant Human Erythropoietin",
+        "relation":"does_not_affect",
+        "object":"MAPK\/CREB Pathway Activation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":271,
+        "subject":"AAV-siRNA",
+        "relation":"causes",
+        "object":"Gene Expression Changes",
+        "entity_variants":"AAV-siRNA_variant|"
+    },
+    {
+        "source_abstract_id":271,
+        "subject":"AAV-mediated Knockdown",
+        "relation":"improves",
+        "object":"Functional Outcome",
+        "entity_variants":"AAV_variant|"
+    },
+    {
+        "source_abstract_id":354,
+        "subject":"AAV-BDNF",
+        "relation":"improves",
+        "object":"Motor Behavior Outcomes",
+        "entity_variants":"wildtype_BDNF|"
+    },
+    {
+        "source_abstract_id":354,
+        "subject":"AAV-BDNF",
+        "relation":"improves",
+        "object":"Cognitive Behavior Outcomes",
+        "entity_variants":"wildtype_BDNF|"
+    },
+    {
+        "source_abstract_id":359,
+        "subject":"Erythropoietin",
+        "relation":"prevents",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":364,
+        "subject":"AAV_EpoR76E",
+        "relation":"prevents",
+        "object":"Cognitive Decline",
+        "entity_variants":"AAV_EpoR76E|"
+    },
+    {
+        "source_abstract_id":364,
+        "subject":"AAV_EpoR76E",
+        "relation":"reduces",
+        "object":"Amyloid Beta",
+        "entity_variants":"AAV_EpoR76E|"
+    },
+    {
+        "source_abstract_id":364,
+        "subject":"AAV_EpoR76E",
+        "relation":"prevents",
+        "object":"Neuronal Loss",
+        "entity_variants":"AAV_EpoR76E|"
+    },
+    {
+        "source_abstract_id":364,
+        "subject":"AAV_EpoR76E",
+        "relation":"prevents",
+        "object":"Age-Related Protein Loss",
+        "entity_variants":"AAV_EpoR76E|"
+    },
+    {
+        "source_abstract_id":364,
+        "subject":"Erythropoietin",
+        "relation":"treats",
+        "object":"Symptoms of Neurological Disorders",
+        "entity_variants":"Epo|"
+    },
+    {
+        "source_abstract_id":379,
+        "subject":"EH-201",
+        "relation":"causes",
+        "object":"Erythropoietin",
+        "entity_variants":"EH-201|"
+    },
+    {
+        "source_abstract_id":379,
+        "subject":"EH-201",
+        "relation":"upregulates",
+        "object":"Peroxisome Proliferator-Activated Receptor Gamma Coactivator 1-alpha",
+        "entity_variants":"EH-201|"
+    },
+    {
+        "source_abstract_id":379,
+        "subject":"EH-201",
+        "relation":"upregulates",
+        "object":"Hemoglobin",
+        "entity_variants":"EH-201|"
+    },
+    {
+        "source_abstract_id":379,
+        "subject":"EH-201",
+        "relation":"reverses",
+        "object":"Memory Impairment",
+        "entity_variants":"EH-201|"
+    },
+    {
+        "source_abstract_id":379,
+        "subject":"Erythropoietin",
+        "relation":"mediates",
+        "object":"Memory Impairment",
+        "entity_variants":"erythropoietin|"
+    },
+    {
+        "source_abstract_id":401,
+        "subject":"CP1",
+        "relation":"has_property",
+        "object":"Improved In Vivo Efficacy",
+        "entity_variants":"CP1|"
+    }
+]

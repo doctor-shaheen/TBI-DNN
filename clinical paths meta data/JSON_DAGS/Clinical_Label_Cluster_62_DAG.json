@@ -1,0 +1,505 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 21,
+    "edge_count": 22
+  },
+  "nodes": [
+    {
+      "id": "FunctionalConnectivity",
+      "label": "Functional Connectivity",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C4072124",
+        "GO_ID": "GO:0042391"
+      },
+      "synonyms": [
+        "Brain Functional Connectivity",
+        "Resting State Functional Connectivity",
+        "Functional Hyperconnectivity",
+        "Connectivity Patterns"
+      ]
+    },
+    {
+      "id": "Fatigue",
+      "label": "Fatigue",
+      "type": "Symptom",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0015672"
+      },
+      "synonyms": [
+        "Self-Reported Fatigue",
+        "Exhaustion"
+      ]
+    },
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "Traumatic Brain Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111"
+      },
+      "synonyms": [
+        "TBI",
+        "Brain Injury",
+        "Concussion"
+      ]
+    },
+    {
+      "id": "Cognition",
+      "label": "Cognition",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0009241"
+      },
+      "synonyms": [
+        "Cognitive Function",
+        "Executive Function",
+        "Cognitive Performance",
+        "Behavioral control"
+      ]
+    },
+    {
+      "id": "PhysicalActivity",
+      "label": "Physical Activity",
+      "type": "Process",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0026606"
+      },
+      "synonyms": [
+        "Exercise"
+      ]
+    },
+    {
+      "id": "MusicTherapy",
+      "label": "Music Therapy",
+      "type": "Procedure",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0026852"
+      },
+      "synonyms": [
+        "Neurological Music Therapy"
+      ]
+    },
+    {
+      "id": "WhiteMatterHyperintensity",
+      "label": "White Matter Hyperintensity",
+      "type": "PathologicalEntity",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0023529"
+      },
+      "synonyms": [
+        "Leukoaraiosis",
+        "WMH",
+        "Frontal Lobe White Matter Hyperintensity"
+      ]
+    },
+    {
+      "id": "StructuralConnectivity",
+      "label": "Structural Connectivity",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C4279982"
+      },
+      "synonyms": [
+        "Structural Integrity",
+        "Structural Hypoconnectivity"
+      ]
+    },
+    {
+      "id": "SalienceNetwork",
+      "label": "Salience Network",
+      "type": "Anatomy",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C4072134"
+      },
+      "synonyms": [
+        "Left Salience Network"
+      ]
+    },
+    {
+      "id": "Insula",
+      "label": "Insula",
+      "type": "Anatomy",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0010398"
+      },
+      "synonyms": [
+        "Right Insula",
+        "Insular Cortex"
+      ]
+    },
+    {
+      "id": "Precuneus",
+      "label": "Precuneus",
+      "type": "Anatomy",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0032906"
+      },
+      "synonyms": [
+        "Left Precuneus"
+      ]
+    },
+    {
+      "id": "FrontoparietalNetwork",
+      "label": "Frontoparietal Network",
+      "type": "Anatomy",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C4072136"
+      },
+      "synonyms": [
+        "Frontoparietal Control Network",
+        "Left Frontoparietal Network"
+      ]
+    },
+    {
+      "id": "InferiorFrontalGyrus",
+      "label": "Inferior Frontal Gyrus",
+      "type": "Anatomy",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0017657"
+      },
+      "synonyms": [
+        "Right Inferior Frontal Gyrus"
+      ]
+    },
+    {
+      "id": "InferiorParietalLobule",
+      "label": "Inferior Parietal Lobule",
+      "type": "Anatomy",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0029965"
+      },
+      "synonyms": [
+        "Right Inferior Parietal Lobule"
+      ]
+    },
+    {
+      "id": "SuperiorFrontalGyrus",
+      "label": "Superior Frontal Gyrus",
+      "type": "Anatomy",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0038814"
+      },
+      "synonyms": [
+        "Right Superior Frontal Gyrus"
+      ]
+    },
+    {
+      "id": "InferiorTemporalGyrus",
+      "label": "Inferior Temporal Gyrus",
+      "type": "Anatomy",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0039534"
+      },
+      "synonyms": [
+        "Right Inferior Temporal Gyrus"
+      ]
+    },
+    {
+      "id": "CorticostriatalCircuit",
+      "label": "Corticostriatal Circuit",
+      "type": "Anatomy",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0010079"
+      },
+      "synonyms": [
+        "Corticostriatal interactions"
+      ]
+    },
+    {
+      "id": "SubstantiaNigra",
+      "label": "Substantia Nigra",
+      "type": "Anatomy",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0038556"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "CognitiveTraining",
+      "label": "Cognitive Therapy",
+      "type": "Procedure",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C3244275"
+      },
+      "synonyms": [
+        "Cognitive Training"
+      ]
+    },
+    {
+      "id": "Prognosis",
+      "label": "Prognosis",
+      "type": "Process",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0033352"
+      },
+      "synonyms": [
+        "Long-Term Outcomes",
+        "Injury Outcomes"
+      ]
+    },
+    {
+      "id": "fMRI",
+      "label": "Magnetic Resonance Imaging, Functional",
+      "type": "Procedure",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0024485"
+      },
+      "synonyms": [
+        "Resting State Functional MRI",
+        "Resting-State fMRI Metrics"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "FunctionalConnectivity",
+      "target": "Fatigue",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        132
+      ],
+      "confidence": "High",
+      "metadata": "Correlates with; Serves as biomarker"
+    },
+    {
+      "source": "SalienceNetwork",
+      "target": "Insula",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        253
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Left Salience Network FC decreases with Right Insula"
+    },
+    {
+      "source": "SalienceNetwork",
+      "target": "Precuneus",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        253
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Left Salience Network FC increases with Left Precuneus"
+    },
+    {
+      "source": "CorticostriatalCircuit",
+      "target": "Cognition",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        305
+      ],
+      "confidence": "High",
+      "metadata": "Context: Behavioral control"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "FrontoparietalNetwork",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        344
+      ],
+      "confidence": "High",
+      "metadata": "Affects connectivity"
+    },
+    {
+      "source": "InferiorFrontalGyrus",
+      "target": "InferiorParietalLobule",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        355
+      ],
+      "confidence": "Medium",
+      "metadata": "Increases functional connectivity"
+    },
+    {
+      "source": "InferiorFrontalGyrus",
+      "target": "FrontoparietalNetwork",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        355
+      ],
+      "confidence": "Medium",
+      "metadata": "Increases functional connectivity"
+    },
+    {
+      "source": "WhiteMatterHyperintensity",
+      "target": "FunctionalConnectivity",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        467
+      ],
+      "confidence": "Medium",
+      "metadata": "Associated with FC in Right Superior Frontal Gyrus and Inferior Temporal Gyrus"
+    },
+    {
+      "source": "FunctionalConnectivity",
+      "target": "Cognition",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        158,
+        192,
+        355,
+        381,
+        530
+      ],
+      "confidence": "High",
+      "metadata": "Associated with cognitive performance and executive function"
+    },
+    {
+      "source": "StructuralConnectivity",
+      "target": "FunctionalConnectivity",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        167,
+        495
+      ],
+      "confidence": "High",
+      "metadata": "Negatively associated; Functional hyperconnectivity downregulates structural hypoconnectivity"
+    },
+    {
+      "source": "StructuralConnectivity",
+      "target": "Prognosis",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        167
+      ],
+      "confidence": "Medium",
+      "metadata": "Predicts long-term outcomes"
+    },
+    {
+      "source": "StructuralConnectivity",
+      "target": "Cognition",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        530,
+        541
+      ],
+      "confidence": "High",
+      "metadata": "Associated with cognitive performance"
+    },
+    {
+      "source": "PhysicalActivity",
+      "target": "FunctionalConnectivity",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        344
+      ],
+      "confidence": "Medium",
+      "metadata": "Modulates and upregulates"
+    },
+    {
+      "source": "PhysicalActivity",
+      "target": "FrontoparietalNetwork",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        344
+      ],
+      "confidence": "Medium",
+      "metadata": "Associated with network connectivity"
+    },
+    {
+      "source": "MusicTherapy",
+      "target": "FunctionalConnectivity",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        355
+      ],
+      "confidence": "High",
+      "metadata": "Increases FC; shifts connectivity state in Frontoparietal and Salience networks"
+    },
+    {
+      "source": "SubstantiaNigra",
+      "target": "Cognition",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        253
+      ],
+      "confidence": "Medium",
+      "metadata": "Via functional connectivity"
+    },
+    {
+      "source": "fMRI",
+      "target": "Cognition",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        478
+      ],
+      "confidence": "Medium",
+      "metadata": "Predicts cognitive performance (fALFF, DC, FCS)"
+    },
+    {
+      "source": "fMRI",
+      "target": "Fatigue",
+      "mechanism": "used_for",
+      "evidence_ref": [
+        132
+      ],
+      "confidence": "High",
+      "metadata": "Assessment of fatigue levels"
+    },
+    {
+      "source": "FunctionalConnectivity",
+      "target": "Prognosis",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        405
+      ],
+      "confidence": "Medium",
+      "metadata": "Associated with injury outcomes"
+    },
+    {
+      "source": "FunctionalConnectivity",
+      "target": "TraumaticBrainInjury",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        405
+      ],
+      "confidence": "Low",
+      "metadata": "Associated with injury risk"
+    },
+    {
+      "source": "CognitiveTraining",
+      "target": "FunctionalConnectivity",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        527
+      ],
+      "confidence": "Medium",
+      "metadata": "Associated with changes"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "FunctionalConnectivity",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        344
+      ],
+      "confidence": "High",
+      "metadata": "Implied via effects on network connectivity"
+    }
+  ]
+}

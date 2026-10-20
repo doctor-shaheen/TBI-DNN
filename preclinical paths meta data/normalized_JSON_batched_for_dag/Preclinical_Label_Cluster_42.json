@@ -1,0 +1,135 @@
+[
+    {
+        "source_abstract_id":42,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Chronic White Matter Injury",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":48,
+        "subject":"Repetitive Subconcussive Head Impacts",
+        "relation":"causes",
+        "object":"Midbrain White Matter Integrity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":48,
+        "subject":"Rotational Acceleration",
+        "relation":"affects",
+        "object":"Midbrain White Matter Integrity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":48,
+        "subject":"Midbrain White Matter Integrity",
+        "relation":"indicates",
+        "object":"Clinically Silent White Matter Injury",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":48,
+        "subject":"Midbrain White Matter Integrity",
+        "relation":"associated_with",
+        "object":"Concussion",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":61,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"White Matter Injury",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":104,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"White Matter Injury",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":104,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Contralateral White Matter Loss",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":113,
+        "subject":"Military Exposure",
+        "relation":"causes",
+        "object":"White Matter Injury",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":117,
+        "subject":"Repetitive Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"White Matter Degeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":127,
+        "subject":"Repetitive Concussive Injury",
+        "relation":"causes",
+        "object":"White Matter Disruption",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":127,
+        "subject":"White Matter Disruption",
+        "relation":"correlates_with",
+        "object":"Swimming Speed",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":127,
+        "subject":"White Matter Disruption",
+        "relation":"correlates_with",
+        "object":"Probe Trial Performance",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":131,
+        "subject":"Military Exposure",
+        "relation":"causes",
+        "object":"White Matter Injury",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":184,
+        "subject":"Young Adult Mice",
+        "relation":"exhibit",
+        "object":"Increased Loss of White Matter Connectivity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":208,
+        "subject":"Mechanical Strain Rate",
+        "relation":"predicts",
+        "object":"White Matter Thinning",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":245,
+        "subject":"Repeated Mild Closed Head Injury",
+        "relation":"causes",
+        "object":"White Matter Pathology",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":368,
+        "subject":"Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"White Matter Abnormalities",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":103,
+        "subject":"Repetitive Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Chronic Oligodendrogenesis",
+        "entity_variants":null
+    }
+]

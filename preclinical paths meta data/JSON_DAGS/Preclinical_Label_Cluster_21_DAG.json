@@ -1,0 +1,808 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 36,
+    "edge_count": 48
+  },
+  "nodes": [
+    {
+      "id": "MesenchymalStemCellConditionedMedium",
+      "label": "Mesenchymal Stem Cell Conditioned Medium",
+      "type": "BiologicalProduct",
+      "location": "Extracellular_Space",
+      "synonyms": [
+        "ASC-CCM",
+        "Adipose-derived stem cell conditioned medium"
+      ],
+      "identifiers": {
+        "UMLS_CUI": "C4282302"
+      }
+    },
+    {
+      "id": "Glutamate",
+      "label": "Glutamate",
+      "type": "Chemical",
+      "location": "Extracellular_Space",
+      "synonyms": [
+        "Glutamic Acid",
+        "L-Glutamate"
+      ],
+      "identifiers": {
+        "ChEBI": "14321",
+        "UMLS_CUI": "C0017725"
+      }
+    },
+    {
+      "id": "Simvastatin",
+      "label": "Simvastatin",
+      "type": "Chemical",
+      "location": "Systemic",
+      "synonyms": [
+        "Zocor"
+      ],
+      "identifiers": {
+        "ChEBI": "9150",
+        "UMLS_CUI": "C0074554"
+      }
+    },
+    {
+      "id": "CognitiveDysfunction",
+      "label": "Cognitive Dysfunction",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "synonyms": [
+        "Cognitive Impairment",
+        "Cognitive Deficits"
+      ],
+      "identifiers": {
+        "UMLS_CUI": "C0338656"
+      }
+    },
+    {
+      "id": "GFAP",
+      "label": "GFAP",
+      "type": "Protein",
+      "location": "Astrocyte",
+      "synonyms": [
+        "Glial Fibrillary Acidic Protein",
+        "Glial Immunoreactivity"
+      ],
+      "identifiers": {
+        "HGNC_ID": "HGNC:4235",
+        "UMLS_CUI": "C0017629"
+      }
+    },
+    {
+      "id": "IL1A",
+      "label": "IL1A",
+      "type": "Protein",
+      "location": "Extracellular_Space",
+      "synonyms": [
+        "Interleukin-1 alpha"
+      ],
+      "identifiers": {
+        "HGNC_ID": "HGNC:5991",
+        "UMLS_CUI": "C0021751"
+      }
+    },
+    {
+      "id": "IL17A",
+      "label": "IL17A",
+      "type": "Protein",
+      "location": "Extracellular_Space",
+      "synonyms": [
+        "Interleukin-17",
+        "CTLA8"
+      ],
+      "identifiers": {
+        "HGNC_ID": "HGNC:5981",
+        "UMLS_CUI": "C0063686"
+      }
+    },
+    {
+      "id": "MotorActivity",
+      "label": "Motor Activity",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "synonyms": [
+        "Motor Function",
+        "Motor Coordination",
+        "Locomotion"
+      ],
+      "identifiers": {
+        "GO_ID": "GO:0003010",
+        "UMLS_CUI": "C0026606"
+      }
+    },
+    {
+      "id": "Cytokine",
+      "label": "Cytokine",
+      "type": "Protein",
+      "location": "Extracellular_Space",
+      "synonyms": [
+        "Inflammatory Cytokines"
+      ],
+      "identifiers": {
+        "UMLS_CUI": "C0079189"
+      }
+    },
+    {
+      "id": "SpatialMemory",
+      "label": "Spatial Memory",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "synonyms": [
+        "Latency to Platform",
+        "Retention Scores"
+      ],
+      "identifiers": {
+        "GO_ID": "GO:0042593",
+        "UMLS_CUI": "C0037778"
+      }
+    },
+    {
+      "id": "MultipleTrauma",
+      "label": "Multiple Trauma",
+      "type": "Disease",
+      "location": "Systemic",
+      "synonyms": [
+        "Polytrauma"
+      ],
+      "identifiers": {
+        "UMLS_CUI": "C0026782"
+      }
+    },
+    {
+      "id": "Pyruvate",
+      "label": "Pyruvate",
+      "type": "Chemical",
+      "location": "Cytoplasm",
+      "synonyms": [
+        "Pyruvic Acid"
+      ],
+      "identifiers": {
+        "ChEBI": "15361",
+        "UMLS_CUI": "C0034260"
+      }
+    },
+    {
+      "id": "Angiotensin1-7",
+      "label": "Angiotensin 1-7",
+      "type": "Chemical",
+      "location": "Extracellular_Space",
+      "synonyms": [
+        "Ang-(1-7)"
+      ],
+      "identifiers": {
+        "ChEBI": "58485",
+        "UMLS_CUI": "C0085336"
+      }
+    },
+    {
+      "id": "Cognition",
+      "label": "Cognition",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "synonyms": [
+        "Cognitive Function"
+      ],
+      "identifiers": {
+        "GO_ID": "GO:0050890",
+        "UMLS_CUI": "C0009241"
+      }
+    },
+    {
+      "id": "Inflammation",
+      "label": "Inflammation",
+      "type": "Process",
+      "location": "Systemic",
+      "synonyms": [
+        "Inflammatory Response"
+      ],
+      "identifiers": {
+        "GO_ID": "GO:0006954",
+        "UMLS_CUI": "C0021368"
+      }
+    },
+    {
+      "id": "MAPT",
+      "label": "MAPT",
+      "type": "Protein",
+      "location": "Neuron",
+      "synonyms": [
+        "Tau",
+        "Phosphorylated Tau Protein"
+      ],
+      "identifiers": {
+        "HGNC_ID": "HGNC:6893",
+        "UMLS_CUI": "C0039392"
+      }
+    },
+    {
+      "id": "NerveDegeneration",
+      "label": "Nerve Degeneration",
+      "type": "PathologicalProcess",
+      "location": "Brain_Tissue",
+      "synonyms": [
+        "Neuronal Injury",
+        "Neurodegeneration"
+      ],
+      "identifiers": {
+        "UMLS_CUI": "C0027746"
+      }
+    },
+    {
+      "id": "MAS1",
+      "label": "MAS1",
+      "type": "Protein",
+      "location": "Cell_Membrane",
+      "synonyms": [
+        "MAS Receptor",
+        "MAS1 Proto-Oncogene, G Protein-Coupled Receptor"
+      ],
+      "identifiers": {
+        "HGNC_ID": "HGNC:6901",
+        "UMLS_CUI": "C1416956"
+      }
+    },
+    {
+      "id": "ReactiveOxygenSpecies",
+      "label": "Reactive Oxygen Species",
+      "type": "Chemical",
+      "location": "Mitochondria",
+      "synonyms": [
+        "ROS"
+      ],
+      "identifiers": {
+        "ChEBI": "26523",
+        "UMLS_CUI": "C0017643"
+      }
+    },
+    {
+      "id": "IL10",
+      "label": "IL10",
+      "type": "Protein",
+      "location": "Extracellular_Space",
+      "synonyms": [
+        "Interleukin-10"
+      ],
+      "identifiers": {
+        "HGNC_ID": "HGNC:5962",
+        "UMLS_CUI": "C0021757"
+      }
+    },
+    {
+      "id": "Neuroprotection",
+      "label": "Neuroprotection",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "synonyms": [],
+      "identifiers": {
+        "UMLS_CUI": "C0598177"
+      }
+    },
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "Traumatic Brain Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "synonyms": [
+        "TBI",
+        "Mild Traumatic Brain Injury",
+        "Repeated Concussive Brain Injury"
+      ],
+      "identifiers": {
+        "UMLS_CUI": "C0006111"
+      }
+    },
+    {
+      "id": "AstrocyteActivation",
+      "label": "Astrocyte Activation",
+      "type": "Process",
+      "location": "Astrocyte",
+      "synonyms": [
+        "Astroglial Response",
+        "Gliosis",
+        "Astrocytosis"
+      ],
+      "identifiers": {
+        "GO_ID": "GO:0048143",
+        "UMLS_CUI": "C0017637"
+      }
+    },
+    {
+      "id": "GeneExpression",
+      "label": "Gene Expression",
+      "type": "Process",
+      "location": "Nucleus",
+      "synonyms": [],
+      "identifiers": {
+        "GO_ID": "GO:0010467",
+        "UMLS_CUI": "C0017366"
+      }
+    },
+    {
+      "id": "FGA",
+      "label": "FGA",
+      "type": "Protein",
+      "location": "Blood",
+      "synonyms": [
+        "Fibrinogen",
+        "Fibrinogen Alpha Chain"
+      ],
+      "identifiers": {
+        "HGNC_ID": "HGNC:3661",
+        "UMLS_CUI": "C0016023"
+      }
+    },
+    {
+      "id": "Anatabine",
+      "label": "Anatabine",
+      "type": "Chemical",
+      "location": "Systemic",
+      "synonyms": [],
+      "identifiers": {
+        "ChEBI": "75317",
+        "UMLS_CUI": "C0051399"
+      }
+    },
+    {
+      "id": "Behavior",
+      "label": "Behavior",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "synonyms": [
+        "Neurobehavioral Outcomes"
+      ],
+      "identifiers": {
+        "GO_ID": "GO:0007610",
+        "UMLS_CUI": "C0004927"
+      }
+    },
+    {
+      "id": "APP",
+      "label": "APP",
+      "type": "Protein",
+      "location": "Cell_Membrane",
+      "synonyms": [
+        "Amyloid Precursor Protein"
+      ],
+      "identifiers": {
+        "HGNC_ID": "HGNC:620",
+        "UMLS_CUI": "C0002706"
+      }
+    },
+    {
+      "id": "PathologicalProcess",
+      "label": "Pathological Process",
+      "type": "Process",
+      "location": "Systemic",
+      "synonyms": [
+        "Neuropathologic Process"
+      ],
+      "identifiers": {
+        "UMLS_CUI": "C0030660"
+      }
+    },
+    {
+      "id": "Aging",
+      "label": "Aging",
+      "type": "Process",
+      "location": "Systemic",
+      "synonyms": [
+        "Age"
+      ],
+      "identifiers": {
+        "GO_ID": "GO:0007568",
+        "UMLS_CUI": "C0001792"
+      }
+    },
+    {
+      "id": "WhiteMatterIntegrity",
+      "label": "White Matter Integrity",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "synonyms": [
+        "Fractional Anisotropy"
+      ],
+      "identifiers": {
+        "UMLS_CUI": "C5203792"
+      }
+    },
+    {
+      "id": "Omega-3FattyAcids",
+      "label": "Omega-3 Fatty Acids",
+      "type": "Chemical",
+      "location": "Systemic",
+      "synonyms": [
+        "n-3 Fatty Acids",
+        "fat-1 transgene product"
+      ],
+      "identifiers": {
+        "ChEBI": "25627",
+        "UMLS_CUI": "C0015645"
+      }
+    },
+    {
+      "id": "SLC1A3",
+      "label": "SLC1A3",
+      "type": "Protein",
+      "location": "Astrocyte",
+      "synonyms": [
+        "Glutamate Aspartate Transporter",
+        "GLAST"
+      ],
+      "identifiers": {
+        "HGNC_ID": "HGNC:10972",
+        "UMLS_CUI": "C1420173"
+      }
+    },
+    {
+      "id": "Daidzein",
+      "label": "Daidzein",
+      "type": "Chemical",
+      "location": "Systemic",
+      "synonyms": [],
+      "identifiers": {
+        "ChEBI": "27899",
+        "UMLS_CUI": "C0010959"
+      }
+    },
+    {
+      "id": "SIGMAR1",
+      "label": "SIGMAR1",
+      "type": "Protein",
+      "location": "Mitochondria",
+      "synonyms": [
+        "Sigma-1 Receptor",
+        "Sig-1R"
+      ],
+      "identifiers": {
+        "HGNC_ID": "HGNC:10811",
+        "UMLS_CUI": "C1420084"
+      }
+    },
+    {
+      "id": "BiologicalSex",
+      "label": "Biological Sex",
+      "type": "Attribute",
+      "location": "Systemic",
+      "synonyms": [
+        "Sex"
+      ],
+      "identifiers": {
+        "UMLS_CUI": "C0036857"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "MesenchymalStemCellConditionedMedium",
+      "target": "Glutamate",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        196
+      ],
+      "metadata": "Context: Extracellular levels after TBI"
+    },
+    {
+      "source": "Simvastatin",
+      "target": "CognitiveDysfunction",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        308
+      ],
+      "metadata": "Corrected from 'causes' based on abstract 308 evidence of improved memory"
+    },
+    {
+      "source": "Simvastatin",
+      "target": "GFAP",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        308
+      ],
+      "metadata": "Location: Serum Biomarker"
+    },
+    {
+      "source": "Simvastatin",
+      "target": "IL1A",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        308
+      ]
+    },
+    {
+      "source": "Simvastatin",
+      "target": "IL17A",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        308
+      ]
+    },
+    {
+      "source": "Simvastatin",
+      "target": "MotorActivity",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        308
+      ]
+    },
+    {
+      "source": "Simvastatin",
+      "target": "Cytokine",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        308
+      ]
+    },
+    {
+      "source": "Simvastatin",
+      "target": "SpatialMemory",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        308
+      ],
+      "metadata": "Improves Latency and Retention"
+    },
+    {
+      "source": "MultipleTrauma",
+      "target": "GFAP",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        312
+      ]
+    },
+    {
+      "source": "Pyruvate",
+      "target": "GFAP",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        313
+      ]
+    },
+    {
+      "source": "Angiotensin1-7",
+      "target": "Cognition",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        333
+      ]
+    },
+    {
+      "source": "Angiotensin1-7",
+      "target": "Inflammation",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        333
+      ]
+    },
+    {
+      "source": "Angiotensin1-7",
+      "target": "MAPT",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        333
+      ],
+      "metadata": "Context: Phosphorylated Tau"
+    },
+    {
+      "source": "Angiotensin1-7",
+      "target": "GFAP",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        333
+      ]
+    },
+    {
+      "source": "Angiotensin1-7",
+      "target": "NerveDegeneration",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        333
+      ]
+    },
+    {
+      "source": "Angiotensin1-7",
+      "target": "MotorActivity",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        333
+      ]
+    },
+    {
+      "source": "Angiotensin1-7",
+      "target": "MAS1",
+      "mechanism": "binds",
+      "evidence_ref": [
+        333
+      ]
+    },
+    {
+      "source": "Angiotensin1-7",
+      "target": "ReactiveOxygenSpecies",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        333
+      ]
+    },
+    {
+      "source": "IL10",
+      "target": "Neuroprotection",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        372
+      ],
+      "metadata": "Context: GFAP-IL10 transgenic"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "GFAP",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        47,
+        100,
+        196,
+        235,
+        266,
+        341,
+        380,
+        387
+      ],
+      "metadata": "Context: Including Mild and Repeated Concussive Injury"
+    },
+    {
+      "source": "GFAP",
+      "target": "AstrocyteActivation",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        76
+      ],
+      "metadata": "Context: No significant difference with Astrocytes count"
+    },
+    {
+      "source": "GFAP",
+      "target": "GeneExpression",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        108
+      ],
+      "metadata": "Context: GFAP mutation, AD-like expression"
+    },
+    {
+      "source": "FGA",
+      "target": "AstrocyteActivation",
+      "mechanism": "causes",
+      "evidence_ref": [
+        110
+      ]
+    },
+    {
+      "source": "Anatabine",
+      "target": "AstrocyteActivation",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        133
+      ]
+    },
+    {
+      "source": "GFAP",
+      "target": "Behavior",
+      "mechanism": "associated_with",
+      "evidence_ref": [
+        146
+      ]
+    },
+    {
+      "source": "APP",
+      "target": "GFAP",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        267
+      ]
+    },
+    {
+      "source": "GFAP",
+      "target": "PathologicalProcess",
+      "mechanism": "mediates",
+      "evidence_ref": [
+        341
+      ]
+    },
+    {
+      "source": "Aging",
+      "target": "GFAP",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        341
+      ]
+    },
+    {
+      "source": "BiologicalSex",
+      "target": "GFAP",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        341
+      ]
+    },
+    {
+      "source": "WhiteMatterIntegrity",
+      "target": "AstrocyteActivation",
+      "mechanism": "associated_with",
+      "evidence_ref": [
+        346
+      ],
+      "metadata": "Via Glial Immunoreactivity"
+    },
+    {
+      "source": "Omega-3FattyAcids",
+      "target": "GFAP",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        397
+      ],
+      "metadata": "Model: fat-1 Transgenic Mice"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Glutamate",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        196
+      ],
+      "metadata": "Context: Mild TBI"
+    },
+    {
+      "source": "Glutamate",
+      "target": "SLC1A3",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        196
+      ]
+    },
+    {
+      "source": "Daidzein",
+      "target": "GFAP",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        161
+      ]
+    },
+    {
+      "source": "SIGMAR1",
+      "target": "GFAP",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        146
+      ],
+      "metadata": "Inferred from Deficiency (KO) reducing GFAP"
+    },
+    {
+      "source": "SIGMAR1",
+      "target": "MotorActivity",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        146
+      ],
+      "metadata": "Inferred from Deficiency (KO) improving Motor Coordination"
+    },
+    {
+      "source": "SIGMAR1",
+      "target": "AstrocyteActivation",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        146
+      ],
+      "metadata": "Inferred from Deficiency (KO) negatively regulating activation"
+    },
+    {
+      "source": "SIGMAR1",
+      "target": "NerveDegeneration",
+      "mechanism": "causes",
+      "evidence_ref": [
+        146
+      ],
+      "metadata": "Inferred from Deficiency (KO) preventing Neurodegeneration"
+    }
+  ]
+}

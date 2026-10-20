@@ -1,0 +1,557 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 23,
+    "edge_count": 26
+  },
+  "nodes": [
+    {
+      "id": "Aging",
+      "label": "Aging",
+      "type": "BiologicalProcess",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0001811",
+        "GO_ID": "GO:0007568"
+      },
+      "synonyms": [
+        "Age",
+        "Biological Aging",
+        "Developmental Age",
+        "Senescence"
+      ]
+    },
+    {
+      "id": "SenescentCell",
+      "label": "Senescent Cell",
+      "type": "Cell",
+      "location": "Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C4023703",
+        "CL_ID": "CL:0000000"
+      },
+      "synonyms": [
+        "Senescent Cells"
+      ]
+    },
+    {
+      "id": "SenescenceAssociatedSecretoryPhenotype",
+      "label": "Senescence Associated Secretory Phenotype",
+      "type": "Phenotype",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "UMLS_CUI": "C4277561"
+      },
+      "synonyms": [
+        "SASP",
+        "Senescence-Associated Secretory Phenotype Factors"
+      ]
+    },
+    {
+      "id": "SenolyticAgent",
+      "label": "Senolytic Agent",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C4722519"
+      },
+      "synonyms": [
+        "Senolytic Therapy",
+        "Senolytics"
+      ]
+    },
+    {
+      "id": "AntibodyFormation",
+      "label": "Antibody Formation",
+      "type": "BiologicalProcess",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0003241",
+        "GO_ID": "GO:0002253"
+      },
+      "synonyms": [
+        "Immunoglobulin Production",
+        "Antibody Production"
+      ]
+    },
+    {
+      "id": "ExtracellularMatrixRemodeling",
+      "label": "Extracellular Matrix Remodeling",
+      "type": "BiologicalProcess",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "UMLS_CUI": "C1517056",
+        "GO_ID": "GO:0030198"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "CognitiveDecline",
+      "label": "Cognitive Decline",
+      "type": "PathologicProcess",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0234985"
+      },
+      "synonyms": [
+        "Cognitive Deficits",
+        "Cognitive Impairment"
+      ]
+    },
+    {
+      "id": "MitochondrialDNA",
+      "label": "Mitochondrial DNA",
+      "type": "Chemical",
+      "location": "Mitochondria",
+      "identifiers": {
+        "UMLS_CUI": "C0012869"
+      },
+      "synonyms": [
+        "mtDNA",
+        "Mitochondrial DNA Copy Number"
+      ]
+    },
+    {
+      "id": "BehavioralSymptoms",
+      "label": "Behavioral Symptoms",
+      "type": "Phenotype",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0004927"
+      },
+      "synonyms": [
+        "Behavioral Deficits",
+        "Behavioral Outcomes"
+      ]
+    },
+    {
+      "id": "FunctionalImpairment",
+      "label": "Functional Impairment",
+      "type": "PathologicProcess",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0558117"
+      },
+      "synonyms": [
+        "Functional Outcomes",
+        "Functional Deficits"
+      ]
+    },
+    {
+      "id": "Death",
+      "label": "Death",
+      "type": "BiologicalProcess",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0011065"
+      },
+      "synonyms": [
+        "Mortality"
+      ]
+    },
+    {
+      "id": "Inflammation",
+      "label": "Inflammation",
+      "type": "PathologicProcess",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0021368"
+      },
+      "synonyms": [
+        "Inflammatory Processes",
+        "Inflammatory Gene Expression"
+      ]
+    },
+    {
+      "id": "Neuropathology",
+      "label": "Neuropathology",
+      "type": "PathologicProcess",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027869"
+      },
+      "synonyms": [
+        "Neuropathological Outcomes",
+        "Pathological Changes"
+      ]
+    },
+    {
+      "id": "WoundHealing",
+      "label": "Wound Healing",
+      "type": "BiologicalProcess",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0043240"
+      },
+      "synonyms": [
+        "Repair Processes"
+      ]
+    },
+    {
+      "id": "NeurodegenerativeDisorders",
+      "label": "Neurodegenerative Disorders",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0524851"
+      },
+      "synonyms": [
+        "Neurodegenerative Pathology"
+      ]
+    },
+    {
+      "id": "MotorDisorders",
+      "label": "Motor Disorders",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0026650"
+      },
+      "synonyms": [
+        "Motor Impairments"
+      ]
+    },
+    {
+      "id": "MemoryDisorders",
+      "label": "Memory Disorders",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0025277"
+      },
+      "synonyms": [
+        "Memory Impairment"
+      ]
+    },
+    {
+      "id": "Neuroinflammation",
+      "label": "Neuroinflammation",
+      "type": "PathologicProcess",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C3553250"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Gliosis",
+      "label": "Gliosis",
+      "type": "PathologicProcess",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0017639"
+      },
+      "synonyms": [
+        "Glial Responses"
+      ]
+    },
+    {
+      "id": "ImmuneResponse",
+      "label": "Immune Response",
+      "type": "BiologicalProcess",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0020963"
+      },
+      "synonyms": [
+        "Dysregulated Immune Response",
+        "Altered Peripheral Immune Subsets"
+      ]
+    },
+    {
+      "id": "Monocyte",
+      "label": "Monocyte",
+      "type": "Cell",
+      "location": "Blood",
+      "identifiers": {
+        "UMLS_CUI": "C0026442"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Lymphocyte",
+      "label": "Lymphocyte",
+      "type": "Cell",
+      "location": "Blood",
+      "identifiers": {
+        "UMLS_CUI": "C0024265"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Cytokines",
+      "label": "Cytokines",
+      "type": "Chemical",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "UMLS_CUI": "C0010804"
+      },
+      "synonyms": [
+        "Pro-inflammatory Cytokines"
+      ]
+    },
+    {
+      "id": "Microgliosis",
+      "label": "Microgliosis",
+      "type": "PathologicProcess",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C3272449"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Astrogliosis",
+      "label": "Astrogliosis",
+      "type": "PathologicProcess",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0004135"
+      },
+      "synonyms": [
+        "Reactive Astrogliosis"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "SenescentCell",
+      "target": "SenescenceAssociatedSecretoryPhenotype",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        317
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "SenolyticAgent",
+      "target": "SenescenceAssociatedSecretoryPhenotype",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        317
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "Aging",
+      "target": "AntibodyFormation",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        1,
+        394
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Meningeal genes involved in production"
+    },
+    {
+      "source": "Aging",
+      "target": "ExtracellularMatrixRemodeling",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        1
+      ],
+      "confidence": "High",
+      "metadata": "Context: Genes involved in remodeling"
+    },
+    {
+      "source": "Aging",
+      "target": "CognitiveDecline",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        1,
+        213,
+        226,
+        366
+      ],
+      "confidence": "High",
+      "metadata": "Context: Confounds impairment; Associated with deficits"
+    },
+    {
+      "source": "Aging",
+      "target": "MitochondrialDNA",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        33
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Copy Number"
+    },
+    {
+      "source": "Aging",
+      "target": "BehavioralSymptoms",
+      "mechanism": "associated_with",
+      "evidence_ref": [
+        54,
+        366
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Developmental age; Behavioral outcomes"
+    },
+    {
+      "source": "Aging",
+      "target": "FunctionalImpairment",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        73,
+        184
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "Aging",
+      "target": "Death",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        73
+      ],
+      "confidence": "High",
+      "metadata": "Context: Increases Mortality"
+    },
+    {
+      "source": "Aging",
+      "target": "Inflammation",
+      "mechanism": "associated_with",
+      "evidence_ref": [
+        73,
+        184,
+        226
+      ],
+      "confidence": "High",
+      "metadata": "Context: Inflammatory gene expression and processes"
+    },
+    {
+      "source": "Aging",
+      "target": "Neuropathology",
+      "mechanism": "exacerbates",
+      "evidence_ref": [
+        184,
+        243
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "Aging",
+      "target": "WoundHealing",
+      "mechanism": "affects",
+      "evidence_ref": [
+        184
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Repair processes"
+    },
+    {
+      "source": "Aging",
+      "target": "NeurodegenerativeDisorders",
+      "mechanism": "affects",
+      "evidence_ref": [
+        226
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "Aging",
+      "target": "MotorDisorders",
+      "mechanism": "causes",
+      "evidence_ref": [
+        327
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "Aging",
+      "target": "MemoryDisorders",
+      "mechanism": "causes",
+      "evidence_ref": [
+        327
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "Aging",
+      "target": "Neuroinflammation",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        366
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "Aging",
+      "target": "Gliosis",
+      "mechanism": "influences",
+      "evidence_ref": [
+        366
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "Aging",
+      "target": "ImmuneResponse",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        368
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Dysregulated response; Altered subsets"
+    },
+    {
+      "source": "Aging",
+      "target": "Monocyte",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        368
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Lower counts"
+    },
+    {
+      "source": "Aging",
+      "target": "Lymphocyte",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        368
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Lower counts"
+    },
+    {
+      "source": "Aging",
+      "target": "Cytokines",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        394
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Pro-inflammatory"
+    },
+    {
+      "source": "Aging",
+      "target": "NeurologicDisorders",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        394
+      ],
+      "confidence": "High",
+      "metadata": "Context: Increases susceptibility"
+    },
+    {
+      "source": "Aging",
+      "target": "Microgliosis",
+      "mechanism": "influences",
+      "evidence_ref": [
+        226
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "Aging",
+      "target": "Astrogliosis",
+      "mechanism": "associated_with",
+      "evidence_ref": [
+        368
+      ],
+      "confidence": "Medium"
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+[
+    {
+        "source_abstract_id":130,
+        "subject":"Sensorimotor Network",
+        "relation":"correlates_with",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":133,
+        "subject":"Functional and Structural Disruption",
+        "relation":"impairs",
+        "object":"Brain-Behavior Interaction",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":227,
+        "subject":"Crossed Cerebellar Diaschisis",
+        "relation":"associated_with",
+        "object":"Cognitive Dysfunction",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":305,
+        "subject":"Caudate connectivity",
+        "relation":"correlates_with",
+        "object":"Executive dysfunction",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":305,
+        "subject":"Caudate connectivity",
+        "relation":"correlates_with",
+        "object":"Memory impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":429,
+        "subject":"Altered Resting State Functional Connectivity",
+        "relation":"causes",
+        "object":"Residual Connectivity Alterations",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":429,
+        "subject":"Posterior Cingulate Cortex",
+        "relation":"causes",
+        "object":"Altered Connectivity Patterns",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":429,
+        "subject":"Posterior Cingulate Cortex",
+        "relation":"causes",
+        "object":"Antiphase Synchrony with Attention Regions",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":541,
+        "subject":"Cognitive Decline",
+        "relation":"associated_with",
+        "object":"Hippocampus Connectivity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":566,
+        "subject":"Functional Dysconnectivity",
+        "relation":"not_detected_in",
+        "object":"Functional Magnetic Resonance Imaging",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":26,
+        "subject":"Loss of Structural Connectivity",
+        "relation":"associated_with",
+        "object":"Loss of Functional Connectivity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":26,
+        "subject":"Loss of Structural Connectivity",
+        "relation":"associated_with",
+        "object":"Executive Function Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":26,
+        "subject":"Loss of Functional Connectivity",
+        "relation":"affects",
+        "object":"Neuropsychological Performance",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":130,
+        "subject":"Functional Connectivity",
+        "relation":"predicts",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":130,
+        "subject":"Salience Network",
+        "relation":"associated_with",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":192,
+        "subject":"Functional Connectivity",
+        "relation":"affects",
+        "object":"Cognitive Deficits",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":192,
+        "subject":"Functional Connectivity",
+        "relation":"associated_with",
+        "object":"Memory Deficits",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":253,
+        "subject":"Functional Connectivity",
+        "relation":"associated_with",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":305,
+        "subject":"Structural Connectivity",
+        "relation":"associated_with",
+        "object":"Executive Dysfunction",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":381,
+        "subject":"Intraparietal Sulcus Connectivity",
+        "relation":"mediates",
+        "object":"Cognitive Deficits",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":387,
+        "subject":"Frontal Cortical Activation",
+        "relation":"associated_with",
+        "object":"Cognitive Deficits",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":530,
+        "subject":"Functional Connectivity",
+        "relation":"mediates",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":541,
+        "subject":"Cognitive Decline",
+        "relation":"associated_with",
+        "object":"Precuneus Connectivity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":541,
+        "subject":"Cognitive Decline",
+        "relation":"associated_with",
+        "object":"Insula Connectivity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":571,
+        "subject":"Betweenness Centrality",
+        "relation":"associated_with",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":571,
+        "subject":"Eigenvector Centrality",
+        "relation":"associated_with",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":397,
+        "subject":"Shared Risk Factors",
+        "relation":"prevents",
+        "object":"Cognitive Disorder",
+        "entity_variants":null
+    }
+]

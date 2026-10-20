@@ -1,0 +1,709 @@
+[
+    {
+        "source_abstract_id":4,
+        "subject":"Blast Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Neurodegeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":4,
+        "subject":"Blast Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Frontal Cortex Changes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":70,
+        "subject":"Blast Traumatic Brain Injury",
+        "relation":"influences",
+        "object":"Risk of Chronic Neurodegenerative Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":291,
+        "subject":"Repetitive Low-Level Blast Exposure",
+        "relation":"causes",
+        "object":"Anxiety",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":291,
+        "subject":"Repetitive Low-Level Blast Exposure",
+        "relation":"causes",
+        "object":"Impaired Novel Object Recognition",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":291,
+        "subject":"Repetitive Low-Level Blast Exposure",
+        "relation":"causes",
+        "object":"Altered Cued Fear Learning",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":291,
+        "subject":"Repetitive Low-Level Blast Exposure",
+        "relation":"causes",
+        "object":"Chronic Behavioral Phenotype",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":291,
+        "subject":"Repetitive Low-Level Blast Exposure",
+        "relation":"causes",
+        "object":"Neurobehavioral Syndromes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":291,
+        "subject":"Repetitive Low-Level Blast Exposure",
+        "relation":"causes",
+        "object":"Latent Behavioral Traits",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":291,
+        "subject":"Repetitive Low-Level Blast Exposure",
+        "relation":"causes",
+        "object":"Progressive Behavioral Traits",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":291,
+        "subject":"Repetitive Low-Level Blast Exposure",
+        "relation":"causes",
+        "object":"Behavioral Phenotype",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":302,
+        "subject":"Genetic Variability",
+        "relation":"affects",
+        "object":"Response to Blast Traumatic Brain Injury",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":308,
+        "subject":"Penetrating Ballistic Brain Injury",
+        "relation":"causes",
+        "object":"Cognitive Impairment",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":322,
+        "subject":"Blast Exposure",
+        "relation":"triggers",
+        "object":"Neurodegeneration",
+        "entity_variants":"ribbon synapse loss"
+    },
+    {
+        "source_abstract_id":365,
+        "subject":"Military Blast Injury",
+        "relation":"causes",
+        "object":"Visual Deficits",
+        "entity_variants":"mild traumatic brain injury"
+    },
+    {
+        "source_abstract_id":385,
+        "subject":"Blast Exposure",
+        "relation":"causes",
+        "object":"Neurodegeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":386,
+        "subject":"Repeated Blast Exposure",
+        "relation":"causes",
+        "object":"Neurodegeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":390,
+        "subject":"Penetrating Ballistic Brain Injury",
+        "relation":"causes",
+        "object":"Neurodegeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":390,
+        "subject":"Penetrating Ballistic Brain Injury",
+        "relation":"modifies",
+        "object":"Rapid Eye Movement Sleep",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":390,
+        "subject":"Penetrating Ballistic Brain Injury",
+        "relation":"induces",
+        "object":"Transcriptional Changes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":392,
+        "subject":"Blast Injury",
+        "relation":"causes",
+        "object":"Sleep Disruption",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":398,
+        "subject":"Gyrencephalic Models",
+        "relation":"show",
+        "object":"Better Translatability to Human Blast Injuries",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":409,
+        "subject":"Blast Injury",
+        "relation":"causes",
+        "object":"Neurodegeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":409,
+        "subject":"Diffuse Closed-Head Blast Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Mean Kurtosis",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":409,
+        "subject":"Diffuse Closed-Head Blast Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Myo-Inositol",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":409,
+        "subject":"Diffuse Closed-Head Blast Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Taurine",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":409,
+        "subject":"Diffuse Closed-Head Blast Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Glutamine",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":410,
+        "subject":"5% Penetrating Ballistic Brain Injury",
+        "relation":"causes",
+        "object":"Motor Deficits",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":410,
+        "subject":"10% Penetrating Ballistic Brain Injury",
+        "relation":"causes",
+        "object":"Motor Deficits",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":410,
+        "subject":"5% Penetrating Ballistic Brain Injury with Hypotension",
+        "relation":"worsens",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":410,
+        "subject":"10% Penetrating Ballistic Brain Injury",
+        "relation":"causes",
+        "object":"Cognitive Deficits",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":410,
+        "subject":"5% Penetrating Ballistic Brain Injury",
+        "relation":"causes",
+        "object":"Cognitive Deficits",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":410,
+        "subject":"10% Penetrating Ballistic Brain Injury",
+        "relation":"exceeds",
+        "object":"Sensitivity Threshold Capacity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":410,
+        "subject":"5% Penetrating Ballistic Brain Injury",
+        "relation":"provides",
+        "object":"Sensitive Screen",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":137,
+        "subject":"Blast Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Endoplasmic Reticulum Stress",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":137,
+        "subject":"Blast Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Behavioral Changes",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":137,
+        "subject":"Blast Traumatic Brain Injury",
+        "relation":"increases",
+        "object":"Iron",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":4,
+        "subject":"Blast Injury",
+        "relation":"associated_with",
+        "object":"Perivascular Spaces",
+        "entity_variants":"MRI visible"
+    },
+    {
+        "source_abstract_id":4,
+        "subject":"Blast Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Post-Concussive Syndrome",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":4,
+        "subject":"Blast Mild Traumatic Brain Injury",
+        "relation":"increases",
+        "object":"Perivascular Spaces",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":70,
+        "subject":"Blast Injury",
+        "relation":"causes",
+        "object":"Capillary Proliferation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":70,
+        "subject":"Blast Injury",
+        "relation":"affects",
+        "object":"Neurovascular Unit",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":86,
+        "subject":"Blast Injury",
+        "relation":"causes",
+        "object":"Behavioral Deficits",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":86,
+        "subject":"Repetitive Low-Level Blast Exposure",
+        "relation":"improves",
+        "object":"Cognition",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":86,
+        "subject":"Repetitive Low-Level Blast Exposure",
+        "relation":"improves",
+        "object":"Social Behavior",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":86,
+        "subject":"Age at Exposure",
+        "relation":"modulates",
+        "object":"Effectiveness of Blast Exposure",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":86,
+        "subject":"Blast Exposure",
+        "relation":"affects",
+        "object":"Risk of Neurodegenerative Disease",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":96,
+        "subject":"Blast Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Retinal Ganglion Cell Damage",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":96,
+        "subject":"Blast Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Optic Nerve Damage",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":96,
+        "subject":"Genetic Susceptibility",
+        "relation":"increases_sensitivity_to",
+        "object":"Blast Traumatic Brain Injury",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":96,
+        "subject":"Blast Traumatic Brain Injury",
+        "relation":"increases",
+        "object":"Optic Nerve Damage",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":96,
+        "subject":"Blast Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Inflammation",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":96,
+        "subject":"Genetic Susceptibility",
+        "relation":"modulates",
+        "object":"Effects of Blast Traumatic Brain Injury",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":262,
+        "subject":"Blast Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Visual Deficits",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":262,
+        "subject":"Blast Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Bilateral Brain Injury",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":276,
+        "subject":"Blast Exposure",
+        "relation":"causes",
+        "object":"Tissue Damage",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":276,
+        "subject":"Blast Exposure",
+        "relation":"affects",
+        "object":"Neurodegenerative Disorders",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":276,
+        "subject":"Blast Exposure",
+        "relation":"influences",
+        "object":"Mechanical Variables",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":289,
+        "subject":"Blast Exposure",
+        "relation":"causes",
+        "object":"Inflammation",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":289,
+        "subject":"Blast Exposure",
+        "relation":"causes",
+        "object":"Neuroinflammation",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":295,
+        "subject":"Blast-Induced Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":302,
+        "subject":"Blast Exposure",
+        "relation":"causes",
+        "object":"Hippocampal Gene Expression Changes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":302,
+        "subject":"Blast Exposure",
+        "relation":"causes",
+        "object":"Dysregulation in Gene Ontology Terms",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":302,
+        "subject":"Blast Exposure",
+        "relation":"affects",
+        "object":"Cognitive Impairments",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":302,
+        "subject":"Blast Exposure",
+        "relation":"causes",
+        "object":"Mitochondrial Function Changes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":302,
+        "subject":"Blast Exposure",
+        "relation":"affects",
+        "object":"Protein Degradation Pathways",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":302,
+        "subject":"Blast Exposure",
+        "relation":"causes",
+        "object":"Intracellular Signaling Changes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":305,
+        "subject":"Blast Exposure",
+        "relation":"causes",
+        "object":"Neuropathological Abnormalities",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":305,
+        "subject":"Blast Exposure",
+        "relation":"causes",
+        "object":"Inflammation",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":305,
+        "subject":"Blast Exposure",
+        "relation":"causes",
+        "object":"Central Nervous System Injury",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":322,
+        "subject":"Blast Exposure",
+        "relation":"causes",
+        "object":"Auditory System Damage",
+        "entity_variants":"auditory system"
+    },
+    {
+        "source_abstract_id":365,
+        "subject":"Blast Injury",
+        "relation":"increases",
+        "object":"Neuroinflammation",
+        "entity_variants":"neuroinflammatory markers"
+    },
+    {
+        "source_abstract_id":365,
+        "subject":"Blast Injury",
+        "relation":"reduces",
+        "object":"Visual Acuity",
+        "entity_variants":"visual function"
+    },
+    {
+        "source_abstract_id":365,
+        "subject":"Blast Injury",
+        "relation":"increases",
+        "object":"Contrast Sensitivity",
+        "entity_variants":"contrast sensitivity requirements"
+    },
+    {
+        "source_abstract_id":365,
+        "subject":"Blast Injury",
+        "relation":"causes",
+        "object":"Neuroinflammatory Marker Expression",
+        "entity_variants":"neuroinflammatory genes"
+    },
+    {
+        "source_abstract_id":384,
+        "subject":"Repeated Blast Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Behavioral Deficits",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":384,
+        "subject":"Repeated Blast Traumatic Brain Injury",
+        "relation":"does_not_cause",
+        "object":"Neuropathology",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":384,
+        "subject":"Blast Injury",
+        "relation":"causes",
+        "object":"Recognition Memory Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":385,
+        "subject":"Blast Exposure",
+        "relation":"causes",
+        "object":"Blood-Brain Barrier Disruption",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":385,
+        "subject":"Blast Exposure",
+        "relation":"causes",
+        "object":"Behavioral Deficits",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":386,
+        "subject":"Blast Injury",
+        "relation":"causes",
+        "object":"Blood-Brain Barrier Disruption",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":386,
+        "subject":"Repeated Blast Exposure",
+        "relation":"causes",
+        "object":"Neuroinflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":386,
+        "subject":"Repeated Blast Exposure",
+        "relation":"causes",
+        "object":"Vascular Changes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":392,
+        "subject":"Blast Injury",
+        "relation":"causes",
+        "object":"Electroencephalogram Pattern Changes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":398,
+        "subject":"Blast Wave",
+        "relation":"causes",
+        "object":"Blood-Brain Barrier Disruption",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":398,
+        "subject":"Blast Wave",
+        "relation":"causes",
+        "object":"Reactive Astrogliosis",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":398,
+        "subject":"Blast Wave",
+        "relation":"causes",
+        "object":"Microglial Activation",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":398,
+        "subject":"Blast Wave",
+        "relation":"causes",
+        "object":"Gliovascular Changes",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":398,
+        "subject":"Blast Wave",
+        "relation":"causes",
+        "object":"Neuroinflammation",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":398,
+        "subject":"Blast Wave",
+        "relation":"affects",
+        "object":"Gliosis",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":403,
+        "subject":"Blast Injury",
+        "relation":"causes",
+        "object":"Acute Cell Damage",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":409,
+        "subject":"Blast Injury",
+        "relation":"causes",
+        "object":"Vestibulomotor Disturbances",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":262,
+        "subject":"Repeat Blast Injury",
+        "relation":"causes",
+        "object":"Axonal Degeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":276,
+        "subject":"Blast Exposure",
+        "relation":"causes",
+        "object":"Oxidative Stress",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":265,
+        "subject":"Environmental Enrichment",
+        "relation":"upregulates",
+        "object":"REM Sleep",
+        "entity_variants":"none|"
+    },
+    {
+        "source_abstract_id":265,
+        "subject":"Environmental Enrichment",
+        "relation":"modulates",
+        "object":"Expression of Sleep-Modulatory Peptides",
+        "entity_variants":"none|"
+    },
+    {
+        "source_abstract_id":265,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Increased Sleep Requirement",
+        "entity_variants":"none|"
+    },
+    {
+        "source_abstract_id":344,
+        "subject":"Sleep Modulation",
+        "relation":"upregulates",
+        "object":"Slow Wave Activity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":344,
+        "subject":"Sleep Modulation",
+        "relation":"reduces",
+        "object":"Diffuse Axonal Injury",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":344,
+        "subject":"Sleep Modulation",
+        "relation":"improves",
+        "object":"Memory Outcome",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":344,
+        "subject":"Sleep Modulation",
+        "relation":"mediates",
+        "object":"Cognitive Outcome",
+        "entity_variants":null
+    }
+]

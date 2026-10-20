@@ -1,0 +1,133 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 5,
+    "edge_count": 4
+  },
+  "nodes": [
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "Traumatic Brain Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111"
+      },
+      "synonyms": [
+        "TBI",
+        "Repetitive Traumatic Brain Injury",
+        "Mild Traumatic Brain Injury",
+        "Repeated Mild Traumatic Brain Injury"
+      ]
+    },
+    {
+      "id": "OxidativeStress",
+      "label": "Oxidative Stress",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0029929",
+        "GO_ID": "GO:0006979"
+      },
+      "synonyms": [
+        "Oxidative damage",
+        "Oxidative injury"
+      ]
+    },
+    {
+      "id": "ReactiveOxygenSpecies",
+      "label": "Reactive Oxygen Species",
+      "type": "Chemical",
+      "location": "Mitochondria",
+      "identifiers": {
+        "ChEBI_ID": "CHEBI:26523",
+        "UMLS_CUI": "C0034921"
+      },
+      "synonyms": [
+        "ROS",
+        "Oxygen radicals"
+      ]
+    },
+    {
+      "id": "LipidPeroxidation",
+      "label": "Lipid Peroxidation",
+      "type": "Process",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "UMLS_CUI": "C0023779",
+        "GO_ID": "GO:0034446"
+      },
+      "synonyms": [
+        "Lipid Peroxidation Products"
+      ]
+    },
+    {
+      "id": "VascularInjury",
+      "label": "Vascular Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0149514"
+      },
+      "synonyms": [
+        "Focal Vascular Injury"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "OxidativeStress",
+      "mechanism": "causes",
+      "evidence_ref": [
+        53,
+        69,
+        135,
+        147,
+        161,
+        170,
+        175,
+        187,
+        197,
+        278,
+        326,
+        355,
+        363
+      ],
+      "confidence": "High",
+      "metadata": "Context: Includes Repetitive and Mild forms"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "ReactiveOxygenSpecies",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        239
+      ],
+      "confidence": "High",
+      "metadata": "Effect: Increased levels"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "LipidPeroxidation",
+      "mechanism": "causes",
+      "evidence_ref": [
+        239,
+        240
+      ],
+      "confidence": "High",
+      "metadata": "Context: Production of lipid peroxidation products"
+    },
+    {
+      "source": "VascularInjury",
+      "target": "OxidativeStress",
+      "mechanism": "causes",
+      "evidence_ref": [
+        385
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Focal injury"
+    }
+  ]
+}

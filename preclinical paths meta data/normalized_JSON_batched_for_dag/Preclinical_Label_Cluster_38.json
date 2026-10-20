@@ -1,0 +1,247 @@
+[
+    {
+        "source_abstract_id":296,
+        "subject":"Brain Injury",
+        "relation":"causes",
+        "object":"Impaired Mitophagy",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":28,
+        "subject":"memantine",
+        "relation":"reduces",
+        "object":"tau_hyperphosphorylation",
+        "entity_variants":"NMDAR_antagonist|"
+    },
+    {
+        "source_abstract_id":28,
+        "subject":"memantine",
+        "relation":"reduces",
+        "object":"glial_activation",
+        "entity_variants":"NMDAR_antagonist|"
+    },
+    {
+        "source_abstract_id":28,
+        "subject":"memantine",
+        "relation":"improves",
+        "object":"long_term_potentiation",
+        "entity_variants":"NMDAR_antagonist|"
+    },
+    {
+        "source_abstract_id":28,
+        "subject":"memantine",
+        "relation":"no_effect_on",
+        "object":"behavioral_outcomes",
+        "entity_variants":"NMDAR_antagonist|"
+    },
+    {
+        "source_abstract_id":28,
+        "subject":"memantine",
+        "relation":"may_improve",
+        "object":"histopathological_outcomes",
+        "entity_variants":"NMDAR_antagonist|"
+    },
+    {
+        "source_abstract_id":28,
+        "subject":"NMDAR_antagonist",
+        "relation":"targets",
+        "object":"glutamatergic_toxicity",
+        "entity_variants":"NMDAR_antagonist|"
+    },
+    {
+        "source_abstract_id":28,
+        "subject":"NMDAR_antagonist",
+        "relation":"may_mitigate",
+        "object":"neurologic_deficits",
+        "entity_variants":"NMDAR_antagonist|"
+    },
+    {
+        "source_abstract_id":128,
+        "subject":"Morin+MK-801",
+        "relation":"ameliorates",
+        "object":"neuronal_survival",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":150,
+        "subject":"p38α MAPK",
+        "relation":"downregulates",
+        "object":"inflammatory_monocyte_recruitment",
+        "entity_variants":"not applicable|"
+    },
+    {
+        "source_abstract_id":256,
+        "subject":"minocycline",
+        "relation":"reduces",
+        "object":"microglial_activation",
+        "entity_variants":"not applicable|"
+    },
+    {
+        "source_abstract_id":256,
+        "subject":"minocycline",
+        "relation":"reduces",
+        "object":"monocyte_infiltration",
+        "entity_variants":"not applicable|"
+    },
+    {
+        "source_abstract_id":256,
+        "subject":"minocycline",
+        "relation":"reduces",
+        "object":"hippocampal_neuronal_loss",
+        "entity_variants":"not applicable|"
+    },
+    {
+        "source_abstract_id":256,
+        "subject":"minocycline",
+        "relation":"reduces",
+        "object":"hippocampal_neurodegeneration",
+        "entity_variants":"not applicable|"
+    },
+    {
+        "source_abstract_id":256,
+        "subject":"minocycline",
+        "relation":"preserves",
+        "object":"white_matter_myelination",
+        "entity_variants":"not applicable|"
+    },
+    {
+        "source_abstract_id":256,
+        "subject":"minocycline",
+        "relation":"improves",
+        "object":"fear_memory_performance",
+        "entity_variants":"not applicable|"
+    },
+    {
+        "source_abstract_id":256,
+        "subject":"minocycline",
+        "relation":"mediates",
+        "object":"neuroprotective_effects",
+        "entity_variants":"not applicable|"
+    },
+    {
+        "source_abstract_id":272,
+        "subject":"midkine",
+        "relation":"downregulates",
+        "object":"neuroinflammation",
+        "entity_variants":"not applicable|"
+    },
+    {
+        "source_abstract_id":272,
+        "subject":"midkine",
+        "relation":"reduces",
+        "object":"neuronal_apoptosis",
+        "entity_variants":"not applicable|"
+    },
+    {
+        "source_abstract_id":272,
+        "subject":"midkine",
+        "relation":"reduces",
+        "object":"brain_tissue_loss",
+        "entity_variants":"not applicable|"
+    },
+    {
+        "source_abstract_id":272,
+        "subject":"midkine",
+        "relation":"upregulates",
+        "object":"M1_microglia",
+        "entity_variants":"not applicable|"
+    },
+    {
+        "source_abstract_id":272,
+        "subject":"midkine",
+        "relation":"downregulates",
+        "object":"M2_microglia",
+        "entity_variants":"not applicable|"
+    },
+    {
+        "source_abstract_id":272,
+        "subject":"midkine",
+        "relation":"affects",
+        "object":"neurological_deficits",
+        "entity_variants":"not applicable|"
+    },
+    {
+        "source_abstract_id":272,
+        "subject":"midkine",
+        "relation":"modulates",
+        "object":"immune_response",
+        "entity_variants":"not applicable|"
+    },
+    {
+        "source_abstract_id":272,
+        "subject":"midkine",
+        "relation":"reduces",
+        "object":"microglial_infiltration",
+        "entity_variants":"not applicable|"
+    },
+    {
+        "source_abstract_id":272,
+        "subject":"midkine",
+        "relation":"influences",
+        "object":"astrocytosis",
+        "entity_variants":"not applicable|"
+    },
+    {
+        "source_abstract_id":272,
+        "subject":"midkine",
+        "relation":"affects",
+        "object":"microglial_response",
+        "entity_variants":"not applicable|"
+    },
+    {
+        "source_abstract_id":296,
+        "subject":"IGF-1R",
+        "relation":"regulates",
+        "object":"mitophagy",
+        "entity_variants":"not applicable|"
+    },
+    {
+        "source_abstract_id":296,
+        "subject":"IGF-1",
+        "relation":"facilitates",
+        "object":"mitophagy_markers",
+        "entity_variants":"not applicable|"
+    },
+    {
+        "source_abstract_id":312,
+        "subject":"MK-801",
+        "relation":"opposes",
+        "object":"inflammatory_proteins",
+        "entity_variants":"not applicable|"
+    },
+    {
+        "source_abstract_id":312,
+        "subject":"MK-801",
+        "relation":"enhances",
+        "object":"neuroprotective_effect",
+        "entity_variants":"not applicable|"
+    },
+    {
+        "source_abstract_id":383,
+        "subject":"minocycline",
+        "relation":"upregulates",
+        "object":"axonal_repair",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":383,
+        "subject":"minocycline",
+        "relation":"binds_to",
+        "object":"varicosities",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":383,
+        "subject":"minocycline",
+        "relation":"resolves",
+        "object":"varicosities",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":383,
+        "subject":"minocycline",
+        "relation":"mediates",
+        "object":"neuroprotection",
+        "entity_variants":null
+    }
+]

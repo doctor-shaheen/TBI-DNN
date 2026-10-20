@@ -1,0 +1,486 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 23,
+    "edge_count": 19
+  },
+  "nodes": [
+    {
+      "id": "Inflammation",
+      "label": "Inflammation",
+      "type": "Process",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0021368"
+      },
+      "synonyms": [
+        "Systemic Inflammation"
+      ]
+    },
+    {
+      "id": "PatientOutcome",
+      "label": "Patient Outcome",
+      "type": "Concept",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0030675"
+      },
+      "synonyms": [
+        "Clinical Outcomes",
+        "Treatment Outcome",
+        "Functional Outcome"
+      ]
+    },
+    {
+      "id": "BiologicalSex",
+      "label": "Biological Sex",
+      "type": "Attribute",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0079399"
+      },
+      "synonyms": [
+        "Sex-Based Effects"
+      ]
+    },
+    {
+      "id": "InjurySeverity",
+      "label": "Injury Severity",
+      "type": "Concept",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0041755"
+      },
+      "synonyms": [
+        "Impact Severity",
+        "Acute Injury Severity",
+        "Initial Injury Severity"
+      ]
+    },
+    {
+      "id": "SpeechTherapy",
+      "label": "Speech Therapy",
+      "type": "Procedure",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0037913"
+      },
+      "synonyms": [
+        "Self-Administered Naming Treatment"
+      ]
+    },
+    {
+      "id": "LanguageProficiency",
+      "label": "Language Proficiency",
+      "type": "Function",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0023012"
+      },
+      "synonyms": [
+        "Naming Accuracy"
+      ]
+    },
+    {
+      "id": "PatientCharacteristic",
+      "label": "Patient Characteristic",
+      "type": "Concept",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0030704"
+      },
+      "synonyms": [
+        "Patient Factors"
+      ]
+    },
+    {
+      "id": "Biomarker",
+      "label": "Biomarker",
+      "type": "Concept",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0005516"
+      },
+      "synonyms": [
+        "In vivo signatures",
+        "Neuronal Injury Markers",
+        "Biomarkers of Neurodegeneration",
+        "Synaptic Biomarkers",
+        "Plasma Biomarkers",
+        "Serum Proteins"
+      ]
+    },
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "Traumatic Brain Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111"
+      },
+      "synonyms": [
+        "Pathological brain lesions",
+        "Severe Parenchymal Injury"
+      ]
+    },
+    {
+      "id": "SubstanceRelatedDisorders",
+      "label": "Substance Related Disorders",
+      "type": "Disease",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0038601"
+      },
+      "synonyms": [
+        "Substance Use Severity"
+      ]
+    },
+    {
+      "id": "CognitiveImpairment",
+      "label": "Cognitive Impairment",
+      "type": "Symptom",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0338656"
+      },
+      "synonyms": [
+        "Cognitive Difficulties"
+      ]
+    },
+    {
+      "id": "SubstanceAbuseTreatment",
+      "label": "Substance Abuse Treatment",
+      "type": "Procedure",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0086975"
+      },
+      "synonyms": [
+        "Substance Use Treatment"
+      ]
+    },
+    {
+      "id": "Symptom",
+      "label": "Symptom",
+      "type": "Concept",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C1457887"
+      },
+      "synonyms": [
+        "Clinical Symptoms",
+        "Adverse Symptoms",
+        "Symptom Severity"
+      ]
+    },
+    {
+      "id": "FunctionalStatus",
+      "label": "Functional Status",
+      "type": "Concept",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0598463"
+      },
+      "synonyms": [
+        "Functional Ability",
+        "Functional Impairment"
+      ]
+    },
+    {
+      "id": "DiseaseProgression",
+      "label": "Disease Progression",
+      "type": "Process",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0242656"
+      },
+      "synonyms": [
+        "Risk of Clinical Downgrade"
+      ]
+    },
+    {
+      "id": "MicroRNA",
+      "label": "MicroRNA",
+      "type": "GeneFamily",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "UMLS_CUI": "C0596349"
+      },
+      "synonyms": [
+        "Salivary MicroRNAs"
+      ]
+    },
+    {
+      "id": "CellularSenescence",
+      "label": "Cellular Senescence",
+      "type": "Process",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "UMLS_CUI": "C0007587"
+      },
+      "synonyms": [
+        "Cellular Senescence Pathways"
+      ]
+    },
+    {
+      "id": "PostTraumaticStressDisorder",
+      "label": "Post Traumatic Stress Disorder",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0038436"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Neuropathology",
+      "label": "Neuropathology",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027871"
+      },
+      "synonyms": [
+        "Neuropathological Endpoints"
+      ]
+    },
+    {
+      "id": "SYP",
+      "label": "SYP",
+      "type": "Protein",
+      "location": "Synapse",
+      "identifiers": {
+        "HGNC_ID": "HGNC:11510",
+        "UMLS_CUI": "C0039063"
+      },
+      "synonyms": [
+        "Synaptophysin"
+      ]
+    },
+    {
+      "id": "Neuron",
+      "label": "Neuron",
+      "type": "Cell",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027882"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Neurodegeneration",
+      "label": "Neurodegeneration",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027725"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Atrophy",
+      "label": "Atrophy",
+      "type": "Pathology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0004245"
+      },
+      "synonyms": [
+        "Subcortical Atrophy"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "Inflammation",
+      "target": "PatientOutcome",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        108
+      ],
+      "confidence": "High",
+      "metadata": "Effect on Clinical and Treatment Outcomes"
+    },
+    {
+      "source": "BiologicalSex",
+      "target": "InjurySeverity",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        117
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Impact Severity"
+    },
+    {
+      "source": "SpeechTherapy",
+      "target": "LanguageProficiency",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        238
+      ],
+      "confidence": "High",
+      "metadata": "Context: Naming Accuracy"
+    },
+    {
+      "source": "PatientCharacteristic",
+      "target": "SpeechTherapy",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        238
+      ],
+      "confidence": "Medium",
+      "metadata": "Constraint: Limits treatment effectiveness"
+    },
+    {
+      "source": "Biomarker",
+      "target": "TraumaticBrainInjury",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        273
+      ],
+      "confidence": "High",
+      "metadata": "Context: Pathological brain lesions"
+    },
+    {
+      "source": "SubstanceRelatedDisorders",
+      "target": "CognitiveImpairment",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        337
+      ],
+      "confidence": "High",
+      "metadata": "Context: Cognitive Difficulties"
+    },
+    {
+      "source": "SubstanceAbuseTreatment",
+      "target": "Symptom",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        337
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Clinical Symptoms"
+    },
+    {
+      "source": "SubstanceAbuseTreatment",
+      "target": "FunctionalStatus",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        337
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Functional Ability"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "DiseaseProgression",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        585
+      ],
+      "confidence": "High",
+      "metadata": "Context: Risk of Clinical Downgrade from Severe Parenchymal Injury"
+    },
+    {
+      "source": "MicroRNA",
+      "target": "CellularSenescence",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        488
+      ],
+      "confidence": "High",
+      "metadata": "Context: Cellular Senescence Pathways"
+    },
+    {
+      "source": "InjurySeverity",
+      "target": "FunctionalStatus",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        135
+      ],
+      "confidence": "High",
+      "metadata": "Context: Functional Impairment associated with Acute Injury Severity"
+    },
+    {
+      "source": "InjurySeverity",
+      "target": "PatientOutcome",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        526
+      ],
+      "confidence": "High",
+      "metadata": "Context: Confounding factor for Functional Outcome"
+    },
+    {
+      "source": "Inflammation",
+      "target": "Biomarker",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        108
+      ],
+      "confidence": "High",
+      "metadata": "Context: Levels of Neuronal Injury Markers"
+    },
+    {
+      "source": "Biomarker",
+      "target": "PostTraumaticStressDisorder",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        196
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Biomarkers of Neurodegeneration associated with PTSD"
+    },
+    {
+      "source": "SubstanceRelatedDisorders",
+      "target": "Neuropathology",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        337
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Neuropathological Endpoints"
+    },
+    {
+      "source": "SubstanceAbuseTreatment",
+      "target": "Neuropathology",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        337
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Negative association with Neuropathological Endpoints"
+    },
+    {
+      "source": "SYP",
+      "target": "Neuron",
+      "mechanism": "binds",
+      "evidence_ref": [
+        386
+      ],
+      "confidence": "High",
+      "metadata": "Context: Synaptophysin binding/localization"
+    },
+    {
+      "source": "Biomarker",
+      "target": "Neurodegeneration",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        620
+      ],
+      "confidence": "High",
+      "metadata": "Context: Plasma biomarkers"
+    },
+    {
+      "source": "Atrophy",
+      "target": "PatientOutcome",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        135
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Subcortical Atrophy associated with Functional Outcome"
+    }
+  ]
+}

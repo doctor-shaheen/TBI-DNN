@@ -1,0 +1,354 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 14,
+    "edge_count": 13
+  },
+  "nodes": [
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "Traumatic Brain Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111",
+        "MeSH": "D001930"
+      },
+      "synonyms": [
+        "TBI",
+        "Mild Traumatic Brain Injury",
+        "Closed Head Injury",
+        "Impact Injury",
+        "5X Traumatic Brain Injury"
+      ]
+    },
+    {
+      "id": "DiffuseAxonalInjury",
+      "label": "Diffuse Axonal Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0004558"
+      },
+      "synonyms": [
+        "DAI"
+      ]
+    },
+    {
+      "id": "ThoracicInjury",
+      "label": "Thoracic Injury",
+      "type": "Disease",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0039980"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "NucleocytoplasmicTransport",
+      "label": "Nucleocytoplasmic Transport",
+      "type": "Process",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "GO": "GO:0006913"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "BehavioralDeficit",
+      "label": "Behavioral Symptoms",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0004936"
+      },
+      "synonyms": [
+        "Behavioral Outcomes",
+        "Neurobehavioral Deficits",
+        "Behavioral Changes",
+        "Behavioral Abnormalities"
+      ]
+    },
+    {
+      "id": "SecondaryBrainInjury",
+      "label": "Secondary Brain Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0596366"
+      },
+      "synonyms": [
+        "Chronic Secondary Brain Injury",
+        "Secondary Brain Damage"
+      ]
+    },
+    {
+      "id": "ClinicalOutcome",
+      "label": "Clinical Outcomes",
+      "type": "Concept",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0030678"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "CognitiveImpairment",
+      "label": "Cognitive Impairment",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0009241"
+      },
+      "synonyms": [
+        "Cognitive Decline",
+        "Cognitive Deficits",
+        "Neurocognitive Disorders",
+        "Cognitive Dysfunction"
+      ]
+    },
+    {
+      "id": "Leukopenia",
+      "label": "Leukopenia",
+      "type": "Disease",
+      "location": "Blood",
+      "identifiers": {
+        "UMLS_CUI": "C0023530"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Dementia",
+      "label": "Dementia",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0497327"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "NeurologicDeficit",
+      "label": "Neurologic Deficits",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027769"
+      },
+      "synonyms": [
+        "Neurological Decline",
+        "Long-Term Neurological Disability"
+      ]
+    },
+    {
+      "id": "FunctionalImpairment",
+      "label": "Functional Impairment",
+      "type": "Disease",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0598687"
+      },
+      "synonyms": [
+        "Functional Deficits"
+      ]
+    },
+    {
+      "id": "ZincDeficiency",
+      "label": "Zinc Deficiency",
+      "type": "Disease",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0043485"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "NeuropsychologicalDeficit",
+      "label": "Neuropsychological Deficit",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0424075"
+      },
+      "synonyms": [
+        "Neuropsychological Impairments"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "NucleocytoplasmicTransport",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        13
+      ],
+      "confidence": "Medium",
+      "metadata": "Effect: Causes defects"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "BehavioralDeficit",
+      "mechanism": "causes",
+      "evidence_ref": [
+        5,
+        33,
+        38,
+        46,
+        54,
+        87,
+        102,
+        123,
+        124,
+        175,
+        334,
+        355
+      ],
+      "confidence": "High",
+      "metadata": "Context: Includes Mild TBI and Impact Injury"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "SecondaryBrainInjury",
+      "mechanism": "causes",
+      "evidence_ref": [
+        55,
+        297,
+        372
+      ],
+      "confidence": "High",
+      "metadata": "Context: Chronic outcomes"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "ClinicalOutcome",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        55,
+        248
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Worsens outcomes"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "CognitiveImpairment",
+      "mechanism": "causes",
+      "evidence_ref": [
+        41,
+        59,
+        61,
+        102,
+        104,
+        129,
+        141,
+        168,
+        170,
+        171,
+        194,
+        204,
+        207,
+        209,
+        226,
+        241,
+        266,
+        288,
+        298,
+        301,
+        316,
+        344,
+        360,
+        366
+      ],
+      "confidence": "Very High",
+      "metadata": "Includes neurocognitive disorders and decline"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Leukopenia",
+      "mechanism": "causes",
+      "evidence_ref": [
+        187,
+        363
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Dementia",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        24
+      ],
+      "confidence": "Medium",
+      "metadata": "Relation: associated_with"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "NeurologicDeficit",
+      "mechanism": "causes",
+      "evidence_ref": [
+        64,
+        81,
+        187,
+        203
+      ],
+      "confidence": "High",
+      "metadata": "Context: Long-term disability"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "FunctionalImpairment",
+      "mechanism": "causes",
+      "evidence_ref": [
+        74,
+        83,
+        184
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "ZincDeficiency",
+      "mechanism": "causes",
+      "evidence_ref": [
+        243
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "NeuropsychologicalDeficit",
+      "mechanism": "causes",
+      "evidence_ref": [
+        238
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "DiffuseAxonalInjury",
+      "target": "CognitiveImpairment",
+      "mechanism": "causes",
+      "evidence_ref": [
+        344
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "ThoracicInjury",
+      "target": "BehavioralDeficit",
+      "mechanism": "causes",
+      "evidence_ref": [
+        393
+      ],
+      "confidence": "Low",
+      "metadata": "Context: Behavioral Abnormalities"
+    }
+  ]
+}

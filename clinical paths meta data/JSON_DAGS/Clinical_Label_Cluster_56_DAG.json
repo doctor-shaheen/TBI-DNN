@@ -1,0 +1,1081 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 55,
+    "edge_count": 52
+  },
+  "nodes": [
+    {
+      "id": "TAC1",
+      "label": "TAC1",
+      "type": "Protein",
+      "location": "Neuron",
+      "identifiers": {
+        "HGNC_ID": "HGNC:11516",
+        "UMLS_CUI": "C0038555"
+      },
+      "synonyms": [
+        "Substance P",
+        "Protachykinin-1"
+      ]
+    },
+    {
+      "id": "TACR1",
+      "label": "TACR1",
+      "type": "Protein",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "HGNC_ID": "HGNC:11526",
+        "UMLS_CUI": "C0039232"
+      },
+      "synonyms": [
+        "NK1 Receptor",
+        "Neurokinin 1 Receptor"
+      ]
+    },
+    {
+      "id": "Neurokinin1ReceptorAntagonist",
+      "label": "Neurokinin-1 Receptor Antagonist",
+      "type": "Chemical_Class",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0027877"
+      },
+      "synonyms": [
+        "NK1 Antagonist"
+      ]
+    },
+    {
+      "id": "NeurologicDeficits",
+      "label": "Neurologic Deficits",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0521654"
+      },
+      "synonyms": [
+        "Neurological Outcome",
+        "Neurological Deficits"
+      ]
+    },
+    {
+      "id": "NFE2L2",
+      "label": "NFE2L2",
+      "type": "Protein",
+      "location": "Nucleus",
+      "identifiers": {
+        "HGNC_ID": "HGNC:7782",
+        "UMLS_CUI": "C1417534"
+      },
+      "synonyms": [
+        "Nrf2"
+      ]
+    },
+    {
+      "id": "FTH1",
+      "label": "FTH1",
+      "type": "Protein",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "HGNC_ID": "HGNC:3999",
+        "UMLS_CUI": "C0015907"
+      },
+      "synonyms": [
+        "Ferritin Heavy Chain"
+      ]
+    },
+    {
+      "id": "N-Acetylserotonin",
+      "label": "N-Acetylserotonin",
+      "type": "Chemical",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "ChEBI_ID": "CHEBI:18260",
+        "UMLS_CUI": "C0027329"
+      },
+      "synonyms": [
+        "NAS"
+      ]
+    },
+    {
+      "id": "Deferoxamine",
+      "label": "Deferoxamine",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "ChEBI_ID": "CHEBI:4188",
+        "UMLS_CUI": "C0011153"
+      },
+      "synonyms": [
+        "Desferrioxamine"
+      ]
+    },
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "Traumatic Brain Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111"
+      },
+      "synonyms": [
+        "TBI",
+        "Repetitive Head Injury",
+        "Mild TBI"
+      ]
+    },
+    {
+      "id": "SubarachnoidHemorrhage",
+      "label": "Subarachnoid Hemorrhage",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0038525"
+      },
+      "synonyms": [
+        "SAH"
+      ]
+    },
+    {
+      "id": "TF",
+      "label": "TF",
+      "type": "Protein",
+      "location": "Blood",
+      "identifiers": {
+        "HGNC_ID": "HGNC:11740",
+        "UMLS_CUI": "C0040742"
+      },
+      "synonyms": [
+        "Serotransferrin",
+        "Transferrin"
+      ]
+    },
+    {
+      "id": "Autoantibodies",
+      "label": "Autoantibodies",
+      "type": "Protein",
+      "location": "Blood",
+      "identifiers": {
+        "UMLS_CUI": "C0004358"
+      },
+      "synonyms": [
+        "Neurotoxic Autoantibodies"
+      ]
+    },
+    {
+      "id": "NeuriteRetraction",
+      "label": "Neurite Retraction",
+      "type": "Process",
+      "location": "Neuron",
+      "identifiers": {
+        "GO_ID": "GO:0010565"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Prazosin",
+      "label": "Prazosin",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "ChEBI_ID": "CHEBI:8363",
+        "UMLS_CUI": "C0032906"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Volinanserin",
+      "label": "Volinanserin",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "ChEBI_ID": "CHEBI:135540",
+        "UMLS_CUI": "C0210204"
+      },
+      "synonyms": [
+        "M100907"
+      ]
+    },
+    {
+      "id": "ContactSports",
+      "label": "Contact Sports",
+      "type": "Process",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "UMLS_CUI": "C0920556"
+      },
+      "synonyms": [
+        "Collision Sports"
+      ]
+    },
+    {
+      "id": "BDNF",
+      "label": "BDNF",
+      "type": "Protein",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "HGNC_ID": "HGNC:1033",
+        "UMLS_CUI": "C0006093"
+      },
+      "synonyms": [
+        "Brain-Derived Neurotrophic Factor"
+      ]
+    },
+    {
+      "id": "TSPO",
+      "label": "TSPO",
+      "type": "Protein",
+      "location": "Mitochondria",
+      "identifiers": {
+        "HGNC_ID": "HGNC:1149",
+        "UMLS_CUI": "C0056636"
+      },
+      "synonyms": [
+        "Translocator Protein"
+      ]
+    },
+    {
+      "id": "BlastInjury",
+      "label": "Blast Injury",
+      "type": "Disease",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0005720"
+      },
+      "synonyms": [
+        "Military Exposure"
+      ]
+    },
+    {
+      "id": "CD81",
+      "label": "CD81",
+      "type": "Protein",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "HGNC_ID": "HGNC:1701",
+        "UMLS_CUI": "C1413155"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "RASL10A",
+      "label": "RASL10A",
+      "type": "Protein",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "HGNC_ID": "HGNC:16954",
+        "UMLS_CUI": "C1422784"
+      },
+      "synonyms": [
+        "Ras-related Small GTPase 10",
+        "RASD1"
+      ]
+    },
+    {
+      "id": "ANXA7",
+      "label": "ANXA7",
+      "type": "Protein",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "HGNC_ID": "HGNC:545",
+        "UMLS_CUI": "C1412530"
+      },
+      "synonyms": [
+        "Annexin VII"
+      ]
+    },
+    {
+      "id": "CLDN5",
+      "label": "CLDN5",
+      "type": "Protein",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "HGNC_ID": "HGNC:2047",
+        "UMLS_CUI": "C1413410"
+      },
+      "synonyms": [
+        "Claudin-5"
+      ]
+    },
+    {
+      "id": "SLC12A2",
+      "label": "SLC12A2",
+      "type": "Protein",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "HGNC_ID": "HGNC:10911",
+        "UMLS_CUI": "C1420173"
+      },
+      "synonyms": [
+        "Sodium-Potassium-Chloride Cotransporter 1",
+        "NKCC1"
+      ]
+    },
+    {
+      "id": "AQP4",
+      "label": "AQP4",
+      "type": "Protein",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "HGNC_ID": "HGNC:637",
+        "UMLS_CUI": "C0812265"
+      },
+      "synonyms": [
+        "Aquaporin-4"
+      ]
+    },
+    {
+      "id": "TRPV1",
+      "label": "TRPV1",
+      "type": "Protein",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "HGNC_ID": "HGNC:12716",
+        "UMLS_CUI": "C1420722"
+      },
+      "synonyms": [
+        "TRPV1 Mechanoreceptor"
+      ]
+    },
+    {
+      "id": "IGF1",
+      "label": "IGF1",
+      "type": "Protein",
+      "location": "Astrocyte",
+      "identifiers": {
+        "HGNC_ID": "HGNC:5464",
+        "UMLS_CUI": "C0021720"
+      },
+      "synonyms": [
+        "Insulin-like Growth Factor 1"
+      ]
+    },
+    {
+      "id": "IGF1R",
+      "label": "IGF1R",
+      "type": "Protein",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "HGNC_ID": "HGNC:5465",
+        "UMLS_CUI": "C1415848"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Mitophagy",
+      "label": "Mitophagy",
+      "type": "Process",
+      "location": "Mitochondria",
+      "identifiers": {
+        "GO_ID": "GO:0000422"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "NFKB1",
+      "label": "NFKB1",
+      "type": "Protein",
+      "location": "Nucleus",
+      "identifiers": {
+        "HGNC_ID": "HGNC:7794",
+        "UMLS_CUI": "C1417539"
+      },
+      "synonyms": [
+        "Nuclear Factor-kappa B"
+      ]
+    },
+    {
+      "id": "DCP2",
+      "label": "DCP2",
+      "type": "Protein",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "HGNC_ID": "HGNC:18496",
+        "UMLS_CUI": "C1425129"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "CASP3",
+      "label": "CASP3",
+      "type": "Protein",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "HGNC_ID": "HGNC:1504",
+        "UMLS_CUI": "C1412999"
+      },
+      "synonyms": [
+        "Caspase-3"
+      ]
+    },
+    {
+      "id": "IntracranialPressure",
+      "label": "Intracranial Pressure",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0021874"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Morin",
+      "label": "Morin",
+      "type": "Chemical",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "ChEBI_ID": "CHEBI:28811",
+        "UMLS_CUI": "C0026569"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "TNF",
+      "label": "TNF",
+      "type": "Protein",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "HGNC_ID": "HGNC:11892",
+        "UMLS_CUI": "C0041368"
+      },
+      "synonyms": [
+        "Tumor Necrosis Factor-alpha"
+      ]
+    },
+    {
+      "id": "IL6",
+      "label": "IL6",
+      "type": "Protein",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "HGNC_ID": "HGNC:6018",
+        "UMLS_CUI": "C0021773"
+      },
+      "synonyms": [
+        "Interleukin-6"
+      ]
+    },
+    {
+      "id": "IL1B",
+      "label": "IL1B",
+      "type": "Protein",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "HGNC_ID": "HGNC:5992",
+        "UMLS_CUI": "C0021753"
+      },
+      "synonyms": [
+        "Interleukin-1 beta"
+      ]
+    },
+    {
+      "id": "BCL2",
+      "label": "BCL2",
+      "type": "Protein",
+      "location": "Mitochondria",
+      "identifiers": {
+        "HGNC_ID": "HGNC:990",
+        "UMLS_CUI": "C0004972"
+      },
+      "synonyms": [
+        "Bcl-2"
+      ]
+    },
+    {
+      "id": "WNT1",
+      "label": "WNT1",
+      "type": "Protein",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "HGNC_ID": "HGNC:12774",
+        "UMLS_CUI": "C1421466"
+      },
+      "synonyms": [
+        "Non-canonical Wnt"
+      ]
+    },
+    {
+      "id": "PRKCA",
+      "label": "PRKCA",
+      "type": "Protein",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "HGNC_ID": "HGNC:9393",
+        "UMLS_CUI": "C1418721"
+      },
+      "synonyms": [
+        "Protein Kinase C alpha"
+      ]
+    },
+    {
+      "id": "IL10",
+      "label": "IL10",
+      "type": "Protein",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "HGNC_ID": "HGNC:5962",
+        "UMLS_CUI": "C0021791"
+      },
+      "synonyms": [
+        "Interleukin-10"
+      ]
+    },
+    {
+      "id": "JAK2",
+      "label": "JAK2",
+      "type": "Protein",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "HGNC_ID": "HGNC:6192",
+        "UMLS_CUI": "C1416398"
+      },
+      "synonyms": [
+        "Janus Kinase 2"
+      ]
+    },
+    {
+      "id": "STAT3",
+      "label": "STAT3",
+      "type": "Protein",
+      "location": "Nucleus",
+      "identifiers": {
+        "HGNC_ID": "HGNC:11364",
+        "UMLS_CUI": "C1420373"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "RPL29P31",
+      "label": "RPL29P31",
+      "type": "Protein",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "HGNC_ID": "HGNC:16538"
+      },
+      "synonyms": [
+        "p17",
+        "PERMIT"
+      ]
+    },
+    {
+      "id": "N-stearoylsphingosine",
+      "label": "N-stearoylsphingosine",
+      "type": "Chemical",
+      "location": "Mitochondria",
+      "identifiers": {
+        "ChEBI_ID": "CHEBI:17636"
+      },
+      "synonyms": [
+        "C18-Ceramide"
+      ]
+    },
+    {
+      "id": "CERS1",
+      "label": "CERS1",
+      "type": "Protein",
+      "location": "Mitochondria",
+      "identifiers": {
+        "HGNC_ID": "HGNC:20202",
+        "UMLS_CUI": "C1332766"
+      },
+      "synonyms": [
+        "Ceramide Synthase 1"
+      ]
+    },
+    {
+      "id": "LCL768",
+      "label": "LCL768",
+      "type": "Chemical",
+      "location": "Mitochondria",
+      "identifiers": {
+        "ChEBI_ID": "null"
+      },
+      "synonyms": [
+        "D-erythro-14-(1-pyridinium)-N-octadecanoyl-sphingosine selenite"
+      ]
+    },
+    {
+      "id": "OxidativeStress",
+      "label": "Oxidative Stress",
+      "type": "Process",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "UMLS_CUI": "C0029952"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "SIRT1",
+      "label": "SIRT1",
+      "type": "Protein",
+      "location": "Nucleus",
+      "identifiers": {
+        "HGNC_ID": "HGNC:11005",
+        "UMLS_CUI": "C1367503"
+      },
+      "synonyms": [
+        "Sirtuin 1"
+      ]
+    },
+    {
+      "id": "CellSurvival",
+      "label": "Cell Survival",
+      "type": "Process",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "UMLS_CUI": "C0597519"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "PRDX2",
+      "label": "PRDX2",
+      "type": "Protein",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "HGNC_ID": "HGNC:9353",
+        "UMLS_CUI": "C1418698"
+      },
+      "synonyms": [
+        "Peroxiredoxin-2"
+      ]
+    },
+    {
+      "id": "DNM1L",
+      "label": "DNM1L",
+      "type": "Protein",
+      "location": "Mitochondria",
+      "identifiers": {
+        "HGNC_ID": "HGNC:2975",
+        "UMLS_CUI": "C1414006"
+      },
+      "synonyms": [
+        "Dynamin-Related Protein 1",
+        "Drp1"
+      ]
+    },
+    {
+      "id": "MitochondrialFission",
+      "label": "Mitochondrial Fission",
+      "type": "Process",
+      "location": "Mitochondria",
+      "identifiers": {
+        "GO_ID": "GO:0000266"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "ReactiveOxygenSpecies",
+      "label": "Reactive Oxygen Species",
+      "type": "Chemical_Class",
+      "location": "Mitochondria",
+      "identifiers": {
+        "UMLS_CUI": "C0017641"
+      },
+      "synonyms": [
+        "ROS"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "TAC1",
+      "target": "TACR1",
+      "mechanism": "binds",
+      "evidence_ref": [
+        326
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "TRPV1",
+      "target": "TAC1",
+      "mechanism": "facilitates",
+      "evidence_ref": [
+        326
+      ],
+      "confidence": "High",
+      "metadata": "Context: Facilitates Release"
+    },
+    {
+      "source": "Neurokinin1ReceptorAntagonist",
+      "target": "NeurologicDeficits",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        326
+      ],
+      "confidence": "High",
+      "metadata": "Improves Outcome/Reduces Deficits"
+    },
+    {
+      "source": "NFE2L2",
+      "target": "FTH1",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        352
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "N-Acetylserotonin",
+      "target": "CellSurvival",
+      "mechanism": "activates",
+      "evidence_ref": [
+        352
+      ],
+      "confidence": "High",
+      "metadata": "Requires FTH1"
+    },
+    {
+      "source": "Deferoxamine",
+      "target": "TraumaticBrainInjury",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        352
+      ],
+      "confidence": "High",
+      "metadata": "Reverses susceptibility due to FTH1 deletion"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "TF",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        580
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "SubarachnoidHemorrhage",
+      "target": "TF",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        580
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "Autoantibodies",
+      "target": "NeuriteRetraction",
+      "mechanism": "causes",
+      "evidence_ref": [
+        583
+      ],
+      "confidence": "Medium",
+      "metadata": "Neurotoxic autoantibodies"
+    },
+    {
+      "source": "Prazosin",
+      "target": "NeuriteRetraction",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        583
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "Volinanserin",
+      "target": "NeuriteRetraction",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        583
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "TSPO",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        444
+      ],
+      "confidence": "High",
+      "metadata": "Repetitive Head Injury"
+    },
+    {
+      "source": "BlastInjury",
+      "target": "CD81",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        236
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "BlastInjury",
+      "target": "RASL10A",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        236
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "BlastInjury",
+      "target": "ANXA7",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        236
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "BlastInjury",
+      "target": "CLDN5",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        236
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "BlastInjury",
+      "target": "SLC12A2",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        236
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "BlastInjury",
+      "target": "AQP4",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        236
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "IGF1",
+      "target": "Mitophagy",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        426
+      ],
+      "confidence": "High",
+      "metadata": "Source: Astrocytes"
+    },
+    {
+      "source": "IGF1R",
+      "target": "Mitophagy",
+      "mechanism": "facilitates",
+      "evidence_ref": [
+        426
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "NFKB1",
+      "target": "DCP2",
+      "mechanism": "regulates",
+      "evidence_ref": [
+        426
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "CASP3",
+      "target": "NeurologicDeficits",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        434
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "IntracranialPressure",
+      "target": "CASP3",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        434
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "Morin",
+      "target": "TNF",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        442
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "Morin",
+      "target": "IL6",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        442
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "Morin",
+      "target": "IL1B",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        442
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "Morin",
+      "target": "CASP3",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        442
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "Morin",
+      "target": "BCL2",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        442
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "Morin",
+      "target": "WNT1",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        442
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "Morin",
+      "target": "PRKCA",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        442
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "Morin",
+      "target": "IL10",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        442
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "Morin",
+      "target": "JAK2",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        442
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "Morin",
+      "target": "STAT3",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        442
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "RPL29P31",
+      "target": "CERS1",
+      "mechanism": "transports",
+      "evidence_ref": [
+        457
+      ],
+      "confidence": "High",
+      "metadata": "Facilitates mitochondrial localization"
+    },
+    {
+      "source": "RPL29P31",
+      "target": "N-stearoylsphingosine",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        457
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "N-stearoylsphingosine",
+      "target": "Mitophagy",
+      "mechanism": "causes",
+      "evidence_ref": [
+        457
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "LCL768",
+      "target": "Mitophagy",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        457
+      ],
+      "confidence": "High",
+      "metadata": "Restores in p17/RPL29P31 KO"
+    },
+    {
+      "source": "N-stearoylsphingosine",
+      "target": "TraumaticBrainInjury",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        457
+      ],
+      "confidence": "High",
+      "metadata": "Reduces Secondary Complications"
+    },
+    {
+      "source": "OxidativeStress",
+      "target": "SIRT1",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        465
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "SIRT1",
+      "target": "CellSurvival",
+      "mechanism": "promotes",
+      "evidence_ref": [
+        465
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "SubarachnoidHemorrhage",
+      "target": "PRDX2",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        580
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "DNM1L",
+      "target": "MitochondrialFission",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        593
+      ],
+      "confidence": "High",
+      "metadata": "Phosphorylation: Ser616"
+    },
+    {
+      "source": "MitochondrialFission",
+      "target": "ReactiveOxygenSpecies",
+      "mechanism": "causes",
+      "evidence_ref": [
+        593
+      ],
+      "confidence": "High"
+    }
+  ]
+}

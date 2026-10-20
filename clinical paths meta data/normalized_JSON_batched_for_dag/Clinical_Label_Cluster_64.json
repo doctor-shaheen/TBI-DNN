@@ -1,0 +1,366 @@
+[
+    {
+        "source_abstract_id":28,
+        "subject":"Lower Baseline Mini-Mental State Examination Scores",
+        "relation":"associated_with",
+        "object":"Fast Cognitive Decliners",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":28,
+        "subject":"Shorter Illness Duration",
+        "relation":"associated_with",
+        "object":"Fast Cognitive Decliners",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":28,
+        "subject":"Cognitive Enhancer",
+        "relation":"associated_with",
+        "object":"Fast Cognitive Decliners",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":36,
+        "subject":"Poor Cognitive Outcome",
+        "relation":"associated_with",
+        "object":"Non-White Race",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":93,
+        "subject":"Cognitive Impairment",
+        "relation":"no_direct_causal_link",
+        "object":"Neurocognitive Performance",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":179,
+        "subject":"Cognitive Symptoms",
+        "relation":"associated_with",
+        "object":"Neuropsychiatric Symptoms",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":309,
+        "subject":"Education",
+        "relation":"confounds",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":349,
+        "subject":"Cognitive Impairment",
+        "relation":"affects",
+        "object":"Behavioral Symptom",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":363,
+        "subject":"Postdischarge Health Conditions",
+        "relation":"downregulates",
+        "object":"Cognitive Scores",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":382,
+        "subject":"Education",
+        "relation":"predicts",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":393,
+        "subject":"Psychiatric Disorders",
+        "relation":"affects",
+        "object":"Cognitive Symptoms",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":411,
+        "subject":"Group 2",
+        "relation":"exhibits",
+        "object":"Highest Subjective Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":452,
+        "subject":"Neuroinflammatory Markers",
+        "relation":"mediates",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":564,
+        "subject":"Vascular Health",
+        "relation":"causes",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":564,
+        "subject":"Metabolic Conditions",
+        "relation":"upregulates",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":597,
+        "subject":"Spatial Memory Impairments",
+        "relation":"affects",
+        "object":"Search Strategy Utilization",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":597,
+        "subject":"Search Strategy Utilization",
+        "relation":"reveals",
+        "object":"Cognitive Impairments",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":28,
+        "subject":"Cognitive Decline Subtypes",
+        "relation":"associated_with",
+        "object":"Clinical Experience",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":92,
+        "subject":"Cerebrovascular Reactivity",
+        "relation":"mediates",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":92,
+        "subject":"Cognitive Decline",
+        "relation":"associated_with",
+        "object":"Fine Motor Coordination Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":181,
+        "subject":"Cognitive Decline",
+        "relation":"mediates",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":202,
+        "subject":"Neurobehavioral Markers",
+        "relation":"influences",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":232,
+        "subject":"Social Support",
+        "relation":"prevents",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":289,
+        "subject":"Subjective Cognitive Decline",
+        "relation":"mediates",
+        "object":"Functional Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":296,
+        "subject":"Cognitive Decline",
+        "relation":"mediates",
+        "object":"Neuropsychological Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":411,
+        "subject":"Cognitive Decline",
+        "relation":"associated_with",
+        "object":"Everyday Functioning",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":452,
+        "subject":"Structural Brain Abnormalities",
+        "relation":"mediates",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":537,
+        "subject":"Smoking",
+        "relation":"no_direct_causal_link",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":561,
+        "subject":"Cognitive Decline",
+        "relation":"associated_with",
+        "object":"Memory Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":564,
+        "subject":"Cognitive Decline",
+        "relation":"mediates",
+        "object":"Morbidity Patterns",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":36,
+        "subject":"Cognitive Dysfunction",
+        "relation":"associated_with",
+        "object":"Psychological Distress",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":36,
+        "subject":"Cognitive Dysfunction",
+        "relation":"associated_with",
+        "object":"Quality of Life",
+        "entity_variants":"lower"
+    },
+    {
+        "source_abstract_id":36,
+        "subject":"Cognitive Dysfunction",
+        "relation":"associated_with",
+        "object":"Income",
+        "entity_variants":"lower"
+    },
+    {
+        "source_abstract_id":36,
+        "subject":"Cognitive Dysfunction",
+        "relation":"associated_with",
+        "object":"Health Insurance Coverage",
+        "entity_variants":"lack of"
+    },
+    {
+        "source_abstract_id":69,
+        "subject":"Cognitive Impairment",
+        "relation":"associated_with",
+        "object":"Subjective Complaints",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":163,
+        "subject":"Cognitive Deficits",
+        "relation":"no_direct_causal_link",
+        "object":"Cognitive Processes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":199,
+        "subject":"Cognitive Complaints",
+        "relation":"associated_with",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":199,
+        "subject":"Cognitive Complaints",
+        "relation":"correlates_with",
+        "object":"Psychological Distress",
+        "entity_variants":"mental"
+    },
+    {
+        "source_abstract_id":199,
+        "subject":"Cognitive Complaints",
+        "relation":"associated_with",
+        "object":"Concentration Problems",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":251,
+        "subject":"Demographic Variables",
+        "relation":"associated_with",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":345,
+        "subject":"Neurosurgical Procedures",
+        "relation":"predicts",
+        "object":"Cognitive Disability",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":349,
+        "subject":"Emotional Symptoms",
+        "relation":"correlates_with",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":397,
+        "subject":"Cognitive Disorder",
+        "relation":"mediates",
+        "object":"Cognitive Disorder",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":397,
+        "subject":"Cognitive Disorder",
+        "relation":"mediates",
+        "object":"Cognitive Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":397,
+        "subject":"Cognitive Disorder",
+        "relation":"associated_with",
+        "object":"Cognitive Disorder",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":397,
+        "subject":"Cognitive Disorder",
+        "relation":"mediates",
+        "object":"Cognitive Disorder",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":397,
+        "subject":"Cognitive Disorder",
+        "relation":"mediates",
+        "object":"Cognitive Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":462,
+        "subject":"Cognitive Deficits",
+        "relation":"predicts",
+        "object":"Long-Term Outcome",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":505,
+        "subject":"Disability Severity",
+        "relation":"associated_with",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":524,
+        "subject":"Cognitive Impairment",
+        "relation":"correlates_with",
+        "object":"Psychiatric Symptoms",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":562,
+        "subject":"Cognitive Impairment",
+        "relation":"correlates_with",
+        "object":"Disability",
+        "entity_variants":"severity of cognitive impairment"
+    },
+    {
+        "source_abstract_id":597,
+        "subject":"Search Strategy Utilization",
+        "relation":"affects",
+        "object":"Cognitive Deficits",
+        "entity_variants":null
+    }
+]

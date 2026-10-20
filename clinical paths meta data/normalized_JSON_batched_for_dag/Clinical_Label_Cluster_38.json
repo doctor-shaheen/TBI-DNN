@@ -1,0 +1,373 @@
+[
+    {
+        "source_abstract_id":0,
+        "subject":"Football Participation",
+        "relation":"causes",
+        "object":"Chronic Traumatic Encephalopathy",
+        "entity_variants":"N\/A|"
+    },
+    {
+        "source_abstract_id":16,
+        "subject":"Rugby Union Players",
+        "relation":"has_lower_all_cause_mortality_until_age",
+        "object":"70 years",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":52,
+        "subject":"Football Play Duration",
+        "relation":"causes",
+        "object":"Chronic Traumatic Encephalopathy",
+        "entity_variants":"chronic"
+    },
+    {
+        "source_abstract_id":93,
+        "subject":"Games Played",
+        "relation":"no_direct_causal_link",
+        "object":"Neurocognitive Performance",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":109,
+        "subject":"Frequent Head Impacts",
+        "relation":"causes",
+        "object":"Inhibitory Control Deficit",
+        "entity_variants":"varsity football players, healthy controls"
+    },
+    {
+        "source_abstract_id":144,
+        "subject":"Duration of Play",
+        "relation":"associated_with",
+        "object":"Chronic Traumatic Encephalopathy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":446,
+        "subject":"NFL Play History",
+        "relation":"causes",
+        "object":"Brain Atrophy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":446,
+        "subject":"NFL Play History",
+        "relation":"causes",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":493,
+        "subject":"Years Playing Professionally",
+        "relation":"not_causally_related_to",
+        "object":"Traumatic Encephalopathy Syndrome",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":617,
+        "subject":"Season of Sport Participation",
+        "relation":"evaluates",
+        "object":"Cognitive Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":626,
+        "subject":"Professional Career Length",
+        "relation":"no_direct_causal_link",
+        "object":"Motor Evoked Potentials",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":0,
+        "subject":"Football",
+        "relation":"causes",
+        "object":"Neuropathologic Severity",
+        "entity_variants":"N\/A|"
+    },
+    {
+        "source_abstract_id":0,
+        "subject":"Football",
+        "relation":"causes",
+        "object":"Chronic Traumatic Encephalopathy",
+        "entity_variants":"N\/A|"
+    },
+    {
+        "source_abstract_id":0,
+        "subject":"Football",
+        "relation":"causes",
+        "object":"Neuropathologic Diagnosis",
+        "entity_variants":"N\/A|"
+    },
+    {
+        "source_abstract_id":1,
+        "subject":"Duration of Playing Career",
+        "relation":"causes",
+        "object":"Chronic Traumatic Encephalopathy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":52,
+        "subject":"Football Play Duration",
+        "relation":"causes",
+        "object":"Chronic Traumatic Encephalopathy Severity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":52,
+        "subject":"Chronic Traumatic Encephalopathy",
+        "relation":"influences",
+        "object":"Likelihood of Playing Years",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":52,
+        "subject":"Football Play Duration",
+        "relation":"associated_with",
+        "object":"Chronic Traumatic Encephalopathy Risk",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":52,
+        "subject":"Football Play Duration",
+        "relation":"affects",
+        "object":"Neuropathologic Diagnosis",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":52,
+        "subject":"Football Play Duration",
+        "relation":"mediates",
+        "object":"Chronic Traumatic Encephalopathy Symptom Severity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":149,
+        "subject":"Soccer Heading",
+        "relation":"not_associated_with",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":149,
+        "subject":"Soccer Heading",
+        "relation":"not_associated_with",
+        "object":"Cognitive Performance",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":149,
+        "subject":"Players",
+        "relation":"not_associated_with",
+        "object":"Cognitive Performance",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":187,
+        "subject":"Game Participation",
+        "relation":"not_associated_with",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":211,
+        "subject":"Years of Football Play",
+        "relation":"not_associated_with",
+        "object":"Motor Outcomes",
+        "entity_variants":"years_played|"
+    },
+    {
+        "source_abstract_id":211,
+        "subject":"Position Played",
+        "relation":"not_associated_with",
+        "object":"Motor Outcomes",
+        "entity_variants":"position_played|"
+    },
+    {
+        "source_abstract_id":211,
+        "subject":"Level of Play",
+        "relation":"not_associated_with",
+        "object":"Motor Outcomes",
+        "entity_variants":"level_of_play|"
+    },
+    {
+        "source_abstract_id":285,
+        "subject":"Seasons of Professional Football",
+        "relation":"causes",
+        "object":"Cognition-Related Quality of Life",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":285,
+        "subject":"Playing Position",
+        "relation":"causes",
+        "object":"Cognition-Related Quality of Life",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":285,
+        "subject":"Seasons of Professional Football",
+        "relation":"causes",
+        "object":"Depression",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":285,
+        "subject":"Seasons of Professional Football",
+        "relation":"causes",
+        "object":"Anxiety",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":285,
+        "subject":"Playing Position",
+        "relation":"causes",
+        "object":"Anxiety",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":285,
+        "subject":"Seasons of Professional Football",
+        "relation":"causes",
+        "object":"Long-Term Neuropsychiatric Health Deficits",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":307,
+        "subject":"Former Football Players",
+        "relation":"causes",
+        "object":"Reduced Cortical Thickness and Volume",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":308,
+        "subject":"Ex-Canadian Football League Players",
+        "relation":"associated_with_more_severe",
+        "object":"Healthy Controls",
+        "entity_variants":"N\/A|"
+    },
+    {
+        "source_abstract_id":308,
+        "subject":"Memory Symptoms",
+        "relation":"more_common_in",
+        "object":"Ex-Canadian Football League Players",
+        "entity_variants":"N\/A|"
+    },
+    {
+        "source_abstract_id":308,
+        "subject":"Executive Symptoms",
+        "relation":"more_common_in",
+        "object":"Ex-Canadian Football League Players",
+        "entity_variants":"N\/A|"
+    },
+    {
+        "source_abstract_id":308,
+        "subject":"Behavioral Symptoms",
+        "relation":"more_common_in",
+        "object":"Ex-Canadian Football League Players",
+        "entity_variants":"N\/A|"
+    },
+    {
+        "source_abstract_id":308,
+        "subject":"Motor Function",
+        "relation":"no_difference_in",
+        "object":"Ex-Canadian Football League Players and Controls",
+        "entity_variants":"N\/A|"
+    },
+    {
+        "source_abstract_id":469,
+        "subject":"Football Play Years",
+        "relation":"causes",
+        "object":"White Matter Rarefaction",
+        "entity_variants":"none|"
+    },
+    {
+        "source_abstract_id":469,
+        "subject":"Football Play Years",
+        "relation":"not_associated_with",
+        "object":"Arteriolosclerosis",
+        "entity_variants":"none|"
+    },
+    {
+        "source_abstract_id":482,
+        "subject":"High School Football",
+        "relation":"not_associated_with",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":482,
+        "subject":"High School Football",
+        "relation":"not_associated_with",
+        "object":"Depression",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":482,
+        "subject":"High School Football",
+        "relation":"not_associated_with",
+        "object":"Heavy Alcohol Use",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":507,
+        "subject":"Professional Players",
+        "relation":"participates_in",
+        "object":"Prospective Studies",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":507,
+        "subject":"Non-Players",
+        "relation":"participates_in",
+        "object":"Prospective Studies",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":540,
+        "subject":"Career Duration",
+        "relation":"associated_with",
+        "object":"Symptom Burden",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":540,
+        "subject":"Player Position",
+        "relation":"associated_with",
+        "object":"Symptom Burden",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":617,
+        "subject":"Football Participation",
+        "relation":"not_associated_with",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":617,
+        "subject":"Football Athletes",
+        "relation":"compared_to",
+        "object":"Noncontact Sport Athletes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":617,
+        "subject":"Cognitive Function",
+        "relation":"not_declined_in",
+        "object":"Football Athletes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":618,
+        "subject":"Neurophysiology",
+        "relation":"affects",
+        "object":"Return to Play Decisions",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":11,
+        "subject":"Dementia Risk Factors",
+        "relation":"compared_with",
+        "object":"Soccer Players and Controls",
+        "entity_variants":"none"
+    }
+]

@@ -1,0 +1,305 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 13,
+    "edge_count": 11
+  },
+  "nodes": [
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "Traumatic Brain Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111",
+        "MeSH": "D001930"
+      },
+      "synonyms": [
+        "TBI",
+        "Mild Traumatic Brain Injury",
+        "Impact Injury",
+        "Head Injury"
+      ]
+    },
+    {
+      "id": "BloodBrainBarrierDisruption",
+      "label": "Blood-Brain Barrier Disorders",
+      "type": "Pathology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0005771",
+        "MeSH": "D001812"
+      },
+      "synonyms": [
+        "Blood-Brain Barrier Permeability",
+        "Blood-Brain Barrier Breakdown",
+        "Blood-Brain Barrier Alterations",
+        "Blood-Brain Barrier Damage",
+        "Blood-Brain Barrier Integrity Loss"
+      ]
+    },
+    {
+      "id": "BetaAdrenergicAntagonists",
+      "label": "Beta-Adrenergic Antagonists",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "ChEBI": "35530",
+        "UMLS_CUI": "C0001645"
+      },
+      "synonyms": [
+        "Beta-Adrenergic Blockade",
+        "Beta-Blockers"
+      ]
+    },
+    {
+      "id": "SERPINC1",
+      "label": "SERPINC1",
+      "type": "Protein",
+      "location": "Blood",
+      "identifiers": {
+        "HGNC_ID": "HGNC:638",
+        "UniProt_ID": "P01008",
+        "UMLS_CUI": "C0003303"
+      },
+      "synonyms": [
+        "Antithrombin III",
+        "ATIII"
+      ]
+    },
+    {
+      "id": "MucosalBarrierDysfunction",
+      "label": "Intestinal Barrier Dysfunction",
+      "type": "Pathology",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C4760596"
+      },
+      "synonyms": [
+        "Mucosal Barrier Dysfunction",
+        "Gut Barrier Dysfunction"
+      ]
+    },
+    {
+      "id": "ParacellularTransport",
+      "label": "Paracellular Transport",
+      "type": "Process",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "GO_ID": "GO:0070160"
+      },
+      "synonyms": [
+        "Paracellular Flux"
+      ]
+    },
+    {
+      "id": "MicrovascularInjury",
+      "label": "Microvascular Injury",
+      "type": "Pathology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C4025816"
+      },
+      "synonyms": [
+        "Microvascular Damage"
+      ]
+    },
+    {
+      "id": "AlbuminExtravasation",
+      "label": "Extravasation",
+      "type": "Process",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "UMLS_CUI": "C0015392"
+      },
+      "synonyms": [
+        "Serum Albumin Extravasation",
+        "Protein Extravasation"
+      ]
+    },
+    {
+      "id": "CellMembraneDestabilization",
+      "label": "Membrane Destabilization",
+      "type": "Process",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "GO_ID": "GO:0031671"
+      },
+      "synonyms": [
+        "Membrane Instability"
+      ]
+    },
+    {
+      "id": "F12",
+      "label": "F12",
+      "type": "Protein",
+      "location": "Blood",
+      "identifiers": {
+        "HGNC_ID": "HGNC:3530",
+        "UniProt_ID": "P00748"
+      },
+      "synonyms": [
+        "Coagulation Factor XII",
+        "Hageman Factor"
+      ]
+    },
+    {
+      "id": "MotorActivity",
+      "label": "Motor Activity",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "GO_ID": "GO:0003774"
+      },
+      "synonyms": [
+        "Motor Function"
+      ]
+    },
+    {
+      "id": "MotorLearning",
+      "label": "Motor Learning",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "GO_ID": "GO:0008344"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "MAPK8",
+      "label": "MAPK8",
+      "type": "Protein",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "HGNC_ID": "HGNC:6881",
+        "UniProt_ID": "P45983"
+      },
+      "synonyms": [
+        "c-Jun N-terminal kinase",
+        "JNK1"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "BetaAdrenergicAntagonists",
+      "target": "BloodBrainBarrierDisruption",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        27
+      ],
+      "confidence": "High",
+      "metadata": "Effect: Reduces Permeability"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "MucosalBarrierDysfunction",
+      "mechanism": "causes",
+      "evidence_ref": [
+        47
+      ],
+      "confidence": "High",
+      "metadata": "Context: Triggers dysfunction"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "ParacellularTransport",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        47
+      ],
+      "confidence": "High",
+      "metadata": "Context: Increases Paracellular Flux"
+    },
+    {
+      "source": "SERPINC1",
+      "target": "BloodBrainBarrierDisruption",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        50
+      ],
+      "confidence": "High",
+      "metadata": "Effect: Decreases Permeability"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "BloodBrainBarrierDisruption",
+      "mechanism": "causes",
+      "evidence_ref": [
+        79,
+        84,
+        123,
+        177,
+        188,
+        191,
+        197,
+        237,
+        247,
+        269
+      ],
+      "confidence": "High",
+      "metadata": "Includes Mild TBI and Impact Injury. Conflicting evidence in ref 156 (not associated)."
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "MicrovascularInjury",
+      "mechanism": "causes",
+      "evidence_ref": [
+        123
+      ],
+      "confidence": "High",
+      "metadata": "Context: Impact Injury"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "AlbuminExtravasation",
+      "mechanism": "causes",
+      "evidence_ref": [
+        123
+      ],
+      "confidence": "High",
+      "metadata": "Context: Impact Injury, Serum Albumin"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "CellMembraneDestabilization",
+      "mechanism": "causes",
+      "evidence_ref": [
+        258
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "F12",
+      "target": "MotorActivity",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        297
+      ],
+      "confidence": "High",
+      "metadata": "Inference: Inhibition of Activated Factor XII improves Motor Function"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "MotorLearning",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        339
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: 3xTg-AD"
+    },
+    {
+      "source": "MAPK8",
+      "target": "BloodBrainBarrierDisruption",
+      "mechanism": "causes",
+      "evidence_ref": [
+        166
+      ],
+      "confidence": "High",
+      "metadata": "Context: Causes Breakdown"
+    }
+  ]
+}

@@ -1,0 +1,674 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 27,
+    "edge_count": 36
+  },
+  "nodes": [
+    {
+      "id": "APOE",
+      "label": "Apolipoprotein E",
+      "type": "Protein",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "UMLS_CUI": "C0003554",
+        "HGNC_ID": "HGNC:613",
+        "UniProt_ID": "P02649"
+      },
+      "synonyms": [
+        "Apolipoprotein E",
+        "Apolipoprotein E4",
+        "APOE4",
+        "APOE epsilon 4",
+        "Apolipoprotein E2"
+      ]
+    },
+    {
+      "id": "MAPT",
+      "label": "MAPT",
+      "type": "Protein",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0039392",
+        "HGNC_ID": "HGNC:6893",
+        "UniProt_ID": "P10636"
+      },
+      "synonyms": [
+        "Tau",
+        "Microtubule-associated protein tau",
+        "Phosphorylated tau",
+        "p-Tau"
+      ]
+    },
+    {
+      "id": "ACE",
+      "label": "ACE",
+      "type": "Gene",
+      "location": "Blood",
+      "identifiers": {
+        "UMLS_CUI": "C1412359",
+        "HGNC_ID": "HGNC:2707"
+      },
+      "synonyms": [
+        "Angiotensin I Converting Enzyme"
+      ]
+    },
+    {
+      "id": "PON1",
+      "label": "PON1",
+      "type": "Gene",
+      "location": "Blood",
+      "identifiers": {
+        "UMLS_CUI": "C1418584",
+        "HGNC_ID": "HGNC:9204"
+      },
+      "synonyms": [
+        "Paraoxonase 1"
+      ]
+    },
+    {
+      "id": "SYNJ1",
+      "label": "SYNJ1",
+      "type": "Gene",
+      "location": "Synapse",
+      "identifiers": {
+        "UMLS_CUI": "C1420367",
+        "HGNC_ID": "HGNC:11504"
+      },
+      "synonyms": [
+        "Synaptojanin 1"
+      ]
+    },
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "Traumatic Brain Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111"
+      },
+      "synonyms": [
+        "TBI",
+        "Mild traumatic brain injury",
+        "Concussion",
+        "Blast exposure"
+      ]
+    },
+    {
+      "id": "AlzheimerDisease",
+      "label": "Alzheimer Disease",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0002395"
+      },
+      "synonyms": [
+        "AD",
+        "Alzheimer's"
+      ]
+    },
+    {
+      "id": "ChronicTraumaticEncephalopathy",
+      "label": "Chronic Traumatic Encephalopathy",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0011570"
+      },
+      "synonyms": [
+        "CTE"
+      ]
+    },
+    {
+      "id": "Dementia",
+      "label": "Dementia",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0497327"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "CognitiveDecline",
+      "label": "Cognitive Decline",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0234985"
+      },
+      "synonyms": [
+        "Cognitive impairment"
+      ]
+    },
+    {
+      "id": "FunctionalImpairment",
+      "label": "Functional Impairment",
+      "type": "Disease",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0011124"
+      },
+      "synonyms": [
+        "Functional Limitations"
+      ]
+    },
+    {
+      "id": "CerebrovascularDisease",
+      "label": "Cerebrovascular Disease",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0007820"
+      },
+      "synonyms": [
+        "Chronic cerebrovascular alterations"
+      ]
+    },
+    {
+      "id": "PsychiatricSymptom",
+      "label": "Psychiatric Symptom",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0004936"
+      },
+      "synonyms": [
+        "Psychiatric symptoms"
+      ]
+    },
+    {
+      "id": "PostTraumaticStressDisorder",
+      "label": "Post Traumatic Stress Disorder",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0038436"
+      },
+      "synonyms": [
+        "PTSD"
+      ]
+    },
+    {
+      "id": "LanguageDisorder",
+      "label": "Language Disorder",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0023015"
+      },
+      "synonyms": [
+        "Language fluency impairment"
+      ]
+    },
+    {
+      "id": "Neurodegeneration",
+      "label": "Neurodegeneration",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027746"
+      },
+      "synonyms": [
+        "Brain atrophy",
+        "Cortical thickness reduction"
+      ]
+    },
+    {
+      "id": "Cognition",
+      "label": "Cognition",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0009241"
+      },
+      "synonyms": [
+        "Cognitive performance",
+        "Cognitive functioning",
+        "Cognitive function"
+      ]
+    },
+    {
+      "id": "ExecutiveFunction",
+      "label": "Executive Function",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0013344"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "WorkingMemory",
+      "label": "Working Memory",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0038234"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "ProcessingSpeed",
+      "label": "Processing Speed",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0332306"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Memory",
+      "label": "Memory",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0025260"
+      },
+      "synonyms": [
+        "Memory performance"
+      ]
+    },
+    {
+      "id": "Attention",
+      "label": "Attention",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0004268"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "PhospholipidMetabolism",
+      "label": "Phospholipid Metabolism",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0031662"
+      },
+      "synonyms": [
+        "Phospholipid dysregulation"
+      ]
+    },
+    {
+      "id": "Prognosis",
+      "label": "Prognosis",
+      "type": "Process",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0033346"
+      },
+      "synonyms": [
+        "Favorable outcomes"
+      ]
+    },
+    {
+      "id": "BloodBrainBarrier",
+      "label": "Blood Brain Barrier",
+      "type": "Anatomy",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0005763"
+      },
+      "synonyms": [
+        "BBB"
+      ]
+    },
+    {
+      "id": "WhiteMatter",
+      "label": "White Matter",
+      "type": "Anatomy",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0043123"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "PhosphatidylinositolBisphosphate",
+      "label": "Phosphatidylinositol 4,5-bisphosphate",
+      "type": "Chemical",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "UMLS_CUI": "C0031652",
+        "ChEBI": "18348"
+      },
+      "synonyms": [
+        "PIP2",
+        "Phosphoinositol biphosphate"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "ACE",
+      "target": "CognitiveDecline",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        452
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Polymorphisms"
+    },
+    {
+      "source": "PON1",
+      "target": "CognitiveDecline",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        452
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Polymorphisms"
+    },
+    {
+      "source": "ACE",
+      "target": "FunctionalImpairment",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        452
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Polymorphisms"
+    },
+    {
+      "source": "PON1",
+      "target": "FunctionalImpairment",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        452
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Polymorphisms"
+    },
+    {
+      "source": "APOE",
+      "target": "ChronicTraumaticEncephalopathy",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        17
+      ],
+      "confidence": "High",
+      "metadata": "Variant: E4"
+    },
+    {
+      "source": "APOE",
+      "target": "MAPT",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        17,
+        450
+      ],
+      "confidence": "High",
+      "metadata": "Action: Increases phosphorylation/burden in multiple brain regions"
+    },
+    {
+      "source": "APOE",
+      "target": "Dementia",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        17,
+        95,
+        471
+      ],
+      "confidence": "High",
+      "metadata": "Variant: E4"
+    },
+    {
+      "source": "APOE",
+      "target": "Prognosis",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        28
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Absence of E4 allele predicts favorable outcome"
+    },
+    {
+      "source": "APOE",
+      "target": "CerebrovascularDisease",
+      "mechanism": "causes",
+      "evidence_ref": [
+        46
+      ],
+      "confidence": "Medium",
+      "metadata": "Variant: E4"
+    },
+    {
+      "source": "APOE",
+      "target": "BloodBrainBarrier",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        46
+      ],
+      "confidence": "Medium",
+      "metadata": "Effect: Integrity"
+    },
+    {
+      "source": "APOE",
+      "target": "AlzheimerDisease",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        58,
+        501
+      ],
+      "confidence": "High",
+      "metadata": "Variant: E4; Context: proxy SNP rs769449"
+    },
+    {
+      "source": "APOE",
+      "target": "PsychiatricSymptom",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        69
+      ],
+      "confidence": "Medium",
+      "metadata": "Variant: E4"
+    },
+    {
+      "source": "APOE",
+      "target": "Cognition",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        69,
+        134,
+        282,
+        319,
+        395,
+        542
+      ],
+      "confidence": "Mixed",
+      "metadata": "Refs include negative regulation, confounding, and no direct causal link. Variant: E4"
+    },
+    {
+      "source": "APOE",
+      "target": "Neurodegeneration",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        145,
+        501,
+        518
+      ],
+      "confidence": "High",
+      "metadata": "Context: Entorhinal cortex thickness, Temporal lobe atrophy"
+    },
+    {
+      "source": "APOE",
+      "target": "CognitiveDecline",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        58,
+        280,
+        440,
+        489,
+        528
+      ],
+      "confidence": "High",
+      "metadata": "Refs mixed on causality vs association vs interaction"
+    },
+    {
+      "source": "APOE",
+      "target": "ExecutiveFunction",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        319,
+        528
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: E4 interaction with TBI"
+    },
+    {
+      "source": "APOE",
+      "target": "WorkingMemory",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        319
+      ],
+      "confidence": "Low",
+      "metadata": "Ref 319 notes no direct causal link"
+    },
+    {
+      "source": "APOE",
+      "target": "ProcessingSpeed",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        319,
+        395
+      ],
+      "confidence": "Medium",
+      "metadata": "Ref 395 indicates binding/association"
+    },
+    {
+      "source": "APOE",
+      "target": "PhosphatidylinositolBisphosphate",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        367
+      ],
+      "confidence": "Medium",
+      "metadata": "Variant: E4"
+    },
+    {
+      "source": "APOE",
+      "target": "Memory",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        395,
+        542
+      ],
+      "confidence": "Medium",
+      "metadata": "Association/Binding"
+    },
+    {
+      "source": "APOE",
+      "target": "PostTraumaticStressDisorder",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        395
+      ],
+      "confidence": "Medium",
+      "metadata": "Variant: E4"
+    },
+    {
+      "source": "APOE",
+      "target": "LanguageDisorder",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        501
+      ],
+      "confidence": "Medium",
+      "metadata": "Variant: E4"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "PhospholipidMetabolism",
+      "mechanism": "causes",
+      "evidence_ref": [
+        367
+      ],
+      "confidence": "High",
+      "metadata": "Effect: Dysregulation"
+    },
+    {
+      "source": "SYNJ1",
+      "target": "PhospholipidMetabolism",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        367
+      ],
+      "confidence": "Medium",
+      "metadata": "Effect: Ameliorates dysregulation"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "APOE",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        440
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Mild TBI"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "WhiteMatter",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        485
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Blast exposure; Modulated by APOE genotype"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "CognitiveDecline",
+      "mechanism": "causes",
+      "evidence_ref": [
+        528
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "ExecutiveFunction",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        528,
+        542
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Memory",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        542
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Blast exposure"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Attention",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        542
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Blast exposure"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Cognition",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        542
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Blast exposure"
+    }
+  ]
+}

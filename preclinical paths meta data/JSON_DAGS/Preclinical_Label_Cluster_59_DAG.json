@@ -1,0 +1,361 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 14,
+    "edge_count": 16
+  },
+  "nodes": [
+    {
+      "id": "PlateletLysate",
+      "label": "Human Platelet Lysate",
+      "type": "Biological_Product",
+      "location": "Blood",
+      "identifiers": {
+        "UMLS_CUI": "C2986790",
+        "MeSH": "D000072597"
+      },
+      "synonyms": [
+        "HPL",
+        "Platelet Lysate"
+      ]
+    },
+    {
+      "id": "PlateletExtracellularVesicle",
+      "label": "Platelet-derived Extracellular Vesicle",
+      "type": "Cell_Component",
+      "location": "Blood",
+      "identifiers": {
+        "UMLS_CUI": "C4277636",
+        "GO": "GO:0072562"
+      },
+      "synonyms": [
+        "PEV",
+        "Platelet Microparticles",
+        "Platelet Exosomes"
+      ]
+    },
+    {
+      "id": "MotorActivity",
+      "label": "Motor Activity",
+      "type": "Process",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0026649",
+        "GO": "GO:0003774"
+      },
+      "synonyms": [
+        "Motor Function",
+        "Locomotion"
+      ]
+    },
+    {
+      "id": "InflammatoryResponse",
+      "label": "Inflammatory Response",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0021368",
+        "GO": "GO:0006954"
+      },
+      "synonyms": [
+        "Inflammation",
+        "Proinflammatory Response"
+      ]
+    },
+    {
+      "id": "Synapse",
+      "label": "Synapse",
+      "type": "Cell_Component",
+      "location": "Synapse",
+      "identifiers": {
+        "UMLS_CUI": "C0039063",
+        "GO": "GO:0045202"
+      },
+      "synonyms": [
+        "Synaptic Proteins",
+        "Cortical Synapses"
+      ]
+    },
+    {
+      "id": "BiologicalTransport",
+      "label": "Biological Transport",
+      "type": "Process",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "UMLS_CUI": "C0005609",
+        "GO": "GO:0006810"
+      },
+      "synonyms": [
+        "Transport Pathways"
+      ]
+    },
+    {
+      "id": "PostsynapticDensity",
+      "label": "Postsynaptic Density",
+      "type": "Cell_Component",
+      "location": "Synapse",
+      "identifiers": {
+        "UMLS_CUI": "C0085397",
+        "GO": "GO:0014069"
+      },
+      "synonyms": [
+        "Postsynaptic Density Pathways"
+      ]
+    },
+    {
+      "id": "Mitochondrion",
+      "label": "Mitochondrion",
+      "type": "Cell_Component",
+      "location": "Mitochondrion",
+      "identifiers": {
+        "UMLS_CUI": "C0026237",
+        "GO": "GO:0005739"
+      },
+      "synonyms": [
+        "Mitochondrial Pathways"
+      ]
+    },
+    {
+      "id": "LipidMetabolism",
+      "label": "Lipid Metabolic Process",
+      "type": "Process",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "UMLS_CUI": "C0023779",
+        "GO": "GO:0006629"
+      },
+      "synonyms": [
+        "Lipid Metabolism Pathways"
+      ]
+    },
+    {
+      "id": "Neuroprotection",
+      "label": "Neuroprotection",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027878",
+        "MeSH": "D018696"
+      },
+      "synonyms": [
+        "Neuroprotective Effects",
+        "Neuroprotective Signaling"
+      ]
+    },
+    {
+      "id": "NeurotrophicFactors",
+      "label": "Nerve Growth Factors",
+      "type": "Protein",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "UMLS_CUI": "C0027874",
+        "MeSH": "D009414"
+      },
+      "synonyms": [
+        "Neurorestorative Factors",
+        "Trophic Factors"
+      ]
+    },
+    {
+      "id": "Neuroregeneration",
+      "label": "Nerve Regeneration",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027838",
+        "MeSH": "D009416"
+      },
+      "synonyms": [
+        "Neuronal Function Restoration"
+      ]
+    },
+    {
+      "id": "TH",
+      "label": "TH",
+      "type": "Protein",
+      "location": "Neuron",
+      "identifiers": {
+        "UMLS_CUI": "C0041485",
+        "HGNC_ID": "HGNC:11782",
+        "UniProt_ID": "P07101"
+      },
+      "synonyms": [
+        "Tyrosine Hydroxylase"
+      ]
+    },
+    {
+      "id": "Neurotrophins",
+      "label": "Neurotrophins",
+      "type": "Protein",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "UMLS_CUI": "C0027885",
+        "MeSH": "D018697"
+      },
+      "synonyms": []
+    }
+  ],
+  "edges": [
+    {
+      "source": "PlateletLysate",
+      "target": "MotorActivity",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        30
+      ],
+      "confidence": "High",
+      "metadata": "Context: Causes functional improvement"
+    },
+    {
+      "source": "PlateletLysate",
+      "target": "InflammatoryResponse",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        30
+      ],
+      "confidence": "High",
+      "metadata": "Target: Proinflammatory Genes"
+    },
+    {
+      "source": "PlateletLysate",
+      "target": "Synapse",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        30
+      ],
+      "confidence": "High",
+      "metadata": "Action: Preserves cortical synaptic proteins"
+    },
+    {
+      "source": "PlateletLysate",
+      "target": "BiologicalTransport",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        30
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Reverses altered pathways"
+    },
+    {
+      "source": "PlateletLysate",
+      "target": "PostsynapticDensity",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        30
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Reverses altered pathways"
+    },
+    {
+      "source": "PlateletLysate",
+      "target": "Mitochondrion",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        30
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Reverses altered pathways"
+    },
+    {
+      "source": "PlateletLysate",
+      "target": "LipidMetabolism",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        30
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Reverses altered pathways"
+    },
+    {
+      "source": "PlateletLysate",
+      "target": "Neuroprotection",
+      "mechanism": "activates",
+      "evidence_ref": [
+        30
+      ],
+      "confidence": "High",
+      "metadata": "Target: Neuroprotective Signaling Pathways"
+    },
+    {
+      "source": "PlateletLysate",
+      "target": "NeurotrophicFactors",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        30
+      ],
+      "confidence": "High",
+      "metadata": "Context: Provides neurorestorative factors"
+    },
+    {
+      "source": "PlateletExtracellularVesicle",
+      "target": "Neuroregeneration",
+      "mechanism": "activates",
+      "evidence_ref": [
+        149
+      ],
+      "confidence": "High",
+      "metadata": "Context: Causes restoration of neuronal function"
+    },
+    {
+      "source": "PlateletExtracellularVesicle",
+      "target": "InflammatoryResponse",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        149
+      ],
+      "confidence": "High",
+      "metadata": "Context: Promotes anti-inflammatory responses"
+    },
+    {
+      "source": "PlateletExtracellularVesicle",
+      "target": "TH",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        149
+      ],
+      "confidence": "High",
+      "metadata": "Action: Maintains expression"
+    },
+    {
+      "source": "PlateletExtracellularVesicle",
+      "target": "Neuroprotection",
+      "mechanism": "activates",
+      "evidence_ref": [
+        149
+      ],
+      "confidence": "High",
+      "metadata": "Context: Induces neuroprotective effects"
+    },
+    {
+      "source": "PlateletExtracellularVesicle",
+      "target": "NeurotrophicFactors",
+      "mechanism": "transports",
+      "evidence_ref": [
+        149
+      ],
+      "confidence": "High",
+      "metadata": "Context: Contains trophic factors"
+    },
+    {
+      "source": "PlateletExtracellularVesicle",
+      "target": "MotorActivity",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        149
+      ],
+      "confidence": "High",
+      "metadata": "Context: Improves function"
+    },
+    {
+      "source": "PlateletExtracellularVesicle",
+      "target": "Neurotrophins",
+      "mechanism": "transports",
+      "evidence_ref": [
+        149
+      ],
+      "confidence": "High",
+      "metadata": "Context: Rich composition of Neurotrophins"
+    }
+  ]
+}

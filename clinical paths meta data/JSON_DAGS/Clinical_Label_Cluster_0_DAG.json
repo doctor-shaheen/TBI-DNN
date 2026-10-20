@@ -1,0 +1,191 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 7,
+    "edge_count": 6
+  },
+  "nodes": [
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "Traumatic Brain Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111"
+      },
+      "synonyms": [
+        "TBI",
+        "Head Injury",
+        "Mild Traumatic Brain Injury",
+        "Repeat Traumatic Brain Injury"
+      ]
+    },
+    {
+      "id": "Dementia",
+      "label": "Dementia",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0011265"
+      },
+      "synonyms": [
+        "Dementia Diagnosis",
+        "Incident Dementia",
+        "Non-Alzheimer Dementia"
+      ]
+    },
+    {
+      "id": "PresenileDementia",
+      "label": "Presenile Dementia",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0011266"
+      },
+      "synonyms": [
+        "Early Onset Dementia"
+      ]
+    },
+    {
+      "id": "VascularDementia",
+      "label": "Vascular Dementia",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0011263"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "NeurocognitiveDisorders",
+      "label": "Neurocognitive Disorders",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0009241"
+      },
+      "synonyms": [
+        "Cognitive Disorder"
+      ]
+    },
+    {
+      "id": "Cognition",
+      "label": "Cognition",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0009240"
+      },
+      "synonyms": [
+        "Cognitive Function"
+      ]
+    },
+    {
+      "id": "Osteoporosis",
+      "label": "Osteoporosis",
+      "type": "Disease",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0029456"
+      },
+      "synonyms": [
+        "Osteopenia"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Dementia",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        18,
+        61,
+        63,
+        66,
+        80,
+        90,
+        129,
+        157,
+        160,
+        175,
+        200,
+        219,
+        220,
+        250,
+        252,
+        254,
+        258,
+        277,
+        299,
+        322,
+        331,
+        335,
+        394,
+        403,
+        437,
+        456,
+        471,
+        472,
+        496,
+        577,
+        591,
+        598
+      ],
+      "confidence": "High",
+      "metadata": "Context: Aggregates risk factors, causes, and associations. Variants: Mild TBI, Severe Head Injury, Repeat TBI. Contradictory evidence: Ref 472 (No association), Ref 254 (Decreases risk)."
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "PresenileDementia",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        299,
+        539
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Early onset dementia subtypes"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "VascularDementia",
+      "mechanism": "causes",
+      "evidence_ref": [
+        311
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Specified as Vascular Dementia"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "NeurocognitiveDisorders",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        397
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: History of Head Injury associated with Cognitive Disorder"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Cognition",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        543
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Loss of Consciousness associated with Cognitive Function"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Osteoporosis",
+      "mechanism": "causes",
+      "evidence_ref": [
+        75
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Includes Osteopenia"
+    }
+  ]
+}

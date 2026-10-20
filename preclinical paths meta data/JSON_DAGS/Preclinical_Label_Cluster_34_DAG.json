@@ -1,0 +1,391 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 19,
+    "edge_count": 18
+  },
+  "nodes": [
+    {
+      "id": "APP",
+      "label": "APP",
+      "type": "Protein",
+      "location": "Neuron",
+      "identifiers": {
+        "HGNC_ID": "HGNC:620",
+        "UMLS_CUI": "C0002766"
+      },
+      "synonyms": [
+        "Amyloid Beta",
+        "22C11",
+        "Amyloid Precursor Protein"
+      ]
+    },
+    {
+      "id": "Oligodendrocyte",
+      "label": "Oligodendrocyte",
+      "type": "Cell",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0028946"
+      },
+      "synonyms": [
+        "Damaged Oligodendrocytes"
+      ]
+    },
+    {
+      "id": "CCR2",
+      "label": "CCR2",
+      "type": "Protein",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "HGNC_ID": "HGNC:1603",
+        "UMLS_CUI": "C1413244"
+      },
+      "synonyms": [
+        "C-C Chemokine Receptor Type 2",
+        "CD192"
+      ]
+    },
+    {
+      "id": "MonocyteChemotaxis",
+      "label": "Monocyte Chemotaxis",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0026435",
+        "GO_ID": "GO:0002548"
+      },
+      "synonyms": [
+        "Monocyte Infiltration"
+      ]
+    },
+    {
+      "id": "LesionVolume",
+      "label": "Lesion Volume",
+      "type": "Phenotype",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0443265"
+      },
+      "synonyms": [
+        "Lesion Cavity Volume"
+      ]
+    },
+    {
+      "id": "AxonalInjury",
+      "label": "Axonal Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0151600"
+      },
+      "synonyms": [
+        "Axonal Damage"
+      ]
+    },
+    {
+      "id": "MAPT",
+      "label": "MAPT",
+      "type": "Protein",
+      "location": "Neuron",
+      "identifiers": {
+        "HGNC_ID": "HGNC:6893",
+        "UMLS_CUI": "C0039392"
+      },
+      "synonyms": [
+        "Tau",
+        "Microtubule-associated protein tau",
+        "Phosphorylated Tau",
+        "Tau Pathology"
+      ]
+    },
+    {
+      "id": "PDGFRB",
+      "label": "PDGFRB",
+      "type": "Protein",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "HGNC_ID": "HGNC:8804",
+        "UMLS_CUI": "C0079633"
+      },
+      "synonyms": [
+        "Platelet-Derived Growth Factor Receptor Beta"
+      ]
+    },
+    {
+      "id": "CerebrovascularReactivity",
+      "label": "Cerebrovascular Reactivity",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0007802"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "AGTR2",
+      "label": "AGTR2",
+      "type": "Protein",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "HGNC_ID": "HGNC:335",
+        "UMLS_CUI": "C0051996"
+      },
+      "synonyms": [
+        "Angiotensin II Type 2 Receptor",
+        "AT2 Receptor"
+      ]
+    },
+    {
+      "id": "Cognition",
+      "label": "Cognition",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0009241"
+      },
+      "synonyms": [
+        "Cognitive Function"
+      ]
+    },
+    {
+      "id": "BloodBrainBarrier",
+      "label": "Blood-Brain Barrier",
+      "type": "AnatomicalStructure",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0005763"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "BrainEdema",
+      "label": "Brain Edema",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006114"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Cytokine",
+      "label": "Cytokine",
+      "type": "Protein",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "UMLS_CUI": "C0079189"
+      },
+      "synonyms": [
+        "Proinflammatory Cytokines"
+      ]
+    },
+    {
+      "id": "CerebralBloodFlow",
+      "label": "Cerebral Blood Flow",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0007785"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "VentricularEjectionFraction",
+      "label": "Ventricular Ejection Fraction",
+      "type": "Process",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0428989"
+      },
+      "synonyms": [
+        "Left Ventricular Ejection Fraction"
+      ]
+    },
+    {
+      "id": "CardiacHypertrophy",
+      "label": "Cardiac Hypertrophy",
+      "type": "Disease",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0018808"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "CardiacFibrosis",
+      "label": "Cardiac Fibrosis",
+      "type": "Disease",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0241973"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "AxonalVaricosity",
+      "label": "Axonal Varicosity",
+      "type": "Phenotype",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C5209355"
+      },
+      "synonyms": [
+        "Varicosities"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "APP",
+      "target": "Oligodendrocyte",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        159
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: 22C11 Staining suggests Damaged Oligodendrocytes"
+    },
+    {
+      "source": "APP",
+      "target": "AxonalVaricosity",
+      "mechanism": "negatively_associated_with",
+      "evidence_ref": [
+        159
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: 22C11 Staining"
+    },
+    {
+      "source": "CCR2",
+      "target": "MonocyteChemotaxis",
+      "mechanism": "activates",
+      "evidence_ref": [
+        287
+      ],
+      "confidence": "High",
+      "metadata": "Inferred from CCR2 Deletion/Deficiency decreasing infiltration"
+    },
+    {
+      "source": "CCR2",
+      "target": "LesionVolume",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        287
+      ],
+      "confidence": "High",
+      "metadata": "Inferred from CCR2 Deletion/Deficiency decreasing lesion volume"
+    },
+    {
+      "source": "CCR2",
+      "target": "AxonalInjury",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        287
+      ],
+      "confidence": "High",
+      "metadata": "Inferred from CCR2 Deletion/Deficiency decreasing axonal damage"
+    },
+    {
+      "source": "CCR2",
+      "target": "MAPT",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        287
+      ],
+      "confidence": "High",
+      "metadata": "Inferred from CCR2 Deletion increasing Tau Pathology/Mislocalization"
+    },
+    {
+      "source": "PDGFRB",
+      "target": "CerebrovascularReactivity",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        92
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "AGTR2",
+      "target": "Cognition",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        231
+      ],
+      "confidence": "High",
+      "metadata": "Context: C21 Agonist causes effect"
+    },
+    {
+      "source": "AGTR2",
+      "target": "BloodBrainBarrier",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        231
+      ],
+      "confidence": "High",
+      "metadata": "Context: C21 Agonist causes effect"
+    },
+    {
+      "source": "AGTR2",
+      "target": "BrainEdema",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        231
+      ],
+      "confidence": "High",
+      "metadata": "Context: C21 Agonist causes effect"
+    },
+    {
+      "source": "AGTR2",
+      "target": "Cytokine",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        231
+      ],
+      "confidence": "High",
+      "metadata": "Context: Proinflammatory cytokines in Brain and Heart"
+    },
+    {
+      "source": "AGTR2",
+      "target": "CerebralBloodFlow",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        231
+      ],
+      "confidence": "High",
+      "metadata": "Context: C21 Agonist causes effect"
+    },
+    {
+      "source": "AGTR2",
+      "target": "VentricularEjectionFraction",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        231
+      ],
+      "confidence": "High",
+      "metadata": "Context: C21 Agonist causes effect"
+    },
+    {
+      "source": "AGTR2",
+      "target": "CardiacHypertrophy",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        231
+      ],
+      "confidence": "High",
+      "metadata": "Context: C21 Agonist causes effect"
+    },
+    {
+      "source": "AGTR2",
+      "target": "CardiacFibrosis",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        231
+      ],
+      "confidence": "High",
+      "metadata": "Context: C21 Agonist causes effect"
+    }
+  ]
+}

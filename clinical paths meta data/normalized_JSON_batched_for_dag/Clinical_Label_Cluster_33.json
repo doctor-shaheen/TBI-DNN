@@ -1,0 +1,135 @@
+[
+    {
+        "source_abstract_id":42,
+        "subject":"Obesity",
+        "relation":"causes",
+        "object":"Chronic Traumatic Encephalopathy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":11,
+        "subject":"Obesity",
+        "relation":"associated_with",
+        "object":"Risk of Dementia",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":42,
+        "subject":"Metabolic Surgery",
+        "relation":"treats",
+        "object":"Obesity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":42,
+        "subject":"Obesity",
+        "relation":"causes",
+        "object":"Cognitive Symptoms",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":42,
+        "subject":"Obesity-Related Comorbidities",
+        "relation":"affects",
+        "object":"Cognitive Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":185,
+        "subject":"Obesity",
+        "relation":"upregulates",
+        "object":"Interleukin-1 beta",
+        "entity_variants":"BMI:30-34.9"
+    },
+    {
+        "source_abstract_id":185,
+        "subject":"Obesity",
+        "relation":"upregulates",
+        "object":"Interleukin-18",
+        "entity_variants":"BMI:30-34.9"
+    },
+    {
+        "source_abstract_id":185,
+        "subject":"Severe Obesity",
+        "relation":"upregulates",
+        "object":"Interleukin-1 beta",
+        "entity_variants":"BMI:>35.0"
+    },
+    {
+        "source_abstract_id":185,
+        "subject":"Severe Obesity",
+        "relation":"interacts_with",
+        "object":"Interleukin-1 beta",
+        "entity_variants":"BMI:>35.0"
+    },
+    {
+        "source_abstract_id":185,
+        "subject":"Obesity",
+        "relation":"augments",
+        "object":"Inflammation",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":322,
+        "subject":"Obesity",
+        "relation":"associated_with",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":331,
+        "subject":"Obesity",
+        "relation":"associated_with",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":375,
+        "subject":"Obesity",
+        "relation":"upregulates",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":456,
+        "subject":"Central Obesity",
+        "relation":"causes",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":544,
+        "subject":"Body Mass Index",
+        "relation":"no_direct_causal_link",
+        "object":"Cognitive Impairment",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":564,
+        "subject":"Obesity",
+        "relation":"associated_with",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":567,
+        "subject":"Body Mass Index",
+        "relation":"causes",
+        "object":"Non-amnestic Mild Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":591,
+        "subject":"Obesity",
+        "relation":"influences",
+        "object":"Conversion to Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":623,
+        "subject":"Body Mass Index",
+        "relation":"predicts",
+        "object":"Neurodegenerative Complications",
+        "entity_variants":null
+    }
+]

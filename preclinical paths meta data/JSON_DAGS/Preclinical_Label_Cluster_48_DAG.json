@@ -1,0 +1,664 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 27,
+    "edge_count": 31
+  },
+  "nodes": [
+    {
+      "id": "MAPK1",
+      "label": "MAPK1",
+      "type": "Protein",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "UMLS_CUI": "C1366642",
+        "HGNC_ID": "HGNC:6871",
+        "UniProt_ID": "P28482"
+      },
+      "synonyms": [
+        "ERK2",
+        "Extracellular signal-regulated kinase 2",
+        "ERK1/2"
+      ]
+    },
+    {
+      "id": "MAPK3",
+      "label": "MAPK3",
+      "type": "Protein",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "UMLS_CUI": "C1366542",
+        "HGNC_ID": "HGNC:6877",
+        "UniProt_ID": "P27361"
+      },
+      "synonyms": [
+        "ERK1",
+        "Extracellular signal-regulated kinase 1"
+      ]
+    },
+    {
+      "id": "MAPK8",
+      "label": "MAPK8",
+      "type": "Protein",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "UMLS_CUI": "C1366655",
+        "HGNC_ID": "HGNC:6881",
+        "UniProt_ID": "P45983"
+      },
+      "synonyms": [
+        "JNK1",
+        "c-Jun N-terminal kinase 1",
+        "JNK"
+      ]
+    },
+    {
+      "id": "CellDeath",
+      "label": "CellDeath",
+      "type": "Pathology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0007587"
+      },
+      "synonyms": [
+        "Necrosis",
+        "Cellular Death"
+      ]
+    },
+    {
+      "id": "CXCL12",
+      "label": "CXCL12",
+      "type": "Protein",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "UMLS_CUI": "C0085117",
+        "HGNC_ID": "HGNC:10672",
+        "UniProt_ID": "P48061"
+      },
+      "synonyms": [
+        "SDF1",
+        "Stromal cell-derived factor 1",
+        "C-X-C Motif Chemokine Ligand 12 Alpha"
+      ]
+    },
+    {
+      "id": "Apoptosis",
+      "label": "Apoptosis",
+      "type": "Process",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "UMLS_CUI": "C0162638",
+        "GO_ID": "GO:0006915"
+      },
+      "synonyms": [
+        "Programmed Cell Death"
+      ]
+    },
+    {
+      "id": "HighFatDiet",
+      "label": "HighFatDiet",
+      "type": "Environmental_Factor",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0019564"
+      },
+      "synonyms": [
+        "Diet, High-Fat"
+      ]
+    },
+    {
+      "id": "BehavioralSymptoms",
+      "label": "BehavioralSymptoms",
+      "type": "Phenotype",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0004927"
+      },
+      "synonyms": [
+        "Behavioral Deficits",
+        "Behavioral Changes",
+        "Behavioral Impairment"
+      ]
+    },
+    {
+      "id": "NeurologicManifestations",
+      "label": "NeurologicManifestations",
+      "type": "Phenotype",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027763"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Obesity",
+      "label": "Obesity",
+      "type": "Disease",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0028754"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "WeightGain",
+      "label": "WeightGain",
+      "type": "Phenotype",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0043094"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Corticosterone",
+      "label": "Corticosterone",
+      "type": "Chemical",
+      "location": "Blood",
+      "identifiers": {
+        "UMLS_CUI": "C0009968",
+        "ChEBI_ID": "CHEBI:17006"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Prognosis",
+      "label": "Prognosis",
+      "type": "Medical_Attribute",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0033343"
+      },
+      "synonyms": [
+        "Disease Outcome"
+      ]
+    },
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "TraumaticBrainInjury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111"
+      },
+      "synonyms": [
+        "TBI",
+        "Brain Injury",
+        "Injured Brain"
+      ]
+    },
+    {
+      "id": "NutrientIntake",
+      "label": "NutrientIntake",
+      "type": "Process",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0028661"
+      },
+      "synonyms": [
+        "Diet",
+        "Feeding"
+      ]
+    },
+    {
+      "id": "DietarySupplement",
+      "label": "DietarySupplement",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0012170"
+      },
+      "synonyms": [
+        "GrandFusion Diet",
+        "GrandFusion"
+      ]
+    },
+    {
+      "id": "Inflammation",
+      "label": "Inflammation",
+      "type": "Pathology",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0021368"
+      },
+      "synonyms": [
+        "Peripheral Inflammation"
+      ]
+    },
+    {
+      "id": "MemoryDisorders",
+      "label": "MemoryDisorders",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0025277"
+      },
+      "synonyms": [
+        "Memory Impairment"
+      ]
+    },
+    {
+      "id": "SpatialOrientation",
+      "label": "SpatialOrientation",
+      "type": "Physiological_Function",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0037819"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "CognitiveDisorders",
+      "label": "CognitiveDisorders",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0009241"
+      },
+      "synonyms": [
+        "Cognitive Impairment"
+      ]
+    },
+    {
+      "id": "Neuroinflammation",
+      "label": "Neuroinflammation",
+      "type": "Pathology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027786"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Neurodegeneration",
+      "label": "Neurodegeneration",
+      "type": "Pathology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027746"
+      },
+      "synonyms": [
+        "Neuropathological Changes"
+      ]
+    },
+    {
+      "id": "CellProliferation",
+      "label": "CellProliferation",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0007630",
+        "GO_ID": "GO:0008283"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "BrainLesion",
+      "label": "BrainLesion",
+      "type": "Pathology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0270611"
+      },
+      "synonyms": [
+        "Lesion Volume"
+      ]
+    },
+    {
+      "id": "MotorCoordination",
+      "label": "MotorCoordination",
+      "type": "Physiological_Function",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0026606"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Lipopolysaccharide",
+      "label": "Lipopolysaccharide",
+      "type": "Chemical",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "UMLS_CUI": "C0023781",
+        "ChEBI_ID": "CHEBI:6494"
+      },
+      "synonyms": [
+        "LPS"
+      ]
+    },
+    {
+      "id": "KetogenicDiet",
+      "label": "KetogenicDiet",
+      "type": "Environmental_Factor",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0022649"
+      },
+      "synonyms": [
+        "High-Fat Low-Carbohydrate Diet"
+      ]
+    },
+    {
+      "id": "Dexamethasone",
+      "label": "Dexamethasone",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0011777",
+        "ChEBI_ID": "CHEBI:4187"
+      },
+      "synonyms": [
+        "Lipo-Dex",
+        "Liposomal Dexamethasone"
+      ]
+    },
+    {
+      "id": "Cytokines",
+      "label": "Cytokines",
+      "type": "Protein",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "UMLS_CUI": "C0079189"
+      },
+      "synonyms": [
+        "Inflammatory Cytokines",
+        "Pro-Inflammatory Cytokines"
+      ]
+    },
+    {
+      "id": "BrainEdema",
+      "label": "BrainEdema",
+      "type": "Pathology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006114"
+      },
+      "synonyms": [
+        "Swelling"
+      ]
+    },
+    {
+      "id": "LIF",
+      "label": "LIF",
+      "type": "Protein",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "UMLS_CUI": "C0064669",
+        "HGNC_ID": "HGNC:6596",
+        "UniProt_ID": "P15018"
+      },
+      "synonyms": [
+        "Leukemia Inhibitory Factor"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "MAPK1",
+      "target": "CellDeath",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        26
+      ],
+      "metadata": "Context: Inhibition of MAPK1 reduces cell death, implying MAPK1 contributes to it"
+    },
+    {
+      "source": "MAPK3",
+      "target": "CellDeath",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        26
+      ],
+      "metadata": "Context: Inhibition of MAPK3 reduces cell death"
+    },
+    {
+      "source": "MAPK8",
+      "target": "CellDeath",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        26
+      ],
+      "metadata": "Context: Inhibition of MAPK8 reduces cell death"
+    },
+    {
+      "source": "CXCL12",
+      "target": "Apoptosis",
+      "mechanism": "causes",
+      "evidence_ref": [
+        188
+      ]
+    },
+    {
+      "source": "HighFatDiet",
+      "target": "BehavioralSymptoms",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        54,
+        155
+      ],
+      "metadata": "Effect: Exacerbates/Causes"
+    },
+    {
+      "source": "HighFatDiet",
+      "target": "NeurologicManifestations",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        54
+      ]
+    },
+    {
+      "source": "HighFatDiet",
+      "target": "Neuroinflammation",
+      "mechanism": "causes",
+      "evidence_ref": [
+        155
+      ]
+    },
+    {
+      "source": "HighFatDiet",
+      "target": "Neurodegeneration",
+      "mechanism": "causes",
+      "evidence_ref": [
+        155
+      ]
+    },
+    {
+      "source": "HighFatDiet",
+      "target": "CellProliferation",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        155
+      ]
+    },
+    {
+      "source": "HighFatDiet",
+      "target": "BrainLesion",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        155
+      ],
+      "metadata": "Effect: Increases Lesion Volume"
+    },
+    {
+      "source": "HighFatDiet",
+      "target": "MotorCoordination",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        155
+      ],
+      "metadata": "Effect: Impairs coordination"
+    },
+    {
+      "source": "Obesity",
+      "target": "WeightGain",
+      "mechanism": "causes",
+      "evidence_ref": [
+        55
+      ]
+    },
+    {
+      "source": "Obesity",
+      "target": "Corticosterone",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        55
+      ],
+      "metadata": "Effect: Affects levels"
+    },
+    {
+      "source": "Obesity",
+      "target": "Prognosis",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        55
+      ],
+      "metadata": "Outcome: Poor Prognosis"
+    },
+    {
+      "source": "Obesity",
+      "target": "TraumaticBrainInjury",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        55
+      ],
+      "metadata": "Effect: Modulates Outcome"
+    },
+    {
+      "source": "Obesity",
+      "target": "Inflammation",
+      "mechanism": "causes",
+      "evidence_ref": [
+        382
+      ],
+      "metadata": "Location: Peripheral"
+    },
+    {
+      "source": "NutrientIntake",
+      "target": "BehavioralSymptoms",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        60
+      ]
+    },
+    {
+      "source": "DietarySupplement",
+      "target": "Inflammation",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        66
+      ],
+      "metadata": "Context: GrandFusion Diet"
+    },
+    {
+      "source": "DietarySupplement",
+      "target": "MemoryDisorders",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        66
+      ],
+      "metadata": "Context: GrandFusion Diet"
+    },
+    {
+      "source": "DietarySupplement",
+      "target": "SpatialOrientation",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        66
+      ],
+      "metadata": "Effect: Improves orientation"
+    },
+    {
+      "source": "DietarySupplement",
+      "target": "CognitiveDisorders",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        66
+      ]
+    },
+    {
+      "source": "Lipopolysaccharide",
+      "target": "Apoptosis",
+      "mechanism": "causes",
+      "evidence_ref": [
+        290
+      ]
+    },
+    {
+      "source": "KetogenicDiet",
+      "target": "BehavioralSymptoms",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        329
+      ]
+    },
+    {
+      "source": "Dexamethasone",
+      "target": "Cytokines",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        369,
+        371
+      ],
+      "metadata": "Context: Lipo-Dex, Reduces Inflammatory Cytokines"
+    },
+    {
+      "source": "Dexamethasone",
+      "target": "BrainLesion",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        369,
+        371
+      ],
+      "metadata": "Context: Lipo-Dex, Reduces Lesion Volume"
+    },
+    {
+      "source": "Dexamethasone",
+      "target": "CellDeath",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        369,
+        371
+      ],
+      "metadata": "Context: Lipo-Dex"
+    },
+    {
+      "source": "Dexamethasone",
+      "target": "BrainEdema",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        369
+      ],
+      "metadata": "Context: Lipo-Dex"
+    },
+    {
+      "source": "Dexamethasone",
+      "target": "TraumaticBrainInjury",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        369,
+        371
+      ],
+      "metadata": "Context: Lipo-Dex, Treats Outcome"
+    },
+    {
+      "source": "Dexamethasone",
+      "target": "Neurodegeneration",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        371
+      ],
+      "metadata": "Context: Lipo-Dex"
+    },
+    {
+      "source": "LIF",
+      "target": "CellDeath",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        407
+      ],
+      "metadata": "Context: Mediates Cell Death"
+    }
+  ]
+}

@@ -1,0 +1,758 @@
+[
+    {
+        "source_abstract_id":8,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Behavioral Changes",
+        "entity_variants":"none|"
+    },
+    {
+        "source_abstract_id":18,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cardiovascular Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":18,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cardiovascular Disease Risk Factors",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":21,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Apathy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":25,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Tertiary Lesions",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":39,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Suicidal Ideation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":48,
+        "subject":"Traumatic Brain Injury",
+        "relation":"moderates",
+        "object":"Vascular Risk Factors",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":48,
+        "subject":"Traumatic Brain Injury",
+        "relation":"upregulates",
+        "object":"Cardiovascular Disease Risk",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":75,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Pulmonary Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":75,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Suicidal Ideation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":108,
+        "subject":"Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Longitudinal Blood Samples",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":211,
+        "subject":"Traumatic Encephalopathy Syndrome",
+        "relation":"not_associated_with",
+        "object":"Motor Outcomes",
+        "entity_variants":"TES status"
+    },
+    {
+        "source_abstract_id":245,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Days at Home",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":245,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Increased Days in Care Environment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":248,
+        "subject":"Traumatic Brain Injury",
+        "relation":"impairs",
+        "object":"Cerebral Vasoreactivity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":248,
+        "subject":"Cerebral Vasoreactivity",
+        "relation":"affected_by",
+        "object":"Traumatic Brain Injury",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":248,
+        "subject":"Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Middle Cerebral Artery Blood Flow Velocity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":264,
+        "subject":"Polytrauma",
+        "relation":"associated_with",
+        "object":"Adverse Outcomes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":282,
+        "subject":"Traumatic brain injury",
+        "relation":"affects",
+        "object":"Reaction time",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":347,
+        "subject":"Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Charlson Comorbidity Index",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":358,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Six-Minute Walk Test Distance",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":370,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cerebral Blood Flow",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":370,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Hypoperfusion",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":370,
+        "subject":"Cerebral Blood Flow",
+        "relation":"correlates_with",
+        "object":"Time Post Injury",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":370,
+        "subject":"Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Cerebral Blood Flow",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":374,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Impulsive Responses",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":379,
+        "subject":"Traumatic Brain Injury",
+        "relation":"compared_to",
+        "object":"Neurologically Intact Subjects",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":393,
+        "subject":"Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Psychiatric Disorders",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":577,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Transcriptional Changes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":577,
+        "subject":"Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Gene Expression",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":578,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Six-Month Outcome",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":578,
+        "subject":"Traumatic Subarachnoid Hemorrhage",
+        "relation":"associated_with",
+        "object":"Six-Month Outcome",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":601,
+        "subject":"Pediatric Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Everyday Life",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":14,
+        "subject":"Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Clinical Phenotype Modulation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":20,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Clinical Manifestations",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":21,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Motor Disturbances",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":24,
+        "subject":"Comparison Group Selection",
+        "relation":"affects",
+        "object":"Traumatic Brain Injury",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":25,
+        "subject":"Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Neurological Outcome",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":25,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cerebral Remodelling",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":39,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Behavioral Abnormalities",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":39,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Suicide",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":48,
+        "subject":"Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Gait",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":75,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Disability in Activities of Daily Living",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":108,
+        "subject":"Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Injury Severity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":128,
+        "subject":"Time Since Traumatic Brain Injury",
+        "relation":"modifies",
+        "object":"Traumatic Brain Injury",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":143,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Neuropsychiatric Symptoms",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":143,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Long-Term Neuropsychiatric Outcomes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":163,
+        "subject":"Traumatic Brain Injury",
+        "relation":"mediates",
+        "object":"Practice Effect",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":164,
+        "subject":"Sex",
+        "relation":"no_association",
+        "object":"Traumatic Brain Injury",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":164,
+        "subject":"Education",
+        "relation":"no_association",
+        "object":"Traumatic Brain Injury",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":164,
+        "subject":"Race or Ethnicity",
+        "relation":"no_association",
+        "object":"Traumatic Brain Injury",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":164,
+        "subject":"Functional Decline",
+        "relation":"no_association",
+        "object":"Traumatic Brain Injury",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":182,
+        "subject":"Traumatic Brain Injury",
+        "relation":"higher_prevalence_in",
+        "object":"Veterans",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":183,
+        "subject":"Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Clinical Outcome",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":183,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Imaging Sequelae",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":214,
+        "subject":"Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Brain Structure",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":230,
+        "subject":"Traumatic Brain Injury",
+        "relation":"no_direct_causal_link",
+        "object":"Long-Term Outcome",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":230,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Participation Restrictions",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":230,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Multi-Domain Outcome Set",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":239,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Subjective Aggressiveness",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":248,
+        "subject":"Traumatic Brain Injury",
+        "relation":"increases",
+        "object":"Symptom Severity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":248,
+        "subject":"Traumatic Brain Injury",
+        "relation":"increases",
+        "object":"Symptom Number",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":281,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Intracranial Hemorrhage",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":281,
+        "subject":"Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Functional Dependence",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":281,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Death",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":317,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Long-Term Disability",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":342,
+        "subject":"Traumatic Brain Injury",
+        "relation":"no_direct_causal_link",
+        "object":"Adverse Events",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":342,
+        "subject":"Traumatic Brain Injury",
+        "relation":"no_direct_causal_link",
+        "object":"Clinical Trial Outcomes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":342,
+        "subject":"Traumatic Brain Injury",
+        "relation":"no_direct_causal_link",
+        "object":"Adverse Reactions",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":344,
+        "subject":"Traumatic Brain Injury",
+        "relation":"modifies",
+        "object":"Physical Activity Effects",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":349,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Emotional Symptoms",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":349,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Behavioral Symptoms",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":349,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Emotional State",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":349,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Behavioral Symptoms",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":358,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Quality of Life",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":362,
+        "subject":"Time Since Injury",
+        "relation":"affects",
+        "object":"Behavioral Dysfunction",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":371,
+        "subject":"Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Mental Health",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":371,
+        "subject":"Polytrauma Clinical Triad",
+        "relation":"associated_with",
+        "object":"Traumatic Brain Injury",
+        "entity_variants":"PCT"
+    },
+    {
+        "source_abstract_id":374,
+        "subject":"Traumatic Brain Injury",
+        "relation":"influences",
+        "object":"Longitudinal Recovery",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":377,
+        "subject":"Traumatic Brain Injury",
+        "relation":"influences",
+        "object":"Clinical Symptomatology",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":377,
+        "subject":"Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Behavioral Pathology",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":377,
+        "subject":"Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Functional Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":381,
+        "subject":"Traumatic Brain Injury",
+        "relation":"reduces",
+        "object":"Structural Integrity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":403,
+        "subject":"Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Long-Term Brain Responses",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":403,
+        "subject":"Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Clinical Outcomes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":419,
+        "subject":"Traumatic Brain Injury",
+        "relation":"no_direct_causal_link",
+        "object":"Brain Structure",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":452,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Structural Brain Abnormalities",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":452,
+        "subject":"Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Functional Limitations",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":471,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Intracranial Hemorrhage",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":471,
+        "subject":"Traumatic Brain Injury",
+        "relation":"increases_risk_of",
+        "object":"Hospitalization",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":489,
+        "subject":"Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Neuropsychiatric Symptoms",
+        "entity_variants":"TBI+, TBI-"
+    },
+    {
+        "source_abstract_id":500,
+        "subject":"Chronic Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Functional Loss",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":514,
+        "subject":"Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Quality of Life",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":514,
+        "subject":"Traumatic Brain Injury",
+        "relation":"impairs",
+        "object":"Functional Status",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":515,
+        "subject":"Traumatic Brain Injury Diagnosis",
+        "relation":"based_on",
+        "object":"Self-Report and Neurological Examination",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":524,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Psychiatric Symptoms",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":526,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Long-Term Impairments",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":540,
+        "subject":"Traumatic Encephalopathy Syndrome",
+        "relation":"associated_with",
+        "object":"Neuropsychiatric Symptom Severity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":546,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Functional Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":570,
+        "subject":"Traumatic Brain Injury",
+        "relation":"no_direct_causal_link",
+        "object":"Neuropsychiatric Symptoms",
+        "entity_variants":"TBI characteristics"
+    },
+    {
+        "source_abstract_id":572,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Behavioral Changes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":578,
+        "subject":"Traumatic Brain Injury",
+        "relation":"increases",
+        "object":"Vulnerability to Adverse Events",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":579,
+        "subject":"Traumatic Brain Injury",
+        "relation":"predicts",
+        "object":"Functional Dependency",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":588,
+        "subject":"Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Disability",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":597,
+        "subject":"Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Behavioral Outcomes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":621,
+        "subject":"Traumatic Brain Injury",
+        "relation":"increases_risk_of",
+        "object":"Mortality",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":621,
+        "subject":"Traumatic Brain Injury",
+        "relation":"increases_risk_of",
+        "object":"Discharge to Home",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":24,
+        "subject":"Post-Traumatic Brain Injury Exposures",
+        "relation":"underestimates_effect_of",
+        "object":"Traumatic Brain Injury",
+        "entity_variants":null
+    }
+]

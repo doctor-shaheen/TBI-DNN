@@ -1,0 +1,351 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 14,
+    "edge_count": 14
+  },
+  "nodes": [
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "Traumatic Brain Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111"
+      },
+      "synonyms": [
+        "Mild Traumatic Brain Injury",
+        "Moderate traumatic brain injury",
+        "Severe Head Injury",
+        "TBI",
+        "Concussion"
+      ]
+    },
+    {
+      "id": "WorkingMemory",
+      "label": "Working Memory",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0043194"
+      },
+      "synonyms": [
+        "Visual Working Memory",
+        "Verbal Working Memory",
+        "Short-term memory"
+      ]
+    },
+    {
+      "id": "Memory",
+      "label": "Memory",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0025260"
+      },
+      "synonyms": [
+        "Memory Performance",
+        "Cognitive Memory",
+        "Subjective Memory",
+        "Objective Memory"
+      ]
+    },
+    {
+      "id": "BrainVolume",
+      "label": "Brain Volume",
+      "type": "Anatomy",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0596043"
+      },
+      "synonyms": [
+        "Brain Size"
+      ]
+    },
+    {
+      "id": "NeuralNetworkConnectivity",
+      "label": "Neural Network Connectivity",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C1516040"
+      },
+      "synonyms": [
+        "Brain Network Connectivity",
+        "Functional Connectivity"
+      ]
+    },
+    {
+      "id": "CardiorespiratoryFitness",
+      "label": "Cardiorespiratory Fitness",
+      "type": "Process",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C2985336"
+      },
+      "synonyms": [
+        "Physical Fitness"
+      ]
+    },
+    {
+      "id": "SpatialMemory",
+      "label": "Spatial Memory",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0037819"
+      },
+      "synonyms": [
+        "Morris Water Maze Performance"
+      ]
+    },
+    {
+      "id": "PostTraumaticAmnesia",
+      "label": "Posttraumatic Amnesia",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0236070"
+      },
+      "synonyms": [
+        "PTA"
+      ]
+    },
+    {
+      "id": "VerbalFluency",
+      "label": "Verbal Fluency",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0042770"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "AssociativeMemory",
+      "label": "Associative Memory",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0004079"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "EpisodicMemory",
+      "label": "Episodic Memory",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0025269"
+      },
+      "synonyms": [
+        "Verbal Episodic Memory"
+      ]
+    },
+    {
+      "id": "ProspectiveMemory",
+      "label": "Prospective Memory",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0233760"
+      },
+      "synonyms": [
+        "Time-Based Prospective Memory",
+        "Event-Based Prospective Memory"
+      ]
+    },
+    {
+      "id": "ImplicitMemory",
+      "label": "Implicit Memory",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0025266"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "TranscranialMagneticStimulation",
+      "label": "Transcranial Magnetic Stimulation",
+      "type": "Procedure",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0039641"
+      },
+      "synonyms": [
+        "Repetitive Transcranial Magnetic Stimulation",
+        "rTMS"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "WorkingMemory",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        67,
+        83,
+        133,
+        156,
+        402,
+        443
+      ],
+      "confidence": "High",
+      "metadata": "Context: Causes deficits/disruption in Working Memory (Visual and Verbal); Ref 156 notes Verbal disruption but preserved Visual."
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Memory",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        45,
+        74,
+        133,
+        139,
+        175,
+        176,
+        181,
+        207,
+        212,
+        218,
+        284,
+        343,
+        348,
+        419,
+        433,
+        528,
+        565,
+        597
+      ],
+      "confidence": "High",
+      "metadata": "Context: Aggregated evidence for memory impairment/decline. Some sources (433, 175, 528, 565) note lack of direct causal link in specific contexts or subjective vs objective measures."
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "PostTraumaticAmnesia",
+      "mechanism": "causes",
+      "evidence_ref": [
+        35
+      ],
+      "confidence": "High",
+      "metadata": null
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "SpatialMemory",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        33,
+        597
+      ],
+      "confidence": "High",
+      "metadata": "Measured via Morris Water Maze"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "VerbalFluency",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        207
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Affects Verbal Fluency"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "AssociativeMemory",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        74
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Worsens Associative Memory"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "EpisodicMemory",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        87,
+        348,
+        528
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Causes deficit. Conflicting reports on direct causal link (Ref 528, 348)."
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "ProspectiveMemory",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        270
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Impairs Time-Based and Event-Based Prospective Memory"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "ImplicitMemory",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        282
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Affects Implicit Memory"
+    },
+    {
+      "source": "BrainVolume",
+      "target": "WorkingMemory",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        50
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Associated with Working Memory"
+    },
+    {
+      "source": "NeuralNetworkConnectivity",
+      "target": "WorkingMemory",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        204
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Negatively associated with Working Memory"
+    },
+    {
+      "source": "CardiorespiratoryFitness",
+      "target": "WorkingMemory",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        414
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Associated with Working Memory"
+    },
+    {
+      "source": "TranscranialMagneticStimulation",
+      "target": "WorkingMemory",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        365
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Treats (improves) Working Memory"
+    },
+    {
+      "source": "TranscranialMagneticStimulation",
+      "target": "Memory",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        549
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Treats (improves) Memory"
+    }
+  ]
+}

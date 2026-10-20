@@ -1,0 +1,1348 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 45,
+    "edge_count": 68
+  },
+  "nodes": [
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "Traumatic Brain Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111"
+      },
+      "synonyms": [
+        "TBI",
+        "Mild Traumatic Brain Injury",
+        "Concussion",
+        "Severe Traumatic Brain Injury",
+        "Repetitive Head Impacts",
+        "Blast Injury"
+      ]
+    },
+    {
+      "id": "Neurodegeneration",
+      "label": "Neurodegeneration",
+      "type": "Pathology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027963"
+      },
+      "synonyms": [
+        "Neurodegenerative Disease",
+        "Progressive Neurodegeneration"
+      ]
+    },
+    {
+      "id": "CognitiveImpairment",
+      "label": "Cognitive Impairment",
+      "type": "Symptom",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0338656"
+      },
+      "synonyms": [
+        "Cognitive Decline",
+        "Cognitive Dysfunction",
+        "Memory Loss",
+        "Executive Dysfunction",
+        "Mental Fatigue"
+      ]
+    },
+    {
+      "id": "ChronicTraumaticEncephalopathy",
+      "label": "Chronic Traumatic Encephalopathy",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0410263"
+      },
+      "synonyms": [
+        "CTE",
+        "Traumatic Encephalopathy Syndrome"
+      ]
+    },
+    {
+      "id": "AlzheimerDisease",
+      "label": "Alzheimer Disease",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0002395"
+      },
+      "synonyms": [
+        "AD",
+        "Alzheimer's Disease"
+      ]
+    },
+    {
+      "id": "ParkinsonDisease",
+      "label": "Parkinson Disease",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0030567"
+      },
+      "synonyms": [
+        "PD",
+        "Parkinsonism"
+      ]
+    },
+    {
+      "id": "FrontotemporalDementia",
+      "label": "Frontotemporal Dementia",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0338652"
+      },
+      "synonyms": [
+        "FTD",
+        "Frontotemporal Degeneration",
+        "Sporadic Frontotemporal Dementia"
+      ]
+    },
+    {
+      "id": "DepressiveDisorder",
+      "label": "Depressive Disorder",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0011581"
+      },
+      "synonyms": [
+        "Depression",
+        "Major Depressive Disorder",
+        "Depressive Symptoms"
+      ]
+    },
+    {
+      "id": "Anxiety",
+      "label": "Anxiety",
+      "type": "Symptom",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0003467"
+      },
+      "synonyms": [
+        "Anxiety Disorder",
+        "Anxiety Symptoms"
+      ]
+    },
+    {
+      "id": "PostTraumaticStressDisorder",
+      "label": "Post-Traumatic Stress Disorder",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0038436"
+      },
+      "synonyms": [
+        "PTSD",
+        "Post-Traumatic Stress"
+      ]
+    },
+    {
+      "id": "Neuroinflammation",
+      "label": "Neuroinflammation",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027947"
+      },
+      "synonyms": [
+        "Inflammatory Response",
+        "Cytokine Response"
+      ]
+    },
+    {
+      "id": "BloodBrainBarrier",
+      "label": "Blood-Brain Barrier",
+      "type": "Anatomy",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0005763"
+      },
+      "synonyms": [
+        "BBB"
+      ]
+    },
+    {
+      "id": "GlymphaticSystem",
+      "label": "Glymphatic System",
+      "type": "Anatomy",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C4073069"
+      },
+      "synonyms": [
+        "Glymphatic Clearance"
+      ]
+    },
+    {
+      "id": "Autophagy",
+      "label": "Autophagy",
+      "type": "Process",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "GO_ID": "GO:0006914"
+      },
+      "synonyms": [
+        "Autophagic Flux",
+        "Autophagosome-Lysosome Fusion"
+      ]
+    },
+    {
+      "id": "Apoptosis",
+      "label": "Apoptosis",
+      "type": "Process",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "GO_ID": "GO:0006915"
+      },
+      "synonyms": [
+        "Cell Death",
+        "Neuronal Death"
+      ]
+    },
+    {
+      "id": "Ferroptosis",
+      "label": "Ferroptosis",
+      "type": "Process",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "GO_ID": "GO:0097190"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Astrogliosis",
+      "label": "Astrogliosis",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0004134"
+      },
+      "synonyms": [
+        "Reactive Astrogliosis",
+        "Astrocytosis",
+        "Astrocytic Degeneration"
+      ]
+    },
+    {
+      "id": "Microglia",
+      "label": "Microglia",
+      "type": "Cell",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0026002"
+      },
+      "synonyms": [
+        "M1 Microglia"
+      ]
+    },
+    {
+      "id": "AxonalInjury",
+      "label": "Axonal Injury",
+      "type": "Pathology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0270612"
+      },
+      "synonyms": [
+        "Diffuse Axonal Injury",
+        "DAI"
+      ]
+    },
+    {
+      "id": "MAPT",
+      "label": "MAPT",
+      "type": "Protein",
+      "location": "Neuron",
+      "identifiers": {
+        "HGNC_ID": "HGNC:6893"
+      },
+      "synonyms": [
+        "Tau",
+        "Phosphorylated Tau",
+        "p-Tau",
+        "Neurofibrillary Tangles"
+      ]
+    },
+    {
+      "id": "APP",
+      "label": "APP",
+      "type": "Protein",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "HGNC_ID": "HGNC:620"
+      },
+      "synonyms": [
+        "Amyloid Precursor Protein",
+        "Amyloid Beta",
+        "Abeta",
+        "Aβ"
+      ]
+    },
+    {
+      "id": "TARDBP",
+      "label": "TARDBP",
+      "type": "Protein",
+      "location": "Nucleus",
+      "identifiers": {
+        "HGNC_ID": "HGNC:11571"
+      },
+      "synonyms": [
+        "TDP-43"
+      ]
+    },
+    {
+      "id": "UCHL1",
+      "label": "UCHL1",
+      "type": "Protein",
+      "location": "Neuron",
+      "identifiers": {
+        "HGNC_ID": "HGNC:12513"
+      },
+      "synonyms": [
+        "Ubiquitin Carboxyl-Terminal Hydrolase L1",
+        "UCH-L1"
+      ]
+    },
+    {
+      "id": "ENO2",
+      "label": "ENO2",
+      "type": "Protein",
+      "location": "Neuron",
+      "identifiers": {
+        "HGNC_ID": "HGNC:3351"
+      },
+      "synonyms": [
+        "Neuron-Specific Enolase",
+        "NSE"
+      ]
+    },
+    {
+      "id": "S100B",
+      "label": "S100B",
+      "type": "Protein",
+      "location": "Astrocyte",
+      "identifiers": {
+        "HGNC_ID": "HGNC:10500"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "GFAP",
+      "label": "GFAP",
+      "type": "Protein",
+      "location": "Astrocyte",
+      "identifiers": {
+        "HGNC_ID": "HGNC:4235"
+      },
+      "synonyms": [
+        "Glial Fibrillary Acidic Protein"
+      ]
+    },
+    {
+      "id": "BDNF",
+      "label": "BDNF",
+      "type": "Protein",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "HGNC_ID": "HGNC:1033"
+      },
+      "synonyms": [
+        "Brain-Derived Neurotrophic Factor"
+      ]
+    },
+    {
+      "id": "APOE",
+      "label": "APOE",
+      "type": "Protein",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "HGNC_ID": "HGNC:613"
+      },
+      "synonyms": [
+        "Apolipoprotein E"
+      ]
+    },
+    {
+      "id": "TMEM106B",
+      "label": "TMEM106B",
+      "type": "Protein",
+      "location": "Lysosome",
+      "identifiers": {
+        "HGNC_ID": "HGNC:28810"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "DNALI1",
+      "label": "DNALI1",
+      "type": "Protein",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "HGNC_ID": "HGNC:2962"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "LGMN",
+      "label": "LGMN",
+      "type": "Protein",
+      "location": "Lysosome",
+      "identifiers": {
+        "HGNC_ID": "HGNC:6556"
+      },
+      "synonyms": [
+        "Delta Secretase",
+        "Legumain"
+      ]
+    },
+    {
+      "id": "CEBPB",
+      "label": "CEBPB",
+      "type": "Protein",
+      "location": "Nucleus",
+      "identifiers": {
+        "HGNC_ID": "HGNC:1834"
+      },
+      "synonyms": [
+        "CCAAT/Enhancer Binding Protein Beta"
+      ]
+    },
+    {
+      "id": "NUP62",
+      "label": "NUP62",
+      "type": "Protein",
+      "location": "Nucleus",
+      "identifiers": {
+        "HGNC_ID": "HGNC:8066"
+      },
+      "synonyms": [
+        "Nucleoporin 62"
+      ]
+    },
+    {
+      "id": "SYT1",
+      "label": "SYT1",
+      "type": "Protein",
+      "location": "Synapse",
+      "identifiers": {
+        "HGNC_ID": "HGNC:11516"
+      },
+      "synonyms": [
+        "Synaptotagmin I"
+      ]
+    },
+    {
+      "id": "CAMK2A",
+      "label": "CAMK2A",
+      "type": "Protein",
+      "location": "Synapse",
+      "identifiers": {
+        "HGNC_ID": "HGNC:1460"
+      },
+      "synonyms": [
+        "CaMKII"
+      ]
+    },
+    {
+      "id": "CAV1",
+      "label": "CAV1",
+      "type": "Protein",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "HGNC_ID": "HGNC:1527"
+      },
+      "synonyms": [
+        "Caveolin-1"
+      ]
+    },
+    {
+      "id": "AQP4",
+      "label": "AQP4",
+      "type": "Protein",
+      "location": "Astrocyte",
+      "identifiers": {
+        "HGNC_ID": "HGNC:637"
+      },
+      "synonyms": [
+        "Aquaporin-4"
+      ]
+    },
+    {
+      "id": "TSPO",
+      "label": "TSPO",
+      "type": "Protein",
+      "location": "Mitochondria",
+      "identifiers": {
+        "HGNC_ID": "HGNC:1238"
+      },
+      "synonyms": [
+        "Translocator Protein"
+      ]
+    },
+    {
+      "id": "Methylphenidate",
+      "label": "Methylphenidate",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "ChEBI_ID": "CHEBI:6886"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Amantadine",
+      "label": "Amantadine",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "ChEBI_ID": "CHEBI:2618"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Acetylcysteine",
+      "label": "Acetylcysteine",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "ChEBI_ID": "CHEBI:21547"
+      },
+      "synonyms": [
+        "N-Acetylcysteine",
+        "NAC"
+      ]
+    },
+    {
+      "id": "Methylthioninium",
+      "label": "Methylthioninium",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "ChEBI_ID": "CHEBI:6879"
+      },
+      "synonyms": [
+        "Methylene Blue"
+      ]
+    },
+    {
+      "id": "Erythropoietin",
+      "label": "Erythropoietin",
+      "type": "Protein",
+      "location": "Systemic",
+      "identifiers": {
+        "HGNC_ID": "HGNC:3415"
+      },
+      "synonyms": [
+        "EPO"
+      ]
+    },
+    {
+      "id": "QuinolinicAcid",
+      "label": "Quinolinic Acid",
+      "type": "Chemical",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "ChEBI_ID": "CHEBI:17255"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "N-Acetylserotonin",
+      "label": "N-Acetylserotonin",
+      "type": "Chemical",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "ChEBI_ID": "CHEBI:17684"
+      },
+      "synonyms": []
+    }
+  ],
+  "edges": [
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Neurodegeneration",
+      "mechanism": "causes",
+      "evidence_ref": [
+        2,
+        16,
+        20,
+        55,
+        330,
+        446
+      ],
+      "confidence": "High",
+      "metadata": "Also involves accumulation of DNALI1, p-Tau, and TDP-43"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "CognitiveImpairment",
+      "mechanism": "causes",
+      "evidence_ref": [
+        8,
+        20,
+        26,
+        37,
+        68,
+        75,
+        95,
+        122,
+        148,
+        166,
+        182,
+        192,
+        207,
+        232,
+        243,
+        309,
+        395,
+        489,
+        535,
+        548,
+        560
+      ],
+      "confidence": "High",
+      "metadata": "Context: Mild, Moderate, Severe, and Repetitive TBI"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "DepressiveDisorder",
+      "mechanism": "causes",
+      "evidence_ref": [
+        43,
+        48,
+        75,
+        87,
+        106,
+        170,
+        263,
+        264,
+        358,
+        448
+      ],
+      "confidence": "High",
+      "metadata": "Includes Post-Traumatic Depression"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Anxiety",
+      "mechanism": "causes",
+      "evidence_ref": [
+        21,
+        75,
+        358
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Onset after injury"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "ChronicTraumaticEncephalopathy",
+      "mechanism": "causes",
+      "evidence_ref": [
+        30,
+        70,
+        104,
+        105,
+        144,
+        221,
+        566
+      ],
+      "confidence": "High",
+      "metadata": "Linked to Repetitive Head Impacts and Contact Sports"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "AlzheimerDisease",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        43,
+        55,
+        58
+      ],
+      "confidence": "Medium",
+      "metadata": "Risk factor"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "ParkinsonDisease",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        211,
+        287,
+        347,
+        466,
+        481
+      ],
+      "confidence": "Medium",
+      "metadata": "Includes Parkinsonism"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "FrontotemporalDementia",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        14,
+        33,
+        377,
+        614
+      ],
+      "confidence": "Medium",
+      "metadata": "Associated with Behavioral Symptoms"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Neuroinflammation",
+      "mechanism": "causes",
+      "evidence_ref": [
+        106,
+        254,
+        329,
+        372,
+        446,
+        452,
+        477,
+        486,
+        507,
+        510,
+        577
+      ],
+      "confidence": "High",
+      "metadata": "Involves Microglia and Astrogliosis"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "BloodBrainBarrier",
+      "mechanism": "causes",
+      "evidence_ref": [
+        46,
+        260,
+        263,
+        431
+      ],
+      "confidence": "High",
+      "metadata": "Disruption/Permeability increases"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "AxonalInjury",
+      "mechanism": "causes",
+      "evidence_ref": [
+        20,
+        243,
+        330,
+        427,
+        492,
+        571,
+        584
+      ],
+      "confidence": "High",
+      "metadata": "Diffuse Axonal Injury"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "GlymphaticSystem",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        458,
+        461,
+        612
+      ],
+      "confidence": "Medium",
+      "metadata": "Impaired clearance"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "UCHL1",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        85,
+        228,
+        236,
+        313,
+        314,
+        400
+      ],
+      "confidence": "High",
+      "metadata": "Biomarker for injury severity"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "ENO2",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        204,
+        404,
+        408
+      ],
+      "confidence": "High",
+      "metadata": "Serum levels increase acutely"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "S100B",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        366
+      ],
+      "confidence": "Medium",
+      "metadata": "Biomarker"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "TSPO",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        446
+      ],
+      "confidence": "Medium",
+      "metadata": "Marker of neuroinflammation"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "LGMN",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        107
+      ],
+      "confidence": "Medium",
+      "metadata": "Delta Secretase activation"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "MAPT",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        99,
+        134,
+        138,
+        351,
+        447
+      ],
+      "confidence": "High",
+      "metadata": "Leads to Phosphorylated Tau aggregation"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "TARDBP",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        23,
+        33,
+        165
+      ],
+      "confidence": "High",
+      "metadata": "Leads to Mislocalization/Aggregation"
+    },
+    {
+      "source": "DNALI1",
+      "target": "Autophagy",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        2
+      ],
+      "confidence": "Low",
+      "metadata": "Impairs Autophagic Flux"
+    },
+    {
+      "source": "DNALI1",
+      "target": "Apoptosis",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        2
+      ],
+      "confidence": "Low",
+      "metadata": "Exacerbates Cell Death"
+    },
+    {
+      "source": "CEBPB",
+      "target": "LGMN",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        107
+      ],
+      "confidence": "Medium",
+      "metadata": "Transcription factor activation"
+    },
+    {
+      "source": "LGMN",
+      "target": "APP",
+      "mechanism": "cleaves",
+      "evidence_ref": [
+        107
+      ],
+      "confidence": "Medium",
+      "metadata": "Promotes Amyloid Beta formation"
+    },
+    {
+      "source": "TMEM106B",
+      "target": "ChronicTraumaticEncephalopathy",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        51
+      ],
+      "confidence": "Medium",
+      "metadata": "Genetic risk factor"
+    },
+    {
+      "source": "TMEM106B",
+      "target": "MAPT",
+      "mechanism": "physically_interacts_with",
+      "evidence_ref": [
+        351
+      ],
+      "confidence": "Medium",
+      "metadata": "Influences p-Tau levels"
+    },
+    {
+      "source": "TMEM106B",
+      "target": "Neuroinflammation",
+      "mechanism": "physically_interacts_with",
+      "evidence_ref": [
+        351
+      ],
+      "confidence": "Medium",
+      "metadata": "Influences glial response"
+    },
+    {
+      "source": "MAPT",
+      "target": "Neurodegeneration",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        99,
+        447
+      ],
+      "confidence": "High",
+      "metadata": "Via Neurofibrillary Tangles"
+    },
+    {
+      "source": "TARDBP",
+      "target": "ChronicTraumaticEncephalopathy",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        165
+      ],
+      "confidence": "Medium",
+      "metadata": "Pathological hallmark"
+    },
+    {
+      "source": "Microglia",
+      "target": "Neuroinflammation",
+      "mechanism": "mediates",
+      "evidence_ref": [
+        329,
+        416,
+        502
+      ],
+      "confidence": "High",
+      "metadata": "M1 Polarization"
+    },
+    {
+      "source": "Astrogliosis",
+      "target": "Neuroinflammation",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        7,
+        406,
+        422
+      ],
+      "confidence": "High",
+      "metadata": "Reactive astrocytes"
+    },
+    {
+      "source": "Methylphenidate",
+      "target": "CognitiveImpairment",
+      "mechanism": "treats",
+      "evidence_ref": [
+        56,
+        396,
+        423
+      ],
+      "confidence": "High",
+      "metadata": "Improves Attention/Processing Speed"
+    },
+    {
+      "source": "Amantadine",
+      "target": "CognitiveImpairment",
+      "mechanism": "treats",
+      "evidence_ref": [
+        575
+      ],
+      "confidence": "Medium",
+      "metadata": "Accelerates recovery"
+    },
+    {
+      "source": "Acetylcysteine",
+      "target": "CognitiveImpairment",
+      "mechanism": "treats",
+      "evidence_ref": [
+        478
+      ],
+      "confidence": "Medium",
+      "metadata": "Via antioxidant effects"
+    },
+    {
+      "source": "Acetylcysteine",
+      "target": "Neurodegeneration",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        460
+      ],
+      "confidence": "Medium",
+      "metadata": "Reduces Tau aggregation"
+    },
+    {
+      "source": "Erythropoietin",
+      "target": "CognitiveImpairment",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        502,
+        529
+      ],
+      "confidence": "Medium",
+      "metadata": "Neuroprotective"
+    },
+    {
+      "source": "Methylthioninium",
+      "target": "BloodBrainBarrier",
+      "mechanism": "binds",
+      "evidence_ref": [
+        177
+      ],
+      "confidence": "Low",
+      "metadata": "Crosses BBB"
+    },
+    {
+      "source": "Methylthioninium",
+      "target": "Neurodegeneration",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        177
+      ],
+      "confidence": "Low",
+      "metadata": "NanoMB-127 variant"
+    },
+    {
+      "source": "QuinolinicAcid",
+      "target": "TraumaticBrainInjury",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        106
+      ],
+      "confidence": "Low",
+      "metadata": "Elevated after Repetitive Head Injury"
+    },
+    {
+      "source": "AQP4",
+      "target": "GlymphaticSystem",
+      "mechanism": "transports",
+      "evidence_ref": [
+        5
+      ],
+      "confidence": "High",
+      "metadata": "Facilitates clearance"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "SYT1",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        45
+      ],
+      "confidence": "Low",
+      "metadata": "Synaptic protein loss"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "CAMK2A",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        45
+      ],
+      "confidence": "Low",
+      "metadata": "Signaling disruption"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "CAV1",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        64
+      ],
+      "confidence": "Low",
+      "metadata": "Vascular dysfunction"
+    },
+    {
+      "source": "APOE",
+      "target": "ChronicTraumaticEncephalopathy",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        51
+      ],
+      "confidence": "Medium",
+      "metadata": "E4 allele risk"
+    },
+    {
+      "source": "APOE",
+      "target": "CognitiveImpairment",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        606
+      ],
+      "confidence": "Medium",
+      "metadata": "Recovery outcome"
+    },
+    {
+      "source": "Ferroptosis",
+      "target": "Neurodegeneration",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        352
+      ],
+      "confidence": "Medium",
+      "metadata": "Cell death pathway"
+    },
+    {
+      "source": "N-Acetylserotonin",
+      "target": "Ferroptosis",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        352
+      ],
+      "confidence": "Low",
+      "metadata": "Relationship ambiguous in source"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Apoptosis",
+      "mechanism": "causes",
+      "evidence_ref": [
+        434
+      ],
+      "confidence": "High",
+      "metadata": "Caspase activation"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "NUP62",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        23
+      ],
+      "confidence": "Low",
+      "metadata": "Nuclear Pore Complex changes"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Autophagy",
+      "mechanism": "causes",
+      "evidence_ref": [
+        263
+      ],
+      "confidence": "Medium",
+      "metadata": "Disrupted flux"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "PostTraumaticStressDisorder",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        576
+      ],
+      "confidence": "High",
+      "metadata": "High comorbidity"
+    },
+    {
+      "source": "DepressiveDisorder",
+      "target": "AlzheimerDisease",
+      "mechanism": "increases_risk_of",
+      "evidence_ref": [
+        58
+      ],
+      "confidence": "Medium",
+      "metadata": "Prodromal or risk factor"
+    },
+    {
+      "source": "DepressiveDisorder",
+      "target": "CognitiveImpairment",
+      "mechanism": "worsens",
+      "evidence_ref": [
+        266
+      ],
+      "confidence": "Medium",
+      "metadata": "Post-traumatic context"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Hypoaminoacidemia",
+      "mechanism": "causes",
+      "evidence_ref": [
+        8
+      ],
+      "confidence": "Low",
+      "metadata": "Metabolic dysfunction"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "InsulinResistance",
+      "mechanism": "causes",
+      "evidence_ref": [
+        8
+      ],
+      "confidence": "Low",
+      "metadata": "Metabolic dysfunction"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "MuralCellDysfunction",
+      "mechanism": "causes",
+      "evidence_ref": [
+        64
+      ],
+      "confidence": "Low",
+      "metadata": "Vascular"
+    },
+    {
+      "source": "QuinolinicAcid",
+      "target": "Neurodegeneration",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        106
+      ],
+      "confidence": "Low",
+      "metadata": "Biomarker"
+    },
+    {
+      "source": "TSPO",
+      "target": "Neuroinflammation",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        88
+      ],
+      "confidence": "Medium",
+      "metadata": "Imaging marker"
+    },
+    {
+      "source": "UCHL1",
+      "target": "CognitiveImpairment",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        314,
+        400
+      ],
+      "confidence": "High",
+      "metadata": "Plasma levels correlate with decline"
+    },
+    {
+      "source": "ENO2",
+      "target": "TraumaticBrainInjury",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        408
+      ],
+      "confidence": "Medium",
+      "metadata": "Serum levels"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "PRNP",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        208,
+        236
+      ],
+      "confidence": "Low",
+      "metadata": "Cellular Prion Protein levels"
+    },
+    {
+      "source": "NTRK2",
+      "target": "TraumaticBrainInjury",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        352
+      ],
+      "confidence": "Low",
+      "metadata": "TrkB signaling"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Astrogliosis",
+      "mechanism": "causes",
+      "evidence_ref": [
+        422
+      ],
+      "confidence": "High",
+      "metadata": "Reactive gliosis"
+    },
+    {
+      "source": "GlymphaticSystem",
+      "target": "Neurodegeneration",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        458
+      ],
+      "confidence": "Medium",
+      "metadata": "Clearance of toxic proteins"
+    },
+    {
+      "source": "GlymphaticSystem",
+      "target": "MAPT",
+      "mechanism": "transports",
+      "evidence_ref": [
+        612
+      ],
+      "confidence": "Medium",
+      "metadata": "Clearance"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Microglia",
+      "mechanism": "activates",
+      "evidence_ref": [
+        303
+      ],
+      "confidence": "High",
+      "metadata": "CD68 expression"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "GlutamicAcid",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        506,
+        596
+      ],
+      "confidence": "Medium",
+      "metadata": "Excitotoxicity"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Choline",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        596
+      ],
+      "confidence": "Low",
+      "metadata": "Metabolic marker"
+    },
+    {
+      "source": "NeurotoxicAutoantibodies",
+      "target": "CognitiveImpairment",
+      "mechanism": "causes",
+      "evidence_ref": [
+        583,
+        613
+      ],
+      "confidence": "Medium",
+      "metadata": "GluA1 antibodies"
+    }
+  ]
+}

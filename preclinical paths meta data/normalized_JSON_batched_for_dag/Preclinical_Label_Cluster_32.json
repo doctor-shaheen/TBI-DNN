@@ -1,0 +1,149 @@
+[
+    {
+        "source_abstract_id":22,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Inflammasome Signaling",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":22,
+        "subject":"IC100 Treatment",
+        "relation":"inhibits",
+        "object":"Inflammasome Signaling",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":22,
+        "subject":"3xTg Transgenic Mice",
+        "relation":"exhibit",
+        "object":"Heightened Inflammasome Response",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":212,
+        "subject":"NLRP3 Inflammasome",
+        "relation":"activates",
+        "object":"HMGB1 Release",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":212,
+        "subject":"NLRP3 Inflammasome",
+        "relation":"causes",
+        "object":"Inflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":212,
+        "subject":"NLRP3 Inflammasome",
+        "relation":"affects",
+        "object":"Long-term Potentiation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":251,
+        "subject":"NLR Family Pyrin Domain Containing 3 Inflammasome Activation",
+        "relation":"causes",
+        "object":"Neuronal Death",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":251,
+        "subject":"NLR Family Pyrin Domain Containing 3 Inflammasome Activation",
+        "relation":"causes",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":251,
+        "subject":"Microglia",
+        "relation":"inhibits",
+        "object":"NLR Family Pyrin Domain Containing 3 Inflammasome Activation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":251,
+        "subject":"NLR Family Pyrin Domain Containing 3 Inflammasome Activation",
+        "relation":"causes",
+        "object":"Inflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":253,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"NLR Family Pyrin Domain Containing 3 Inflammasome Activation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":253,
+        "subject":"Human Mesenchymal Stem Cell-Derived Extracellular Vesicles",
+        "relation":"inhibits",
+        "object":"NLR Family Pyrin Domain Containing 3 Inflammasome Activation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":375,
+        "subject":"Mdivi-1",
+        "relation":"reduces",
+        "object":"Caspase-3 Activation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":22,
+        "subject":"Alzheimer Disease",
+        "relation":"increases",
+        "object":"Apoptosis-associated Speck-like Protein Containing a CARD Expression",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":222,
+        "subject":"Dynamin-1-like Protein Inhibition",
+        "relation":"reduces",
+        "object":"Caspase-3",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":26,
+        "subject":"Nuclear factor kappa B",
+        "relation":"triggers",
+        "object":"Caspase-3",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":236,
+        "subject":"Oxiracetam",
+        "relation":"downregulates",
+        "object":"Caspase-1",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":251,
+        "subject":"Galectin-3",
+        "relation":"triggers",
+        "object":"NLR family pyrin domain containing 3 inflammasome activation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":391,
+        "subject":"Nicotinamide",
+        "relation":"triggers",
+        "object":"Caspase-3",
+        "entity_variants":"NAM"
+    },
+    {
+        "source_abstract_id":391,
+        "subject":"Nicotinamide",
+        "relation":"triggers",
+        "object":"Bcl-2 protein",
+        "entity_variants":"NAM"
+    },
+    {
+        "source_abstract_id":236,
+        "subject":"Oxiracetam",
+        "relation":"decreases",
+        "object":"NLR Family Pyrin Domain Containing 3",
+        "entity_variants":null
+    }
+]

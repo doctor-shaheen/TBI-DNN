@@ -1,0 +1,429 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 18,
+    "edge_count": 17
+  },
+  "nodes": [
+    {
+      "id": "RepetitiveHeadImpacts",
+      "label": "Repetitive Head Impact",
+      "type": "Event",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C4039433"
+      },
+      "synonyms": [
+        "Repetitive Head Impact Exposure",
+        "Repeated Head Trauma",
+        "Repetitive Traumatic Brain Injury",
+        "Cumulative Head Contacts",
+        "Repetitive Subconcussion",
+        "Repetitive Head Injuries",
+        "Heading Ball",
+        "Mild Repetitive Head Injury",
+        "Repeated Head Impacts"
+      ]
+    },
+    {
+      "id": "ChronicTraumaticEncephalopathy",
+      "label": "Chronic Traumatic Encephalopathy",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0338543",
+        "MeSH_ID": "D000083242"
+      },
+      "synonyms": [
+        "CTE",
+        "Chronic Traumatic Encephalopathy Stage",
+        "Chronic Traumatic Encephalopathy Pathology",
+        "Chronic Traumatic Encephalopathy Neuropathologic Change"
+      ]
+    },
+    {
+      "id": "Ventriculomegaly",
+      "label": "Ventriculomegaly",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0042525"
+      },
+      "synonyms": [
+        "Ventricular Dilation"
+      ]
+    },
+    {
+      "id": "Macrophage",
+      "label": "Macrophage",
+      "type": "Cell",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0024433",
+        "HGNC_ID": "N/A"
+      },
+      "synonyms": [
+        "Perivascular Macrophage"
+      ]
+    },
+    {
+      "id": "Neurodegeneration",
+      "label": "Neurodegeneration",
+      "type": "PathologicalProcess",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027746"
+      },
+      "synonyms": [
+        "Neurodegenerative Disease",
+        "Neurodegenerative Sequelae",
+        "Neurodegenerative Disorders"
+      ]
+    },
+    {
+      "id": "NeuronalInjury",
+      "label": "Neuronal Injury",
+      "type": "PathologicalProcess",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0270614"
+      },
+      "synonyms": [
+        "Neuronal Damage"
+      ]
+    },
+    {
+      "id": "CognitiveDecline",
+      "label": "Cognitive Decline",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0234985"
+      },
+      "synonyms": [
+        "Cognitive Impairment",
+        "Progressive Cognitive Impairment",
+        "Lower Verbal Memory Learning",
+        "Lower Recall Performance"
+      ]
+    },
+    {
+      "id": "BrainAtrophy",
+      "label": "Brain Atrophy",
+      "type": "PathologicalProcess",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0241816"
+      },
+      "synonyms": [
+        "Medial Temporal Lobe Atrophy",
+        "Cortical Thinning"
+      ]
+    },
+    {
+      "id": "GlucoseMetabolism",
+      "label": "Glucose Metabolism",
+      "type": "BiologicalProcess",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0017725",
+        "GO_ID": "GO:0006006"
+      },
+      "synonyms": [
+        "Glucose Hypometabolism"
+      ]
+    },
+    {
+      "id": "Microglia",
+      "label": "Microglia",
+      "type": "Cell",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0026003"
+      },
+      "synonyms": [
+        "Microglial Activation"
+      ]
+    },
+    {
+      "id": "Neuroinflammation",
+      "label": "Neuroinflammation",
+      "type": "PathologicalProcess",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0338575"
+      },
+      "synonyms": [
+        "Inflammation"
+      ]
+    },
+    {
+      "id": "TraumaticEncephalopathySyndrome",
+      "label": "Traumatic Encephalopathy Syndrome",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C4277742"
+      },
+      "synonyms": [
+        "TES"
+      ]
+    },
+    {
+      "id": "PosturalBalance",
+      "label": "Postural Balance",
+      "type": "BiologicalProcess",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0032816"
+      },
+      "synonyms": [
+        "Balance Impairment"
+      ]
+    },
+    {
+      "id": "FunctionalConnectivity",
+      "label": "Functional Connectivity",
+      "type": "BiologicalProcess",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C4072118"
+      },
+      "synonyms": [
+        "Functional Dysconnectivity"
+      ]
+    },
+    {
+      "id": "NeurologicSymptoms",
+      "label": "Neurologic Symptoms",
+      "type": "Symptom",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0027769"
+      },
+      "synonyms": [
+        "Neurological Symptoms"
+      ]
+    },
+    {
+      "id": "NeuronalActivity",
+      "label": "Neuronal Activity",
+      "type": "BiologicalProcess",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0037922"
+      },
+      "synonyms": [
+        "Neural Activity Disruption"
+      ]
+    },
+    {
+      "id": "MentalDisorders",
+      "label": "Mental Disorders",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0004936"
+      },
+      "synonyms": [
+        "Mental Health Disorders"
+      ]
+    },
+    {
+      "id": "PostTraumaticStressDisorder",
+      "label": "Post-Traumatic Stress Disorder",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0038436"
+      },
+      "synonyms": [
+        "Post-Traumatic Stress Disorder Symptoms"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "RepetitiveHeadImpacts",
+      "target": "ChronicTraumaticEncephalopathy",
+      "mechanism": "causes",
+      "evidence_ref": [
+        1,
+        17,
+        22,
+        30,
+        60,
+        124,
+        144,
+        165,
+        451
+      ],
+      "confidence": "High",
+      "metadata": "Context: Progression to CTE pathology and stages"
+    },
+    {
+      "source": "RepetitiveHeadImpacts",
+      "target": "Ventriculomegaly",
+      "mechanism": "causes",
+      "evidence_ref": [
+        1
+      ],
+      "confidence": "Moderate"
+    },
+    {
+      "source": "RepetitiveHeadImpacts",
+      "target": "Macrophage",
+      "mechanism": "activates",
+      "evidence_ref": [
+        1
+      ],
+      "confidence": "Moderate",
+      "metadata": "Context: Perivascular accumulation"
+    },
+    {
+      "source": "RepetitiveHeadImpacts",
+      "target": "Neurodegeneration",
+      "mechanism": "causes",
+      "evidence_ref": [
+        4,
+        16,
+        275,
+        304,
+        307,
+        507,
+        541
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "RepetitiveHeadImpacts",
+      "target": "NeuronalInjury",
+      "mechanism": "causes",
+      "evidence_ref": [
+        49
+      ],
+      "confidence": "Moderate"
+    },
+    {
+      "source": "RepetitiveHeadImpacts",
+      "target": "CognitiveDecline",
+      "mechanism": "causes",
+      "evidence_ref": [
+        60,
+        124,
+        142,
+        520
+      ],
+      "confidence": "High",
+      "metadata": "Includes memory learning and recall deficits"
+    },
+    {
+      "source": "RepetitiveHeadImpacts",
+      "target": "BrainAtrophy",
+      "mechanism": "causes",
+      "evidence_ref": [
+        60,
+        142
+      ],
+      "confidence": "Moderate",
+      "metadata": "Context: Medial Temporal Lobe and Cortical Thinning"
+    },
+    {
+      "source": "RepetitiveHeadImpacts",
+      "target": "GlucoseMetabolism",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        60
+      ],
+      "confidence": "Moderate",
+      "metadata": "Context: Hypometabolism"
+    },
+    {
+      "source": "RepetitiveHeadImpacts",
+      "target": "Microglia",
+      "mechanism": "activates",
+      "evidence_ref": [
+        110
+      ],
+      "confidence": "Moderate"
+    },
+    {
+      "source": "RepetitiveHeadImpacts",
+      "target": "Neuroinflammation",
+      "mechanism": "causes",
+      "evidence_ref": [
+        304,
+        444
+      ],
+      "confidence": "Moderate"
+    },
+    {
+      "source": "RepetitiveHeadImpacts",
+      "target": "TraumaticEncephalopathySyndrome",
+      "mechanism": "causes",
+      "evidence_ref": [
+        333,
+        540
+      ],
+      "confidence": "Moderate"
+    },
+    {
+      "source": "RepetitiveHeadImpacts",
+      "target": "PosturalBalance",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        333
+      ],
+      "confidence": "Moderate",
+      "metadata": "Context: Balance Impairment"
+    },
+    {
+      "source": "RepetitiveHeadImpacts",
+      "target": "FunctionalConnectivity",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        566
+      ],
+      "confidence": "Moderate",
+      "metadata": "Context: Functional Dysconnectivity"
+    },
+    {
+      "source": "RepetitiveHeadImpacts",
+      "target": "NeurologicSymptoms",
+      "mechanism": "causes",
+      "evidence_ref": [
+        566
+      ],
+      "confidence": "Moderate"
+    },
+    {
+      "source": "RepetitiveHeadImpacts",
+      "target": "NeuronalActivity",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        566
+      ],
+      "confidence": "Moderate",
+      "metadata": "Context: Activity Disruption"
+    },
+    {
+      "source": "RepetitiveHeadImpacts",
+      "target": "MentalDisorders",
+      "mechanism": "causes",
+      "evidence_ref": [
+        608
+      ],
+      "confidence": "Moderate"
+    },
+    {
+      "source": "RepetitiveHeadImpacts",
+      "target": "PostTraumaticStressDisorder",
+      "mechanism": "causes",
+      "evidence_ref": [
+        608
+      ],
+      "confidence": "Moderate"
+    }
+  ]
+}

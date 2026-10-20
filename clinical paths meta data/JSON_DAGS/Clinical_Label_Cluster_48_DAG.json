@@ -1,0 +1,389 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 12,
+    "edge_count": 16
+  },
+  "nodes": [
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "Traumatic Brain Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111",
+        "MeSH": "D001930"
+      },
+      "synonyms": [
+        "Mild Traumatic Brain Injury",
+        "mTBI",
+        "Concussion",
+        "Blast-Related Mild Traumatic Brain Injury",
+        "Head Injury",
+        "Military Blast Exposure",
+        "Remote Concussions",
+        "Close-Range Blast Exposure"
+      ]
+    },
+    {
+      "id": "WhiteMatterInjury",
+      "label": "White Matter Injury",
+      "type": "Pathology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0270612"
+      },
+      "synonyms": [
+        "White Matter Abnormalities",
+        "White Matter Atrophy",
+        "White Matter Degradation",
+        "White Matter Microstructure Changes",
+        "White Matter Lesions",
+        "White Matter Rarefaction",
+        "White Matter Volume Loss",
+        "Diffuse Axonal Injury",
+        "Loss of White Matter Integrity",
+        "Cerebral White Matter Loss"
+      ]
+    },
+    {
+      "id": "PostTraumaticStressDisorder",
+      "label": "Post-Traumatic Stress Disorder",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0038436"
+      },
+      "synonyms": [
+        "PTSD"
+      ]
+    },
+    {
+      "id": "CognitiveImpairment",
+      "label": "Cognitive Impairment",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0338656"
+      },
+      "synonyms": [
+        "Cognitive Decline",
+        "Cognitive Deficits",
+        "Dementia",
+        "Neurocognitive Dysfunction"
+      ]
+    },
+    {
+      "id": "Cognition",
+      "label": "Cognition",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0009241"
+      },
+      "synonyms": [
+        "Cognitive Function",
+        "Cognitive Performance",
+        "Memory Performance",
+        "Working Memory Ability",
+        "Neuropsychological Functioning",
+        "Attentional Performance",
+        "Executive Function"
+      ]
+    },
+    {
+      "id": "MAPT",
+      "label": "MAPT",
+      "type": "Protein",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0039392",
+        "HGNC_ID": "HGNC:6893",
+        "UniProt_ID": "P10636"
+      },
+      "synonyms": [
+        "Tau",
+        "Total Tau",
+        "Serum Tau",
+        "Cerebrospinal Fluid Total Tau",
+        "Tau Protein"
+      ]
+    },
+    {
+      "id": "ContactSports",
+      "label": "Contact Sports",
+      "type": "Activity",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0413550"
+      },
+      "synonyms": [
+        "Rugby Participation",
+        "Collegiate Football"
+      ]
+    },
+    {
+      "id": "Aging",
+      "label": "Aging",
+      "type": "Process",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0001737"
+      },
+      "synonyms": [
+        "Age"
+      ]
+    },
+    {
+      "id": "CerebralMicrobleeds",
+      "label": "Cerebral Microbleeds",
+      "type": "Pathology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C3273183"
+      },
+      "synonyms": [
+        "Microbleeds"
+      ]
+    },
+    {
+      "id": "JugularCompressionCollar",
+      "label": "Jugular Compression Collar",
+      "type": "MedicalDevice",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C4762145"
+      },
+      "synonyms": [
+        "Collar"
+      ]
+    },
+    {
+      "id": "RetinalNerveFiberLayerThinning",
+      "label": "Retinal Nerve Fiber Layer Thinning",
+      "type": "Pathology",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C4048704"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "MeanDiffusivity",
+      "label": "Mean Diffusivity",
+      "type": "Diagnostic",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C4255198"
+      },
+      "synonyms": []
+    }
+  ],
+  "edges": [
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "WhiteMatterInjury",
+      "mechanism": "causes",
+      "evidence_ref": [
+        474,
+        19,
+        25,
+        31,
+        38,
+        100,
+        103,
+        115,
+        122,
+        139,
+        157,
+        169,
+        189,
+        194,
+        202,
+        212,
+        317,
+        421,
+        451,
+        485,
+        487,
+        524,
+        492
+      ],
+      "confidence": "High",
+      "metadata": "Includes mild TBI, blast exposure, and concussion causing abnormalities, atrophy, and loss of integrity."
+    },
+    {
+      "source": "WhiteMatterInjury",
+      "target": "CognitiveImpairment",
+      "mechanism": "causes",
+      "evidence_ref": [
+        31,
+        39,
+        469,
+        421
+      ],
+      "confidence": "High",
+      "metadata": "White matter abnormalities associated with cognitive decline and dementia."
+    },
+    {
+      "source": "WhiteMatterInjury",
+      "target": "Cognition",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        31,
+        76,
+        120,
+        212,
+        243,
+        317,
+        480,
+        527,
+        541,
+        588,
+        443
+      ],
+      "confidence": "High",
+      "metadata": "Injury/Degradation reduces cognitive function, memory, and executive function. Integrity correlates positively with function."
+    },
+    {
+      "source": "PostTraumaticStressDisorder",
+      "target": "WhiteMatterInjury",
+      "mechanism": "causes",
+      "evidence_ref": [
+        19,
+        421
+      ],
+      "confidence": "Medium",
+      "metadata": "PTSD affects white matter microstructure and causes abnormalities."
+    },
+    {
+      "source": "ContactSports",
+      "target": "WhiteMatterInjury",
+      "mechanism": "causes",
+      "evidence_ref": [
+        415,
+        115,
+        492
+      ],
+      "confidence": "Medium",
+      "metadata": "Participation in contact sports (Rugby, Football) associated with white matter loss and abnormalities."
+    },
+    {
+      "source": "Aging",
+      "target": "WhiteMatterInjury",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        38,
+        389
+      ],
+      "confidence": "Medium",
+      "metadata": "Age affects white matter integrity and causes degradation."
+    },
+    {
+      "source": "CerebralMicrobleeds",
+      "target": "WhiteMatterInjury",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        120,
+        389
+      ],
+      "confidence": "Medium",
+      "metadata": "Microbleeds associated with white matter degradation."
+    },
+    {
+      "source": "MAPT",
+      "target": "WhiteMatterInjury",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        76,
+        115
+      ],
+      "confidence": "Medium",
+      "metadata": "Total Tau levels correlate with white matter integrity/injury."
+    },
+    {
+      "source": "JugularCompressionCollar",
+      "target": "WhiteMatterInjury",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        275
+      ],
+      "confidence": "Medium",
+      "metadata": "Collar usage maintains white matter integrity and prevents changes."
+    },
+    {
+      "source": "RetinalNerveFiberLayerThinning",
+      "target": "WhiteMatterInjury",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        415
+      ],
+      "confidence": "Low",
+      "metadata": "Indicates wider white matter degeneration."
+    },
+    {
+      "source": "MeanDiffusivity",
+      "target": "WhiteMatterInjury",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        25,
+        103
+      ],
+      "confidence": "High",
+      "metadata": "Increased mean diffusivity indicates loss of white matter integrity/injury."
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "WhiteMatterInjury",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        48,
+        154,
+        492
+      ],
+      "confidence": "Low",
+      "metadata": "Context: Conflicting or negative findings (No direct causal link to WM Hyperintensities or Volume in some studies)."
+    },
+    {
+      "source": "WhiteMatterInjury",
+      "target": "MAPT",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        421
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: White matter abnormalities correlate with amyloid/tau deposition (bi-directional or consequent)."
+    },
+    {
+      "source": "WhiteMatterInjury",
+      "target": "CerebralMicrobleeds",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        451
+      ],
+      "confidence": "Low",
+      "metadata": "TBI causes WM microvascular lesions which may relate to microbleeds."
+    },
+    {
+      "source": "Cognition",
+      "target": "WhiteMatterInjury",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        76
+      ],
+      "confidence": "Low",
+      "metadata": "Context: Reverse correlation found in some texts (Performance mediates Integrity - likely statistical association)."
+    },
+    {
+      "source": "Close-Range Blast Exposure",
+      "target": "WhiteMatterInjury",
+      "mechanism": "causes",
+      "evidence_ref": [
+        485
+      ],
+      "confidence": "High",
+      "metadata": "Merged into TBI node conceptually, but kept specific edge ref for clarity if needed. (Action: Evidence merged into TBI->WMInjury edge, this entry is redundant unless distinct node kept. I merged nodes, so this edge is virtual, fully covered by TBI->WMInjury)."
+    }
+  ]
+}

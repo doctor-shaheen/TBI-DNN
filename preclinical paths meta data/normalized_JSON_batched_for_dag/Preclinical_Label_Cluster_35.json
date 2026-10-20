@@ -1,0 +1,198 @@
+[
+    {
+        "source_abstract_id":125,
+        "subject":"Xenon",
+        "relation":"prevents",
+        "object":"Memory Deficit",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":174,
+        "subject":"Hypobaric Exposure",
+        "relation":"worsens",
+        "object":"Cognitive Deficit",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":174,
+        "subject":"Hypobaric Exposure",
+        "relation":"exacerbates",
+        "object":"Hippocampal Neuronal Loss",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":174,
+        "subject":"Hyperoxia",
+        "relation":"exacerbates",
+        "object":"Cognitive Deficit",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":174,
+        "subject":"Hypobaric Exposure",
+        "relation":"worsens",
+        "object":"Neuroinflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":174,
+        "subject":"Hypobaric Exposure",
+        "relation":"worsens",
+        "object":"Histological Changes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":174,
+        "subject":"Hypobaric Exposure",
+        "relation":"worsens",
+        "object":"Behavioral Outcome",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":174,
+        "subject":"Hypobaric Exposure",
+        "relation":"worsens",
+        "object":"Sensorimotor Deficit",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":174,
+        "subject":"Hypobaric Exposure",
+        "relation":"worsens",
+        "object":"Long-Term Outcome",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":174,
+        "subject":"Hypobaric Exposure",
+        "relation":"activates",
+        "object":"Microglial and Astrocyte Activation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":304,
+        "subject":"Oxygen Exposure",
+        "relation":"treats",
+        "object":"Visual Acuity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":113,
+        "subject":"Military Exposure",
+        "relation":"causes",
+        "object":"Microstructural Changes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":113,
+        "subject":"Military Exposure",
+        "relation":"causes",
+        "object":"Cognitive Dysfunction",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":113,
+        "subject":"Military Exposure",
+        "relation":"affects",
+        "object":"Brain Volume",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":113,
+        "subject":"Military Exposure",
+        "relation":"causes",
+        "object":"Ipsilateral Volume Changes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":113,
+        "subject":"Military Exposure",
+        "relation":"causes",
+        "object":"Reduced Brain Volume",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":113,
+        "subject":"Military Exposure",
+        "relation":"causes",
+        "object":"Dynamic Changes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":113,
+        "subject":"Military Exposure",
+        "relation":"affects",
+        "object":"Fractional Anisotropy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":113,
+        "subject":"Military Exposure",
+        "relation":"affects",
+        "object":"Radial Diffusivity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":113,
+        "subject":"Military Exposure",
+        "relation":"causes",
+        "object":"Axial Diffusivity Changes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":121,
+        "subject":"Military Exposure",
+        "relation":"causes",
+        "object":"Cognitive Deficits",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":121,
+        "subject":"Military Exposure",
+        "relation":"causes",
+        "object":"Recognition Memory Deficits",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":131,
+        "subject":"Military Exposure",
+        "relation":"causes",
+        "object":"Cerebral Blood Flow Alterations",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":131,
+        "subject":"Military Exposure",
+        "relation":"causes",
+        "object":"Neurobehavioral Deficits",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":291,
+        "subject":"Military Exposure",
+        "relation":"causes",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":291,
+        "subject":"Military Exposure",
+        "relation":"causes",
+        "object":"Post-Traumatic Stress Disorder",
+        "entity_variants":"PTSD"
+    },
+    {
+        "source_abstract_id":316,
+        "subject":"Military Personnel",
+        "relation":"manifestation_of",
+        "object":"Neuropsychiatric Sequelae",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":385,
+        "subject":"Military Exposure",
+        "relation":"causes",
+        "object":"Focal Vascular Injury",
+        "entity_variants":null
+    }
+]

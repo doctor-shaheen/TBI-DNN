@@ -1,0 +1,393 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 16,
+    "edge_count": 17
+  },
+  "nodes": [
+    {
+      "id": "C9orf72",
+      "label": "C9orf72",
+      "type": "Gene",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "HGNC_ID": "HGNC:28337",
+        "UMLS_CUI": "C3539739"
+      },
+      "synonyms": [
+        "Chromosome 9 Open Reading Frame 72"
+      ]
+    },
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "Traumatic Brain Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111"
+      },
+      "synonyms": [
+        "TBI",
+        "Brain Injury",
+        "Head Injury"
+      ]
+    },
+    {
+      "id": "FrontotemporalDementia",
+      "label": "Frontotemporal Dementia",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0338656"
+      },
+      "synonyms": [
+        "FTD",
+        "Frontotemporal Lobar Degeneration"
+      ]
+    },
+    {
+      "id": "AmyotrophicLateralSclerosis",
+      "label": "Amyotrophic Lateral Sclerosis",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0002736"
+      },
+      "synonyms": [
+        "ALS",
+        "Lou Gehrig's Disease"
+      ]
+    },
+    {
+      "id": "MicroglialActivation",
+      "label": "Microglial Activation",
+      "type": "Process",
+      "location": "Microglia",
+      "identifiers": {
+        "GO_ID": "GO:0036363",
+        "UMLS_CUI": "C2936742"
+      },
+      "synonyms": [
+        "Microgliosis",
+        "Microglial cell activation"
+      ]
+    },
+    {
+      "id": "BehavioralDeficit",
+      "label": "Behavioral Deficit",
+      "type": "Symptom",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0233514"
+      },
+      "synonyms": [
+        "Behavioral Symptoms",
+        "Behavioral dysfunction"
+      ]
+    },
+    {
+      "id": "NeuronalDeath",
+      "label": "Neuronal Death",
+      "type": "Process",
+      "location": "Neuron",
+      "identifiers": {
+        "GO_ID": "GO:0070997",
+        "UMLS_CUI": "C0270928"
+      },
+      "synonyms": [
+        "Neuron Loss",
+        "Neuronal Density Decrease",
+        "Cell Death",
+        "CA1 Neuron Loss"
+      ]
+    },
+    {
+      "id": "AxonalInjury",
+      "label": "Axonal Injury",
+      "type": "Pathology",
+      "location": "Neuron",
+      "identifiers": {
+        "UMLS_CUI": "C0151608"
+      },
+      "synonyms": [
+        "Axonal Damage",
+        "Axonal Degeneration"
+      ]
+    },
+    {
+      "id": "SynapticLoss",
+      "label": "Synaptic Loss",
+      "type": "Process",
+      "location": "Synapse",
+      "identifiers": {
+        "UMLS_CUI": "C0597330"
+      },
+      "synonyms": [
+        "Loss of Synaptic Integrity",
+        "Synapse Loss"
+      ]
+    },
+    {
+      "id": "SOD1",
+      "label": "SOD1",
+      "type": "Gene",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "HGNC_ID": "HGNC:11179",
+        "UMLS_CUI": "C1420188"
+      },
+      "synonyms": [
+        "Superoxide dismutase 1"
+      ]
+    },
+    {
+      "id": "NeurologicDeficit",
+      "label": "Neurologic Deficit",
+      "type": "Symptom",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0521654"
+      },
+      "synonyms": [
+        "Neurological Deficits"
+      ]
+    },
+    {
+      "id": "UCHL1",
+      "label": "UCHL1",
+      "type": "Gene",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "HGNC_ID": "HGNC:12513",
+        "UMLS_CUI": "C1420847"
+      },
+      "synonyms": [
+        "Ubiquitin C-terminal hydrolase L1",
+        "PGP9.5"
+      ]
+    },
+    {
+      "id": "UBC",
+      "label": "UBC",
+      "type": "Protein",
+      "location": "Intracellular",
+      "identifiers": {
+        "HGNC_ID": "HGNC:12468",
+        "UMLS_CUI": "C0041537"
+      },
+      "synonyms": [
+        "Ubiquitin",
+        "Polyubiquitinated Proteins"
+      ]
+    },
+    {
+      "id": "BECN1",
+      "label": "BECN1",
+      "type": "Gene",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "HGNC_ID": "HGNC:1034",
+        "UMLS_CUI": "C1412759"
+      },
+      "synonyms": [
+        "Beclin-1"
+      ]
+    },
+    {
+      "id": "Autophagy",
+      "label": "Autophagy",
+      "type": "Process",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "GO_ID": "GO:0006914",
+        "UMLS_CUI": "C0004406"
+      },
+      "synonyms": [
+        "Autophagy Activation"
+      ]
+    },
+    {
+      "id": "Inflammation",
+      "label": "Inflammation",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0021368"
+      },
+      "synonyms": [
+        "Neuroinflammation"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "C9orf72",
+      "target": "TraumaticBrainInjury",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        5
+      ],
+      "confidence": "High",
+      "metadata": "Variant: Hexanucleotide Repeat Expansion"
+    },
+    {
+      "source": "C9orf72",
+      "target": "FrontotemporalDementia",
+      "mechanism": "causes",
+      "evidence_ref": [
+        5
+      ],
+      "confidence": "High",
+      "metadata": "Variant: Hexanucleotide Repeat Expansion; Context: Associated Neuropathology"
+    },
+    {
+      "source": "C9orf72",
+      "target": "AmyotrophicLateralSclerosis",
+      "mechanism": "causes",
+      "evidence_ref": [
+        5
+      ],
+      "confidence": "High",
+      "metadata": "Variant: Hexanucleotide Repeat Expansion; Context: Associated Neuropathology"
+    },
+    {
+      "source": "C9orf72",
+      "target": "MicroglialActivation",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        5
+      ],
+      "confidence": "High",
+      "metadata": "Variant: Hexanucleotide Repeat Expansion"
+    },
+    {
+      "source": "C9orf72",
+      "target": "BehavioralDeficit",
+      "mechanism": "causes",
+      "evidence_ref": [
+        5
+      ],
+      "confidence": "High",
+      "metadata": "Variant: Hexanucleotide Repeat Expansion"
+    },
+    {
+      "source": "C9orf72",
+      "target": "NeuronalDeath",
+      "mechanism": "causes",
+      "evidence_ref": [
+        5
+      ],
+      "confidence": "High",
+      "metadata": "Variant: Hexanucleotide Repeat Expansion; Context: Reduced Neuronal Density"
+    },
+    {
+      "source": "C9orf72",
+      "target": "AxonalInjury",
+      "mechanism": "causes",
+      "evidence_ref": [
+        5
+      ],
+      "confidence": "High",
+      "metadata": "Variant: Hexanucleotide Repeat Expansion; Context: Loss of Histological Markers"
+    },
+    {
+      "source": "C9orf72",
+      "target": "SynapticLoss",
+      "mechanism": "causes",
+      "evidence_ref": [
+        5
+      ],
+      "confidence": "High",
+      "metadata": "Variant: Hexanucleotide Repeat Expansion; Context: Loss of Histological Markers"
+    },
+    {
+      "source": "SOD1",
+      "target": "NeurologicDeficit",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        138
+      ],
+      "confidence": "High",
+      "metadata": "Variant: G93A Mutant; Input term: exacerbates"
+    },
+    {
+      "source": "UCHL1",
+      "target": "AxonalInjury",
+      "mechanism": "causes",
+      "evidence_ref": [
+        190
+      ],
+      "confidence": "High",
+      "metadata": "Variant: C90A/Wild-Type"
+    },
+    {
+      "source": "UCHL1",
+      "target": "NeuronalDeath",
+      "mechanism": "causes",
+      "evidence_ref": [
+        190
+      ],
+      "confidence": "High",
+      "metadata": "Variant: C90A; Context: Exacerbates TBI-induced death and causes greater loss"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "NeuronalDeath",
+      "mechanism": "causes",
+      "evidence_ref": [
+        190
+      ],
+      "confidence": "High",
+      "metadata": "Location: CA1 Hippocampus"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "BehavioralDeficit",
+      "mechanism": "causes",
+      "evidence_ref": [
+        190
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "UBC",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        190
+      ],
+      "confidence": "High",
+      "metadata": "Context: Polyubiquitinated Proteins accumulation"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "BECN1",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        190
+      ],
+      "confidence": "High",
+      "metadata": "Context: Expression levels"
+    },
+    {
+      "source": "UCHL1",
+      "target": "Autophagy",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        190
+      ],
+      "confidence": "High",
+      "metadata": "Input term: ameliorates activation"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Inflammation",
+      "mechanism": "activates",
+      "evidence_ref": [
+        190
+      ],
+      "confidence": "High"
+    }
+  ]
+}

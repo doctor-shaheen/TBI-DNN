@@ -1,0 +1,170 @@
+[
+    {
+        "source_abstract_id":99,
+        "subject":"Intercellular Adhesion Molecule 1",
+        "relation":"causes",
+        "object":"Neurodegeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":98,
+        "subject":"Intercellular Adhesion Molecule 1",
+        "relation":"causes",
+        "object":"Neuropathology",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":98,
+        "subject":"Intercellular Adhesion Molecule 1",
+        "relation":"causes",
+        "object":"Inflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":98,
+        "subject":"Intercellular Adhesion Molecule 1",
+        "relation":"associated_with",
+        "object":"Psychological Stress",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":99,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Intercellular Adhesion Molecule 1",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":99,
+        "subject":"Intercellular Adhesion Molecule 1",
+        "relation":"mediates",
+        "object":"Neuroinflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":99,
+        "subject":"Intercellular Adhesion Molecule 1",
+        "relation":"causes",
+        "object":"Cytokines",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":99,
+        "subject":"Intercellular Adhesion Molecule 1",
+        "relation":"negatively_regulates",
+        "object":"Functional Outcome",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":99,
+        "subject":"Intercellular Adhesion Molecule 1",
+        "relation":"causes",
+        "object":"Cell Death",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":99,
+        "subject":"Intercellular Adhesion Molecule 1",
+        "relation":"positively_regulates",
+        "object":"Norepinephrine",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":99,
+        "subject":"Intercellular Adhesion Molecule 1",
+        "relation":"positively_regulates",
+        "object":"Dopamine D1 Receptor",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":99,
+        "subject":"Intercellular Adhesion Molecule 1",
+        "relation":"positively_regulates",
+        "object":"Serotonin 1A Receptor",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":99,
+        "subject":"Intercellular Adhesion Molecule 1",
+        "relation":"positively_regulates",
+        "object":"Neuropeptide Y",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":223,
+        "subject":"Intercellular Adhesion Molecule 1",
+        "relation":"negatively_regulates",
+        "object":"Inflammatory Leukocyte Adhesion",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":223,
+        "subject":"Intercellular Adhesion Molecule 1",
+        "relation":"negatively_regulates",
+        "object":"Leukocyte Transmigration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":223,
+        "subject":"Intercellular Adhesion Molecule 1",
+        "relation":"causes",
+        "object":"Paxillin\/FAK Pathway",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":223,
+        "subject":"Intercellular Adhesion Molecule 1",
+        "relation":"prevents",
+        "object":"Traumatic Brain Injury Induced Inflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":224,
+        "subject":"Intercellular Adhesion Molecule 1",
+        "relation":"causes",
+        "object":"Neuroinflammation",
+        "entity_variants":"Intercellular Adhesion Molecule 1"
+    },
+    {
+        "source_abstract_id":224,
+        "subject":"Intercellular Adhesion Molecule 1",
+        "relation":"negatively_regulates",
+        "object":"Blood-Brain Barrier",
+        "entity_variants":"Intercellular Adhesion Molecule 1"
+    },
+    {
+        "source_abstract_id":224,
+        "subject":"Leukocyte Transmigration",
+        "relation":"mediates",
+        "object":"Functional Recovery",
+        "entity_variants":"Leukocyte Transmigration"
+    },
+    {
+        "source_abstract_id":224,
+        "subject":"Intercellular Adhesion Molecule 1",
+        "relation":"causes",
+        "object":"Cognitive Deficits",
+        "entity_variants":"Intercellular Adhesion Molecule 1"
+    },
+    {
+        "source_abstract_id":224,
+        "subject":"Intercellular Adhesion Molecule 1",
+        "relation":"causes",
+        "object":"Sensorimotor Deficits",
+        "entity_variants":"Intercellular Adhesion Molecule 1"
+    },
+    {
+        "source_abstract_id":224,
+        "subject":"Intercellular Adhesion Molecule 1",
+        "relation":"mediates",
+        "object":"Leukocyte Adherence",
+        "entity_variants":"Intercellular Adhesion Molecule 1"
+    },
+    {
+        "source_abstract_id":342,
+        "subject":"Traumatic Brain Injury",
+        "relation":"positively_regulates",
+        "object":"P-Selectin",
+        "entity_variants":null
+    }
+]

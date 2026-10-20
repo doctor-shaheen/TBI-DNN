@@ -1,0 +1,128 @@
+[
+    {
+        "source_abstract_id":159,
+        "subject":"22C11 Staining",
+        "relation":"suggests",
+        "object":"Damaged Oligodendrocytes",
+        "entity_variants":"22C11"
+    },
+    {
+        "source_abstract_id":287,
+        "subject":"C-C Chemokine Receptor Type 2",
+        "relation":"decreases",
+        "object":"Monocyte Infiltration",
+        "entity_variants":"Ccr2_RFP\/+, Ccr2_RFP\/RFP"
+    },
+    {
+        "source_abstract_id":287,
+        "subject":"C-C Chemokine Receptor Type 2",
+        "relation":"decreases",
+        "object":"Lesion Cavity Volume",
+        "entity_variants":"Ccr2_RFP\/+, Ccr2_RFP\/RFP"
+    },
+    {
+        "source_abstract_id":287,
+        "subject":"C-C Chemokine Receptor Type 2",
+        "relation":"decreases",
+        "object":"Axonal Damage",
+        "entity_variants":"Ccr2_RFP\/+, Ccr2_RFP\/RFP"
+    },
+    {
+        "source_abstract_id":287,
+        "subject":"C-C Chemokine Receptor Type 2",
+        "relation":"associated_with",
+        "object":"Tau Mislocalization",
+        "entity_variants":"Ccr2_RFP\/+, Ccr2_RFP\/RFP"
+    },
+    {
+        "source_abstract_id":287,
+        "subject":"C-C Chemokine Receptor Type 2",
+        "relation":"associated_with",
+        "object":"Phosphorylated Tau",
+        "entity_variants":"Ccr2_RFP\/+, Ccr2_RFP\/RFP"
+    },
+    {
+        "source_abstract_id":287,
+        "subject":"C-C Chemokine Receptor Type 2 Deletion",
+        "relation":"increases",
+        "object":"Tau Pathology",
+        "entity_variants":"Ccr2_RFP\/+, Ccr2_RFP\/RFP"
+    },
+    {
+        "source_abstract_id":92,
+        "subject":"Platelet-Derived Growth Factor Receptor Beta",
+        "relation":"downregulates",
+        "object":"Cerebrovascular Reactivity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":231,
+        "subject":"Angiotensin II Type 2 Receptor",
+        "relation":"causes",
+        "object":"Cognitive Function",
+        "entity_variants":"C21"
+    },
+    {
+        "source_abstract_id":231,
+        "subject":"Angiotensin II Type 2 Receptor",
+        "relation":"causes",
+        "object":"Blood-Brain Barrier",
+        "entity_variants":"C21"
+    },
+    {
+        "source_abstract_id":231,
+        "subject":"Angiotensin II Type 2 Receptor",
+        "relation":"causes",
+        "object":"Brain Edema",
+        "entity_variants":"C21"
+    },
+    {
+        "source_abstract_id":231,
+        "subject":"Angiotensin II Type 2 Receptor",
+        "relation":"downregulates",
+        "object":"Proinflammatory Cytokines",
+        "entity_variants":"C21"
+    },
+    {
+        "source_abstract_id":231,
+        "subject":"Angiotensin II Type 2 Receptor",
+        "relation":"causes",
+        "object":"Cerebral Blood Flow",
+        "entity_variants":"C21"
+    },
+    {
+        "source_abstract_id":231,
+        "subject":"Angiotensin II Type 2 Receptor",
+        "relation":"causes",
+        "object":"Left Ventricular Ejection Fraction",
+        "entity_variants":"C21"
+    },
+    {
+        "source_abstract_id":231,
+        "subject":"Angiotensin II Type 2 Receptor",
+        "relation":"causes",
+        "object":"Cardiac Hypertrophy",
+        "entity_variants":"C21"
+    },
+    {
+        "source_abstract_id":231,
+        "subject":"Angiotensin II Type 2 Receptor",
+        "relation":"causes",
+        "object":"Cardiac Fibrosis",
+        "entity_variants":"C21"
+    },
+    {
+        "source_abstract_id":231,
+        "subject":"Angiotensin II Type 2 Receptor",
+        "relation":"downregulates",
+        "object":"Proinflammatory Cytokines of Heart",
+        "entity_variants":"C21"
+    },
+    {
+        "source_abstract_id":159,
+        "subject":"22C11 Staining",
+        "relation":"negatively_associated_with",
+        "object":"Varicosities",
+        "entity_variants":"22C11|"
+    }
+]

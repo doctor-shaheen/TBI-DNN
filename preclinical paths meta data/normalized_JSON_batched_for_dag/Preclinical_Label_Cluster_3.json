@@ -1,0 +1,114 @@
+[
+    {
+        "source_abstract_id":140,
+        "subject":"Traumatic Brain Injury",
+        "relation":"upregulates",
+        "object":"High Mobility Group Box 1 Protein",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":141,
+        "subject":"High Mobility Group Box 1 Protein",
+        "relation":"upregulates",
+        "object":"Cognition",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":141,
+        "subject":"High Mobility Group Box 1 Protein Knockout",
+        "relation":"reduces",
+        "object":"Brain Contusion Volume",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":141,
+        "subject":"High Mobility Group Box 1 Protein",
+        "relation":"causes",
+        "object":"Blood-Brain Barrier Permeability",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":141,
+        "subject":"High Mobility Group Box 1 Protein Knockout",
+        "relation":"impairs",
+        "object":"Spatial Memory",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":141,
+        "subject":"High Mobility Group Box 1 Protein",
+        "relation":"has_effect_on",
+        "object":"Secondary Brain Injury",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":141,
+        "subject":"High Mobility Group Box 1 Protein",
+        "relation":"modulates",
+        "object":"Cell-Specific Effects",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":212,
+        "subject":"High Mobility Group Box 1 Protein",
+        "relation":"upregulates",
+        "object":"N-Methyl-D-Aspartate Receptor Subunit 1 Phosphorylation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":212,
+        "subject":"High Mobility Group Box 1 Protein",
+        "relation":"prevents",
+        "object":"Long-Term Potentiation Reduction",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":212,
+        "subject":"Glycyrrhizin",
+        "relation":"prevents",
+        "object":"High Mobility Group Box 1 Protein",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":212,
+        "subject":"High Mobility Group Box 1 Protein",
+        "relation":"associated_with",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":381,
+        "subject":"Traumatic Brain Injury",
+        "relation":"prevents",
+        "object":"Cognitive Impairment",
+        "entity_variants":"nonoxidized High Mobility Group Box 1 Protein"
+    },
+    {
+        "source_abstract_id":381,
+        "subject":"Nonoxidized High Mobility Group Box 1 Protein",
+        "relation":"treats",
+        "object":"Neurite Outgrowth",
+        "entity_variants":"fully reduced High Mobility Group Box 1 Protein"
+    },
+    {
+        "source_abstract_id":381,
+        "subject":"Nonoxidized High Mobility Group Box 1 Protein",
+        "relation":"treats",
+        "object":"Axon Elongation",
+        "entity_variants":"fully reduced High Mobility Group Box 1 Protein"
+    },
+    {
+        "source_abstract_id":381,
+        "subject":"Nonoxidized High Mobility Group Box 1 Protein",
+        "relation":"upregulates",
+        "object":"SH3 Domain-Containing Ring Finger 2",
+        "entity_variants":"not reported"
+    },
+    {
+        "source_abstract_id":381,
+        "subject":"SH3 Domain-Containing Ring Finger 2",
+        "relation":"downregulates",
+        "object":"Beneficial Effects of Nonoxidized High Mobility Group Box 1 Protein",
+        "entity_variants":"not reported"
+    }
+]

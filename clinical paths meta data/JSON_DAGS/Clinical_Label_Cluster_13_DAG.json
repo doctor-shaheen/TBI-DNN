@@ -1,0 +1,191 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 8,
+    "edge_count": 7
+  },
+  "nodes": [
+    {
+      "id": "DepressiveDisorder",
+      "label": "DepressiveDisorder",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0011570"
+      },
+      "synonyms": [
+        "Depression",
+        "Major Depressive Disorder",
+        "Depressive Symptoms",
+        "Preexisting Depressive Disorder"
+      ]
+    },
+    {
+      "id": "CognitiveDysfunction",
+      "label": "CognitiveDysfunction",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0009241"
+      },
+      "synonyms": [
+        "Cognitive Impairment",
+        "Mild Cognitive Impairment",
+        "Cognitive Decline",
+        "Poor Cognitive Outcome",
+        "Cognitive Function"
+      ]
+    },
+    {
+      "id": "Dementia",
+      "label": "Dementia",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0497327"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "VascularDementia",
+      "label": "VascularDementia",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0011265"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "CognitiveTraining",
+      "label": "CognitiveTraining",
+      "type": "Intervention",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0871239"
+      },
+      "synonyms": [
+        "Cognitive Therapy"
+      ]
+    },
+    {
+      "id": "Aging",
+      "label": "Aging",
+      "type": "Process",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0001811"
+      },
+      "synonyms": [
+        "Age"
+      ]
+    },
+    {
+      "id": "AdverseChildhoodExperiences",
+      "label": "AdverseChildhoodExperiences",
+      "type": "Social",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C4025916"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "SedentaryLifestyle",
+      "label": "SedentaryLifestyle",
+      "type": "Lifestyle",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0027361"
+      },
+      "synonyms": [
+        "Physical Inactivity"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "CognitiveTraining",
+      "target": "DepressiveDisorder",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        68
+      ],
+      "confidence": "High",
+      "metadata": "Context: Improvement of symptoms"
+    },
+    {
+      "source": "DepressiveDisorder",
+      "target": "CognitiveDysfunction",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        36,
+        286,
+        383,
+        397,
+        537,
+        562
+      ],
+      "confidence": "High",
+      "metadata": "Merged: Causes, Predicts, Correlates with, Associated with"
+    },
+    {
+      "source": "DepressiveDisorder",
+      "target": "Dementia",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        66,
+        322,
+        331,
+        335,
+        375,
+        437,
+        496,
+        591
+      ],
+      "confidence": "High",
+      "metadata": "Merged: Causes, Predisposes to, Increases risk of, Influences conversion"
+    },
+    {
+      "source": "Aging",
+      "target": "DepressiveDisorder",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        215
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "AdverseChildhoodExperiences",
+      "target": "DepressiveDisorder",
+      "mechanism": "causes",
+      "evidence_ref": [
+        283
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "DepressiveDisorder",
+      "target": "VascularDementia",
+      "mechanism": "causes",
+      "evidence_ref": [
+        311
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "SedentaryLifestyle",
+      "target": "DepressiveDisorder",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        397
+      ],
+      "confidence": "Medium",
+      "metadata": "Source term: Physical Inactivity"
+    }
+  ]
+}

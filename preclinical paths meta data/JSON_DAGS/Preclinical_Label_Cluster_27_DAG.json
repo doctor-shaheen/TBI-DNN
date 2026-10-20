@@ -1,0 +1,418 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 19,
+    "edge_count": 14
+  },
+  "nodes": [
+    {
+      "id": "CAV1",
+      "label": "CAV1",
+      "type": "Protein",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "UMLS_CUI": "C1332696",
+        "HGNC_ID": "HGNC:1527",
+        "UniProt_ID": "Q03135"
+      },
+      "synonyms": [
+        "Caveolin-1",
+        "BSCL3",
+        "CGL3"
+      ]
+    },
+    {
+      "id": "MAPT",
+      "label": "MAPT",
+      "type": "Protein",
+      "location": "Neuron",
+      "identifiers": {
+        "UMLS_CUI": "C0039392",
+        "HGNC_ID": "HGNC:6893",
+        "UniProt_ID": "P10636"
+      },
+      "synonyms": [
+        "Tau",
+        "Microtubule-associated protein tau",
+        "Tau Protein"
+      ]
+    },
+    {
+      "id": "SLC23A2",
+      "label": "SLC23A2",
+      "type": "Protein",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "UMLS_CUI": "C1420173",
+        "HGNC_ID": "HGNC:11000",
+        "UniProt_ID": "Q9BURGH3"
+      },
+      "synonyms": [
+        "Sodium-Dependent Vitamin C Transporter 2",
+        "SVCT2",
+        "NBTL1"
+      ]
+    },
+    {
+      "id": "AscorbicAcid",
+      "label": "Ascorbic Acid",
+      "type": "Chemical",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "UMLS_CUI": "C0003968",
+        "ChEBI_ID": "CHEBI:29073"
+      },
+      "synonyms": [
+        "Vitamin C",
+        "Ascorbate"
+      ]
+    },
+    {
+      "id": "TFRC",
+      "label": "TFRC",
+      "type": "Protein",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "UMLS_CUI": "C1420658",
+        "HGNC_ID": "HGNC:11763",
+        "UniProt_ID": "P02786"
+      },
+      "synonyms": [
+        "Transferrin Receptor",
+        "Transferrin Receptor 1",
+        "TfR1",
+        "CD71"
+      ]
+    },
+    {
+      "id": "TransportAcrossBloodBrainBarrier",
+      "label": "Transport Across Blood-Brain Barrier",
+      "type": "Process",
+      "location": "Blood",
+      "identifiers": {
+        "GO_ID": "GO:0150104",
+        "UMLS_CUI": "C0005764"
+      },
+      "synonyms": [
+        "Blood-Brain Barrier Penetration",
+        "BBB Permeability"
+      ]
+    },
+    {
+      "id": "PBT2",
+      "label": "PBT2",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C2717942",
+        "PubChem_CID": "11234193"
+      },
+      "synonyms": [
+        "Metal Chaperone",
+        "2-(dimethylamino)methyl-5,7-dichloro-8-hydroxyquinoline"
+      ]
+    },
+    {
+      "id": "NeuronalIntegrity",
+      "label": "Neuronal Integrity",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027882"
+      },
+      "synonyms": [
+        "Neuronal Health",
+        "Cellular Integrity"
+      ]
+    },
+    {
+      "id": "Astrocytosis",
+      "label": "Astrocytosis",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0017639"
+      },
+      "synonyms": [
+        "Gliosis",
+        "Astrogliosis"
+      ]
+    },
+    {
+      "id": "Cognition",
+      "label": "Cognition",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0009241",
+        "GO_ID": "GO:0050890"
+      },
+      "synonyms": [
+        "Cognitive Performance",
+        "Mental Processes"
+      ]
+    },
+    {
+      "id": "NeuronCount",
+      "label": "Neuron Count",
+      "type": "Phenotype",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027882"
+      },
+      "synonyms": [
+        "Neuronal Numbers",
+        "Cell Count"
+      ]
+    },
+    {
+      "id": "BrainLesion",
+      "label": "Brain Lesion",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0221198"
+      },
+      "synonyms": [
+        "Lesion Area",
+        "Cerebral Lesion"
+      ]
+    },
+    {
+      "id": "Behavior",
+      "label": "Behavior",
+      "type": "Process",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0004927",
+        "GO_ID": "GO:0007610"
+      },
+      "synonyms": [
+        "Behavioral Assessment"
+      ]
+    },
+    {
+      "id": "Neuroprotection",
+      "label": "Neuroprotection",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027878"
+      },
+      "synonyms": [
+        "Neuronal Protection"
+      ]
+    },
+    {
+      "id": "MicroglialActivation",
+      "label": "Microglial Activation",
+      "type": "Process",
+      "location": "Microglia",
+      "identifiers": {
+        "UMLS_CUI": "C3272443",
+        "GO_ID": "GO:0001774"
+      },
+      "synonyms": [
+        "Microglial Response"
+      ]
+    },
+    {
+      "id": "Neuroinflammation",
+      "label": "Neuroinflammation",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C3272365"
+      },
+      "synonyms": [
+        "Neuroinflammatory Response",
+        "Brain Inflammation"
+      ]
+    },
+    {
+      "id": "Iron",
+      "label": "Iron",
+      "type": "Chemical",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "UMLS_CUI": "C0302583",
+        "ChEBI_ID": "CHEBI:18248"
+      },
+      "synonyms": [
+        "Fe",
+        "Ferrous ion"
+      ]
+    },
+    {
+      "id": "IntermittentFasting",
+      "label": "Intermittent Fasting",
+      "type": "Process",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0015662",
+        "MeSH_ID": "D000076523"
+      },
+      "synonyms": [
+        "Time-restricted feeding"
+      ]
+    },
+    {
+      "id": "SLC7A11",
+      "label": "SLC7A11",
+      "type": "Protein",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "UMLS_CUI": "C1420188",
+        "HGNC_ID": "HGNC:11059",
+        "UniProt_ID": "Q9UPY5"
+      },
+      "synonyms": [
+        "Solute carrier family 7 member 11",
+        "xCT"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "CAV1",
+      "target": "MAPT",
+      "mechanism": "transports",
+      "evidence_ref": [
+        35
+      ],
+      "confidence": "High",
+      "metadata": "Context: Mediates Tau protein uptake"
+    },
+    {
+      "source": "SLC23A2",
+      "target": "AscorbicAcid",
+      "mechanism": "transports",
+      "evidence_ref": [
+        153
+      ],
+      "confidence": "High",
+      "metadata": "Context: Functional transport, reduced ascorbate"
+    },
+    {
+      "source": "TFRC",
+      "target": "TransportAcrossBloodBrainBarrier",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        171
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Mediates penetration"
+    },
+    {
+      "source": "PBT2",
+      "target": "NeuronalIntegrity",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        228
+      ],
+      "confidence": "High",
+      "metadata": "Context: Metal chaperone activity"
+    },
+    {
+      "source": "PBT2",
+      "target": "Astrocytosis",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        228
+      ],
+      "confidence": "High",
+      "metadata": "Context: Reduced gliosis"
+    },
+    {
+      "source": "PBT2",
+      "target": "Cognition",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        228
+      ],
+      "confidence": "High",
+      "metadata": "Context: Normalizes cognitive performance"
+    },
+    {
+      "source": "PBT2",
+      "target": "NeuronCount",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        228
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Upregulates neuronal numbers"
+    },
+    {
+      "source": "PBT2",
+      "target": "BrainLesion",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        228
+      ],
+      "confidence": "High",
+      "metadata": "Context: Reduced lesion area"
+    },
+    {
+      "source": "PBT2",
+      "target": "Behavior",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        228
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Causes behavioral assessment changes"
+    },
+    {
+      "source": "PBT2",
+      "target": "Neuroprotection",
+      "mechanism": "activates",
+      "evidence_ref": [
+        228
+      ],
+      "confidence": "High",
+      "metadata": "Context: Mediates neuroprotection"
+    },
+    {
+      "source": "SLC23A2",
+      "target": "MicroglialActivation",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        153
+      ],
+      "confidence": "High",
+      "metadata": "Context: Expression levels modify microglial response"
+    },
+    {
+      "source": "SLC23A2",
+      "target": "Neuroinflammation",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        153
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Modifies neuroinflammatory response"
+    },
+    {
+      "source": "TFRC",
+      "target": "Iron",
+      "mechanism": "binds",
+      "evidence_ref": [
+        240
+      ],
+      "confidence": "High",
+      "metadata": "Context: Direct binding"
+    },
+    {
+      "source": "IntermittentFasting",
+      "target": "SLC7A11",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        202
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Partially abolishes"
+    }
+  ]
+}

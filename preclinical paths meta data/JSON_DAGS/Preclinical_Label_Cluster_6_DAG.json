@@ -1,0 +1,105 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 3,
+    "edge_count": 2
+  },
+  "nodes": [
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "Traumatic Brain Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111",
+        "MeSH_ID": "D001930"
+      },
+      "synonyms": [
+        "TBI",
+        "Brain Injury, Traumatic",
+        "Head Injury"
+      ]
+    },
+    {
+      "id": "Neuroinflammation",
+      "label": "Neuroinflammation",
+      "type": "Pathologic Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027768",
+        "GO_ID": "GO:0150076"
+      },
+      "synonyms": [
+        "Neuroinflammatory Response",
+        "Neuroinflammatory Changes",
+        "Reactive Neuroinflammatory Response",
+        "Neuroinflammatory Outcomes"
+      ]
+    },
+    {
+      "id": "SecondaryBrainInjury",
+      "label": "Secondary Brain Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0036511"
+      },
+      "synonyms": [
+        "Secondary Brain Damage",
+        "Secondary Injury"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Neuroinflammation",
+      "mechanism": "causes",
+      "evidence_ref": [
+        46,
+        61,
+        74,
+        83,
+        93,
+        124,
+        141,
+        162,
+        164,
+        172,
+        175,
+        176,
+        187,
+        188,
+        191,
+        204,
+        221,
+        224,
+        225,
+        269,
+        282,
+        317,
+        347,
+        349,
+        355,
+        363,
+        366,
+        372,
+        387,
+        394
+      ],
+      "confidence": "High",
+      "metadata": "Consolidated multiple reports of TBI inducing neuroinflammatory responses."
+    },
+    {
+      "source": "Neuroinflammation",
+      "target": "SecondaryBrainInjury",
+      "mechanism": "causes",
+      "evidence_ref": [
+        101
+      ],
+      "confidence": "Medium",
+      "metadata": "Neuroinflammation identified as a driver of secondary injury."
+    }
+  ]
+}

@@ -1,0 +1,478 @@
+[
+    {
+        "source_abstract_id":40,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"induces",
+        "object":"Endocannabinoid System",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":74,
+        "subject":"T Lymphocytes",
+        "relation":"influences",
+        "object":"Traumatic Brain Injury Severity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":124,
+        "subject":"Triggering Receptor Expressed on Myeloid Cells 2 Deficiency",
+        "relation":"alters",
+        "object":"Macrophage Distribution",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":124,
+        "subject":"Triggering Receptor Expressed on Myeloid Cells 2 Deficiency",
+        "relation":"improves",
+        "object":"Recovery After Traumatic Brain Injury",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":124,
+        "subject":"Triggering Receptor Expressed on Myeloid Cells 2 Deficiency",
+        "relation":"affects",
+        "object":"Acute Responses to Traumatic Brain Injury",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":124,
+        "subject":"Traumatic Brain Injury",
+        "relation":"increases",
+        "object":"Triggering Receptor Expressed on Myeloid Cells 2 Expression",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":124,
+        "subject":"Triggering Receptor Expressed on Myeloid Cells 2 Deficiency",
+        "relation":"modulates",
+        "object":"Macrophage Activation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":124,
+        "subject":"Triggering Receptor Expressed on Myeloid Cells 2 Deficiency",
+        "relation":"causes",
+        "object":"Altered Pathological Outcomes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":129,
+        "subject":"Injured Knock-In Mice",
+        "relation":"exhibit",
+        "object":"Delayed Neuroinflammatory Response",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":157,
+        "subject":"Irg1 Myeloid Cell Knockout",
+        "relation":"exacerbates",
+        "object":"Proinflammatory Activation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":157,
+        "subject":"Neurodegeneration",
+        "relation":"worsened_by",
+        "object":"Irg1 Myeloid Cell Knockout",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":172,
+        "subject":"Traumatic Brain Injury",
+        "relation":"upregulates",
+        "object":"miR-21a-5p",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":172,
+        "subject":"Traumatic Brain Injury",
+        "relation":"upregulates",
+        "object":"miR-34a-5p",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":172,
+        "subject":"Traumatic Brain Injury",
+        "relation":"upregulates",
+        "object":"miR-16-3p",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":198,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"STING Signaling Pathway",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":198,
+        "subject":"STING Signaling Pathway",
+        "relation":"mediates",
+        "object":"Cortical Inflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":198,
+        "subject":"Microglial STING Knockout",
+        "relation":"reduces",
+        "object":"Cortical Inflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":198,
+        "subject":"Traumatic Brain Injury",
+        "relation":"induces",
+        "object":"Differentially Expressed Genes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":198,
+        "subject":"Microglial STING Knockout",
+        "relation":"reduces",
+        "object":"Traumatic Brain Injury-induced Differentially Expressed Genes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":204,
+        "subject":"STING Knockout Mice",
+        "relation":"reduces",
+        "object":"Traumatic Brain Injury-induced Cognitive Deficits",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":204,
+        "subject":"Chloroquine",
+        "relation":"reverses",
+        "object":"Traumatic Brain Injury-induced Inflammatory Gene Expression",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":226,
+        "subject":"DMXAA",
+        "relation":"upregulates",
+        "object":"Inflammatory Gene Expression",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":235,
+        "subject":"Traumatic Brain Injury",
+        "relation":"upregulates",
+        "object":"Triggering Receptor Expressed on Myeloid Cells 2",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":235,
+        "subject":"Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Immune Response Network",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":244,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"17 Beta-Estradiol Levels",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":244,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Luteinizing Hormone Levels",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":271,
+        "subject":"Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Gene Expression",
+        "entity_variants":"TBI variant"
+    },
+    {
+        "source_abstract_id":345,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"decreases",
+        "object":"Total Protein Content",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":345,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"assessed_by",
+        "object":"Fourier Transform Infrared Imaging",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":345,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"assessed_by",
+        "object":"Immunohistochemistry",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":352,
+        "subject":"Microglial STING Knockout",
+        "relation":"decreases",
+        "object":"Cortical Inflammation",
+        "entity_variants":"mSTING-\/-|"
+    },
+    {
+        "source_abstract_id":352,
+        "subject":"Microglial STING Knockout",
+        "relation":"prevents",
+        "object":"Neuronal Dysfunction",
+        "entity_variants":"mSTING-\/-|"
+    },
+    {
+        "source_abstract_id":352,
+        "subject":"Traumatic Brain Injury",
+        "relation":"induces",
+        "object":"Differentially Expressed Genes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":355,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Autophagy Dysregulation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":387,
+        "subject":"Traumatic Brain Injury",
+        "relation":"increases",
+        "object":"Ubiquitin Carboxyl-Terminal Hydrolase L1 Expression",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":393,
+        "subject":"Thoracic Injury",
+        "relation":"affects",
+        "object":"Hippocampal Gene Expression",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":394,
+        "subject":"Traumatic Brain Injury",
+        "relation":"upregulates",
+        "object":"T Cell Response Genes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":394,
+        "subject":"Traumatic Brain Injury",
+        "relation":"upregulates",
+        "object":"B Cell Related Genes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":1,
+        "subject":"Traumatic Brain Injury",
+        "relation":"upregulates",
+        "object":"Type I Interferon Signature Genes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":1,
+        "subject":"Traumatic Brain Injury",
+        "relation":"upregulates",
+        "object":"Inflammation-Related Genes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":47,
+        "subject":"Citrobacter rodentium",
+        "relation":"affects",
+        "object":"Cytokine Levels",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":204,
+        "subject":"STING Activation",
+        "relation":"upregulates",
+        "object":"Type I Interferon Responses",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":226,
+        "subject":"Traumatic Brain Injury",
+        "relation":"upregulates",
+        "object":"Cytokine Expression",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":226,
+        "subject":"Traumatic Brain Injury",
+        "relation":"enhances",
+        "object":"Interferon Signaling",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":260,
+        "subject":"Traumatic Brain Injury",
+        "relation":"stimulates",
+        "object":"Pro-inflammatory Gene Profiles",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":260,
+        "subject":"Traumatic Brain Injury",
+        "relation":"inhibits",
+        "object":"Anti-inflammatory Gene Profiles",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":260,
+        "subject":"Exercise Preconditioning",
+        "relation":"potentiates",
+        "object":"Anti-inflammatory Gene Profiles",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":368,
+        "subject":"Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Increased Transcription of Inflammatory Genes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":388,
+        "subject":"Traumatic Brain Injury",
+        "relation":"triggers",
+        "object":"Cytokine Response",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":388,
+        "subject":"Cytokine Response",
+        "relation":"mediates",
+        "object":"Inflammatory Response",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":1,
+        "subject":"Traumatic Brain Injury",
+        "relation":"returns_to_baseline",
+        "object":"Meninges Transcriptome",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":1,
+        "subject":"Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Cellular and Transcriptional Landscape",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":1,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Differential Gene Expression",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":21,
+        "subject":"Traumatic Brain Injury",
+        "relation":"mediates",
+        "object":"Targeting Motifs",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":34,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Defects in Protein Degradation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":40,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Gene Expression",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":172,
+        "subject":"Traumatic Brain Injury",
+        "relation":"upregulates",
+        "object":"MicroRNA-155-5p",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":219,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"enhances",
+        "object":"Gene Expression",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":273,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Activity-Regulated Cytoskeleton-Associated Protein Expression",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":325,
+        "subject":"Traumatic Brain Injury",
+        "relation":"mediates",
+        "object":"Histone Modifications",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":325,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Differentially Expressed Genes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":204,
+        "subject":"Microglial Depletion",
+        "relation":"reverses",
+        "object":"Traumatic Brain Injury-induced Gene Changes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":257,
+        "subject":"FAM76B",
+        "relation":"suppresses",
+        "object":"Inflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":289,
+        "subject":"Military exposure",
+        "relation":"upregulates",
+        "object":"Toll-like receptors 2, 4, and 9",
+        "entity_variants":"TLR2, TLR4, TLR9"
+    },
+    {
+        "source_abstract_id":129,
+        "subject":"Injured Wild Type Mice",
+        "relation":"exhibits",
+        "object":"Neuroinflammatory Response",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":394,
+        "subject":"Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Central and Peripheral Immune Reservoirs",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":204,
+        "subject":"Traumatic Brain Injury",
+        "relation":"downregulates",
+        "object":"CREB Signaling Pathway",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":273,
+        "subject":"Activity-Regulated Cytoskeleton-Associated Protein Expression",
+        "relation":"regulates",
+        "object":"Calcium Ion Homeostasis",
+        "entity_variants":null
+    }
+]

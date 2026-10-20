@@ -1,0 +1,247 @@
+[
+    {
+        "source_abstract_id":18,
+        "subject":"Apolipoprotein A1",
+        "relation":"associated_with",
+        "object":"Neurodegenerative Pathways",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":97,
+        "subject":"Apolipoprotein E4",
+        "relation":"no_direct_causal_link",
+        "object":"Injury",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":235,
+        "subject":"Apolipoprotein E Isoform",
+        "relation":"causes",
+        "object":"Gene Networks",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":235,
+        "subject":"Traumatic Brain Injury",
+        "relation":"upregulates",
+        "object":"Apolipoprotein J",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":25,
+        "subject":"Repetitive Head Trauma",
+        "relation":"affects",
+        "object":"Low-Density Lipoprotein Receptor-Related Protein 1 Function",
+        "entity_variants":"LRP1"
+    },
+    {
+        "source_abstract_id":128,
+        "subject":"Mild Repetitive Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Apolipoprotein E",
+        "entity_variants":"APO-E"
+    },
+    {
+        "source_abstract_id":18,
+        "subject":"Apolipoprotein E",
+        "relation":"associated_with",
+        "object":"Neurodegenerative Diseases",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":25,
+        "subject":"Apolipoprotein E4",
+        "relation":"modulates",
+        "object":"Cerebrospinal Fluid-Interstitial Fluid Exchange",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":25,
+        "subject":"Apolipoprotein E4",
+        "relation":"influences",
+        "object":"Blood-Brain Barrier Integrity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":25,
+        "subject":"Apolipoprotein E4",
+        "relation":"affects",
+        "object":"Tau Protein Efflux",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":97,
+        "subject":"Apolipoprotein E4",
+        "relation":"upregulates",
+        "object":"Neurofilament Heavy Polypeptide",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":97,
+        "subject":"Apolipoprotein E4",
+        "relation":"upregulates",
+        "object":"Endothelial Oxidized Low-Density Lipoprotein Receptor 1",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":97,
+        "subject":"Apolipoprotein E3",
+        "relation":"binds_to",
+        "object":"Microgliosis",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":97,
+        "subject":"Apolipoprotein E4",
+        "relation":"triggers",
+        "object":"Astrogliosis",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":97,
+        "subject":"Apolipoprotein E3",
+        "relation":"no_direct_causal_link",
+        "object":"Injury",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":97,
+        "subject":"Apolipoprotein E4",
+        "relation":"no_effect",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":108,
+        "subject":"Apolipoprotein E4",
+        "relation":"interacts_with",
+        "object":"Traumatic Brain Injury",
+        "entity_variants":"Apolipoprotein E3\/Apolipoprotein E4"
+    },
+    {
+        "source_abstract_id":122,
+        "subject":"Apolipoprotein E4",
+        "relation":"triggers",
+        "object":"Inflammation",
+        "entity_variants":"Apolipoprotein E4"
+    },
+    {
+        "source_abstract_id":122,
+        "subject":"Apolipoprotein E4",
+        "relation":"triggers",
+        "object":"Neurodegeneration",
+        "entity_variants":"Apolipoprotein E4"
+    },
+    {
+        "source_abstract_id":122,
+        "subject":"Apolipoprotein E4",
+        "relation":"triggers",
+        "object":"Apoptosis",
+        "entity_variants":"Apolipoprotein E4"
+    },
+    {
+        "source_abstract_id":122,
+        "subject":"Apolipoprotein E4",
+        "relation":"triggers",
+        "object":"Activated Microglia",
+        "entity_variants":"Apolipoprotein E4"
+    },
+    {
+        "source_abstract_id":122,
+        "subject":"Apolipoprotein E4",
+        "relation":"triggers",
+        "object":"Brain-Derived Neurotrophic Factor",
+        "entity_variants":"Apolipoprotein E4"
+    },
+    {
+        "source_abstract_id":220,
+        "subject":"Apolipoprotein E4",
+        "relation":"modulates",
+        "object":"Phospholipid Metabolism Dysregulation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":220,
+        "subject":"Apolipoprotein E4",
+        "relation":"impairs",
+        "object":"Phosphoinositol Biphosphate Levels",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":235,
+        "subject":"Apolipoprotein E4",
+        "relation":"correlates_with",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":235,
+        "subject":"Apolipoprotein E3",
+        "relation":"correlates_with",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":235,
+        "subject":"Apolipoprotein E Isoforms",
+        "relation":"correlates_with",
+        "object":"Myelination Network",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":309,
+        "subject":"Apolipoprotein E4",
+        "relation":"triggers",
+        "object":"Inflammatory Response",
+        "entity_variants":"Apolipoprotein E4"
+    },
+    {
+        "source_abstract_id":309,
+        "subject":"Apolipoprotein E4",
+        "relation":"downregulates",
+        "object":"Glutamatergic Synapses",
+        "entity_variants":"Apolipoprotein E4"
+    },
+    {
+        "source_abstract_id":309,
+        "subject":"Apolipoprotein E3",
+        "relation":"upregulates",
+        "object":"Synaptophysin Levels",
+        "entity_variants":"Apolipoprotein E3"
+    },
+    {
+        "source_abstract_id":309,
+        "subject":"Apolipoprotein E4",
+        "relation":"mediates",
+        "object":"Neuronal Response",
+        "entity_variants":"Apolipoprotein E4"
+    },
+    {
+        "source_abstract_id":309,
+        "subject":"Apolipoprotein E3",
+        "relation":"mediates",
+        "object":"Neuronal Response",
+        "entity_variants":"Apolipoprotein E3"
+    },
+    {
+        "source_abstract_id":309,
+        "subject":"Apolipoprotein E4",
+        "relation":"exacerbates",
+        "object":"Hippocampal Pathology",
+        "entity_variants":"Apolipoprotein E4"
+    },
+    {
+        "source_abstract_id":309,
+        "subject":"Apolipoprotein E3",
+        "relation":"protects_against",
+        "object":"Hippocampal Pathology",
+        "entity_variants":"Apolipoprotein E3"
+    },
+    {
+        "source_abstract_id":316,
+        "subject":"Apolipoprotein E Genotypes",
+        "relation":"influences",
+        "object":"Chronic Traumatic Encephalopathy Pathology",
+        "entity_variants":null
+    }
+]

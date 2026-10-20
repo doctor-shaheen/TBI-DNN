@@ -1,0 +1,449 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 18,
+    "edge_count": 21
+  },
+  "nodes": [
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "Traumatic Brain Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111",
+        "MeSH": "D001930"
+      },
+      "synonyms": [
+        "TBI",
+        "Concussion",
+        "Mild Traumatic Brain Injury",
+        "Head Injury",
+        "Blast Exposure",
+        "Contact Sports Injury",
+        "Chronic Mild Traumatic Brain Injury"
+      ]
+    },
+    {
+      "id": "APP",
+      "label": "APP",
+      "type": "Protein",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "UMLS_CUI": "C0002715",
+        "HGNC_ID": "HGNC:620",
+        "UniProt_ID": "P05067"
+      },
+      "synonyms": [
+        "Amyloid Beta",
+        "Abeta42",
+        "Abeta40",
+        "Beta-Amyloid",
+        "Amyloid Beta Precursor Protein",
+        "Neuritic Plaques",
+        "Serum Amyloid Beta"
+      ]
+    },
+    {
+      "id": "ChronicTraumaticEncephalopathy",
+      "label": "Chronic Traumatic Encephalopathy",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0011603"
+      },
+      "synonyms": [
+        "CTE",
+        "Dementia Pugilistica"
+      ]
+    },
+    {
+      "id": "PostConcussionSyndrome",
+      "label": "Post-Concussion Syndrome",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0032747"
+      },
+      "synonyms": [
+        "PCS"
+      ]
+    },
+    {
+      "id": "CerebralAmyloidAngiopathy",
+      "label": "Cerebral Amyloid Angiopathy",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0007774"
+      },
+      "synonyms": [
+        "CAA"
+      ]
+    },
+    {
+      "id": "SNCA",
+      "label": "SNCA",
+      "type": "Protein",
+      "location": "Synapse",
+      "identifiers": {
+        "UMLS_CUI": "C0085272",
+        "HGNC_ID": "HGNC:11138"
+      },
+      "synonyms": [
+        "Alpha-Synuclein"
+      ]
+    },
+    {
+      "id": "SAA1",
+      "label": "SAA1",
+      "type": "Protein",
+      "location": "Blood",
+      "identifiers": {
+        "UMLS_CUI": "C0036786",
+        "HGNC_ID": "HGNC:10513"
+      },
+      "synonyms": [
+        "Serum Amyloid A"
+      ]
+    },
+    {
+      "id": "APOE",
+      "label": "APOE",
+      "type": "Protein",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "UMLS_CUI": "C0003606",
+        "HGNC_ID": "HGNC:613"
+      },
+      "synonyms": [
+        "Apolipoprotein E"
+      ]
+    },
+    {
+      "id": "Neuroinflammation",
+      "label": "Neuroinflammation",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0020300",
+        "GO_ID": "GO:0002544"
+      },
+      "synonyms": [
+        "Cytokine Production",
+        "Interferon Pathway Activation"
+      ]
+    },
+    {
+      "id": "CognitiveImpairment",
+      "label": "Cognitive Impairment",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0338656"
+      },
+      "synonyms": [
+        "Cognitive Decline",
+        "Cognitive Deficits",
+        "Reduced Cognitive Performance"
+      ]
+    },
+    {
+      "id": "BrainAtrophy",
+      "label": "Brain Atrophy",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0154671"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "AlzheimerDisease",
+      "label": "Alzheimer Disease",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0002395"
+      },
+      "synonyms": [
+        "AD"
+      ]
+    },
+    {
+      "id": "Dementia",
+      "label": "Dementia",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0011265"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "DiffuseAxonalInjury",
+      "label": "Diffuse Axonal Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0264603"
+      },
+      "synonyms": [
+        "Axonal Injury"
+      ]
+    },
+    {
+      "id": "PRNP",
+      "label": "PRNP",
+      "type": "Protein",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "UMLS_CUI": "C0033100",
+        "HGNC_ID": "HGNC:9449"
+      },
+      "synonyms": [
+        "Prion Protein",
+        "Cellular Prion Protein"
+      ]
+    },
+    {
+      "id": "ADAM10",
+      "label": "ADAM10",
+      "type": "Protein",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "UMLS_CUI": "C1412435",
+        "HGNC_ID": "HGNC:188"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Morin",
+      "label": "Morin",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "ChEBI_ID": "CHEBI:28608"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Amyloidosis",
+      "label": "Amyloidosis",
+      "type": "Disease",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0002726"
+      },
+      "synonyms": [
+        "Amyloidopathies"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "APP",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        72,
+        80,
+        83,
+        86,
+        225,
+        236,
+        350,
+        376,
+        379,
+        427,
+        440,
+        510,
+        517
+      ],
+      "confidence": "High",
+      "metadata": "Includes increases in Aβ40, Aβ42, and oligomers. Contradicted by Refs 180, 301, 450, 484, 568 finding no link."
+    },
+    {
+      "source": "ChronicTraumaticEncephalopathy",
+      "target": "APP",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        165,
+        376
+      ],
+      "confidence": "High",
+      "metadata": "Context: CTE tissue analysis"
+    },
+    {
+      "source": "PostConcussionSyndrome",
+      "target": "APP",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        57
+      ],
+      "confidence": "Low",
+      "metadata": "Specific finding: Decreased Amyloid Beta in PCS"
+    },
+    {
+      "source": "APP",
+      "target": "Neuroinflammation",
+      "mechanism": "causes",
+      "evidence_ref": [
+        39,
+        406
+      ],
+      "confidence": "High",
+      "metadata": "Includes Cytokine Production and Interferon Pathway Activation"
+    },
+    {
+      "source": "APP",
+      "target": "CognitiveImpairment",
+      "mechanism": "causes",
+      "evidence_ref": [
+        83,
+        296,
+        411,
+        427,
+        440,
+        517
+      ],
+      "confidence": "High",
+      "metadata": "Abeta load correlates with decline"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "CerebralAmyloidAngiopathy",
+      "mechanism": "causes",
+      "evidence_ref": [
+        221
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Contact Sports exposure"
+    },
+    {
+      "source": "ChronicTraumaticEncephalopathy",
+      "target": "CerebralAmyloidAngiopathy",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        124,
+        221
+      ],
+      "confidence": "High",
+      "metadata": "Associated pathology"
+    },
+    {
+      "source": "ChronicTraumaticEncephalopathy",
+      "target": "SNCA",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        165
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "SAA1",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        72
+      ],
+      "confidence": "Medium",
+      "metadata": "Serum Amyloid A levels"
+    },
+    {
+      "source": "APOE",
+      "target": "APP",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        147,
+        376,
+        379
+      ],
+      "confidence": "High",
+      "metadata": "Influences deposition, breakdown, and clearance"
+    },
+    {
+      "source": "DiffuseAxonalInjury",
+      "target": "APP",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        427
+      ],
+      "confidence": "Medium",
+      "metadata": "Axonal injury mediates Abeta accumulation"
+    },
+    {
+      "source": "PRNP",
+      "target": "APP",
+      "mechanism": "binds",
+      "evidence_ref": [
+        208
+      ],
+      "confidence": "High",
+      "metadata": "PrP binds Abeta"
+    },
+    {
+      "source": "ADAM10",
+      "target": "APP",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        513
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "Morin",
+      "target": "APP",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        442
+      ],
+      "confidence": "Medium",
+      "metadata": "Prevents Aβ1-40"
+    },
+    {
+      "source": "APP",
+      "target": "BrainAtrophy",
+      "mechanism": "causes",
+      "evidence_ref": [
+        296
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "CerebralAmyloidAngiopathy",
+      "target": "Dementia",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        221
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "APP",
+      "target": "AlzheimerDisease",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        229,
+        470
+      ],
+      "confidence": "High",
+      "metadata": "Amyloid pathology is a hallmark"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Amyloidosis",
+      "mechanism": "causes",
+      "evidence_ref": [
+        263
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    }
+  ]
+}

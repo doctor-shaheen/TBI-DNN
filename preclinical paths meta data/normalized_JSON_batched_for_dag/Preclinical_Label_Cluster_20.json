@@ -1,0 +1,212 @@
+[
+    {
+        "source_abstract_id":26,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"MAP Kinase Phosphorylation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":42,
+        "subject":"Traumatic Brain Injury",
+        "relation":"upregulates",
+        "object":"Glycogen Synthase Kinase 3 Beta",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":44,
+        "subject":"GSK239512",
+        "relation":"promotes",
+        "object":"Remyelination",
+        "entity_variants":"GSK239512"
+    },
+    {
+        "source_abstract_id":65,
+        "subject":"Traumatic Brain Injury",
+        "relation":"triggers",
+        "object":"Death-Associated Protein Kinase 1",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":65,
+        "subject":"Death-Associated Protein Kinase 1",
+        "relation":"attenuates",
+        "object":"Neuropathology Development",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":65,
+        "subject":"Death-Associated Protein Kinase 1",
+        "relation":"improves",
+        "object":"Behavioral Impairments",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":156,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Beta-Catenin",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":183,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Neurodegeneration",
+        "entity_variants":"RIPK1\/RIPK3-deficient mice"
+    },
+    {
+        "source_abstract_id":183,
+        "subject":"Receptor-Interacting Serine\/Threonine-Protein Kinase 1",
+        "relation":"mediates",
+        "object":"Neuroprotection",
+        "entity_variants":"RIPK1-deficient mice"
+    },
+    {
+        "source_abstract_id":183,
+        "subject":"Receptor-Interacting Serine\/Threonine-Protein Kinase 3",
+        "relation":"mediates",
+        "object":"Neuroprotection",
+        "entity_variants":"RIPK3-deficient mice"
+    },
+    {
+        "source_abstract_id":183,
+        "subject":"Traumatic Brain Injury",
+        "relation":"increases",
+        "object":"Phosphorylated Mixed Lineage Kinase Domain-Like Protein",
+        "entity_variants":"wild-type mice"
+    },
+    {
+        "source_abstract_id":183,
+        "subject":"Receptor-Interacting Serine\/Threonine-Protein Kinase 1",
+        "relation":"downregulates",
+        "object":"Astrocyte Activation",
+        "entity_variants":"RIPK1-deficient mice"
+    },
+    {
+        "source_abstract_id":183,
+        "subject":"Receptor-Interacting Serine\/Threonine-Protein Kinase 3",
+        "relation":"downregulates",
+        "object":"Microglial Activation",
+        "entity_variants":"RIPK3-deficient mice"
+    },
+    {
+        "source_abstract_id":183,
+        "subject":"Receptor-Interacting Serine\/Threonine-Protein Kinase 1",
+        "relation":"upregulates",
+        "object":"Chronic Brain Damage",
+        "entity_variants":"wild-type mice"
+    },
+    {
+        "source_abstract_id":183,
+        "subject":"Receptor-Interacting Serine\/Threonine-Protein Kinase 3",
+        "relation":"upregulates",
+        "object":"Chronic Brain Damage",
+        "entity_variants":"wild-type mice"
+    },
+    {
+        "source_abstract_id":183,
+        "subject":"Neuroprotection",
+        "relation":"improves",
+        "object":"Memory Function",
+        "entity_variants":"RIPK1\/RIPK3-deficient mice"
+    },
+    {
+        "source_abstract_id":244,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Glycogen Synthase Kinase 3 Beta\/Beta-Catenin Signaling",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":323,
+        "subject":"GSK2606414",
+        "relation":"administered_after",
+        "object":"Traumatic Brain Injury",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":323,
+        "subject":"GSK2606414",
+        "relation":"does_not_treat",
+        "object":"Traumatic Brain Injury Recovery",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":358,
+        "subject":"MARK4",
+        "relation":"downregulates",
+        "object":"Tau Phosphorylation",
+        "entity_variants":"MARK4 knockout"
+    },
+    {
+        "source_abstract_id":358,
+        "subject":"MARK4",
+        "relation":"causes",
+        "object":"Neurodegeneration",
+        "entity_variants":"MARK4 knockout"
+    },
+    {
+        "source_abstract_id":358,
+        "subject":"MARK4",
+        "relation":"upregulates",
+        "object":"Astrogliosis",
+        "entity_variants":"MARK4 knockout"
+    },
+    {
+        "source_abstract_id":358,
+        "subject":"MARK4",
+        "relation":"attenuates",
+        "object":"Tauopathy",
+        "entity_variants":"MARK4 knockout"
+    },
+    {
+        "source_abstract_id":358,
+        "subject":"MARK4",
+        "relation":"modulates",
+        "object":"Tau Toxicity",
+        "entity_variants":"MARK4 knockout"
+    },
+    {
+        "source_abstract_id":367,
+        "subject":"ZNF367",
+        "relation":"has_lower_expression_in",
+        "object":"Traumatic Brain Injury Mouse Model",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":331,
+        "subject":"Traumatic Brain Injury",
+        "relation":"upregulates",
+        "object":"Leucine-Rich Repeat Kinase 2",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":242,
+        "subject":"Mechanistic Target of Rapamycin Signaling",
+        "relation":"mediates",
+        "object":"Neuronal Inflammation",
+        "entity_variants":"mTOR"
+    },
+    {
+        "source_abstract_id":323,
+        "subject":"Traumatic Brain Injury",
+        "relation":"activates",
+        "object":"Protein Kinase R (PKR)-like Endoplasmic Reticulum Kinase Pathway",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":323,
+        "subject":"Protein Kinase R (PKR)-like Endoplasmic Reticulum Kinase Pathway",
+        "relation":"associated_with",
+        "object":"Neurodegeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":323,
+        "subject":"Activation of Protein Kinase R (PKR)-like Endoplasmic Reticulum Kinase Pathway",
+        "relation":"negatively_associated_with",
+        "object":"Neurological Consequences",
+        "entity_variants":null
+    }
+]

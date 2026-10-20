@@ -1,0 +1,385 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 15,
+    "edge_count": 17
+  },
+  "nodes": [
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "Traumatic Brain Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111"
+      },
+      "synonyms": [
+        "TBI",
+        "Diffuse Traumatic Brain Injury",
+        "Focal Traumatic Brain Injury",
+        "Traumatic Axonal Injury",
+        "Traumatic Bifrontal Contusions",
+        "Temporal Lobe Injury"
+      ]
+    },
+    {
+      "id": "PostTraumaticStressDisorder",
+      "label": "Post-Traumatic Stress Disorder",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0038436"
+      },
+      "synonyms": [
+        "PTSD"
+      ]
+    },
+    {
+      "id": "Sleep",
+      "label": "Sleep",
+      "type": "BiologicalProcess",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0038155",
+        "GO_ID": "GO:0030431"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Cognition",
+      "label": "Cognition",
+      "type": "MentalProcess",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0009240",
+        "GO_ID": "GO:0050890"
+      },
+      "synonyms": [
+        "Memory",
+        "Reasoning",
+        "Cognitive Function"
+      ]
+    },
+    {
+      "id": "CognitiveImpairment",
+      "label": "Cognitive Impairment",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0338656"
+      },
+      "synonyms": [
+        "Cognitive Decline",
+        "Cognitive Deficits",
+        "Cognitive Dysfunction",
+        "Cognitive Difficulties",
+        "Neurocognitive Outcomes",
+        "Neuropsychological Impairment"
+      ]
+    },
+    {
+      "id": "PsychologicalDistress",
+      "label": "Psychological Distress",
+      "type": "Symptom",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0013604"
+      },
+      "synonyms": [
+        "Psychiatric Symptoms",
+        "Psychological Difficulties",
+        "Internalizing Problems",
+        "Emotional Regulation Difficulties"
+      ]
+    },
+    {
+      "id": "Anxiety",
+      "label": "Anxiety",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0003467"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Schizophrenia",
+      "label": "Schizophrenia",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0036341"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "AttentionDeficitHyperactivityDisorder",
+      "label": "Attention Deficit Hyperactivity Disorder",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C1263846"
+      },
+      "synonyms": [
+        "ADHD"
+      ]
+    },
+    {
+      "id": "AutismSpectrumDisorder",
+      "label": "Autism Spectrum Disorder",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C1510586"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "BehavioralSymptom",
+      "label": "Behavioral Symptoms",
+      "type": "Symptom",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0004927"
+      },
+      "synonyms": [
+        "Behavioral Problems",
+        "Neurobehavioral Symptoms"
+      ]
+    },
+    {
+      "id": "OrthopedicInjury",
+      "label": "Orthopedic Injuries",
+      "type": "Disease",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0043251"
+      },
+      "synonyms": [
+        "Traumatic Orthopaedic Injury"
+      ]
+    },
+    {
+      "id": "Pain",
+      "label": "Pain",
+      "type": "Symptom",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0030193"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "BrainStructure",
+      "label": "Brain Structure",
+      "type": "AnatomicalStructure",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006104"
+      },
+      "synonyms": [
+        "Structural Changes"
+      ]
+    },
+    {
+      "id": "NeurosurgicalProcedure",
+      "label": "Neurosurgical Procedures",
+      "type": "MedicalProcedure",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027919"
+      },
+      "synonyms": []
+    }
+  ],
+  "edges": [
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "PostTraumaticStressDisorder",
+      "mechanism": "causes",
+      "evidence_ref": [
+        547,
+        574,
+        409
+      ],
+      "confidence": "High",
+      "metadata": "Context: Shares pathways and predisposition"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Sleep",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        54
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Association with sleep disturbance"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Cognition",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        190,
+        246,
+        359
+      ],
+      "confidence": "High",
+      "metadata": "Context: Affects memory, reasoning, and general function"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "CognitiveImpairment",
+      "mechanism": "causes",
+      "evidence_ref": [
+        197,
+        246,
+        359,
+        380,
+        398,
+        436,
+        547,
+        568,
+        574,
+        592,
+        603
+      ],
+      "confidence": "High",
+      "metadata": "Context: Includes deficits, decline, and dysfunction from various TBI types"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "PsychologicalDistress",
+      "mechanism": "causes",
+      "evidence_ref": [
+        246,
+        436,
+        547
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Includes psychiatric symptoms, internalizing problems, and emotional regulation"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Anxiety",
+      "mechanism": "causes",
+      "evidence_ref": [
+        547
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Schizophrenia",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        409
+      ],
+      "confidence": "Low",
+      "metadata": "Context: Shares pathways"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "AttentionDeficitHyperactivityDisorder",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        409
+      ],
+      "confidence": "Low",
+      "metadata": "Context: Shares pathways"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "AutismSpectrumDisorder",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        409
+      ],
+      "confidence": "Low",
+      "metadata": "Context: Shares pathways"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "BehavioralSymptom",
+      "mechanism": "causes",
+      "evidence_ref": [
+        436,
+        568
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Predicts behavioral problems and neurobehavioral symptoms"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "BrainStructure",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        398
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Causes structural changes"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "NeurosurgicalProcedure",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        574
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Complicates procedures"
+    },
+    {
+      "source": "OrthopedicInjury",
+      "target": "PsychologicalDistress",
+      "mechanism": "causes",
+      "evidence_ref": [
+        547
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "OrthopedicInjury",
+      "target": "Pain",
+      "mechanism": "causes",
+      "evidence_ref": [
+        547
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "OrthopedicInjury",
+      "target": "CognitiveImpairment",
+      "mechanism": "causes",
+      "evidence_ref": [
+        547
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Causes cognitive difficulties"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Pain",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        547
+      ],
+      "confidence": "Low",
+      "metadata": "Context: Inferred via general trauma context"
+    },
+    {
+      "source": "NeurosurgicalProcedure",
+      "target": "TraumaticBrainInjury",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        574
+      ],
+      "confidence": "Low",
+      "metadata": "Context: Challenges arise from TBI (Reverse implication for management)"
+    }
+  ]
+}

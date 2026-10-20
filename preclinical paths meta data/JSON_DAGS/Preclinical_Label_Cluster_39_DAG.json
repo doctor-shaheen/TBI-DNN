@@ -1,0 +1,316 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 13,
+    "edge_count": 12
+  },
+  "nodes": [
+    {
+      "id": "ITK",
+      "label": "ITK",
+      "type": "Protein",
+      "location": "Microglia",
+      "identifiers": {
+        "UMLS_CUI": "C1367503",
+        "HGNC_ID": "HGNC:6171",
+        "UniProt_ID": "Q08881"
+      },
+      "synonyms": [
+        "Interleukin-2-inducible T-cell kinase",
+        "IL2-inducible T-cell kinase",
+        "Microglial IL2-inducible T-cell kinase",
+        "EMT",
+        "LYK"
+      ]
+    },
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "Traumatic Brain Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111",
+        "MeSH_ID": "D000070642"
+      },
+      "synonyms": [
+        "TBI",
+        "Controlled Cortical Impact",
+        "CCI",
+        "Head Injury"
+      ]
+    },
+    {
+      "id": "Neuroinflammation",
+      "label": "Neuroinflammation",
+      "type": "Pathology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0333310"
+      },
+      "synonyms": [
+        "Inflammatory Response",
+        "Activation of Inflammatory Response",
+        "Inflammatory genes upregulation"
+      ]
+    },
+    {
+      "id": "NeurologicDeficits",
+      "label": "Neurologic Deficits",
+      "type": "Phenotype",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0521654"
+      },
+      "synonyms": [
+        "Neurological Outcomes",
+        "Behavioral Deficits",
+        "Cognitive Impairment"
+      ]
+    },
+    {
+      "id": "ChronicTraumaticEncephalopathy",
+      "label": "Chronic Traumatic Encephalopathy",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0011311",
+        "MeSH_ID": "D000083242"
+      },
+      "synonyms": [
+        "CTE",
+        "Dementia pugilistica"
+      ]
+    },
+    {
+      "id": "T-Lymphocyte",
+      "label": "T-Lymphocyte",
+      "type": "Cell",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0039194",
+        "MeSH_ID": "D013601"
+      },
+      "synonyms": [
+        "T Cells",
+        "T Lymphocytes"
+      ]
+    },
+    {
+      "id": "AntiInflammatoryResponse",
+      "label": "Anti-Inflammatory Response",
+      "type": "Process",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C1510978"
+      },
+      "synonyms": [
+        "Anti-inflammatory Phenotype"
+      ]
+    },
+    {
+      "id": "TLR2",
+      "label": "TLR2",
+      "type": "Protein",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "UMLS_CUI": "C1336113",
+        "HGNC_ID": "HGNC:11848",
+        "UniProt_ID": "O60603"
+      },
+      "synonyms": [
+        "Toll-like receptor 2"
+      ]
+    },
+    {
+      "id": "TLR4",
+      "label": "TLR4",
+      "type": "Protein",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "UMLS_CUI": "C1336115",
+        "HGNC_ID": "HGNC:11850",
+        "UniProt_ID": "O00206"
+      },
+      "synonyms": [
+        "Toll-like receptor 4"
+      ]
+    },
+    {
+      "id": "TLR9",
+      "label": "TLR9",
+      "type": "Protein",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "UMLS_CUI": "C1336122",
+        "HGNC_ID": "HGNC:15633",
+        "UniProt_ID": "Q9NR96"
+      },
+      "synonyms": [
+        "Toll-like receptor 9"
+      ]
+    },
+    {
+      "id": "Cytokines",
+      "label": "Cytokines",
+      "type": "Chemical",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "UMLS_CUI": "C0010802",
+        "MeSH_ID": "D016207"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "MAP4K4",
+      "label": "MAP4K4",
+      "type": "Protein",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "UMLS_CUI": "C1334645",
+        "HGNC_ID": "HGNC:6866",
+        "UniProt_ID": "O95819"
+      },
+      "synonyms": [
+        "MAP4K",
+        "Mitogen-activated protein kinase kinase kinase kinase 4",
+        "NIK"
+      ]
+    },
+    {
+      "id": "WntSignalingPathway",
+      "label": "Wnt Signaling Pathway",
+      "type": "Process",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "UMLS_CUI": "C0085449",
+        "GO_ID": "GO:0016055"
+      },
+      "synonyms": [
+        "Wnt/beta-catenin pathway"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "ITK",
+      "target": "Neuroinflammation",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        39
+      ],
+      "confidence": "High",
+      "metadata": "Context: Microglial activation; inhibition reduces inflammation"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "ITK",
+      "mechanism": "activates",
+      "evidence_ref": [
+        39
+      ],
+      "confidence": "High",
+      "metadata": "Model: Controlled Cortical Impact"
+    },
+    {
+      "source": "ITK",
+      "target": "NeurologicDeficits",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        39
+      ],
+      "confidence": "Medium",
+      "metadata": "Inhibition of ITK improves outcomes"
+    },
+    {
+      "source": "ITK",
+      "target": "ChronicTraumaticEncephalopathy",
+      "mechanism": "associated_with",
+      "evidence_ref": [
+        39
+      ],
+      "confidence": "Medium",
+      "metadata": "Expression levels associated with CTE"
+    },
+    {
+      "source": "T-Lymphocyte",
+      "target": "AntiInflammatoryResponse",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        74
+      ],
+      "confidence": "Medium",
+      "metadata": "Absence of T Lymphocytes enhances Anti-inflammatory Phenotype"
+    },
+    {
+      "source": "TLR2",
+      "target": "Neuroinflammation",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        289
+      ],
+      "confidence": "High",
+      "metadata": "Upregulates inflammatory genes"
+    },
+    {
+      "source": "TLR4",
+      "target": "Neuroinflammation",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        289
+      ],
+      "confidence": "High",
+      "metadata": "Upregulates inflammatory genes"
+    },
+    {
+      "source": "TLR9",
+      "target": "Neuroinflammation",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        289
+      ],
+      "confidence": "High",
+      "metadata": "Upregulates inflammatory genes"
+    },
+    {
+      "source": "TLR2",
+      "target": "Cytokines",
+      "mechanism": "binds",
+      "evidence_ref": [
+        289
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Binds_to relation from input"
+    },
+    {
+      "source": "TLR4",
+      "target": "Cytokines",
+      "mechanism": "binds",
+      "evidence_ref": [
+        289
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Binds_to relation from input"
+    },
+    {
+      "source": "TLR9",
+      "target": "Cytokines",
+      "mechanism": "binds",
+      "evidence_ref": [
+        289
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Binds_to relation from input"
+    },
+    {
+      "source": "MAP4K4",
+      "target": "WntSignalingPathway",
+      "mechanism": "regulates",
+      "evidence_ref": [
+        411
+      ],
+      "confidence": "Medium",
+      "metadata": "Mediated by phosphorylation"
+    }
+  ]
+}

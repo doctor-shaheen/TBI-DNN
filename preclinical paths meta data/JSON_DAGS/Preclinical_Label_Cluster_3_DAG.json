@@ -1,0 +1,342 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 14,
+    "edge_count": 14
+  },
+  "nodes": [
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "Traumatic Brain Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111",
+        "MeSH": "D000070642"
+      },
+      "synonyms": [
+        "TBI",
+        "Brain Injury, Traumatic",
+        "Head Injury"
+      ]
+    },
+    {
+      "id": "HMGB1",
+      "label": "HMGB1",
+      "type": "Protein",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "HGNC_ID": "HGNC:4997",
+        "UniProt_ID": "P09429",
+        "UMLS_CUI": "C1415442"
+      },
+      "synonyms": [
+        "High Mobility Group Box 1",
+        "HMG-1",
+        "Amphoterin"
+      ]
+    },
+    {
+      "id": "Cognition",
+      "label": "Cognition",
+      "type": "BiologicalProcess",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "GO_ID": "GO:0050890",
+        "UMLS_CUI": "C0009241"
+      },
+      "synonyms": [
+        "Cognitive Function",
+        "Mental Process"
+      ]
+    },
+    {
+      "id": "CerebralContusion",
+      "label": "Cerebral Contusion",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006112",
+        "MeSH": "D001924"
+      },
+      "synonyms": [
+        "Brain Contusion",
+        "Contusion of Brain"
+      ]
+    },
+    {
+      "id": "BloodBrainBarrierPermeability",
+      "label": "Blood-Brain Barrier Permeability",
+      "type": "BiologicalProcess",
+      "location": "Blood",
+      "identifiers": {
+        "GO_ID": "GO:1905603",
+        "UMLS_CUI": "C0005837"
+      },
+      "synonyms": [
+        "BBB Permeability"
+      ]
+    },
+    {
+      "id": "SpatialMemory",
+      "label": "Spatial Memory",
+      "type": "BiologicalProcess",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "GO_ID": "GO:0042767",
+        "UMLS_CUI": "C0037817"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "SecondaryBrainInjury",
+      "label": "Secondary Brain Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C3272371"
+      },
+      "synonyms": [
+        "Secondary Injury"
+      ]
+    },
+    {
+      "id": "GRIN1",
+      "label": "GRIN1",
+      "type": "Protein",
+      "location": "Synapse",
+      "identifiers": {
+        "HGNC_ID": "HGNC:4584",
+        "UniProt_ID": "Q05586",
+        "UMLS_CUI": "C1415170"
+      },
+      "synonyms": [
+        "GluN1",
+        "NMDA Receptor Subunit 1",
+        "NMDAR1"
+      ]
+    },
+    {
+      "id": "LongTermPotentiation",
+      "label": "Long-Term Potentiation",
+      "type": "BiologicalProcess",
+      "location": "Synapse",
+      "identifiers": {
+        "GO_ID": "GO:0050806",
+        "UMLS_CUI": "C0023979"
+      },
+      "synonyms": [
+        "LTP"
+      ]
+    },
+    {
+      "id": "Glycyrrhizin",
+      "label": "Glycyrrhizin",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "ChEBI_ID": "CHEBI:17234",
+        "UMLS_CUI": "C0017957"
+      },
+      "synonyms": [
+        "Glycyrrhizic acid"
+      ]
+    },
+    {
+      "id": "CognitiveImpairment",
+      "label": "Cognitive Impairment",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0338656"
+      },
+      "synonyms": [
+        "Cognitive Dysfunction",
+        "Cognitive Deficit"
+      ]
+    },
+    {
+      "id": "NeuriteOutgrowth",
+      "label": "Neurite Outgrowth",
+      "type": "BiologicalProcess",
+      "location": "Neuron",
+      "identifiers": {
+        "GO_ID": "GO:0031175",
+        "UMLS_CUI": "C0027878"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "AxonExtension",
+      "label": "Axon Extension",
+      "type": "BiologicalProcess",
+      "location": "Neuron",
+      "identifiers": {
+        "GO_ID": "GO:0048675",
+        "UMLS_CUI": "C0242702"
+      },
+      "synonyms": [
+        "Axon Elongation"
+      ]
+    },
+    {
+      "id": "SH3RF2",
+      "label": "SH3RF2",
+      "type": "Protein",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "HGNC_ID": "HGNC:26299",
+        "UniProt_ID": "Q8TEJ3",
+        "UMLS_CUI": "C1825633"
+      },
+      "synonyms": [
+        "SH3 domain containing ring finger 2",
+        "RNF158"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "HMGB1",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        140
+      ],
+      "confidence": "High",
+      "metadata": "Context: Post-injury upregulation"
+    },
+    {
+      "source": "HMGB1",
+      "target": "Cognition",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        141
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Knockout impairs cognition, implying WT supports it"
+    },
+    {
+      "source": "HMGB1",
+      "target": "CerebralContusion",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        141
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Knockout reduces contusion volume"
+    },
+    {
+      "source": "HMGB1",
+      "target": "BloodBrainBarrierPermeability",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        141
+      ],
+      "confidence": "High",
+      "metadata": "Context: Causes increased permeability"
+    },
+    {
+      "source": "HMGB1",
+      "target": "SpatialMemory",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        141
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Knockout impairs spatial memory"
+    },
+    {
+      "source": "HMGB1",
+      "target": "SecondaryBrainInjury",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        141
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: General effect on secondary injury"
+    },
+    {
+      "source": "HMGB1",
+      "target": "GRIN1",
+      "mechanism": "phosphorylates",
+      "evidence_ref": [
+        212
+      ],
+      "confidence": "High",
+      "metadata": "Context: Upregulates NR1 phosphorylation"
+    },
+    {
+      "source": "HMGB1",
+      "target": "LongTermPotentiation",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        212
+      ],
+      "confidence": "High",
+      "metadata": "Context: Prevents LTP reduction"
+    },
+    {
+      "source": "Glycyrrhizin",
+      "target": "HMGB1",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        212
+      ],
+      "confidence": "High",
+      "metadata": "Context: Prevents HMGB1 activity"
+    },
+    {
+      "source": "HMGB1",
+      "target": "CognitiveImpairment",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        212,
+        381
+      ],
+      "confidence": "High",
+      "metadata": "Context: Dual role; Associated with impairment (oxidized/general) but nonoxidized form prevents it"
+    },
+    {
+      "source": "HMGB1",
+      "target": "NeuriteOutgrowth",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        381
+      ],
+      "confidence": "Medium",
+      "metadata": "State: Nonoxidized form; Context: Treating effects"
+    },
+    {
+      "source": "HMGB1",
+      "target": "AxonExtension",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        381
+      ],
+      "confidence": "Medium",
+      "metadata": "State: Nonoxidized form"
+    },
+    {
+      "source": "HMGB1",
+      "target": "SH3RF2",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        381
+      ],
+      "confidence": "Medium",
+      "metadata": "State: Nonoxidized form"
+    },
+    {
+      "source": "SH3RF2",
+      "target": "HMGB1",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        381
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Downregulates beneficial effects of nonoxidized HMGB1"
+    }
+  ]
+}

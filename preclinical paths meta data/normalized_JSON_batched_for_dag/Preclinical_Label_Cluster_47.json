@@ -1,0 +1,394 @@
+[
+    {
+        "source_abstract_id":36,
+        "subject":"Gut Dysbiosis",
+        "relation":"causes",
+        "object":"Neurocognitive Deficits",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":36,
+        "subject":"Fecal Microbiota Transplantation",
+        "relation":"treats",
+        "object":"Gut Dysbiosis",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":52,
+        "subject":"Gut Microbiota",
+        "relation":"modulates",
+        "object":"Immune System",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":74,
+        "subject":"T Lymphocytes",
+        "relation":"promotes",
+        "object":"Neurodegeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":100,
+        "subject":"Cellular Prion Protein",
+        "relation":"modulates",
+        "object":"Inflammation",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":180,
+        "subject":"Complement Activation",
+        "relation":"causes",
+        "object":"Neuroinflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":180,
+        "subject":"Complement Component 3 Activation",
+        "relation":"mediates",
+        "object":"Chronic Inflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":180,
+        "subject":"Complement Inhibition",
+        "relation":"reduces",
+        "object":"Neuronal Loss",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":180,
+        "subject":"Chronic Inflammation",
+        "relation":"associated_with",
+        "object":"Chronic Neuronal Loss",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":206,
+        "subject":"Intestinal Inflammation",
+        "relation":"exacerbates",
+        "object":"Hippocampal Neuronal Cell Loss",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":255,
+        "subject":"B Cell Deficiency",
+        "relation":"causes",
+        "object":"Neurological Dysfunction",
+        "entity_variants":"not specified|"
+    },
+    {
+        "source_abstract_id":386,
+        "subject":"Blood-Brain Barrier Disruption",
+        "relation":"causes",
+        "object":"Neuroinflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":20,
+        "subject":"Vascular Inflammation",
+        "relation":"causes",
+        "object":"Neurologic Dysfunction",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":36,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Gut Dysbiosis",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":37,
+        "subject":"Neuroinflammation",
+        "relation":"mediates",
+        "object":"Neurologic Complication",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":50,
+        "subject":"Cognitive Recovery",
+        "relation":"associated_with",
+        "object":"Neuroinflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":51,
+        "subject":"Neuroinflammation",
+        "relation":"mediates",
+        "object":"Anxiety",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":51,
+        "subject":"Neuroinflammation",
+        "relation":"impairs",
+        "object":"Cognitive Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":60,
+        "subject":"Nutrient Intake",
+        "relation":"downregulates",
+        "object":"Neuroinflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":60,
+        "subject":"Neuroinflammation",
+        "relation":"mediates",
+        "object":"Behavioral Change",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":69,
+        "subject":"Inflammation",
+        "relation":"mediates",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":73,
+        "subject":"Neuroinflammation",
+        "relation":"associated_with",
+        "object":"Poor Functional Outcome",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":74,
+        "subject":"Neuroinflammation",
+        "relation":"causes",
+        "object":"Neurodegeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":98,
+        "subject":"Inflammation",
+        "relation":"mediates",
+        "object":"Neuropathology",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":129,
+        "subject":"Neuroinflammation",
+        "relation":"mediates",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":129,
+        "subject":"Neuroinflammation",
+        "relation":"upregulates",
+        "object":"Proinflammatory Cytokine",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":135,
+        "subject":"Neuroinflammation",
+        "relation":"causes",
+        "object":"Brain Damage",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":173,
+        "subject":"Inflammation",
+        "relation":"mediates",
+        "object":"Neuropathology",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":175,
+        "subject":"Neuroinflammation",
+        "relation":"mediates",
+        "object":"Motor Behavioral Deficit",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":180,
+        "subject":"Alternative Complement Pathway",
+        "relation":"causes",
+        "object":"Chronic Neuroinflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":192,
+        "subject":"Inflammation",
+        "relation":"exacerbates",
+        "object":"Neurodegeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":198,
+        "subject":"Cortical Inflammation",
+        "relation":"causes",
+        "object":"Neuronal Dysfunction",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":203,
+        "subject":"Inflammation",
+        "relation":"causes",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":206,
+        "subject":"Intestinal Inflammation",
+        "relation":"causes",
+        "object":"Cognitive Deficit",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":225,
+        "subject":"Inflammation",
+        "relation":"mediates",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":225,
+        "subject":"Inflammation",
+        "relation":"causes",
+        "object":"Synaptic Loss",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":247,
+        "subject":"Neuroinflammatory Response",
+        "relation":"causes",
+        "object":"Cognitive Impairment",
+        "entity_variants":"not specified"
+    },
+    {
+        "source_abstract_id":255,
+        "subject":"Prolonged Immune Response",
+        "relation":"causes",
+        "object":"Neurodegeneration",
+        "entity_variants":"not specified"
+    },
+    {
+        "source_abstract_id":282,
+        "subject":"Neuroinflammation",
+        "relation":"causes",
+        "object":"Cerebral Dysfunction",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":282,
+        "subject":"Neuroinflammation",
+        "relation":"mediates",
+        "object":"Cognitive Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":284,
+        "subject":"Neuroinflammation",
+        "relation":"causes",
+        "object":"Neurodegeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":294,
+        "subject":"Inflammation",
+        "relation":"affects",
+        "object":"Neurologic Outcome",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":301,
+        "subject":"Neuroinflammation",
+        "relation":"mediates",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":301,
+        "subject":"Neuroinflammation",
+        "relation":"causes",
+        "object":"Synaptic Integrity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":319,
+        "subject":"Neuroinflammation",
+        "relation":"mediates",
+        "object":"Cognitive Performance",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":350,
+        "subject":"Inflammation",
+        "relation":"mediates",
+        "object":"Cognitive Deficit",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":352,
+        "subject":"Cortical Inflammation",
+        "relation":"causes",
+        "object":"Neuronal Dysfunction",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":352,
+        "subject":"Cortical Inflammation",
+        "relation":"mediates",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":366,
+        "subject":"Sex",
+        "relation":"influences",
+        "object":"Neuroinflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":372,
+        "subject":"Proinflammatory Cytokine",
+        "relation":"contributes_to",
+        "object":"Neurodegeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":386,
+        "subject":"Neuroinflammation",
+        "relation":"causes",
+        "object":"Neurodegeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":388,
+        "subject":"Inflammatory Response",
+        "relation":"mediates",
+        "object":"Neurodegeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":390,
+        "subject":"Neurodegeneration",
+        "relation":"associated_with",
+        "object":"Inflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":395,
+        "subject":"Neuroinflammation",
+        "relation":"mediates",
+        "object":"Long-Term Outcome",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":129,
+        "subject":"Closed Head Injury",
+        "relation":"causes",
+        "object":"Neuroinflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":203,
+        "subject":"Inflammatory Mediator",
+        "relation":"affects",
+        "object":"Synaptic Engulfment",
+        "entity_variants":null
+    }
+]

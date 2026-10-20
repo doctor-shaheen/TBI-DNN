@@ -1,0 +1,471 @@
+[
+    {
+        "source_abstract_id":5,
+        "subject":"Military Blast Exposure",
+        "relation":"associated_with",
+        "object":"MRI-visible Perivascular Spaces",
+        "entity_variants":"none|"
+    },
+    {
+        "source_abstract_id":38,
+        "subject":"Blast Exposure",
+        "relation":"exacerbates",
+        "object":"Age-Associated Neurodegenerative Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":119,
+        "subject":"Military Exposure",
+        "relation":"associated_with",
+        "object":"Neurodegeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":225,
+        "subject":"Blast Exposure",
+        "relation":"causes",
+        "object":"Reaction Time Decrement",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":225,
+        "subject":"Blast Exposure",
+        "relation":"causes",
+        "object":"Headache",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":296,
+        "subject":"Cognitive decline",
+        "relation":"triggers",
+        "object":"Employment inability",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":300,
+        "subject":"Blast traumatic brain injury",
+        "relation":"triggers",
+        "object":"Endoplasmic reticulum stress",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":300,
+        "subject":"Blast traumatic brain injury",
+        "relation":"triggers",
+        "object":"Iron toxicity",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":300,
+        "subject":"Blast traumatic brain injury",
+        "relation":"triggers",
+        "object":"Behavioral changes",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":300,
+        "subject":"Blast traumatic brain injury",
+        "relation":"causes",
+        "object":"Neurodegeneration",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":300,
+        "subject":"Blast traumatic brain injury",
+        "relation":"causes",
+        "object":"Cognitive disruption",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":422,
+        "subject":"Blast Exposure",
+        "relation":"results_in",
+        "object":"Scar Border Formation",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":593,
+        "subject":"Military Blast Exposure",
+        "relation":"causes",
+        "object":"Mitochondrial Dysfunction",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":5,
+        "subject":"Blast Injury",
+        "relation":"associated_with",
+        "object":"Glymphatic System Function",
+        "entity_variants":"none|"
+    },
+    {
+        "source_abstract_id":269,
+        "subject":"Blast-Induced Mild Traumatic Brain Injury",
+        "relation":"mediates",
+        "object":"Executive Function Impairments",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":269,
+        "subject":"Blast-Induced Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Functional Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":183,
+        "subject":"Blast Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Chronic Neurodegeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":10,
+        "subject":"Blast Exposure",
+        "relation":"not_associated_with",
+        "object":"Chronic Traumatic Encephalopathy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":38,
+        "subject":"Military Blast Exposure",
+        "relation":"mediates",
+        "object":"Age",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":38,
+        "subject":"Military Blast Exposure",
+        "relation":"causes",
+        "object":"Neurobiological Event",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":38,
+        "subject":"Blast Exposure",
+        "relation":"affects",
+        "object":"Tissue Structure",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":38,
+        "subject":"Blast Exposure",
+        "relation":"affects",
+        "object":"Diffusion Parameter",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":39,
+        "subject":"Military Exposure",
+        "relation":"causes",
+        "object":"Early Onset Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":50,
+        "subject":"Blast-Related Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Cognitive Performance",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":50,
+        "subject":"Blast-Related Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Psychological Symptom",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":50,
+        "subject":"Combat Exposure",
+        "relation":"associated_with",
+        "object":"Blast-Related Traumatic Brain Injury",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":50,
+        "subject":"Blast-Related Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":50,
+        "subject":"Blast-Related Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Behavioral Dysfunction",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":50,
+        "subject":"Combat Exposure",
+        "relation":"associated_with",
+        "object":"Psychological Symptom",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":77,
+        "subject":"Military Exposure",
+        "relation":"causes",
+        "object":"Post-Traumatic Stress Disorder",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":77,
+        "subject":"Military Exposure",
+        "relation":"causes",
+        "object":"Postconcussion Syndrome",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":111,
+        "subject":"Military Employment",
+        "relation":"not_associated_with",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":111,
+        "subject":"Military Employment",
+        "relation":"not_associated_with",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":111,
+        "subject":"Military Employment",
+        "relation":"not_associated_with",
+        "object":"Cognitive Change",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":119,
+        "subject":"Military Exposure",
+        "relation":"binds_to",
+        "object":"FDDNP",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":119,
+        "subject":"Military Exposure",
+        "relation":"binds_to",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":119,
+        "subject":"Military Exposure",
+        "relation":"binds_to",
+        "object":"Mood Symptom",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":119,
+        "subject":"Military Exposure",
+        "relation":"binds_to",
+        "object":"Brain Injury",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":119,
+        "subject":"Military Exposure",
+        "relation":"binds_to",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":119,
+        "subject":"Military Exposure",
+        "relation":"binds_to",
+        "object":"Psychological Symptom",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":129,
+        "subject":"Military Exposure",
+        "relation":"causes",
+        "object":"Cognitive Deficit",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":129,
+        "subject":"Military Exposure",
+        "relation":"causes",
+        "object":"Behavioral Disorder",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":129,
+        "subject":"Military Exposure",
+        "relation":"causes",
+        "object":"Neurosensory Difficulty",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":129,
+        "subject":"Military Exposure",
+        "relation":"causes",
+        "object":"Pain",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":160,
+        "subject":"Blast Exposure",
+        "relation":"causes",
+        "object":"Mild Traumatic Brain Injury",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":160,
+        "subject":"Blast Exposure",
+        "relation":"causes",
+        "object":"Post-Traumatic Stress Disorder",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":160,
+        "subject":"Blast Exposure",
+        "relation":"not_associated_with",
+        "object":"Cognitive Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":172,
+        "subject":"Blast Exposure",
+        "relation":"causes",
+        "object":"Dysregulated MicroRNA Expression",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":172,
+        "subject":"Blast Exposure",
+        "relation":"associated_with",
+        "object":"Chronic Neurobehavioral Symptom",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":172,
+        "subject":"Blast Exposure",
+        "relation":"associated_with",
+        "object":"Post-Concussive Symptom",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":172,
+        "subject":"Blast Exposure",
+        "relation":"associated_with",
+        "object":"Post-Traumatic Stress Symptom",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":172,
+        "subject":"Blast Exposure",
+        "relation":"affects",
+        "object":"Cellular Pathway",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":183,
+        "subject":"Combat-Deployed Controls",
+        "relation":"compared_to",
+        "object":"Blast Traumatic Brain Injury",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":194,
+        "subject":"Military Blast Exposure",
+        "relation":"causes",
+        "object":"Brain Volume Loss",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":194,
+        "subject":"Military Blast Exposure",
+        "relation":"causes",
+        "object":"Enlargement of Virchow-Robin Spaces",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":216,
+        "subject":"Early Cognitive Impairment",
+        "relation":"affects",
+        "object":"Reintegration into Work and Society",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":328,
+        "subject":"Blast Exposure",
+        "relation":"affects",
+        "object":"Brain Region",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":460,
+        "subject":"Blast Exposure",
+        "relation":"causes",
+        "object":"Ribbon Synapse Loss",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":460,
+        "subject":"Blast Exposure",
+        "relation":"causes",
+        "object":"Auditory Function Loss",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":511,
+        "subject":"Fight Exposure Score",
+        "relation":"binds_to",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":566,
+        "subject":"Higher Blast Exposure",
+        "relation":"causes",
+        "object":"Poorer Somatic Outcomes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":566,
+        "subject":"Higher Blast Exposure",
+        "relation":"causes",
+        "object":"Poorer Cognitive Outcomes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":593,
+        "subject":"Blast Injury",
+        "relation":"causes",
+        "object":"Acute Cell Damage",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":614,
+        "subject":"Gulf War Illness",
+        "relation":"causes",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":619,
+        "subject":"Military Cadets",
+        "relation":"has_history_of",
+        "object":"Perceptual Motor Function Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":619,
+        "subject":"Military Cadets",
+        "relation":"exhibits",
+        "object":"Suboptimal Brain Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":464,
+        "subject":"REM Sleep Behavior Disorder",
+        "relation":"associated_with",
+        "object":"Solvent Exposure",
+        "entity_variants":null
+    }
+]

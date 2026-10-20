@@ -1,0 +1,653 @@
+[
+    {
+        "source_abstract_id":474,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"White Matter Injury",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":415,
+        "subject":"Contact Sports",
+        "relation":"causes",
+        "object":"Cerebral White Matter Loss",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":19,
+        "subject":"Posttraumatic Stress Disorder",
+        "relation":"affects",
+        "object":"White Matter Microstructure",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":19,
+        "subject":"Traumatic Brain Injury",
+        "relation":"negatively_affects",
+        "object":"White Matter Microstructure",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":25,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"White Matter Atrophy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":25,
+        "subject":"White Matter Atrophy",
+        "relation":"associated_with",
+        "object":"Increased Mean Diffusivity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":31,
+        "subject":"Blast-Related Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"White Matter Abnormalities",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":31,
+        "subject":"White Matter Abnormalities",
+        "relation":"associated_with",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":31,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"White Matter Integrity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":31,
+        "subject":"White Matter Abnormalities",
+        "relation":"correlates_with",
+        "object":"Neurocognitive Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":31,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Chronic White Matter Abnormalities",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":31,
+        "subject":"White Matter Integrity",
+        "relation":"mediates",
+        "object":"Cognitive Status",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":31,
+        "subject":"Cognitive Impairment",
+        "relation":"associated_with",
+        "object":"White Matter Abnormalities",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":38,
+        "subject":"Military Blast Exposure",
+        "relation":"causes",
+        "object":"White Matter Integrity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":38,
+        "subject":"Age",
+        "relation":"affects",
+        "object":"White Matter Integrity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":39,
+        "subject":"White Matter Lesions",
+        "relation":"causes",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":48,
+        "subject":"Traumatic Brain Injury",
+        "relation":"no_direct_causal_link",
+        "object":"White Matter Hyperintensities",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":53,
+        "subject":"Cortical White Matter Volume",
+        "relation":"exhibits",
+        "object":"Progressive Atrophy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":76,
+        "subject":"Cerebrospinal Fluid Total Tau",
+        "relation":"upregulates",
+        "object":"White Matter Integrity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":76,
+        "subject":"Cognitive Performance",
+        "relation":"mediates",
+        "object":"White Matter Integrity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":76,
+        "subject":"Cognitive Performance",
+        "relation":"downregulates",
+        "object":"White Matter Integrity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":77,
+        "subject":"Military Exposure",
+        "relation":"causes",
+        "object":"White Matter Microstructure",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":100,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"White Matter Integrity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":103,
+        "subject":"Neurodegeneration",
+        "relation":"affects",
+        "object":"White Matter Integrity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":103,
+        "subject":"White Matter Integrity",
+        "relation":"indicated_by",
+        "object":"Mean Diffusivity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":103,
+        "subject":"Neuroimaging",
+        "relation":"used_to_assess",
+        "object":"White Matter Integrity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":115,
+        "subject":"Midbrain White Matter Integrity",
+        "relation":"correlates_with",
+        "object":"Serum Tau Levels",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":115,
+        "subject":"Rotational Acceleration",
+        "relation":"affects",
+        "object":"Midbrain White Matter Integrity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":115,
+        "subject":"Concussion",
+        "relation":"associated_with",
+        "object":"Midbrain White Matter Integrity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":115,
+        "subject":"Midbrain White Matter Integrity",
+        "relation":"index_of",
+        "object":"Clinically Silent White Matter Injury",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":115,
+        "subject":"Tauopathy",
+        "relation":"associated_with",
+        "object":"Midbrain White Matter Integrity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":115,
+        "subject":"Midbrain White Matter Integrity",
+        "relation":"correlates_with",
+        "object":"Eye Movement Disruption",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":115,
+        "subject":"Midbrain White Matter Integrity",
+        "relation":"affected_by",
+        "object":"Single Season Collegiate Football",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":115,
+        "subject":"Midbrain White Matter Integrity",
+        "relation":"associated_with",
+        "object":"Concussion",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":120,
+        "subject":"Cerebral Microbleeds",
+        "relation":"associated_with",
+        "object":"White Matter Degradation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":120,
+        "subject":"White Matter Degradation",
+        "relation":"affects",
+        "object":"Cognitive Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":122,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"White Matter Integrity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":139,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"White Matter Volume Loss",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":154,
+        "subject":"Traumatic Brain Injury",
+        "relation":"no_direct_causal_link",
+        "object":"White Matter Volume",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":157,
+        "subject":"Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"White Matter Volume",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":169,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"White Matter Integrity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":189,
+        "subject":"Concussion",
+        "relation":"causes",
+        "object":"White Matter Microstructure Changes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":194,
+        "subject":"Military Blast Exposure",
+        "relation":"causes",
+        "object":"White Matter Changes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":202,
+        "subject":"Remote Concussions",
+        "relation":"causes",
+        "object":"White Matter Integrity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":202,
+        "subject":"White Matter Integrity",
+        "relation":"mediates",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":212,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"White Matter Volume Modifications",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":212,
+        "subject":"White Matter Volume Modifications",
+        "relation":"mediates",
+        "object":"Memory Performance",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":212,
+        "subject":"White Matter Volume Modifications",
+        "relation":"affects",
+        "object":"Cognitive Functions",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":212,
+        "subject":"Neurodegenerative Processes",
+        "relation":"affects",
+        "object":"White Matter Volume Modifications",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":243,
+        "subject":"White Matter Microstructure",
+        "relation":"associated_with",
+        "object":"Cognitive Symptoms",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":243,
+        "subject":"White Matter Microstructure",
+        "relation":"associated_with",
+        "object":"Emotional Symptoms",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":243,
+        "subject":"White Matter Microstructure",
+        "relation":"associated_with",
+        "object":"Somatic Symptoms",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":243,
+        "subject":"White Matter Microstructure",
+        "relation":"associated_with",
+        "object":"Frontal Region Changes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":275,
+        "subject":"Jugular Compression Collar",
+        "relation":"treats",
+        "object":"White Matter Changes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":275,
+        "subject":"Off-Season",
+        "relation":"partially_reverses",
+        "object":"White Matter Changes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":275,
+        "subject":"Season 2",
+        "relation":"exhibits",
+        "object":"Trend Level White Matter Alterations",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":275,
+        "subject":"Collar Group",
+        "relation":"maintains",
+        "object":"White Matter Integrity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":275,
+        "subject":"Non-Collar Group",
+        "relation":"demonstrates",
+        "object":"Longitudinal Changes in White Matter",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":317,
+        "subject":"Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"White Matter Abnormalities",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":317,
+        "subject":"White Matter Abnormalities",
+        "relation":"mediates",
+        "object":"Neuropsychological Functioning",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":317,
+        "subject":"White Matter Abnormalities",
+        "relation":"predicts",
+        "object":"Long-Term Disability",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":336,
+        "subject":"BOLD Signals",
+        "relation":"location_of",
+        "object":"White Matter Regions",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":389,
+        "subject":"Age",
+        "relation":"causes",
+        "object":"White Matter Degradation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":389,
+        "subject":"Cerebral Microbleeds",
+        "relation":"contributes_to",
+        "object":"White Matter Degradation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":389,
+        "subject":"Male Sex",
+        "relation":"associated_with",
+        "object":"White Matter Degradation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":389,
+        "subject":"Time Since Injury",
+        "relation":"affects",
+        "object":"White Matter Degradation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":421,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"White Matter Abnormalities",
+        "entity_variants":"not specified"
+    },
+    {
+        "source_abstract_id":421,
+        "subject":"Posttraumatic Stress Disorder",
+        "relation":"causes",
+        "object":"White Matter Abnormalities",
+        "entity_variants":"not specified"
+    },
+    {
+        "source_abstract_id":421,
+        "subject":"White Matter Abnormalities",
+        "relation":"correlates_with",
+        "object":"Cognitive Deficits",
+        "entity_variants":"not specified"
+    },
+    {
+        "source_abstract_id":421,
+        "subject":"White Matter Abnormalities",
+        "relation":"correlates_with",
+        "object":"Amyloid Deposition",
+        "entity_variants":"not specified"
+    },
+    {
+        "source_abstract_id":421,
+        "subject":"White Matter Abnormalities",
+        "relation":"correlates_with",
+        "object":"Gray Matter Atrophy",
+        "entity_variants":"not specified"
+    },
+    {
+        "source_abstract_id":443,
+        "subject":"Functional MRI Activity",
+        "relation":"correlates_with",
+        "object":"Working Memory Ability Changes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":451,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"White Matter Microvascular Lesions",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":469,
+        "subject":"White Matter Rarefaction",
+        "relation":"associated_with",
+        "object":"Dementia",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":480,
+        "subject":"White Matter Microstructural Changes",
+        "relation":"correlates_with",
+        "object":"Attention Deficits",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":480,
+        "subject":"White Matter Microstructural Changes",
+        "relation":"correlates_with",
+        "object":"Executive Function Deficits",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":480,
+        "subject":"White Matter Microstructural Changes",
+        "relation":"correlates_with",
+        "object":"Memory Improvement",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":480,
+        "subject":"White Matter Microstructural Changes",
+        "relation":"correlates_with",
+        "object":"Visuospatial Function Improvement",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":485,
+        "subject":"Close-Range Blast Exposure",
+        "relation":"predicts",
+        "object":"White Matter Abnormalities",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":485,
+        "subject":"Number of Close-Range Blast Exposures",
+        "relation":"positively_associates_with",
+        "object":"Number of White Matter Abnormalities",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":485,
+        "subject":"Close-Range Blast Exposure",
+        "relation":"causes",
+        "object":"Altered White Matter Integrity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":487,
+        "subject":"Concussion",
+        "relation":"causes",
+        "object":"White Matter Abnormality",
+        "entity_variants":"mild traumatic brain injury"
+    },
+    {
+        "source_abstract_id":487,
+        "subject":"White Matter Abnormality",
+        "relation":"correlates_with",
+        "object":"Clinical Outcomes",
+        "entity_variants":"not specified"
+    },
+    {
+        "source_abstract_id":492,
+        "subject":"Rugby Participation",
+        "relation":"causes",
+        "object":"White Matter Abnormalities",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":492,
+        "subject":"Head Injury History",
+        "relation":"does_not_affect",
+        "object":"White Matter Volume Changes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":492,
+        "subject":"Longitudinal Study",
+        "relation":"reveals",
+        "object":"Unexpected Reductions in White Matter Volume",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":524,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"White Matter Microstructure Changes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":524,
+        "subject":"White Matter Microstructure Changes",
+        "relation":"correlates_with",
+        "object":"Gray Matter Decrease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":527,
+        "subject":"Cognitive Test Scores",
+        "relation":"correlates_with",
+        "object":"White Matter Integrity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":541,
+        "subject":"White Matter Connectivity",
+        "relation":"correlates_with",
+        "object":"Neuropsychological Scores",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":541,
+        "subject":"Cognitive Decline",
+        "relation":"associated_with",
+        "object":"Topological White Matter Reorganization",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":588,
+        "subject":"White Matter Injury",
+        "relation":"negatively_affects",
+        "object":"Attentional Performance",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":415,
+        "subject":"Retinal Nerve Fiber Layer Thinning",
+        "relation":"indicates",
+        "object":"White Matter Degeneration",
+        "entity_variants":"wider"
+    }
+]

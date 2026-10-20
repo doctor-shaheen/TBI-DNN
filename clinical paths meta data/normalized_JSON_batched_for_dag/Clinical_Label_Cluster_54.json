@@ -1,0 +1,317 @@
+[
+    {
+        "source_abstract_id":67,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Executive Function Deficit",
+        "entity_variants":"moderate, severe"
+    },
+    {
+        "source_abstract_id":181,
+        "subject":"Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Executive Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":210,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Executive Function Impairment",
+        "entity_variants":"LOC <1 min, LOC 1-20 min"
+    },
+    {
+        "source_abstract_id":210,
+        "subject":"LOC 1-20 min",
+        "relation":"increases_risk_of",
+        "object":"Executive Function Impairment",
+        "entity_variants":"LOC 1-20 min"
+    },
+    {
+        "source_abstract_id":210,
+        "subject":"LOC <1 min",
+        "relation":"no_significant_effect_on",
+        "object":"Executive Function Impairment",
+        "entity_variants":"LOC <1 min"
+    },
+    {
+        "source_abstract_id":214,
+        "subject":"Mild Cognitive Impairment",
+        "relation":"associated_with",
+        "object":"Longitudinal Decline in Executive Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":214,
+        "subject":"Mild Cognitive Impairment",
+        "relation":"associated_with",
+        "object":"Executive Function Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":218,
+        "subject":"Executive Function",
+        "relation":"decreases_due_to",
+        "object":"Traumatic Brain Injury",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":232,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Executive Function Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":270,
+        "subject":"Loss of consciousness",
+        "relation":"predicts",
+        "object":"Executive dysfunction",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":270,
+        "subject":"Mild traumatic brain injury",
+        "relation":"impairs",
+        "object":"Executive functioning",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":374,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Executive Control Deficits",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":374,
+        "subject":"Executive Control Deficits",
+        "relation":"suggests",
+        "object":"Progressive Disorder",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":387,
+        "subject":"Traumatic Brain Injury",
+        "relation":"impairs",
+        "object":"Executive Attention",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":396,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Executive Dysfunction",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":396,
+        "subject":"Chronic Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Greater Improvement in Executive Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":411,
+        "subject":"Group 3",
+        "relation":"associated_with",
+        "object":"Attention and Executive Dysfunction",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":462,
+        "subject":"Cognitive Deficits",
+        "relation":"associated_with",
+        "object":"Executive Function Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":528,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Executive Function Decline",
+        "entity_variants":"TBI|early life TBI"
+    },
+    {
+        "source_abstract_id":561,
+        "subject":"Cognitive Decline",
+        "relation":"associated_with",
+        "object":"Executive Function Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":594,
+        "subject":"Virtual Reality Training",
+        "relation":"treats",
+        "object":"Anxiety",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":597,
+        "subject":"Traumatic Brain Injury",
+        "relation":"impairs",
+        "object":"Executive Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":614,
+        "subject":"Frontotemporal Disorder",
+        "relation":"associated_with",
+        "object":"Executive Dysfunction",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":127,
+        "subject":"Age at injury",
+        "relation":"adversely_affects",
+        "object":"Executive Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":67,
+        "subject":"Three Mild Traumatic Brain Injuries",
+        "relation":"causes",
+        "object":"Executive Function Deficits",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":69,
+        "subject":"Cognitive Performance",
+        "relation":"associated_with",
+        "object":"Executive Function Tests",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":78,
+        "subject":"Cognitive Outcomes",
+        "relation":"associated_with",
+        "object":"Executive Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":269,
+        "subject":"Executive Function Impairment",
+        "relation":"associated_with",
+        "object":"Behavioral Outcomes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":317,
+        "subject":"Neuropsychological Functioning",
+        "relation":"associated_with",
+        "object":"Executive Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":355,
+        "subject":"Neurological Music Therapy",
+        "relation":"treats",
+        "object":"Executive Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":362,
+        "subject":"Cognitive Process Scores",
+        "relation":"causes",
+        "object":"Executive Dysfunction",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":365,
+        "subject":"Repetitive Transcranial Magnetic Stimulation",
+        "relation":"treats",
+        "object":"Executive Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":369,
+        "subject":"Active Rehabilitation",
+        "relation":"causes",
+        "object":"Executive Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":370,
+        "subject":"Cerebral Blood Flow",
+        "relation":"associated_with",
+        "object":"Executive Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":374,
+        "subject":"Reaction Time Variability",
+        "relation":"associated_with",
+        "object":"Executive Control Functions",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":374,
+        "subject":"Reaction Time Variability",
+        "relation":"negatively_associated_with",
+        "object":"Executive Control Functions",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":374,
+        "subject":"Executive Control Deficits",
+        "relation":"mediates",
+        "object":"Behavioral Inconsistency",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":549,
+        "subject":"Repetitive Transcranial Magnetic Stimulation",
+        "relation":"treats",
+        "object":"Executive Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":549,
+        "subject":"Cognitive Training",
+        "relation":"treats",
+        "object":"Executive Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":549,
+        "subject":"Sham Repetitive Transcranial Magnetic Stimulation",
+        "relation":"does_not_treat",
+        "object":"Executive Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":571,
+        "subject":"Graph Metrics",
+        "relation":"associated_with",
+        "object":"Executive Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":594,
+        "subject":"Virtual Reality Training",
+        "relation":"treats",
+        "object":"Executive Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":594,
+        "subject":"Conventional Cognitive Training",
+        "relation":"treats",
+        "object":"Executive Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":594,
+        "subject":"Virtual Reality Training",
+        "relation":"treats",
+        "object":"Visuospatial Executive Abilities",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":594,
+        "subject":"Conventional Cognitive Training",
+        "relation":"treats",
+        "object":"Visuospatial Executive Abilities",
+        "entity_variants":null
+    }
+]

@@ -1,0 +1,681 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 27,
+    "edge_count": 35
+  },
+  "nodes": [
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "Traumatic Brain Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111"
+      },
+      "synonyms": [
+        "Mild Closed Head Injury",
+        "Mild Traumatic Brain Injury",
+        "Blast Injury",
+        "Repeated Mild Closed Head Injury",
+        "Concussion"
+      ]
+    },
+    {
+      "id": "AlzheimerDisease",
+      "label": "Alzheimer Disease",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0002395"
+      },
+      "synonyms": [
+        "AD Neuropathology",
+        "Alzheimer Disease and Related Dementias",
+        "AD Pathogenesis"
+      ]
+    },
+    {
+      "id": "BACE1",
+      "label": "Beta-secretase 1",
+      "type": "Protein",
+      "location": "Neuron",
+      "identifiers": {
+        "HGNC_ID": "HGNC:932",
+        "UniProt_ID": "P56817",
+        "UMLS_CUI": "C0812234"
+      },
+      "synonyms": [
+        "Beta-Secretase 1",
+        "Beta-site amyloid precursor protein cleaving enzyme 1"
+      ]
+    },
+    {
+      "id": "LGMN",
+      "label": "Legumain",
+      "type": "Protein",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "HGNC_ID": "HGNC:6562",
+        "UniProt_ID": "Q99538",
+        "UMLS_CUI": "C1413812"
+      },
+      "synonyms": [
+        "Delta Secretase",
+        "Asparagine Endopeptidase",
+        "AEP"
+      ]
+    },
+    {
+      "id": "MAPT",
+      "label": "Microtubule Associated Protein Tau",
+      "type": "Protein",
+      "location": "Neuron",
+      "identifiers": {
+        "HGNC_ID": "HGNC:6893",
+        "UniProt_ID": "P10636",
+        "UMLS_CUI": "C0039392"
+      },
+      "synonyms": [
+        "Tau Protein",
+        "Tau",
+        "p-Tau",
+        "Neurofibrillary Tangles"
+      ]
+    },
+    {
+      "id": "CEBPB",
+      "label": "CCAAT Enhancer Binding Protein Beta",
+      "type": "Protein",
+      "location": "Nucleus",
+      "identifiers": {
+        "HGNC_ID": "HGNC:1834",
+        "UniProt_ID": "P17676"
+      },
+      "synonyms": [
+        "C/EBP beta"
+      ]
+    },
+    {
+      "id": "APP",
+      "label": "Amyloid Beta Precursor Protein",
+      "type": "Protein",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "HGNC_ID": "HGNC:620",
+        "UniProt_ID": "P05067",
+        "UMLS_CUI": "C0002773"
+      },
+      "synonyms": [
+        "Amyloid Beta",
+        "Abeta42",
+        "Beta-Amyloid",
+        "Amyloid Precursor Protein",
+        "Amyloid beta-Protein"
+      ]
+    },
+    {
+      "id": "IntermediateFilamentOrganization",
+      "label": "Intermediate Filament Organization",
+      "type": "Process",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "GO_ID": "GO:0045109"
+      },
+      "synonyms": [
+        "Intermediate Filament Network Remodeling"
+      ]
+    },
+    {
+      "id": "Nilvadipine",
+      "label": "Nilvadipine",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "ChEBI_ID": "CHEBI:7563",
+        "UMLS_CUI": "C0068864"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "MGAT3",
+      "label": "Mannosyl (Beta-1,4-)-Glycoprotein Beta-1,4-N-Acetylglucosaminyltransferase",
+      "type": "Protein",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "HGNC_ID": "HGNC:7046",
+        "UniProt_ID": "Q09327"
+      },
+      "synonyms": [
+        "N-Acetylglucosaminyltransferase III",
+        "GnT-III"
+      ]
+    },
+    {
+      "id": "N-acetylglucosamine",
+      "label": "N-acetylglucosamine",
+      "type": "Chemical",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "ChEBI_ID": "CHEBI:17337"
+      },
+      "synonyms": [
+        "Bisecting N-Acetylglucosamine"
+      ]
+    },
+    {
+      "id": "NeuronalDeath",
+      "label": "Neuronal Death",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "GO_ID": "GO:0070997"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "CognitiveDysfunction",
+      "label": "Cognitive Dysfunction",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0338656"
+      },
+      "synonyms": [
+        "Cognitive Impairment",
+        "Altered Cognitive Function",
+        "Neurobehavioral Deficits"
+      ]
+    },
+    {
+      "id": "CytokineProduction",
+      "label": "Cytokine Production",
+      "type": "Process",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "GO_ID": "GO:0001816"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "InterferonSignaling",
+      "label": "Interferon Signaling Pathway",
+      "type": "Process",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "GO_ID": "GO:0060337"
+      },
+      "synonyms": [
+        "Interferon Pathway"
+      ]
+    },
+    {
+      "id": "AxonalInjury",
+      "label": "Axonal Injury",
+      "type": "Process",
+      "location": "Neuron",
+      "identifiers": {
+        "UMLS_CUI": "C0151608"
+      },
+      "synonyms": [
+        "Axonal Breakage"
+      ]
+    },
+    {
+      "id": "APOE",
+      "label": "Apolipoprotein E",
+      "type": "Protein",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "HGNC_ID": "HGNC:613",
+        "UniProt_ID": "P02649",
+        "UMLS_CUI": "C0003554"
+      },
+      "synonyms": [
+        "Apolipoprotein E3",
+        "Apolipoprotein E4"
+      ]
+    },
+    {
+      "id": "Aging",
+      "label": "Aging",
+      "type": "Process",
+      "location": "Systemic",
+      "identifiers": {
+        "GO_ID": "GO:0007568",
+        "UMLS_CUI": "C0001779"
+      },
+      "synonyms": [
+        "Age"
+      ]
+    },
+    {
+      "id": "PRNP",
+      "label": "Prion Protein",
+      "type": "Protein",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "HGNC_ID": "HGNC:9449",
+        "UniProt_ID": "P04156"
+      },
+      "synonyms": [
+        "Cellular Prion Protein",
+        "PrP"
+      ]
+    },
+    {
+      "id": "PSEN1",
+      "label": "Presenilin 1",
+      "type": "Protein",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "HGNC_ID": "HGNC:9508",
+        "UniProt_ID": "P49768"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "GlymphaticSystem",
+      "label": "Glymphatic System",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C4073172"
+      },
+      "synonyms": [
+        "Glymphatic Drainage"
+      ]
+    },
+    {
+      "id": "ADAM10",
+      "label": "ADAM Metallopeptidase Domain 10",
+      "type": "Protein",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "HGNC_ID": "HGNC:189",
+        "UniProt_ID": "O14672"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Gliosis",
+      "label": "Gliosis",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0017639"
+      },
+      "synonyms": [
+        "Reactive Astrogliosis"
+      ]
+    },
+    {
+      "id": "OxidativeStress",
+      "label": "Oxidative Stress",
+      "type": "Process",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "GO_ID": "GO:0006979",
+        "UMLS_CUI": "C0029912"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Sleep",
+      "label": "Sleep",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "GO_ID": "GO:0030431",
+        "UMLS_CUI": "C0038169"
+      },
+      "synonyms": [
+        "Slow Wave Activity"
+      ]
+    },
+    {
+      "id": "MAPK8",
+      "label": "Mitogen-Activated Protein Kinase 8",
+      "type": "Protein",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "HGNC_ID": "HGNC:6881",
+        "UniProt_ID": "P45983"
+      },
+      "synonyms": [
+        "c-Jun N-terminal Kinase",
+        "JNK1"
+      ]
+    },
+    {
+      "id": "IL1B",
+      "label": "Interleukin 1 Beta",
+      "type": "Protein",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "HGNC_ID": "HGNC:5992",
+        "UniProt_ID": "P01584"
+      },
+      "synonyms": [
+        "Interleukin-1 beta protein"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "AlzheimerDisease",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        9,
+        61,
+        111,
+        22,
+        33,
+        41,
+        107
+      ],
+      "confidence": "High",
+      "metadata": "Includes exacerbation, acceleration, and direct causation logic from various TBI models"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "BACE1",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        40,
+        402
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Mild TBI"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "LGMN",
+      "mechanism": "activates",
+      "evidence_ref": [
+        45
+      ],
+      "confidence": "Medium",
+      "metadata": "Triggers Delta Secretase activity"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "APP",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        339,
+        40,
+        41,
+        70,
+        76,
+        79,
+        96,
+        106,
+        107,
+        111,
+        128,
+        130,
+        142,
+        334,
+        345,
+        325
+      ],
+      "confidence": "High",
+      "metadata": "Includes accumulation, aggregation, and increased production of Amyloid Beta/APP"
+    },
+    {
+      "source": "LGMN",
+      "target": "MAPT",
+      "mechanism": "cleaves",
+      "evidence_ref": [
+        45
+      ],
+      "confidence": "Medium",
+      "metadata": "Delta Secretase cleaves Tau"
+    },
+    {
+      "source": "LGMN",
+      "target": "APP",
+      "mechanism": "cleaves",
+      "evidence_ref": [
+        45
+      ],
+      "confidence": "Medium",
+      "metadata": "Delta Secretase cleaves APP"
+    },
+    {
+      "source": "LGMN",
+      "target": "AlzheimerDisease",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        45
+      ],
+      "confidence": "Medium",
+      "metadata": "Knockout reduces pathology"
+    },
+    {
+      "source": "CEBPB",
+      "target": "LGMN",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        45
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "APP",
+      "target": "IntermediateFilamentOrganization",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        267
+      ],
+      "confidence": "Low"
+    },
+    {
+      "source": "APP",
+      "target": "BACE1",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        402
+      ],
+      "confidence": "Medium",
+      "metadata": "Amyloid Beta upregulates BACE1"
+    },
+    {
+      "source": "APP",
+      "target": "CognitiveDysfunction",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        344,
+        31,
+        334,
+        86,
+        262
+      ],
+      "confidence": "High",
+      "metadata": "Correlates with impairment and deficits"
+    },
+    {
+      "source": "APP",
+      "target": "CytokineProduction",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        267
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "APP",
+      "target": "InterferonSignaling",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        267
+      ],
+      "confidence": "Medium",
+      "metadata": "Upregulates pathway, inhibits specific gene products"
+    },
+    {
+      "source": "APP",
+      "target": "AxonalInjury",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        262
+      ],
+      "confidence": "Low",
+      "metadata": "APP staining diagnoses axonal breakage"
+    },
+    {
+      "source": "APP",
+      "target": "Gliosis",
+      "mechanism": "causes",
+      "evidence_ref": [
+        267
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "Nilvadipine",
+      "target": "APP",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        319
+      ],
+      "confidence": "Medium",
+      "metadata": "Reduces production"
+    },
+    {
+      "source": "MGAT3",
+      "target": "BACE1",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        402
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "BACE1",
+      "target": "APP",
+      "mechanism": "cleaves",
+      "evidence_ref": [
+        402
+      ],
+      "confidence": "High",
+      "metadata": "Causes Amyloid Beta generation"
+    },
+    {
+      "source": "BACE1",
+      "target": "N-acetylglucosamine",
+      "mechanism": "binds",
+      "evidence_ref": [
+        402
+      ],
+      "confidence": "Low",
+      "metadata": "Binds bisecting GlcNAc"
+    },
+    {
+      "source": "BACE1",
+      "target": "NeuronalDeath",
+      "mechanism": "causes",
+      "evidence_ref": [
+        402
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "APOE",
+      "target": "APP",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        67
+      ],
+      "confidence": "Medium",
+      "metadata": "Promotes breakdown"
+    },
+    {
+      "source": "Aging",
+      "target": "APP",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        76
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "PRNP",
+      "target": "APP",
+      "mechanism": "binds",
+      "evidence_ref": [
+        100
+      ],
+      "confidence": "Medium",
+      "metadata": "Interacts with oligomers"
+    },
+    {
+      "source": "PSEN1",
+      "target": "APP",
+      "mechanism": "binds",
+      "evidence_ref": [
+        108
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "AlzheimerDisease",
+      "target": "IL1B",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        22
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "MAPK8",
+      "target": "APP",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        166
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "OxidativeStress",
+      "target": "BACE1",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        402
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "Sleep",
+      "target": "APP",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        344
+      ],
+      "confidence": "Medium",
+      "metadata": "Slow wave activity decreases immunoreactivity"
+    },
+    {
+      "source": "GlymphaticSystem",
+      "target": "APP",
+      "mechanism": "transports",
+      "evidence_ref": [
+        336
+      ],
+      "confidence": "Medium",
+      "metadata": "Dysfunction mediates deposition implies active transport/clearance role"
+    },
+    {
+      "source": "ADAM10",
+      "target": "APP",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        370
+      ],
+      "confidence": "Medium"
+    }
+  ]
+}

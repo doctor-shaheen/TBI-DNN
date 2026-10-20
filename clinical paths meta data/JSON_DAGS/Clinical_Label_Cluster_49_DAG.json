@@ -1,0 +1,114 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 3,
+    "edge_count": 2
+  },
+  "nodes": [
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "Traumatic Brain Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111",
+        "MeSH": "D001930"
+      },
+      "synonyms": [
+        "TBI",
+        "Head Injury",
+        "Chronic Traumatic Brain Injury",
+        "Brain Concussion"
+      ]
+    },
+    {
+      "id": "CognitiveImpairment",
+      "label": "Cognitive Impairment",
+      "type": "Symptom",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0338656"
+      },
+      "synonyms": [
+        "Cognitive Dysfunction",
+        "Cognitive Deficits",
+        "Poor Cognitive Outcome",
+        "Cognitive Disorder"
+      ]
+    },
+    {
+      "id": "CognitiveDecline",
+      "label": "Cognitive Decline",
+      "type": "BiologicalProcess",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0234985"
+      },
+      "synonyms": [
+        "Mental Deterioration",
+        "Cognitive deterioration"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "CognitiveImpairment",
+      "mechanism": "causes",
+      "evidence_ref": [
+        36,
+        56,
+        67,
+        95,
+        96,
+        123,
+        163,
+        193,
+        198,
+        230,
+        281,
+        305,
+        309,
+        324,
+        349,
+        354,
+        356,
+        382,
+        387,
+        390,
+        393,
+        421,
+        423,
+        426,
+        495,
+        514,
+        524,
+        539,
+        548,
+        549,
+        554,
+        555,
+        563,
+        571,
+        572,
+        588,
+        614,
+        630,
+        181
+      ],
+      "confidence": "High",
+      "metadata": "Context: Relationship includes correlations with injury severity and cumulative history of TBI."
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "CognitiveDecline",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        489
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Lowers age of onset."
+    }
+  ]
+}

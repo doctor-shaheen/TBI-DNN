@@ -1,0 +1,707 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 22,
+    "edge_count": 28
+  },
+  "nodes": [
+    {
+      "id": "MAPT",
+      "label": "MAPT",
+      "type": "Protein",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0039392",
+        "HGNC_ID": "HGNC:6893",
+        "UniProt_ID": "P10636"
+      },
+      "synonyms": [
+        "Tau",
+        "Microtubule-associated protein tau",
+        "Phosphorylated Tau",
+        "p-Tau",
+        "p-Tau181",
+        "p-Tau217",
+        "p-Tau231",
+        "Total Tau",
+        "Neurofibrillary Tangles",
+        "Paired Helical Filaments",
+        "cis-p-tau",
+        "Exosomal Tau"
+      ]
+    },
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "Traumatic Brain Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111"
+      },
+      "synonyms": [
+        "TBI",
+        "Mild Traumatic Brain Injury",
+        "mTBI",
+        "Concussion",
+        "Repetitive Head Impacts",
+        "Blast Exposure",
+        "Head Trauma",
+        "Chronic Mild Traumatic Brain Injury",
+        "Impact Injury"
+      ]
+    },
+    {
+      "id": "ChronicTraumaticEncephalopathy",
+      "label": "Chronic Traumatic Encephalopathy",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0011601"
+      },
+      "synonyms": [
+        "CTE",
+        "Traumatic Encephalopathy Syndrome"
+      ]
+    },
+    {
+      "id": "AlzheimerDisease",
+      "label": "Alzheimer Disease",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0002395"
+      },
+      "synonyms": [
+        "AD",
+        "Alzheimer's Disease"
+      ]
+    },
+    {
+      "id": "CognitiveImpairment",
+      "label": "Cognitive Impairment",
+      "type": "Syndrome",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0338656"
+      },
+      "synonyms": [
+        "Cognitive Decline",
+        "Cognitive Deficits",
+        "Memory Loss",
+        "Executive Dysfunction",
+        "Dementia",
+        "Memory Performance"
+      ]
+    },
+    {
+      "id": "Neurodegeneration",
+      "label": "Neurodegeneration",
+      "type": "Pathology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027651"
+      },
+      "synonyms": [
+        "Neuronal Death",
+        "Neuronal Damage",
+        "Brain Atrophy",
+        "Cortical Thinning",
+        "Axonal Injury"
+      ]
+    },
+    {
+      "id": "Neuroinflammation",
+      "label": "Neuroinflammation",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027877",
+        "GO_ID": "GO:0002544"
+      },
+      "synonyms": [
+        "Microglial Activation",
+        "Astrocytic Degeneration",
+        "M1 Microglia"
+      ]
+    },
+    {
+      "id": "APP",
+      "label": "APP",
+      "type": "Protein",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "UMLS_CUI": "C0002710",
+        "HGNC_ID": "HGNC:620"
+      },
+      "synonyms": [
+        "Amyloid Beta",
+        "Abeta",
+        "Beta Amyloid",
+        "Amyloid Precursor Protein"
+      ]
+    },
+    {
+      "id": "APOE",
+      "label": "APOE",
+      "type": "Protein",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "UMLS_CUI": "C0003562",
+        "HGNC_ID": "HGNC:613"
+      },
+      "synonyms": [
+        "Apolipoprotein E",
+        "Apolipoprotein E4"
+      ]
+    },
+    {
+      "id": "GSK3B",
+      "label": "GSK3B",
+      "type": "Protein",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "UMLS_CUI": "C1415250",
+        "HGNC_ID": "HGNC:4617"
+      },
+      "synonyms": [
+        "Glycogen Synthase Kinase 3 Beta"
+      ]
+    },
+    {
+      "id": "SYNJ1",
+      "label": "SYNJ1",
+      "type": "Protein",
+      "location": "Synapse",
+      "identifiers": {
+        "UMLS_CUI": "C1420459",
+        "HGNC_ID": "HGNC:11506"
+      },
+      "synonyms": [
+        "Synaptojanin-1"
+      ]
+    },
+    {
+      "id": "LGMN",
+      "label": "LGMN",
+      "type": "Protein",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "HGNC_ID": "HGNC:6558"
+      },
+      "synonyms": [
+        "Delta Secretase",
+        "Legumain"
+      ]
+    },
+    {
+      "id": "TARDBP",
+      "label": "TARDBP",
+      "type": "Protein",
+      "location": "Nucleus",
+      "identifiers": {
+        "HGNC_ID": "HGNC:11571"
+      },
+      "synonyms": [
+        "TDP-43"
+      ]
+    },
+    {
+      "id": "PRNP",
+      "label": "PRNP",
+      "type": "Protein",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "HGNC_ID": "HGNC:9449"
+      },
+      "synonyms": [
+        "Cellular Prion Protein",
+        "PrP"
+      ]
+    },
+    {
+      "id": "Flortaucipir",
+      "label": "Flortaucipir",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "ChEBI_ID": "CHEBI:138543"
+      },
+      "synonyms": [
+        "AV-1451",
+        "18F-T807",
+        "T807"
+      ]
+    },
+    {
+      "id": "SubstanceP",
+      "label": "Substance P",
+      "type": "Chemical",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "ChEBI_ID": "CHEBI:80315"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Morin",
+      "label": "Morin",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "ChEBI_ID": "CHEBI:28622"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "PostTraumaticStressDisorder",
+      "label": "Post Traumatic Stress Disorder",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0038436"
+      },
+      "synonyms": [
+        "PTSD"
+      ]
+    },
+    {
+      "id": "DepressiveDisorder",
+      "label": "Depressive Disorder",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0011570"
+      },
+      "synonyms": [
+        "Depression"
+      ]
+    },
+    {
+      "id": "SleepQuality",
+      "label": "Sleep Quality",
+      "type": "Physiological_Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0424564"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "BodyMassIndex",
+      "label": "Body Mass Index",
+      "type": "Physiological_Attribute",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C1305855"
+      },
+      "synonyms": [
+        "BMI"
+      ]
+    },
+    {
+      "id": "TauAptamer",
+      "label": "Tau Aptamer",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "Unknown"
+      },
+      "synonyms": [
+        "Circular Tau Transferrin Receptor Bifunctional Aptamer"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "MAPT",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        17,
+        46,
+        51,
+        60,
+        72,
+        83,
+        88,
+        94,
+        110,
+        134,
+        138,
+        143,
+        179,
+        180,
+        197,
+        225,
+        234,
+        236,
+        244,
+        260,
+        304,
+        306,
+        313,
+        326,
+        358,
+        367,
+        416,
+        420,
+        439,
+        447,
+        450,
+        469,
+        476,
+        510,
+        517,
+        595,
+        628
+      ],
+      "confidence": "High",
+      "metadata": "Includes increases in total levels, hyperphosphorylation, aggregation, and NFT formation."
+    },
+    {
+      "source": "MAPT",
+      "target": "ChronicTraumaticEncephalopathy",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        22,
+        30,
+        59,
+        70,
+        88,
+        118,
+        126,
+        136,
+        151,
+        235,
+        294,
+        300,
+        497
+      ],
+      "confidence": "High",
+      "metadata": "Tau aggregation/pathology is a hallmark of CTE"
+    },
+    {
+      "source": "MAPT",
+      "target": "AlzheimerDisease",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        40,
+        76,
+        78,
+        136,
+        450
+      ],
+      "confidence": "High",
+      "metadata": "NFTs and hyperphosphorylated tau"
+    },
+    {
+      "source": "MAPT",
+      "target": "CognitiveImpairment",
+      "mechanism": "causes",
+      "evidence_ref": [
+        15,
+        70,
+        76,
+        95,
+        99,
+        110,
+        125,
+        143,
+        208,
+        228,
+        234,
+        244,
+        296,
+        314,
+        337,
+        343,
+        400,
+        447,
+        517,
+        544,
+        595
+      ],
+      "confidence": "High",
+      "metadata": "Correlation with memory loss, executive dysfunction, and dementia"
+    },
+    {
+      "source": "MAPT",
+      "target": "Neurodegeneration",
+      "mechanism": "causes",
+      "evidence_ref": [
+        7,
+        49,
+        64,
+        85,
+        134,
+        174,
+        235,
+        296,
+        306,
+        325,
+        392,
+        400,
+        439,
+        451,
+        460,
+        476,
+        519,
+        595
+      ],
+      "confidence": "High",
+      "metadata": "Includes neuronal death, brain atrophy, and axonal injury"
+    },
+    {
+      "source": "MAPT",
+      "target": "Neuroinflammation",
+      "mechanism": "activates",
+      "evidence_ref": [
+        39,
+        107,
+        451
+      ],
+      "confidence": "Medium",
+      "metadata": "Tau induces microglial activation and toxicity"
+    },
+    {
+      "source": "Neuroinflammation",
+      "target": "MAPT",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        110,
+        138,
+        329
+      ],
+      "confidence": "Medium",
+      "metadata": "Microglial activation/M1 state promotes tau pathology"
+    },
+    {
+      "source": "APP",
+      "target": "MAPT",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        208,
+        234,
+        235,
+        376
+      ],
+      "confidence": "Medium",
+      "metadata": "Amyloid beta triggers tau phosphorylation and accumulation"
+    },
+    {
+      "source": "APOE",
+      "target": "MAPT",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        46,
+        367
+      ],
+      "confidence": "Medium",
+      "metadata": "APOE4 allele increases tau accumulation and inhibits clearance"
+    },
+    {
+      "source": "SYNJ1",
+      "target": "GSK3B",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        367
+      ],
+      "confidence": "Medium",
+      "metadata": "Synaptojanin-1 inhibition of GSK3B"
+    },
+    {
+      "source": "GSK3B",
+      "target": "MAPT",
+      "mechanism": "phosphorylates",
+      "evidence_ref": [
+        367
+      ],
+      "confidence": "High",
+      "metadata": "GSK3B is a primary tau kinase"
+    },
+    {
+      "source": "LGMN",
+      "target": "MAPT",
+      "mechanism": "cleaves",
+      "evidence_ref": [
+        107
+      ],
+      "confidence": "Medium",
+      "metadata": "Delta secretase cleaves tau"
+    },
+    {
+      "source": "PRNP",
+      "target": "MAPT",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        208
+      ],
+      "confidence": "Low",
+      "metadata": "Cellular prion protein mediates p-tau generation"
+    },
+    {
+      "source": "Flortaucipir",
+      "target": "MAPT",
+      "mechanism": "binds",
+      "evidence_ref": [
+        59,
+        88,
+        118,
+        134,
+        143,
+        151,
+        294,
+        568,
+        595
+      ],
+      "confidence": "High",
+      "metadata": "Used for PET imaging of Tau aggregates"
+    },
+    {
+      "source": "SubstanceP",
+      "target": "MAPT",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        326
+      ],
+      "confidence": "Medium",
+      "metadata": "Promotes tau hyperphosphorylation"
+    },
+    {
+      "source": "Morin",
+      "target": "MAPT",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        442
+      ],
+      "confidence": "Low",
+      "metadata": "Opposes p(Thr231)Tau"
+    },
+    {
+      "source": "TauAptamer",
+      "target": "MAPT",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        343
+      ],
+      "confidence": "Low",
+      "metadata": "Inhibits tau phosphorylation and pathology"
+    },
+    {
+      "source": "MAPT",
+      "target": "DepressiveDisorder",
+      "mechanism": "associated_with",
+      "evidence_ref": [
+        143,
+        447
+      ],
+      "confidence": "Medium",
+      "metadata": "Correlation with depressive symptoms"
+    },
+    {
+      "source": "PostTraumaticStressDisorder",
+      "target": "MAPT",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        234
+      ],
+      "confidence": "Medium",
+      "metadata": "PTSD presence associated with higher tau"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "PostTraumaticStressDisorder",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        19,
+        234
+      ],
+      "confidence": "Medium",
+      "metadata": "TBI associated with PTSD progression"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "SemanticVariantPrimaryProgressiveAphasia",
+      "mechanism": "causes",
+      "evidence_ref": [
+        238
+      ],
+      "confidence": "Low",
+      "metadata": "Specific link to svPPA"
+    },
+    {
+      "source": "SleepQuality",
+      "target": "MAPT",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        173
+      ],
+      "confidence": "Low",
+      "metadata": "Sleep quality predicts tau levels"
+    },
+    {
+      "source": "BodyMassIndex",
+      "target": "MAPT",
+      "mechanism": "associated_with",
+      "evidence_ref": [
+        544
+      ],
+      "confidence": "Low",
+      "metadata": "BMI triggers/binds p-tau"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "BloodBrainBarrierDisruption",
+      "mechanism": "causes",
+      "evidence_ref": [
+        115
+      ],
+      "confidence": "Medium",
+      "metadata": "Indicated by serum tau levels"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "TARDBP",
+      "mechanism": "no_significant_difference_in",
+      "evidence_ref": [
+        450
+      ],
+      "confidence": "Medium",
+      "metadata": "No significant difference in p-TDP-43"
+    },
+    {
+      "source": "MuralCellDysfunction",
+      "target": "MAPT",
+      "mechanism": "impairs",
+      "evidence_ref": [
+        64
+      ],
+      "confidence": "Low",
+      "metadata": "Decreases tau uptake/clearance"
+    },
+    {
+      "source": "MAPT",
+      "target": "TraumaticBrainInjury",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        476,
+        607
+      ],
+      "confidence": "High",
+      "metadata": "Serum/Plasma tau as biomarker for TBI severity/recovery"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Neurodegeneration",
+      "mechanism": "causes",
+      "evidence_ref": [
+        46,
+        134,
+        476
+      ],
+      "confidence": "High",
+      "metadata": "TBI leads to neurodegenerative changes"
+    }
+  ]
+}

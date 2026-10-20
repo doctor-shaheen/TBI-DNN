@@ -1,0 +1,464 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 16,
+    "edge_count": 25
+  },
+  "nodes": [
+    {
+      "id": "MethyleneBlue",
+      "label": "Methylene Blue",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0025737",
+        "ChEBI_ID": "CHEBI:6841"
+      },
+      "synonyms": [
+        "Methylthioninium chloride",
+        "NanoMB-127",
+        "NanoMB-68",
+        "Methylene blue nanocomplex"
+      ]
+    },
+    {
+      "id": "NA-184",
+      "label": "NA-184",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "Unavailable",
+        "Code": "NA-184"
+      },
+      "synonyms": [
+        "Calpain-2 inhibitor NA-184"
+      ]
+    },
+    {
+      "id": "NA-101",
+      "label": "NA-101",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "Unavailable",
+        "Code": "NA-101"
+      },
+      "synonyms": [
+        "Calpain-2 Inhibitor",
+        "C2I",
+        "C18"
+      ]
+    },
+    {
+      "id": "CAPN1",
+      "label": "CAPN1",
+      "type": "Protein",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "UMLS_CUI": "C1413158",
+        "HGNC_ID": "HGNC:1476"
+      },
+      "synonyms": [
+        "Calpain-1",
+        "Mu-calpain"
+      ]
+    },
+    {
+      "id": "CAPN2",
+      "label": "CAPN2",
+      "type": "Protein",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "UMLS_CUI": "C1413160",
+        "HGNC_ID": "HGNC:1479"
+      },
+      "synonyms": [
+        "Calpain-2",
+        "M-calpain"
+      ]
+    },
+    {
+      "id": "CAST",
+      "label": "CAST",
+      "type": "Protein",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "UMLS_CUI": "C0006764",
+        "HGNC_ID": "HGNC:1515"
+      },
+      "synonyms": [
+        "Calpastatin",
+        "hCAST"
+      ]
+    },
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "Traumatic Brain Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111"
+      },
+      "synonyms": [
+        "TBI",
+        "Acute Injury",
+        "Concussion"
+      ]
+    },
+    {
+      "id": "Neurodegeneration",
+      "label": "Neurodegeneration",
+      "type": "Pathology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027963"
+      },
+      "synonyms": [
+        "Neuronal Death",
+        "Neuronal Degeneration",
+        "Neuronal Injury",
+        "Lesion Volume"
+      ]
+    },
+    {
+      "id": "Neuroprotection",
+      "label": "Neuroprotection",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0599427"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "BloodBrainBarrier",
+      "label": "Blood-Brain Barrier",
+      "type": "Anatomy",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0005763"
+      },
+      "synonyms": [
+        "BBB"
+      ]
+    },
+    {
+      "id": "Cytokines",
+      "label": "Cytokines",
+      "type": "Protein",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "UMLS_CUI": "C0079189"
+      },
+      "synonyms": [
+        "Cytokine Expression"
+      ]
+    },
+    {
+      "id": "CellDeath",
+      "label": "Cell Death",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0011910"
+      },
+      "synonyms": [
+        "Apoptosis"
+      ]
+    },
+    {
+      "id": "MotorFunction",
+      "label": "Motor Function",
+      "type": "Physiology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0026649"
+      },
+      "synonyms": [
+        "Motor Function Recovery",
+        "Motor Deficits"
+      ]
+    },
+    {
+      "id": "LearningAndMemory",
+      "label": "Learning and Memory",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0023185"
+      },
+      "synonyms": [
+        "Learning Function Recovery"
+      ]
+    },
+    {
+      "id": "LongTermPotentiation",
+      "label": "Long-Term Potentiation",
+      "type": "Process",
+      "location": "Synapse",
+      "identifiers": {
+        "UMLS_CUI": "C0023974"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Neuroinflammation",
+      "label": "Neuroinflammation",
+      "type": "Pathology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0200780"
+      },
+      "synonyms": []
+    }
+  ],
+  "edges": [
+    {
+      "source": "MethyleneBlue",
+      "target": "BloodBrainBarrier",
+      "mechanism": "binds",
+      "evidence_ref": [
+        75
+      ],
+      "confidence": "High",
+      "metadata": "Context: NanoMB nanocomplex binding"
+    },
+    {
+      "source": "MethyleneBlue",
+      "target": "Cytokines",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        75
+      ],
+      "confidence": "Medium",
+      "metadata": "Formulation: NanoMB-127"
+    },
+    {
+      "source": "MethyleneBlue",
+      "target": "Neurodegeneration",
+      "mechanism": "causes",
+      "evidence_ref": [
+        75
+      ],
+      "confidence": "Low",
+      "metadata": "Conflict: Other sources suggest neuroprotection; Context: NanoMB-127"
+    },
+    {
+      "source": "MethyleneBlue",
+      "target": "Neuroprotection",
+      "mechanism": "activates",
+      "evidence_ref": [
+        75
+      ],
+      "confidence": "High",
+      "metadata": "Variant: Methylene Blue"
+    },
+    {
+      "source": "MethyleneBlue",
+      "target": "Neuroinflammation",
+      "mechanism": "causes",
+      "evidence_ref": [
+        75
+      ],
+      "confidence": "Low",
+      "metadata": "Potential extraction error in source"
+    },
+    {
+      "source": "NA-184",
+      "target": "BloodBrainBarrier",
+      "mechanism": "translocates",
+      "evidence_ref": [
+        75,
+        91
+      ],
+      "confidence": "High",
+      "metadata": "Context: Exhibits permeability"
+    },
+    {
+      "source": "NA-184",
+      "target": "Neuroprotection",
+      "mechanism": "activates",
+      "evidence_ref": [
+        91
+      ],
+      "confidence": "High",
+      "metadata": "Context: TBI model"
+    },
+    {
+      "source": "NA-184",
+      "target": "LongTermPotentiation",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        91
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "NA-184",
+      "target": "CAPN2",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        91
+      ],
+      "confidence": "High",
+      "metadata": "Prevents TBI-induced activation"
+    },
+    {
+      "source": "NA-184",
+      "target": "Neurodegeneration",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        91
+      ],
+      "confidence": "High",
+      "metadata": "Source corrected from CAPN2 to NA-184 based on variant"
+    },
+    {
+      "source": "NA-101",
+      "target": "CellDeath",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        63
+      ],
+      "confidence": "High",
+      "metadata": "Context: Calpain-2 Inhibitor NA101"
+    },
+    {
+      "source": "NA-101",
+      "target": "Neurodegeneration",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        63
+      ],
+      "confidence": "High",
+      "metadata": "Target: Lesion Volume"
+    },
+    {
+      "source": "NA-101",
+      "target": "MotorFunction",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        63
+      ],
+      "confidence": "High",
+      "metadata": "Promotes recovery"
+    },
+    {
+      "source": "NA-101",
+      "target": "LearningAndMemory",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        63
+      ],
+      "confidence": "High",
+      "metadata": "Promotes recovery"
+    },
+    {
+      "source": "CAPN2",
+      "target": "CellDeath",
+      "mechanism": "causes",
+      "evidence_ref": [
+        63,
+        91
+      ],
+      "confidence": "High",
+      "metadata": "Context: TBI/Acute Injury"
+    },
+    {
+      "source": "CAPN2",
+      "target": "Neurodegeneration",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        91,
+        357
+      ],
+      "confidence": "High",
+      "metadata": "Context: Long-term functional consequences"
+    },
+    {
+      "source": "CAPN2",
+      "target": "TraumaticBrainInjury",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        91
+      ],
+      "confidence": "Medium",
+      "metadata": "Associated with acute injury"
+    },
+    {
+      "source": "CAPN1",
+      "target": "CellDeath",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        63
+      ],
+      "confidence": "Medium",
+      "metadata": "Inferred from 'Calpain-1 Knockout enhances Cell Death'"
+    },
+    {
+      "source": "CAPN1",
+      "target": "Neuroprotection",
+      "mechanism": "activates",
+      "evidence_ref": [
+        63
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "CAST",
+      "target": "CAPN1",
+      "mechanism": "binds",
+      "evidence_ref": [
+        357
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "CAST",
+      "target": "CAPN2",
+      "mechanism": "binds",
+      "evidence_ref": [
+        357
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "CAST",
+      "target": "MotorFunction",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        357
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "CAST",
+      "target": "LearningAndMemory",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        357
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "CAST",
+      "target": "Neurodegeneration",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        357
+      ],
+      "confidence": "Medium",
+      "metadata": "Includes Cortical Damage"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "CAPN2",
+      "mechanism": "activates",
+      "evidence_ref": [
+        91
+      ],
+      "confidence": "High"
+    }
+  ]
+}

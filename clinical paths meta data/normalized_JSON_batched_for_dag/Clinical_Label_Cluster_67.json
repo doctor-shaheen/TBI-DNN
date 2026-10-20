@@ -1,0 +1,324 @@
+[
+    {
+        "source_abstract_id":480,
+        "subject":"Isolated Maxillofacial Injury",
+        "relation":"causes",
+        "object":"Cognitive Deficits",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":31,
+        "subject":"Mild Traumatic Brain Injury with Loss of Consciousness",
+        "relation":"mediates",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":31,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"influences",
+        "object":"Cognitive Status",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":31,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Neurocognitive Deficits",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":83,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cognitive Performance Changes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":113,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"contributes_to",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":336,
+        "subject":"Chronic Mild Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":26,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Persistent Cognitive Deficits",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":26,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cognitive Dysfunction",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":36,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Poor Cognitive Outcome",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":37,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"not_associated_with",
+        "object":"Cognitive Performance Validity Tests",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":74,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Cognitive Processing",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":74,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"impairs",
+        "object":"Cognitive Performance",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":81,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Cognitive Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":81,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Cognitive Assessments",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":87,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cognitive Dysfunction",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":89,
+        "subject":"Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Mild Cognitive Impairment",
+        "entity_variants":"TBI positive, TBI negative"
+    },
+    {
+        "source_abstract_id":156,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Poorer Performance on Operation Span Task",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":158,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"predicts",
+        "object":"Cognitive Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":160,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cognitive Deficits",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":167,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Cognitive Dysfunction",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":168,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Cognitive Performance",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":169,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Neuropsychological Tests",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":169,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cognitive Outcomes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":176,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cognitive Deficits",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":192,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cognitive Sequelae",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":199,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":216,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Persistent Early Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":223,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"not_associated_with",
+        "object":"Neuropsychological Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":223,
+        "subject":"Mild Cognitive Impairment",
+        "relation":"not_associated_with",
+        "object":"Neuropsychological Profiles",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":251,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":253,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Neurocognitive Symptoms",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":253,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":284,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cognitive Impairment",
+        "entity_variants":"Severity: mild, moderate"
+    },
+    {
+        "source_abstract_id":286,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"not_causes",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":402,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cognitive Deficits",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":402,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Neurocognitive Testing Results",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":440,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Cognitive Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":473,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"not_causes",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":473,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Low Scores on Cognitive Tests",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":474,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":486,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cognitive Deficits",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":486,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Behavioral Dysfunctions",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":490,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":512,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cognitive Deficits",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":559,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cognitive Impairment",
+        "entity_variants":"Severity: mild, moderate"
+    }
+]

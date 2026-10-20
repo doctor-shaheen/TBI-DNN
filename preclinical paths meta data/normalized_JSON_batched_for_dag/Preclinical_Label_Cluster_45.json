@@ -1,0 +1,191 @@
+[
+    {
+        "source_abstract_id":353,
+        "subject":"Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Neuronal Functions",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":119,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"triggers",
+        "object":"Programmed Cell Death",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":5,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Neuronal Density Decrease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":5,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Loss of Histological Markers of Axonal and Synaptic Integrity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":22,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Apoptosis",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":61,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Loss of Neuronal Plasticity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":84,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Neuronal Loss",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":145,
+        "subject":"Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Neuronal Survival",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":151,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Neuronal Loss",
+        "entity_variants":"not_reported"
+    },
+    {
+        "source_abstract_id":162,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cytotoxicity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":170,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Neuronal Loss",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":176,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Neuronal Death",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":198,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Decreased NeuN Expression",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":230,
+        "subject":"Traumatic Brain Injury",
+        "relation":"does_not_affect",
+        "object":"Neuronal Loss",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":236,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Apoptosis",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":252,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Neuronal Cell Death",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":258,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cellular Loss",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":259,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Apoptosis",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":266,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Downregulation of NeuN",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":274,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Loss of Neurons",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":278,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Neuronal Apoptosis",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":325,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cell Death",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":350,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Neuronal Apoptosis",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":357,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Hippocampal Neuron Death",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":375,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cell Death",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":388,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Neurons",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":299,
+        "subject":"Severe Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Neuronal Cell Death",
+        "entity_variants":null
+    }
+]

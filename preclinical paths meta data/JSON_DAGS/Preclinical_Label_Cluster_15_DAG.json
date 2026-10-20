@@ -1,0 +1,186 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 7,
+    "edge_count": 5
+  },
+  "nodes": [
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "Traumatic Brain Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111",
+        "MeSH": "D000070642"
+      },
+      "synonyms": [
+        "TBI",
+        "Mild Traumatic Brain Injury",
+        "Mild TBI",
+        "Brain Injury"
+      ]
+    },
+    {
+      "id": "MotorDeficit",
+      "label": "Motor Deficit",
+      "type": "Phenotype",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0521654",
+        "HPO": "HP:0001270"
+      },
+      "synonyms": [
+        "Motor Dysfunction",
+        "Locomotor Dysfunction",
+        "Reduced Locomotor Activity",
+        "Motor Impairment",
+        "Change in Motor Performance",
+        "Motor Performance Deficit",
+        "Motor Function Deficit",
+        "Motor Coordination Deficit"
+      ]
+    },
+    {
+      "id": "SensorimotorDeficit",
+      "label": "Sensorimotor Deficit",
+      "type": "Phenotype",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0424551"
+      },
+      "synonyms": [
+        "Sensorimotor Impairment",
+        "Sensorimotor Skill Deficit",
+        "Sensorimotor Dysfunction"
+      ]
+    },
+    {
+      "id": "FunctionalRecovery",
+      "label": "Recovery of Function",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0034807",
+        "GO": "GO:0006935"
+      },
+      "synonyms": [
+        "Motor Function Recovery",
+        "Sensorimotor Functional Recovery",
+        "Functional restoration"
+      ]
+    },
+    {
+      "id": "InjurySeverity",
+      "label": "Injury Severity",
+      "type": "Clinical Attribute",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0021440"
+      },
+      "synonyms": [
+        "Severity of Injury Symptoms",
+        "Trauma Severity"
+      ]
+    },
+    {
+      "id": "PoorOutcome",
+      "label": "Poor Outcome",
+      "type": "Phenotype",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0032646"
+      },
+      "synonyms": [
+        "Worsened Outcome",
+        "Unfavorable Outcome"
+      ]
+    },
+    {
+      "id": "BloodBrainBarrierDisruption",
+      "label": "Blood-Brain Barrier Disruption",
+      "type": "Pathology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0206148"
+      },
+      "synonyms": [
+        "Blood-Brain Barrier Damage",
+        "BBB Disruption",
+        "BBB Damage"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "MotorDeficit",
+      "mechanism": "causes",
+      "evidence_ref": [
+        34,
+        59,
+        61,
+        81,
+        95,
+        102,
+        136,
+        178,
+        230,
+        327,
+        355,
+        360,
+        380,
+        387
+      ],
+      "confidence": "High",
+      "metadata": "Includes negative association with Motor Performance (Ref 230) and general motor dysfunction"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "SensorimotorDeficit",
+      "mechanism": "causes",
+      "evidence_ref": [
+        31,
+        207,
+        244,
+        298,
+        311,
+        335
+      ],
+      "confidence": "High",
+      "metadata": "Combined sensory and motor impairment"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "FunctionalRecovery",
+      "mechanism": "causes",
+      "evidence_ref": [
+        120,
+        169
+      ],
+      "confidence": "Low",
+      "metadata": "Context: Post-injury recovery process observation"
+    },
+    {
+      "source": "InjurySeverity",
+      "target": "PoorOutcome",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        373
+      ],
+      "confidence": "Medium",
+      "metadata": "Source relationship: predicts"
+    },
+    {
+      "source": "BloodBrainBarrierDisruption",
+      "target": "MotorDeficit",
+      "mechanism": "causes",
+      "evidence_ref": [
+        191
+      ],
+      "confidence": "Medium",
+      "metadata": "Pathology contributing to functional deficit"
+    }
+  ]
+}

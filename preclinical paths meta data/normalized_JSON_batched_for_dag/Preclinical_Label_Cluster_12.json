@@ -1,0 +1,170 @@
+[
+    {
+        "source_abstract_id":26,
+        "subject":"Stretch Injury",
+        "relation":"upregulates",
+        "object":"Annexin A5",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":201,
+        "subject":"S100 Calcium Binding Protein A9",
+        "relation":"downregulates",
+        "object":"Neuroinflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":201,
+        "subject":"S100 Calcium Binding Protein A9",
+        "relation":"causes",
+        "object":"Neuroprotection",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":201,
+        "subject":"S100 Calcium Binding Protein A9",
+        "relation":"mediates",
+        "object":"Functional Improvement",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":201,
+        "subject":"S100 Calcium Binding Protein A9",
+        "relation":"reduces",
+        "object":"Lesion Size",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":201,
+        "subject":"S100 Calcium Binding Protein A9",
+        "relation":"prevents",
+        "object":"Perilesional Neuron Loss",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":201,
+        "subject":"S100 Calcium Binding Protein A9",
+        "relation":"reduces",
+        "object":"Neurogenesis",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":201,
+        "subject":"S100 Calcium Binding Protein A9",
+        "relation":"enhances",
+        "object":"Neuroplasticity Protein Expression",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":201,
+        "subject":"S100 Calcium Binding Protein A9",
+        "relation":"contributes_to",
+        "object":"Anxiety",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":201,
+        "subject":"S100 Calcium Binding Protein A9",
+        "relation":"associated_with",
+        "object":"Neurodegeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":201,
+        "subject":"S100 Calcium Binding Protein A9",
+        "relation":"associated_with",
+        "object":"Traumatic Brain Injury Outcome",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":284,
+        "subject":"Recombinant Annexin A2",
+        "relation":"binds_to",
+        "object":"Toll-Like Receptor 4",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":284,
+        "subject":"Recombinant Annexin A2",
+        "relation":"downregulates",
+        "object":"Toll-Like Receptor 4 Expression",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":284,
+        "subject":"Recombinant Annexin A2",
+        "relation":"inhibits",
+        "object":"Neutrophil Activation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":284,
+        "subject":"Recombinant Annexin A2",
+        "relation":"reduces",
+        "object":"Brain Infiltration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":284,
+        "subject":"Recombinant Annexin A2",
+        "relation":"improves",
+        "object":"Sensorimotor Ability",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":284,
+        "subject":"Recombinant Annexin A2",
+        "relation":"reduces",
+        "object":"Brain Tissue Loss",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":343,
+        "subject":"S100B Protein",
+        "relation":"causes",
+        "object":"Neuroinflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":343,
+        "subject":"S100B Protein",
+        "relation":"reduces",
+        "object":"Lesion Volume",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":343,
+        "subject":"S100B Protein",
+        "relation":"improves",
+        "object":"Memory Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":343,
+        "subject":"S100B Protein",
+        "relation":"attenuates",
+        "object":"Microglial Activation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":343,
+        "subject":"S100B Protein",
+        "relation":"improves",
+        "object":"Neuronal Survival",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":343,
+        "subject":"S100B Protein",
+        "relation":"does_not_affect",
+        "object":"Microglial Activation in BV2 Cells",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":343,
+        "subject":"S100B Protein",
+        "relation":"does_not_interact_with",
+        "object":"Advanced Glycosylation End-Product Specific Receptor",
+        "entity_variants":null
+    }
+]

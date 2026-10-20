@@ -1,0 +1,623 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 27,
+    "edge_count": 31
+  },
+  "nodes": [
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "Traumatic Brain Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111",
+        "MeSH": "D001930"
+      },
+      "synonyms": [
+        "Brain Injury",
+        "TBI"
+      ]
+    },
+    {
+      "id": "Mitophagy",
+      "label": "Mitophagy",
+      "type": "Process",
+      "location": "Mitochondria",
+      "identifiers": {
+        "UMLS_CUI": "C3494266",
+        "GO": "GO:0000422"
+      },
+      "synonyms": [
+        "Mitochondrial autophagy",
+        "Impaired Mitophagy"
+      ]
+    },
+    {
+      "id": "Memantine",
+      "label": "Memantine",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0066067",
+        "ChEBI": "CHEBI:6788"
+      },
+      "synonyms": [
+        "NMDAR antagonist"
+      ]
+    },
+    {
+      "id": "MAPT",
+      "label": "MAPT",
+      "type": "Protein",
+      "location": "Neuron",
+      "identifiers": {
+        "UMLS_CUI": "C0039392",
+        "HGNC_ID": "HGNC:6893"
+      },
+      "synonyms": [
+        "Tau",
+        "tau_hyperphosphorylation"
+      ]
+    },
+    {
+      "id": "Gliosis",
+      "label": "Gliosis",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0017639"
+      },
+      "synonyms": [
+        "Glial activation",
+        "Glial reaction"
+      ]
+    },
+    {
+      "id": "LongTermPotentiation",
+      "label": "Long Term Potentiation",
+      "type": "Process",
+      "location": "Synapse",
+      "identifiers": {
+        "UMLS_CUI": "C0023971",
+        "GO": "GO:0050852"
+      },
+      "synonyms": [
+        "LTP"
+      ]
+    },
+    {
+      "id": "Excitotoxicity",
+      "label": "Excitotoxicity",
+      "type": "Process",
+      "location": "Synapse",
+      "identifiers": {
+        "UMLS_CUI": "C0596328"
+      },
+      "synonyms": [
+        "Glutamatergic toxicity"
+      ]
+    },
+    {
+      "id": "NeurologicDeficit",
+      "label": "Neurologic Deficit",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0521654"
+      },
+      "synonyms": [
+        "Neurological deficits"
+      ]
+    },
+    {
+      "id": "Morin",
+      "label": "Morin",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0026569",
+        "ChEBI": "CHEBI:28608"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Dizocilpine",
+      "label": "Dizocilpine",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0012891",
+        "ChEBI": "CHEBI:4689"
+      },
+      "synonyms": [
+        "MK-801"
+      ]
+    },
+    {
+      "id": "CellSurvival",
+      "label": "Cell Survival",
+      "type": "Process",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "UMLS_CUI": "C0007609",
+        "GO": "GO:0043067"
+      },
+      "synonyms": [
+        "Neuronal survival"
+      ]
+    },
+    {
+      "id": "MAPK14",
+      "label": "MAPK14",
+      "type": "Protein",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "UMLS_CUI": "C1414436",
+        "HGNC_ID": "HGNC:6876"
+      },
+      "synonyms": [
+        "p38 alpha",
+        "p38a MAPK"
+      ]
+    },
+    {
+      "id": "MonocyteChemotaxis",
+      "label": "Monocyte Chemotaxis",
+      "type": "Process",
+      "location": "Blood",
+      "identifiers": {
+        "UMLS_CUI": "C0026442",
+        "GO": "GO:0002548"
+      },
+      "synonyms": [
+        "Inflammatory monocyte recruitment",
+        "Monocyte infiltration"
+      ]
+    },
+    {
+      "id": "Minocycline",
+      "label": "Minocycline",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0026196",
+        "ChEBI": "CHEBI:6940"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "MicroglialActivation",
+      "label": "Microglial Activation",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0334887"
+      },
+      "synonyms": [
+        "Microglial response"
+      ]
+    },
+    {
+      "id": "NeuronalDeath",
+      "label": "Neuronal Death",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0242207"
+      },
+      "synonyms": [
+        "Hippocampal neuronal loss"
+      ]
+    },
+    {
+      "id": "Neurodegeneration",
+      "label": "Neurodegeneration",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027819"
+      },
+      "synonyms": [
+        "Hippocampal neurodegeneration"
+      ]
+    },
+    {
+      "id": "Myelination",
+      "label": "Myelination",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0026992",
+        "GO": "GO:0042552"
+      },
+      "synonyms": [
+        "White matter myelination"
+      ]
+    },
+    {
+      "id": "Memory",
+      "label": "Memory",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0025260"
+      },
+      "synonyms": [
+        "Fear memory performance"
+      ]
+    },
+    {
+      "id": "Neuroprotection",
+      "label": "Neuroprotection",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0599427"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "MDK",
+      "label": "MDK",
+      "type": "Protein",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "UMLS_CUI": "C0207149",
+        "HGNC_ID": "HGNC:6972"
+      },
+      "synonyms": [
+        "Midkine"
+      ]
+    },
+    {
+      "id": "Neuroinflammation",
+      "label": "Neuroinflammation",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C1518331"
+      },
+      "synonyms": [
+        "Inflammatory proteins"
+      ]
+    },
+    {
+      "id": "Apoptosis",
+      "label": "Apoptosis",
+      "type": "Process",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "UMLS_CUI": "C0162638",
+        "GO": "GO:0006915"
+      },
+      "synonyms": [
+        "Neuronal apoptosis"
+      ]
+    },
+    {
+      "id": "BrainAtrophy",
+      "label": "Brain Atrophy",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0241816"
+      },
+      "synonyms": [
+        "Brain tissue loss"
+      ]
+    },
+    {
+      "id": "Astrocytosis",
+      "label": "Astrocytosis",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0017639"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "IGF1R",
+      "label": "IGF1R",
+      "type": "Protein",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "UMLS_CUI": "C0035075",
+        "HGNC_ID": "HGNC:5465"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "IGF1",
+      "label": "IGF1",
+      "type": "Protein",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "UMLS_CUI": "C0021671",
+        "HGNC_ID": "HGNC:5464"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "AxonRegeneration",
+      "label": "Axon Regeneration",
+      "type": "Process",
+      "location": "Neuron",
+      "identifiers": {
+        "UMLS_CUI": "C0027763",
+        "GO": "GO:0031103"
+      },
+      "synonyms": [
+        "Axonal repair"
+      ]
+    },
+    {
+      "id": "AxonalVaricosity",
+      "label": "Axonal Varicosity",
+      "type": "Process",
+      "location": "Neuron",
+      "identifiers": {
+        "UMLS_CUI": "C0424687"
+      },
+      "synonyms": [
+        "Varicosities"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Mitophagy",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        296
+      ],
+      "confidence": "High",
+      "metadata": "Context: Causes impairment"
+    },
+    {
+      "source": "Memantine",
+      "target": "MAPT",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        28
+      ],
+      "confidence": "High",
+      "metadata": "Target: Hyperphosphorylation"
+    },
+    {
+      "source": "Memantine",
+      "target": "Gliosis",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        28
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "Memantine",
+      "target": "LongTermPotentiation",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        28
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "Memantine",
+      "target": "Excitotoxicity",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        28
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "Memantine",
+      "target": "NeurologicDeficit",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        28
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "Morin",
+      "target": "CellSurvival",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        128
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "Dizocilpine",
+      "target": "CellSurvival",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        128
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "MAPK14",
+      "target": "MonocyteChemotaxis",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        150
+      ],
+      "confidence": "Medium",
+      "metadata": "Input states downregulates; p38 deficiency typically reduces recruitment"
+    },
+    {
+      "source": "Minocycline",
+      "target": "MicroglialActivation",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        256
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "Minocycline",
+      "target": "MonocyteChemotaxis",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        256
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "Minocycline",
+      "target": "NeuronalDeath",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        256
+      ],
+      "confidence": "High",
+      "metadata": "Location: Hippocampus"
+    },
+    {
+      "source": "Minocycline",
+      "target": "Neurodegeneration",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        256
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "Minocycline",
+      "target": "Myelination",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        256
+      ],
+      "confidence": "Medium",
+      "metadata": "Effect: Preserves"
+    },
+    {
+      "source": "Minocycline",
+      "target": "Memory",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        256
+      ],
+      "confidence": "Medium",
+      "metadata": "Type: Fear memory"
+    },
+    {
+      "source": "Minocycline",
+      "target": "Neuroprotection",
+      "mechanism": "activates",
+      "evidence_ref": [
+        256,
+        383
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "MDK",
+      "target": "Neuroinflammation",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        272
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "MDK",
+      "target": "Apoptosis",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        272
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Neuronal"
+    },
+    {
+      "source": "MDK",
+      "target": "BrainAtrophy",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        272
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "MDK",
+      "target": "NeurologicDeficit",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        272
+      ],
+      "confidence": "Low"
+    },
+    {
+      "source": "MDK",
+      "target": "Astrocytosis",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        272
+      ],
+      "confidence": "Low"
+    },
+    {
+      "source": "IGF1R",
+      "target": "Mitophagy",
+      "mechanism": "regulates",
+      "evidence_ref": [
+        296
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "IGF1",
+      "target": "Mitophagy",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        296
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "Dizocilpine",
+      "target": "Neuroinflammation",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        312
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "Dizocilpine",
+      "target": "Neuroprotection",
+      "mechanism": "activates",
+      "evidence_ref": [
+        312
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "Minocycline",
+      "target": "AxonRegeneration",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        383
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "Minocycline",
+      "target": "AxonalVaricosity",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        383
+      ],
+      "confidence": "Medium",
+      "metadata": "Effect: Resolves"
+    }
+  ]
+}

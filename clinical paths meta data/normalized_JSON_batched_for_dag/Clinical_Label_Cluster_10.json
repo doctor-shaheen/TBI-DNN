@@ -1,0 +1,632 @@
+[
+    {
+        "source_abstract_id":57,
+        "subject":"Amyloid Beta",
+        "relation":"decreased_in",
+        "object":"Post-Concussion Syndrome",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":165,
+        "subject":"Chronic Traumatic Encephalopathy",
+        "relation":"upregulates",
+        "object":"Alpha-Synuclein",
+        "entity_variants":"CTE, alpha_synuclein"
+    },
+    {
+        "source_abstract_id":225,
+        "subject":"Blast Exposure",
+        "relation":"causes",
+        "object":"Serum Amyloid Beta 40",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":225,
+        "subject":"Blast Exposure",
+        "relation":"causes",
+        "object":"Serum Amyloid Beta 42",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":229,
+        "subject":"Normal Control Subjects",
+        "relation":"compared_to",
+        "object":"Alzheimer Disease Patients",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":450,
+        "subject":"Traumatic Brain Injury with Loss of Consciousness",
+        "relation":"no_significant_difference_in",
+        "object":"Amyloid Beta",
+        "entity_variants":"none|"
+    },
+    {
+        "source_abstract_id":450,
+        "subject":"Traumatic Brain Injury with Loss of Consciousness",
+        "relation":"no_significant_difference_in",
+        "object":"Alpha-Synuclein",
+        "entity_variants":"none|"
+    },
+    {
+        "source_abstract_id":543,
+        "subject":"Head Injury",
+        "relation":"not_associated_with",
+        "object":"Amyloid Beta Load",
+        "entity_variants":"unknown|"
+    },
+    {
+        "source_abstract_id":568,
+        "subject":"Traumatic Brain Injury",
+        "relation":"no_direct_causal_link",
+        "object":"Amyloid Beta PET Imaging",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":72,
+        "subject":"Concussion",
+        "relation":"causes",
+        "object":"Amyloid beta 42",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":72,
+        "subject":"Concussion",
+        "relation":"causes",
+        "object":"Serum Amyloid A",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":376,
+        "subject":"Apolipoprotein E4 allele",
+        "relation":"associated_with",
+        "object":"Amyloid beta",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":379,
+        "subject":"Apolipoprotein E3\/4 genotype",
+        "relation":"influences",
+        "object":"Amyloid beta deposition",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":39,
+        "subject":"Beta-Amyloid",
+        "relation":"causes",
+        "object":"Neuroinflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":54,
+        "subject":"Enlarged Perivascular Spaces",
+        "relation":"associated_with",
+        "object":"Amyloidopathies",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":80,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Neuritic Plaques",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":83,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cerebrospinal Fluid Amyloid Beta 42",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":83,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cerebrospinal Fluid Amyloid Beta 40",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":83,
+        "subject":"Cerebrospinal Fluid Amyloid Beta 42",
+        "relation":"downregulates",
+        "object":"Cognitive Performance",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":83,
+        "subject":"Age",
+        "relation":"modulates",
+        "object":"Cerebrospinal Fluid Amyloid Beta 42",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":83,
+        "subject":"Age",
+        "relation":"modulates",
+        "object":"Cerebrospinal Fluid Amyloid Beta 40",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":86,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Amyloid Beta",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":99,
+        "subject":"National Football League Players",
+        "relation":"associated_with",
+        "object":"Negative Amyloid Beta Positron Emission Tomography",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":107,
+        "subject":"Amyloid Precursor Protein",
+        "relation":"promotes",
+        "object":"Amyloid Beta",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":119,
+        "subject":"Military Exposure",
+        "relation":"binds_to",
+        "object":"Amyloid Beta",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":124,
+        "subject":"Chronic Traumatic Encephalopathy",
+        "relation":"associated_with",
+        "object":"Cerebral Amyloid Angiopathy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":145,
+        "subject":"Amyloid Beta 40",
+        "relation":"associated_with",
+        "object":"Blast Mild Traumatic Brain Injury",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":147,
+        "subject":"Apolipoprotein E",
+        "relation":"promotes",
+        "object":"Beta-Amyloid Proteolytic Breakdown",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":147,
+        "subject":"Apolipoprotein E",
+        "relation":"inhibits",
+        "object":"Beta-Amyloid Abnormalities",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":165,
+        "subject":"Chronic Traumatic Encephalopathy",
+        "relation":"upregulates",
+        "object":"Amyloid Beta",
+        "entity_variants":"CTE, amyloid beta"
+    },
+    {
+        "source_abstract_id":179,
+        "subject":"Amyloid Beta",
+        "relation":"not_associated_with",
+        "object":"Former Players",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":180,
+        "subject":"Traumatic Brain Injury",
+        "relation":"no_direct_causal_link",
+        "object":"Beta-Amyloid",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":198,
+        "subject":"Beta-Amyloid",
+        "relation":"accumulates_in",
+        "object":"Brain",
+        "entity_variants":"Aβ"
+    },
+    {
+        "source_abstract_id":208,
+        "subject":"Cellular Prion Protein",
+        "relation":"binds_to",
+        "object":"Amyloid Beta",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":221,
+        "subject":"Contact Sports",
+        "relation":"causes",
+        "object":"Cerebral Amyloid Angiopathy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":221,
+        "subject":"Chronic Traumatic Encephalopathy",
+        "relation":"causes",
+        "object":"Cerebral Amyloid Angiopathy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":221,
+        "subject":"Cerebral Amyloid Angiopathy",
+        "relation":"predicts",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":221,
+        "subject":"Chronic Traumatic Encephalopathy",
+        "relation":"associated_with",
+        "object":"Cerebral Amyloid Angiopathy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":221,
+        "subject":"Cerebral Amyloid Angiopathy",
+        "relation":"associated_with",
+        "object":"Frontal Leptomeningeal Vessels",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":221,
+        "subject":"Cerebral Amyloid Angiopathy",
+        "relation":"associated_with",
+        "object":"Intracortical Vessels",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":221,
+        "subject":"Chronic Traumatic Encephalopathy",
+        "relation":"associated_with",
+        "object":"Cerebral Amyloid Angiopathy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":225,
+        "subject":"Amyloid Beta 40",
+        "relation":"positively_correlated_with",
+        "object":"Amyloid Beta 42",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":236,
+        "subject":"Chronic Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Beta-Amyloid Peptide 1-42",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":256,
+        "subject":"Cerebrospinal Fluid Amyloid Beta 42",
+        "relation":"compared_with",
+        "object":"Cerebrospinal Fluid Total Tau",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":256,
+        "subject":"Mean Alzheimer's Disease Vulnerable Cortical Thickness",
+        "relation":"correlated_with",
+        "object":"Cerebrospinal Fluid Amyloid Beta 42",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":263,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Amyloidosis",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":296,
+        "subject":"Cognitive Decline",
+        "relation":"mediated_by",
+        "object":"Amyloid Beta",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":296,
+        "subject":"Amyloid Beta",
+        "relation":"correlates_with",
+        "object":"Brain Atrophy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":301,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"no_direct_causal_link",
+        "object":"Cortical Amyloid Burden",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":301,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Cortical Amyloid Accumulation",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":350,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Amyloid Beta",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":350,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Amyloid Beta 42 \/ Amyloid Beta 40 Ratio",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":376,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Amyloid Beta",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":376,
+        "subject":"Amyloid Beta",
+        "relation":"associated_with",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":376,
+        "subject":"Age at Symptom Onset",
+        "relation":"associated_with",
+        "object":"Amyloid Beta",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":376,
+        "subject":"Age at Death",
+        "relation":"associated_with",
+        "object":"Amyloid Beta",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":376,
+        "subject":"Chronic Traumatic Encephalopathy",
+        "relation":"presents_with",
+        "object":"Amyloid Beta",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":379,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Amyloid Beta Oligomers",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":379,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Amyloid Beta 42",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":379,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Amyloid Beta Aggregates",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":379,
+        "subject":"Amyloid Beta Oligomers \/ Protofibrils",
+        "relation":"compared_to",
+        "object":"Alzheimer Disease Patients",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":379,
+        "subject":"Amyloid Beta Oligomers \/ Protofibrils",
+        "relation":"increased_in",
+        "object":"Traumatic Brain Injury Patients",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":406,
+        "subject":"Amyloid Precursor Protein",
+        "relation":"upregulates",
+        "object":"Cytokine Production",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":406,
+        "subject":"Amyloid Precursor Protein",
+        "relation":"mediates",
+        "object":"Interferon Pathway Activation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":411,
+        "subject":"Amyloid Burden",
+        "relation":"associated_with",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":421,
+        "subject":"Cognitive Deficits",
+        "relation":"influences",
+        "object":"Amyloid Deposition",
+        "entity_variants":"not specified"
+    },
+    {
+        "source_abstract_id":421,
+        "subject":"Traumatic Brain Injury",
+        "relation":"correlates_with",
+        "object":"Amyloid Deposition",
+        "entity_variants":"not specified"
+    },
+    {
+        "source_abstract_id":421,
+        "subject":"Posttraumatic Stress Disorder",
+        "relation":"correlates_with",
+        "object":"Amyloid Deposition",
+        "entity_variants":"not specified"
+    },
+    {
+        "source_abstract_id":427,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Amyloid Beta",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":427,
+        "subject":"Axonal Injury",
+        "relation":"mediates",
+        "object":"Amyloid Beta",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":427,
+        "subject":"Amyloid Beta",
+        "relation":"binds_to",
+        "object":"Neocortex",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":427,
+        "subject":"Amyloid Beta",
+        "relation":"binds_to",
+        "object":"Cerebellum",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":427,
+        "subject":"Time Since Injury",
+        "relation":"upregulates",
+        "object":"Amyloid Beta",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":427,
+        "subject":"Amyloid Beta",
+        "relation":"correlates_with",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":427,
+        "subject":"Amyloid Beta",
+        "relation":"binds_to",
+        "object":"Posterior Cingulate Cortex",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":440,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Amyloid Beta",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":440,
+        "subject":"Amyloid Beta",
+        "relation":"indicates",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":440,
+        "subject":"Amyloid Beta",
+        "relation":"associated_with",
+        "object":"Neurodegenerative Diseases",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":440,
+        "subject":"Cognitive Impairment",
+        "relation":"diagnoses",
+        "object":"Amyloid Positron Emission Tomography",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":442,
+        "subject":"Morin",
+        "relation":"prevents",
+        "object":"Amyloid Beta 1-40",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":470,
+        "subject":"Neurodegenerative Disease with Amyloid Pathology",
+        "relation":"contains",
+        "object":"Amyloid Beta 42",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":470,
+        "subject":"Alzheimer Disease with Amyloid Pathology",
+        "relation":"contains",
+        "object":"Amyloid Beta 42",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":484,
+        "subject":"Head Injury",
+        "relation":"no_direct_causal_link",
+        "object":"Amyloid Positron Emission Tomography Positivity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":509,
+        "subject":"Posttraumatic Stress Disorder",
+        "relation":"associated_with",
+        "object":"Amyloid Positivity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":510,
+        "subject":"Head Trauma",
+        "relation":"upregulates",
+        "object":"Amyloid Beta",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":513,
+        "subject":"ADAM10",
+        "relation":"modulates",
+        "object":"Beta-Amyloid",
+        "entity_variants":"ADAM10 variant, beta-amyloid variant"
+    },
+    {
+        "source_abstract_id":517,
+        "subject":"Traumatic Brain Injury",
+        "relation":"upregulates",
+        "object":"Amyloid Beta",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":517,
+        "subject":"Cognitive Decline",
+        "relation":"associated_with",
+        "object":"Amyloid Beta",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":517,
+        "subject":"Amyloid Beta",
+        "relation":"correlates_with",
+        "object":"Cognitive Decline",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":518,
+        "subject":"Amyloid Beta 42 \/ Amyloid Beta 40 Ratio",
+        "relation":"associated_with",
+        "object":"Brain Amyloidosis",
+        "entity_variants":"Aβ42\/Aβ40"
+    }
+]

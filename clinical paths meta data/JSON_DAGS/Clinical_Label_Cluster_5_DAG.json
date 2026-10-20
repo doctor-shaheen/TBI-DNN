@@ -1,0 +1,756 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 34,
+    "edge_count": 36
+  },
+  "nodes": [
+    {
+      "id": "ParkinsonDisease",
+      "label": "Parkinson Disease",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0030567",
+        "MeSH": "D010300"
+      },
+      "synonyms": [
+        "Paralysis Agitans",
+        "Primary Parkinsonism",
+        "Prodromal Parkinson Disease",
+        "Pesticide-Associated Parkinson Disease"
+      ]
+    },
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "Traumatic Brain Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111"
+      },
+      "synonyms": [
+        "Head Injury",
+        "TBI",
+        "Concussion",
+        "Brain Injuries"
+      ]
+    },
+    {
+      "id": "PosttraumaticStressDisorder",
+      "label": "Posttraumatic Stress Disorder",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0038436"
+      },
+      "synonyms": [
+        "PTSD"
+      ]
+    },
+    {
+      "id": "NEFL",
+      "label": "NEFL",
+      "type": "Protein",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "UMLS_CUI": "C1417027",
+        "HGNC_ID": "HGNC:7739",
+        "UniProt_ID": "P07196"
+      },
+      "synonyms": [
+        "Neurofilament Light Protein",
+        "NfL"
+      ]
+    },
+    {
+      "id": "AmericanFootball",
+      "label": "American Football",
+      "type": "Activity",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "UMLS_CUI": "C0016534"
+      },
+      "synonyms": [
+        "Football Participation"
+      ]
+    },
+    {
+      "id": "CognitiveDecline",
+      "label": "Cognitive Decline",
+      "type": "Phenotype",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0234985"
+      },
+      "synonyms": [
+        "Cognitive Impairment",
+        "Mental Deterioration"
+      ]
+    },
+    {
+      "id": "ChronicPain",
+      "label": "Chronic Pain",
+      "type": "Phenotype",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0150055"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "MoodDisorders",
+      "label": "Mood Disorders",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0026511"
+      },
+      "synonyms": [
+        "Mood Symptoms",
+        "Affective Disorders"
+      ]
+    },
+    {
+      "id": "MotorActivity",
+      "label": "Motor Activity",
+      "type": "PhysiologicalProcess",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0026649",
+        "GO_ID": "GO:0003018"
+      },
+      "synonyms": [
+        "Motor Function"
+      ]
+    },
+    {
+      "id": "Aging",
+      "label": "Aging",
+      "type": "Process",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0001792",
+        "GO_ID": "GO:0007568"
+      },
+      "synonyms": [
+        "Age"
+      ]
+    },
+    {
+      "id": "Creatinine",
+      "label": "Creatinine",
+      "type": "Chemical",
+      "location": "Blood",
+      "identifiers": {
+        "UMLS_CUI": "C0010294",
+        "ChEBI_ID": "CHEBI:16737"
+      },
+      "synonyms": [
+        "Serum Creatinine"
+      ]
+    },
+    {
+      "id": "ITGAV",
+      "label": "ITGAV",
+      "type": "Protein",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "HGNC_ID": "HGNC:6150"
+      },
+      "synonyms": [
+        "Integrin Subunit Alpha V"
+      ]
+    },
+    {
+      "id": "HPGDS",
+      "label": "HPGDS",
+      "type": "Protein",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "HGNC_ID": "HGNC:16694"
+      },
+      "synonyms": [
+        "Hematopoietic PGD Synthase"
+      ]
+    },
+    {
+      "id": "HNMT",
+      "label": "HNMT",
+      "type": "Protein",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "HGNC_ID": "HGNC:5024"
+      },
+      "synonyms": [
+        "Histamine N-Methyltransferase"
+      ]
+    },
+    {
+      "id": "TPPP3",
+      "label": "TPPP3",
+      "type": "Protein",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "HGNC_ID": "HGNC:24162"
+      },
+      "synonyms": [
+        "Tubulin Polymerization Promoting Protein Family Member 3"
+      ]
+    },
+    {
+      "id": "EDA2R",
+      "label": "EDA2R",
+      "type": "Protein",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "HGNC_ID": "HGNC:16964"
+      },
+      "synonyms": [
+        "Ectodysplasin A2 Receptor"
+      ]
+    },
+    {
+      "id": "LXN",
+      "label": "LXN",
+      "type": "Protein",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "HGNC_ID": "HGNC:6738"
+      },
+      "synonyms": [
+        "Latexin"
+      ]
+    },
+    {
+      "id": "IL13RA1",
+      "label": "IL13RA1",
+      "type": "Protein",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "HGNC_ID": "HGNC:5974"
+      },
+      "synonyms": [
+        "Interleukin-13 Receptor Subunit Alpha-1"
+      ]
+    },
+    {
+      "id": "BAG3",
+      "label": "BAG3",
+      "type": "Protein",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "HGNC_ID": "HGNC:939"
+      },
+      "synonyms": [
+        "BAG Family Molecular Chaperone Regulator 3"
+      ]
+    },
+    {
+      "id": "WARS1",
+      "label": "WARS1",
+      "type": "Protein",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "HGNC_ID": "HGNC:12729"
+      },
+      "synonyms": [
+        "Tryptophanyl-TRNA Synthetase",
+        "WARS"
+      ]
+    },
+    {
+      "id": "SCG2",
+      "label": "SCG2",
+      "type": "Protein",
+      "location": "Secretory_Granule",
+      "identifiers": {
+        "HGNC_ID": "HGNC:10576"
+      },
+      "synonyms": [
+        "Secretogranin-2"
+      ]
+    },
+    {
+      "id": "Dementia",
+      "label": "Dementia",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0011265"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Pesticide",
+      "label": "Pesticide",
+      "type": "Chemical",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "UMLS_CUI": "C0031253",
+        "ChEBI_ID": "CHEBI:25944"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Farming",
+      "label": "Farming",
+      "type": "Activity",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "UMLS_CUI": "C0001537"
+      },
+      "synonyms": [
+        "Farm Work"
+      ]
+    },
+    {
+      "id": "Aldrin",
+      "label": "Aldrin",
+      "type": "Chemical",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "ChEBI_ID": "CHEBI:2564"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Terbufos",
+      "label": "Terbufos",
+      "type": "Chemical",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "ChEBI_ID": "CHEBI:9424"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Trifluralin",
+      "label": "Trifluralin",
+      "type": "Chemical",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "ChEBI_ID": "CHEBI:9721"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Diazinon",
+      "label": "Diazinon",
+      "type": "Chemical",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "ChEBI_ID": "CHEBI:4682"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Fenoprop",
+      "label": "Fenoprop",
+      "type": "Chemical",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "ChEBI_ID": "CHEBI:26615"
+      },
+      "synonyms": [
+        "2,4,5-Trichlorophenoxypropionic Acid",
+        "2,4,5-TP"
+      ]
+    },
+    {
+      "id": "ProtectiveClothing",
+      "label": "Protective Clothing",
+      "type": "Object",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "UMLS_CUI": "C0183668"
+      },
+      "synonyms": [
+        "Chemical Resistant Glove Use"
+      ]
+    },
+    {
+      "id": "BenignParoxysmalPositionalVertigo",
+      "label": "Benign Paroxysmal Positional Vertigo",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0155502"
+      },
+      "synonyms": [
+        "BPPV"
+      ]
+    },
+    {
+      "id": "Oxidopamine",
+      "label": "Oxidopamine",
+      "type": "Chemical",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "ChEBI_ID": "CHEBI:28938"
+      },
+      "synonyms": [
+        "6-Hydroxydopamine",
+        "6-OHDA"
+      ]
+    },
+    {
+      "id": "CellDeath",
+      "label": "Cell Death",
+      "type": "Process",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "GO_ID": "GO:0008219"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "REMSleepBehaviorDisorder",
+      "label": "REM Sleep Behavior Disorder",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0751495"
+      },
+      "synonyms": []
+    }
+  ],
+  "edges": [
+    {
+      "source": "AmericanFootball",
+      "target": "ParkinsonDisease",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        481
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "NEFL",
+      "target": "ParkinsonDisease",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        339
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "ParkinsonDisease",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        97,
+        455,
+        459
+      ],
+      "confidence": "High",
+      "metadata": "Context: Head Injury/Mild TBI increases risk or modifies pesticide risk"
+    },
+    {
+      "source": "PosttraumaticStressDisorder",
+      "target": "ParkinsonDisease",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        171,
+        226
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "ChronicPain",
+      "target": "ParkinsonDisease",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        171
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Prodromal/Associated symptom"
+    },
+    {
+      "source": "CognitiveDecline",
+      "target": "ParkinsonDisease",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        207
+      ],
+      "confidence": "High",
+      "metadata": "Context: Precedes diagnosis"
+    },
+    {
+      "source": "ParkinsonDisease",
+      "target": "CognitiveDecline",
+      "mechanism": "causes",
+      "evidence_ref": [
+        218
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "ParkinsonDisease",
+      "target": "MoodDisorders",
+      "mechanism": "causes",
+      "evidence_ref": [
+        218
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "ParkinsonDisease",
+      "target": "MotorActivity",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        218
+      ],
+      "confidence": "High",
+      "metadata": "Effect: Impairment/Manifestation"
+    },
+    {
+      "source": "Aging",
+      "target": "ParkinsonDisease",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        339
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "Creatinine",
+      "target": "ParkinsonDisease",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        339
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "ITGAV",
+      "target": "ParkinsonDisease",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        339
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "HPGDS",
+      "target": "ParkinsonDisease",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        339
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "HNMT",
+      "target": "ParkinsonDisease",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        339
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "TPPP3",
+      "target": "ParkinsonDisease",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        339
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "EDA2R",
+      "target": "ParkinsonDisease",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        339
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "LXN",
+      "target": "ParkinsonDisease",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        339
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "IL13RA1",
+      "target": "ParkinsonDisease",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        339
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "BAG3",
+      "target": "ParkinsonDisease",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        339
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "WARS1",
+      "target": "ParkinsonDisease",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        339
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "SCG2",
+      "target": "ParkinsonDisease",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        339
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "ParkinsonDisease",
+      "target": "Dementia",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        437
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "Pesticide",
+      "target": "ParkinsonDisease",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        455
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "Farming",
+      "target": "ParkinsonDisease",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        455
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "Aldrin",
+      "target": "ParkinsonDisease",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        455
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "Terbufos",
+      "target": "ParkinsonDisease",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        459
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "Trifluralin",
+      "target": "ParkinsonDisease",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        459
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "Diazinon",
+      "target": "ParkinsonDisease",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        459
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Epidemiological association with reduced risk (Ref 459)"
+    },
+    {
+      "source": "Fenoprop",
+      "target": "ParkinsonDisease",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        459
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Epidemiological association with reduced risk (Ref 459)"
+    },
+    {
+      "source": "ProtectiveClothing",
+      "target": "ParkinsonDisease",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        459
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Glove use modifies/reduces pesticide-associated risk"
+    },
+    {
+      "source": "BenignParoxysmalPositionalVertigo",
+      "target": "ParkinsonDisease",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        465
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "Oxidopamine",
+      "target": "CellDeath",
+      "mechanism": "causes",
+      "evidence_ref": [
+        465
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "REMSleepBehaviorDisorder",
+      "target": "ParkinsonDisease",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        464
+      ],
+      "confidence": "High",
+      "metadata": "Context: Prodromal stage"
+    },
+    {
+      "source": "Benomyl",
+      "target": "ParkinsonDisease",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        459
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "Dichlorvos",
+      "target": "ParkinsonDisease",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        459
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "Permethrin",
+      "target": "ParkinsonDisease",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        459
+      ],
+      "confidence": "Medium"
+    }
+  ]
+}

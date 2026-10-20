@@ -1,0 +1,388 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 16,
+    "edge_count": 16
+  },
+  "nodes": [
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "Traumatic Brain Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111",
+        "MeSH_ID": "D001930"
+      },
+      "synonyms": [
+        "TBI",
+        "Brain Injury, Traumatic"
+      ]
+    },
+    {
+      "id": "CNR1",
+      "label": "CNR1",
+      "type": "Protein",
+      "location": "Mitochondria",
+      "identifiers": {
+        "UMLS_CUI": "C1413645",
+        "HGNC_ID": "HGNC:2159",
+        "UniProt_ID": "P21554"
+      },
+      "synonyms": [
+        "CB1",
+        "Cannabinoid Receptor 1",
+        "mtCB1",
+        "Mitochondrial Cannabinoid Receptor 1"
+      ]
+    },
+    {
+      "id": "MetabolicDysfunction",
+      "label": "Metabolic Dysfunction",
+      "type": "Process",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "GO_ID": "GO:0008152"
+      },
+      "synonyms": [
+        "Metabolic Defects",
+        "Metabolic Disorder"
+      ]
+    },
+    {
+      "id": "NADHDehydrogenase",
+      "label": "NADH Dehydrogenase",
+      "type": "Protein",
+      "location": "Mitochondria",
+      "identifiers": {
+        "UMLS_CUI": "C0027366",
+        "GO_ID": "GO:0005747"
+      },
+      "synonyms": [
+        "Complex I",
+        "NADH:ubiquinone oxidoreductase"
+      ]
+    },
+    {
+      "id": "Apoptosis",
+      "label": "Apoptosis",
+      "type": "Process",
+      "location": "Neuron",
+      "identifiers": {
+        "GO_ID": "GO:0006915",
+        "UMLS_CUI": "C0162638"
+      },
+      "synonyms": [
+        "Neuronal Apoptosis",
+        "Programmed Cell Death"
+      ]
+    },
+    {
+      "id": "AKT1",
+      "label": "AKT1",
+      "type": "Protein",
+      "location": "Mitochondria",
+      "identifiers": {
+        "HGNC_ID": "HGNC:391",
+        "UMLS_CUI": "C0919539",
+        "UniProt_ID": "P31749"
+      },
+      "synonyms": [
+        "AKT",
+        "PKB",
+        "Protein Kinase B"
+      ]
+    },
+    {
+      "id": "EH-201",
+      "label": "EH-201",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "CAS_ID": "55327-45-2"
+      },
+      "synonyms": [
+        "EH 201",
+        "Tetrahydroxystilbene glucoside derivative"
+      ]
+    },
+    {
+      "id": "EPO",
+      "label": "EPO",
+      "type": "Protein",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "HGNC_ID": "HGNC:3415",
+        "UMLS_CUI": "C0014765",
+        "UniProt_ID": "P01588"
+      },
+      "synonyms": [
+        "Erythropoietin"
+      ]
+    },
+    {
+      "id": "PPARGC1A",
+      "label": "PPARGC1A",
+      "type": "Protein",
+      "location": "Nucleus",
+      "identifiers": {
+        "HGNC_ID": "HGNC:9232",
+        "UMLS_CUI": "C1367568",
+        "UniProt_ID": "Q9UBK2"
+      },
+      "synonyms": [
+        "PGC-1alpha",
+        "PPAR-gamma Coactivator 1-alpha"
+      ]
+    },
+    {
+      "id": "Hemoglobin",
+      "label": "Hemoglobin",
+      "type": "Protein",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "UMLS_CUI": "C0019046"
+      },
+      "synonyms": [
+        "Hb"
+      ]
+    },
+    {
+      "id": "MitochondrialMetabolism",
+      "label": "Mitochondrial Metabolism",
+      "type": "Process",
+      "location": "Mitochondria",
+      "identifiers": {
+        "GO_ID": "GO:0006119"
+      },
+      "synonyms": [
+        "Mitochondrial Function",
+        "Mitochondrial Bioenergetics"
+      ]
+    },
+    {
+      "id": "Cannabinol",
+      "label": "Cannabinol",
+      "type": "Chemical",
+      "location": "Mitochondria",
+      "identifiers": {
+        "ChEBI_ID": "CHEBI:3181",
+        "UMLS_CUI": "C0006869"
+      },
+      "synonyms": [
+        "CBN"
+      ]
+    },
+    {
+      "id": "Oxytosis",
+      "label": "Oxytosis",
+      "type": "Process",
+      "location": "Neuron",
+      "identifiers": {
+        "UMLS_CUI": "C4760413"
+      },
+      "synonyms": [
+        "Glutamate-induced cell death"
+      ]
+    },
+    {
+      "id": "Ferroptosis",
+      "label": "Ferroptosis",
+      "type": "Process",
+      "location": "Neuron",
+      "identifiers": {
+        "GO_ID": "GO:0097698",
+        "UMLS_CUI": "C4277719"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Neuroprotection",
+      "label": "Neuroprotection",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027878"
+      },
+      "synonyms": [
+        "Neuronal Survival"
+      ]
+    },
+    {
+      "id": "CP1",
+      "label": "CP1",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "CN277914"
+      },
+      "synonyms": [
+        "CP1 Compound",
+        "Cannabinol Analog CP1"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "CNR1",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        425
+      ],
+      "confidence": "High",
+      "metadata": "Context: Upregulation of mitochondrial pool (mtCB1) in neurons"
+    },
+    {
+      "source": "CNR1",
+      "target": "MetabolicDysfunction",
+      "mechanism": "causes",
+      "evidence_ref": [
+        425
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Activation of mtCB1 exacerbates metabolic defects"
+    },
+    {
+      "source": "CNR1",
+      "target": "NADHDehydrogenase",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        425
+      ],
+      "confidence": "High",
+      "metadata": "Context: Via cAMP/PKA pathway inhibition"
+    },
+    {
+      "source": "CNR1",
+      "target": "Apoptosis",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        425
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Exacerbates neuronal apoptosis via Complex I inhibition"
+    },
+    {
+      "source": "CNR1",
+      "target": "AKT1",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        425
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Co-activation/Compensatory upregulation of mitochondrial AKT"
+    },
+    {
+      "source": "EH-201",
+      "target": "EPO",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        529
+      ],
+      "confidence": "High",
+      "metadata": "Context: Induces expression"
+    },
+    {
+      "source": "EH-201",
+      "target": "PPARGC1A",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        529
+      ],
+      "confidence": "High",
+      "metadata": "Context: Induces expression"
+    },
+    {
+      "source": "EH-201",
+      "target": "Hemoglobin",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        529
+      ],
+      "confidence": "High",
+      "metadata": "Context: Induces expression"
+    },
+    {
+      "source": "EH-201",
+      "target": "MitochondrialMetabolism",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        529
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Affects/improves function"
+    },
+    {
+      "source": "Cannabinol",
+      "target": "MitochondrialMetabolism",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        581
+      ],
+      "confidence": "High",
+      "metadata": "Context: Preserves function, targets mitochondria directly"
+    },
+    {
+      "source": "Cannabinol",
+      "target": "Oxytosis",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        581
+      ],
+      "confidence": "High",
+      "metadata": "Context: Neuroprotection"
+    },
+    {
+      "source": "Cannabinol",
+      "target": "Ferroptosis",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        581
+      ],
+      "confidence": "High",
+      "metadata": "Context: Neuroprotection"
+    },
+    {
+      "source": "Cannabinol",
+      "target": "Neuroprotection",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        581
+      ],
+      "confidence": "High",
+      "metadata": "Context: Treats/Promotes"
+    },
+    {
+      "source": "CP1",
+      "target": "Neuroprotection",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        581
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Demonstrates improved efficacy compared to CBN"
+    },
+    {
+      "source": "Cannabinol",
+      "target": "Neuron",
+      "mechanism": "binds",
+      "evidence_ref": [
+        581
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Targets neuronal cells (mitochondria)"
+    },
+    {
+      "source": "MitochondrialMetabolism",
+      "target": "Apoptosis",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        425
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Inferred - metabolic defects lead to apoptosis"
+    }
+  ]
+}

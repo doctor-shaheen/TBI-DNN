@@ -1,0 +1,268 @@
+[
+    {
+        "source_abstract_id":69,
+        "subject":"Cognitive Performance",
+        "relation":"no_direct_causal_link",
+        "object":"Age-Mediated Effects",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":505,
+        "subject":"Financial Compensation",
+        "relation":"not_associated_with",
+        "object":"Age",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":69,
+        "subject":"Cognitive Performance",
+        "relation":"no_direct_causal_link",
+        "object":"Age",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":70,
+        "subject":"Age",
+        "relation":"modulates",
+        "object":"Neurological Symptom",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":83,
+        "subject":"Age",
+        "relation":"modulates",
+        "object":"Cognitive Performance",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":112,
+        "subject":"Age",
+        "relation":"upregulates",
+        "object":"Cognitive Recovery",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":113,
+        "subject":"Age",
+        "relation":"mediates",
+        "object":"Cortical Atrophy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":120,
+        "subject":"Older Age",
+        "relation":"increases_risk_of",
+        "object":"Cognitive Change",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":139,
+        "subject":"Age",
+        "relation":"confounds",
+        "object":"Brain Volume Loss",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":142,
+        "subject":"Cognitive Performance",
+        "relation":"confounded_by",
+        "object":"Age",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":161,
+        "subject":"Brain Age Gap",
+        "relation":"associated_with",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":161,
+        "subject":"Brain Age Gap",
+        "relation":"mediates",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":161,
+        "subject":"Brain Age Gap",
+        "relation":"influences",
+        "object":"Longitudinal Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":215,
+        "subject":"Age",
+        "relation":"upregulates",
+        "object":"Emotional-Behavioral Dyscontrol",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":281,
+        "subject":"Age",
+        "relation":"influences",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":282,
+        "subject":"Age",
+        "relation":"confounds",
+        "object":"Cognitive Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":283,
+        "subject":"Age",
+        "relation":"confounds",
+        "object":"Neuropsychiatric Health",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":309,
+        "subject":"Age",
+        "relation":"confounds",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":374,
+        "subject":"Age",
+        "relation":"affects",
+        "object":"Executive Control Deficits",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":382,
+        "subject":"Age",
+        "relation":"predicts",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":387,
+        "subject":"Age",
+        "relation":"affects",
+        "object":"Executive Attention",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":387,
+        "subject":"Age",
+        "relation":"mediates",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":389,
+        "subject":"Age",
+        "relation":"predicts",
+        "object":"Cognitive Deficits",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":389,
+        "subject":"Age",
+        "relation":"affects",
+        "object":"Interhemispheric Communication",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":397,
+        "subject":"Age",
+        "relation":"mediates",
+        "object":"Cognitive Disorder",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":399,
+        "subject":"Older Adults",
+        "relation":"experiences",
+        "object":"Poor Outcomes",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":407,
+        "subject":"Chronological Age",
+        "relation":"modulates",
+        "object":"Brain Age",
+        "entity_variants":"age 30 to 60"
+    },
+    {
+        "source_abstract_id":407,
+        "subject":"Age over 60 years",
+        "relation":"increases",
+        "object":"Brain Age Increase",
+        "entity_variants":"age 60 plus"
+    },
+    {
+        "source_abstract_id":430,
+        "subject":"Age",
+        "relation":"downregulates",
+        "object":"Cognitive Improvement",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":430,
+        "subject":"Age",
+        "relation":"associated_with",
+        "object":"Long Term Cognitive Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":518,
+        "subject":"Age",
+        "relation":"confounds",
+        "object":"Protein Levels",
+        "entity_variants":"age"
+    },
+    {
+        "source_abstract_id":535,
+        "subject":"Older Age",
+        "relation":"confounds",
+        "object":"Cognitive Impairment",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":548,
+        "subject":"Age",
+        "relation":"upregulates",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":551,
+        "subject":"Cognitive Impairment",
+        "relation":"more_prevalent_in",
+        "object":"Patients over 75 years",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":561,
+        "subject":"Cognitive Decline",
+        "relation":"associated_with",
+        "object":"Normal Aging",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":564,
+        "subject":"Age",
+        "relation":"associated_with",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":578,
+        "subject":"Age",
+        "relation":"is_a_risk_factor_for",
+        "object":"Unfavorable Outcome",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":621,
+        "subject":"Age",
+        "relation":"increases_duration_of",
+        "object":"Stay in Nursing Facility",
+        "entity_variants":null
+    }
+]

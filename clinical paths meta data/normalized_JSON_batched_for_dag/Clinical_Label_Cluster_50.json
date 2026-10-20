@@ -1,0 +1,198 @@
+[
+    {
+        "source_abstract_id":42,
+        "subject":"Metabolic Surgery",
+        "relation":"reduces",
+        "object":"Microglial Maladaptive States",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":34,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Microglial Activation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":34,
+        "subject":"Minocycline",
+        "relation":"treats",
+        "object":"Microglial Activation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":34,
+        "subject":"Microglial Activation",
+        "relation":"causes",
+        "object":"Neurodegeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":34,
+        "subject":"Microglial Activation",
+        "relation":"has_effect",
+        "object":"Traumatic Brain Injury",
+        "entity_variants":"reparative"
+    },
+    {
+        "source_abstract_id":108,
+        "subject":"Systemic Inflammation",
+        "relation":"influences",
+        "object":"Microglial Activation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":108,
+        "subject":"Microglial Activation",
+        "relation":"causes",
+        "object":"Neurodegeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":110,
+        "subject":"Microglial Activation",
+        "relation":"upregulates",
+        "object":"Inflammatory Molecules",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":138,
+        "subject":"Microglial Polarization",
+        "relation":"enhances",
+        "object":"Phagocytic Function",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":191,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Microglial Activation",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":191,
+        "subject":"Microglial Activation",
+        "relation":"mediates",
+        "object":"Neuropsychiatric Symptoms",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":191,
+        "subject":"Microglial Activation",
+        "relation":"associated_with",
+        "object":"Neurodegenerative Processes",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":191,
+        "subject":"National Football League Play",
+        "relation":"associated_with",
+        "object":"Persistent Microglial Activation",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":303,
+        "subject":"Microglia",
+        "relation":"causes",
+        "object":"Inflammation",
+        "entity_variants":"microglia"
+    },
+    {
+        "source_abstract_id":303,
+        "subject":"Microglia",
+        "relation":"mediates",
+        "object":"Neuroinflammation",
+        "entity_variants":"microglia"
+    },
+    {
+        "source_abstract_id":356,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Microglial Reactivity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":356,
+        "subject":"Microglial Reactivity",
+        "relation":"mediates",
+        "object":"Synaptic Loss",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":356,
+        "subject":"Microglial Reactivity",
+        "relation":"increases",
+        "object":"Phagocytic Activity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":356,
+        "subject":"Microglial Reactivity",
+        "relation":"increases",
+        "object":"Synaptic Engulfment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":356,
+        "subject":"Microglial Reactivity",
+        "relation":"increases",
+        "object":"Neuronal Contact",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":356,
+        "subject":"Microglial Reactivity",
+        "relation":"reduces",
+        "object":"Inhibitory Synaptic Drive",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":364,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Activated Microglial Phenotype",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":416,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Microglial Response",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":416,
+        "subject":"Microglial Response",
+        "relation":"mediates",
+        "object":"Neuronal Excitability",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":416,
+        "subject":"Traumatic Brain Injury",
+        "relation":"increases",
+        "object":"Satellite Microglia",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":444,
+        "subject":"Translocator Protein",
+        "relation":"is_marker_of",
+        "object":"Microglial Activation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":477,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Microglial Activation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":593,
+        "subject":"Military Blast Injury",
+        "relation":"causes",
+        "object":"Reactive Astrocyte Phenotype",
+        "entity_variants":null
+    }
+]

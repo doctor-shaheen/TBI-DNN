@@ -1,0 +1,373 @@
+[
+    {
+        "source_abstract_id":417,
+        "subject":"Traumatic Brain Injury Fatalities",
+        "relation":"compared_to",
+        "object":"Non-Traumatic Brain Injury Controls",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":547,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Post-Traumatic Stress Disorder",
+        "entity_variants":"unknown|"
+    },
+    {
+        "source_abstract_id":574,
+        "subject":"Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Post-Traumatic Stress Disorder",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":54,
+        "subject":"Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Sleep",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":190,
+        "subject":"Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Memory",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":190,
+        "subject":"Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Reasoning",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":197,
+        "subject":"Traumatic Brain Injury",
+        "relation":"negatively_associated_with",
+        "object":"Cognitive Decline",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":246,
+        "subject":"Traumatic Brain Injury",
+        "relation":"interacts_with",
+        "object":"Psychiatric Symptoms",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":246,
+        "subject":"Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Cognition",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":246,
+        "subject":"Traumatic Brain Injury",
+        "relation":"interacts_with",
+        "object":"Cognitive Deficits",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":246,
+        "subject":"Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Cognition",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":246,
+        "subject":"Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Cognitive Deficits",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":359,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cognitive Impairment",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":359,
+        "subject":"Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Cognitive Function",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":380,
+        "subject":"Traumatic Bifrontal Contusions",
+        "relation":"correlates_with",
+        "object":"Cognitive Dysfunction",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":398,
+        "subject":"Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Cognitive Impairment",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":398,
+        "subject":"Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Brain Structure",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":398,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Structural Changes",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":398,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Neuropsychological Impairment",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":409,
+        "subject":"Traumatic Brain Injury",
+        "relation":"shares_pathways_with",
+        "object":"Schizophrenia",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":409,
+        "subject":"Traumatic Brain Injury",
+        "relation":"shares_pathways_with",
+        "object":"Post-Traumatic Stress Disorder",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":409,
+        "subject":"Traumatic Brain Injury",
+        "relation":"shares_pathways_with",
+        "object":"Attention Deficit Hyperactivity Disorder",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":409,
+        "subject":"Traumatic Brain Injury",
+        "relation":"shares_pathways_with",
+        "object":"Autism Spectrum Disorder",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":417,
+        "subject":"Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Staining Artifact",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":420,
+        "subject":"Diffuse Traumatic Brain Injury",
+        "relation":"compared_to",
+        "object":"Focal Traumatic Brain Injury",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":436,
+        "subject":"Traumatic Brain Injury",
+        "relation":"predicts",
+        "object":"Cognitive Dysfunction",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":436,
+        "subject":"Traumatic Axonal Injury",
+        "relation":"predicts",
+        "object":"Internalizing Problems",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":436,
+        "subject":"Traumatic Brain Injury",
+        "relation":"predicts",
+        "object":"Emotional Regulation Difficulties",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":436,
+        "subject":"Traumatic Brain Injury",
+        "relation":"predicts",
+        "object":"Behavioral Problems",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":436,
+        "subject":"Traumatic Brain Injury",
+        "relation":"predicts",
+        "object":"Psychological Difficulties",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":525,
+        "subject":"Traumatic Brain Injury",
+        "relation":"negatively_associated_with",
+        "object":"Long Term Outcome",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":547,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cognitive Difficulties",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":547,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Psychological Distress",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":547,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Anxiety",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":547,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Unemployment",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":547,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Lack of Relationships",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":547,
+        "subject":"Traumatic Orthopaedic Injury",
+        "relation":"causes",
+        "object":"Psychological Distress",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":547,
+        "subject":"Traumatic Orthopaedic Injury",
+        "relation":"causes",
+        "object":"Pain",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":547,
+        "subject":"Traumatic Orthopaedic Injury",
+        "relation":"causes",
+        "object":"Cognitive Difficulties",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":568,
+        "subject":"Traumatic Brain Injury",
+        "relation":"negatively_associated_with",
+        "object":"Neurocognitive Outcomes",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":568,
+        "subject":"Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Neurobehavioral Symptoms",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":568,
+        "subject":"Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Military Status",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":568,
+        "subject":"Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Years of Education",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":574,
+        "subject":"Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Cognitive Deficits",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":574,
+        "subject":"Traumatic Brain Injury",
+        "relation":"complicates",
+        "object":"Neurosurgical Procedures",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":574,
+        "subject":"Traumatic Brain Injury",
+        "relation":"necessitates",
+        "object":"Multidisciplinary Approach",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":574,
+        "subject":"Early Screening for Traumatic Brain Injury",
+        "relation":"facilitates",
+        "object":"Access to Specialized Care",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":574,
+        "subject":"Co-occurring Conditions",
+        "relation":"complicate",
+        "object":"Traumatic Brain Injury Management",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":574,
+        "subject":"Neurosurgical Challenges",
+        "relation":"arise_from",
+        "object":"Traumatic Brain Injury in Veterans",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":592,
+        "subject":"Patients with Traumatic Brain Injury",
+        "relation":"experiences",
+        "object":"Cognitive Decline",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":592,
+        "subject":"Patients with Traumatic Brain Injury",
+        "relation":"undergoes",
+        "object":"Neurocognitive Tests",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":603,
+        "subject":"Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Cognitive Impairment",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":603,
+        "subject":"Temporal Lobe Injury",
+        "relation":"affects",
+        "object":"Cognitive Impairment",
+        "entity_variants":"unknown"
+    }
+]

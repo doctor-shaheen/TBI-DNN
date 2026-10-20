@@ -1,0 +1,158 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 6,
+    "edge_count": 5
+  },
+  "nodes": [
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "Traumatic Brain Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111",
+        "MeSH": "D001930"
+      },
+      "synonyms": [
+        "TBI",
+        "Mild Traumatic Brain Injury",
+        "mTBI",
+        "Head Injury"
+      ]
+    },
+    {
+      "id": "Aging",
+      "label": "Aging",
+      "type": "Biologic Function",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0001811",
+        "GO": "GO:0007568"
+      },
+      "synonyms": [
+        "Brain Aging",
+        "Senescence",
+        "Accelerated Senescence"
+      ]
+    },
+    {
+      "id": "Age",
+      "label": "Age",
+      "type": "Organism Attribute",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0001779"
+      },
+      "synonyms": [
+        "Chronological Age",
+        "Older Adults",
+        "Age at Onset"
+      ]
+    },
+    {
+      "id": "BiologicalAge",
+      "label": "Biological Age",
+      "type": "Clinical Attribute",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0231336"
+      },
+      "synonyms": [
+        "Brain Age Gap",
+        "Brain Age Difference",
+        "Brain Age Acceleration",
+        "Acute Phase Brain Age",
+        "Brain Age Estimation"
+      ]
+    },
+    {
+      "id": "AgeOfOnset",
+      "label": "Age of Onset",
+      "type": "Clinical Attribute",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0232152"
+      },
+      "synonyms": [
+        "Earlier Age of Diagnosis",
+        "Earlier Age of Symptom Onset",
+        "Age of Symptom Onset"
+      ]
+    },
+    {
+      "id": "BrainStructure",
+      "label": "Brain Structure",
+      "type": "Anatomical Structure",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006104"
+      },
+      "synonyms": [
+        "Brain Structure Integrity"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "AgeOfOnset",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        14,
+        84,
+        383,
+        570
+      ],
+      "confidence": "High",
+      "metadata": "Context: Reduces age of onset (Earlier Diagnosis/Symptom Onset)"
+    },
+    {
+      "source": "Age",
+      "target": "TraumaticBrainInjury",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        122,
+        164,
+        281
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Age influences TBI incidence or outcome"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Aging",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        74,
+        100,
+        407
+      ],
+      "confidence": "High",
+      "metadata": "Context: Accelerates brain aging/senescence"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "BiologicalAge",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        100,
+        161,
+        407
+      ],
+      "confidence": "High",
+      "metadata": "Context: Increases Brain Age Gap/Acceleration"
+    },
+    {
+      "source": "Age",
+      "target": "BrainStructure",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        122
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Affects integrity"
+    }
+  ]
+}

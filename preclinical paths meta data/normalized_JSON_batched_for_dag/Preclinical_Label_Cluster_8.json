@@ -1,0 +1,261 @@
+[
+    {
+        "source_abstract_id":75,
+        "subject":"Methylene Blue",
+        "relation":"binds_to",
+        "object":"Blood-Brain Barrier",
+        "entity_variants":"methylene blue nanocomplex"
+    },
+    {
+        "source_abstract_id":75,
+        "subject":"NanoMB-127",
+        "relation":"upregulates",
+        "object":"Cytokine Expression",
+        "entity_variants":"NanoMB-127"
+    },
+    {
+        "source_abstract_id":75,
+        "subject":"NanoMB-127",
+        "relation":"causes",
+        "object":"Neurodegeneration",
+        "entity_variants":"NanoMB-127"
+    },
+    {
+        "source_abstract_id":75,
+        "subject":"Methylene Blue",
+        "relation":"mediates",
+        "object":"Neuroprotection",
+        "entity_variants":"methylene blue"
+    },
+    {
+        "source_abstract_id":75,
+        "subject":"NanoMB-68",
+        "relation":"downregulates",
+        "object":"Blood-Brain Barrier Permeability",
+        "entity_variants":"NanoMB-68"
+    },
+    {
+        "source_abstract_id":75,
+        "subject":"NanoMB-127",
+        "relation":"improves",
+        "object":"Therapeutic Efficacy",
+        "entity_variants":"NanoMB-127"
+    },
+    {
+        "source_abstract_id":75,
+        "subject":"Methylene Blue",
+        "relation":"causes",
+        "object":"Neuroinflammation",
+        "entity_variants":"methylene blue"
+    },
+    {
+        "source_abstract_id":75,
+        "subject":"NanoMB-127",
+        "relation":"enhances",
+        "object":"Blood-Brain Barrier Penetration",
+        "entity_variants":"NanoMB-127"
+    },
+    {
+        "source_abstract_id":75,
+        "subject":"Methylene Blue",
+        "relation":"improves",
+        "object":"Therapeutic Outcomes",
+        "entity_variants":"methylene blue"
+    },
+    {
+        "source_abstract_id":91,
+        "subject":"NA-184",
+        "relation":"exhibits",
+        "object":"Blood-Brain Barrier Permeability",
+        "entity_variants":"NA-184"
+    },
+    {
+        "source_abstract_id":91,
+        "subject":"NA-184",
+        "relation":"provides",
+        "object":"Neuroprotection",
+        "entity_variants":"NA-184"
+    },
+    {
+        "source_abstract_id":91,
+        "subject":"NA-184",
+        "relation":"enhances",
+        "object":"Long-Term Potentiation",
+        "entity_variants":"NA-184"
+    },
+    {
+        "source_abstract_id":75,
+        "subject":"Methylene Blue",
+        "relation":"increases",
+        "object":"Cell Internalization",
+        "entity_variants":"methylene_blue"
+    },
+    {
+        "source_abstract_id":63,
+        "subject":"Calpain-1",
+        "relation":"causes",
+        "object":"Cell Death",
+        "entity_variants":"calpain-1|"
+    },
+    {
+        "source_abstract_id":63,
+        "subject":"Calpain-2",
+        "relation":"causes",
+        "object":"Cell Death",
+        "entity_variants":"calpain-2|"
+    },
+    {
+        "source_abstract_id":63,
+        "subject":"Calpain-2",
+        "relation":"upregulates",
+        "object":"Cell Death",
+        "entity_variants":"calpain-2|"
+    },
+    {
+        "source_abstract_id":63,
+        "subject":"Calpain-2 Inhibitor",
+        "relation":"prevents",
+        "object":"Cell Death",
+        "entity_variants":"NA101|"
+    },
+    {
+        "source_abstract_id":63,
+        "subject":"Calpain-2 Inhibitor",
+        "relation":"prevents",
+        "object":"Lesion Volume",
+        "entity_variants":"NA101|"
+    },
+    {
+        "source_abstract_id":63,
+        "subject":"Calpain-2 Inhibitor",
+        "relation":"promotes",
+        "object":"Motor Function Recovery",
+        "entity_variants":"NA101|"
+    },
+    {
+        "source_abstract_id":63,
+        "subject":"Calpain-2 Inhibitor",
+        "relation":"promotes",
+        "object":"Learning Function Recovery",
+        "entity_variants":"NA101|"
+    },
+    {
+        "source_abstract_id":63,
+        "subject":"Calpain-1 Knockout",
+        "relation":"enhances",
+        "object":"Cell Death",
+        "entity_variants":"calpain-1 KO|"
+    },
+    {
+        "source_abstract_id":63,
+        "subject":"Calpain-1",
+        "relation":"activates",
+        "object":"Neuroprotection",
+        "entity_variants":"calpain-1|"
+    },
+    {
+        "source_abstract_id":91,
+        "subject":"Calpain-2",
+        "relation":"prevents",
+        "object":"Neuronal Damage",
+        "entity_variants":"NA-184|"
+    },
+    {
+        "source_abstract_id":91,
+        "subject":"Calpain-2",
+        "relation":"activates",
+        "object":"Cell Death",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":91,
+        "subject":"NA-184",
+        "relation":"prevents",
+        "object":"Traumatic Brain Injury-induced Calpain-2 Activation",
+        "entity_variants":"NA-184|"
+    },
+    {
+        "source_abstract_id":91,
+        "subject":"Calpain-1",
+        "relation":"causes",
+        "object":"Neuronal Injury",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":91,
+        "subject":"Calpain-2",
+        "relation":"mediates",
+        "object":"Long-term Functional Consequences",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":91,
+        "subject":"Calpain-2",
+        "relation":"associated_with",
+        "object":"Acute Injury",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":91,
+        "subject":"Calpain-2",
+        "relation":"is_inhibited_by",
+        "object":"NA-184",
+        "entity_variants":"NA-184|"
+    },
+    {
+        "source_abstract_id":357,
+        "subject":"Calpain",
+        "relation":"causes",
+        "object":"Motor Deficits",
+        "entity_variants":"calpain-1|calpain-2"
+    },
+    {
+        "source_abstract_id":357,
+        "subject":"Calpastatin",
+        "relation":"upregulates",
+        "object":"Motor Function",
+        "entity_variants":"hCAST|"
+    },
+    {
+        "source_abstract_id":357,
+        "subject":"Calpastatin",
+        "relation":"upregulates",
+        "object":"Learning and Memory",
+        "entity_variants":"hCAST|"
+    },
+    {
+        "source_abstract_id":357,
+        "subject":"Calpastatin",
+        "relation":"downregulates",
+        "object":"Cortical Damage",
+        "entity_variants":"hCAST|"
+    },
+    {
+        "source_abstract_id":357,
+        "subject":"Calpastatin",
+        "relation":"downregulates",
+        "object":"Neurodegeneration",
+        "entity_variants":"hCAST|"
+    },
+    {
+        "source_abstract_id":357,
+        "subject":"Calpastatin",
+        "relation":"mediates",
+        "object":"Neurobehavioral Function",
+        "entity_variants":"hCAST|"
+    },
+    {
+        "source_abstract_id":357,
+        "subject":"Calpain",
+        "relation":"causes",
+        "object":"Neuronal Degeneration",
+        "entity_variants":"calpain-1|calpain-2"
+    },
+    {
+        "source_abstract_id":357,
+        "subject":"Calpastatin",
+        "relation":"binds_to",
+        "object":"Calpain",
+        "entity_variants":"hCAST|"
+    }
+]

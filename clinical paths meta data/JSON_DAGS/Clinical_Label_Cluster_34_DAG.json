@@ -1,0 +1,247 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 11,
+    "edge_count": 9
+  },
+  "nodes": [
+    {
+      "id": "AgeOfFirstExposure",
+      "label": "Age of First Exposure",
+      "type": "ClinicalAttribute",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0001779",
+        "Note": "Mapped to Age of onset/exposure context"
+      },
+      "synonyms": [
+        "Age of First Football Exposure",
+        "AFE",
+        "Age first exposed"
+      ]
+    },
+    {
+      "id": "ContactSports",
+      "label": "Contact Sports",
+      "type": "Activity",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0038039",
+        "MeSH": "D000089531"
+      },
+      "synonyms": [
+        "Football",
+        "Tackle Football",
+        "Collision Sports"
+      ]
+    },
+    {
+      "id": "GRIA1",
+      "label": "GRIA1",
+      "type": "Protein",
+      "location": "Synapse",
+      "identifiers": {
+        "UMLS_CUI": "C1415302",
+        "HGNC_ID": "HGNC:4571",
+        "UniProt_ID": "P42261"
+      },
+      "synonyms": [
+        "GluA1",
+        "Glutamate Ionotropic Receptor AMPA Type Subunit 1",
+        "GluR1"
+      ]
+    },
+    {
+      "id": "Anxiety",
+      "label": "Anxiety",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0003467"
+      },
+      "synonyms": [
+        "Anxiety Related Symptoms"
+      ]
+    },
+    {
+      "id": "Depression",
+      "label": "Depression",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0011581"
+      },
+      "synonyms": [
+        "Depressive Symptoms"
+      ]
+    },
+    {
+      "id": "NeurobehavioralManifestations",
+      "label": "Neurobehavioral Manifestations",
+      "type": "Syndrome",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027797"
+      },
+      "synonyms": [
+        "Emotional-Behavioral Dyscontrol",
+        "Neurobehavioral Dysregulation"
+      ]
+    },
+    {
+      "id": "CognitiveImpairment",
+      "label": "Cognitive Impairment",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0338656"
+      },
+      "synonyms": [
+        "Perceived Cognitive Difficulties",
+        "Cognitive Dysfunction"
+      ]
+    },
+    {
+      "id": "ExecutiveFunction",
+      "label": "Executive Function",
+      "type": "MentalProcess",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0015259"
+      },
+      "synonyms": [
+        "Executive Dysfunction"
+      ]
+    },
+    {
+      "id": "Memory",
+      "label": "Memory",
+      "type": "MentalProcess",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0025260"
+      },
+      "synonyms": [
+        "Memory Loss"
+      ]
+    },
+    {
+      "id": "VerbalIntelligence",
+      "label": "Verbal Intelligence",
+      "type": "MentalProcess",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0424169"
+      },
+      "synonyms": [
+        "Verbal IQ"
+      ]
+    },
+    {
+      "id": "ReactionTime",
+      "label": "Reaction Time",
+      "type": "PhysiologicalProcess",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0034917"
+      },
+      "synonyms": []
+    }
+  ],
+  "edges": [
+    {
+      "source": "AgeOfFirstExposure",
+      "target": "Anxiety",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        215,
+        338
+      ],
+      "confidence": "Medium",
+      "metadata": "Conflict: Ref 215 reports downregulation; Ref 338 reports no direct causal link."
+    },
+    {
+      "source": "AgeOfFirstExposure",
+      "target": "Depression",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        215,
+        338
+      ],
+      "confidence": "Medium",
+      "metadata": "Conflict: Ref 215 reports downregulation; Ref 338 reports no direct causal link."
+    },
+    {
+      "source": "AgeOfFirstExposure",
+      "target": "NeurobehavioralManifestations",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        215,
+        338
+      ],
+      "confidence": "Medium",
+      "metadata": "Conflict: Ref 215 reports downregulation of Dyscontrol; Ref 338 reports no link to Dysregulation."
+    },
+    {
+      "source": "ContactSports",
+      "target": "GRIA1",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        613
+      ],
+      "confidence": "High",
+      "metadata": "Context: Increases autoantibodies against GluA1."
+    },
+    {
+      "source": "GRIA1",
+      "target": "ReactionTime",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        613
+      ],
+      "confidence": "High",
+      "metadata": "Context: GluA1 autoantibody levels correlate with reaction time."
+    },
+    {
+      "source": "ContactSports",
+      "target": "CognitiveImpairment",
+      "mechanism": "causes",
+      "evidence_ref": [
+        195
+      ],
+      "confidence": "High",
+      "metadata": "Context: AFE <12 and >=12 cohorts."
+    },
+    {
+      "source": "ContactSports",
+      "target": "ExecutiveFunction",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        195
+      ],
+      "confidence": "High",
+      "metadata": "Merged: Causes Executive Dysfunction and Decreases Executive Function."
+    },
+    {
+      "source": "ContactSports",
+      "target": "Memory",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        195
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "ContactSports",
+      "target": "VerbalIntelligence",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        195
+      ],
+      "confidence": "High",
+      "metadata": "Refers to Verbal IQ."
+    }
+  ]
+}

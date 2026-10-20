@@ -1,0 +1,299 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 12,
+    "edge_count": 14
+  },
+  "nodes": [
+    {
+      "id": "PhysicalExercise",
+      "label": "Physical Exercise",
+      "type": "Phenomenon",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0015259",
+        "MESH": "D015444"
+      },
+      "synonyms": [
+        "Endurance Exercise",
+        "Exercise Preconditioning",
+        "Early Exercise",
+        "Delayed Exercise",
+        "Early Discontinued Exercise"
+      ]
+    },
+    {
+      "id": "Neuron",
+      "label": "Neuron",
+      "type": "Cell",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027882",
+        "CL": "CL:0000540"
+      },
+      "synonyms": [
+        "Differentiating Neurons",
+        "Neuronal Nuclei Positive Cells",
+        "Doublecortin Positive Cells",
+        "Mature Neurons",
+        "Immature Neurons"
+      ]
+    },
+    {
+      "id": "NeuralStemCell",
+      "label": "Neural Stem Cell",
+      "type": "Cell",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C1136458",
+        "CL": "CL:0000047"
+      },
+      "synonyms": [
+        "NSCs"
+      ]
+    },
+    {
+      "id": "Neurogenesis",
+      "label": "Neurogenesis",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "GO": "GO:0022008",
+        "UMLS_CUI": "C0678693"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "FunctionalRecovery",
+      "label": "Functional Recovery",
+      "type": "Phenomenon",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0034948"
+      },
+      "synonyms": [
+        "Neurological Outcome"
+      ]
+    },
+    {
+      "id": "GCIEHydrogel",
+      "label": "GCIE Hydrogel",
+      "type": "Chemical",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "Custom_ID": "GCIE_Hydrogel",
+        "Note": "GelMA/CSMA/EPO/IL-4 Composite"
+      },
+      "synonyms": [
+        "GC/I/E Hydrogel"
+      ]
+    },
+    {
+      "id": "SynapseAssembly",
+      "label": "Synapse Assembly",
+      "type": "Process",
+      "location": "Synapse",
+      "identifiers": {
+        "GO": "GO:0007416",
+        "UMLS_CUI": "C0039063"
+      },
+      "synonyms": [
+        "Neuronal Synaptogenesis",
+        "Synaptogenesis"
+      ]
+    },
+    {
+      "id": "CellMigration",
+      "label": "Cell Migration",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "GO": "GO:0016477",
+        "UMLS_CUI": "C0007609"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "NerveRegeneration",
+      "label": "Nerve Regeneration",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "GO": "GO:0031102",
+        "UMLS_CUI": "C0027752"
+      },
+      "synonyms": [
+        "Neuroregeneration"
+      ]
+    },
+    {
+      "id": "Histopathology",
+      "label": "Histopathology",
+      "type": "Pathological_Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0019641"
+      },
+      "synonyms": [
+        "Histopathological Changes"
+      ]
+    },
+    {
+      "id": "NervousSystemInjury",
+      "label": "Nervous System Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0149931"
+      },
+      "synonyms": [
+        "Neurological Injuries"
+      ]
+    },
+    {
+      "id": "CognitiveDecline",
+      "label": "Cognitive Decline",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0234985"
+      },
+      "synonyms": []
+    }
+  ],
+  "edges": [
+    {
+      "source": "PhysicalExercise",
+      "target": "Neuron",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        162,
+        279
+      ],
+      "confidence": "High",
+      "metadata": "Enhances differentiating neurons; Upregulates NeuN+ and DCX+ cells; Discontinuation reduces cell counts"
+    },
+    {
+      "source": "Neurogenesis",
+      "target": "FunctionalRecovery",
+      "mechanism": "causes",
+      "evidence_ref": [
+        162
+      ],
+      "confidence": "Medium",
+      "metadata": "Mediates recovery"
+    },
+    {
+      "source": "GCIEHydrogel",
+      "target": "SynapseAssembly",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        349
+      ],
+      "confidence": "High",
+      "metadata": "Facilitates neuronal synaptogenesis"
+    },
+    {
+      "source": "PhysicalExercise",
+      "target": "NeuralStemCell",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        162
+      ],
+      "confidence": "High",
+      "metadata": "Upregulates NSCs"
+    },
+    {
+      "source": "PhysicalExercise",
+      "target": "CellMigration",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        162
+      ],
+      "confidence": "Medium",
+      "metadata": "Causes cell migration"
+    },
+    {
+      "source": "PhysicalExercise",
+      "target": "FunctionalRecovery",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        162,
+        259
+      ],
+      "confidence": "High",
+      "metadata": "Improves neurological outcome"
+    },
+    {
+      "source": "PhysicalExercise",
+      "target": "NerveRegeneration",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        162
+      ],
+      "confidence": "High",
+      "metadata": "Induces neuroregeneration"
+    },
+    {
+      "source": "PhysicalExercise",
+      "target": "Histopathology",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        259
+      ],
+      "confidence": "Medium",
+      "metadata": "Decreases histopathological changes (Endurance Exercise)"
+    },
+    {
+      "source": "PhysicalExercise",
+      "target": "NervousSystemInjury",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        260
+      ],
+      "confidence": "High",
+      "metadata": "Preconditioning prevents injuries"
+    },
+    {
+      "source": "PhysicalExercise",
+      "target": "NervousSystemInjury",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        260
+      ],
+      "confidence": "High",
+      "metadata": "Preconditioning reverses injuries"
+    },
+    {
+      "source": "PhysicalExercise",
+      "target": "CognitiveDecline",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        279
+      ],
+      "confidence": "High",
+      "metadata": "Reduces decline; Effective in Early and Delayed phases"
+    },
+    {
+      "source": "PhysicalExercise",
+      "target": "Neurogenesis",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        279
+      ],
+      "confidence": "High",
+      "metadata": "Causes neurogenesis; Influenced by Duration"
+    },
+    {
+      "source": "PhysicalExercise",
+      "target": "SynapseAssembly",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        349
+      ],
+      "confidence": "Low",
+      "metadata": "Inferred connection via composite hydrogel context if applicable, otherwise limited to Hydrogel node"
+    }
+  ]
+}

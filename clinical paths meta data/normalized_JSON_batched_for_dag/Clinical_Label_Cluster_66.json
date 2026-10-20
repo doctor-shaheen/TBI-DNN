@@ -1,0 +1,387 @@
+[
+    {
+        "source_abstract_id":9,
+        "subject":"Blunt Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Residuals of Blunt Traumatic Brain Injury in Controls",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":289,
+        "subject":"Submild traumatic brain injury",
+        "relation":"triggers",
+        "object":"Mild behavioral impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":620,
+        "subject":"Plasma Samples",
+        "relation":"derived_from",
+        "object":"Mild Traumatic Brain Injury Patients",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":5,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Brain Vulnerability",
+        "entity_variants":"none|"
+    },
+    {
+        "source_abstract_id":129,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"increases",
+        "object":"Overall Symptom Burden",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":166,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Neurobehavioral Dysfunction",
+        "entity_variants":"N\/A|"
+    },
+    {
+        "source_abstract_id":231,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Delayed Symptom Onset",
+        "entity_variants":"not applicable|"
+    },
+    {
+        "source_abstract_id":233,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"impairs",
+        "object":"Neural Connections",
+        "entity_variants":"none|"
+    },
+    {
+        "source_abstract_id":289,
+        "subject":"Subconcussive Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Mild Behavioral Impairment Checklist Total Scores",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":506,
+        "subject":"Traumatic Brain Injury Controls",
+        "relation":"compared_to",
+        "object":"Mild Traumatic Brain Injury Subjects",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":533,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"increases_risk_of",
+        "object":"Risk of Delayed Recovery",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":533,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"is_predicted_by",
+        "object":"Demographics",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":533,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Magnetic Resonance Imaging Findings",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":533,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Return to Sport Decision",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":533,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"is_predicted_by",
+        "object":"Injury History",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":557,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Driving Patterns",
+        "entity_variants":"none|"
+    },
+    {
+        "source_abstract_id":557,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Physical Activity",
+        "entity_variants":"none|"
+    },
+    {
+        "source_abstract_id":9,
+        "subject":"Blunt Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Morphological Residuals of Traumatic Brain Injury",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":37,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"not_associated_with",
+        "object":"Cognitive Domains",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":37,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"not_associated_with",
+        "object":"Holistic Health Care Approach",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":37,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"not_associated_with",
+        "object":"Longitudinal Studies",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":81,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Mood",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":81,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Clinical Assessments",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":81,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"informs",
+        "object":"Therapeutic Targets",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":87,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Neurological Symptoms",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":87,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Poor Quality of Life",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":87,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Psychological Distress",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":87,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Disability",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":87,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Quality of Life",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":122,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Long Term Effects",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":122,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Brain Injury",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":133,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"necessitates",
+        "object":"Early Rehabilitation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":168,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Symptom Severity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":169,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Longitudinal Changes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":201,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"increases",
+        "object":"Mortality Risk",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":201,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"increases",
+        "object":"Five Year Mortality Risk",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":201,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Preexisting Conditions",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":230,
+        "subject":"Mild to Moderate Traumatic Brain Injury",
+        "relation":"not_associated_with",
+        "object":"Severe Traumatic Brain Injury",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":230,
+        "subject":"Mild to Moderate Traumatic Brain Injury",
+        "relation":"not_associated_with",
+        "object":"Long Term Outcomes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":243,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Long Term Symptoms",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":243,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Emotional Disturbances",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":264,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"influences",
+        "object":"Adverse Outcomes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":264,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Pain",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":279,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"not_causes",
+        "object":"Clinical Outcomes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":309,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Symptom Prevalence",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":402,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Clinical Recovery",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":440,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"requires",
+        "object":"Longitudinal Research",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":468,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"is_distinguished_from",
+        "object":"Non-Mild Traumatic Brain Injury",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":490,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Adverse Long Term Outcomes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":490,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Functional Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":498,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Neurological Symptoms",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":498,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"leads_to",
+        "object":"Targeted Treatments",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":506,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Traumatic Brain Injury Controls",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":559,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Neuropsychiatric Manifestation",
+        "entity_variants":"Severity: mild, moderate"
+    },
+    {
+        "source_abstract_id":533,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Concussion Recovery Time",
+        "entity_variants":null
+    }
+]

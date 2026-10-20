@@ -1,0 +1,275 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 12,
+    "edge_count": 11
+  },
+  "nodes": [
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "Traumatic Brain Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111"
+      },
+      "synonyms": [
+        "Acute Traumatic Brain Injury",
+        "Mild Traumatic Brain Injury",
+        "Concussion",
+        "Sports-Related Concussions",
+        "TBI"
+      ]
+    },
+    {
+      "id": "ContactSports",
+      "label": "Contact Sports",
+      "type": "Process",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0038039"
+      },
+      "synonyms": [
+        "Collision Sports"
+      ]
+    },
+    {
+      "id": "RetinalNerveFiberLayer",
+      "label": "Retinal Nerve Fiber Layer",
+      "type": "Anatomy",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0035306"
+      },
+      "synonyms": [
+        "RNFL",
+        "Stratum opticum"
+      ]
+    },
+    {
+      "id": "GanglionCellLayer",
+      "label": "Ganglion Cell Layer",
+      "type": "Anatomy",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0017066"
+      },
+      "synonyms": [
+        "GCL",
+        "Ganglionic layer"
+      ]
+    },
+    {
+      "id": "RetinalGanglionCell",
+      "label": "Retinal Ganglion Cell",
+      "type": "Cell",
+      "location": "Neuron",
+      "identifiers": {
+        "UMLS_CUI": "C0035301"
+      },
+      "synonyms": [
+        "RGC",
+        "Ganglion Cell"
+      ]
+    },
+    {
+      "id": "SuperficialVascularPlexus",
+      "label": "Superficial Vascular Plexus",
+      "type": "Anatomy",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C4073041"
+      },
+      "synonyms": [
+        "SVP",
+        "Retinal superficial vessels"
+      ]
+    },
+    {
+      "id": "MaculaLutea",
+      "label": "Macula Lutea",
+      "type": "Anatomy",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0024400"
+      },
+      "synonyms": [
+        "Macula"
+      ]
+    },
+    {
+      "id": "MacularPerfusion",
+      "label": "Macular Perfusion",
+      "type": "Physiologic Function",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0031028"
+      },
+      "synonyms": [
+        "Retinal perfusion"
+      ]
+    },
+    {
+      "id": "VisualFunction",
+      "label": "Visual Function",
+      "type": "Physiologic Function",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0042789"
+      },
+      "synonyms": [
+        "Vision",
+        "Visual measures"
+      ]
+    },
+    {
+      "id": "Neurodegeneration",
+      "label": "Neurodegeneration",
+      "type": "Pathologic Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027746"
+      },
+      "synonyms": [
+        "Neuronal degeneration"
+      ]
+    },
+    {
+      "id": "Vacuole",
+      "label": "Vacuole",
+      "type": "Cell Component",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0042213"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "CerebralCortex",
+      "label": "Cerebral Cortex",
+      "type": "Anatomy",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0007776"
+      },
+      "synonyms": [
+        "Superficial Cortical Layers"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "RetinalNerveFiberLayer",
+      "mechanism": "causes",
+      "evidence_ref": [
+        205,
+        532
+      ],
+      "confidence": "High",
+      "metadata": "Effect: Thinning, Thickening, and Structural Changes"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "GanglionCellLayer",
+      "mechanism": "causes",
+      "evidence_ref": [
+        412
+      ],
+      "confidence": "High",
+      "metadata": "Effect: Reduced Thickness"
+    },
+    {
+      "source": "ContactSports",
+      "target": "RetinalNerveFiberLayer",
+      "mechanism": "causes",
+      "evidence_ref": [
+        415,
+        532
+      ],
+      "confidence": "High",
+      "metadata": "Effect: Thinning and Thickening"
+    },
+    {
+      "source": "ContactSports",
+      "target": "MaculaLutea",
+      "mechanism": "causes",
+      "evidence_ref": [
+        532
+      ],
+      "confidence": "Moderate",
+      "metadata": "Effect: Thickening and Thinning"
+    },
+    {
+      "source": "SuperficialVascularPlexus",
+      "target": "GanglionCellLayer",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        412
+      ],
+      "confidence": "Moderate",
+      "metadata": "Context: Vascular density associated with layer thickness"
+    },
+    {
+      "source": "RetinalGanglionCell",
+      "target": "MacularPerfusion",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        412
+      ],
+      "confidence": "Moderate",
+      "metadata": "Context: Cell loss causes reduced perfusion"
+    },
+    {
+      "source": "MacularPerfusion",
+      "target": "VisualFunction",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        412
+      ],
+      "confidence": "Moderate",
+      "metadata": "Context: Reduced perfusion associated with abnormalities"
+    },
+    {
+      "source": "MaculaLutea",
+      "target": "VisualFunction",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        412
+      ],
+      "confidence": "Moderate",
+      "metadata": "Context: Normal structure precedes abnormalities"
+    },
+    {
+      "source": "RetinalNerveFiberLayer",
+      "target": "VisualFunction",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        415
+      ],
+      "confidence": "Moderate",
+      "metadata": "Context: Thinning associated with visual measures"
+    },
+    {
+      "source": "RetinalNerveFiberLayer",
+      "target": "Neurodegeneration",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        415
+      ],
+      "confidence": "High",
+      "metadata": "Context: Thinning associated with neurodegeneration"
+    },
+    {
+      "source": "Vacuole",
+      "target": "CerebralCortex",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        40
+      ],
+      "confidence": "Low",
+      "metadata": "Context: Highest density in Superficial Cortical Layers"
+    }
+  ]
+}

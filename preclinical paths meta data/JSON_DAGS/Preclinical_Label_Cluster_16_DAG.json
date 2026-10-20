@@ -1,0 +1,262 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 12,
+    "edge_count": 11
+  },
+  "nodes": [
+    {
+      "id": "CrocusSativus",
+      "label": "Crocus sativus",
+      "type": "Plant",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "UMLS_CUI": "C0010335",
+        "Scientific_Name": "Crocus sativus"
+      },
+      "synonyms": [
+        "Saffron"
+      ]
+    },
+    {
+      "id": "Anxiety",
+      "label": "Anxiety",
+      "type": "Mental Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0003467"
+      },
+      "synonyms": [
+        "Anxiety Behavior",
+        "Anxiogenic Effect"
+      ]
+    },
+    {
+      "id": "Fear",
+      "label": "Fear",
+      "type": "Mental Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0015726"
+      },
+      "synonyms": [
+        "Fear Inhibition"
+      ]
+    },
+    {
+      "id": "Memory",
+      "label": "Memory",
+      "type": "Mental Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0025260"
+      },
+      "synonyms": [
+        "Memory Performance"
+      ]
+    },
+    {
+      "id": "NerveRegeneration",
+      "label": "Nerve Regeneration",
+      "type": "Physiologic Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027756"
+      },
+      "synonyms": [
+        "Neural Repair",
+        "Neuroregeneration"
+      ]
+    },
+    {
+      "id": "Cognition",
+      "label": "Cognition",
+      "type": "Mental Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0009241"
+      },
+      "synonyms": [
+        "Cognitive Behavior"
+      ]
+    },
+    {
+      "id": "Oxygen",
+      "label": "Oxygen",
+      "type": "Chemical",
+      "location": "Blood",
+      "identifiers": {
+        "UMLS_CUI": "C0030054",
+        "ChEBI": "CHEBI:15379"
+      },
+      "synonyms": [
+        "Higher Oxygen Concentration"
+      ]
+    },
+    {
+      "id": "NeurologicRecovery",
+      "label": "Neurologic Recovery",
+      "type": "Physiologic Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0034764"
+      },
+      "synonyms": [
+        "Recovery",
+        "Neurologic Outcome"
+      ]
+    },
+    {
+      "id": "Argon",
+      "label": "Argon",
+      "type": "Chemical",
+      "location": "Blood",
+      "identifiers": {
+        "UMLS_CUI": "C0003756",
+        "ChEBI": "CHEBI:30136"
+      },
+      "synonyms": [
+        "Argon Inhalation"
+      ]
+    },
+    {
+      "id": "MotorActivity",
+      "label": "Motor Activity",
+      "type": "Physiologic Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0026606"
+      },
+      "synonyms": [
+        "Motor Performance"
+      ]
+    },
+    {
+      "id": "Neurodegeneration",
+      "label": "Neurodegeneration",
+      "type": "Pathologic Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027746"
+      },
+      "synonyms": [
+        "Neurodegeneration Biomarker"
+      ]
+    },
+    {
+      "id": "Inflammation",
+      "label": "Inflammation",
+      "type": "Pathologic Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0021368"
+      },
+      "synonyms": [
+        "Neuroinflammation Biomarker"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "CrocusSativus",
+      "target": "Anxiety",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        237
+      ],
+      "confidence": "High",
+      "metadata": "Effect: Attenuates anxiogenic effect/behavior"
+    },
+    {
+      "source": "CrocusSativus",
+      "target": "Fear",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        237
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Prevents fear inhibition"
+    },
+    {
+      "source": "CrocusSativus",
+      "target": "Memory",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        237
+      ],
+      "confidence": "High",
+      "metadata": "Effect: Improves performance"
+    },
+    {
+      "source": "CrocusSativus",
+      "target": "NerveRegeneration",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        237
+      ],
+      "confidence": "High",
+      "metadata": "Effect: Mediates/Promotes repair"
+    },
+    {
+      "source": "CrocusSativus",
+      "target": "Cognition",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        237
+      ],
+      "confidence": "High",
+      "metadata": "Effect: Enhances behavior"
+    },
+    {
+      "source": "Oxygen",
+      "target": "NeurologicRecovery",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        281
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Higher Concentration decreases recovery"
+    },
+    {
+      "source": "Argon",
+      "target": "NeurologicRecovery",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        281
+      ],
+      "confidence": "Low",
+      "metadata": "Observation: Not associated with outcome/recovery"
+    },
+    {
+      "source": "Argon",
+      "target": "Neurodegeneration",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        281
+      ],
+      "confidence": "Low",
+      "metadata": "Observation: Not associated with biomarkers or histologic parameters"
+    },
+    {
+      "source": "Argon",
+      "target": "Inflammation",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        281
+      ],
+      "confidence": "Low",
+      "metadata": "Observation: Not associated with biomarkers"
+    },
+    {
+      "source": "Argon",
+      "target": "MotorActivity",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        281
+      ],
+      "confidence": "Low",
+      "metadata": "Observation: Not associated with performance (Rotarod/Morris Water Maze)"
+    }
+  ]
+}

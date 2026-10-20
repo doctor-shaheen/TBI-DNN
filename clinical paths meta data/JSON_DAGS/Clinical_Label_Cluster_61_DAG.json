@@ -1,0 +1,422 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 18,
+    "edge_count": 21
+  },
+  "nodes": [
+    {
+      "id": "SensorimotorNetwork",
+      "label": "Sensorimotor Network",
+      "type": "Anatomy",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0036658",
+        "NeuroNames_ID": "246"
+      },
+      "synonyms": [
+        "Sensorimotor Cortex",
+        "SMN"
+      ]
+    },
+    {
+      "id": "CognitiveImpairment",
+      "label": "Cognitive Impairment",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0338656"
+      },
+      "synonyms": [
+        "Cognitive Dysfunction",
+        "Cognitive Deficits",
+        "Cognitive Decline",
+        "Cognitive Disorder"
+      ]
+    },
+    {
+      "id": "BrainConnectivity",
+      "label": "Brain Connectivity",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C1269614"
+      },
+      "synonyms": [
+        "Functional and Structural Disruption",
+        "Connectivity"
+      ]
+    },
+    {
+      "id": "BrainBehaviorInteraction",
+      "label": "Brain-Behavior Interaction",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0004927"
+      },
+      "synonyms": [
+        "Brain-Behavior Relationship"
+      ]
+    },
+    {
+      "id": "CrossedCerebellarDiaschisis",
+      "label": "Crossed Cerebellar Diaschisis",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0270845"
+      },
+      "synonyms": [
+        "CCD"
+      ]
+    },
+    {
+      "id": "CaudateNucleus",
+      "label": "Caudate Nucleus",
+      "type": "Anatomy",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0007461",
+        "FMA_ID": "FMA:61821"
+      },
+      "synonyms": [
+        "Caudate"
+      ]
+    },
+    {
+      "id": "ExecutiveDysfunction",
+      "label": "Executive Dysfunction",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0233630"
+      },
+      "synonyms": [
+        "Executive Function Impairment"
+      ]
+    },
+    {
+      "id": "MemoryImpairment",
+      "label": "Memory Impairment",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0025277"
+      },
+      "synonyms": [
+        "Memory Deficits"
+      ]
+    },
+    {
+      "id": "FunctionalConnectivity",
+      "label": "Functional Connectivity",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C1269614"
+      },
+      "synonyms": [
+        "Altered Resting State Functional Connectivity",
+        "Resting State Functional Connectivity"
+      ]
+    },
+    {
+      "id": "PosteriorCingulateCortex",
+      "label": "Posterior Cingulate Cortex",
+      "type": "Anatomy",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0086510",
+        "FMA_ID": "FMA:6184"
+      },
+      "synonyms": [
+        "PCC"
+      ]
+    },
+    {
+      "id": "Hippocampus",
+      "label": "Hippocampus",
+      "type": "Anatomy",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0019564",
+        "FMA_ID": "FMA:62493"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "StructuralConnectivity",
+      "label": "Structural Connectivity",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C4280596"
+      },
+      "synonyms": [
+        "Neural Circuitry",
+        "White Matter Connectivity"
+      ]
+    },
+    {
+      "id": "SalienceNetwork",
+      "label": "Salience Network",
+      "type": "Anatomy",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C3697330"
+      },
+      "synonyms": [
+        "SN"
+      ]
+    },
+    {
+      "id": "IntraparietalSulcus",
+      "label": "Intraparietal Sulcus",
+      "type": "Anatomy",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0030221",
+        "FMA_ID": "FMA:83733"
+      },
+      "synonyms": [
+        "IPS"
+      ]
+    },
+    {
+      "id": "FrontalCortex",
+      "label": "Frontal Cortex",
+      "type": "Anatomy",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0016733"
+      },
+      "synonyms": [
+        "Frontal Lobe"
+      ]
+    },
+    {
+      "id": "Precuneus",
+      "label": "Precuneus",
+      "type": "Anatomy",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0032924",
+        "FMA_ID": "FMA:61962"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Insula",
+      "label": "Insula",
+      "type": "Anatomy",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0009142",
+        "FMA_ID": "FMA:61967"
+      },
+      "synonyms": [
+        "Insular Cortex"
+      ]
+    },
+    {
+      "id": "BetweennessCentrality",
+      "label": "Betweenness Centrality",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0000000"
+      },
+      "synonyms": [
+        "Graph Theory Centrality"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "SensorimotorNetwork",
+      "target": "CognitiveImpairment",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        130
+      ],
+      "confidence": "High",
+      "metadata": "Context: Network connectivity correlates with impairment"
+    },
+    {
+      "source": "BrainConnectivity",
+      "target": "BrainBehaviorInteraction",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        133
+      ],
+      "confidence": "High",
+      "metadata": "Context: Functional and Structural Disruption"
+    },
+    {
+      "source": "CrossedCerebellarDiaschisis",
+      "target": "CognitiveImpairment",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        227
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Associated with dysfunction"
+    },
+    {
+      "source": "CaudateNucleus",
+      "target": "ExecutiveDysfunction",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        305
+      ],
+      "confidence": "High",
+      "metadata": "Context: Connectivity correlates with dysfunction"
+    },
+    {
+      "source": "CaudateNucleus",
+      "target": "MemoryImpairment",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        305
+      ],
+      "confidence": "High",
+      "metadata": "Context: Connectivity correlates with impairment"
+    },
+    {
+      "source": "FunctionalConnectivity",
+      "target": "FunctionalConnectivity",
+      "mechanism": "causes",
+      "evidence_ref": [
+        429
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Altered Resting State causes Residual Alterations"
+    },
+    {
+      "source": "PosteriorCingulateCortex",
+      "target": "FunctionalConnectivity",
+      "mechanism": "causes",
+      "evidence_ref": [
+        429
+      ],
+      "confidence": "High",
+      "metadata": "Context: Altered Connectivity Patterns"
+    },
+    {
+      "source": "Hippocampus",
+      "target": "CognitiveImpairment",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        541
+      ],
+      "confidence": "High",
+      "metadata": "Context: Connectivity associated with decline"
+    },
+    {
+      "source": "StructuralConnectivity",
+      "target": "FunctionalConnectivity",
+      "mechanism": "causes",
+      "evidence_ref": [
+        26
+      ],
+      "confidence": "High",
+      "metadata": "Context: Loss of Structural Connectivity causes Loss of Functional Connectivity"
+    },
+    {
+      "source": "StructuralConnectivity",
+      "target": "ExecutiveDysfunction",
+      "mechanism": "causes",
+      "evidence_ref": [
+        26,
+        305
+      ],
+      "confidence": "High",
+      "metadata": "Context: Loss/Alteration of Structural Connectivity"
+    },
+    {
+      "source": "FunctionalConnectivity",
+      "target": "CognitiveImpairment",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        130,
+        192,
+        253,
+        530
+      ],
+      "confidence": "Very High",
+      "metadata": "Context: Mediates, Predicts, and Associated with"
+    },
+    {
+      "source": "SalienceNetwork",
+      "target": "CognitiveImpairment",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        130
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Associated with impairment"
+    },
+    {
+      "source": "FunctionalConnectivity",
+      "target": "MemoryImpairment",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        192
+      ],
+      "confidence": "High",
+      "metadata": "Context: Affects deficits"
+    },
+    {
+      "source": "IntraparietalSulcus",
+      "target": "CognitiveImpairment",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        381
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Connectivity mediates deficits"
+    },
+    {
+      "source": "FrontalCortex",
+      "target": "CognitiveImpairment",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        387
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Activation associated with deficits"
+    },
+    {
+      "source": "Precuneus",
+      "target": "CognitiveImpairment",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        541
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Connectivity associated with decline"
+    },
+    {
+      "source": "Insula",
+      "target": "CognitiveImpairment",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        541
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Connectivity associated with decline"
+    },
+    {
+      "source": "BetweennessCentrality",
+      "target": "CognitiveImpairment",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        571
+      ],
+      "confidence": "High",
+      "metadata": "Context: Network topology metric"
+    }
+  ]
+}

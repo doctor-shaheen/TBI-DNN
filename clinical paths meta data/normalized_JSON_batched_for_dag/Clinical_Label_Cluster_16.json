@@ -1,0 +1,282 @@
+[
+    {
+        "source_abstract_id":225,
+        "subject":"Blast Exposure",
+        "relation":"causes",
+        "object":"Serum Glial Fibrillary Acidic Protein",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":60,
+        "subject":"Repetitive Head Impacts",
+        "relation":"causes",
+        "object":"Glial Fibrillary Acidic Protein",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":29,
+        "subject":"Serum Glial Fibrillary Acidic Protein",
+        "relation":"associated_with",
+        "object":"Brain Atrophy",
+        "entity_variants":"GFAP"
+    },
+    {
+        "source_abstract_id":49,
+        "subject":"Plasma Glial Fibrillary Acidic Protein",
+        "relation":"upregulates",
+        "object":"Neuronal Damage",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":49,
+        "subject":"Former Boxers",
+        "relation":"associated_with",
+        "object":"Elevated Plasma Glial Fibrillary Acidic Protein",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":85,
+        "subject":"Glial Fibrillary Acidic Protein",
+        "relation":"predicts",
+        "object":"Brain Atrophy Rate",
+        "entity_variants":"GFAP"
+    },
+    {
+        "source_abstract_id":95,
+        "subject":"Glial Fibrillary Acidic Protein",
+        "relation":"associated_with",
+        "object":"Cognitive Impairment",
+        "entity_variants":"GFAP"
+    },
+    {
+        "source_abstract_id":208,
+        "subject":"Cellular Prion Protein",
+        "relation":"influences",
+        "object":"Glial Fibrillary Acidic Protein",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":228,
+        "subject":"Glial Fibrillary Acidic Protein",
+        "relation":"associated_with",
+        "object":"Cognitive Impairment",
+        "entity_variants":"elevated levels"
+    },
+    {
+        "source_abstract_id":228,
+        "subject":"Traumatic Brain Injury",
+        "relation":"no_effect_on",
+        "object":"Glial Fibrillary Acidic Protein Levels",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":228,
+        "subject":"Duration of Cognitive Symptoms",
+        "relation":"influences",
+        "object":"Glial Fibrillary Acidic Protein Levels",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":313,
+        "subject":"Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Glial Fibrillary Acidic Protein",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":314,
+        "subject":"Glial Fibrillary Acidic Protein",
+        "relation":"predicts",
+        "object":"Processing Speed",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":358,
+        "subject":"Traumatic Brain Injury",
+        "relation":"upregulates",
+        "object":"Glial Fibrillary Acidic Protein",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":358,
+        "subject":"Glial Fibrillary Acidic Protein",
+        "relation":"causes",
+        "object":"Unemployment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":361,
+        "subject":"Glial Fibrillary Acidic Protein",
+        "relation":"associated_with",
+        "object":"Microstructural Injury",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":361,
+        "subject":"Glial Fibrillary Acidic Protein",
+        "relation":"predicts",
+        "object":"Functional Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":361,
+        "subject":"Glial Fibrillary Acidic Protein",
+        "relation":"associated_with",
+        "object":"Neurofilament Light Chain",
+        "entity_variants":"distinct temporal profile"
+    },
+    {
+        "source_abstract_id":361,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Elevated Glial Fibrillary Acidic Protein",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":372,
+        "subject":"Traumatic Brain Injury",
+        "relation":"upregulates",
+        "object":"Glial Fibrillary Acidic Protein",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":372,
+        "subject":"Age",
+        "relation":"confounds",
+        "object":"Glial Fibrillary Acidic Protein",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":400,
+        "subject":"Plasma Glial Fibrillary Acidic Protein",
+        "relation":"downregulates",
+        "object":"White Matter Microstructure",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":400,
+        "subject":"Plasma Glial Fibrillary Acidic Protein",
+        "relation":"not_associated_with",
+        "object":"Brain Age",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":404,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Glial Fibrillary Acidic Protein",
+        "entity_variants":"GFAP"
+    },
+    {
+        "source_abstract_id":406,
+        "subject":"Amyloid Beta Precursor Protein",
+        "relation":"associated_with",
+        "object":"Glial Fibrillary Acidic Protein",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":417,
+        "subject":"Glial Fibrillary Acidic Protein Positivity",
+        "relation":"associated_with",
+        "object":"Survival Time",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":417,
+        "subject":"Glial Fibrillary Acidic Protein Positivity",
+        "relation":"not_associated_with",
+        "object":"Age at Death",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":417,
+        "subject":"Glial Fibrillary Acidic Protein Positivity",
+        "relation":"not_associated_with",
+        "object":"Sex",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":417,
+        "subject":"Glial Fibrillary Acidic Protein Positivity",
+        "relation":"not_associated_with",
+        "object":"Post Mortem Interval",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":422,
+        "subject":"Astrogliosis",
+        "relation":"causes",
+        "object":"Increased Glial Fibrillary Acidic Protein Deposition",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":442,
+        "subject":"Mild Repetitive Traumatic Brain Injury",
+        "relation":"upregulates",
+        "object":"Glial Fibrillary Acidic Protein",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":450,
+        "subject":"Traumatic Brain Injury with Loss of Consciousness",
+        "relation":"no_significant_difference_in",
+        "object":"Glial Fibrillary Acidic Protein",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":486,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"upregulates",
+        "object":"Glial Fibrillary Acidic Protein",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":486,
+        "subject":"Glial Fibrillary Acidic Protein",
+        "relation":"binds_to",
+        "object":"Cortical Mean Diffusivity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":486,
+        "subject":"Glial Fibrillary Acidic Protein",
+        "relation":"binds_to",
+        "object":"Cortical Radial Diffusivity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":518,
+        "subject":"Glial Fibrillary Acidic Protein",
+        "relation":"upregulates",
+        "object":"Neurodegeneration",
+        "entity_variants":"GFAP"
+    },
+    {
+        "source_abstract_id":518,
+        "subject":"Glial Fibrillary Acidic Protein",
+        "relation":"indicates",
+        "object":"Neurodegeneration",
+        "entity_variants":"GFAP"
+    },
+    {
+        "source_abstract_id":628,
+        "subject":"Collision Sports",
+        "relation":"not_associated_with",
+        "object":"Glial Fibrillary Acidic Protein",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":518,
+        "subject":"Amyloid Beta",
+        "relation":"downregulates",
+        "object":"Glial Fibrillary Acidic Protein",
+        "entity_variants":"Aβ42\/Aβ40"
+    },
+    {
+        "source_abstract_id":552,
+        "subject":"Hyperbaric Oxygen Therapy",
+        "relation":"modulates",
+        "object":"Glial Fibrillary Acidic Protein",
+        "entity_variants":"unknown"
+    }
+]

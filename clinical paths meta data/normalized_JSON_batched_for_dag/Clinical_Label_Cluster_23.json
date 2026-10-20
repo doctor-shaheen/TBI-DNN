@@ -1,0 +1,135 @@
+[
+    {
+        "source_abstract_id":218,
+        "subject":"Cognitive Functioning",
+        "relation":"measured_by",
+        "object":"Mattis Dementia Rating Scale",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":284,
+        "subject":"Moderate Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Montreal Cognitive Assessment",
+        "entity_variants":"MoCA"
+    },
+    {
+        "source_abstract_id":284,
+        "subject":"Education Status",
+        "relation":"associated_with",
+        "object":"Montreal Cognitive Assessment",
+        "entity_variants":"MoCA"
+    },
+    {
+        "source_abstract_id":531,
+        "subject":"Inferior Temporal Gyrus Mean Diffusivity",
+        "relation":"associated_with",
+        "object":"Montreal Cognitive Assessment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":531,
+        "subject":"Middle Temporal Gyrus Mean Diffusivity",
+        "relation":"associated_with",
+        "object":"Montreal Cognitive Assessment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":531,
+        "subject":"Angular Gyrus Mean Diffusivity",
+        "relation":"associated_with",
+        "object":"Montreal Cognitive Assessment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":534,
+        "subject":"Cognitive Assessment",
+        "relation":"uses",
+        "object":"Montreal Cognitive Assessment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":563,
+        "subject":"Cognitive Impairment",
+        "relation":"is_assessed_by",
+        "object":"Montreal Cognitive Assessment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":563,
+        "subject":"Cognitive Training",
+        "relation":"treats",
+        "object":"Montreal Cognitive Assessment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":584,
+        "subject":"Years of Education",
+        "relation":"positively_associated_with",
+        "object":"Montreal Cognitive Assessment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":584,
+        "subject":"Pupillary Light Reflex",
+        "relation":"positively_associated_with",
+        "object":"Montreal Cognitive Assessment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":584,
+        "subject":"Admission Glasgow Coma Scale",
+        "relation":"positively_associated_with",
+        "object":"Montreal Cognitive Assessment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":584,
+        "subject":"Return of Consciousness",
+        "relation":"negatively_associated_with",
+        "object":"Montreal Cognitive Assessment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":584,
+        "subject":"Age",
+        "relation":"negatively_associated_with",
+        "object":"Montreal Cognitive Assessment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":584,
+        "subject":"Marshall Computed Tomography Classification",
+        "relation":"negatively_associated_with",
+        "object":"Montreal Cognitive Assessment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":584,
+        "subject":"Diffuse Axonal Injury Grade",
+        "relation":"negatively_associated_with",
+        "object":"Montreal Cognitive Assessment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":584,
+        "subject":"Diffuse Axonal Injury Grade 1 Memory",
+        "relation":"positively_associated_with",
+        "object":"Montreal Cognitive Assessment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":584,
+        "subject":"Diffuse Axonal Injury Grade 3 Memory",
+        "relation":"positively_associated_with",
+        "object":"Montreal Cognitive Assessment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":630,
+        "subject":"Montreal Cognitive Assessment",
+        "relation":"measures",
+        "object":"Cognition",
+        "entity_variants":null
+    }
+]

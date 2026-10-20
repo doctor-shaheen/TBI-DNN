@@ -1,0 +1,583 @@
+[
+    {
+        "source_abstract_id":35,
+        "subject":"Repetitive Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Progressive Decline in Mural Cell Markers",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":54,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"triggers",
+        "object":"Lingering Symptomatology",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":315,
+        "subject":"Repetitive Mild Traumatic Brain Injury",
+        "relation":"triggers",
+        "object":"Traumatic Axonal Injury",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":320,
+        "subject":"Traumatic Brain Injury",
+        "relation":"triggers",
+        "object":"Mitophagy",
+        "entity_variants":"rlmTBI"
+    },
+    {
+        "source_abstract_id":81,
+        "subject":"Repeated Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Failure to Recover",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":44,
+        "subject":"Repetitive Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Myelin Loss",
+        "entity_variants":"rmTBI"
+    },
+    {
+        "source_abstract_id":9,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Neuropathologic Changes",
+        "entity_variants":"repeated, mild"
+    },
+    {
+        "source_abstract_id":15,
+        "subject":"Repetitive Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Neurodegeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":17,
+        "subject":"Repetitive Traumatic Brain Injury",
+        "relation":"does_not_affect",
+        "object":"Behavioral Outcome",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":18,
+        "subject":"Repetitive Traumatic Brain Injury",
+        "relation":"exacerbates",
+        "object":"Neuronal Damage",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":18,
+        "subject":"Repetitive Traumatic Brain Injury",
+        "relation":"impairs",
+        "object":"Cognitive Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":18,
+        "subject":"Repetitive Traumatic Brain Injury",
+        "relation":"impairs",
+        "object":"Motor Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":20,
+        "subject":"Repetitive Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Neurological Dysfunction",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":20,
+        "subject":"Repetitive Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Learning Deficit",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":20,
+        "subject":"Repetitive Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Hyperactivity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":20,
+        "subject":"Repetitive Mild Traumatic Brain Injury",
+        "relation":"does_not_cause",
+        "object":"Neurodegeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":25,
+        "subject":"Repetitive Head Trauma",
+        "relation":"causes",
+        "object":"Chronic Blood-Brain Barrier Alterations",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":25,
+        "subject":"Repetitive Head Trauma",
+        "relation":"reduces",
+        "object":"Cerebrospinal Fluid Movement",
+        "entity_variants":"CSF"
+    },
+    {
+        "source_abstract_id":28,
+        "subject":"Repetitive Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cognitive Impairment",
+        "entity_variants":"rmTBI"
+    },
+    {
+        "source_abstract_id":29,
+        "subject":"Repetitive Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cognitive Deficits",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":29,
+        "subject":"Repetitive Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Blunted Prefrontal Cortex Norepinephrine Response",
+        "entity_variants":"PFC NE response"
+    },
+    {
+        "source_abstract_id":29,
+        "subject":"Repetitive Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Persistent Arousal Levels",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":29,
+        "subject":"Repetitive Mild Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Arousal Levels",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":29,
+        "subject":"Repetitive Mild Traumatic Brain Injury",
+        "relation":"influences",
+        "object":"Psychostimulant Responsivity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":32,
+        "subject":"Repetitive Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Neurodegeneration",
+        "entity_variants":"rmTBI, repetitive mild TBI"
+    },
+    {
+        "source_abstract_id":32,
+        "subject":"Repetitive Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Hypometabolism",
+        "entity_variants":"rmTBI, repetitive mild TBI"
+    },
+    {
+        "source_abstract_id":32,
+        "subject":"Repetitive Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Motor Deficits",
+        "entity_variants":"rmTBI, repetitive mild TBI"
+    },
+    {
+        "source_abstract_id":35,
+        "subject":"Repetitive Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Mural Cell Dysfunction",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":44,
+        "subject":"Repetitive Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Chronic Traumatic Encephalopathy",
+        "entity_variants":"rmTBI"
+    },
+    {
+        "source_abstract_id":53,
+        "subject":"Repetitive Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Memory Deficit",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":68,
+        "subject":"Repeated Mild Head Injury",
+        "relation":"causes",
+        "object":"Cognitive Deficits",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":68,
+        "subject":"Repeated Mild Head Injury",
+        "relation":"affects",
+        "object":"Social Behavior",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":68,
+        "subject":"Repeated Mild Head Injury",
+        "relation":"causes",
+        "object":"Environmental Response Deficits",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":68,
+        "subject":"Repeated Mild Head Injury",
+        "relation":"causes",
+        "object":"Decreased Adaptation Rate",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":68,
+        "subject":"Repeated Mild Head Injury",
+        "relation":"causes",
+        "object":"Chronic Cognitive Impairments",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":71,
+        "subject":"Repetitive Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Vasodilation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":82,
+        "subject":"Repetitive Mild Traumatic Brain Injury",
+        "relation":"correlates_with",
+        "object":"Active Asparaginyl Endopeptidase",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":92,
+        "subject":"Repetitive Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cerebrovascular Reactivity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":92,
+        "subject":"Repetitive Mild Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Neurobehavioral Assessment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":94,
+        "subject":"Repeated Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Visual Evoked Potential Changes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":103,
+        "subject":"Repetitive Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Chronic Traumatic Encephalopathy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":103,
+        "subject":"Repetitive Mild Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Sensorimotor Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":103,
+        "subject":"Repetitive Mild Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Behavioral Outcome",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":103,
+        "subject":"Repetitive Mild Traumatic Brain Injury",
+        "relation":"masks",
+        "object":"Severity of Underlying Neuropathologic Condition",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":114,
+        "subject":"Repeated Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Brain Atrophy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":116,
+        "subject":"Repetitive Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Prolonged Recovery Time",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":116,
+        "subject":"Repetitive Mild Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Neuron Count",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":116,
+        "subject":"Repetitive Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Abnormal Diffusion Tensor Imaging Parameters",
+        "entity_variants":"DTI parameters"
+    },
+    {
+        "source_abstract_id":116,
+        "subject":"Repetitive Mild Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Cortex Volume",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":116,
+        "subject":"Repetitive Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Lateral Ventricle Volume Increase",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":116,
+        "subject":"Repetitive Mild Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Neurological Severity Scores",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":117,
+        "subject":"Repetitive Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Visuospatial Learning Deficits",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":126,
+        "subject":"Repetitive Mild Traumatic Brain Injury",
+        "relation":"impairs",
+        "object":"Cognitive Performance",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":127,
+        "subject":"Repetitive Concussive Injury",
+        "relation":"causes",
+        "object":"Behavioral Abnormalities",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":127,
+        "subject":"Repetitive Concussive Injury",
+        "relation":"causes",
+        "object":"Social Behavior Deficits",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":138,
+        "subject":"Repetitive Traumatic Brain Injury",
+        "relation":"accelerates",
+        "object":"Disease Onset",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":185,
+        "subject":"Repetitive Mild Concussion",
+        "relation":"causes",
+        "object":"Cognitive Decline",
+        "entity_variants":"CHT+\/-"
+    },
+    {
+        "source_abstract_id":185,
+        "subject":"Repetitive Mild Concussion",
+        "relation":"affects",
+        "object":"Sustained Attention Performance",
+        "entity_variants":"CHT+\/-"
+    },
+    {
+        "source_abstract_id":185,
+        "subject":"Repetitive Mild Concussion",
+        "relation":"does_not_affect",
+        "object":"Integrity of Neuronal Cell Bodies",
+        "entity_variants":"CHT+\/-"
+    },
+    {
+        "source_abstract_id":185,
+        "subject":"Repetitive Mild Concussion",
+        "relation":"does_not_affect",
+        "object":"Density of Cortical Synapses",
+        "entity_variants":"CHT+\/-"
+    },
+    {
+        "source_abstract_id":215,
+        "subject":"Repetitive Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Chronic Damage",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":215,
+        "subject":"Repetitive Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Neurodegeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":215,
+        "subject":"Repetitive Mild Traumatic Brain Injury",
+        "relation":"does_not_affect",
+        "object":"Performance in Barnes Maze Task",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":215,
+        "subject":"Repetitive Mild Traumatic Brain Injury",
+        "relation":"does_not_cause",
+        "object":"Changes in Lateral Geniculate Nucleus and Superior Colliculus",
+        "entity_variants":"LGN and SC"
+    },
+    {
+        "source_abstract_id":245,
+        "subject":"Repeated Mild Closed Head Injury",
+        "relation":"causes",
+        "object":"Chronic Traumatic Encephalopathy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":245,
+        "subject":"Repeated Mild Closed Head Injury",
+        "relation":"causes",
+        "object":"Behavioral Deficits",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":300,
+        "subject":"Repetitive Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cognitive Deficits",
+        "entity_variants":"not specified"
+    },
+    {
+        "source_abstract_id":314,
+        "subject":"Repetitive Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":315,
+        "subject":"Repetitive Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Neuronal Cell Death",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":315,
+        "subject":"Repetitive Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Chronic Neurological Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":315,
+        "subject":"Repetitive Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cerebellar Injury",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":315,
+        "subject":"Repetitive Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Corticospinal Tract Injury",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":332,
+        "subject":"Repetitive Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":332,
+        "subject":"Repetitive Mild Traumatic Brain Injury",
+        "relation":"upregulates",
+        "object":"Neuronal Activity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":332,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"decreases",
+        "object":"Inhibitory Synaptic Transmission",
+        "entity_variants":"repetitive"
+    },
+    {
+        "source_abstract_id":332,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Associative Fear Learning Impairment",
+        "entity_variants":"repetitive"
+    },
+    {
+        "source_abstract_id":332,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"decreases",
+        "object":"Short-Term Memory",
+        "entity_variants":"repetitive"
+    },
+    {
+        "source_abstract_id":332,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Increased Exploration Time",
+        "entity_variants":"repetitive"
+    },
+    {
+        "source_abstract_id":332,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"decreases",
+        "object":"Grooming Behavior Duration",
+        "entity_variants":"repetitive"
+    },
+    {
+        "source_abstract_id":332,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"decreases",
+        "object":"Inactivity Duration",
+        "entity_variants":"repetitive"
+    },
+    {
+        "source_abstract_id":332,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Behavioral Disruption",
+        "entity_variants":"repetitive"
+    },
+    {
+        "source_abstract_id":332,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Impaired Electrophysiological Changes",
+        "entity_variants":"repetitive"
+    },
+    {
+        "source_abstract_id":373,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Earlier Disease Onset",
+        "entity_variants":"repetitive"
+    }
+]

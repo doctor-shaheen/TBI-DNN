@@ -1,0 +1,463 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 21,
+    "edge_count": 21
+  },
+  "nodes": [
+    {
+      "id": "ANXA5",
+      "label": "Annexin A5",
+      "type": "Protein",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0003078",
+        "HGNC_ID": "HGNC:543",
+        "UniProt_ID": "P08758"
+      },
+      "synonyms": [
+        "Annexin V",
+        "Lipocortin V"
+      ]
+    },
+    {
+      "id": "S100A9",
+      "label": "S100 Calcium Binding Protein A9",
+      "type": "Protein",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0036034",
+        "HGNC_ID": "HGNC:10499",
+        "UniProt_ID": "P06702"
+      },
+      "synonyms": [
+        "MRP14",
+        "Calgranulin B"
+      ]
+    },
+    {
+      "id": "ANXA2",
+      "label": "Annexin A2",
+      "type": "Protein",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0003075",
+        "HGNC_ID": "HGNC:537",
+        "UniProt_ID": "P07355"
+      },
+      "synonyms": [
+        "Annexin II",
+        "Lipocortin II",
+        "Recombinant Annexin A2"
+      ]
+    },
+    {
+      "id": "S100B",
+      "label": "S100 Calcium Binding Protein B",
+      "type": "Protein",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0036035",
+        "HGNC_ID": "HGNC:10500",
+        "UniProt_ID": "P04271"
+      },
+      "synonyms": [
+        "S100beta",
+        "S100 protein beta chain"
+      ]
+    },
+    {
+      "id": "TLR4",
+      "label": "Toll Like Receptor 4",
+      "type": "Protein",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "UMLS_CUI": "C0080196",
+        "HGNC_ID": "HGNC:11808",
+        "UniProt_ID": "O00206"
+      },
+      "synonyms": [
+        "CD284"
+      ]
+    },
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "Traumatic Brain Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111"
+      },
+      "synonyms": [
+        "TBI",
+        "Stretch Injury",
+        "Brain Injury"
+      ]
+    },
+    {
+      "id": "Neuroinflammation",
+      "label": "Neuroinflammation",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027947",
+        "GO_ID": "GO:0150076"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Neuroprotection",
+      "label": "Neuroprotection",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027951",
+        "GO_ID": "GO:0051403"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "FunctionalRecovery",
+      "label": "Functional Recovery",
+      "type": "Process",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0035099"
+      },
+      "synonyms": [
+        "Functional Improvement",
+        "Sensorimotor Ability"
+      ]
+    },
+    {
+      "id": "BrainLesion",
+      "label": "Brain Lesion",
+      "type": "Pathology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006127"
+      },
+      "synonyms": [
+        "Lesion Size",
+        "Lesion Volume",
+        "Brain Tissue Loss"
+      ]
+    },
+    {
+      "id": "NeuronDeath",
+      "label": "Neuronal Death",
+      "type": "Process",
+      "location": "Neuron",
+      "identifiers": {
+        "UMLS_CUI": "C0027962",
+        "GO_ID": "GO:0070997"
+      },
+      "synonyms": [
+        "Perilesional Neuron Loss",
+        "Neuronal Survival"
+      ]
+    },
+    {
+      "id": "Neurogenesis",
+      "label": "Neurogenesis",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027917",
+        "GO_ID": "GO:0022008"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Neuroplasticity",
+      "label": "Neuroplasticity",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027923"
+      },
+      "synonyms": [
+        "Neuroplasticity Protein Expression"
+      ]
+    },
+    {
+      "id": "Anxiety",
+      "label": "Anxiety",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0003467"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Neurodegeneration",
+      "label": "Neurodegeneration",
+      "type": "Pathology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027963",
+        "GO_ID": "GO:0043526"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "NeutrophilActivation",
+      "label": "Neutrophil Activation",
+      "type": "Process",
+      "location": "Blood",
+      "identifiers": {
+        "UMLS_CUI": "C0027929",
+        "GO_ID": "GO:0043312"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "LeukocyteInfiltration",
+      "label": "Leukocyte Infiltration",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0007612"
+      },
+      "synonyms": [
+        "Brain Infiltration"
+      ]
+    },
+    {
+      "id": "Memory",
+      "label": "Memory",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0025477"
+      },
+      "synonyms": [
+        "Memory Function"
+      ]
+    },
+    {
+      "id": "MicroglialActivation",
+      "label": "Microglial Activation",
+      "type": "Process",
+      "location": "Microglia",
+      "identifiers": {
+        "UMLS_CUI": "C0027907"
+      },
+      "synonyms": []
+    }
+  ],
+  "edges": [
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "ANXA5",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        26
+      ],
+      "confidence": "High",
+      "metadata": "Context: Mechanical Stretch Injury Model"
+    },
+    {
+      "source": "S100A9",
+      "target": "Neuroinflammation",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        201
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "S100A9",
+      "target": "Neuroprotection",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        201
+      ],
+      "confidence": "High",
+      "metadata": "Context: Causes neuroprotection"
+    },
+    {
+      "source": "S100A9",
+      "target": "FunctionalRecovery",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        201
+      ],
+      "confidence": "High",
+      "metadata": "Context: Mediates functional improvement"
+    },
+    {
+      "source": "S100A9",
+      "target": "BrainLesion",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        201
+      ],
+      "confidence": "High",
+      "metadata": "Context: Reduces lesion size"
+    },
+    {
+      "source": "S100A9",
+      "target": "NeuronDeath",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        201
+      ],
+      "confidence": "High",
+      "metadata": "Context: Prevents perilesional neuron loss"
+    },
+    {
+      "source": "S100A9",
+      "target": "Neurogenesis",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        201
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Reduces neurogenesis"
+    },
+    {
+      "source": "S100A9",
+      "target": "Neuroplasticity",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        201
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Enhances neuroplasticity protein expression"
+    },
+    {
+      "source": "S100A9",
+      "target": "Anxiety",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        201
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "S100A9",
+      "target": "Neurodegeneration",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        201
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Associated with neurodegeneration"
+    },
+    {
+      "source": "S100A9",
+      "target": "TraumaticBrainInjury",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        201
+      ],
+      "confidence": "High",
+      "metadata": "Context: Associated with outcome"
+    },
+    {
+      "source": "ANXA2",
+      "target": "TLR4",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        284
+      ],
+      "confidence": "High",
+      "metadata": "Mechanism: Binds to TLR4 and downregulates expression"
+    },
+    {
+      "source": "ANXA2",
+      "target": "NeutrophilActivation",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        284
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "ANXA2",
+      "target": "LeukocyteInfiltration",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        284
+      ],
+      "confidence": "High",
+      "metadata": "Context: Reduces brain infiltration"
+    },
+    {
+      "source": "ANXA2",
+      "target": "FunctionalRecovery",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        284
+      ],
+      "confidence": "High",
+      "metadata": "Context: Improves sensorimotor ability"
+    },
+    {
+      "source": "ANXA2",
+      "target": "BrainLesion",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        284
+      ],
+      "confidence": "High",
+      "metadata": "Context: Reduces brain tissue loss"
+    },
+    {
+      "source": "S100B",
+      "target": "Neuroinflammation",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        343
+      ],
+      "confidence": "High",
+      "metadata": "Context: Causes neuroinflammation"
+    },
+    {
+      "source": "S100B",
+      "target": "BrainLesion",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        343
+      ],
+      "confidence": "High",
+      "metadata": "Context: Reduces lesion volume"
+    },
+    {
+      "source": "S100B",
+      "target": "Memory",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        343
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Improves memory function"
+    },
+    {
+      "source": "S100B",
+      "target": "MicroglialActivation",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        343
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Attenuates activation"
+    },
+    {
+      "source": "S100B",
+      "target": "NeuronDeath",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        343
+      ],
+      "confidence": "High",
+      "metadata": "Context: Improves neuronal survival"
+    }
+  ]
+}

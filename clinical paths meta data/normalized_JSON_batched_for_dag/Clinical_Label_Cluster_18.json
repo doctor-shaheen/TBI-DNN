@@ -1,0 +1,142 @@
+[
+    {
+        "source_abstract_id":373,
+        "subject":"LZNFB",
+        "relation":"improves",
+        "object":"Quality of Life",
+        "entity_variants":"LZNFB"
+    },
+    {
+        "source_abstract_id":617,
+        "subject":"Quality of Life",
+        "relation":"assessed_by",
+        "object":"Health Behavior Inventory",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":495,
+        "subject":"Flumazenil Positron Emission Tomography Binding Potential",
+        "relation":"associated_with",
+        "object":"Structural Node Strength",
+        "entity_variants":"not specified"
+    },
+    {
+        "source_abstract_id":364,
+        "subject":"Tetrafluorobornylphthalimide",
+        "relation":"prevents",
+        "object":"Inflammation",
+        "entity_variants":"TFBP, TFNBP"
+    },
+    {
+        "source_abstract_id":364,
+        "subject":"Tetrafluorobornylphthalimide",
+        "relation":"prevents",
+        "object":"Brain Injury",
+        "entity_variants":"TFBP, TFNBP"
+    },
+    {
+        "source_abstract_id":364,
+        "subject":"Tetrafluorobornylphthalimide",
+        "relation":"improves",
+        "object":"Motor Coordination",
+        "entity_variants":"TFBP, TFNBP"
+    },
+    {
+        "source_abstract_id":364,
+        "subject":"Tetrafluorobornylphthalimide",
+        "relation":"prevents",
+        "object":"Traumatic Brain Injury Lesion",
+        "entity_variants":"TFBP, TFNBP"
+    },
+    {
+        "source_abstract_id":364,
+        "subject":"Tetrafluorobornylphthalimide",
+        "relation":"prevents",
+        "object":"Proinflammatory Cytokine",
+        "entity_variants":"TFBP, TFNBP"
+    },
+    {
+        "source_abstract_id":364,
+        "subject":"Tetrafluorobornylphthalimide",
+        "relation":"physically_interacts_with",
+        "object":"Cereblon",
+        "entity_variants":"TFBP, TFNBP"
+    },
+    {
+        "source_abstract_id":364,
+        "subject":"Tetrafluorobornylphthalimide",
+        "relation":"prevents",
+        "object":"Teratogenicity",
+        "entity_variants":"TFBP, TFNBP"
+    },
+    {
+        "source_abstract_id":364,
+        "subject":"Tetrafluorobornylphthalimide",
+        "relation":"treats",
+        "object":"Therapeutic Strategy",
+        "entity_variants":"TFBP, TFNBP"
+    },
+    {
+        "source_abstract_id":373,
+        "subject":"Neurofeedback",
+        "relation":"improves",
+        "object":"Cognitive Function",
+        "entity_variants":"LZNFB"
+    },
+    {
+        "source_abstract_id":373,
+        "subject":"Neurofeedback",
+        "relation":"improves",
+        "object":"Immediate Recall",
+        "entity_variants":"LZNFB"
+    },
+    {
+        "source_abstract_id":373,
+        "subject":"Neurofeedback",
+        "relation":"improves",
+        "object":"Delayed Recall",
+        "entity_variants":"LZNFB"
+    },
+    {
+        "source_abstract_id":373,
+        "subject":"Neurofeedback",
+        "relation":"improves",
+        "object":"Recognition Memory",
+        "entity_variants":"LZNFB"
+    },
+    {
+        "source_abstract_id":373,
+        "subject":"Neurofeedback",
+        "relation":"improves",
+        "object":"Selective Attention",
+        "entity_variants":"LZNFB"
+    },
+    {
+        "source_abstract_id":373,
+        "subject":"Theta\/Beta Neurofeedback",
+        "relation":"improves",
+        "object":"Immediate Memory",
+        "entity_variants":"theta\/beta NFB"
+    },
+    {
+        "source_abstract_id":373,
+        "subject":"Theta\/Beta Neurofeedback",
+        "relation":"improves",
+        "object":"Selective Attention",
+        "entity_variants":"theta\/beta NFB"
+    },
+    {
+        "source_abstract_id":373,
+        "subject":"LZNFB",
+        "relation":"improves",
+        "object":"Total CIQ-R Scores",
+        "entity_variants":"LZNFB"
+    },
+    {
+        "source_abstract_id":373,
+        "subject":"Theta\/Beta Neurofeedback",
+        "relation":"associated_with",
+        "object":"Quality of Life",
+        "entity_variants":"theta\/beta NFB"
+    }
+]

@@ -1,0 +1,324 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 14,
+    "edge_count": 13
+  },
+  "nodes": [
+    {
+      "id": "BranchedChainAminoAcid",
+      "label": "Branched-chain amino acid",
+      "type": "Chemical",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0003765",
+        "CHEBI_ID": "CHEBI:22918"
+      },
+      "synonyms": [
+        "BCAA",
+        "Leucine",
+        "Isoleucine",
+        "Valine"
+      ]
+    },
+    {
+      "id": "SleepQuality",
+      "label": "Sleep Quality",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0242499",
+        "GO_ID": "GO:0042592"
+      },
+      "synonyms": [
+        "Quality of sleep"
+      ]
+    },
+    {
+      "id": "Insomnia",
+      "label": "Insomnia",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0917801",
+        "MESH_ID": "D007319"
+      },
+      "synonyms": [
+        "Sleeplessness",
+        "Chronic Insomnia"
+      ]
+    },
+    {
+      "id": "WakeAfterSleepOnset",
+      "label": "Wake After Sleep Onset",
+      "type": "Phenotype",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0425316"
+      },
+      "synonyms": [
+        "WASO",
+        "Sleep Fragmentation"
+      ]
+    },
+    {
+      "id": "GlutamicAcid",
+      "label": "Glutamic acid",
+      "type": "Chemical",
+      "location": "Synapse",
+      "identifiers": {
+        "UMLS_CUI": "C0017725",
+        "CHEBI_ID": "CHEBI:18237"
+      },
+      "synonyms": [
+        "Glutamate",
+        "L-Glutamate"
+      ]
+    },
+    {
+      "id": "Cognition",
+      "label": "Cognition",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0009241",
+        "GO_ID": "GO:0050890"
+      },
+      "synonyms": [
+        "Cognitive Function",
+        "Neuropsychological Performance"
+      ]
+    },
+    {
+      "id": "CognitiveDecline",
+      "label": "Cognitive Decline",
+      "type": "Pathology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0234985"
+      },
+      "synonyms": [
+        "Mental deterioration"
+      ]
+    },
+    {
+      "id": "SleepWakeCycle",
+      "label": "Sleep-wake cycle",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0037333",
+        "GO_ID": "GO:0042171"
+      },
+      "synonyms": [
+        "Sleep-Wake Patterns"
+      ]
+    },
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "Traumatic brain injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111"
+      },
+      "synonyms": [
+        "TBI",
+        "Head Injury"
+      ]
+    },
+    {
+      "id": "Pain",
+      "label": "Pain",
+      "type": "Symptom",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0030193"
+      },
+      "synonyms": [
+        "Ache",
+        "Physical Pain"
+      ]
+    },
+    {
+      "id": "DepressiveDisorder",
+      "label": "Depressive Disorder",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0011570"
+      },
+      "synonyms": [
+        "Depression"
+      ]
+    },
+    {
+      "id": "PostTraumaticStressDisorder",
+      "label": "Post-traumatic stress disorder",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0038436"
+      },
+      "synonyms": [
+        "PTSD"
+      ]
+    },
+    {
+      "id": "Age",
+      "label": "Age",
+      "type": "Attribute",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0001779"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "BiologicalSex",
+      "label": "Sex",
+      "type": "Attribute",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0036823"
+      },
+      "synonyms": [
+        "Gender"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "BranchedChainAminoAcid",
+      "target": "SleepQuality",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        554
+      ],
+      "confidence": "High",
+      "metadata": "Outcome: Improved sleep quality"
+    },
+    {
+      "source": "BranchedChainAminoAcid",
+      "target": "Insomnia",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        554
+      ],
+      "confidence": "High",
+      "metadata": "Effect: Reduces insomnia severity"
+    },
+    {
+      "source": "BranchedChainAminoAcid",
+      "target": "WakeAfterSleepOnset",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        554
+      ],
+      "confidence": "High",
+      "metadata": "Effect: Improves WASO (decreases wake time)"
+    },
+    {
+      "source": "BranchedChainAminoAcid",
+      "target": "GlutamicAcid",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        554
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Mediates production of Glutamate"
+    },
+    {
+      "source": "BranchedChainAminoAcid",
+      "target": "Cognition",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        554,
+        555
+      ],
+      "confidence": "High",
+      "metadata": "Effect: Improves neuropsychological performance and cognitive function"
+    },
+    {
+      "source": "BranchedChainAminoAcid",
+      "target": "CognitiveDecline",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        554
+      ],
+      "confidence": "Medium",
+      "metadata": "Effect: Reduces cognitive decline"
+    },
+    {
+      "source": "BranchedChainAminoAcid",
+      "target": "SleepWakeCycle",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        555
+      ],
+      "confidence": "Medium",
+      "metadata": "Effect: Restores patterns"
+    },
+    {
+      "source": "Age",
+      "target": "SleepQuality",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        555
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Confounding factor"
+    },
+    {
+      "source": "BiologicalSex",
+      "target": "SleepQuality",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        555
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Confounding factor"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "SleepQuality",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        555
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Confounding factor (Recent TBI)"
+    },
+    {
+      "source": "Pain",
+      "target": "SleepQuality",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        555
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Confounding factor"
+    },
+    {
+      "source": "DepressiveDisorder",
+      "target": "SleepQuality",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        555
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Confounding factor"
+    },
+    {
+      "source": "PostTraumaticStressDisorder",
+      "target": "SleepQuality",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        555
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Confounding factor"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+[
+    {
+        "source_abstract_id":39,
+        "subject":"Interleukin-2-Inducible T-Cell Kinase",
+        "relation":"upregulates",
+        "object":"Inflammatory Response",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":39,
+        "subject":"Interleukin-2-Inducible T-Cell Kinase Inhibitor",
+        "relation":"reduces",
+        "object":"Activation of Inflammatory Response",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":39,
+        "subject":"Controlled Cortical Impact",
+        "relation":"induces",
+        "object":"Interleukin-2-Inducible T-Cell Kinase Activation",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":39,
+        "subject":"Interleukin-2-Inducible T-Cell Kinase Inhibition",
+        "relation":"improves",
+        "object":"Neurological Outcomes",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":74,
+        "subject":"Absence of T Lymphocytes",
+        "relation":"enhances",
+        "object":"Anti-inflammatory Phenotype",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":39,
+        "subject":"Microglial IL2-inducible T-cell Kinase",
+        "relation":"mediates",
+        "object":"Neuroinflammation",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":39,
+        "subject":"IL2-inducible T-cell Kinase",
+        "relation":"mediates",
+        "object":"Behavioral Deficits",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":39,
+        "subject":"IL2-inducible T-cell Kinase Expression",
+        "relation":"associated_with",
+        "object":"Chronic Traumatic Encephalopathy",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":289,
+        "subject":"Toll-like receptor 2",
+        "relation":"upregulates",
+        "object":"Inflammatory genes",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":289,
+        "subject":"Toll-like receptor 4",
+        "relation":"upregulates",
+        "object":"Inflammatory genes",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":289,
+        "subject":"Toll-like receptor 9",
+        "relation":"upregulates",
+        "object":"Inflammatory genes",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":289,
+        "subject":"Toll-like receptor 2",
+        "relation":"binds_to",
+        "object":"Cytokines",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":289,
+        "subject":"Toll-like receptor 4",
+        "relation":"binds_to",
+        "object":"Cytokines",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":289,
+        "subject":"Toll-like receptor 9",
+        "relation":"binds_to",
+        "object":"Cytokines",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":411,
+        "subject":"MAP4K-mediated_phosphorylation",
+        "relation":"controls",
+        "object":"Wnt\/β-catenin_pathway",
+        "entity_variants":"not applicable|"
+    }
+]

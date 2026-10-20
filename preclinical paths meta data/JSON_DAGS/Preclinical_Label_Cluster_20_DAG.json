@@ -1,0 +1,634 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 28,
+    "edge_count": 27
+  },
+  "nodes": [
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "Traumatic Brain Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111"
+      },
+      "synonyms": [
+        "TBI",
+        "Brain Injury"
+      ]
+    },
+    {
+      "id": "MAPK1",
+      "label": "MAPK1",
+      "type": "Protein",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "HGNC_ID": "HGNC:6871",
+        "UMLS_CUI": "C1416957",
+        "UniProt_ID": "P28482"
+      },
+      "synonyms": [
+        "MAP Kinase",
+        "ERK2",
+        "Mitogen-activated protein kinase 1"
+      ]
+    },
+    {
+      "id": "GSK3B",
+      "label": "GSK3B",
+      "type": "Protein",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "HGNC_ID": "HGNC:4617",
+        "UMLS_CUI": "C1415443",
+        "UniProt_ID": "P49841"
+      },
+      "synonyms": [
+        "Glycogen Synthase Kinase 3 Beta"
+      ]
+    },
+    {
+      "id": "GSK239512",
+      "label": "GSK239512",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "CN239512"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Remyelination",
+      "label": "Remyelination",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0597146"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "DAPK1",
+      "label": "DAPK1",
+      "type": "Protein",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "HGNC_ID": "HGNC:2674",
+        "UMLS_CUI": "C1413861",
+        "UniProt_ID": "P53355"
+      },
+      "synonyms": [
+        "Death-Associated Protein Kinase 1"
+      ]
+    },
+    {
+      "id": "Neuropathology",
+      "label": "Neuropathology",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027866"
+      },
+      "synonyms": [
+        "Neuropathology Development"
+      ]
+    },
+    {
+      "id": "BehavioralDeficit",
+      "label": "Behavioral Symptoms",
+      "type": "Symptom",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0233514"
+      },
+      "synonyms": [
+        "Behavioral Impairments",
+        "Behavioral Dysfunction"
+      ]
+    },
+    {
+      "id": "CTNNB1",
+      "label": "CTNNB1",
+      "type": "Protein",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "HGNC_ID": "HGNC:2514",
+        "UMLS_CUI": "C1413554",
+        "UniProt_ID": "P35222"
+      },
+      "synonyms": [
+        "Beta-Catenin"
+      ]
+    },
+    {
+      "id": "Neurodegeneration",
+      "label": "Neurodegeneration",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027746"
+      },
+      "synonyms": [
+        "Neurodegenerative process"
+      ]
+    },
+    {
+      "id": "RIPK1",
+      "label": "RIPK1",
+      "type": "Protein",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "HGNC_ID": "HGNC:10019",
+        "UMLS_CUI": "C1420109",
+        "UniProt_ID": "Q13546"
+      },
+      "synonyms": [
+        "Receptor-Interacting Serine/Threonine-Protein Kinase 1"
+      ]
+    },
+    {
+      "id": "RIPK3",
+      "label": "RIPK3",
+      "type": "Protein",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "HGNC_ID": "HGNC:10021",
+        "UMLS_CUI": "C1420111",
+        "UniProt_ID": "Q9Y572"
+      },
+      "synonyms": [
+        "Receptor-Interacting Serine/Threonine-Protein Kinase 3"
+      ]
+    },
+    {
+      "id": "Neuroprotection",
+      "label": "Neuroprotection",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027869"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "MLKL",
+      "label": "MLKL",
+      "type": "Protein",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "HGNC_ID": "HGNC:17076",
+        "UMLS_CUI": "C1422709",
+        "UniProt_ID": "Q8NB16"
+      },
+      "synonyms": [
+        "Mixed Lineage Kinase Domain-Like Protein"
+      ]
+    },
+    {
+      "id": "Astrocytosis",
+      "label": "Astrocytosis",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0004133"
+      },
+      "synonyms": [
+        "Astrocyte Activation",
+        "Astrogliosis"
+      ]
+    },
+    {
+      "id": "MicroglialActivation",
+      "label": "Microglial Activation",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0026027"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "ChronicBrainDamage",
+      "label": "Chronic Brain Damage",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006112"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Memory",
+      "label": "Memory",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0025260"
+      },
+      "synonyms": [
+        "Memory Function"
+      ]
+    },
+    {
+      "id": "WntSignalingPathway",
+      "label": "Wnt Signaling Pathway",
+      "type": "Process",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "UMLS_CUI": "C1515277"
+      },
+      "synonyms": [
+        "Glycogen Synthase Kinase 3 Beta/Beta-Catenin Signaling"
+      ]
+    },
+    {
+      "id": "GSK2606414",
+      "label": "GSK2606414",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "CN2606414"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "MARK4",
+      "label": "MARK4",
+      "type": "Protein",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "HGNC_ID": "HGNC:16636",
+        "UMLS_CUI": "C1422312",
+        "UniProt_ID": "Q96L34"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "MAPT",
+      "label": "MAPT",
+      "type": "Protein",
+      "location": "Neuron",
+      "identifiers": {
+        "HGNC_ID": "HGNC:6893",
+        "UMLS_CUI": "C0039392",
+        "UniProt_ID": "P10636"
+      },
+      "synonyms": [
+        "Tau",
+        "Tau Protein",
+        "Tau Phosphorylation"
+      ]
+    },
+    {
+      "id": "Tauopathy",
+      "label": "Tauopathy",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C1864190"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "ZNF367",
+      "label": "ZNF367",
+      "type": "Protein",
+      "location": "Nucleus",
+      "identifiers": {
+        "HGNC_ID": "HGNC:26487",
+        "UMLS_CUI": "C1826040",
+        "UniProt_ID": "Q7Z3K3"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "LRRK2",
+      "label": "LRRK2",
+      "type": "Protein",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "HGNC_ID": "HGNC:18618",
+        "UMLS_CUI": "C1425110",
+        "UniProt_ID": "Q5S007"
+      },
+      "synonyms": [
+        "Leucine-Rich Repeat Kinase 2"
+      ]
+    },
+    {
+      "id": "MTOR",
+      "label": "MTOR",
+      "type": "Protein",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "HGNC_ID": "HGNC:3942",
+        "UMLS_CUI": "C1417249",
+        "UniProt_ID": "P42345"
+      },
+      "synonyms": [
+        "Mechanistic Target of Rapamycin Signaling"
+      ]
+    },
+    {
+      "id": "Neuroinflammation",
+      "label": "Neuroinflammation",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027786"
+      },
+      "synonyms": [
+        "Neuronal Inflammation"
+      ]
+    },
+    {
+      "id": "EIF2AK3",
+      "label": "EIF2AK3",
+      "type": "Protein",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "HGNC_ID": "HGNC:3253",
+        "UMLS_CUI": "C1414418",
+        "UniProt_ID": "Q9NZJ5"
+      },
+      "synonyms": [
+        "PERK",
+        "Protein Kinase R (PKR)-like Endoplasmic Reticulum Kinase"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "MAPK1",
+      "mechanism": "activates",
+      "evidence_ref": [
+        26
+      ],
+      "confidence": "High",
+      "metadata": "Context: Phosphorylation of MAP Kinase"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "GSK3B",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        42
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "GSK239512",
+      "target": "Remyelination",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        44
+      ],
+      "confidence": "High",
+      "metadata": "Action: Promotes"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "DAPK1",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        65
+      ],
+      "confidence": "High",
+      "metadata": "Action: Triggers"
+    },
+    {
+      "source": "DAPK1",
+      "target": "Neuropathology",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        65
+      ],
+      "confidence": "High",
+      "metadata": "Action: Attenuates"
+    },
+    {
+      "source": "DAPK1",
+      "target": "BehavioralDeficit",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        65
+      ],
+      "confidence": "High",
+      "metadata": "Action: Improves impairments"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "CTNNB1",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        156
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Neurodegeneration",
+      "mechanism": "causes",
+      "evidence_ref": [
+        183
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "RIPK1",
+      "target": "Neuroprotection",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        183
+      ],
+      "confidence": "High",
+      "metadata": "Inferred: Deficiency of RIPK1 mediates neuroprotection"
+    },
+    {
+      "source": "RIPK3",
+      "target": "Neuroprotection",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        183
+      ],
+      "confidence": "High",
+      "metadata": "Inferred: Deficiency of RIPK3 mediates neuroprotection"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "MLKL",
+      "mechanism": "activates",
+      "evidence_ref": [
+        183
+      ],
+      "confidence": "High",
+      "metadata": "Context: Increases phosphorylated MLKL"
+    },
+    {
+      "source": "RIPK1",
+      "target": "Astrocytosis",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        183
+      ],
+      "confidence": "High",
+      "metadata": "Inferred: Deficiency downregulates activation"
+    },
+    {
+      "source": "RIPK3",
+      "target": "MicroglialActivation",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        183
+      ],
+      "confidence": "High",
+      "metadata": "Inferred: Deficiency downregulates activation"
+    },
+    {
+      "source": "RIPK1",
+      "target": "ChronicBrainDamage",
+      "mechanism": "causes",
+      "evidence_ref": [
+        183
+      ],
+      "confidence": "High",
+      "metadata": "Context: Wild-type mice"
+    },
+    {
+      "source": "RIPK3",
+      "target": "ChronicBrainDamage",
+      "mechanism": "causes",
+      "evidence_ref": [
+        183
+      ],
+      "confidence": "High",
+      "metadata": "Context: Wild-type mice"
+    },
+    {
+      "source": "Neuroprotection",
+      "target": "Memory",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        183
+      ],
+      "confidence": "High",
+      "metadata": "Action: Improves function"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "WntSignalingPathway",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        244
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "MARK4",
+      "target": "MAPT",
+      "mechanism": "phosphorylates",
+      "evidence_ref": [
+        358
+      ],
+      "confidence": "High",
+      "metadata": "Inferred: Knockout downregulates phosphorylation"
+    },
+    {
+      "source": "MARK4",
+      "target": "Tauopathy",
+      "mechanism": "causes",
+      "evidence_ref": [
+        358
+      ],
+      "confidence": "High",
+      "metadata": "Inferred: Knockout attenuates Tauopathy"
+    },
+    {
+      "source": "MARK4",
+      "target": "Astrocytosis",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        358
+      ],
+      "confidence": "Medium",
+      "metadata": "Inferred: Knockout upregulates Astrogliosis (Possible conflicting biological role)"
+    },
+    {
+      "source": "MARK4",
+      "target": "Neurodegeneration",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        358
+      ],
+      "confidence": "Medium",
+      "metadata": "Inferred: Knockout causes Neurodegeneration (Conflicting with Tauopathy data)"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "ZNF367",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        367
+      ],
+      "confidence": "High",
+      "metadata": "Context: Lower expression in TBI model"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "LRRK2",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        331
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "MTOR",
+      "target": "Neuroinflammation",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        242
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "EIF2AK3",
+      "mechanism": "activates",
+      "evidence_ref": [
+        323
+      ],
+      "confidence": "High",
+      "metadata": "Context: PERK Pathway"
+    },
+    {
+      "source": "EIF2AK3",
+      "target": "Neurodegeneration",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        323
+      ],
+      "confidence": "High",
+      "metadata": "Action: Associated with"
+    },
+    {
+      "source": "GSK2606414",
+      "target": "EIF2AK3",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        323
+      ],
+      "confidence": "Medium",
+      "metadata": "Inferred from chemical identity and context (Does not treat recovery)"
+    }
+  ]
+}

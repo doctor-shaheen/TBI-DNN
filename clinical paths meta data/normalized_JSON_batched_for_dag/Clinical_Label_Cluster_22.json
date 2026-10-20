@@ -1,0 +1,527 @@
+[
+    {
+        "source_abstract_id":173,
+        "subject":"Sleep Quality",
+        "relation":"associated_with",
+        "object":"Obstructive Sleep Apnea Risk",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":215,
+        "subject":"Age of First Exposure",
+        "relation":"downregulates",
+        "object":"Sleep Disturbances",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":215,
+        "subject":"Age",
+        "relation":"upregulates",
+        "object":"Sleep Disturbances",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":251,
+        "subject":"Obstructive Sleep Apnea",
+        "relation":"associated_with",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":251,
+        "subject":"Obstructive Sleep Apnea",
+        "relation":"associated_with",
+        "object":"Complex Processing Speed",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":251,
+        "subject":"Obstructive Sleep Apnea",
+        "relation":"associated_with",
+        "object":"Executive Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":251,
+        "subject":"Obstructive Sleep Apnea",
+        "relation":"associated_with",
+        "object":"Symptom Burden",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":251,
+        "subject":"Obstructive Sleep Apnea",
+        "relation":"associated_with",
+        "object":"Neurobehavioral Symptom Inventory",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":441,
+        "subject":"Hypnotics Use",
+        "relation":"increases_risk_of",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":441,
+        "subject":"Hypnotics Use",
+        "relation":"increases_risk_of",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":441,
+        "subject":"Insomnia",
+        "relation":"no_direct_causal_link_with",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":598,
+        "subject":"Sleep Apnea",
+        "relation":"increases_risk_of",
+        "object":"Incident Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":251,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Obstructive Sleep Apnea",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":129,
+        "subject":"Military Exposure",
+        "relation":"causes",
+        "object":"Sleep Difficulty",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":332,
+        "subject":"REM Sleep Behavior Disorder",
+        "relation":"associated_with",
+        "object":"Depressive Disorder",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":43,
+        "subject":"Antidepressive Agents",
+        "relation":"prevents",
+        "object":"Insomnia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":173,
+        "subject":"Sleep Quality",
+        "relation":"associated_with",
+        "object":"Executive Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":173,
+        "subject":"Neurodegenerative Disease",
+        "relation":"associated_with",
+        "object":"Poor Sleep",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":173,
+        "subject":"Cognitive Function",
+        "relation":"associated_with",
+        "object":"Sleep Quality",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":173,
+        "subject":"Sleep Quality",
+        "relation":"associated_with",
+        "object":"Cognitive Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":173,
+        "subject":"Risk of Obstructive Sleep Apnea",
+        "relation":"associated_with",
+        "object":"Sleep Quality",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":173,
+        "subject":"Sleep Quality",
+        "relation":"associated_with",
+        "object":"Plasma Biomarkers",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":196,
+        "subject":"Sleep Quality",
+        "relation":"mediates",
+        "object":"Depressive Disorder",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":196,
+        "subject":"Sleep Quality",
+        "relation":"correlates_with",
+        "object":"Cognitive Symptoms",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":196,
+        "subject":"Sleep Quality",
+        "relation":"correlates_with",
+        "object":"Cognitive Symptoms",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":312,
+        "subject":"Sleep-Wake Cycle Disturbance",
+        "relation":"causes",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":312,
+        "subject":"Sleep-Wake Cycle Disturbance",
+        "relation":"mediates",
+        "object":"Cognitive Test Performance",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":312,
+        "subject":"Cognitive Impairment",
+        "relation":"associated_with",
+        "object":"Sleep-Wake Cycle Disturbance",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":375,
+        "subject":"Sleep Disturbances",
+        "relation":"causes",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":399,
+        "subject":"Gender",
+        "relation":"affects",
+        "object":"Sleep Disturbances",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":411,
+        "subject":"Group 2",
+        "relation":"associated_with",
+        "object":"Sleep Quality",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":554,
+        "subject":"Sleep Quality",
+        "relation":"affects",
+        "object":"Cognitive Function",
+        "entity_variants":"sleep_quality"
+    },
+    {
+        "source_abstract_id":612,
+        "subject":"Glymphatic Clearance",
+        "relation":"is_impacted_by",
+        "object":"Sleep Disruption",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":75,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Sleep Disorders",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":162,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Isolated REM Sleep Behavior Disorder",
+        "entity_variants":"<not_reported>"
+    },
+    {
+        "source_abstract_id":162,
+        "subject":"Isolated REM Sleep Behavior Disorder",
+        "relation":"associated_with",
+        "object":"Neurodegenerative Diseases",
+        "entity_variants":"<not_reported>"
+    },
+    {
+        "source_abstract_id":162,
+        "subject":"Isolated REM Sleep Behavior Disorder",
+        "relation":"causes",
+        "object":"Synucleinopathies",
+        "entity_variants":"<not_reported>"
+    },
+    {
+        "source_abstract_id":332,
+        "subject":"REM Sleep Behavior Disorder",
+        "relation":"associated_with",
+        "object":"Neurotrauma",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":332,
+        "subject":"Neurotrauma",
+        "relation":"associated_with",
+        "object":"Autonomic Nervous System Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":332,
+        "subject":"REM Sleep Behavior Disorder and Neurotrauma",
+        "relation":"associated_with",
+        "object":"Hypertension",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":332,
+        "subject":"REM Sleep Behavior Disorder and Neurotrauma",
+        "relation":"associated_with",
+        "object":"Severe REM Sleep Behavior Disorder Phenotype",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":332,
+        "subject":"REM Sleep Behavior Disorder and Neurotrauma",
+        "relation":"associated_with",
+        "object":"Neurodegenerative Process",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":399,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Sleep Disturbances",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":403,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Autonomic Dysfunction",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":403,
+        "subject":"Autonomic Dysfunction",
+        "relation":"mediates",
+        "object":"Clinical Features of Traumatic Brain Injury",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":403,
+        "subject":"Autonomic Nervous System Dysfunction",
+        "relation":"predicts",
+        "object":"Complications of Traumatic Brain Injury",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":464,
+        "subject":"REM Sleep Behavior Disorder",
+        "relation":"associated_with",
+        "object":"Depression",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":464,
+        "subject":"REM Sleep Behavior Disorder",
+        "relation":"associated_with",
+        "object":"Apathy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":464,
+        "subject":"REM Sleep Behavior Disorder",
+        "relation":"associated_with",
+        "object":"Hyposmia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":464,
+        "subject":"REM Sleep Behavior Disorder",
+        "relation":"associated_with",
+        "object":"Quality of Life",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":464,
+        "subject":"REM Sleep Behavior Disorder",
+        "relation":"associated_with",
+        "object":"Constipation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":464,
+        "subject":"REM Sleep Behavior Disorder",
+        "relation":"associated_with",
+        "object":"Orthostatic Hypotension",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":464,
+        "subject":"REM Sleep Behavior Disorder",
+        "relation":"associated_with",
+        "object":"Head Injury",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":554,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Sleep Disturbances",
+        "entity_variants":"TBI"
+    },
+    {
+        "source_abstract_id":555,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Sleep Disturbances",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":615,
+        "subject":"REM Sleep Behavior Disorder",
+        "relation":"causes",
+        "object":"Autonomic Dysfunction",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":615,
+        "subject":"Neurotrauma",
+        "relation":"upregulates",
+        "object":"REM Sleep Behavior Disorder Related Symptom Severity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":615,
+        "subject":"REM Sleep Behavior Disorder",
+        "relation":"causes",
+        "object":"Earlier Age of Symptom Onset",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":615,
+        "subject":"REM Sleep Behavior Disorder and Neurotrauma",
+        "relation":"associated_with",
+        "object":"Hypertension",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":615,
+        "subject":"REM Sleep Behavior Disorder and Neurotrauma",
+        "relation":"associated_with",
+        "object":"Neurological Features Indicative of Prodromal Synucleinopathy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":615,
+        "subject":"Heart Rate Variability",
+        "relation":"is_biomarker_for",
+        "object":"Early Neurodegeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":615,
+        "subject":"REM Sleep Behavior Disorder and Neurotrauma",
+        "relation":"associated_with",
+        "object":"Increased REM Sleep Behavior Disorder Related Symptom Severity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":615,
+        "subject":"REM Sleep Behavior Disorder and Neurotrauma",
+        "relation":"associated_with",
+        "object":"Greater Autonomic Dysfunction",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":615,
+        "subject":"REM Sleep Behavior Disorder",
+        "relation":"associated_with",
+        "object":"Neurodegenerative Conditions",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":615,
+        "subject":"Heart Rate Variability",
+        "relation":"decreased_in",
+        "object":"REM Sleep Behavior Disorder and Neurotrauma",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":622,
+        "subject":"Hippocampal Atrophy",
+        "relation":"causes",
+        "object":"Dopaminergic Network Dysregulation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":629,
+        "subject":"REM Sleep Behavior Disorder",
+        "relation":"decreases",
+        "object":"Heart Rate Variability",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":629,
+        "subject":"Neurotrauma",
+        "relation":"decreases",
+        "object":"Heart Rate Variability",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":629,
+        "subject":"REM Sleep Behavior Disorder and Neurotrauma",
+        "relation":"causes",
+        "object":"Autonomic Dysfunction",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":629,
+        "subject":"Heart Rate Variability",
+        "relation":"mediates",
+        "object":"Neurodegeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":629,
+        "subject":"REM Sleep Behavior Disorder",
+        "relation":"increases",
+        "object":"Neurodegenerative Symptom Burden",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":629,
+        "subject":"REM Sleep Behavior Disorder",
+        "relation":"associated_with",
+        "object":"Neurodegenerative Symptoms",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":629,
+        "subject":"Heart Rate Variability",
+        "relation":"indicates",
+        "object":"Autonomic Nervous System Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":629,
+        "subject":"REM Sleep Behavior Disorder and Neurotrauma",
+        "relation":"exacerbates",
+        "object":"Autonomic Dysfunction",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":629,
+        "subject":"Heart Rate Variability",
+        "relation":"correlates_with",
+        "object":"Neurodegenerative Conditions",
+        "entity_variants":null
+    }
+]

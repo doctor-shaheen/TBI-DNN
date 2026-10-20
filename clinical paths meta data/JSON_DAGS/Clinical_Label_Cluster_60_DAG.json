@@ -1,0 +1,640 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 29,
+    "edge_count": 29
+  },
+  "nodes": [
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "Traumatic Brain Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111"
+      },
+      "synonyms": [
+        "TBI",
+        "Pediatric Traumatic Brain Injury",
+        "Chronic Traumatic Brain Injury",
+        "Head Injury"
+      ]
+    },
+    {
+      "id": "TraumaticEncephalopathySyndrome",
+      "label": "Traumatic Encephalopathy Syndrome",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C4015694"
+      },
+      "synonyms": [
+        "TES"
+      ]
+    },
+    {
+      "id": "Polytrauma",
+      "label": "Multiple Trauma",
+      "type": "Disease",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0026767"
+      },
+      "synonyms": [
+        "Polytrauma"
+      ]
+    },
+    {
+      "id": "NeuropsychiatricSymptoms",
+      "label": "Neuropsychiatric Manifestation",
+      "type": "Symptom",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027810"
+      },
+      "synonyms": [
+        "Behavioral Changes",
+        "Psychiatric Disorders",
+        "Emotional Symptoms",
+        "Behavioral Abnormalities",
+        "Psychiatric Symptoms"
+      ]
+    },
+    {
+      "id": "CardiovascularDisease",
+      "label": "Cardiovascular Diseases",
+      "type": "Disease",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0007222"
+      },
+      "synonyms": [
+        "Vascular Risk Factors",
+        "Cardiovascular Risk"
+      ]
+    },
+    {
+      "id": "Apathy",
+      "label": "Apathy",
+      "type": "Symptom",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0003460"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "BrainLesion",
+      "label": "Brain Lesion",
+      "type": "Pathology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0270613"
+      },
+      "synonyms": [
+        "Tertiary Lesions"
+      ]
+    },
+    {
+      "id": "SuicidalIdeation",
+      "label": "Suicidal Ideation",
+      "type": "Symptom",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0038662"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Suicide",
+      "label": "Suicide",
+      "type": "Event",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0038661"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "LungDiseases",
+      "label": "Lung Diseases",
+      "type": "Disease",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0024115"
+      },
+      "synonyms": [
+        "Pulmonary Disease"
+      ]
+    },
+    {
+      "id": "CerebrovascularReactivity",
+      "label": "Cerebrovascular Reactivity",
+      "type": "Physiology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0007802"
+      },
+      "synonyms": [
+        "Cerebral Vasoreactivity"
+      ]
+    },
+    {
+      "id": "BloodFlowVelocity",
+      "label": "Blood Flow Velocity",
+      "type": "Physiology",
+      "location": "Blood",
+      "identifiers": {
+        "UMLS_CUI": "C0005838"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "ReactionTime",
+      "label": "Reaction Time",
+      "type": "Physiology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0034789"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Comorbidity",
+      "label": "Comorbidity",
+      "type": "Disease",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0009424"
+      },
+      "synonyms": [
+        "Charlson Comorbidity Index"
+      ]
+    },
+    {
+      "id": "ExerciseTolerance",
+      "label": "Exercise Tolerance",
+      "type": "Physiology",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0015260"
+      },
+      "synonyms": [
+        "Six-Minute Walk Test Distance"
+      ]
+    },
+    {
+      "id": "CerebrovascularCirculation",
+      "label": "Cerebrovascular Circulation",
+      "type": "Physiology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0007779"
+      },
+      "synonyms": [
+        "Cerebral Blood Flow"
+      ]
+    },
+    {
+      "id": "Hypoperfusion",
+      "label": "Hypoperfusion",
+      "type": "Pathology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0349405"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "ImpulsiveBehavior",
+      "label": "Impulsive Behavior",
+      "type": "Symptom",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0021125"
+      },
+      "synonyms": [
+        "Impulsive Responses"
+      ]
+    },
+    {
+      "id": "GeneExpression",
+      "label": "Gene Expression",
+      "type": "Process",
+      "location": "Nucleus",
+      "identifiers": {
+        "UMLS_CUI": "C0017337"
+      },
+      "synonyms": [
+        "Transcriptional Changes"
+      ]
+    },
+    {
+      "id": "MotorDisorders",
+      "label": "Motor Disorders",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0026650"
+      },
+      "synonyms": [
+        "Motor Disturbances"
+      ]
+    },
+    {
+      "id": "CerebralRemodeling",
+      "label": "Tissue Remodeling",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0597374"
+      },
+      "synonyms": [
+        "Cerebral Remodelling"
+      ]
+    },
+    {
+      "id": "Gait",
+      "label": "Gait",
+      "type": "Physiology",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0016961"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "IntracranialHemorrhage",
+      "label": "Intracranial Hemorrhage",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0021829"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Death",
+      "label": "Death",
+      "type": "Event",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0011065"
+      },
+      "synonyms": [
+        "Mortality"
+      ]
+    },
+    {
+      "id": "Disability",
+      "label": "Disability",
+      "type": "Symptom",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0231170"
+      },
+      "synonyms": [
+        "Functional Impairment",
+        "Functional Dependence",
+        "Functional Loss",
+        "Long-Term Disability",
+        "Participation Restrictions"
+      ]
+    },
+    {
+      "id": "QualityOfLife",
+      "label": "Quality of Life",
+      "type": "Concept",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0034459"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "BrainStructure",
+      "label": "Brain Structure",
+      "type": "Anatomy",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006104"
+      },
+      "synonyms": [
+        "Structural Integrity",
+        "Structural Brain Abnormalities"
+      ]
+    },
+    {
+      "id": "Hospitalization",
+      "label": "Hospitalization",
+      "type": "Event",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0019993"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Aggression",
+      "label": "Aggression",
+      "type": "Symptom",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0001807"
+      },
+      "synonyms": [
+        "Subjective Aggressiveness"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "NeuropsychiatricSymptoms",
+      "mechanism": "causes",
+      "evidence_ref": [
+        8,
+        39,
+        143,
+        349,
+        377,
+        489,
+        524,
+        572,
+        597
+      ],
+      "confidence": "High",
+      "metadata": "Encompasses behavioral changes, psychiatric symptoms, and emotional disturbances"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "CardiovascularDisease",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        18,
+        48
+      ],
+      "confidence": "Medium",
+      "metadata": "Also modulates vascular risk factors"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Apathy",
+      "mechanism": "causes",
+      "evidence_ref": [
+        21
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "BrainLesion",
+      "mechanism": "causes",
+      "evidence_ref": [
+        25
+      ],
+      "confidence": "Medium",
+      "metadata": "Specifically tertiary lesions"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "SuicidalIdeation",
+      "mechanism": "causes",
+      "evidence_ref": [
+        39,
+        75
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Suicide",
+      "mechanism": "causes",
+      "evidence_ref": [
+        39
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "LungDiseases",
+      "mechanism": "causes",
+      "evidence_ref": [
+        75
+      ],
+      "confidence": "Low"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "CerebrovascularReactivity",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        248
+      ],
+      "confidence": "Medium",
+      "metadata": "Impairs reactivity"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "BloodFlowVelocity",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        248
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Middle Cerebral Artery"
+    },
+    {
+      "source": "Polytrauma",
+      "target": "TraumaticBrainInjury",
+      "mechanism": "associated_with",
+      "evidence_ref": [
+        371
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Polytrauma Clinical Triad"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "ReactionTime",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        282
+      ],
+      "confidence": "Low"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Comorbidity",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        347
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Charlson Comorbidity Index"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "ExerciseTolerance",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        358
+      ],
+      "confidence": "Medium",
+      "metadata": "Measured by Six-Minute Walk Test"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "CerebrovascularCirculation",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        370
+      ],
+      "confidence": "Medium",
+      "metadata": "Refers to Cerebral Blood Flow"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Hypoperfusion",
+      "mechanism": "causes",
+      "evidence_ref": [
+        370
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "ImpulsiveBehavior",
+      "mechanism": "causes",
+      "evidence_ref": [
+        374
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "GeneExpression",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        577
+      ],
+      "confidence": "Medium",
+      "metadata": "Transcriptional changes"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "MotorDisorders",
+      "mechanism": "causes",
+      "evidence_ref": [
+        21
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "CerebralRemodeling",
+      "mechanism": "causes",
+      "evidence_ref": [
+        25
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Gait",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        48
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "IntracranialHemorrhage",
+      "mechanism": "causes",
+      "evidence_ref": [
+        281,
+        471
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Death",
+      "mechanism": "causes",
+      "evidence_ref": [
+        281,
+        621
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Disability",
+      "mechanism": "causes",
+      "evidence_ref": [
+        75,
+        281,
+        317,
+        500,
+        514,
+        546,
+        579,
+        588
+      ],
+      "confidence": "High",
+      "metadata": "Includes functional dependence and impairment"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "QualityOfLife",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        358,
+        514
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "BrainStructure",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        214,
+        381,
+        452
+      ],
+      "confidence": "Medium",
+      "metadata": "Reduces structural integrity"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Hospitalization",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        471
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "TraumaticEncephalopathySyndrome",
+      "target": "NeuropsychiatricSymptoms",
+      "mechanism": "causes",
+      "evidence_ref": [
+        540
+      ],
+      "confidence": "Medium",
+      "metadata": "Symptom severity"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Aggression",
+      "mechanism": "causes",
+      "evidence_ref": [
+        239
+      ],
+      "confidence": "Medium"
+    }
+  ]
+}

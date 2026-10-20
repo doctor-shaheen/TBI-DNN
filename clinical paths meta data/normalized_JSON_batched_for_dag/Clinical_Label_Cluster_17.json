@@ -1,0 +1,170 @@
+[
+    {
+        "source_abstract_id":55,
+        "subject":"Diffuse Axonal Injury",
+        "relation":"predicts",
+        "object":"Neurodegeneration",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":55,
+        "subject":"Fractional Anisotropy",
+        "relation":"predicts",
+        "object":"Brain Atrophy",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":55,
+        "subject":"Diffuse Axonal Injury",
+        "relation":"predicts",
+        "object":"White Matter Atrophy",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":55,
+        "subject":"Diffuse Axonal Injury",
+        "relation":"predicts",
+        "object":"Gray Matter Atrophy",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":55,
+        "subject":"Diffusion Magnetic Resonance Imaging",
+        "relation":"improves",
+        "object":"Prognostic Accuracy",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":55,
+        "subject":"Diffuse Axonal Injury",
+        "relation":"causes",
+        "object":"Toxic Proteinopathies",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":55,
+        "subject":"Axonal Damage",
+        "relation":"causes",
+        "object":"Wallerian Degeneration",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":55,
+        "subject":"Diffuse Axonal Injury",
+        "relation":"affects",
+        "object":"Central White Matter Tracts",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":191,
+        "subject":"National Football League Play",
+        "relation":"causes",
+        "object":"White Matter Changes",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":191,
+        "subject":"National Football League Play",
+        "relation":"associated_with",
+        "object":"White Matter Integrity",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":191,
+        "subject":"Translocator Protein Signal",
+        "relation":"correlates_with",
+        "object":"White Matter Changes",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":191,
+        "subject":"White Matter Changes",
+        "relation":"indicates",
+        "object":"Localized Brain Injury",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":398,
+        "subject":"Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"White Matter Complexity",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":398,
+        "subject":"White Matter Complexity",
+        "relation":"predicts",
+        "object":"Executive Function",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":398,
+        "subject":"White Matter Complexity",
+        "relation":"mediates",
+        "object":"Cognitive Impairment",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":398,
+        "subject":"White Matter Complexity",
+        "relation":"correlates_with",
+        "object":"Cognitive Performance",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":398,
+        "subject":"White Matter Complexity",
+        "relation":"associated_with",
+        "object":"Cognitive Deficits",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":525,
+        "subject":"Diffuse Axonal Injury Stage",
+        "relation":"correlates_with",
+        "object":"Long-Term Outcome",
+        "entity_variants":"unknown|"
+    },
+    {
+        "source_abstract_id":525,
+        "subject":"Diffuse Axonal Injury Stage",
+        "relation":"predicts",
+        "object":"Long-Term Outcome",
+        "entity_variants":"unknown|"
+    },
+    {
+        "source_abstract_id":525,
+        "subject":"Favourable Outcome",
+        "relation":"is_influenced_by",
+        "object":"Diffuse Axonal Injury Stage",
+        "entity_variants":"unknown|"
+    },
+    {
+        "source_abstract_id":525,
+        "subject":"Age",
+        "relation":"correlates_with",
+        "object":"Diffuse Axonal Injury Stage",
+        "entity_variants":"unknown|"
+    },
+    {
+        "source_abstract_id":543,
+        "subject":"Head Injury",
+        "relation":"explains",
+        "object":"Normal Appearing White Matter Microstructure",
+        "entity_variants":"unknown|"
+    },
+    {
+        "source_abstract_id":543,
+        "subject":"Head Injury",
+        "relation":"not_associated_with",
+        "object":"White Matter Hyperintensity Volume",
+        "entity_variants":"unknown|"
+    },
+    {
+        "source_abstract_id":229,
+        "subject":"Cerebellar White Matter Measurements",
+        "relation":"less_reliable_than",
+        "object":"Other Brain Regions",
+        "entity_variants":"none"
+    }
+]

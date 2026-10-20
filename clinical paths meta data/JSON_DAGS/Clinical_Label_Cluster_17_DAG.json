@@ -1,0 +1,431 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 20,
+    "edge_count": 19
+  },
+  "nodes": [
+    {
+      "id": "DiffuseAxonalInjury",
+      "label": "Diffuse Axonal Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0012236"
+      },
+      "synonyms": [
+        "DAI",
+        "Traumatic axonal injury"
+      ]
+    },
+    {
+      "id": "Neurodegeneration",
+      "label": "Neurodegeneration",
+      "type": "Pathology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027746"
+      },
+      "synonyms": [
+        "Neurodegenerative process"
+      ]
+    },
+    {
+      "id": "WhiteMatterIntegrity",
+      "label": "White Matter Integrity",
+      "type": "Phenomenon",
+      "location": "White_Matter",
+      "identifiers": {
+        "UMLS_CUI": "C4073256"
+      },
+      "synonyms": [
+        "Fractional Anisotropy",
+        "White Matter Microstructure"
+      ]
+    },
+    {
+      "id": "BrainAtrophy",
+      "label": "Brain Atrophy",
+      "type": "Pathology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0152434"
+      },
+      "synonyms": [
+        "Cerebral Atrophy"
+      ]
+    },
+    {
+      "id": "WhiteMatterAtrophy",
+      "label": "White Matter Atrophy",
+      "type": "Pathology",
+      "location": "White_Matter",
+      "identifiers": {
+        "UMLS_CUI": "C0241858"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "GrayMatterAtrophy",
+      "label": "Gray Matter Atrophy",
+      "type": "Pathology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0241859"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "DiffusionMRI",
+      "label": "Diffusion Weighted MRI",
+      "type": "Procedure",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "UMLS_CUI": "C0430635"
+      },
+      "synonyms": [
+        "Diffusion Magnetic Resonance Imaging",
+        "dMRI"
+      ]
+    },
+    {
+      "id": "Prognosis",
+      "label": "Prognosis",
+      "type": "Phenomenon",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0033346"
+      },
+      "synonyms": [
+        "Long-Term Outcome",
+        "Clinical Outcome"
+      ]
+    },
+    {
+      "id": "Proteinopathy",
+      "label": "Proteinopathy",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C4721453"
+      },
+      "synonyms": [
+        "Toxic Proteinopathies"
+      ]
+    },
+    {
+      "id": "AxonalInjury",
+      "label": "Axonal Injury",
+      "type": "Pathology",
+      "location": "Neuron",
+      "identifiers": {
+        "UMLS_CUI": "C0151804"
+      },
+      "synonyms": [
+        "Axonal Damage"
+      ]
+    },
+    {
+      "id": "WallerianDegeneration",
+      "label": "Wallerian Degeneration",
+      "type": "Pathology",
+      "location": "Neuron",
+      "identifiers": {
+        "UMLS_CUI": "C0043015"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "ContactSports",
+      "label": "Contact Sports",
+      "type": "Activity",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0525045"
+      },
+      "synonyms": [
+        "National Football League Play"
+      ]
+    },
+    {
+      "id": "TSPO",
+      "label": "TSPO",
+      "type": "Protein",
+      "location": "Microglia",
+      "identifiers": {
+        "UMLS_CUI": "C1420658",
+        "HGNC_ID": "HGNC:12385",
+        "UniProt_ID": "P30536"
+      },
+      "synonyms": [
+        "Translocator protein",
+        "PBR"
+      ]
+    },
+    {
+      "id": "WhiteMatterInjury",
+      "label": "White Matter Injury",
+      "type": "Pathology",
+      "location": "White_Matter",
+      "identifiers": {
+        "UMLS_CUI": "C1285310"
+      },
+      "synonyms": [
+        "White Matter Changes"
+      ]
+    },
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "Traumatic Brain Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111"
+      },
+      "synonyms": [
+        "Head Injury",
+        "Localized Brain Injury"
+      ]
+    },
+    {
+      "id": "WhiteMatterMicrostructure",
+      "label": "White Matter Structure",
+      "type": "Anatomy",
+      "location": "White_Matter",
+      "identifiers": {
+        "UMLS_CUI": "C5232750"
+      },
+      "synonyms": [
+        "White Matter Complexity"
+      ]
+    },
+    {
+      "id": "ExecutiveFunction",
+      "label": "Executive Function",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0015234"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "CognitiveImpairment",
+      "label": "Cognitive Impairment",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0338656"
+      },
+      "synonyms": [
+        "Cognitive Deficits"
+      ]
+    },
+    {
+      "id": "Cognition",
+      "label": "Cognition",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0009241"
+      },
+      "synonyms": [
+        "Cognitive Performance"
+      ]
+    },
+    {
+      "id": "Age",
+      "label": "Age",
+      "type": "Attribute",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0001779"
+      },
+      "synonyms": []
+    }
+  ],
+  "edges": [
+    {
+      "source": "DiffuseAxonalInjury",
+      "target": "Neurodegeneration",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        55
+      ],
+      "confidence": "High",
+      "metadata": "Relation: predicts"
+    },
+    {
+      "source": "WhiteMatterIntegrity",
+      "target": "BrainAtrophy",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        55
+      ],
+      "confidence": "Medium",
+      "metadata": "Metric: Fractional Anisotropy; Relation: predicts"
+    },
+    {
+      "source": "DiffuseAxonalInjury",
+      "target": "WhiteMatterAtrophy",
+      "mechanism": "causes",
+      "evidence_ref": [
+        55
+      ],
+      "confidence": "High",
+      "metadata": "Relation: predicts"
+    },
+    {
+      "source": "DiffuseAxonalInjury",
+      "target": "GrayMatterAtrophy",
+      "mechanism": "causes",
+      "evidence_ref": [
+        55
+      ],
+      "confidence": "High",
+      "metadata": "Relation: predicts"
+    },
+    {
+      "source": "DiffusionMRI",
+      "target": "Prognosis",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        55
+      ],
+      "confidence": "High",
+      "metadata": "Relation: improves accuracy"
+    },
+    {
+      "source": "DiffuseAxonalInjury",
+      "target": "Proteinopathy",
+      "mechanism": "causes",
+      "evidence_ref": [
+        55
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "AxonalInjury",
+      "target": "WallerianDegeneration",
+      "mechanism": "causes",
+      "evidence_ref": [
+        55
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "DiffuseAxonalInjury",
+      "target": "WhiteMatterIntegrity",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        55
+      ],
+      "confidence": "High",
+      "metadata": "Target context: Central White Matter Tracts"
+    },
+    {
+      "source": "ContactSports",
+      "target": "WhiteMatterInjury",
+      "mechanism": "causes",
+      "evidence_ref": [
+        191
+      ],
+      "confidence": "High",
+      "metadata": "Context: NFL Play"
+    },
+    {
+      "source": "ContactSports",
+      "target": "WhiteMatterIntegrity",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        191
+      ],
+      "confidence": "Medium",
+      "metadata": "Relation: associated_with"
+    },
+    {
+      "source": "TSPO",
+      "target": "WhiteMatterInjury",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        191
+      ],
+      "confidence": "Medium",
+      "metadata": "Relation: correlates_with"
+    },
+    {
+      "source": "WhiteMatterInjury",
+      "target": "TraumaticBrainInjury",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        191
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Indicates localized injury"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "WhiteMatterMicrostructure",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        398,
+        543
+      ],
+      "confidence": "High",
+      "metadata": "Includes impacts on Complexity and Normal Appearing White Matter"
+    },
+    {
+      "source": "WhiteMatterMicrostructure",
+      "target": "ExecutiveFunction",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        398
+      ],
+      "confidence": "Medium",
+      "metadata": "Relation: predicts"
+    },
+    {
+      "source": "WhiteMatterMicrostructure",
+      "target": "CognitiveImpairment",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        398
+      ],
+      "confidence": "Medium",
+      "metadata": "Relation: mediates/associated_with"
+    },
+    {
+      "source": "WhiteMatterMicrostructure",
+      "target": "Cognition",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        398
+      ],
+      "confidence": "Medium",
+      "metadata": "Relation: correlates_with"
+    },
+    {
+      "source": "DiffuseAxonalInjury",
+      "target": "Prognosis",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        525
+      ],
+      "confidence": "High",
+      "metadata": "Context: Staging predicts Outcome"
+    },
+    {
+      "source": "Age",
+      "target": "DiffuseAxonalInjury",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        525
+      ],
+      "confidence": "Medium",
+      "metadata": "Relation: correlates_with DAI Stage"
+    }
+  ]
+}

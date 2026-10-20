@@ -1,0 +1,191 @@
+[
+    {
+        "source_abstract_id":69,
+        "subject":"Neuronal Apoptosis",
+        "relation":"contributes_to",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":90,
+        "subject":"Phosphate-Buffered Saline",
+        "relation":"maintains",
+        "object":"Cognitive Impairment",
+        "entity_variants":"PBS"
+    },
+    {
+        "source_abstract_id":98,
+        "subject":"Neuropathology",
+        "relation":"causes",
+        "object":"Sensorimotor Function Deficits",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":98,
+        "subject":"Neuropathology",
+        "relation":"associated_with",
+        "object":"Sensorimotor Function Deficits",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":191,
+        "subject":"Blood-Brain Barrier Damage",
+        "relation":"causes",
+        "object":"Cognitive Deficit",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":198,
+        "subject":"Neuronal Dysfunction",
+        "relation":"causes",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":245,
+        "subject":"Behavioral Deficits",
+        "relation":"depends_on",
+        "object":"Neuropathological Changes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":247,
+        "subject":"Neurodegenerative Processes",
+        "relation":"causes",
+        "object":"Cognitive Impairment",
+        "entity_variants":"not specified|"
+    },
+    {
+        "source_abstract_id":276,
+        "subject":"Tissue Damage",
+        "relation":"causes",
+        "object":"Cognitive Deficits",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":276,
+        "subject":"Mechanical Variables",
+        "relation":"determines",
+        "object":"Cognitive Damage",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":311,
+        "subject":"Neurodegeneration",
+        "relation":"causes",
+        "object":"Sensorimotor Impairments",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":24,
+        "subject":"Integrated Stress Response",
+        "relation":"causes",
+        "object":"Cognitive Deficits",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":24,
+        "subject":"ISRIB",
+        "relation":"treats",
+        "object":"Cognitive Deficits",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":24,
+        "subject":"Integrated Stress Response",
+        "relation":"prevents",
+        "object":"Cognitive Deficits",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":110,
+        "subject":"Cerebrovascular Permeability",
+        "relation":"causes",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":110,
+        "subject":"Cerebrovascular Permeability",
+        "relation":"affects",
+        "object":"Short-Term Memory Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":169,
+        "subject":"Progressive Histopathological Damage",
+        "relation":"associated_with",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":245,
+        "subject":"Neuronal Loss",
+        "relation":"correlates_with",
+        "object":"Behavioral Deficits",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":248,
+        "subject":"Cerebral Hypoperfusion",
+        "relation":"exacerbates",
+        "object":"Vascular Dysfunction",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":266,
+        "subject":"Ktrans",
+        "relation":"correlates_with",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":276,
+        "subject":"Cognitive Deficits",
+        "relation":"predicts",
+        "object":"Neuropsychiatric Disorders",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":276,
+        "subject":"Cognitive Deficits",
+        "relation":"correlates_with",
+        "object":"Literature Findings",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":337,
+        "subject":"Cerebral Cortex Injury",
+        "relation":"causes",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":352,
+        "subject":"Neuronal Dysfunction",
+        "relation":"causes",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":392,
+        "subject":"Electroencephalogram Pattern Changes",
+        "relation":"causes",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":129,
+        "subject":"Kidney Injury Model Mouse",
+        "relation":"demonstrates",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":245,
+        "subject":"White Matter Pathology",
+        "relation":"correlates_with",
+        "object":"Behavioral Deficits",
+        "entity_variants":null
+    }
+]

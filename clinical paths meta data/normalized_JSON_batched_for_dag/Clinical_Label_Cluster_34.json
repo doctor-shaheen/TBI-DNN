@@ -1,0 +1,170 @@
+[
+    {
+        "source_abstract_id":211,
+        "subject":"Age of First Exposure",
+        "relation":"not_associated_with",
+        "object":"Motor Outcomes",
+        "entity_variants":"age first exposed"
+    },
+    {
+        "source_abstract_id":215,
+        "subject":"Age of First Exposure",
+        "relation":"downregulates",
+        "object":"Anxiety",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":215,
+        "subject":"Age of First Exposure",
+        "relation":"downregulates",
+        "object":"Depression",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":215,
+        "subject":"Age of First Exposure",
+        "relation":"downregulates",
+        "object":"Emotional-Behavioral Dyscontrol",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":338,
+        "subject":"Age of First Exposure",
+        "relation":"no_direct_causal_link",
+        "object":"Depressive Symptoms",
+        "entity_variants":"AFE<12, AFE12+"
+    },
+    {
+        "source_abstract_id":338,
+        "subject":"Age of First Exposure",
+        "relation":"no_direct_causal_link",
+        "object":"Anxiety Related Symptoms",
+        "entity_variants":"AFE<12, AFE12+"
+    },
+    {
+        "source_abstract_id":338,
+        "subject":"Age of First Exposure",
+        "relation":"no_direct_causal_link",
+        "object":"Perceived Cognitive Difficulties",
+        "entity_variants":"AFE<12, AFE12+"
+    },
+    {
+        "source_abstract_id":338,
+        "subject":"Age of First Exposure",
+        "relation":"no_direct_causal_link",
+        "object":"Neurobehavioral Dysregulation",
+        "entity_variants":"AFE<12, AFE12+"
+    },
+    {
+        "source_abstract_id":338,
+        "subject":"Age of First Exposure",
+        "relation":"no_direct_causal_link",
+        "object":"Self-Reported Health Conditions",
+        "entity_variants":"AFE<12, AFE12+"
+    },
+    {
+        "source_abstract_id":338,
+        "subject":"Age of First Exposure",
+        "relation":"no_direct_causal_link",
+        "object":"Headaches",
+        "entity_variants":"AFE<12, AFE12+"
+    },
+    {
+        "source_abstract_id":338,
+        "subject":"Age of First Exposure",
+        "relation":"no_direct_causal_link",
+        "object":"Sleep Apnea",
+        "entity_variants":"AFE<12, AFE12+"
+    },
+    {
+        "source_abstract_id":338,
+        "subject":"Age of First Exposure",
+        "relation":"no_direct_causal_link",
+        "object":"Hypertension",
+        "entity_variants":"AFE<12, AFE12+"
+    },
+    {
+        "source_abstract_id":338,
+        "subject":"Age of First Exposure",
+        "relation":"no_direct_causal_link",
+        "object":"Chronic Pain",
+        "entity_variants":"AFE<12, AFE12+"
+    },
+    {
+        "source_abstract_id":338,
+        "subject":"Age of First Exposure",
+        "relation":"no_direct_causal_link",
+        "object":"Memory Loss",
+        "entity_variants":"AFE<12, AFE12+"
+    },
+    {
+        "source_abstract_id":338,
+        "subject":"Age of First Exposure",
+        "relation":"no_direct_causal_link",
+        "object":"Dementia \/ Alzheimer's Disease",
+        "entity_variants":"AFE<12, AFE12+"
+    },
+    {
+        "source_abstract_id":613,
+        "subject":"Contact Sports",
+        "relation":"causes",
+        "object":"Elevated GluA1 Autoantibodies",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":613,
+        "subject":"Noncontact Sports",
+        "relation":"no_change_in",
+        "object":"GluA1 Autoantibodies",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":613,
+        "subject":"GluA1 Autoantibodies",
+        "relation":"correlates_with",
+        "object":"Reaction Time",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":116,
+        "subject":"Age of First Football Exposure",
+        "relation":"not_causally_associated_with",
+        "object":"Cognitive Performance",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":195,
+        "subject":"Contact Sports",
+        "relation":"causes",
+        "object":"Cognitive Impairment",
+        "entity_variants":"Age of First Exposure <12, Age of First Exposure ≥12"
+    },
+    {
+        "source_abstract_id":195,
+        "subject":"Contact Sports",
+        "relation":"decreases",
+        "object":"Executive Function",
+        "entity_variants":"Age of First Exposure <12, Age of First Exposure ≥12"
+    },
+    {
+        "source_abstract_id":195,
+        "subject":"Contact Sports",
+        "relation":"decreases",
+        "object":"Memory",
+        "entity_variants":"Age of First Exposure <12, Age of First Exposure ≥12"
+    },
+    {
+        "source_abstract_id":195,
+        "subject":"Contact Sports",
+        "relation":"decreases",
+        "object":"Verbal IQ",
+        "entity_variants":"Age of First Exposure <12, Age of First Exposure ≥12"
+    },
+    {
+        "source_abstract_id":195,
+        "subject":"Contact Sports",
+        "relation":"causes",
+        "object":"Executive Dysfunction",
+        "entity_variants":"Age of First Exposure <12, Age of First Exposure ≥12"
+    }
+]

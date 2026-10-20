@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 2,
+    "edge_count": 1
+  },
+  "nodes": [
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "TraumaticBrainInjury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111",
+        "MeSH": "D000070642"
+      },
+      "synonyms": [
+        "TBI",
+        "Pediatric Traumatic Brain Injury",
+        "Submild traumatic brain injury",
+        "Traumatic brain injury with loss of consciousness"
+      ]
+    },
+    {
+      "id": "CognitiveDecline",
+      "label": "CognitiveDecline",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0233794"
+      },
+      "synonyms": [
+        "Mental deterioration",
+        "Neurocognitive Decline",
+        "Subjective cognitive decline",
+        "Progressive Cognitive Decline"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "CognitiveDecline",
+      "mechanism": "causes",
+      "evidence_ref": [
+        12,
+        19,
+        39,
+        48,
+        65,
+        78,
+        96,
+        127,
+        154,
+        164,
+        181,
+        214,
+        218,
+        219,
+        254,
+        280,
+        289,
+        317,
+        324,
+        370,
+        427,
+        452,
+        462,
+        509,
+        537,
+        541,
+        561,
+        564,
+        601
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Relationship varies by severity and age; some sources (e.g., 280, 601, 78, 127) report no direct association in specific cohorts (pediatric, mild cases)."
+    }
+  ]
+}

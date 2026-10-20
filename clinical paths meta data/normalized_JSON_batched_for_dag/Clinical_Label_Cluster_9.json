@@ -1,0 +1,758 @@
+[
+    {
+        "source_abstract_id":9,
+        "subject":"Blunt Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Definite Alzheimer Disease Pathology",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":58,
+        "subject":"Traumatic Brain Injury",
+        "relation":"increases_risk_of",
+        "object":"Alzheimer Disease",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":79,
+        "subject":"Head Injury",
+        "relation":"causes",
+        "object":"Alzheimer Disease Pathology",
+        "entity_variants":"ongoing AD process"
+    },
+    {
+        "source_abstract_id":79,
+        "subject":"Brain Injury",
+        "relation":"causes",
+        "object":"Alzheimer Disease Pathology",
+        "entity_variants":"ongoing AD process"
+    },
+    {
+        "source_abstract_id":146,
+        "subject":"Alzheimer Disease Polygenic Risk Score",
+        "relation":"causes",
+        "object":"Return to Play Time",
+        "entity_variants":"PRS"
+    },
+    {
+        "source_abstract_id":146,
+        "subject":"Alzheimer Disease Polygenic Risk Score",
+        "relation":"not_associated_with",
+        "object":"Concussion Severity",
+        "entity_variants":"PRS"
+    },
+    {
+        "source_abstract_id":146,
+        "subject":"Alzheimer Disease Polygenic Risk Score",
+        "relation":"not_associated_with",
+        "object":"Poor Recovery Metrics",
+        "entity_variants":"PRS"
+    },
+    {
+        "source_abstract_id":240,
+        "subject":"Alzheimer Disease",
+        "relation":"interacts_with",
+        "object":"Traumatic Brain Injury",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":245,
+        "subject":"Alzheimer Disease and Related Dementias",
+        "relation":"modifies",
+        "object":"Days at Home",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":245,
+        "subject":"Socioeconomic Disadvantage",
+        "relation":"modifies",
+        "object":"Impact of Alzheimer Disease and Related Dementias on Days at Home",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":245,
+        "subject":"Alzheimer Disease and Related Dementias",
+        "relation":"causes",
+        "object":"Loss of Home Time",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":245,
+        "subject":"Alzheimer Disease and Related Dementias",
+        "relation":"exacerbates",
+        "object":"Impact of Traumatic Brain Injury on Days at Home",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":245,
+        "subject":"Alzheimer Disease and Related Dementias",
+        "relation":"impacts",
+        "object":"Recovery Outcomes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":265,
+        "subject":"Maternal History of Dementia",
+        "relation":"causes",
+        "object":"Intergenerational Difference in Age at Onset of Alzheimer Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":265,
+        "subject":"Years of Education",
+        "relation":"causes",
+        "object":"Intergenerational Difference in Age at Onset of Alzheimer Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":265,
+        "subject":"Retrospective Determination of Age at Onset",
+        "relation":"causes",
+        "object":"Intergenerational Difference in Age at Onset of Alzheimer Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":265,
+        "subject":"Parental History of Early Onset Dementia",
+        "relation":"causes",
+        "object":"Intergenerational Difference in Age at Onset of Alzheimer Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":265,
+        "subject":"History of Hypertension",
+        "relation":"causes",
+        "object":"Intergenerational Difference in Age at Onset of Alzheimer Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":265,
+        "subject":"Missense or Frameshift Variants",
+        "relation":"binds_to",
+        "object":"Intergenerational Difference in Age at Onset of Alzheimer Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":265,
+        "subject":"Active Depression Within 2 Years",
+        "relation":"causes",
+        "object":"Intergenerational Difference in Age at Onset of Alzheimer Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":265,
+        "subject":"Tobacco Use",
+        "relation":"causes",
+        "object":"Intergenerational Difference in Age at Onset of Alzheimer Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":411,
+        "subject":"Group 3",
+        "relation":"associated_with",
+        "object":"Alzheimer Disease Biomarkers",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":488,
+        "subject":"MicroRNA",
+        "relation":"mediates",
+        "object":"Alzheimer Disease",
+        "entity_variants":"not specified"
+    },
+    {
+        "source_abstract_id":501,
+        "subject":"Temporal Lobe Atrophy",
+        "relation":"associated_with",
+        "object":"Alzheimer Disease Phenotype",
+        "entity_variants":"AD phenotype"
+    },
+    {
+        "source_abstract_id":550,
+        "subject":"Education",
+        "relation":"downregulates",
+        "object":"Alzheimer Disease Biomarker Burden",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":550,
+        "subject":"Exercise",
+        "relation":"downregulates",
+        "object":"Alzheimer Disease Biomarker Burden",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":550,
+        "subject":"Traumatic Brain Injury",
+        "relation":"upregulates",
+        "object":"Alzheimer Disease Biomarker Burden",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":599,
+        "subject":"Alzheimer Disease",
+        "relation":"has_finding",
+        "object":"Neuroimaging Markers",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":599,
+        "subject":"Brain Regions",
+        "relation":"show_changes_in",
+        "object":"Alzheimer Disease Patients",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":599,
+        "subject":"Alzheimer Disease Fingerprint",
+        "relation":"used_for",
+        "object":"Neuroimaging Analysis",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":599,
+        "subject":"Structural Imaging",
+        "relation":"reveals",
+        "object":"Alzheimer Disease Pathology",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":599,
+        "subject":"Neuroimaging Markers",
+        "relation":"indicate",
+        "object":"Risk for Alzheimer Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":606,
+        "subject":"Alzheimer Polygenic Risk Score",
+        "relation":"causes",
+        "object":"Return to Play",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":606,
+        "subject":"Alzheimer Polygenic Risk Score",
+        "relation":"causes",
+        "object":"Days to Asymptomatic Status",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":606,
+        "subject":"Alzheimer Polygenic Risk Score",
+        "relation":"associated_with",
+        "object":"Concussion Recovery Metrics",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":606,
+        "subject":"Alzheimer Polygenic Risk Score",
+        "relation":"affects",
+        "object":"Concussion Outcomes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":627,
+        "subject":"Alzheimer Disease",
+        "relation":"disrupts",
+        "object":"Neurometabolic Coupling",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":599,
+        "subject":"Former National Football League Players",
+        "relation":"compared_to",
+        "object":"Alzheimer Disease Patients",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":475,
+        "subject":"Phosphorylated Histone H2AX",
+        "relation":"correlated_with",
+        "object":"Age at death",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":7,
+        "subject":"Astrocytic Degeneration",
+        "relation":"associated_with",
+        "object":"Alzheimer Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":203,
+        "subject":"Self-Reported Traumatic Brain Injury",
+        "relation":"negatively_associated_with",
+        "object":"Alzheimer Disease Neuropathologic Changes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":9,
+        "subject":"Blunt Traumatic Brain Injury",
+        "relation":"not_associated_with",
+        "object":"Alzheimer Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":14,
+        "subject":"Traumatic Brain Injury",
+        "relation":"compared_to",
+        "object":"Alzheimer Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":19,
+        "subject":"Posttraumatic Stress Disorder",
+        "relation":"not_associated_with",
+        "object":"Alzheimer Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":19,
+        "subject":"Traumatic Brain Injury",
+        "relation":"not_associated_with",
+        "object":"Alzheimer Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":24,
+        "subject":"Traumatic Brain Injury",
+        "relation":"increases_risk_of",
+        "object":"Alzheimer Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":24,
+        "subject":"Traumatic Brain Injury",
+        "relation":"increases_risk_of",
+        "object":"Alzheimer Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":24,
+        "subject":"Traumatic Brain Injury",
+        "relation":"increases_risk_of",
+        "object":"Alzheimer Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":27,
+        "subject":"Traumatic Brain Injury",
+        "relation":"not_associated_with",
+        "object":"Alzheimer Disease Neuropathologic Change",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":35,
+        "subject":"Posttraumatic Amnesia",
+        "relation":"upregulates",
+        "object":"Alzheimer Disease Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":35,
+        "subject":"Chronic Vascular Lesions",
+        "relation":"upregulates",
+        "object":"Alzheimer Disease Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":40,
+        "subject":"Chronic Traumatic Encephalopathy",
+        "relation":"causes",
+        "object":"Alzheimer Disease Neuropathologic Change",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":40,
+        "subject":"Neuritic Plaque",
+        "relation":"more_frequent_in",
+        "object":"Alzheimer Disease Neuropathologic Change",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":45,
+        "subject":"Chronic Traumatic Encephalopathy",
+        "relation":"associated_with",
+        "object":"Alzheimer Disease",
+        "entity_variants":"CTE, AD"
+    },
+    {
+        "source_abstract_id":59,
+        "subject":"Neuropathological Patterns",
+        "relation":"distinct_from",
+        "object":"Alzheimer Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":63,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Alzheimer Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":79,
+        "subject":"Head Injury",
+        "relation":"causes",
+        "object":"Alzheimer Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":79,
+        "subject":"Brain Injury",
+        "relation":"causes",
+        "object":"Alzheimer Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":79,
+        "subject":"Head Injury",
+        "relation":"upregulates",
+        "object":"Alzheimer Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":79,
+        "subject":"Brain Injury",
+        "relation":"upregulates",
+        "object":"Alzheimer Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":80,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Alzheimer Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":89,
+        "subject":"Traumatic Brain Injury",
+        "relation":"not_associated_with",
+        "object":"Alzheimer Disease",
+        "entity_variants":"TBI+, TBI-"
+    },
+    {
+        "source_abstract_id":95,
+        "subject":"Alzheimer Disease",
+        "relation":"contributes_to",
+        "object":"Cognitive Impairment",
+        "entity_variants":"AD"
+    },
+    {
+        "source_abstract_id":96,
+        "subject":"Traumatic Brain Injury",
+        "relation":"not_associated_with",
+        "object":"Alzheimer Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":96,
+        "subject":"Posttraumatic Stress Disorder",
+        "relation":"not_associated_with",
+        "object":"Alzheimer Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":107,
+        "subject":"Aminopeptidase E",
+        "relation":"inhibits",
+        "object":"Alzheimer Disease Pathology",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":111,
+        "subject":"Military Employment",
+        "relation":"not_associated_with",
+        "object":"Alzheimer Disease Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":124,
+        "subject":"Chronic Traumatic Encephalopathy",
+        "relation":"co-occurs_with",
+        "object":"Alzheimer Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":128,
+        "subject":"Traumatic Brain Injury",
+        "relation":"increases_risk_of",
+        "object":"Alzheimer Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":128,
+        "subject":"Traumatic Brain Injury",
+        "relation":"increases_risk_of",
+        "object":"Alzheimer Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":128,
+        "subject":"Veteran Status",
+        "relation":"affects_risk_of",
+        "object":"Alzheimer Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":128,
+        "subject":"Traumatic Brain Injury",
+        "relation":"increases_risk_of",
+        "object":"Alzheimer Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":128,
+        "subject":"Traumatic Brain Injury",
+        "relation":"increases_risk_of",
+        "object":"Alzheimer Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":128,
+        "subject":"Demographics",
+        "relation":"confounds",
+        "object":"Alzheimer Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":128,
+        "subject":"Socioeconomic Factors",
+        "relation":"confounds",
+        "object":"Alzheimer Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":128,
+        "subject":"Morbidity",
+        "relation":"confounds",
+        "object":"Alzheimer Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":128,
+        "subject":"Traumatic Brain Injury",
+        "relation":"increases_risk_of",
+        "object":"Alzheimer Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":154,
+        "subject":"Late Onset Alzheimer Disease",
+        "relation":"not_associated_with",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":154,
+        "subject":"Early Onset Alzheimer Disease",
+        "relation":"not_associated_with",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":157,
+        "subject":"Traumatic Brain Injury",
+        "relation":"not_associated_with",
+        "object":"Alzheimer Disease Risk",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":198,
+        "subject":"Traumatic Brain Injury",
+        "relation":"accelerates",
+        "object":"Alzheimer Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":198,
+        "subject":"Cognitive Impairment",
+        "relation":"precedes",
+        "object":"Alzheimer Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":206,
+        "subject":"Traumatic Brain Injury",
+        "relation":"moderates",
+        "object":"Alzheimer Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":220,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Alzheimer Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":229,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"compared_to",
+        "object":"Alzheimer Disease",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":263,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Alzheimer Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":273,
+        "subject":"Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Alzheimer Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":403,
+        "subject":"Autonomic Dysfunction",
+        "relation":"contributes_to",
+        "object":"Alzheimer Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":488,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"increases_risk_of",
+        "object":"Alzheimer Disease",
+        "entity_variants":"not specified"
+    },
+    {
+        "source_abstract_id":488,
+        "subject":"Deployment",
+        "relation":"increases_risk_of",
+        "object":"Alzheimer Disease",
+        "entity_variants":"not specified"
+    },
+    {
+        "source_abstract_id":507,
+        "subject":"Neurodegenerative Disease",
+        "relation":"associated_with",
+        "object":"Alzheimer Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":509,
+        "subject":"Traumatic Brain Injury",
+        "relation":"not_associated_with",
+        "object":"Alzheimer Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":509,
+        "subject":"Posttraumatic Stress Disorder",
+        "relation":"not_associated_with",
+        "object":"Alzheimer Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":517,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Early Onset Alzheimer Disease",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":599,
+        "subject":"Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Alzheimer Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":9,
+        "subject":"Alzheimer Disease, Definitive",
+        "relation":"associated_with",
+        "object":"Morphological Residuals of Traumatic Brain Injury",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":265,
+        "subject":"Parental History of Dementia",
+        "relation":"causes",
+        "object":"Intergenerational Difference in Age at Onset of Alzheimer Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":250,
+        "subject":"Metformin",
+        "relation":"has_unknown_effect_on",
+        "object":"Dementia with Possible Alzheimer's Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":550,
+        "subject":"Body Mass Index",
+        "relation":"upregulates",
+        "object":"Alzheimer Disease Biomarker Burden",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":265,
+        "subject":"Apolipoprotein E4 allele status",
+        "relation":"triggers",
+        "object":"Intergenerational difference in age at onset of Alzheimer Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":256,
+        "subject":"Self-Reported Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Alzheimer Disease Vulnerable Cortical Thickness",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":256,
+        "subject":"Mean Alzheimer Disease Vulnerable Cortical Thickness",
+        "relation":"correlated_with",
+        "object":"Cerebrospinal Fluid Total Tau Protein",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":256,
+        "subject":"Self-Reported Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Mean Alzheimer Disease Vulnerable Cortical Thickness",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":256,
+        "subject":"Self-Reported Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Alzheimer Disease Vulnerable Cortical Thickness",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":256,
+        "subject":"Self-Reported Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Alzheimer Disease Vulnerable Cortical Thickness",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":519,
+        "subject":"Genetic Risk for Alzheimer Disease",
+        "relation":"associated_with",
+        "object":"Cortical Thickness Change",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":519,
+        "subject":"Alzheimer Disease Polygenic Risk Score",
+        "relation":"associated_with",
+        "object":"Cortical Thickness Change in Inferior Parietal Cortex",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":519,
+        "subject":"Alzheimer Disease Polygenic Risk Score",
+        "relation":"predicts",
+        "object":"Cortical Thickness Change",
+        "entity_variants":null
+    }
+]

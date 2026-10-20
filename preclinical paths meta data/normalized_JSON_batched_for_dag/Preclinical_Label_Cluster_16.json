@@ -1,0 +1,121 @@
+[
+    {
+        "source_abstract_id":237,
+        "subject":"Saffron",
+        "relation":"upregulates",
+        "object":"Anxiety Behavior",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":237,
+        "subject":"Saffron",
+        "relation":"prevents",
+        "object":"Fear Inhibition",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":237,
+        "subject":"Saffron",
+        "relation":"improves",
+        "object":"Memory Performance",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":237,
+        "subject":"Saffron",
+        "relation":"mediates",
+        "object":"Neural Repair",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":237,
+        "subject":"Saffron",
+        "relation":"attenuates",
+        "object":"Anxiogenic Effect",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":237,
+        "subject":"Saffron",
+        "relation":"enhances",
+        "object":"Cognitive Behavior",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":237,
+        "subject":"Saffron",
+        "relation":"promotes",
+        "object":"Neuroregeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":281,
+        "subject":"Higher Oxygen Concentration",
+        "relation":"decreases",
+        "object":"Recovery",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":281,
+        "subject":"Argon Inhalation",
+        "relation":"not_associated_with",
+        "object":"Neurologic Outcome",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":281,
+        "subject":"Argon Inhalation",
+        "relation":"not_associated_with",
+        "object":"Recovery",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":281,
+        "subject":"Argon Inhalation",
+        "relation":"not_associated_with",
+        "object":"Neurodegeneration Biomarker",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":281,
+        "subject":"Argon Inhalation",
+        "relation":"not_associated_with",
+        "object":"Neuroinflammation Biomarker",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":281,
+        "subject":"Argon Inhalation",
+        "relation":"not_associated_with",
+        "object":"Motor Performance",
+        "entity_variants":"rotarod test"
+    },
+    {
+        "source_abstract_id":281,
+        "subject":"Argon Inhalation",
+        "relation":"not_associated_with",
+        "object":"Motor Performance",
+        "entity_variants":"Morris Water Maze"
+    },
+    {
+        "source_abstract_id":281,
+        "subject":"Argon Inhalation",
+        "relation":"not_associated_with",
+        "object":"Neurological Recovery",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":281,
+        "subject":"Argon Inhalation",
+        "relation":"not_associated_with",
+        "object":"Neurodegeneration",
+        "entity_variants":"histologic parameters"
+    },
+    {
+        "source_abstract_id":281,
+        "subject":"Argon Inhalation",
+        "relation":"not_associated_with",
+        "object":"Inflammation",
+        "entity_variants":"histologic parameters"
+    }
+]

@@ -1,0 +1,296 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 11,
+    "edge_count": 14
+  },
+  "nodes": [
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "Traumatic Brain Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111",
+        "MeSH": "D001930"
+      },
+      "synonyms": [
+        "TBI",
+        "Mild Traumatic Brain Injury",
+        "mTBI",
+        "Complicated Mild Traumatic Brain Injury",
+        "Concussion"
+      ]
+    },
+    {
+      "id": "PeakWidthSkeletonizedMeanDiffusivity",
+      "label": "Peak Width of Skeletonized Mean Diffusivity",
+      "type": "Diagnostic_Procedure",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C5204618",
+        "Acronym": "PSMD"
+      },
+      "synonyms": [
+        "PSMD",
+        "Peak Width of Skeletonized Mean Diffusivity"
+      ]
+    },
+    {
+      "id": "CognitiveImpairment",
+      "label": "Cognitive Impairment",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0338656"
+      },
+      "synonyms": [
+        "Cognitive Dysfunction",
+        "Cognitive Decline",
+        "Cognitive Outcomes"
+      ]
+    },
+    {
+      "id": "ALPSIndex",
+      "label": "ALPS Index",
+      "type": "Diagnostic_Procedure",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "CN307455",
+        "Custom_ID": "DTI-ALPS"
+      },
+      "synonyms": [
+        "Analysis along the Perivascular Space",
+        "DTI-ALPS",
+        "Diffusion Tensor Imaging Analysis along the Perivascular Space"
+      ]
+    },
+    {
+      "id": "VerbalMemory",
+      "label": "Verbal Memory",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0042562",
+        "GO_ID": "GO:0007613"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Attention",
+      "label": "Attention",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0004268",
+        "GO_ID": "GO:0007613"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "ExecutiveFunction",
+      "label": "Executive Function",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0683312"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "SleepQuality",
+      "label": "Sleep Quality",
+      "type": "Process",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0424568",
+        "GO_ID": "GO:0042592"
+      },
+      "synonyms": [
+        "Sleep Measures"
+      ]
+    },
+    {
+      "id": "GlymphaticSystemClearance",
+      "label": "Glymphatic System Clearance",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C4073037"
+      },
+      "synonyms": [
+        "Glymphatic Function"
+      ]
+    },
+    {
+      "id": "PerivascularSpaceEnlargement",
+      "label": "Perivascular Space Enlargement",
+      "type": "Pathology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C5543160"
+      },
+      "synonyms": [
+        "Enlarged Perivascular Space Burden"
+      ]
+    },
+    {
+      "id": "DiffusionTensorImaging",
+      "label": "Diffusion Tensor Imaging",
+      "type": "Procedure",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C1136195"
+      },
+      "synonyms": [
+        "DTI"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "PeakWidthSkeletonizedMeanDiffusivity",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        152
+      ],
+      "confidence": "High",
+      "metadata": "Context: Mild and Complicated Mild TBI associated with increased PSMD"
+    },
+    {
+      "source": "PeakWidthSkeletonizedMeanDiffusivity",
+      "target": "CognitiveImpairment",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        152
+      ],
+      "confidence": "Medium",
+      "metadata": "Relationship: Mediates"
+    },
+    {
+      "source": "ALPSIndex",
+      "target": "PeakWidthSkeletonizedMeanDiffusivity",
+      "mechanism": "associates_with",
+      "evidence_ref": [
+        152
+      ],
+      "confidence": "Medium",
+      "metadata": "Correlation between DTI-ALPS and PSMD"
+    },
+    {
+      "source": "ALPSIndex",
+      "target": "VerbalMemory",
+      "mechanism": "associates_with",
+      "evidence_ref": [
+        152
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "ALPSIndex",
+      "target": "Attention",
+      "mechanism": "associates_with",
+      "evidence_ref": [
+        152
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "ALPSIndex",
+      "target": "ExecutiveFunction",
+      "mechanism": "associates_with",
+      "evidence_ref": [
+        152
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "ALPSIndex",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        152,
+        534
+      ],
+      "confidence": "High",
+      "metadata": "Context: Decreased ALPS index observed in Mild to Moderate TBI"
+    },
+    {
+      "source": "ALPSIndex",
+      "target": "SleepQuality",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        458,
+        461
+      ],
+      "confidence": "Medium",
+      "metadata": "Input states ALPS mediates improvement in sleep measures"
+    },
+    {
+      "source": "ALPSIndex",
+      "target": "GlymphaticSystemClearance",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        458
+      ],
+      "confidence": "High",
+      "metadata": "Proxy measure"
+    },
+    {
+      "source": "ALPSIndex",
+      "target": "PerivascularSpaceEnlargement",
+      "mechanism": "associates_with",
+      "evidence_ref": [
+        461
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "ALPSIndex",
+      "target": "CognitiveImpairment",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        461,
+        534
+      ],
+      "confidence": "High",
+      "metadata": "Predicts/Diagnoses"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "CognitiveImpairment",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        534
+      ],
+      "confidence": "High",
+      "metadata": "Context: TBI with Cognitive Impairment subgroup"
+    },
+    {
+      "source": "DiffusionTensorImaging",
+      "target": "ALPSIndex",
+      "mechanism": "activates",
+      "evidence_ref": [
+        534
+      ],
+      "confidence": "High",
+      "metadata": "Relationship: Measured by"
+    },
+    {
+      "source": "ALPSIndex",
+      "target": "CognitiveImpairment",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        534
+      ],
+      "confidence": "Medium",
+      "metadata": "Inverse association: Lower ALPS index associated with impairment"
+    }
+  ]
+}

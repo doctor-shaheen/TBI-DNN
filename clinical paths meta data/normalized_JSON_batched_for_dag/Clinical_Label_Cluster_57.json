@@ -1,0 +1,212 @@
+[
+    {
+        "source_abstract_id":166,
+        "subject":"Cerebral Blood Flow",
+        "relation":"positively_associated_with",
+        "object":"Right Caudate Nucleus Cerebral Blood Flow",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":251,
+        "subject":"Cognitive Performance",
+        "relation":"associated_with",
+        "object":"Neurobehavioral Symptom Inventory",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":320,
+        "subject":"Patient Retention",
+        "relation":"supports",
+        "object":"Feasibility of Cognitive Training",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":514,
+        "subject":"Autoregulatory Performance",
+        "relation":"is_assessed_by",
+        "object":"Neuropsychological Test",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":112,
+        "subject":"Cognitive Recovery",
+        "relation":"mediates",
+        "object":"Cognitive Reserve",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":123,
+        "subject":"Cognitive Impairment",
+        "relation":"predicts",
+        "object":"Self-Report Consistency",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":153,
+        "subject":"Cognitive Reserve",
+        "relation":"influences",
+        "object":"Age at Cognitive Onset",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":153,
+        "subject":"Cognitive Reserve",
+        "relation":"influences",
+        "object":"Age at Behavioral Onset",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":153,
+        "subject":"Occupational Attainment",
+        "relation":"influences",
+        "object":"Cognitive Reserve",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":176,
+        "subject":"Cognitive Reserve",
+        "relation":"mediates",
+        "object":"Cognitive Performance",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":199,
+        "subject":"Cognitive Reserve",
+        "relation":"not_associated_with",
+        "object":"Neuropsychological Test Performance",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":216,
+        "subject":"Rotterdam CT Score",
+        "relation":"correlates_with",
+        "object":"Early Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":233,
+        "subject":"Cognitive Performance",
+        "relation":"improves",
+        "object":"Work Return Rate",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":293,
+        "subject":"Functional Verbal Reasoning",
+        "relation":"associated_with",
+        "object":"Cognitive Performance",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":340,
+        "subject":"Cognitive Reserve Index",
+        "relation":"associated_with",
+        "object":"Verbal Memory",
+        "entity_variants":"CRIq_education, verbal_memory_variant"
+    },
+    {
+        "source_abstract_id":340,
+        "subject":"Cognitive Reserve Index",
+        "relation":"associated_with",
+        "object":"Executive Attention",
+        "entity_variants":"CRIq_work, executive_attention_variant"
+    },
+    {
+        "source_abstract_id":340,
+        "subject":"Cognitive Reserve Index",
+        "relation":"no_direct_causal_link",
+        "object":"Functional Outcome",
+        "entity_variants":"CRIq, functional_outcome_variant"
+    },
+    {
+        "source_abstract_id":340,
+        "subject":"Cognitive Reserve Index",
+        "relation":"no_direct_causal_link",
+        "object":"Cognitive Factors",
+        "entity_variants":"CRIq, cognitive_factors_variant"
+    },
+    {
+        "source_abstract_id":340,
+        "subject":"Cognitive Reserve Index",
+        "relation":"no_direct_causal_link",
+        "object":"Functional Outcome",
+        "entity_variants":"CRIq, functional_outcome_variant"
+    },
+    {
+        "source_abstract_id":340,
+        "subject":"Cognitive Reserve Index",
+        "relation":"no_direct_causal_link",
+        "object":"Cognitive Factors",
+        "entity_variants":"CRIq, cognitive_factors_variant"
+    },
+    {
+        "source_abstract_id":353,
+        "subject":"Brain Reserve",
+        "relation":"associated_with",
+        "object":"Functional Outcome",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":353,
+        "subject":"Cognitive Reserve",
+        "relation":"associated_with",
+        "object":"Functional Outcome",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":353,
+        "subject":"Time Since Injury",
+        "relation":"associated_with",
+        "object":"Cognitive Reserve",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":353,
+        "subject":"Brain Reserve",
+        "relation":"associated_with",
+        "object":"Neuropsychological Performance",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":353,
+        "subject":"Cognitive Reserve",
+        "relation":"associated_with",
+        "object":"Neuropsychological Performance",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":353,
+        "subject":"Ventricle to Brain Ratio",
+        "relation":"associated_with",
+        "object":"Cognitive Reserve",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":369,
+        "subject":"Contextual Factors",
+        "relation":"affects",
+        "object":"Rehabilitation Effectiveness",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":611,
+        "subject":"Cognitive Reserve",
+        "relation":"prevents",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":611,
+        "subject":"Cognitive Reserve",
+        "relation":"affects",
+        "object":"Neuropsychological Outcomes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":630,
+        "subject":"Randomized Controlled Trial",
+        "relation":"assesses",
+        "object":"Effectiveness of Interventions",
+        "entity_variants":null
+    }
+]

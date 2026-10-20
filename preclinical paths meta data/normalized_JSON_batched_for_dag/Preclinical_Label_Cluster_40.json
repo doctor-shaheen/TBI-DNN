@@ -1,0 +1,107 @@
+[
+    {
+        "source_abstract_id":56,
+        "subject":"CR2Crry",
+        "relation":"reduces",
+        "object":"Complement Activation",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":56,
+        "subject":"CR2Crry",
+        "relation":"reduces",
+        "object":"Complement Component 3 Deposition",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":196,
+        "subject":"ASC-CCM",
+        "relation":"improves",
+        "object":"B-wave Response",
+        "entity_variants":"not reported"
+    },
+    {
+        "source_abstract_id":305,
+        "subject":"Chemokine (C-C motif) ligand 2",
+        "relation":"associated_with",
+        "object":"Neuromotor Impairment",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":305,
+        "subject":"Chemokine (C-C motif) ligand 2",
+        "relation":"associated_with",
+        "object":"CCL2 mRNA",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":305,
+        "subject":"Chemokine (C-C motif) ligand 2",
+        "relation":"upregulates",
+        "object":"Neurodegenerative Processes",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":305,
+        "subject":"Chemokine (C-C motif) ligand 2",
+        "relation":"binds_to",
+        "object":"C-C chemokine receptor type 2",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":305,
+        "subject":"Chemokine (C-C motif) ligand 2",
+        "relation":"mediates",
+        "object":"Neurodegenerative Disorders",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":401,
+        "subject":"Cell-Based Assays",
+        "relation":"evaluates",
+        "object":"Therapeutic Compounds",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":305,
+        "subject":"Blast Exposure",
+        "relation":"causes",
+        "object":"Chemokine (C-C motif) Ligand 2",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":305,
+        "subject":"Blast Exposure",
+        "relation":"causes",
+        "object":"CCL2 Receptor CCR2",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":148,
+        "subject":"Interleukin-1 beta",
+        "relation":"contributes_to",
+        "object":"Cognitive impairment",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":56,
+        "subject":"CR2-Crry",
+        "relation":"treats",
+        "object":"Spatial Learning",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":56,
+        "subject":"CR2-Crry",
+        "relation":"decreases",
+        "object":"Astrocyte Activation",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":196,
+        "subject":"ASC-CCM",
+        "relation":"treats",
+        "object":"A-Wave Response",
+        "entity_variants":"not_reported"
+    }
+]

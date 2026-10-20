@@ -1,0 +1,212 @@
+[
+    {
+        "source_abstract_id":521,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Post-Traumatic Headache",
+        "entity_variants":"unknown|"
+    },
+    {
+        "source_abstract_id":57,
+        "subject":"Repeated Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Persistent Symptoms",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":98,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cognitive Performance",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":98,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Gray Matter Morphology",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":131,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Neurological Disease Risk",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":170,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"N200 Amplitude",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":170,
+        "subject":"Repetitive Mild Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"N100 Response",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":170,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Anxiety",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":170,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Hearing Loss",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":170,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Auditory Event Related Potentials",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":170,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Cognitive Decline Risk",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":170,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Internalizing Psychopathology",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":185,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cognitive Impairment",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":213,
+        "subject":"History of Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Mild Cognitive Impairment Diagnosis",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":213,
+        "subject":"Traumatic Brain Injury Severity",
+        "relation":"causes",
+        "object":"Mild Cognitive Impairment Classification",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":213,
+        "subject":"Traumatic Brain Injury",
+        "relation":"upregulates",
+        "object":"Mild Cognitive Impairment Risk",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":225,
+        "subject":"Dizziness",
+        "relation":"associated_with",
+        "object":"Reaction Time Decrement",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":458,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"ALPS Index",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":521,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Dizziness",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":521,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cognitive Dysfunction",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":521,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Emotional Issues",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":521,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Sleep Disorders",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":521,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Nausea",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":521,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cognitive Impairment",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":521,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Emotional Affective Symptoms",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":521,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Prognostic Value",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":559,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Cognitive Impairment",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":559,
+        "subject":"Moderate Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Cognitive Impairment",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":559,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Neuropsychiatric Manifestation",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":559,
+        "subject":"Moderate Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Neuropsychiatric Manifestation",
+        "entity_variants":"unknown"
+    }
+]

@@ -1,0 +1,513 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 25,
+    "edge_count": 20
+  },
+  "nodes": [
+    {
+      "id": "PerivascularSpace",
+      "label": "Perivascular Space",
+      "type": "Anatomy",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0031025"
+      },
+      "synonyms": [
+        "Virchow-Robin space",
+        "Perivascular Space Volume"
+      ]
+    },
+    {
+      "id": "Cognition",
+      "label": "Cognition",
+      "type": "BiologicalProcess",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0009241"
+      },
+      "synonyms": [
+        "Cognitive Function",
+        "Cognitive Scores",
+        "Cognitive Performance",
+        "Neuropsychological Functioning"
+      ]
+    },
+    {
+      "id": "CumulativeHeadImpactIndex",
+      "label": "Cumulative Head Impact Index",
+      "type": "IntellectualProduct",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C5854898"
+      },
+      "synonyms": [
+        "CHII",
+        "CHII-R",
+        "CHII-G"
+      ]
+    },
+    {
+      "id": "Brain",
+      "label": "Brain",
+      "type": "Anatomy",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006104"
+      },
+      "synonyms": [
+        "Brain Volume",
+        "Brain Parenchyma"
+      ]
+    },
+    {
+      "id": "ActivitiesOfDailyLiving",
+      "label": "Activities of Daily Living",
+      "type": "BiologicalProcess",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0001206"
+      },
+      "synonyms": [
+        "Daily Functioning"
+      ]
+    },
+    {
+      "id": "ExtracellularSpace",
+      "label": "Extracellular Space",
+      "type": "Anatomy",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "UMLS_CUI": "C0015262"
+      },
+      "synonyms": [
+        "Extracellular Free Water Volume Fraction",
+        "Free Water"
+      ]
+    },
+    {
+      "id": "Thalamus",
+      "label": "Thalamus",
+      "type": "Anatomy",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0039724"
+      },
+      "synonyms": [
+        "Thalamic Volume"
+      ]
+    },
+    {
+      "id": "MammillaryBody",
+      "label": "Mammillary Body",
+      "type": "Anatomy",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0024685"
+      },
+      "synonyms": [
+        "Mammillary Body Volume"
+      ]
+    },
+    {
+      "id": "PsychomotorPerformance",
+      "label": "Psychomotor Performance",
+      "type": "BiologicalProcess",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0033959"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "RepetitiveHeadInjury",
+      "label": "Repetitive Head Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C4277716"
+      },
+      "synonyms": [
+        "Repetitive Head Trauma",
+        "Fight Exposure Score",
+        "Years of Fighting",
+        "Number of Fights"
+      ]
+    },
+    {
+      "id": "CaudateNucleus",
+      "label": "Caudate Nucleus",
+      "type": "Anatomy",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0007461"
+      },
+      "synonyms": [
+        "Caudate Nucleus Volume"
+      ]
+    },
+    {
+      "id": "Race",
+      "label": "Race",
+      "type": "SocialConcept",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0034510"
+      },
+      "synonyms": [
+        "Racial Identity"
+      ]
+    },
+    {
+      "id": "GrayMatter",
+      "label": "Gray Matter",
+      "type": "Anatomy",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0018218"
+      },
+      "synonyms": [
+        "Gray Matter Volume",
+        "Total Gray Matter Volume"
+      ]
+    },
+    {
+      "id": "Hippocampus",
+      "label": "Hippocampus",
+      "type": "Anatomy",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0019564"
+      },
+      "synonyms": [
+        "Hippocampal Volume",
+        "Right Hippocampal Volume"
+      ]
+    },
+    {
+      "id": "Calcium",
+      "label": "Calcium",
+      "type": "Chemical",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "UMLS_CUI": "C0006675",
+        "ChEBI_ID": "CHEBI:22984"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "CerebralBloodVolume",
+      "label": "Cerebral Blood Volume",
+      "type": "Physiology",
+      "location": "Blood",
+      "identifiers": {
+        "UMLS_CUI": "C0229676"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "BlastInjury",
+      "label": "Blast Injury",
+      "type": "Disease",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0005705"
+      },
+      "synonyms": [
+        "Years Since Blast Exposure"
+      ]
+    },
+    {
+      "id": "WhiteMatter",
+      "label": "White Matter",
+      "type": "Anatomy",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0043130"
+      },
+      "synonyms": [
+        "Fractional Anisotropy"
+      ]
+    },
+    {
+      "id": "CerebralCortex",
+      "label": "Cerebral Cortex",
+      "type": "Anatomy",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0007776"
+      },
+      "synonyms": [
+        "Cortical Volume"
+      ]
+    },
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "Traumatic Brain Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111"
+      },
+      "synonyms": [
+        "TBI",
+        "Traumatic Brain Injury Exposure"
+      ]
+    },
+    {
+      "id": "Neuroinflammation",
+      "label": "Neuroinflammation",
+      "type": "PathologicProcess",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C2363124"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Fornix",
+      "label": "Fornix",
+      "type": "Anatomy",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0016550"
+      },
+      "synonyms": [
+        "Fornix Volume"
+      ]
+    },
+    {
+      "id": "Memory",
+      "label": "Memory",
+      "type": "BiologicalProcess",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0025260"
+      },
+      "synonyms": [
+        "Memory Performance"
+      ]
+    },
+    {
+      "id": "TraumaticEncephalopathySyndrome",
+      "label": "Traumatic Encephalopathy Syndrome",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C5692697"
+      },
+      "synonyms": [
+        "TES"
+      ]
+    },
+    {
+      "id": "PapezCircuit",
+      "label": "Papez Circuit",
+      "type": "Anatomy",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0206584"
+      },
+      "synonyms": [
+        "Other Papez Circuit Structures"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "PerivascularSpace",
+      "target": "Cognition",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        4
+      ],
+      "confidence": "Medium",
+      "metadata": "Relationship: Perivascular Space Volume downregulates Cognitive Function"
+    },
+    {
+      "source": "CumulativeHeadImpactIndex",
+      "target": "PerivascularSpace",
+      "mechanism": "causes",
+      "evidence_ref": [
+        4
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Association with CHII-R and CHII-G"
+    },
+    {
+      "source": "Brain",
+      "target": "ActivitiesOfDailyLiving",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        50
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Brain Volume associated with Daily Functioning"
+    },
+    {
+      "source": "ExtracellularSpace",
+      "target": "Cognition",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        317
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Extracellular Free Water correlates with Neuropsychological Functioning"
+    },
+    {
+      "source": "Thalamus",
+      "target": "Cognition",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        401
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Thalamic Volume positively affects Cognitive Scores"
+    },
+    {
+      "source": "MammillaryBody",
+      "target": "PsychomotorPerformance",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        499
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Mammillary Body Volume negatively affects Psychomotor Performance"
+    },
+    {
+      "source": "RepetitiveHeadInjury",
+      "target": "CaudateNucleus",
+      "mechanism": "causes",
+      "evidence_ref": [
+        511
+      ],
+      "confidence": "High",
+      "metadata": "Context: Associated with Trauma, Fight Score, Years of Fighting, Number of Fights"
+    },
+    {
+      "source": "RepetitiveHeadInjury",
+      "target": "Thalamus",
+      "mechanism": "causes",
+      "evidence_ref": [
+        511
+      ],
+      "confidence": "High",
+      "metadata": "Context: Associated with Fight Score, Years of Fighting, Number of Fights; Interacts with Volume"
+    },
+    {
+      "source": "Race",
+      "target": "GrayMatter",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        600
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Racial Identity affects Gray Matter Volume"
+    },
+    {
+      "source": "Race",
+      "target": "Hippocampus",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        600
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Racial Identity affects Right Hippocampal Volume"
+    },
+    {
+      "source": "Calcium",
+      "target": "CerebralBloodVolume",
+      "mechanism": "causes",
+      "evidence_ref": [
+        627
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "BlastInjury",
+      "target": "WhiteMatter",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        38
+      ],
+      "confidence": "Medium",
+      "metadata": "Metric: Fractional Anisotropy"
+    },
+    {
+      "source": "CerebralCortex",
+      "target": "Cognition",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        512
+      ],
+      "confidence": "Medium",
+      "metadata": "Relationship: Negative correlation"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "ExtracellularSpace",
+      "mechanism": "causes",
+      "evidence_ref": [
+        317
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "Neuroinflammation",
+      "target": "ExtracellularSpace",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        317
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Fornix",
+      "mechanism": "causes",
+      "evidence_ref": [
+        499
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "Fornix",
+      "target": "Memory",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        499
+      ],
+      "confidence": "Medium",
+      "metadata": "Source states negatively regulates"
+    },
+    {
+      "source": "MammillaryBody",
+      "target": "Fornix",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        499
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Volume relationship"
+    },
+    {
+      "source": "TraumaticEncephalopathySyndrome",
+      "target": "Fornix",
+      "mechanism": "causes",
+      "evidence_ref": [
+        499
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "MammillaryBody",
+      "target": "PapezCircuit",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        499
+      ],
+      "confidence": "Medium"
+    }
+  ]
+}

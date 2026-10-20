@@ -1,0 +1,548 @@
+[
+    {
+        "source_abstract_id":212,
+        "subject":"Memory Performance",
+        "relation":"shows_trend_toward",
+        "object":"Recovery",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":242,
+        "subject":"Computerized Cognitive Training",
+        "relation":"treats",
+        "object":"Sustained Attention",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":342,
+        "subject":"Cognitive Impairment",
+        "relation":"no_direct_causal_link",
+        "object":"Treatment Effect",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":363,
+        "subject":"Cognitive Recovery",
+        "relation":"no_direct_causal_link",
+        "object":"Motor Recovery",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":369,
+        "subject":"Active Rehabilitation",
+        "relation":"triggers",
+        "object":"Mindful Attention",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":370,
+        "subject":"Cerebral Blood Flow",
+        "relation":"influences",
+        "object":"Cognitive Recovery",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":402,
+        "subject":"Increased Memory Workload",
+        "relation":"triggers",
+        "object":"Cortical Activation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":430,
+        "subject":"Blood Alcohol Concentration",
+        "relation":"negatively_associated_with",
+        "object":"Cognitive Improvement",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":522,
+        "subject":"Cranioplasty",
+        "relation":"treats",
+        "object":"Cognitive Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":522,
+        "subject":"Cranioplasty",
+        "relation":"causes",
+        "object":"Neuropsychological Improvement",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":522,
+        "subject":"Time Post Cranioplasty",
+        "relation":"affects",
+        "object":"Cognitive Recovery",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":522,
+        "subject":"Cognitive Impairment",
+        "relation":"associated_with",
+        "object":"Cranioplasty",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":522,
+        "subject":"Cranioplasty",
+        "relation":"causes",
+        "object":"Long-Term Cognitive Changes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":522,
+        "subject":"Cranioplasty",
+        "relation":"treats",
+        "object":"Cognitive Recovery",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":522,
+        "subject":"Cognitive Function",
+        "relation":"increases_with",
+        "object":"Time After Cranioplasty",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":524,
+        "subject":"Cognitive Impairment",
+        "relation":"associated_with",
+        "object":"Clinical Measurements",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":527,
+        "subject":"Cognitive Training",
+        "relation":"improves",
+        "object":"Intelligence Quotient",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":564,
+        "subject":"Cognitive Decline",
+        "relation":"associated_with",
+        "object":"Tailored Intervention Strategies",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":588,
+        "subject":"Corpus Callosum",
+        "relation":"increases",
+        "object":"Secondary Attentional Scores",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":621,
+        "subject":"Cognitive Impairment",
+        "relation":"decreases_likelihood_of",
+        "object":"Functional Improvement",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":68,
+        "subject":"Cognitive Training",
+        "relation":"improves",
+        "object":"Cognitive Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":68,
+        "subject":"Cognitive Training",
+        "relation":"improves",
+        "object":"Cognitive Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":68,
+        "subject":"Cognitive Training",
+        "relation":"causes",
+        "object":"Improvement in Cognitive Symptoms",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":68,
+        "subject":"Cognitive Training",
+        "relation":"compared_to",
+        "object":"Active Control",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":68,
+        "subject":"Cognitive Training",
+        "relation":"not_significantly_differs_from",
+        "object":"Active Control",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":68,
+        "subject":"Cognitive Training",
+        "relation":"improves",
+        "object":"Functional Measures",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":68,
+        "subject":"Cognitive Training",
+        "relation":"causes",
+        "object":"Improvement in Quality of Life",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":69,
+        "subject":"Cognitive Function",
+        "relation":"no_direct_causal_link",
+        "object":"Neuropsychological Measures",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":69,
+        "subject":"Cognitive Performance",
+        "relation":"no_direct_causal_link",
+        "object":"Computerized Measures",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":78,
+        "subject":"Cognitive Outcomes",
+        "relation":"associated_with",
+        "object":"Attention",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":78,
+        "subject":"Cognitive Outcomes",
+        "relation":"associated_with",
+        "object":"Global Cognition",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":149,
+        "subject":"Control Group",
+        "relation":"improves",
+        "object":"Cognitive Variables",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":163,
+        "subject":"Cognitive Deficit",
+        "relation":"no_direct_causal_link",
+        "object":"Cognitive Recovery",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":199,
+        "subject":"Cognitive Impairment",
+        "relation":"indicates",
+        "object":"Treatment Target",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":232,
+        "subject":"Social Support",
+        "relation":"predicts",
+        "object":"Cognitive Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":242,
+        "subject":"Cognitive Rehabilitation",
+        "relation":"improves",
+        "object":"Cognitive Performance",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":242,
+        "subject":"Computerized Cognitive Training",
+        "relation":"improves",
+        "object":"Cognitive Performance",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":242,
+        "subject":"Cognitive Rehabilitation",
+        "relation":"compared_to",
+        "object":"Computerized Cognitive Training",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":242,
+        "subject":"Commercial Cognitive Training",
+        "relation":"compared_to",
+        "object":"Noncommercial Cognitive Training",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":242,
+        "subject":"Cognitive Rehabilitation",
+        "relation":"improves",
+        "object":"Sustained Attention",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":282,
+        "subject":"Education",
+        "relation":"confounds",
+        "object":"Cognitive Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":320,
+        "subject":"Weekly Adherence",
+        "relation":"affects",
+        "object":"Cognitive Training Outcomes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":324,
+        "subject":"Cognitive Testing",
+        "relation":"mediates",
+        "object":"Cognitive Performance",
+        "entity_variants":"cognitive_testing"
+    },
+    {
+        "source_abstract_id":342,
+        "subject":"Cognitive Impairment",
+        "relation":"no_direct_causal_link",
+        "object":"Treatment Group",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":344,
+        "subject":"Physical Activity",
+        "relation":"enhances",
+        "object":"Cognitive Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":365,
+        "subject":"Transcranial Magnetic Stimulation",
+        "relation":"improves",
+        "object":"Cognitive Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":369,
+        "subject":"Active Rehabilitation",
+        "relation":"causes",
+        "object":"Cognitive Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":369,
+        "subject":"Active Rehabilitation",
+        "relation":"causes",
+        "object":"Mood",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":369,
+        "subject":"Active Rehabilitation",
+        "relation":"causes",
+        "object":"Behavior",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":369,
+        "subject":"Active Rehabilitation",
+        "relation":"causes",
+        "object":"Emotional Control",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":390,
+        "subject":"Cerebrolysin",
+        "relation":"improves",
+        "object":"Cognitive Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":402,
+        "subject":"Cognitive Symptom",
+        "relation":"affects",
+        "object":"Cognitive Recovery",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":454,
+        "subject":"Cognitive Scores",
+        "relation":"compared_to",
+        "object":"Control Group",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":473,
+        "subject":"Orthopedic Control Group",
+        "relation":"associated_with",
+        "object":"Higher Cognitive Scores",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":522,
+        "subject":"Cognitive Recovery",
+        "relation":"is_enhanced_by",
+        "object":"Surgical Intervention",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":522,
+        "subject":"Neuropsychological Test",
+        "relation":"shows_improvement_in",
+        "object":"Cognitive Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":522,
+        "subject":"Cognitive Recovery",
+        "relation":"associated_with",
+        "object":"Duration Post Surgery",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":527,
+        "subject":"Cognitive Training",
+        "relation":"improves",
+        "object":"Cognitive Test Score",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":527,
+        "subject":"Cognitive Training",
+        "relation":"causes",
+        "object":"Improvement in Mood",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":527,
+        "subject":"Cognitive Training",
+        "relation":"enhances",
+        "object":"Instrumental Activities of Daily Living",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":527,
+        "subject":"Cognitive Training",
+        "relation":"affects",
+        "object":"Symptom Rating",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":527,
+        "subject":"Cognitive Training",
+        "relation":"improves",
+        "object":"Long-Term Memory",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":540,
+        "subject":"Cognitive Testing",
+        "relation":"shows_no_difference_with",
+        "object":"Control Group",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":549,
+        "subject":"Cognitive Training",
+        "relation":"improves",
+        "object":"Memory",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":549,
+        "subject":"Neuropsychological Assessment",
+        "relation":"evaluates",
+        "object":"Cognitive Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":563,
+        "subject":"Cognitive Training",
+        "relation":"upregulates",
+        "object":"Cognitive Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":563,
+        "subject":"Combined Therapy",
+        "relation":"causes",
+        "object":"Cognitive Training",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":563,
+        "subject":"Cognitive Training",
+        "relation":"mediates",
+        "object":"Cognitive Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":572,
+        "subject":"Cognitive Test",
+        "relation":"discriminates",
+        "object":"Patient",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":594,
+        "subject":"Conventional Cognitive Training",
+        "relation":"improves",
+        "object":"Mood",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":594,
+        "subject":"Conventional Cognitive Training",
+        "relation":"improves",
+        "object":"Coping Strategy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":617,
+        "subject":"Physical Activity",
+        "relation":"upregulates",
+        "object":"Cognitive Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":617,
+        "subject":"Cognitive Assessment",
+        "relation":"measures",
+        "object":"Cognitive Performance",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":630,
+        "subject":"Cranial Electrical Stimulation",
+        "relation":"improves",
+        "object":"Cognition",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":630,
+        "subject":"Transcranial Direct Current Stimulation",
+        "relation":"improves",
+        "object":"Cognition",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":630,
+        "subject":"Cognitive Training",
+        "relation":"enhances",
+        "object":"Cognition",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":630,
+        "subject":"Neuromodulation",
+        "relation":"is_applied_with",
+        "object":"Cognitive Training",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":320,
+        "subject":"Cognitive Training",
+        "relation":"affects",
+        "object":"Neural Decline",
+        "entity_variants":null
+    }
+]

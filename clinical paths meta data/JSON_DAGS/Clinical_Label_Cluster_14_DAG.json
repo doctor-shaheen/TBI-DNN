@@ -1,0 +1,348 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 13,
+    "edge_count": 14
+  },
+  "nodes": [
+    {
+      "id": "ChronicTraumaticEncephalopathy",
+      "label": "Chronic Traumatic Encephalopathy",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0600155",
+        "HGNC_ID": null,
+        "UniProt_ID": null
+      },
+      "synonyms": [
+        "CTE",
+        "Chronic Traumatic Encephalopathy-like Changes",
+        "Chronic Traumatic Encephalopathy Tissue",
+        "Dementia pugilistica"
+      ]
+    },
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "Traumatic Brain Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111",
+        "HGNC_ID": null,
+        "UniProt_ID": null
+      },
+      "synonyms": [
+        "Head Injury",
+        "TBI",
+        "Concussion"
+      ]
+    },
+    {
+      "id": "RepetitiveHeadImpacts",
+      "label": "Repetitive Head Injury",
+      "type": "Event",
+      "location": "Head",
+      "identifiers": {
+        "UMLS_CUI": "C4072890",
+        "HGNC_ID": null,
+        "UniProt_ID": null
+      },
+      "synonyms": [
+        "Years of Exposure to Football",
+        "Repetitive Brain Trauma"
+      ]
+    },
+    {
+      "id": "CCL11",
+      "label": "CCL11",
+      "type": "Protein",
+      "location": "CSF",
+      "identifiers": {
+        "UMLS_CUI": "C0079088",
+        "HGNC_ID": "HGNC:10680",
+        "UniProt_ID": "P51671"
+      },
+      "synonyms": [
+        "Eotaxin-1",
+        "C-C Motif Chemokine Ligand 11",
+        "Eotaxin"
+      ]
+    },
+    {
+      "id": "Dementia",
+      "label": "Dementia",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0011265",
+        "HGNC_ID": null,
+        "UniProt_ID": null
+      },
+      "synonyms": []
+    },
+    {
+      "id": "PsychoticDisorder",
+      "label": "Psychotic Disorders",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0033975",
+        "HGNC_ID": null,
+        "UniProt_ID": null
+      },
+      "synonyms": [
+        "Psychosis"
+      ]
+    },
+    {
+      "id": "MovementDisorder",
+      "label": "Movement Disorders",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0026650",
+        "HGNC_ID": null,
+        "UniProt_ID": null
+      },
+      "synonyms": [
+        "Extrapyramidal Motor Symptoms",
+        "Motor Dysfunction"
+      ]
+    },
+    {
+      "id": "AlcoholAbuse",
+      "label": "Alcohol Abuse",
+      "type": "Disease",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0001973",
+        "HGNC_ID": null,
+        "UniProt_ID": null
+      },
+      "synonyms": []
+    },
+    {
+      "id": "SubstanceAbuse",
+      "label": "Substance-Related Disorders",
+      "type": "Disease",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0038693",
+        "HGNC_ID": null,
+        "UniProt_ID": null
+      },
+      "synonyms": [
+        "Drug Abuse"
+      ]
+    },
+    {
+      "id": "Aging",
+      "label": "Aging",
+      "type": "Process",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0001811",
+        "HGNC_ID": null,
+        "UniProt_ID": null
+      },
+      "synonyms": [
+        "Age"
+      ]
+    },
+    {
+      "id": "CerebralAtrophy",
+      "label": "Cerebral Atrophy",
+      "type": "Pathology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0241816",
+        "HGNC_ID": null,
+        "UniProt_ID": null
+      },
+      "synonyms": [
+        "Brain Atrophy",
+        "Frontal-Temporal Atrophy",
+        "Orbital Frontal Atrophy",
+        "Dorsolateral Frontal Atrophy",
+        "Superior Frontal Atrophy",
+        "Anterior Temporal Atrophy",
+        "Medial Temporal Atrophy"
+      ]
+    },
+    {
+      "id": "Ventriculomegaly",
+      "label": "Ventriculomegaly",
+      "type": "Pathology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0042514",
+        "HGNC_ID": null,
+        "UniProt_ID": null
+      },
+      "synonyms": [
+        "Lateral Ventricular Enlargement",
+        "Third Ventricular Enlargement"
+      ]
+    },
+    {
+      "id": "Neurodegeneration",
+      "label": "Neurodegeneration",
+      "type": "Pathology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027746",
+        "HGNC_ID": null,
+        "UniProt_ID": null
+      },
+      "synonyms": []
+    }
+  ],
+  "edges": [
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "ChronicTraumaticEncephalopathy",
+      "mechanism": "causes",
+      "evidence_ref": [
+        32,
+        55
+      ],
+      "confidence": "High",
+      "metadata": "Context: Head Injury leading to CTE-like changes"
+    },
+    {
+      "source": "ChronicTraumaticEncephalopathy",
+      "target": "Neurodegeneration",
+      "mechanism": "causes",
+      "evidence_ref": [
+        55
+      ],
+      "confidence": "High",
+      "metadata": "Context: CTE is a neurodegenerative disease"
+    },
+    {
+      "source": "ChronicTraumaticEncephalopathy",
+      "target": "Dementia",
+      "mechanism": "causes",
+      "evidence_ref": [
+        44,
+        126
+      ],
+      "confidence": "High",
+      "metadata": "Context: Clinical presentation"
+    },
+    {
+      "source": "ChronicTraumaticEncephalopathy",
+      "target": "PsychoticDisorder",
+      "mechanism": "causes",
+      "evidence_ref": [
+        126
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Clinical presentation"
+    },
+    {
+      "source": "ChronicTraumaticEncephalopathy",
+      "target": "MovementDisorder",
+      "mechanism": "causes",
+      "evidence_ref": [
+        44,
+        126
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Includes Extrapyramidal Motor Symptoms"
+    },
+    {
+      "source": "CCL11",
+      "target": "ChronicTraumaticEncephalopathy",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        178
+      ],
+      "confidence": "High",
+      "metadata": "Context: Increased levels in CSF and Brain; Distinguishes from controls"
+    },
+    {
+      "source": "RepetitiveHeadImpacts",
+      "target": "CCL11",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        178
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Positive correlation with years of football exposure"
+    },
+    {
+      "source": "Aging",
+      "target": "CCL11",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        178
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Correlation with age"
+    },
+    {
+      "source": "AlcoholAbuse",
+      "target": "ChronicTraumaticEncephalopathy",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        32,
+        126
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Risk factor or comorbidity"
+    },
+    {
+      "source": "SubstanceAbuse",
+      "target": "ChronicTraumaticEncephalopathy",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        32
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Risk factor"
+    },
+    {
+      "source": "Aging",
+      "target": "ChronicTraumaticEncephalopathy",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        32
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Risk factor for CTE-like changes"
+    },
+    {
+      "source": "ChronicTraumaticEncephalopathy",
+      "target": "CerebralAtrophy",
+      "mechanism": "causes",
+      "evidence_ref": [
+        325
+      ],
+      "confidence": "High",
+      "metadata": "Context: Frontal, Temporal, Orbital, Dorsolateral, Superior Frontal, Medial Temporal Atrophy"
+    },
+    {
+      "source": "ChronicTraumaticEncephalopathy",
+      "target": "Ventriculomegaly",
+      "mechanism": "causes",
+      "evidence_ref": [
+        325
+      ],
+      "confidence": "High",
+      "metadata": "Context: Lateral and Third Ventricular Enlargement"
+    },
+    {
+      "source": "ChronicTraumaticEncephalopathy",
+      "target": "NeurofibrillaryTangles",
+      "mechanism": "causes",
+      "evidence_ref": [
+        99
+      ],
+      "confidence": "High",
+      "metadata": "Context: Demonstrates Laminar Pattern of distribution"
+    }
+  ]
+}

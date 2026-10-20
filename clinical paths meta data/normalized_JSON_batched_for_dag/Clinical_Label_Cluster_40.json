@@ -1,0 +1,324 @@
+[
+    {
+        "source_abstract_id":17,
+        "subject":"Repetitive Head Impact Exposure",
+        "relation":"upregulates",
+        "object":"Chronic Traumatic Encephalopathy Stage",
+        "entity_variants":"RHI_exposure|"
+    },
+    {
+        "source_abstract_id":22,
+        "subject":"Chronic Traumatic Encephalopathy",
+        "relation":"associated_with",
+        "object":"Repeated Head Trauma",
+        "entity_variants":"not_applicable|"
+    },
+    {
+        "source_abstract_id":165,
+        "subject":"Repetitive Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Chronic Traumatic Encephalopathy",
+        "entity_variants":"TBI, CTE"
+    },
+    {
+        "source_abstract_id":187,
+        "subject":"Cumulative Head Contacts",
+        "relation":"no_effect_on",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":566,
+        "subject":"Repetitive Subconcussion",
+        "relation":"causes",
+        "object":"Functional Dysconnectivity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":566,
+        "subject":"Repetitive Subconcussion",
+        "relation":"causes",
+        "object":"Neurological Symptoms",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":1,
+        "subject":"Repetitive Head Impacts",
+        "relation":"causes",
+        "object":"Chronic Traumatic Encephalopathy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":1,
+        "subject":"Repetitive Head Impacts",
+        "relation":"causes",
+        "object":"Ventricular Dilation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":1,
+        "subject":"Repetitive Head Impacts",
+        "relation":"causes",
+        "object":"Perivascular Macrophage",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":4,
+        "subject":"Repetitive Head Impacts",
+        "relation":"associated_with",
+        "object":"Neurodegeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":16,
+        "subject":"Head Impacts",
+        "relation":"causes",
+        "object":"Neurodegenerative Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":30,
+        "subject":"Repetitive Head Impacts",
+        "relation":"causes",
+        "object":"Chronic Traumatic Encephalopathy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":49,
+        "subject":"Repetitive Head Impacts",
+        "relation":"causes",
+        "object":"Neuronal Damage",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":60,
+        "subject":"Repetitive Head Impacts",
+        "relation":"causes",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":60,
+        "subject":"Repetitive Head Impacts",
+        "relation":"causes",
+        "object":"Medial Temporal Lobe Atrophy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":60,
+        "subject":"Repetitive Head Impacts",
+        "relation":"causes",
+        "object":"Glucose Hypometabolism",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":60,
+        "subject":"Repetitive Head Impacts",
+        "relation":"causes",
+        "object":"Chronic Traumatic Encephalopathy Pathology",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":70,
+        "subject":"Repetitive Head Injuries",
+        "relation":"complicates",
+        "object":"Clinical Prediction of Chronic Traumatic Encephalopathy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":110,
+        "subject":"Repetitive Head Impacts",
+        "relation":"causes",
+        "object":"Microglial Activation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":124,
+        "subject":"Repetitive Head Impacts",
+        "relation":"causes",
+        "object":"Chronic Traumatic Encephalopathy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":124,
+        "subject":"Repetitive Head Impacts",
+        "relation":"causes",
+        "object":"Progressive Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":142,
+        "subject":"Repetitive Subconcussive Head Impact",
+        "relation":"causes",
+        "object":"Cortical Thinning",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":142,
+        "subject":"Cortical Thinning",
+        "relation":"correlates_with",
+        "object":"Estimated Exposure to Repetitive Subconcussive Head Impact",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":142,
+        "subject":"Cognitive Decline",
+        "relation":"associated_with",
+        "object":"Repetitive Subconcussive Head Impact",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":144,
+        "subject":"Repetitive Head Impacts",
+        "relation":"causes",
+        "object":"Chronic Traumatic Encephalopathy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":275,
+        "subject":"Repetitive Head Impacts",
+        "relation":"causes",
+        "object":"Neurodegenerative Sequelae",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":304,
+        "subject":"Repetitive Head Impacts",
+        "relation":"causes",
+        "object":"Inflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":304,
+        "subject":"Repetitive Head Impacts",
+        "relation":"causes",
+        "object":"Neurodegeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":307,
+        "subject":"Repetitive Head Impacts",
+        "relation":"associated_with",
+        "object":"Neurodegenerative Disorders",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":307,
+        "subject":"Magnetic Resonance Imaging Morphometrics",
+        "relation":"diagnoses",
+        "object":"Individuals with Repetitive Head Impacts",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":333,
+        "subject":"Repetitive Head Impacts",
+        "relation":"causes",
+        "object":"Traumatic Encephalopathy Syndrome",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":333,
+        "subject":"Repetitive Head Impacts",
+        "relation":"causes",
+        "object":"Postural Balance",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":333,
+        "subject":"Repetitive Head Impacts",
+        "relation":"causes",
+        "object":"Traumatic Encephalopathy Syndrome",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":333,
+        "subject":"Repetitive Head Impacts",
+        "relation":"causes",
+        "object":"Balance Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":333,
+        "subject":"Repetitive Head Impacts",
+        "relation":"causes",
+        "object":"Traumatic Encephalopathy Syndrome",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":444,
+        "subject":"Repetitive Head Injury",
+        "relation":"causes",
+        "object":"Neuroinflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":451,
+        "subject":"Repetitive Head Impacts",
+        "relation":"causes",
+        "object":"Chronic Traumatic Encephalopathy Neuropathologic Change",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":507,
+        "subject":"Heading Ball",
+        "relation":"causes",
+        "object":"Mild Repetitive Head Injury",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":507,
+        "subject":"Mild Repetitive Head Injury",
+        "relation":"causes",
+        "object":"Neurodegenerative Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":520,
+        "subject":"Repetitive Head Impacts",
+        "relation":"causes",
+        "object":"Lower Verbal Memory Learning",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":520,
+        "subject":"Repetitive Head Impacts",
+        "relation":"causes",
+        "object":"Lower Recall Performance",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":540,
+        "subject":"Repetitive Head Impacts",
+        "relation":"causes",
+        "object":"Traumatic Encephalopathy Syndrome",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":541,
+        "subject":"Repeated Head Impacts",
+        "relation":"causes",
+        "object":"Neurodegenerative Disorders",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":566,
+        "subject":"Repetitive Subconcussion",
+        "relation":"causes",
+        "object":"Neural Activity Disruption",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":608,
+        "subject":"Repetitive Head Impacts",
+        "relation":"causes",
+        "object":"Mental Health Disorders",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":608,
+        "subject":"Repetitive Head Impacts",
+        "relation":"causes",
+        "object":"Post-Traumatic Stress Disorder Symptoms",
+        "entity_variants":null
+    }
+]

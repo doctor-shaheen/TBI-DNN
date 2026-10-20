@@ -1,0 +1,489 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 21,
+    "edge_count": 18
+  },
+  "nodes": [
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "Traumatic Brain Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111",
+        "MeSH_ID": "D001930"
+      },
+      "synonyms": [
+        "TBI",
+        "Brain Trauma",
+        "Head Injury"
+      ]
+    },
+    {
+      "id": "NLRP3",
+      "label": "NLRP3",
+      "type": "Protein",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "UMLS_CUI": "C1455209",
+        "HGNC_ID": "HGNC:16400",
+        "UniProt_ID": "Q96P20"
+      },
+      "synonyms": [
+        "Cryopyrin",
+        "NALP3",
+        "Cold Autoinflammatory Syndrome 1 Protein",
+        "NLRP3 Inflammasome"
+      ]
+    },
+    {
+      "id": "IC100",
+      "label": "IC100",
+      "type": "Chemical",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "UMLS_CUI": "C5441398"
+      },
+      "synonyms": [
+        "Anti-ASC Monoclonal Antibody"
+      ]
+    },
+    {
+      "id": "AlzheimerDisease",
+      "label": "Alzheimer Disease",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0002395",
+        "MeSH_ID": "D000544"
+      },
+      "synonyms": [
+        "Alzheimer's",
+        "AD",
+        "3xTg Transgenic Mouse Model"
+      ]
+    },
+    {
+      "id": "PYCARD",
+      "label": "PYCARD",
+      "type": "Protein",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "UMLS_CUI": "C1412624",
+        "HGNC_ID": "HGNC:16608",
+        "UniProt_ID": "Q9ULZ3"
+      },
+      "synonyms": [
+        "ASC",
+        "Apoptosis-associated speck-like protein containing a CARD"
+      ]
+    },
+    {
+      "id": "HMGB1",
+      "label": "HMGB1",
+      "type": "Protein",
+      "location": "Nucleus",
+      "identifiers": {
+        "UMLS_CUI": "C0062635",
+        "HGNC_ID": "HGNC:4996",
+        "UniProt_ID": "P09429"
+      },
+      "synonyms": [
+        "High Mobility Group Box 1",
+        "HMG-1"
+      ]
+    },
+    {
+      "id": "Inflammation",
+      "label": "Inflammation",
+      "type": "Process",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0021368",
+        "GO_ID": "GO:0006954"
+      },
+      "synonyms": [
+        "Inflammatory Response"
+      ]
+    },
+    {
+      "id": "LongTermPotentiation",
+      "label": "Long-term Potentiation",
+      "type": "Process",
+      "location": "Synapse",
+      "identifiers": {
+        "UMLS_CUI": "C0023974",
+        "GO_ID": "GO:0050801"
+      },
+      "synonyms": [
+        "LTP"
+      ]
+    },
+    {
+      "id": "NeuronalDeath",
+      "label": "Neuronal Death",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0270612",
+        "GO_ID": "GO:0070997"
+      },
+      "synonyms": [
+        "Neuron Death",
+        "Neurodegeneration"
+      ]
+    },
+    {
+      "id": "CognitiveImpairment",
+      "label": "Cognitive Impairment",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0338656"
+      },
+      "synonyms": [
+        "Cognitive Decline",
+        "Cognitive Deficit"
+      ]
+    },
+    {
+      "id": "Microglia",
+      "label": "Microglia",
+      "type": "Cell",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0026002",
+        "MeSH_ID": "D017628"
+      },
+      "synonyms": [
+        "Hortega cell"
+      ]
+    },
+    {
+      "id": "ExtracellularVesicles",
+      "label": "Extracellular Vesicles",
+      "type": "Cell_Component",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "UMLS_CUI": "C4042770",
+        "GO_ID": "GO:1903561"
+      },
+      "synonyms": [
+        "EVs",
+        "Exosomes"
+      ]
+    },
+    {
+      "id": "Mdivi-1",
+      "label": "Mdivi-1",
+      "type": "Chemical",
+      "location": "Mitochondria",
+      "identifiers": {
+        "UMLS_CUI": "C3273760",
+        "ChEBI_ID": "CHEBI:138543"
+      },
+      "synonyms": [
+        "Mitochondrial division inhibitor 1"
+      ]
+    },
+    {
+      "id": "CASP3",
+      "label": "CASP3",
+      "type": "Protein",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "UMLS_CUI": "C1332822",
+        "HGNC_ID": "HGNC:1504",
+        "UniProt_ID": "P42574"
+      },
+      "synonyms": [
+        "Caspase-3",
+        "CPP32"
+      ]
+    },
+    {
+      "id": "DNM1L",
+      "label": "DNM1L",
+      "type": "Protein",
+      "location": "Mitochondria",
+      "identifiers": {
+        "UMLS_CUI": "C1413952",
+        "HGNC_ID": "HGNC:2914",
+        "UniProt_ID": "O00429"
+      },
+      "synonyms": [
+        "Drp1",
+        "Dynamin-1-like protein"
+      ]
+    },
+    {
+      "id": "NFKB1",
+      "label": "NFKB1",
+      "type": "Protein",
+      "location": "Nucleus",
+      "identifiers": {
+        "UMLS_CUI": "C0028638",
+        "HGNC_ID": "HGNC:7794",
+        "UniProt_ID": "P19838"
+      },
+      "synonyms": [
+        "NF-kappaB",
+        "Nuclear factor kappa B"
+      ]
+    },
+    {
+      "id": "Oxiracetam",
+      "label": "Oxiracetam",
+      "type": "Chemical",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0069903"
+      },
+      "synonyms": [
+        "ISF-2522"
+      ]
+    },
+    {
+      "id": "CASP1",
+      "label": "CASP1",
+      "type": "Protein",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "UMLS_CUI": "C1332819",
+        "HGNC_ID": "HGNC:1499",
+        "UniProt_ID": "P29466"
+      },
+      "synonyms": [
+        "Caspase-1",
+        "ICE"
+      ]
+    },
+    {
+      "id": "LGALS3",
+      "label": "LGALS3",
+      "type": "Protein",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "UMLS_CUI": "C0062327",
+        "HGNC_ID": "HGNC:6563",
+        "UniProt_ID": "P17931"
+      },
+      "synonyms": [
+        "Galectin-3"
+      ]
+    },
+    {
+      "id": "Nicotinamide",
+      "label": "Nicotinamide",
+      "type": "Chemical",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "UMLS_CUI": "C0028025",
+        "ChEBI_ID": "CHEBI:17154"
+      },
+      "synonyms": [
+        "NAM",
+        "Vitamin B3"
+      ]
+    },
+    {
+      "id": "BCL2",
+      "label": "BCL2",
+      "type": "Protein",
+      "location": "Mitochondria",
+      "identifiers": {
+        "UMLS_CUI": "C0005527",
+        "HGNC_ID": "HGNC:990",
+        "UniProt_ID": "P10415"
+      },
+      "synonyms": [
+        "B-cell lymphoma 2"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "NLRP3",
+      "mechanism": "activates",
+      "evidence_ref": [
+        22,
+        253
+      ],
+      "confidence": "High",
+      "metadata": "Context: Increases Inflammasome Signaling and Activation"
+    },
+    {
+      "source": "IC100",
+      "target": "NLRP3",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        22
+      ],
+      "confidence": "High",
+      "metadata": "Target: ASC/PYCARD, blocks Inflammasome Assembly"
+    },
+    {
+      "source": "AlzheimerDisease",
+      "target": "NLRP3",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        22
+      ],
+      "confidence": "High",
+      "metadata": "Context: 3xTg Mouse Model exhibits Heightened Response"
+    },
+    {
+      "source": "NLRP3",
+      "target": "HMGB1",
+      "mechanism": "secretes",
+      "evidence_ref": [
+        212
+      ],
+      "confidence": "High",
+      "metadata": "Context: Inflammasome activation triggers release"
+    },
+    {
+      "source": "NLRP3",
+      "target": "Inflammation",
+      "mechanism": "causes",
+      "evidence_ref": [
+        212,
+        251
+      ],
+      "confidence": "High",
+      "metadata": "Context: Inflammasome activation"
+    },
+    {
+      "source": "NLRP3",
+      "target": "LongTermPotentiation",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        212
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Affects LTP"
+    },
+    {
+      "source": "NLRP3",
+      "target": "NeuronalDeath",
+      "mechanism": "causes",
+      "evidence_ref": [
+        251
+      ],
+      "confidence": "High",
+      "metadata": "Context: Inflammasome activation"
+    },
+    {
+      "source": "NLRP3",
+      "target": "CognitiveImpairment",
+      "mechanism": "causes",
+      "evidence_ref": [
+        251
+      ],
+      "confidence": "High",
+      "metadata": "Context: Inflammasome activation"
+    },
+    {
+      "source": "ExtracellularVesicles",
+      "target": "NLRP3",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        253
+      ],
+      "confidence": "Medium",
+      "metadata": "Source: Human Mesenchymal Stem Cells"
+    },
+    {
+      "source": "Mdivi-1",
+      "target": "CASP3",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        375
+      ],
+      "confidence": "High",
+      "metadata": "Context: Reduces activation"
+    },
+    {
+      "source": "AlzheimerDisease",
+      "target": "PYCARD",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        22
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Increased ASC Expression"
+    },
+    {
+      "source": "DNM1L",
+      "target": "CASP3",
+      "mechanism": "activates",
+      "evidence_ref": [
+        222
+      ],
+      "confidence": "High",
+      "metadata": "Inferred: Inhibition of Drp1 reduces Caspase-3"
+    },
+    {
+      "source": "NFKB1",
+      "target": "CASP3",
+      "mechanism": "activates",
+      "evidence_ref": [
+        26
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Triggers activation"
+    },
+    {
+      "source": "Oxiracetam",
+      "target": "CASP1",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        236
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "LGALS3",
+      "target": "NLRP3",
+      "mechanism": "activates",
+      "evidence_ref": [
+        251
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Triggers Inflammasome Activation"
+    },
+    {
+      "source": "Nicotinamide",
+      "target": "CASP3",
+      "mechanism": "activates",
+      "evidence_ref": [
+        391
+      ],
+      "confidence": "Low",
+      "metadata": "Source states 'triggers', contradicts general neuroprotection role"
+    },
+    {
+      "source": "Nicotinamide",
+      "target": "BCL2",
+      "mechanism": "activates",
+      "evidence_ref": [
+        391
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Triggers/Upregulates"
+    },
+    {
+      "source": "Oxiracetam",
+      "target": "NLRP3",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        236
+      ],
+      "confidence": "High",
+      "metadata": "Context: Decreases expression/activity"
+    }
+  ]
+}

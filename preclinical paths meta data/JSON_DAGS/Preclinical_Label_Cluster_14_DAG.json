@@ -1,0 +1,486 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 21,
+    "edge_count": 21
+  },
+  "nodes": [
+    {
+      "id": "ICAM1",
+      "label": "ICAM1",
+      "type": "Protein",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "UMLS_CUI": "C0021708",
+        "HGNC_ID": "HGNC:5344",
+        "UniProt_ID": "P05362"
+      },
+      "synonyms": [
+        "Intercellular Adhesion Molecule 1",
+        "CD54",
+        "Major group rhinovirus receptor"
+      ]
+    },
+    {
+      "id": "Neurodegeneration",
+      "label": "Neurodegeneration",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027790"
+      },
+      "synonyms": [
+        "Nerve Degeneration",
+        "Neuropathology"
+      ]
+    },
+    {
+      "id": "Inflammation",
+      "label": "Inflammation",
+      "type": "Process",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0021368"
+      },
+      "synonyms": [
+        "Inflammatory response"
+      ]
+    },
+    {
+      "id": "PsychologicalStress",
+      "label": "Psychological Stress",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0038443"
+      },
+      "synonyms": [
+        "Mental Stress"
+      ]
+    },
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "Traumatic Brain Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111"
+      },
+      "synonyms": [
+        "TBI",
+        "Brain Injury"
+      ]
+    },
+    {
+      "id": "Neuroinflammation",
+      "label": "Neuroinflammation",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C3203494"
+      },
+      "synonyms": [
+        "Brain Inflammation",
+        "TBI Induced Inflammation"
+      ]
+    },
+    {
+      "id": "Cytokines",
+      "label": "Cytokines",
+      "type": "Protein",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "UMLS_CUI": "C0010804"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "FunctionalRecovery",
+      "label": "Functional Recovery",
+      "type": "Process",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0597332"
+      },
+      "synonyms": [
+        "Functional Outcome"
+      ]
+    },
+    {
+      "id": "CellDeath",
+      "label": "Cell Death",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0007587"
+      },
+      "synonyms": [
+        "Necrosis",
+        "Apoptosis"
+      ]
+    },
+    {
+      "id": "Norepinephrine",
+      "label": "Norepinephrine",
+      "type": "Chemical",
+      "location": "Synapse",
+      "identifiers": {
+        "UMLS_CUI": "C0028351",
+        "ChEBI_ID": "CHEBI:18357"
+      },
+      "synonyms": [
+        "Noradrenaline"
+      ]
+    },
+    {
+      "id": "DRD1",
+      "label": "DRD1",
+      "type": "Protein",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "UMLS_CUI": "C0035251",
+        "HGNC_ID": "HGNC:3020"
+      },
+      "synonyms": [
+        "Dopamine D1 Receptor"
+      ]
+    },
+    {
+      "id": "HTR1A",
+      "label": "HTR1A",
+      "type": "Protein",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "UMLS_CUI": "C0035266",
+        "HGNC_ID": "HGNC:5292"
+      },
+      "synonyms": [
+        "Serotonin 1A Receptor",
+        "5-HT1A"
+      ]
+    },
+    {
+      "id": "NPY",
+      "label": "NPY",
+      "type": "Protein",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "UMLS_CUI": "C0027738",
+        "HGNC_ID": "HGNC:7955"
+      },
+      "synonyms": [
+        "Neuropeptide Y"
+      ]
+    },
+    {
+      "id": "LeukocyteAdhesion",
+      "label": "Leukocyte Adhesion",
+      "type": "Process",
+      "location": "Blood",
+      "identifiers": {
+        "UMLS_CUI": "C0023512"
+      },
+      "synonyms": [
+        "Inflammatory Leukocyte Adhesion",
+        "Leukocyte Adherence"
+      ]
+    },
+    {
+      "id": "LeukocyteTransmigration",
+      "label": "Leukocyte Transmigration",
+      "type": "Process",
+      "location": "Blood",
+      "identifiers": {
+        "UMLS_CUI": "C0023528"
+      },
+      "synonyms": [
+        "Transendothelial migration"
+      ]
+    },
+    {
+      "id": "PaxillinFAKPathway",
+      "label": "Paxillin/FAK Pathway",
+      "type": "Process",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "UMLS_CUI": "C1517228"
+      },
+      "synonyms": [
+        "Signal Transduction"
+      ]
+    },
+    {
+      "id": "BloodBrainBarrier",
+      "label": "Blood Brain Barrier",
+      "type": "Anatomy",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0005763"
+      },
+      "synonyms": [
+        "BBB"
+      ]
+    },
+    {
+      "id": "CognitiveDeficit",
+      "label": "Cognitive Deficit",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0009241"
+      },
+      "synonyms": [
+        "Cognitive impairment"
+      ]
+    },
+    {
+      "id": "SensorimotorDeficit",
+      "label": "Sensorimotor Deficits",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0424560"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "SELP",
+      "label": "SELP",
+      "type": "Protein",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "UMLS_CUI": "C0070541",
+        "HGNC_ID": "HGNC:10720"
+      },
+      "synonyms": [
+        "P-Selectin"
+      ]
+    },
+    {
+      "id": "Neuropathology",
+      "label": "Neuropathology",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027814"
+      },
+      "synonyms": []
+    }
+  ],
+  "edges": [
+    {
+      "source": "ICAM1",
+      "target": "Neurodegeneration",
+      "mechanism": "causes",
+      "evidence_ref": [
+        99
+      ],
+      "confidence": "High",
+      "metadata": "Context: Post-injury neurodegeneration"
+    },
+    {
+      "source": "ICAM1",
+      "target": "Neuropathology",
+      "mechanism": "causes",
+      "evidence_ref": [
+        98
+      ],
+      "confidence": "High",
+      "metadata": null
+    },
+    {
+      "source": "ICAM1",
+      "target": "Inflammation",
+      "mechanism": "causes",
+      "evidence_ref": [
+        98
+      ],
+      "confidence": "High",
+      "metadata": null
+    },
+    {
+      "source": "ICAM1",
+      "target": "PsychologicalStress",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        98
+      ],
+      "confidence": "Medium",
+      "metadata": "Input relation: associated_with"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "ICAM1",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        99
+      ],
+      "confidence": "High",
+      "metadata": null
+    },
+    {
+      "source": "ICAM1",
+      "target": "Neuroinflammation",
+      "mechanism": "causes",
+      "evidence_ref": [
+        99,
+        224,
+        223
+      ],
+      "confidence": "High",
+      "metadata": "Ref 223 likely refers to prevention via inhibition (inverted logic in source)"
+    },
+    {
+      "source": "ICAM1",
+      "target": "Cytokines",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        99
+      ],
+      "confidence": "High",
+      "metadata": null
+    },
+    {
+      "source": "ICAM1",
+      "target": "FunctionalRecovery",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        99
+      ],
+      "confidence": "High",
+      "metadata": "Source: negatively_regulates Functional Outcome"
+    },
+    {
+      "source": "ICAM1",
+      "target": "CellDeath",
+      "mechanism": "causes",
+      "evidence_ref": [
+        99
+      ],
+      "confidence": "High",
+      "metadata": null
+    },
+    {
+      "source": "ICAM1",
+      "target": "Norepinephrine",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        99
+      ],
+      "confidence": "Medium",
+      "metadata": null
+    },
+    {
+      "source": "ICAM1",
+      "target": "DRD1",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        99
+      ],
+      "confidence": "Medium",
+      "metadata": null
+    },
+    {
+      "source": "ICAM1",
+      "target": "HTR1A",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        99
+      ],
+      "confidence": "Medium",
+      "metadata": null
+    },
+    {
+      "source": "ICAM1",
+      "target": "NPY",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        99
+      ],
+      "confidence": "Medium",
+      "metadata": null
+    },
+    {
+      "source": "ICAM1",
+      "target": "LeukocyteAdhesion",
+      "mechanism": "activates",
+      "evidence_ref": [
+        223,
+        224
+      ],
+      "confidence": "High",
+      "metadata": "Ref 223 indicates negative regulation (likely inhibition/knockout context); Ref 224 indicates mediation."
+    },
+    {
+      "source": "ICAM1",
+      "target": "LeukocyteTransmigration",
+      "mechanism": "activates",
+      "evidence_ref": [
+        223
+      ],
+      "confidence": "Medium",
+      "metadata": "Inferred from 'negatively_regulates' in likely inhibitory context; Biological role is activation."
+    },
+    {
+      "source": "ICAM1",
+      "target": "PaxillinFAKPathway",
+      "mechanism": "activates",
+      "evidence_ref": [
+        223
+      ],
+      "confidence": "Medium",
+      "metadata": "Input: causes"
+    },
+    {
+      "source": "ICAM1",
+      "target": "BloodBrainBarrier",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        224
+      ],
+      "confidence": "High",
+      "metadata": "Input: negatively_regulates (implies disruption/dysfunction)"
+    },
+    {
+      "source": "LeukocyteTransmigration",
+      "target": "FunctionalRecovery",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        224
+      ],
+      "confidence": "Medium",
+      "metadata": "Input: mediates"
+    },
+    {
+      "source": "ICAM1",
+      "target": "CognitiveDeficit",
+      "mechanism": "causes",
+      "evidence_ref": [
+        224
+      ],
+      "confidence": "High",
+      "metadata": null
+    },
+    {
+      "source": "ICAM1",
+      "target": "SensorimotorDeficit",
+      "mechanism": "causes",
+      "evidence_ref": [
+        224
+      ],
+      "confidence": "High",
+      "metadata": null
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "SELP",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        342
+      ],
+      "confidence": "High",
+      "metadata": null
+    }
+  ]
+}

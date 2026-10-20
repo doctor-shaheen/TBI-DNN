@@ -1,0 +1,275 @@
+[
+    {
+        "source_abstract_id":45,
+        "subject":"Clinical Traumatic Brain Injury",
+        "relation":"activates",
+        "object":"CCAAT\/Enhancer Binding Protein Beta",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":67,
+        "subject":"Nuclear Factor NF-kappa-B p65 subunit",
+        "relation":"downregulates",
+        "object":"Apolipoprotein E",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":26,
+        "subject":"Mitogen-activated protein kinase phosphorylation",
+        "relation":"upregulates",
+        "object":"Nuclear factor kappa B",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":101,
+        "subject":"Ionized calcium-binding adapter molecule 1",
+        "relation":"positively_correlates_with",
+        "object":"Phosphorylation signals in nuclear factor kappa B",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":101,
+        "subject":"Cerebral blood flow",
+        "relation":"correlates_with",
+        "object":"Nuclear factor kappa B signaling",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":110,
+        "subject":"Astrocyte activation",
+        "relation":"upregulates",
+        "object":"Neuronal nuclear factor kappa B",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":172,
+        "subject":"Traumatic brain injury",
+        "relation":"triggers",
+        "object":"Nuclear factor kappa B signaling",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":172,
+        "subject":"Glia maturation factor",
+        "relation":"upregulates",
+        "object":"Nuclear factor kappa B signaling",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":172,
+        "subject":"Nuclear factor kappa B signaling",
+        "relation":"mediates",
+        "object":"Neuroinflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":216,
+        "subject":"Nicotinamide mononucleotide",
+        "relation":"modulates",
+        "object":"Nuclear factor kappa B signaling pathway",
+        "entity_variants":"NMN"
+    },
+    {
+        "source_abstract_id":216,
+        "subject":"Nicotinamide mononucleotide",
+        "relation":"inhibits",
+        "object":"Janus kinase-signal transducer and activator of transcription signaling pathway",
+        "entity_variants":"NMN"
+    },
+    {
+        "source_abstract_id":216,
+        "subject":"Nicotinamide mononucleotide",
+        "relation":"affects",
+        "object":"Tumor necrosis factor signaling pathway",
+        "entity_variants":"NMN"
+    },
+    {
+        "source_abstract_id":252,
+        "subject":"IKK2\/NF-kappa B signaling",
+        "relation":"protects",
+        "object":"Neurons",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":252,
+        "subject":"IKK2\/NF-kappa B signaling",
+        "relation":"regulates",
+        "object":"Inflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":252,
+        "subject":"IKK2\/NF-kappa B signaling",
+        "relation":"inhibits",
+        "object":"Proinflammatory gene expression",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":252,
+        "subject":"IKK2\/NF-kappa B signaling",
+        "relation":"modulates",
+        "object":"Neurological outcome",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":252,
+        "subject":"IKK2\/NF-kappa B signaling",
+        "relation":"inhibits",
+        "object":"Acute posttraumatic mortality rate",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":252,
+        "subject":"IKK2\/NF-kappa B signaling",
+        "relation":"promotes",
+        "object":"Neuronal survival",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":252,
+        "subject":"IKK2\/NF-kappa B signaling",
+        "relation":"does_not_alter",
+        "object":"Traumatic brain injury outcome",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":257,
+        "subject":"FAM76B",
+        "relation":"regulates",
+        "object":"Nuclear factor kappa B",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":260,
+        "subject":"Heat shock protein 70",
+        "relation":"upregulates",
+        "object":"Nuclear factor kappa B",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":260,
+        "subject":"Nuclear factor kappa B",
+        "relation":"upregulates",
+        "object":"Interleukin-6",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":260,
+        "subject":"Heat shock protein 70",
+        "relation":"reduces",
+        "object":"Nuclear factor kappa B",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":284,
+        "subject":"Toll-like receptor 4",
+        "relation":"triggers",
+        "object":"Nuclear factor kappa B signaling",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":284,
+        "subject":"Nuclear factor kappa B signaling",
+        "relation":"mediates",
+        "object":"Neuroinflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":286,
+        "subject":"Nuclear factor kappa B p65",
+        "relation":"inhibits",
+        "object":"Neuroinflammation",
+        "entity_variants":"Nuclear factor kappa B p65"
+    },
+    {
+        "source_abstract_id":294,
+        "subject":"Tripartite motif-containing protein 44",
+        "relation":"downregulates",
+        "object":"Toll-like receptor 4",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":294,
+        "subject":"Toll-like receptor 4",
+        "relation":"activates",
+        "object":"Nuclear factor kappa B",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":294,
+        "subject":"Tripartite motif-containing protein 44",
+        "relation":"inhibits",
+        "object":"Inflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":294,
+        "subject":"Toll-like receptor 4",
+        "relation":"triggers",
+        "object":"Neuroinflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":294,
+        "subject":"Tripartite motif-containing protein 44",
+        "relation":"alleviates",
+        "object":"Brain edema",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":294,
+        "subject":"Toll-like receptor 4",
+        "relation":"mediates",
+        "object":"Neurological function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":294,
+        "subject":"Tripartite motif-containing protein 44",
+        "relation":"regulates",
+        "object":"Toll-like receptor 4 - nuclear factor kappa B signaling",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":294,
+        "subject":"Tripartite motif-containing protein 44",
+        "relation":"affects",
+        "object":"Proinflammatory cytokines",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":294,
+        "subject":"Toll-like receptor 4 - nuclear factor kappa B signaling",
+        "relation":"modulates",
+        "object":"Brain water content",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":391,
+        "subject":"c-Jun N-terminal kinase",
+        "relation":"triggers",
+        "object":"Nuclear factor kappa B",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":391,
+        "subject":"Nuclear factor kappa B",
+        "relation":"upregulates",
+        "object":"Tumor necrosis factor alpha",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":391,
+        "subject":"Nuclear factor kappa B",
+        "relation":"upregulates",
+        "object":"Interleukin-1 beta",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":166,
+        "subject":"c-Jun N-terminal Kinase",
+        "relation":"triggers",
+        "object":"Inflammatory Response",
+        "entity_variants":null
+    }
+]

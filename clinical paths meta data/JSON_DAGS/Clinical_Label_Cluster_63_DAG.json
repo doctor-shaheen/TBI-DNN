@@ -1,0 +1,658 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 28,
+    "edge_count": 36
+  },
+  "nodes": [
+    {
+      "id": "SubduralHemorrhage",
+      "label": "Subdural Hemorrhage",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0019123"
+      },
+      "synonyms": [
+        "Subdural Hematoma"
+      ]
+    },
+    {
+      "id": "IntracranialHemorrhage",
+      "label": "Intracranial Hemorrhages",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0021876"
+      },
+      "synonyms": [
+        "Intracranial Bleeding"
+      ]
+    },
+    {
+      "id": "Dementia",
+      "label": "Dementia",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0011265"
+      },
+      "synonyms": [
+        "Senile Dementia",
+        "Amentia"
+      ]
+    },
+    {
+      "id": "ACEInhibitors",
+      "label": "Angiotensin-Converting Enzyme Inhibitors",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0003015",
+        "ChEBI_ID": "CHEBI:35457"
+      },
+      "synonyms": [
+        "ACE Inhibitors"
+      ]
+    },
+    {
+      "id": "Statins",
+      "label": "Hydroxymethylglutaryl-CoA Reductase Inhibitors",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0020338",
+        "ChEBI_ID": "CHEBI:87631"
+      },
+      "synonyms": [
+        "Statins",
+        "HMG-CoA reductase inhibitors"
+      ]
+    },
+    {
+      "id": "Hyperlipidemia",
+      "label": "Hyperlipidemia",
+      "type": "Disease",
+      "location": "Blood",
+      "identifiers": {
+        "UMLS_CUI": "C0020473"
+      },
+      "synonyms": [
+        "High Cholesterol"
+      ]
+    },
+    {
+      "id": "EducationalStatus",
+      "label": "Educational Status",
+      "type": "SocialBehavior",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0013658"
+      },
+      "synonyms": [
+        "Education Level",
+        "Low Education"
+      ]
+    },
+    {
+      "id": "Hypertension",
+      "label": "Hypertension",
+      "type": "Disease",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0020538"
+      },
+      "synonyms": [
+        "High Blood Pressure",
+        "Arterial Hypertension"
+      ]
+    },
+    {
+      "id": "CognitiveDecline",
+      "label": "Cognitive Decline",
+      "type": "Pathology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0234985"
+      },
+      "synonyms": [
+        "Mental Deterioration"
+      ]
+    },
+    {
+      "id": "VascularDiseases",
+      "label": "Vascular Diseases",
+      "type": "Disease",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0042373"
+      },
+      "synonyms": [
+        "Vascular Conditions"
+      ]
+    },
+    {
+      "id": "NeurodegenerativeDisorders",
+      "label": "Neurodegenerative Disorders",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0524851"
+      },
+      "synonyms": [
+        "Neurodegenerative Complications"
+      ]
+    },
+    {
+      "id": "CardiovascularDiseases",
+      "label": "Cardiovascular Diseases",
+      "type": "Disease",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0007222"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "InsuranceCoverage",
+      "label": "Insurance Coverage",
+      "type": "SocialBehavior",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0021665"
+      },
+      "synonyms": [
+        "Medicaid",
+        "Medicare",
+        "Insurance Type"
+      ]
+    },
+    {
+      "id": "AdverseChildhoodExperiences",
+      "label": "Adverse Childhood Experiences",
+      "type": "SocialBehavior",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C4074697"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "VascularDementia",
+      "label": "Vascular Dementia",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0011265"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "CoronaryArteryDisease",
+      "label": "Coronary Artery Disease",
+      "type": "Disease",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0010054"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "CerebrovascularDisorders",
+      "label": "Cerebrovascular Disorders",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0007820"
+      },
+      "synonyms": [
+        "Cerebrovascular Disease"
+      ]
+    },
+    {
+      "id": "Smoking",
+      "label": "Smoking",
+      "type": "SocialBehavior",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0037369"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "SocialIsolation",
+      "label": "Social Isolation",
+      "type": "SocialBehavior",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0037420"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "AirPollution",
+      "label": "Air Pollution",
+      "type": "Environment",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0001861"
+      },
+      "synonyms": [
+        "Nitrogen Dioxide Exposure"
+      ]
+    },
+    {
+      "id": "SedentaryLifestyle",
+      "label": "Sedentary Lifestyle",
+      "type": "SocialBehavior",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0023478"
+      },
+      "synonyms": [
+        "Physical Inactivity"
+      ]
+    },
+    {
+      "id": "Arteriolosclerosis",
+      "label": "Arteriolosclerosis",
+      "type": "Disease",
+      "location": "Blood",
+      "identifiers": {
+        "UMLS_CUI": "C0003842"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Hospitalization",
+      "label": "Hospitalization",
+      "type": "HealthcareActivity",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0019993"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "PhysicalActivity",
+      "label": "Physical Activity",
+      "type": "SocialBehavior",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0026606"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "SocioeconomicStatus",
+      "label": "Socioeconomic Status",
+      "type": "SocialBehavior",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0037663"
+      },
+      "synonyms": [
+        "Income",
+        "Poverty"
+      ]
+    },
+    {
+      "id": "Cataract",
+      "label": "Cataract",
+      "type": "Disease",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0007378"
+      },
+      "synonyms": [
+        "Senile Cataract"
+      ]
+    },
+    {
+      "id": "AfricanAmerican",
+      "label": "African American",
+      "type": "Population",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0001775"
+      },
+      "synonyms": [
+        "Non-Hispanic Black"
+      ]
+    },
+    {
+      "id": "PresenileDementia",
+      "label": "Presenile Dementia",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0011260"
+      },
+      "synonyms": [
+        "Early-Onset Dementia"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "SubduralHemorrhage",
+      "target": "IntracranialHemorrhage",
+      "mechanism": "associated_with",
+      "evidence_ref": [
+        140
+      ],
+      "confidence": "High",
+      "metadata": "Context: Progression"
+    },
+    {
+      "source": "Dementia",
+      "target": "IntracranialHemorrhage",
+      "mechanism": "associated_with",
+      "evidence_ref": [
+        140
+      ],
+      "confidence": "High",
+      "metadata": "Context: Progression"
+    },
+    {
+      "source": "ACEInhibitors",
+      "target": "Dementia",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        250
+      ],
+      "confidence": "High",
+      "metadata": "Effect: Delays onset / lowers risk (Ref 250)"
+    },
+    {
+      "source": "Statins",
+      "target": "Dementia",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        250
+      ],
+      "confidence": "High",
+      "metadata": "Effect: Delays onset / lowers risk (Ref 250)"
+    },
+    {
+      "source": "Hyperlipidemia",
+      "target": "Dementia",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        437
+      ],
+      "confidence": "High",
+      "metadata": "Context: Predicts"
+    },
+    {
+      "source": "EducationalStatus",
+      "target": "Dementia",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        299,
+        322,
+        375,
+        456
+      ],
+      "confidence": "Medium",
+      "metadata": "Low education causes/associated with dementia; high education downregulates (protective). Some conflict in Ref 299 (does not prevent)."
+    },
+    {
+      "source": "Hypertension",
+      "target": "CognitiveDecline",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        537,
+        564
+      ],
+      "confidence": "High",
+      "metadata": "Increases prevalence"
+    },
+    {
+      "source": "VascularDiseases",
+      "target": "CognitiveDecline",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        564
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "Hypertension",
+      "target": "NeurodegenerativeDisorders",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        623
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "Hypertension",
+      "target": "Dementia",
+      "mechanism": "causes",
+      "evidence_ref": [
+        11,
+        322,
+        331,
+        375,
+        437,
+        456
+      ],
+      "confidence": "High",
+      "metadata": "Mechanisms: Predicts, Upregulates, Associated with"
+    },
+    {
+      "source": "CardiovascularDiseases",
+      "target": "Dementia",
+      "mechanism": "causes",
+      "evidence_ref": [
+        18
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "Dementia",
+      "target": "CognitiveDecline",
+      "mechanism": "causes",
+      "evidence_ref": [
+        160
+      ],
+      "confidence": "High",
+      "metadata": "Mediates cognitive deficits"
+    },
+    {
+      "source": "InsuranceCoverage",
+      "target": "Dementia",
+      "mechanism": "associated_with",
+      "evidence_ref": [
+        252
+      ],
+      "confidence": "Medium",
+      "metadata": "Medicaid/Medicare associated with upregulation/incidence"
+    },
+    {
+      "source": "AdverseChildhoodExperiences",
+      "target": "Dementia",
+      "mechanism": "causes",
+      "evidence_ref": [
+        283
+      ],
+      "confidence": "Medium",
+      "metadata": "Symptoms"
+    },
+    {
+      "source": "Hypertension",
+      "target": "VascularDementia",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        311
+      ],
+      "confidence": "High",
+      "metadata": "Upregulates"
+    },
+    {
+      "source": "CoronaryArteryDisease",
+      "target": "VascularDementia",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        311
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "CerebrovascularDisorders",
+      "target": "VascularDementia",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        311
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "Smoking",
+      "target": "Dementia",
+      "mechanism": "associated_with",
+      "evidence_ref": [
+        322,
+        331
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "SocialIsolation",
+      "target": "Dementia",
+      "mechanism": "causes",
+      "evidence_ref": [
+        322,
+        331,
+        375,
+        456
+      ],
+      "confidence": "High",
+      "metadata": "Upregulates/Associated with"
+    },
+    {
+      "source": "AirPollution",
+      "target": "Dementia",
+      "mechanism": "associated_with",
+      "evidence_ref": [
+        322,
+        331,
+        456
+      ],
+      "confidence": "High",
+      "metadata": "Includes Nitrogen Dioxide exposure"
+    },
+    {
+      "source": "CerebrovascularDisorders",
+      "target": "Dementia",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        335,
+        437
+      ],
+      "confidence": "High",
+      "metadata": "Upregulates/Predicts"
+    },
+    {
+      "source": "SedentaryLifestyle",
+      "target": "Dementia",
+      "mechanism": "causes",
+      "evidence_ref": [
+        375,
+        456
+      ],
+      "confidence": "High",
+      "metadata": "Upregulates"
+    },
+    {
+      "source": "Arteriolosclerosis",
+      "target": "Dementia",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        469
+      ],
+      "confidence": "Medium",
+      "metadata": "Upregulates"
+    },
+    {
+      "source": "Hospitalization",
+      "target": "Dementia",
+      "mechanism": "associated_with",
+      "evidence_ref": [
+        471
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "Dementia",
+      "target": "Death",
+      "mechanism": "causes",
+      "evidence_ref": [
+        471
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "PhysicalActivity",
+      "target": "Dementia",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        472
+      ],
+      "confidence": "High",
+      "metadata": "Attenuates association"
+    },
+    {
+      "source": "SocioeconomicStatus",
+      "target": "Dementia",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        496
+      ],
+      "confidence": "High",
+      "metadata": "Lower Income increases risk"
+    },
+    {
+      "source": "VascularDiseases",
+      "target": "Dementia",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        496
+      ],
+      "confidence": "High",
+      "metadata": "Increases risk"
+    },
+    {
+      "source": "Cataract",
+      "target": "Dementia",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        496
+      ],
+      "confidence": "Medium",
+      "metadata": "Increases risk"
+    },
+    {
+      "source": "AfricanAmerican",
+      "target": "Dementia",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        536
+      ],
+      "confidence": "Medium",
+      "metadata": "Epidemiological link (causes in input)"
+    },
+    {
+      "source": "CognitiveDecline",
+      "target": "PresenileDementia",
+      "mechanism": "associated_with",
+      "evidence_ref": [
+        539
+      ],
+      "confidence": "Medium",
+      "metadata": "Cognitive Disorders associated with Early-Onset"
+    }
+  ]
+}

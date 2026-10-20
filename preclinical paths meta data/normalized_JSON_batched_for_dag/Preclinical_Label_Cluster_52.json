@@ -1,0 +1,135 @@
+[
+    {
+        "source_abstract_id":162,
+        "subject":"Physical Exercise",
+        "relation":"enhances",
+        "object":"Differentiating Neurons",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":162,
+        "subject":"Neurogenesis",
+        "relation":"mediates",
+        "object":"Functional Recovery",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":349,
+        "subject":"GC\/I\/E Hydrogel",
+        "relation":"facilitates",
+        "object":"Neuronal Synaptogenesis",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":162,
+        "subject":"Physical Exercise",
+        "relation":"upregulates",
+        "object":"Neural Stem Cells",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":162,
+        "subject":"Physical Exercise",
+        "relation":"causes",
+        "object":"Cell Migration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":162,
+        "subject":"Physical Exercise",
+        "relation":"improves",
+        "object":"Functional Recovery",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":162,
+        "subject":"Physical Exercise",
+        "relation":"induces",
+        "object":"Neuroregeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":259,
+        "subject":"Endurance Exercise",
+        "relation":"improves",
+        "object":"Neurological Outcome",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":259,
+        "subject":"Endurance Exercise",
+        "relation":"decreases",
+        "object":"Histopathological Changes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":260,
+        "subject":"Exercise Preconditioning",
+        "relation":"prevents",
+        "object":"Neurological Injuries",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":260,
+        "subject":"Exercise Preconditioning",
+        "relation":"reverses",
+        "object":"Neurological Injuries",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":279,
+        "subject":"Physical Exercise",
+        "relation":"reduces",
+        "object":"Cognitive Decline",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":279,
+        "subject":"Physical Exercise",
+        "relation":"upregulates",
+        "object":"Neuronal Nuclei Positive Cells",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":279,
+        "subject":"Physical Exercise",
+        "relation":"upregulates",
+        "object":"Doublecortin Positive Cells",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":279,
+        "subject":"Exercise Duration",
+        "relation":"influences",
+        "object":"Neurogenesis",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":279,
+        "subject":"Early Exercise",
+        "relation":"reduces",
+        "object":"Cognitive Decline",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":279,
+        "subject":"Delayed Exercise",
+        "relation":"reduces",
+        "object":"Cognitive Decline",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":279,
+        "subject":"Early Discontinued Exercise",
+        "relation":"reduces",
+        "object":"Neuronal Nuclei Positive Cells",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":279,
+        "subject":"Physical Exercise",
+        "relation":"causes",
+        "object":"Neurogenesis",
+        "entity_variants":"none"
+    }
+]

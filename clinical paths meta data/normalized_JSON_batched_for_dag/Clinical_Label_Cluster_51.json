@@ -1,0 +1,240 @@
+[
+    {
+        "source_abstract_id":108,
+        "subject":"Systemic Inflammation",
+        "relation":"associated_with",
+        "object":"Clinical Outcomes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":117,
+        "subject":"Sex-Based Effects",
+        "relation":"causes",
+        "object":"Impact Severity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":231,
+        "subject":"Serum Proteins",
+        "relation":"compared_to",
+        "object":"Salivary MicroRNAs",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":231,
+        "subject":"Timing of Responses",
+        "relation":"varies_in",
+        "object":"Saliva and Serum",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":238,
+        "subject":"Self-Administered Naming Treatment",
+        "relation":"treats",
+        "object":"Naming Accuracy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":238,
+        "subject":"Self-Administered Naming Treatment",
+        "relation":"is_limited_by",
+        "object":"Patient Factors",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":273,
+        "subject":"In vivo signatures",
+        "relation":"associated_with",
+        "object":"Pathological brain lesions",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":273,
+        "subject":"LETBI study",
+        "relation":"uses",
+        "object":"Proteomic analysis",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":320,
+        "subject":"Self-Administered Symptom Evaluation Tool",
+        "relation":"monitors",
+        "object":"Adverse Symptoms",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":337,
+        "subject":"Substance Use Severity",
+        "relation":"associated_with",
+        "object":"Cognitive Difficulties",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":337,
+        "subject":"Substance Use Treatment",
+        "relation":"associated_with",
+        "object":"Clinical Symptoms",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":337,
+        "subject":"Substance Use Treatment",
+        "relation":"associated_with",
+        "object":"Functional Ability",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":515,
+        "subject":"Kappa Coefficients",
+        "relation":"measure_agreement_with",
+        "object":"Neurologist Diagnosis",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":544,
+        "subject":"Vascular Risk Factors",
+        "relation":"not_associated_with",
+        "object":"Biomarker Classifications",
+        "entity_variants":"none|"
+    },
+    {
+        "source_abstract_id":579,
+        "subject":"Sensitivity",
+        "relation":"greater_than",
+        "object":"Specificity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":585,
+        "subject":"Severe Parenchymal Injury",
+        "relation":"increases",
+        "object":"Risk of Clinical Downgrade",
+        "entity_variants":"Severity"
+    },
+    {
+        "source_abstract_id":597,
+        "subject":"Search Strategy Utilization",
+        "relation":"is_assessed_by",
+        "object":"Machine Learning Algorithm",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":619,
+        "subject":"Subjective Well-Being Index",
+        "relation":"associated_with",
+        "object":"Well-Being",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":630,
+        "subject":"Time Group Interaction Effect",
+        "relation":"indicates",
+        "object":"Significant Improvement",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":108,
+        "subject":"Systemic Inflammation",
+        "relation":"affects",
+        "object":"Treatment Outcome",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":488,
+        "subject":"MicroRNA",
+        "relation":"upregulates",
+        "object":"Cellular Senescence Pathways",
+        "entity_variants":"not specified|"
+    },
+    {
+        "source_abstract_id":135,
+        "subject":"Acute Injury Severity",
+        "relation":"associated_with",
+        "object":"Functional Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":526,
+        "subject":"Initial Injury Severity",
+        "relation":"confounds",
+        "object":"Functional Outcome",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":108,
+        "subject":"Systemic Inflammation",
+        "relation":"associated_with",
+        "object":"Neuronal Injury Markers",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":196,
+        "subject":"Symptom Severity",
+        "relation":"associated_with",
+        "object":"Biomarkers of Neurodegeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":196,
+        "subject":"Biomarkers of Neurodegeneration",
+        "relation":"associated_with",
+        "object":"Post-Traumatic Stress Disorder",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":273,
+        "subject":"LETBI Study",
+        "relation":"studies",
+        "object":"Neuropathology",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":337,
+        "subject":"Substance Use Severity",
+        "relation":"associated_with",
+        "object":"Neuropathological Endpoints",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":337,
+        "subject":"Substance Use Treatment",
+        "relation":"negatively_associated_with",
+        "object":"Neuropathological Endpoints",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":386,
+        "subject":"Synaptophysin",
+        "relation":"binds_to",
+        "object":"Neurons",
+        "entity_variants":"not reported"
+    },
+    {
+        "source_abstract_id":386,
+        "subject":"Synaptic Biomarkers",
+        "relation":"mediates",
+        "object":"Clinical Prognosis",
+        "entity_variants":"not reported"
+    },
+    {
+        "source_abstract_id":620,
+        "subject":"Plasma Biomarkers",
+        "relation":"associated_with",
+        "object":"Neurodegeneration",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":620,
+        "subject":"Plasma Biomarkers",
+        "relation":"associated_with",
+        "object":"Inflammation",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":135,
+        "subject":"Subcortical Atrophy",
+        "relation":"associated_with",
+        "object":"Functional Outcome",
+        "entity_variants":null
+    }
+]

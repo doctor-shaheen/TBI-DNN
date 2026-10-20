@@ -1,0 +1,589 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 25,
+    "edge_count": 28
+  },
+  "nodes": [
+    {
+      "id": "VCE-005.1",
+      "label": "VCE-005.1",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C5856423",
+        "ChEBI_ID": "null"
+      },
+      "synonyms": [
+        "Hypoxia mimetic betulinic acid derivative",
+        "Etrinabdione"
+      ]
+    },
+    {
+      "id": "HIF1A",
+      "label": "HIF1A",
+      "type": "Protein",
+      "location": "Nucleus",
+      "identifiers": {
+        "UMLS_CUI": "C0919565",
+        "HGNC_ID": "HGNC:4910",
+        "UniProt_ID": "Q16665"
+      },
+      "synonyms": [
+        "Hypoxia-Inducible Factor 1-alpha",
+        "HIF-1alpha"
+      ]
+    },
+    {
+      "id": "EndothelialCell",
+      "label": "Endothelial Cell",
+      "type": "CellType",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0014266"
+      },
+      "synonyms": [
+        "Vascular Endothelial Cells"
+      ]
+    },
+    {
+      "id": "Angiogenesis",
+      "label": "Angiogenesis",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027552",
+        "GO_ID": "GO:0001525"
+      },
+      "synonyms": [
+        "Neovascularization"
+      ]
+    },
+    {
+      "id": "CellInfiltration",
+      "label": "Cell Infiltration",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0333333",
+        "GO_ID": "GO:0002244"
+      },
+      "synonyms": [
+        "Peripheral Immune Cell Infiltration"
+      ]
+    },
+    {
+      "id": "BloodBrainBarrier",
+      "label": "Blood-Brain Barrier",
+      "type": "Anatomy",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0005763"
+      },
+      "synonyms": [
+        "BBB"
+      ]
+    },
+    {
+      "id": "NeuronalDeath",
+      "label": "Neuronal Death",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027774",
+        "GO_ID": "GO:0070997"
+      },
+      "synonyms": [
+        "Apoptosis in Neuronal Cells",
+        "Neuronal Loss"
+      ]
+    },
+    {
+      "id": "Locomotion",
+      "label": "Locomotion",
+      "type": "Process",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0023961",
+        "GO_ID": "GO:0040011"
+      },
+      "synonyms": [
+        "Locomotor Coordination"
+      ]
+    },
+    {
+      "id": "Inflammation",
+      "label": "Inflammation",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0021368",
+        "GO_ID": "GO:0006954"
+      },
+      "synonyms": [
+        "Anti-Inflammatory Effects"
+      ]
+    },
+    {
+      "id": "EPO",
+      "label": "EPO",
+      "type": "Protein",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "UMLS_CUI": "C0014795",
+        "HGNC_ID": "HGNC:3415",
+        "UniProt_ID": "P01588"
+      },
+      "synonyms": [
+        "Erythropoietin",
+        "Recombinant Human Erythropoietin",
+        "EpoR76E"
+      ]
+    },
+    {
+      "id": "Neurogenesis",
+      "label": "Neurogenesis",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027878",
+        "GO_ID": "GO:0022008"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Synaptogenesis",
+      "label": "Synaptogenesis",
+      "type": "Process",
+      "location": "Synapse",
+      "identifiers": {
+        "UMLS_CUI": "C0039097",
+        "GO_ID": "GO:0007416"
+      },
+      "synonyms": [
+        "Increased Excitatory Synaptic Density"
+      ]
+    },
+    {
+      "id": "Memory",
+      "label": "Memory",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0025260",
+        "GO_ID": "GO:0007613"
+      },
+      "synonyms": [
+        "Fear Memory Response"
+      ]
+    },
+    {
+      "id": "Neurodegeneration",
+      "label": "Neurodegeneration",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027810",
+        "GO_ID": "GO:0090263"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Cognition",
+      "label": "Cognition",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0009241",
+        "GO_ID": "GO:0050890"
+      },
+      "synonyms": [
+        "Neurological Outcomes",
+        "Cognitive Outcomes"
+      ]
+    },
+    {
+      "id": "GeneTherapy",
+      "label": "Gene Therapy",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0017300"
+      },
+      "synonyms": [
+        "AAV-siRNA",
+        "AAV-mediated Knockdown"
+      ]
+    },
+    {
+      "id": "GeneExpression",
+      "label": "Gene Expression",
+      "type": "Process",
+      "location": "Nucleus",
+      "identifiers": {
+        "UMLS_CUI": "C0017262",
+        "GO_ID": "GO:0010467"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "BDNF",
+      "label": "BDNF",
+      "type": "Protein",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "UMLS_CUI": "C0006203",
+        "HGNC_ID": "HGNC:1033",
+        "UniProt_ID": "P23560"
+      },
+      "synonyms": [
+        "Brain-derived neurotrophic factor",
+        "AAV-BDNF"
+      ]
+    },
+    {
+      "id": "MotorActivity",
+      "label": "Motor Activity",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0026606",
+        "GO_ID": "GO:0003010"
+      },
+      "synonyms": [
+        "Motor Behavior Outcomes"
+      ]
+    },
+    {
+      "id": "CognitiveImpairment",
+      "label": "Cognitive Impairment",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0338656"
+      },
+      "synonyms": [
+        "Cognitive Decline",
+        "Memory Impairment"
+      ]
+    },
+    {
+      "id": "APP",
+      "label": "APP",
+      "type": "Protein",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "UMLS_CUI": "C0002714",
+        "HGNC_ID": "HGNC:620",
+        "UniProt_ID": "P05067"
+      },
+      "synonyms": [
+        "Amyloid Beta",
+        "Amyloid Precursor Protein"
+      ]
+    },
+    {
+      "id": "NervousSystemDiseases",
+      "label": "Nervous System Diseases",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027765"
+      },
+      "synonyms": [
+        "Symptoms of Neurological Disorders"
+      ]
+    },
+    {
+      "id": "EH-201",
+      "label": "EH-201",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "null",
+        "CAS": "55327-45-2"
+      },
+      "synonyms": [
+        "2,3,5,4'-tetrahydroxystilbene-2-O-beta-d-glucoside",
+        "TSG"
+      ]
+    },
+    {
+      "id": "PPARGC1A",
+      "label": "PPARGC1A",
+      "type": "Protein",
+      "location": "Nucleus",
+      "identifiers": {
+        "UMLS_CUI": "C1366524",
+        "HGNC_ID": "HGNC:9232",
+        "UniProt_ID": "Q9UBK2"
+      },
+      "synonyms": [
+        "Peroxisome Proliferator-Activated Receptor Gamma Coactivator 1-alpha"
+      ]
+    },
+    {
+      "id": "Hemoglobin",
+      "label": "Hemoglobin",
+      "type": "Protein",
+      "location": "Blood",
+      "identifiers": {
+        "UMLS_CUI": "C0019046"
+      },
+      "synonyms": []
+    }
+  ],
+  "edges": [
+    {
+      "source": "VCE-005.1",
+      "target": "HIF1A",
+      "mechanism": "activates",
+      "evidence_ref": [
+        77
+      ],
+      "confidence": "High",
+      "metadata": "Context: Stabilizes HIF1A and upregulates HIF-dependent genes"
+    },
+    {
+      "source": "VCE-005.1",
+      "target": "EndothelialCell",
+      "mechanism": "causes",
+      "evidence_ref": [
+        77
+      ],
+      "confidence": "Medium",
+      "metadata": "Effect: Preserves/Treats"
+    },
+    {
+      "source": "VCE-005.1",
+      "target": "Angiogenesis",
+      "mechanism": "causes",
+      "evidence_ref": [
+        77
+      ],
+      "confidence": "High",
+      "metadata": "Includes neovascularization"
+    },
+    {
+      "source": "VCE-005.1",
+      "target": "CellInfiltration",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        77
+      ],
+      "confidence": "High",
+      "metadata": "Context: Peripheral Immune Cells"
+    },
+    {
+      "source": "VCE-005.1",
+      "target": "BloodBrainBarrier",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        77
+      ],
+      "confidence": "High",
+      "metadata": "Effect: Preserves integrity"
+    },
+    {
+      "source": "VCE-005.1",
+      "target": "NeuronalDeath",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        77
+      ],
+      "confidence": "High",
+      "metadata": "Context: Apoptosis"
+    },
+    {
+      "source": "VCE-005.1",
+      "target": "Locomotion",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        77
+      ],
+      "confidence": "High",
+      "metadata": "Effect: Improves coordination"
+    },
+    {
+      "source": "VCE-005.1",
+      "target": "Inflammation",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        77
+      ],
+      "confidence": "High",
+      "metadata": "Context: Anti-Inflammatory Effects"
+    },
+    {
+      "source": "EPO",
+      "target": "Neurogenesis",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        229
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "EPO",
+      "target": "Synaptogenesis",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        229
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "EPO",
+      "target": "Memory",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        229,
+        379
+      ],
+      "confidence": "High",
+      "metadata": "Effect: Mediates response, prevents impairment"
+    },
+    {
+      "source": "EPO",
+      "target": "Neurodegeneration",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        229
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "EPO",
+      "target": "Cognition",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        229,
+        364,
+        359
+      ],
+      "confidence": "High",
+      "metadata": "Effect: Improves outcomes, prevents decline"
+    },
+    {
+      "source": "GeneTherapy",
+      "target": "GeneExpression",
+      "mechanism": "causes",
+      "evidence_ref": [
+        271
+      ],
+      "confidence": "Low",
+      "metadata": "Context: AAV-siRNA"
+    },
+    {
+      "source": "GeneTherapy",
+      "target": "Cognition",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        271
+      ],
+      "confidence": "Low",
+      "metadata": "Context: Functional Outcome"
+    },
+    {
+      "source": "BDNF",
+      "target": "MotorActivity",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        354
+      ],
+      "confidence": "High",
+      "metadata": "Effect: Improves"
+    },
+    {
+      "source": "BDNF",
+      "target": "Cognition",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        354
+      ],
+      "confidence": "High",
+      "metadata": "Effect: Improves"
+    },
+    {
+      "source": "EPO",
+      "target": "CognitiveImpairment",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        359,
+        364,
+        379
+      ],
+      "confidence": "High",
+      "metadata": "Context: Reverses memory impairment"
+    },
+    {
+      "source": "EPO",
+      "target": "APP",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        364
+      ],
+      "confidence": "High",
+      "metadata": "Context: AAV_EpoR76E reduces Amyloid Beta"
+    },
+    {
+      "source": "EPO",
+      "target": "NeuronalDeath",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        364
+      ],
+      "confidence": "High",
+      "metadata": "Context: Neuronal Loss"
+    },
+    {
+      "source": "EPO",
+      "target": "NervousSystemDiseases",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        364
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Symptoms"
+    },
+    {
+      "source": "EH-201",
+      "target": "EPO",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        379
+      ],
+      "confidence": "High",
+      "metadata": "Effect: Induction"
+    },
+    {
+      "source": "EH-201",
+      "target": "PPARGC1A",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        379
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "EH-201",
+      "target": "Hemoglobin",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        379
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "EH-201",
+      "target": "CognitiveImpairment",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        379
+      ],
+      "confidence": "High",
+      "metadata": "Context: Reverses memory impairment"
+    }
+  ]
+}

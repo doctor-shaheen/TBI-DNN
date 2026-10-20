@@ -1,0 +1,114 @@
+[
+    {
+        "source_abstract_id":35,
+        "subject":"Tau Protein Uptake",
+        "relation":"mediated_by",
+        "object":"Caveolin-1",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":153,
+        "subject":"Sodium-Dependent Vitamin C Transporter 2",
+        "relation":"transports",
+        "object":"Ascorbic Acid",
+        "entity_variants":"SVCT2 functional, ascorbate reduced"
+    },
+    {
+        "source_abstract_id":171,
+        "subject":"Transferrin Receptor",
+        "relation":"mediates",
+        "object":"Blood-Brain Barrier Penetration",
+        "entity_variants":"transferrin receptor"
+    },
+    {
+        "source_abstract_id":228,
+        "subject":"Metal Chaperone",
+        "relation":"upregulates",
+        "object":"Neuronal Integrity",
+        "entity_variants":"PBT2"
+    },
+    {
+        "source_abstract_id":228,
+        "subject":"Metal Chaperone",
+        "relation":"downregulates",
+        "object":"Astrocytosis",
+        "entity_variants":"PBT2"
+    },
+    {
+        "source_abstract_id":228,
+        "subject":"Metal Chaperone",
+        "relation":"normalizes",
+        "object":"Cognitive Performance",
+        "entity_variants":"PBT2"
+    },
+    {
+        "source_abstract_id":228,
+        "subject":"PBT2",
+        "relation":"upregulates",
+        "object":"Neuronal Numbers",
+        "entity_variants":"not specified"
+    },
+    {
+        "source_abstract_id":228,
+        "subject":"PBT2",
+        "relation":"downregulates",
+        "object":"Lesion Area",
+        "entity_variants":"not specified|"
+    },
+    {
+        "source_abstract_id":228,
+        "subject":"PBT2",
+        "relation":"causes",
+        "object":"Behavioral Assessment",
+        "entity_variants":"not specified|"
+    },
+    {
+        "source_abstract_id":228,
+        "subject":"PBT2",
+        "relation":"mediates",
+        "object":"Neuroprotection",
+        "entity_variants":"not specified|"
+    },
+    {
+        "source_abstract_id":153,
+        "subject":"Sodium-dependent Vitamin C Transporter 2",
+        "relation":"modulates",
+        "object":"Microglial Response",
+        "entity_variants":"SVCT2 heterozygous, SVCT2 transgenic"
+    },
+    {
+        "source_abstract_id":153,
+        "subject":"Sodium-dependent Vitamin C Transporter 2 Expression",
+        "relation":"affects",
+        "object":"Microglial Response",
+        "entity_variants":"SVCT2 high, SVCT2 low"
+    },
+    {
+        "source_abstract_id":153,
+        "subject":"Sodium-dependent Vitamin C Transporter 2 Expression",
+        "relation":"modifies",
+        "object":"Neuroinflammatory Response",
+        "entity_variants":"SVCT2 high, SVCT2 low"
+    },
+    {
+        "source_abstract_id":153,
+        "subject":"Microglial Response",
+        "relation":"is_modified_by",
+        "object":"Sodium-dependent Vitamin C Transporter 2 Expression",
+        "entity_variants":"SVCT2 high, SVCT2 low"
+    },
+    {
+        "source_abstract_id":240,
+        "subject":"Transferrin Receptor 1",
+        "relation":"binds_to",
+        "object":"Iron",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":202,
+        "subject":"Intermittent fasting",
+        "relation":"partially abolishes",
+        "object":"Solute carrier family 7 member 11",
+        "entity_variants":null
+    }
+]

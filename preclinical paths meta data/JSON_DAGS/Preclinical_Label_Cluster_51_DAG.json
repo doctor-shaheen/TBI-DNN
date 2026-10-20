@@ -1,0 +1,407 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 17,
+    "edge_count": 21
+  },
+  "nodes": [
+    {
+      "id": "RPL29P31",
+      "label": "RPL29P31",
+      "type": "Protein",
+      "location": "Mitochondria",
+      "identifiers": {
+        "HGNC_ID": "HGNC:35944",
+        "UMLS_CUI": "C1419356",
+        "UniProt_ID": "Q969M8"
+      },
+      "synonyms": [
+        "PERMIT",
+        "p17",
+        "Protein that Mediates ER-Mitochondria Trafficking",
+        "Ribosomal Protein L29 Pseudogene 31"
+      ]
+    },
+    {
+      "id": "CERS1",
+      "label": "CERS1",
+      "type": "Protein",
+      "location": "Mitochondria",
+      "identifiers": {
+        "HGNC_ID": "HGNC:23756",
+        "UMLS_CUI": "C1425835",
+        "UniProt_ID": "P20436"
+      },
+      "synonyms": [
+        "Ceramide synthase 1",
+        "LASS1"
+      ]
+    },
+    {
+      "id": "N-stearoylsphingosine",
+      "label": "N-stearoylsphingosine",
+      "type": "Chemical",
+      "location": "Mitochondria",
+      "identifiers": {
+        "ChEBI_ID": "CHEBI:72958",
+        "UMLS_CUI": "C0529068"
+      },
+      "synonyms": [
+        "C18-Ceramide",
+        "N-stearoyl-sphing-4-enine",
+        "Cer(d18:1/18:0)"
+      ]
+    },
+    {
+      "id": "N-docosahexaenoylethanolamine",
+      "label": "N-docosahexaenoylethanolamine",
+      "type": "Chemical",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "ChEBI_ID": "CHEBI:73268",
+        "UMLS_CUI": "C3470719"
+      },
+      "synonyms": [
+        "Synaptamide",
+        "DHEA",
+        "N-docosahexaenoylethanolamine"
+      ]
+    },
+    {
+      "id": "BAD",
+      "label": "BAD",
+      "type": "Protein",
+      "location": "Mitochondria",
+      "identifiers": {
+        "HGNC_ID": "HGNC:936",
+        "UMLS_CUI": "C0382834",
+        "UniProt_ID": "Q92934"
+      },
+      "synonyms": [
+        "Bcl-2-associated agonist of cell death"
+      ]
+    },
+    {
+      "id": "ChronicTraumaticEncephalopathy",
+      "label": "Chronic Traumatic Encephalopathy",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C3274640"
+      },
+      "synonyms": [
+        "CTE",
+        "Dementia pugilistica"
+      ]
+    },
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "Traumatic Brain Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111"
+      },
+      "synonyms": [
+        "TBI",
+        "Brain Damage",
+        "Long-term Brain Damage"
+      ]
+    },
+    {
+      "id": "CognitiveDeficit",
+      "label": "Cognitive Deficit",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0338656"
+      },
+      "synonyms": [
+        "Cognitive Impairment",
+        "Memory Loss"
+      ]
+    },
+    {
+      "id": "Neuroprotection",
+      "label": "Neuroprotection",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "GO_ID": "GO:0051403",
+        "UMLS_CUI": "C0599872"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Mitophagy",
+      "label": "Mitophagy",
+      "type": "Process",
+      "location": "Mitochondria",
+      "identifiers": {
+        "GO_ID": "GO:0000422",
+        "UMLS_CUI": "C1518384"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "NervousSystemRegeneration",
+      "label": "Nervous System Regeneration",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "GO_ID": "GO:0031102",
+        "UMLS_CUI": "C0027763"
+      },
+      "synonyms": [
+        "Brain Repair"
+      ]
+    },
+    {
+      "id": "AntioxidantDefenseSystem",
+      "label": "Antioxidant Defense System",
+      "type": "Process",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "UMLS_CUI": "C0596238"
+      },
+      "synonyms": [
+        "Antioxidant Defense"
+      ]
+    },
+    {
+      "id": "Astrocyte",
+      "label": "Astrocyte",
+      "type": "Cell",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0004115"
+      },
+      "synonyms": [
+        "A2 Reactive Astrocyte",
+        "Astroglia"
+      ]
+    },
+    {
+      "id": "Neurotrophin",
+      "label": "Neurotrophin",
+      "type": "Protein",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "UMLS_CUI": "C0027931"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Biomarker",
+      "label": "Biomarker",
+      "type": "Class",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0005516"
+      },
+      "synonyms": [
+        "Brain Injury Biomarker"
+      ]
+    },
+    {
+      "id": "Antioxidant",
+      "label": "Antioxidant",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0003402"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Neurodegeneration",
+      "label": "Neurodegeneration",
+      "type": "Pathology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027963"
+      },
+      "synonyms": []
+    }
+  ],
+  "edges": [
+    {
+      "source": "RPL29P31",
+      "target": "CERS1",
+      "mechanism": "translocates",
+      "evidence_ref": [
+        320
+      ],
+      "confidence": "High",
+      "metadata": "Context: ER to Mitochondria translocation; Inferred from p17KO downregulation"
+    },
+    {
+      "source": "RPL29P31",
+      "target": "N-stearoylsphingosine",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        320
+      ],
+      "confidence": "High",
+      "metadata": "Context: Mediated by CERS1 translocation"
+    },
+    {
+      "source": "N-stearoylsphingosine",
+      "target": "Mitophagy",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        320
+      ],
+      "confidence": "High",
+      "metadata": "Context: Stress-mediated"
+    },
+    {
+      "source": "N-stearoylsphingosine",
+      "target": "Neuroprotection",
+      "mechanism": "causes",
+      "evidence_ref": [
+        320
+      ],
+      "confidence": "High",
+      "metadata": "Context: Endogenous mitochondrial stress response"
+    },
+    {
+      "source": "N-stearoylsphingosine",
+      "target": "CognitiveDeficit",
+      "mechanism": "treats",
+      "evidence_ref": [
+        320
+      ],
+      "confidence": "Medium",
+      "metadata": "Evidence from analog LCL768"
+    },
+    {
+      "source": "N-stearoylsphingosine",
+      "target": "ChronicTraumaticEncephalopathy",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        320
+      ],
+      "confidence": "Medium",
+      "metadata": "Inferred from 'interrupt CTE consequences'"
+    },
+    {
+      "source": "ChronicTraumaticEncephalopathy",
+      "target": "N-stearoylsphingosine",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        320
+      ],
+      "confidence": "High",
+      "metadata": "Biomarker level in CTE brains"
+    },
+    {
+      "source": "ChronicTraumaticEncephalopathy",
+      "target": "RPL29P31",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        320
+      ],
+      "confidence": "High",
+      "metadata": "Expression reduced in CTE brains"
+    },
+    {
+      "source": "N-docosahexaenoylethanolamine",
+      "target": "Astrocyte",
+      "mechanism": "activates",
+      "evidence_ref": [
+        186,
+        337
+      ],
+      "confidence": "High",
+      "metadata": "Triggers A2 Reactive State; Regulates markers"
+    },
+    {
+      "source": "N-docosahexaenoylethanolamine",
+      "target": "AntioxidantDefenseSystem",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        186
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "N-docosahexaenoylethanolamine",
+      "target": "BAD",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        186
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "N-docosahexaenoylethanolamine",
+      "target": "Biomarker",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        337
+      ],
+      "confidence": "Medium",
+      "metadata": "Type: Brain Injury Biomarkers"
+    },
+    {
+      "source": "N-docosahexaenoylethanolamine",
+      "target": "Neurotrophin",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        337
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "N-docosahexaenoylethanolamine",
+      "target": "Neuroprotection",
+      "mechanism": "causes",
+      "evidence_ref": [
+        337
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "N-docosahexaenoylethanolamine",
+      "target": "TraumaticBrainInjury",
+      "mechanism": "treats",
+      "evidence_ref": [
+        337
+      ],
+      "confidence": "High",
+      "metadata": "Ameliorates long-term damage"
+    },
+    {
+      "source": "N-docosahexaenoylethanolamine",
+      "target": "NervousSystemRegeneration",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        337
+      ],
+      "confidence": "High",
+      "metadata": "Enhances brain repair"
+    },
+    {
+      "source": "Antioxidant",
+      "target": "Neurodegeneration",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        322
+      ],
+      "confidence": "Medium",
+      "metadata": "Variants: HPN-07, NAC"
+    },
+    {
+      "source": "RPL29P31",
+      "target": "CERS1",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        320
+      ],
+      "confidence": "High",
+      "metadata": "Inferred from p17KO downregulation"
+    }
+  ]
+}

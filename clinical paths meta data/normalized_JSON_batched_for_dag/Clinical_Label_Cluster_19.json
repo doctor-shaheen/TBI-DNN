@@ -1,0 +1,135 @@
+[
+    {
+        "source_abstract_id":71,
+        "subject":"Traumatic Brain Injury",
+        "relation":"increases",
+        "object":"Optic Chiasm Volume",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":385,
+        "subject":"Traumatic Brain Injury",
+        "relation":"decreases",
+        "object":"Cerebrospinal Fluid Pulsation",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":385,
+        "subject":"Cerebrospinal Fluid Pulsation",
+        "relation":"causes",
+        "object":"Accumulation of Toxic Substances in Brain",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":385,
+        "subject":"Cerebrospinal Fluid Pulsation",
+        "relation":"affects",
+        "object":"Brain Function",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":247,
+        "subject":"Hyperbaric Oxygen Therapy",
+        "relation":"causes",
+        "object":"Angiogenesis",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":247,
+        "subject":"Hyperbaric Oxygen Therapy",
+        "relation":"improves",
+        "object":"Cognitive Function",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":247,
+        "subject":"Hyperbaric Oxygen Therapy",
+        "relation":"increases",
+        "object":"Cerebral Blood Flow",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":247,
+        "subject":"Hyperbaric Oxygen Therapy",
+        "relation":"increases",
+        "object":"Cerebral Blood Volume",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":357,
+        "subject":"Hyperbaric Oxygen Therapy",
+        "relation":"increases",
+        "object":"Oxygen Metabolism",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":359,
+        "subject":"Hyperbaric Oxygen",
+        "relation":"causes",
+        "object":"Stem Cell Mobilization",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":359,
+        "subject":"Hyperbaric Oxygen",
+        "relation":"associated_with",
+        "object":"Cognitive Performance",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":359,
+        "subject":"Hyperbaric Oxygen",
+        "relation":"upregulates",
+        "object":"Stem Cell Markers",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":359,
+        "subject":"Hyperbaric Oxygen",
+        "relation":"binds_to",
+        "object":"Neuronal Tissue",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":359,
+        "subject":"Cognitive Performance",
+        "relation":"improves_with",
+        "object":"Hyperbaric Oxygen",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":552,
+        "subject":"Hyperbaric Oxygen Therapy",
+        "relation":"promotes",
+        "object":"Consciousness",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":552,
+        "subject":"Hyperbaric Oxygen Therapy",
+        "relation":"promotes",
+        "object":"Cognitive Function",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":552,
+        "subject":"Hyperbaric Oxygen Therapy",
+        "relation":"improves",
+        "object":"Prognosis",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":552,
+        "subject":"Hyperbaric Oxygen Therapy",
+        "relation":"decreases",
+        "object":"Traumatic Brain Injury-induced Hematoma Volume",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":553,
+        "subject":"Obstructive Apnea-Hypopnea Index",
+        "relation":"no_direct_causal_link",
+        "object":"Cognitive Performance",
+        "entity_variants":"unknown"
+    }
+]

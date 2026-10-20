@@ -1,0 +1,142 @@
+[
+    {
+        "source_abstract_id":391,
+        "subject":"Microvesicle Exosome Release",
+        "relation":"contains",
+        "object":"Complement Component C1q",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":620,
+        "subject":"Digital Enzyme-Linked Immunosorbent Assay",
+        "relation":"quantifies",
+        "object":"Extracellular Vesicle-Packaged Biomarkers",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":236,
+        "subject":"Military Exposure",
+        "relation":"causes",
+        "object":"Neuron-Derived Exosomes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":323,
+        "subject":"Platelet-Derived Extracellular Vesicles",
+        "relation":"causes",
+        "object":"Neuronal Function Restoration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":323,
+        "subject":"Platelet-Derived Extracellular Vesicles",
+        "relation":"prevents",
+        "object":"Ferroptosis",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":323,
+        "subject":"Platelet-Derived Extracellular Vesicles",
+        "relation":"causes",
+        "object":"Anti-Inflammatory Response",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":323,
+        "subject":"Platelet-Derived Extracellular Vesicles",
+        "relation":"causes",
+        "object":"Tyrosine Hydroxylase Expression",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":323,
+        "subject":"Platelet-Derived Extracellular Vesicles",
+        "relation":"causes",
+        "object":"Motor Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":323,
+        "subject":"Platelet-Derived Extracellular Vesicles",
+        "relation":"contains",
+        "object":"Neurotrophins",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":323,
+        "subject":"Platelet-Derived Extracellular Vesicles",
+        "relation":"contains",
+        "object":"Anti-Inflammatory Agents",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":323,
+        "subject":"Platelet-Derived Extracellular Vesicles",
+        "relation":"contains",
+        "object":"Neurotransmitters",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":323,
+        "subject":"Platelet-Derived Extracellular Vesicles",
+        "relation":"contains",
+        "object":"Antioxidants",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":323,
+        "subject":"Platelet-Derived Extracellular Vesicles",
+        "relation":"exhibits",
+        "object":"Low Expression of Procoagulant Phosphatidylserine",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":391,
+        "subject":"Microvesicle and Exosome Release",
+        "relation":"contains",
+        "object":"Neurodegeneration Factors",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":391,
+        "subject":"Microvesicle and Exosome Release",
+        "relation":"has",
+        "object":"Unique Protein Contents",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":391,
+        "subject":"Microvesicle and Exosome Release",
+        "relation":"contains",
+        "object":"Cytoskeletal Proteins",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":391,
+        "subject":"Microvesicle and Exosome Release",
+        "relation":"contains",
+        "object":"Neurite Outgrowth-Related Proteins",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":391,
+        "subject":"Microvesicle and Exosome Release",
+        "relation":"contains",
+        "object":"Synaptic Proteins",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":391,
+        "subject":"Microvesicle and Exosome Release",
+        "relation":"contains",
+        "object":"Extracellular Matrix Proteins",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":620,
+        "subject":"Track-Etched Magnetic Nanopore Technology",
+        "relation":"used_for",
+        "object":"Isolation of Extracellular Vesicles",
+        "entity_variants":"none"
+    }
+]

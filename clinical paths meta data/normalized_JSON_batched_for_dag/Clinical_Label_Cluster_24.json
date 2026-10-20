@@ -1,0 +1,534 @@
+[
+    {
+        "source_abstract_id":186,
+        "subject":"Current Thinking Skills Concerns",
+        "relation":"mediated_by",
+        "object":"Retrospective Thinking Skills Concerns",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":186,
+        "subject":"Current Thinking Skills Concerns",
+        "relation":"no_association",
+        "object":"Retrospective Thinking Skills Concerns",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":190,
+        "subject":"Emotional Distress",
+        "relation":"influences",
+        "object":"Reasoning",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":288,
+        "subject":"Genetic variation",
+        "relation":"affects",
+        "object":"Monoaminergic signaling",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":516,
+        "subject":"Alcohol and Other Drug Treatment",
+        "relation":"correlates_with",
+        "object":"Severity of Dependence",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":95,
+        "subject":"Cognitive Impairment",
+        "relation":"associated_with",
+        "object":"Cardiovascular Disease",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":101,
+        "subject":"Glasgow Coma Scale",
+        "relation":"negatively_regulates",
+        "object":"Early Cognitive Impairment",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":101,
+        "subject":"BIG Category 3",
+        "relation":"causes",
+        "object":"Early Cognitive Impairment",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":101,
+        "subject":"Pelvic and Extremity Fractures",
+        "relation":"causes",
+        "object":"Early Cognitive Impairment",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":101,
+        "subject":"Loss of Consciousness",
+        "relation":"negatively_regulates",
+        "object":"Early Cognitive Impairment",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":101,
+        "subject":"Anticoagulants",
+        "relation":"confounds",
+        "object":"Early Cognitive Impairment",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":101,
+        "subject":"Narcotic Administration",
+        "relation":"confounds",
+        "object":"Early Cognitive Impairment",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":101,
+        "subject":"Rotterdam Score",
+        "relation":"confounds",
+        "object":"Early Cognitive Impairment",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":148,
+        "subject":"Cognitive Decline",
+        "relation":"associated_with",
+        "object":"Time Intervals",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":190,
+        "subject":"Education",
+        "relation":"influences",
+        "object":"Memory",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":190,
+        "subject":"Education",
+        "relation":"influences",
+        "object":"Reasoning",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":213,
+        "subject":"Neuropsychological Criteria",
+        "relation":"upregulates",
+        "object":"Mild Cognitive Impairment Identification",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":213,
+        "subject":"Neuropsychological Criteria",
+        "relation":"binds_to",
+        "object":"Mild Cognitive Impairment Progression",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":246,
+        "subject":"Psychiatric Symptoms",
+        "relation":"affects",
+        "object":"Cognition",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":246,
+        "subject":"Psychiatric Symptoms",
+        "relation":"modulates",
+        "object":"Cognitive Impairment",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":246,
+        "subject":"Psychiatric Symptoms",
+        "relation":"associated_with",
+        "object":"Cognitive Impairment",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":246,
+        "subject":"Psychiatric Symptoms",
+        "relation":"exacerbates",
+        "object":"Cognitive Deficits",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":266,
+        "subject":"Antidepressant Use",
+        "relation":"impairs",
+        "object":"Cognitive Impairment",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":266,
+        "subject":"Antidepressant Use",
+        "relation":"associated_with",
+        "object":"Cognitive Impairment",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":284,
+        "subject":"Gender",
+        "relation":"no_direct_causal_link",
+        "object":"Cognitive Function",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":288,
+        "subject":"Cognitive Composite",
+        "relation":"predicts",
+        "object":"Functional Independence Measure Cognitive",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":288,
+        "subject":"Genetic Variation",
+        "relation":"modulates",
+        "object":"Cognitive Performance",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":288,
+        "subject":"Cognitive Impairment",
+        "relation":"affects",
+        "object":"Functional Independence Measure Cognitive",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":288,
+        "subject":"Functional Cognition",
+        "relation":"depends_on",
+        "object":"Cognitive Composite",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":288,
+        "subject":"Genetic Variation",
+        "relation":"influences",
+        "object":"Cognitive Outcomes",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":288,
+        "subject":"Cognitive Outcomes",
+        "relation":"correlates_with",
+        "object":"Functional Independence Measure Cognitive",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":334,
+        "subject":"K-Vie™",
+        "relation":"improves",
+        "object":"Cognitive Assessment",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":359,
+        "subject":"Stem Cell Mobilization",
+        "relation":"mediates",
+        "object":"Cognitive Performance",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":366,
+        "subject":"Resting State Connectivity",
+        "relation":"predicts",
+        "object":"Cognitive Outcome",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":380,
+        "subject":"Cognitive Dysfunction",
+        "relation":"affects",
+        "object":"Functional Outcome",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":380,
+        "subject":"Functional Outcome",
+        "relation":"assessed_by",
+        "object":"Modified Rankin Scale",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":380,
+        "subject":"Cognitive Outcomes",
+        "relation":"assessed_by",
+        "object":"Mini-Mental State Examination",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":380,
+        "subject":"Cognitive Outcomes",
+        "relation":"assessed_by",
+        "object":"Montreal Cognitive Assessment",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":380,
+        "subject":"Cognitive Impairment",
+        "relation":"noted_in",
+        "object":"Neuropsychological Tests",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":422,
+        "subject":"Multidimensional Magnetic Resonance Imaging",
+        "relation":"enhances",
+        "object":"Neuroimaging Studies",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":448,
+        "subject":"Depression",
+        "relation":"associated_with",
+        "object":"Cognitive Decline",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":448,
+        "subject":"Baseline Depression",
+        "relation":"associated_with",
+        "object":"Longitudinal Cognitive Changes",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":448,
+        "subject":"Depression",
+        "relation":"modulates",
+        "object":"Cognition",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":453,
+        "subject":"Functional Connectivity Change",
+        "relation":"mediates",
+        "object":"Cognitive Impairment",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":453,
+        "subject":"Cognitive Impairment",
+        "relation":"improves",
+        "object":"Symptom Severity",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":453,
+        "subject":"Control Group",
+        "relation":"demonstrates",
+        "object":"Functional Connectivity Trend",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":453,
+        "subject":"Cognitive Impairment",
+        "relation":"associated_with",
+        "object":"Functional Connectivity Change",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":516,
+        "subject":"Psychological Distress",
+        "relation":"associated_with",
+        "object":"Cognitive Impairment",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":516,
+        "subject":"Alcohol and Other Drug Treatment",
+        "relation":"affects",
+        "object":"Cognitive Impairment",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":516,
+        "subject":"Cognitive Impairment",
+        "relation":"predicts",
+        "object":"Treatment Dropout",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":516,
+        "subject":"Cognitive Impairment",
+        "relation":"mediated_by",
+        "object":"Psychological Distress",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":516,
+        "subject":"Cognitive Impairment",
+        "relation":"influences",
+        "object":"Treatment Modifications",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":516,
+        "subject":"Alcohol and Other Drug Treatment",
+        "relation":"affects",
+        "object":"Cognitive Functioning",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":553,
+        "subject":"Stage 1 Sleep",
+        "relation":"predicts",
+        "object":"Cognitive Performance",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":553,
+        "subject":"Stage 1 Sleep",
+        "relation":"predicts",
+        "object":"Verbal Memory Performance",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":553,
+        "subject":"Stage 1 Sleep",
+        "relation":"predicts",
+        "object":"Executive Function Performance",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":553,
+        "subject":"Oxygen Desaturation",
+        "relation":"no_direct_causal_link",
+        "object":"Cognitive Performance",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":553,
+        "subject":"Cortical Arousal",
+        "relation":"associated_with",
+        "object":"Cognitive Performance",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":553,
+        "subject":"Stage 3 Sleep",
+        "relation":"associated_with",
+        "object":"Cognitive Performance",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":559,
+        "subject":"Cognitive Impairment",
+        "relation":"treats",
+        "object":"Rehabilitation Program",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":559,
+        "subject":"Neuropsychiatric Manifestation",
+        "relation":"treats",
+        "object":"Rehabilitation Program",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":582,
+        "subject":"Cognitive Retraining",
+        "relation":"treats",
+        "object":"Working Memory",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":582,
+        "subject":"Cognitive Retraining",
+        "relation":"treats",
+        "object":"Visuospatial Construction",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":582,
+        "subject":"Cognitive Retraining",
+        "relation":"treats",
+        "object":"Visual Memory",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":582,
+        "subject":"Cognitive Retraining",
+        "relation":"treats",
+        "object":"Verbal Encoding",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":582,
+        "subject":"Cognitive Retraining",
+        "relation":"treats",
+        "object":"Subjective Symptom Reporting",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":582,
+        "subject":"Cognitive Retraining",
+        "relation":"treats",
+        "object":"Perceived Stress",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":582,
+        "subject":"Cognitive Retraining",
+        "relation":"treats",
+        "object":"Quality of Life",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":603,
+        "subject":"Cognitive Impairment",
+        "relation":"measured_by",
+        "object":"Mini-Mental State Examination",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":603,
+        "subject":"Cognitive Impairment",
+        "relation":"measured_by",
+        "object":"Clock Drawing Test",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":603,
+        "subject":"Cognitive Impairment",
+        "relation":"differentiated_by",
+        "object":"Mini-Mental State Examination",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":605,
+        "subject":"Alcohol Dependence",
+        "relation":"causes",
+        "object":"Verbal Memory Decline",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":605,
+        "subject":"Inhibitory Control",
+        "relation":"predicts",
+        "object":"Mortality",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":605,
+        "subject":"Charlson Comorbidity Index",
+        "relation":"increases",
+        "object":"Mortality Risk",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":605,
+        "subject":"Inhibitory Control",
+        "relation":"declines",
+        "object":"Mortality Risk",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":607,
+        "subject":"Sex",
+        "relation":"affects",
+        "object":"Clinical Outcome",
+        "entity_variants":"unknown"
+    }
+]

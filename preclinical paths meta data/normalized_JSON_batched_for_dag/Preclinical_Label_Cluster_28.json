@@ -1,0 +1,149 @@
+[
+    {
+        "source_abstract_id":27,
+        "subject":"Beta-Adrenergic Blockade",
+        "relation":"reduces",
+        "object":"Blood-Brain Barrier Permeability",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":47,
+        "subject":"Traumatic Brain Injury",
+        "relation":"triggers",
+        "object":"Mucosal Barrier Dysfunction",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":47,
+        "subject":"Traumatic Brain Injury",
+        "relation":"increases",
+        "object":"Paracellular Flux",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":50,
+        "subject":"Antithrombin III",
+        "relation":"decreases",
+        "object":"Blood-Brain Barrier Permeability",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":79,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Blood-Brain Barrier Alterations",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":84,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Blood-Brain Barrier Disruption",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":123,
+        "subject":"Impact Injury",
+        "relation":"causes",
+        "object":"Blood-Brain Barrier Disruption",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":123,
+        "subject":"Impact Injury",
+        "relation":"causes",
+        "object":"Microvascular Injury",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":123,
+        "subject":"Impact Injury",
+        "relation":"causes",
+        "object":"Serum Albumin Extravasation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":156,
+        "subject":"Traumatic Brain Injury",
+        "relation":"not_associated_with",
+        "object":"Blood-Brain Barrier Alteration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":177,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Blood-Brain Barrier Disruption",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":188,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Blood-Brain Barrier Breakdown",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":191,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Blood-Brain Barrier Damage",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":197,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Blood-Brain Barrier Integrity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":237,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Blood-Brain Barrier",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":247,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Blood-Brain Barrier Disruption",
+        "entity_variants":"not specified|"
+    },
+    {
+        "source_abstract_id":258,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Membrane Destabilization",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":269,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Blood-Brain Barrier Disruption",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":297,
+        "subject":"Activated Factor XII Inhibition",
+        "relation":"improves",
+        "object":"Motor Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":339,
+        "subject":"Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Motor Learning",
+        "entity_variants":"3×Tg-AD|"
+    },
+    {
+        "source_abstract_id":166,
+        "subject":"c-Jun N-terminal Kinase",
+        "relation":"causes",
+        "object":"Blood-Brain Barrier Breakdown",
+        "entity_variants":null
+    }
+]

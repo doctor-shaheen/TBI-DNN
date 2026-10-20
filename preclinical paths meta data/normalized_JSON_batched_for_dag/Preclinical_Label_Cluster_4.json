@@ -1,0 +1,163 @@
+[
+    {
+        "source_abstract_id":388,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Inflammatory Response",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":52,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Inflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":36,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Inflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":47,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Inflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":102,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Inflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":186,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Inflammation",
+        "entity_variants":"not specified"
+    },
+    {
+        "source_abstract_id":192,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Inflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":194,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Chronic Inflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":203,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Inflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":219,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Inflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":225,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Inflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":237,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Inflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":268,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Inflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":325,
+        "subject":"Traumatic Brain Injury",
+        "relation":"upregulates",
+        "object":"Inflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":327,
+        "subject":"Traumatic Brain Injury",
+        "relation":"upregulates",
+        "object":"Inflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":328,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Inflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":334,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Inflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":342,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Inflammation",
+        "entity_variants":"spatiotemporal"
+    },
+    {
+        "source_abstract_id":350,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Inflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":352,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cortical Inflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":369,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Inflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":371,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Inflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":394,
+        "subject":"Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Inflammation",
+        "entity_variants":null
+    }
+]

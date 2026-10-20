@@ -1,0 +1,986 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 48,
+    "edge_count": 62
+  },
+  "nodes": [
+    {
+      "id": "CognitiveDysfunction",
+      "label": "Cognitive Dysfunction",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0338656"
+      },
+      "synonyms": [
+        "Cognitive Impairment",
+        "Cognitive Decline",
+        "Early Cognitive Impairment",
+        "Thinking Skills Concerns",
+        "Cognitive Deficits"
+      ]
+    },
+    {
+      "id": "Cognition",
+      "label": "Cognition",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0009241"
+      },
+      "synonyms": [
+        "Cognitive Performance",
+        "Cognitive Function",
+        "Cognitive Outcomes",
+        "Functional Cognition",
+        "Thinking Skills"
+      ]
+    },
+    {
+      "id": "PsychologicalDistress",
+      "label": "Psychological Distress",
+      "type": "Symptom",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0039655"
+      },
+      "synonyms": [
+        "Emotional Distress"
+      ]
+    },
+    {
+      "id": "Reasoning",
+      "label": "Reasoning",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0034796"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "GeneticVariation",
+      "label": "Genetic Variation",
+      "type": "GeneticContext",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "UMLS_CUI": "C0017429"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "MonoamineSignaling",
+      "label": "Monoamine Signaling",
+      "type": "Process",
+      "location": "Synapse",
+      "identifiers": {
+        "UMLS_CUI": "C1518338"
+      },
+      "synonyms": [
+        "Monoaminergic signaling"
+      ]
+    },
+    {
+      "id": "SubstanceAbuseTreatment",
+      "label": "Substance Abuse Treatment",
+      "type": "Therapeutic",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0038622"
+      },
+      "synonyms": [
+        "Alcohol and Other Drug Treatment"
+      ]
+    },
+    {
+      "id": "SubstanceDependence",
+      "label": "Substance Dependence",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0011167"
+      },
+      "synonyms": [
+        "Severity of Dependence"
+      ]
+    },
+    {
+      "id": "CardiovascularDiseases",
+      "label": "Cardiovascular Diseases",
+      "type": "Disease",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0007222"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "GlasgowComaScale",
+      "label": "Glasgow Coma Scale",
+      "type": "Assessment",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0017636"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "Traumatic Brain Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111"
+      },
+      "synonyms": [
+        "BIG Category 3",
+        "Severe Head Injury"
+      ]
+    },
+    {
+      "id": "BoneFracture",
+      "label": "Bone Fracture",
+      "type": "Injury",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0016658"
+      },
+      "synonyms": [
+        "Pelvic and Extremity Fractures"
+      ]
+    },
+    {
+      "id": "Unconsciousness",
+      "label": "Unconsciousness",
+      "type": "Symptom",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0041657"
+      },
+      "synonyms": [
+        "Loss of Consciousness"
+      ]
+    },
+    {
+      "id": "Anticoagulants",
+      "label": "Anticoagulants",
+      "type": "Chemical",
+      "location": "Blood",
+      "identifiers": {
+        "UMLS_CUI": "C0003280"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "NarcoticAnalgesics",
+      "label": "Narcotic Analgesics",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0027415"
+      },
+      "synonyms": [
+        "Narcotic Administration"
+      ]
+    },
+    {
+      "id": "RotterdamCTScore",
+      "label": "Rotterdam CT Score",
+      "type": "Assessment",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C4054611"
+      },
+      "synonyms": [
+        "Rotterdam Score"
+      ]
+    },
+    {
+      "id": "EducationalStatus",
+      "label": "Educational Status",
+      "type": "SocialAttribute",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0013658"
+      },
+      "synonyms": [
+        "Education"
+      ]
+    },
+    {
+      "id": "Memory",
+      "label": "Memory",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0025260"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "MildCognitiveImpairment",
+      "label": "Mild Cognitive Impairment",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0948346"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "NeuropsychologicalTests",
+      "label": "Neuropsychological Tests",
+      "type": "Assessment",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0027964"
+      },
+      "synonyms": [
+        "Neuropsychological Criteria"
+      ]
+    },
+    {
+      "id": "MentalDisorders",
+      "label": "Mental Disorders",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0004936"
+      },
+      "synonyms": [
+        "Psychiatric Symptoms",
+        "Neuropsychiatric Manifestation"
+      ]
+    },
+    {
+      "id": "AntidepressiveAgents",
+      "label": "Antidepressive Agents",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0003289"
+      },
+      "synonyms": [
+        "Antidepressant Use"
+      ]
+    },
+    {
+      "id": "BiologicalSex",
+      "label": "Sex",
+      "type": "BiologicalAttribute",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0079399"
+      },
+      "synonyms": [
+        "Gender"
+      ]
+    },
+    {
+      "id": "FunctionalIndependenceMeasure",
+      "label": "Functional Independence Measure",
+      "type": "Assessment",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0086431"
+      },
+      "synonyms": [
+        "Functional Independence Measure Cognitive"
+      ]
+    },
+    {
+      "id": "StemCellMobilization",
+      "label": "Stem Cell Mobilization",
+      "type": "Process",
+      "location": "Blood",
+      "identifiers": {
+        "UMLS_CUI": "C1300067"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "FunctionalConnectivity",
+      "label": "Functional Connectivity",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C3272905"
+      },
+      "synonyms": [
+        "Resting State Connectivity"
+      ]
+    },
+    {
+      "id": "ModifiedRankinScale",
+      "label": "Modified Rankin Scale",
+      "type": "Assessment",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C2985449"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "MiniMentalStateExamination",
+      "label": "Mini Mental State Examination",
+      "type": "Assessment",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0026192"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "MontrealCognitiveAssessment",
+      "label": "Montreal Cognitive Assessment",
+      "type": "Assessment",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C2717833"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Neuroimaging",
+      "label": "Neuroimaging",
+      "type": "DiagnosticProcedure",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0013516"
+      },
+      "synonyms": [
+        "Multidimensional Magnetic Resonance Imaging"
+      ]
+    },
+    {
+      "id": "DepressiveDisorder",
+      "label": "Depressive Disorder",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0011581"
+      },
+      "synonyms": [
+        "Depression",
+        "Baseline Depression"
+      ]
+    },
+    {
+      "id": "Sleep",
+      "label": "Sleep",
+      "type": "PhysiologicalState",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0038155"
+      },
+      "synonyms": [
+        "Stage 1 Sleep",
+        "Stage 3 Sleep"
+      ]
+    },
+    {
+      "id": "Hypoxia",
+      "label": "Hypoxia",
+      "type": "PathologicProcess",
+      "location": "Blood",
+      "identifiers": {
+        "UMLS_CUI": "C0020647"
+      },
+      "synonyms": [
+        "Oxygen Desaturation"
+      ]
+    },
+    {
+      "id": "Arousal",
+      "label": "Arousal",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0003774"
+      },
+      "synonyms": [
+        "Cortical Arousal"
+      ]
+    },
+    {
+      "id": "Rehabilitation",
+      "label": "Rehabilitation",
+      "type": "Therapeutic",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0034509"
+      },
+      "synonyms": [
+        "Rehabilitation Program",
+        "Cognitive Retraining"
+      ]
+    },
+    {
+      "id": "WorkingMemory",
+      "label": "Working Memory",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0598824"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "VisuospatialPerception",
+      "label": "Visuospatial Perception",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0038332"
+      },
+      "synonyms": [
+        "Visuospatial Construction"
+      ]
+    },
+    {
+      "id": "VisualMemory",
+      "label": "Visual Memory",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0025272"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "VerbalLearning",
+      "label": "Verbal Learning",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0042491"
+      },
+      "synonyms": [
+        "Verbal Encoding"
+      ]
+    },
+    {
+      "id": "Stress",
+      "label": "Stress",
+      "type": "Process",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0038435"
+      },
+      "synonyms": [
+        "Perceived Stress"
+      ]
+    },
+    {
+      "id": "QualityOfLife",
+      "label": "Quality Of Life",
+      "type": "ClinicalAttribute",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0034380"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "ClockDrawingTest",
+      "label": "Clock Drawing Test",
+      "type": "Assessment",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0581816"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "AlcoholDependence",
+      "label": "Alcohol Dependence",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0001973"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "VerbalMemory",
+      "label": "Verbal Memory",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0234479"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "InhibitoryControl",
+      "label": "Inhibitory Control",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0234208"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Mortality",
+      "label": "Mortality",
+      "type": "Phenomenon",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0026565"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "CharlsonComorbidityIndex",
+      "label": "Charlson Comorbidity Index",
+      "type": "Assessment",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C3163750"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "DietarySupplement",
+      "label": "Dietary Supplement",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0012170"
+      },
+      "synonyms": [
+        "K-Vie"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "PsychologicalDistress",
+      "target": "Reasoning",
+      "mechanism": "influences",
+      "evidence_ref": [
+        190
+      ]
+    },
+    {
+      "source": "GeneticVariation",
+      "target": "MonoamineSignaling",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        288
+      ]
+    },
+    {
+      "source": "SubstanceAbuseTreatment",
+      "target": "SubstanceDependence",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        516
+      ],
+      "metadata": "Context: Correlation with severity"
+    },
+    {
+      "source": "CognitiveDysfunction",
+      "target": "CardiovascularDiseases",
+      "mechanism": "associated_with",
+      "evidence_ref": [
+        95
+      ]
+    },
+    {
+      "source": "GlasgowComaScale",
+      "target": "CognitiveDysfunction",
+      "mechanism": "negatively_regulates",
+      "evidence_ref": [
+        101
+      ],
+      "metadata": "Higher score reduces impairment likelihood"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "CognitiveDysfunction",
+      "mechanism": "causes",
+      "evidence_ref": [
+        101
+      ]
+    },
+    {
+      "source": "BoneFracture",
+      "target": "CognitiveDysfunction",
+      "mechanism": "causes",
+      "evidence_ref": [
+        101
+      ]
+    },
+    {
+      "source": "Unconsciousness",
+      "target": "CognitiveDysfunction",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        101
+      ],
+      "metadata": "Original: negatively_regulates (High LOC = Worse Outcome)"
+    },
+    {
+      "source": "Anticoagulants",
+      "target": "CognitiveDysfunction",
+      "mechanism": "associated_with",
+      "evidence_ref": [
+        101
+      ],
+      "metadata": "Confounding factor"
+    },
+    {
+      "source": "NarcoticAnalgesics",
+      "target": "CognitiveDysfunction",
+      "mechanism": "associated_with",
+      "evidence_ref": [
+        101
+      ],
+      "metadata": "Confounding factor"
+    },
+    {
+      "source": "RotterdamCTScore",
+      "target": "CognitiveDysfunction",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        101
+      ]
+    },
+    {
+      "source": "EducationalStatus",
+      "target": "Memory",
+      "mechanism": "influences",
+      "evidence_ref": [
+        190
+      ]
+    },
+    {
+      "source": "EducationalStatus",
+      "target": "Reasoning",
+      "mechanism": "influences",
+      "evidence_ref": [
+        190
+      ]
+    },
+    {
+      "source": "NeuropsychologicalTests",
+      "target": "MildCognitiveImpairment",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        213
+      ],
+      "metadata": "Used for identification"
+    },
+    {
+      "source": "MentalDisorders",
+      "target": "Cognition",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        246
+      ]
+    },
+    {
+      "source": "MentalDisorders",
+      "target": "CognitiveDysfunction",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        246
+      ]
+    },
+    {
+      "source": "AntidepressiveAgents",
+      "target": "CognitiveDysfunction",
+      "mechanism": "associated_with",
+      "evidence_ref": [
+        266
+      ]
+    },
+    {
+      "source": "BiologicalSex",
+      "target": "Cognition",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        284
+      ],
+      "metadata": "No direct causal link noted"
+    },
+    {
+      "source": "Cognition",
+      "target": "FunctionalIndependenceMeasure",
+      "mechanism": "predicts",
+      "evidence_ref": [
+        288
+      ]
+    },
+    {
+      "source": "GeneticVariation",
+      "target": "Cognition",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        288
+      ]
+    },
+    {
+      "source": "CognitiveDysfunction",
+      "target": "FunctionalIndependenceMeasure",
+      "mechanism": "affects",
+      "evidence_ref": [
+        288
+      ]
+    },
+    {
+      "source": "DietarySupplement",
+      "target": "Cognition",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        334
+      ],
+      "metadata": "K-Vie product"
+    },
+    {
+      "source": "StemCellMobilization",
+      "target": "Cognition",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        359
+      ]
+    },
+    {
+      "source": "FunctionalConnectivity",
+      "target": "Cognition",
+      "mechanism": "predicts",
+      "evidence_ref": [
+        366
+      ]
+    },
+    {
+      "source": "CognitiveDysfunction",
+      "target": "QualityOfLife",
+      "mechanism": "affects",
+      "evidence_ref": [
+        380
+      ]
+    },
+    {
+      "source": "ModifiedRankinScale",
+      "target": "CognitiveDysfunction",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        380
+      ]
+    },
+    {
+      "source": "MiniMentalStateExamination",
+      "target": "CognitiveDysfunction",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        380,
+        603
+      ]
+    },
+    {
+      "source": "MontrealCognitiveAssessment",
+      "target": "Cognition",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        380
+      ]
+    },
+    {
+      "source": "Neuroimaging",
+      "target": "Neuroimaging",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        422
+      ],
+      "metadata": "Self-referential enhancement (Multidimensional MRI)"
+    },
+    {
+      "source": "DepressiveDisorder",
+      "target": "CognitiveDysfunction",
+      "mechanism": "associated_with",
+      "evidence_ref": [
+        448
+      ]
+    },
+    {
+      "source": "DepressiveDisorder",
+      "target": "Cognition",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        448
+      ]
+    },
+    {
+      "source": "FunctionalConnectivity",
+      "target": "CognitiveDysfunction",
+      "mechanism": "associated_with",
+      "evidence_ref": [
+        453
+      ],
+      "metadata": "Changes mediate impairment"
+    },
+    {
+      "source": "PsychologicalDistress",
+      "target": "CognitiveDysfunction",
+      "mechanism": "associated_with",
+      "evidence_ref": [
+        516
+      ]
+    },
+    {
+      "source": "SubstanceAbuseTreatment",
+      "target": "CognitiveDysfunction",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        516
+      ]
+    },
+    {
+      "source": "Sleep",
+      "target": "Cognition",
+      "mechanism": "predicts",
+      "evidence_ref": [
+        553
+      ],
+      "metadata": "Stage 1 and 3"
+    },
+    {
+      "source": "Sleep",
+      "target": "VerbalMemory",
+      "mechanism": "predicts",
+      "evidence_ref": [
+        553
+      ]
+    },
+    {
+      "source": "Hypoxia",
+      "target": "Cognition",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        553
+      ],
+      "metadata": "No direct causal link found"
+    },
+    {
+      "source": "Arousal",
+      "target": "Cognition",
+      "mechanism": "associated_with",
+      "evidence_ref": [
+        553
+      ]
+    },
+    {
+      "source": "Rehabilitation",
+      "target": "CognitiveDysfunction",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        559
+      ],
+      "metadata": "Treats impairment"
+    },
+    {
+      "source": "Rehabilitation",
+      "target": "MentalDisorders",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        559
+      ]
+    },
+    {
+      "source": "Rehabilitation",
+      "target": "WorkingMemory",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        582
+      ]
+    },
+    {
+      "source": "Rehabilitation",
+      "target": "VisuospatialPerception",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        582
+      ]
+    },
+    {
+      "source": "Rehabilitation",
+      "target": "VisualMemory",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        582
+      ]
+    },
+    {
+      "source": "Rehabilitation",
+      "target": "VerbalLearning",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        582
+      ]
+    },
+    {
+      "source": "Rehabilitation",
+      "target": "Stress",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        582
+      ]
+    },
+    {
+      "source": "Rehabilitation",
+      "target": "QualityOfLife",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        582
+      ]
+    },
+    {
+      "source": "ClockDrawingTest",
+      "target": "CognitiveDysfunction",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        603
+      ]
+    },
+    {
+      "source": "AlcoholDependence",
+      "target": "VerbalMemory",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        605
+      ],
+      "metadata": "Causes decline"
+    },
+    {
+      "source": "InhibitoryControl",
+      "target": "Mortality",
+      "mechanism": "predicts",
+      "evidence_ref": [
+        605
+      ],
+      "metadata": "Declines in control predict mortality"
+    },
+    {
+      "source": "CharlsonComorbidityIndex",
+      "target": "Mortality",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        605
+      ]
+    },
+    {
+      "source": "BiologicalSex",
+      "target": "CognitiveDysfunction",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        607
+      ],
+      "metadata": "Affects clinical outcome"
+    }
+  ]
+}

@@ -1,0 +1,387 @@
+[
+    {
+        "source_abstract_id":113,
+        "subject":"Post-Traumatic Stress Disorder",
+        "relation":"causes",
+        "object":"Accelerated Cellular Aging",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":113,
+        "subject":"Age",
+        "relation":"modifies",
+        "object":"Post-Traumatic Stress Disorder Effects on Cognition",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":234,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Posttraumatic Stress Disorder",
+        "entity_variants":"mTBI, PTSD"
+    },
+    {
+        "source_abstract_id":267,
+        "subject":"Age",
+        "relation":"interacts_with",
+        "object":"Post-Traumatic Stress Disorder",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":286,
+        "subject":"Mild traumatic brain injury",
+        "relation":"not_associated_with",
+        "object":"Post-traumatic stress disorder and depression",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":309,
+        "subject":"Age",
+        "relation":"confounds",
+        "object":"Post-Traumatic Stress Disorder Symptoms",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":562,
+        "subject":"Traumatic Brain Injury",
+        "relation":"not_associated_with",
+        "object":"Post-Traumatic Stress Disorder",
+        "entity_variants":"self-reported"
+    },
+    {
+        "source_abstract_id":608,
+        "subject":"Socioeconomic Status",
+        "relation":"modulates",
+        "object":"Post-Traumatic Stress Disorder Symptoms",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":113,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"interacts_with",
+        "object":"Post-Traumatic Stress Disorder",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":234,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Post-Traumatic Stress Disorder",
+        "entity_variants":"mTBI, PTSD|"
+    },
+    {
+        "source_abstract_id":267,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"interacts_with",
+        "object":"Post-Traumatic Stress Disorder",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":96,
+        "subject":"Post-Traumatic Stress Disorder",
+        "relation":"associated_with",
+        "object":"Mild Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":19,
+        "subject":"Posttraumatic Stress Disorder",
+        "relation":"negatively_affects",
+        "object":"Cognitive Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":19,
+        "subject":"Posttraumatic Stress Disorder",
+        "relation":"negatively_affects",
+        "object":"Behavioral Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":19,
+        "subject":"Posttraumatic Stress Disorder",
+        "relation":"interacts_with",
+        "object":"Traumatic Brain Injury",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":19,
+        "subject":"Posttraumatic Stress Disorder",
+        "relation":"affects",
+        "object":"Behavioral Disturbance",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":38,
+        "subject":"Post-Traumatic Stress Disorder",
+        "relation":"not_associated_with",
+        "object":"Tissue Structure",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":39,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Posttraumatic Stress Disorder",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":66,
+        "subject":"Posttraumatic Stress Disorder",
+        "relation":"causes",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":66,
+        "subject":"Posttraumatic Stress Disorder",
+        "relation":"causes",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":75,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Posttraumatic Stress Disorder",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":96,
+        "subject":"Posttraumatic Stress Disorder",
+        "relation":"associated_with",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":96,
+        "subject":"Posttraumatic Stress Disorder",
+        "relation":"associated_with",
+        "object":"Poor Cognitive Performance",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":96,
+        "subject":"Posttraumatic Stress Disorder",
+        "relation":"associated_with",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":113,
+        "subject":"Posttraumatic Stress Disorder",
+        "relation":"causes",
+        "object":"Cortical Atrophy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":113,
+        "subject":"Posttraumatic Stress Disorder",
+        "relation":"exacerbates",
+        "object":"Cortical Atrophy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":113,
+        "subject":"Posttraumatic Stress Disorder",
+        "relation":"causes",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":113,
+        "subject":"Posttraumatic Stress Disorder",
+        "relation":"associated_with",
+        "object":"Brain Structure Changes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":160,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Posttraumatic Stress Disorder",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":160,
+        "subject":"Posttraumatic Stress Disorder",
+        "relation":"causes",
+        "object":"Cognitive Deficits",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":160,
+        "subject":"Posttraumatic Stress Disorder",
+        "relation":"no_direct_causal_link",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":171,
+        "subject":"Traumatic Brain Injury",
+        "relation":"interacts_with",
+        "object":"Posttraumatic Stress Disorder",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":171,
+        "subject":"Chronic Pain",
+        "relation":"interacts_with",
+        "object":"Posttraumatic Stress Disorder",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":171,
+        "subject":"Posttraumatic Stress Disorder",
+        "relation":"interacts_with",
+        "object":"Chronic Pain",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":226,
+        "subject":"Traumatic Brain Injury",
+        "relation":"interacts_with",
+        "object":"Posttraumatic Stress Disorder",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":264,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"correlates_with",
+        "object":"Posttraumatic Stress Disorder",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":267,
+        "subject":"Posttraumatic Stress Disorder",
+        "relation":"causes",
+        "object":"Cortical Surface Area Reduction",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":267,
+        "subject":"Posttraumatic Stress Disorder",
+        "relation":"affects",
+        "object":"Cortical Structure",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":286,
+        "subject":"Posttraumatic Stress Disorder",
+        "relation":"upregulates",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":286,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"no_direct_causal_link",
+        "object":"Posttraumatic Stress Disorder",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":286,
+        "subject":"Posttraumatic Stress Disorder",
+        "relation":"upregulates",
+        "object":"Depression",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":286,
+        "subject":"Posttraumatic Stress Disorder",
+        "relation":"upregulates",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":286,
+        "subject":"Posttraumatic Stress Disorder and Depression",
+        "relation":"upregulates",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":309,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"upregulates",
+        "object":"Posttraumatic Stress Disorder Symptoms",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":309,
+        "subject":"Posttraumatic Stress Disorder Symptoms",
+        "relation":"mediates",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":335,
+        "subject":"Posttraumatic Stress Disorder",
+        "relation":"causes",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":335,
+        "subject":"Posttraumatic Stress Disorder",
+        "relation":"causes",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":358,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Posttraumatic Stress Disorder",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":395,
+        "subject":"Posttraumatic Stress Disorder Symptoms",
+        "relation":"mediates",
+        "object":"Cognitive Impairment",
+        "entity_variants":"PTSD"
+    },
+    {
+        "source_abstract_id":411,
+        "subject":"Posttraumatic Stress Disorder",
+        "relation":"contributes_to",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":421,
+        "subject":"Posttraumatic Stress Disorder",
+        "relation":"correlates_with",
+        "object":"Cognitive Deficits",
+        "entity_variants":"not specified"
+    },
+    {
+        "source_abstract_id":509,
+        "subject":"Posttraumatic Stress Disorder",
+        "relation":"associated_with",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":562,
+        "subject":"Posttraumatic Stress Disorder",
+        "relation":"correlates_with",
+        "object":"Cognitive Impairment",
+        "entity_variants":"PTSD severity"
+    },
+    {
+        "source_abstract_id":629,
+        "subject":"Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Posttraumatic Stress Disorder",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":519,
+        "subject":"Post-Traumatic Stress Disorder",
+        "relation":"not_associated_with",
+        "object":"Cortical Thickness Change",
+        "entity_variants":null
+    }
+]

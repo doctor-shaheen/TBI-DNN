@@ -1,0 +1,438 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 19,
+    "edge_count": 18
+  },
+  "nodes": [
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "Traumatic Brain Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111"
+      },
+      "synonyms": [
+        "TBI",
+        "Mild Traumatic Brain Injury",
+        "Multiple Trauma",
+        "Concussion",
+        "Head Injury"
+      ]
+    },
+    {
+      "id": "BrainEdema",
+      "label": "Brain Edema",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006112"
+      },
+      "synonyms": [
+        "Cerebral Edema"
+      ]
+    },
+    {
+      "id": "BiologicalSex",
+      "label": "Sex",
+      "type": "PhysiologicalAttribute",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0079399"
+      },
+      "synonyms": [
+        "Gender"
+      ]
+    },
+    {
+      "id": "Hypothermia",
+      "label": "Hypothermia",
+      "type": "Disease",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0020672"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "CognitiveDisorders",
+      "label": "Cognitive Disorders",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0338656"
+      },
+      "synonyms": [
+        "Cognitive Impairment",
+        "Cognitive Deficits",
+        "Cognitive Decline"
+      ]
+    },
+    {
+      "id": "BehavioralSymptoms",
+      "label": "Behavioral Symptoms",
+      "type": "Phenotype",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0004927"
+      },
+      "synonyms": [
+        "Behavioral Responses",
+        "Neurobehavioral Deficits",
+        "Behavioral Deficits"
+      ]
+    },
+    {
+      "id": "MoodDisorders",
+      "label": "Mood Disorders",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0001818"
+      },
+      "synonyms": [
+        "Affective Deficits",
+        "Mood Dysfunction",
+        "Neuropsychiatric Symptoms"
+      ]
+    },
+    {
+      "id": "Neurodegeneration",
+      "label": "Neurodegeneration",
+      "type": "PathologicFunction",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027746"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "FractionalAnisotropy",
+      "label": "Fractional Anisotropy",
+      "type": "DiagnosticProcedure",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C4072048"
+      },
+      "synonyms": [
+        "FA"
+      ]
+    },
+    {
+      "id": "RadialDiffusivity",
+      "label": "Radial Diffusivity",
+      "type": "DiagnosticProcedure",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C4072050"
+      },
+      "synonyms": [
+        "RD"
+      ]
+    },
+    {
+      "id": "AxialDiffusivity",
+      "label": "Axial Diffusivity",
+      "type": "DiagnosticProcedure",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C4072049"
+      },
+      "synonyms": [
+        "AD"
+      ]
+    },
+    {
+      "id": "Iron",
+      "label": "Iron",
+      "type": "Chemical",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0022096",
+        "ChEBI_ID": "CHEBI:18248"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Copper",
+      "label": "Copper",
+      "type": "Chemical",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0009968",
+        "ChEBI_ID": "CHEBI:23396"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Zinc",
+      "label": "Zinc",
+      "type": "Chemical",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0043514",
+        "ChEBI_ID": "CHEBI:27363"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "ChronicTraumaticEncephalopathy",
+      "label": "Chronic Traumatic Encephalopathy",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C2939460"
+      },
+      "synonyms": [
+        "CTE"
+      ]
+    },
+    {
+      "id": "NervousSystemDiseases",
+      "label": "Nervous System Diseases",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027765"
+      },
+      "synonyms": [
+        "Neurological Disease",
+        "Neurological Deficit"
+      ]
+    },
+    {
+      "id": "Death",
+      "label": "Death",
+      "type": "Phenotype",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0011065"
+      },
+      "synonyms": [
+        "Mortality"
+      ]
+    },
+    {
+      "id": "ThalamocorticalPathway",
+      "label": "Thalamocortical Pathway",
+      "type": "Anatomy",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0228308"
+      },
+      "synonyms": [
+        "Thalamocortical Circuitry"
+      ]
+    },
+    {
+      "id": "GeneticVariation",
+      "label": "Genetic Variation",
+      "type": "GenomicEntity",
+      "location": "Nucleus",
+      "identifiers": {
+        "UMLS_CUI": "C0017429"
+      },
+      "synonyms": []
+    }
+  ],
+  "edges": [
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "BrainEdema",
+      "mechanism": "causes",
+      "evidence_ref": [
+        152
+      ],
+      "confidence": "High",
+      "metadata": "Context: Post-injury edema"
+    },
+    {
+      "source": "BiologicalSex",
+      "target": "TraumaticBrainInjury",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        193,
+        341
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Outcome variation based on sex"
+    },
+    {
+      "source": "GeneticVariation",
+      "target": "TraumaticBrainInjury",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        263
+      ],
+      "confidence": "Low",
+      "metadata": "Model: Drosophila"
+    },
+    {
+      "source": "Hypothermia",
+      "target": "CognitiveDisorders",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        336
+      ],
+      "confidence": "Medium",
+      "metadata": "Source states exacerbation"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "RadialDiffusivity",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        346
+      ],
+      "confidence": "High",
+      "metadata": "Context: Increased Radial Diffusivity"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "FractionalAnisotropy",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        104,
+        346
+      ],
+      "confidence": "High",
+      "metadata": "Context: Reduced Fractional Anisotropy"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "AxialDiffusivity",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        346
+      ],
+      "confidence": "High",
+      "metadata": "Context: Reduced Axial Diffusivity"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Neurodegeneration",
+      "mechanism": "causes",
+      "evidence_ref": [
+        263,
+        341,
+        216,
+        380
+      ],
+      "confidence": "High",
+      "metadata": "Includes neuropathology, histological damage, and pathological changes"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "BehavioralSymptoms",
+      "mechanism": "causes",
+      "evidence_ref": [
+        130,
+        31,
+        312,
+        357,
+        146
+      ],
+      "confidence": "High",
+      "metadata": "Includes motor coordination impairment and general behavioral deficits"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "CognitiveDisorders",
+      "mechanism": "causes",
+      "evidence_ref": [
+        31,
+        56,
+        100,
+        111,
+        380
+      ],
+      "confidence": "High",
+      "metadata": "Includes cognitive decline, deficits, and impairment"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "MoodDisorders",
+      "mechanism": "causes",
+      "evidence_ref": [
+        31,
+        380,
+        395
+      ],
+      "confidence": "High",
+      "metadata": "Includes affective deficits, mood dysfunction, and neuropsychiatric symptoms"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "ChronicTraumaticEncephalopathy",
+      "mechanism": "causes",
+      "evidence_ref": [
+        154
+      ],
+      "confidence": "High",
+      "metadata": "Long-term consequence"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Iron",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        213
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Altered levels/Accumulation"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Copper",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        213
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Altered levels"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Zinc",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        213
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Altered levels"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "NervousSystemDiseases",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        152,
+        213
+      ],
+      "confidence": "Medium",
+      "metadata": "General neurological deficit/disease"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Death",
+      "mechanism": "increases_risk_of",
+      "evidence_ref": [
+        263
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Mortality variation"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "ThalamocorticalPathway",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        341
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Affects circuitry"
+    }
+  ]
+}

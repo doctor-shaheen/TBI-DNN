@@ -1,0 +1,476 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 20,
+    "edge_count": 21
+  },
+  "nodes": [
+    {
+      "id": "ContactSports",
+      "label": "Contact Sports",
+      "type": "Process",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0949766",
+        "MeSH_ID": "D000084502"
+      },
+      "synonyms": [
+        "Collision Sports",
+        "Kickboxing"
+      ]
+    },
+    {
+      "id": "Dementia",
+      "label": "Dementia",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0011265",
+        "MeSH_ID": "D003704"
+      },
+      "synonyms": [
+        "Risk of Dementia"
+      ]
+    },
+    {
+      "id": "CognitiveDysfunction",
+      "label": "Cognitive Dysfunction",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0009241",
+        "MeSH_ID": "D003072"
+      },
+      "synonyms": [
+        "Cognitive Decline",
+        "Cognitive Impairment",
+        "Cognitive Symptoms"
+      ]
+    },
+    {
+      "id": "CardiovascularDiseases",
+      "label": "Cardiovascular Diseases",
+      "type": "Disease",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0007222",
+        "MeSH_ID": "D002318"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "AllostaticLoad",
+      "label": "Allostatic Load",
+      "type": "Process",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C3273183"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "MentalHealth",
+      "label": "Mental Health",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0025353",
+        "MeSH_ID": "D008603"
+      },
+      "synonyms": [
+        "Mental Health Symptoms"
+      ]
+    },
+    {
+      "id": "SocialAdjustment",
+      "label": "Social Adjustment",
+      "type": "Process",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0037384",
+        "MeSH_ID": "D012919"
+      },
+      "synonyms": [
+        "Social Functioning"
+      ]
+    },
+    {
+      "id": "WorkCapacity",
+      "label": "Work Capacity",
+      "type": "Process",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0043206"
+      },
+      "synonyms": [
+        "Work Functioning"
+      ]
+    },
+    {
+      "id": "MotorSkills",
+      "label": "Motor Skills",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0026606",
+        "MeSH_ID": "D009048"
+      },
+      "synonyms": [
+        "Fine Motor Coordination"
+      ]
+    },
+    {
+      "id": "VerbalLearning",
+      "label": "Verbal Learning",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0042533",
+        "MeSH_ID": "D014706"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "MotorDisorders",
+      "label": "Motor Disorders",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0026616",
+        "MeSH_ID": "D009069"
+      },
+      "synonyms": [
+        "Motor Impairment"
+      ]
+    },
+    {
+      "id": "Neurophysiology",
+      "label": "Neurophysiology",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027882",
+        "MeSH_ID": "D009497"
+      },
+      "synonyms": [
+        "Neurophysiological Changes",
+        "Cortical Neurophysiology Changes"
+      ]
+    },
+    {
+      "id": "NeuralInhibition",
+      "label": "Neural Inhibition",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027788",
+        "MeSH_ID": "D009433"
+      },
+      "synonyms": [
+        "Long-Interval Cortical Inhibition"
+      ]
+    },
+    {
+      "id": "SilentPeriod",
+      "label": "Silent Period",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C1519393"
+      },
+      "synonyms": [
+        "Cortical Silent Period"
+      ]
+    },
+    {
+      "id": "Myelin",
+      "label": "Myelin",
+      "type": "Anatomy",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0026946",
+        "MeSH_ID": "D009185"
+      },
+      "synonyms": [
+        "Myelin Water Fraction"
+      ]
+    },
+    {
+      "id": "Depression",
+      "label": "Depression",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0011570",
+        "MeSH_ID": "D003863"
+      },
+      "synonyms": [
+        "Depressive Symptoms"
+      ]
+    },
+    {
+      "id": "Anxiety",
+      "label": "Anxiety",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0003467",
+        "MeSH_ID": "D001007"
+      },
+      "synonyms": [
+        "Anxiety Symptoms"
+      ]
+    },
+    {
+      "id": "AttentionDeficitDisorderWithHyperactivity",
+      "label": "Attention Deficit Disorder with Hyperactivity",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C1263846",
+        "MeSH_ID": "D001289"
+      },
+      "synonyms": [
+        "ADHD",
+        "Attention Deficit Hyperactivity Disorder Symptoms"
+      ]
+    },
+    {
+      "id": "ReactionTime",
+      "label": "Reaction Time",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0034734",
+        "MeSH_ID": "D011930"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Language",
+      "label": "Language",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0023008",
+        "MeSH_ID": "D007802"
+      },
+      "synonyms": [
+        "Linguistic Complexity"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "ContactSports",
+      "target": "Dementia",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        11,
+        507
+      ],
+      "confidence": "High",
+      "metadata": "Context: Risk association"
+    },
+    {
+      "source": "ContactSports",
+      "target": "CognitiveDysfunction",
+      "mechanism": "causes",
+      "evidence_ref": [
+        51,
+        73,
+        102,
+        202,
+        296,
+        613
+      ],
+      "confidence": "High",
+      "metadata": "Conflict: Ref 51 reports no causal association."
+    },
+    {
+      "source": "ContactSports",
+      "target": "CardiovascularDiseases",
+      "mechanism": "causes",
+      "evidence_ref": [
+        73
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "ContactSports",
+      "target": "AllostaticLoad",
+      "mechanism": "causes",
+      "evidence_ref": [
+        73
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "ContactSports",
+      "target": "MentalHealth",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        73,
+        608
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Symptoms/Decline"
+    },
+    {
+      "source": "ContactSports",
+      "target": "SocialAdjustment",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        73
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Social Functioning"
+    },
+    {
+      "source": "ContactSports",
+      "target": "WorkCapacity",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        73
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Work Functioning"
+    },
+    {
+      "source": "ContactSports",
+      "target": "MotorSkills",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        73
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Fine Motor Coordination"
+    },
+    {
+      "source": "ContactSports",
+      "target": "VerbalLearning",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        73
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "ContactSports",
+      "target": "MotorDisorders",
+      "mechanism": "causes",
+      "evidence_ref": [
+        102
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Motor Impairment"
+    },
+    {
+      "source": "ContactSports",
+      "target": "Neurophysiology",
+      "mechanism": "causes",
+      "evidence_ref": [
+        102,
+        626
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Neurophysiological changes"
+    },
+    {
+      "source": "ContactSports",
+      "target": "NeuralInhibition",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        102
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Long-Interval Cortical Inhibition"
+    },
+    {
+      "source": "ContactSports",
+      "target": "SilentPeriod",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        102
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Cortical Silent Period"
+    },
+    {
+      "source": "ContactSports",
+      "target": "Myelin",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        463
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Increased Myelin Water Fraction"
+    },
+    {
+      "source": "ContactSports",
+      "target": "Depression",
+      "mechanism": "causes",
+      "evidence_ref": [
+        590
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Depressive Symptoms"
+    },
+    {
+      "source": "ContactSports",
+      "target": "Anxiety",
+      "mechanism": "causes",
+      "evidence_ref": [
+        141,
+        590,
+        608
+      ],
+      "confidence": "Medium",
+      "metadata": "Conflict: Ref 141 reports no causal association."
+    },
+    {
+      "source": "ContactSports",
+      "target": "AttentionDeficitDisorderWithHyperactivity",
+      "mechanism": "causes",
+      "evidence_ref": [
+        608
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: ADHD Symptoms"
+    },
+    {
+      "source": "ContactSports",
+      "target": "ReactionTime",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        613
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Impaired Reaction Time"
+    },
+    {
+      "source": "CognitiveDysfunction",
+      "target": "ContactSports",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        613
+      ],
+      "confidence": "Low",
+      "metadata": "Context: Risk factor for participation"
+    },
+    {
+      "source": "ContactSports",
+      "target": "Language",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        150
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Decline in Linguistic Complexity"
+    }
+  ]
+}

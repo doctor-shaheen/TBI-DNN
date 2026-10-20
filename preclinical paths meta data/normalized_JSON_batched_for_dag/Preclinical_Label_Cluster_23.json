@@ -1,0 +1,240 @@
+[
+    {
+        "source_abstract_id":388,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Perivascular Macrophages",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":5,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Microglial Activation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":36,
+        "subject":"Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Microglial Activation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":51,
+        "subject":"Repeated Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Microglial Activation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":71,
+        "subject":"Repetitive Mild Traumatic Brain Injury",
+        "relation":"triggers",
+        "object":"Microglial Activation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":73,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Microglial Activation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":74,
+        "subject":"Traumatic Brain Injury",
+        "relation":"involves",
+        "object":"Microglial Activation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":106,
+        "subject":"Repetitive Mild Traumatic Brain Injury",
+        "relation":"downregulates",
+        "object":"Phagocytic Receptor",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":121,
+        "subject":"Military Exposure",
+        "relation":"triggers",
+        "object":"Microglial Activation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":153,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"induces",
+        "object":"Microglial Activation",
+        "entity_variants":"mild"
+    },
+    {
+        "source_abstract_id":156,
+        "subject":"Traumatic Brain Injury",
+        "relation":"no_direct_causal_link",
+        "object":"Microglial Activation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":157,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Microglial Activation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":181,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Microglial Activation",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":194,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Microglial Activation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":197,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Microglial Activity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":203,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Microglial Reactivity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":203,
+        "subject":"Traumatic Brain Injury",
+        "relation":"induces",
+        "object":"Phagocytic Activity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":204,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Microglial Activation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":207,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Microglial Activation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":207,
+        "subject":"Traumatic Brain Injury",
+        "relation":"results_in",
+        "object":"Spatiotemporal Change in Microglial Phenotype",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":207,
+        "subject":"Traumatic Brain Injury",
+        "relation":"results_in",
+        "object":"Changes in Microglial Phenotypes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":214,
+        "subject":"Traumatic Brain Injury",
+        "relation":"induces",
+        "object":"Activated Microglial Phenotype",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":283,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Microglial Response",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":286,
+        "subject":"Traumatic Brain Injury",
+        "relation":"upregulates",
+        "object":"M1 Microglial Polarization",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":301,
+        "subject":"Traumatic Brain Injury",
+        "relation":"positively_regulates",
+        "object":"Microglia Number",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":303,
+        "subject":"Sterile Alpha and TIR Motif Containing 1",
+        "relation":"negatively_regulates",
+        "object":"Microglial Activation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":324,
+        "subject":"Traumatic Brain Injury",
+        "relation":"positively_regulates",
+        "object":"Microglial Activation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":347,
+        "subject":"Traumatic Brain Injury",
+        "relation":"induces",
+        "object":"Microglial Activation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":355,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Microglial Activation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":359,
+        "subject":"Traumatic Brain Injury",
+        "relation":"negatively_affects",
+        "object":"Microglial Activity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":362,
+        "subject":"Traumatic Brain Injury",
+        "relation":"positively_regulates",
+        "object":"Microglial Activation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":363,
+        "subject":"Traumatic Brain Injury",
+        "relation":"results_in",
+        "object":"Phagocytic Activity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":388,
+        "subject":"Traumatic Brain Injury",
+        "relation":"positively_regulates",
+        "object":"Microglia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":409,
+        "subject":"Military Blast Injury",
+        "relation":"positively_regulates",
+        "object":"Microglial Activation",
+        "entity_variants":null
+    }
+]

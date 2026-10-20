@@ -1,0 +1,387 @@
+[
+    {
+        "source_abstract_id":36,
+        "subject":"Poor Cognitive Outcome",
+        "relation":"associated_with",
+        "object":"Greater Injury Severity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":89,
+        "subject":"Traumatic Brain Injury",
+        "relation":"no_direct_causal_link",
+        "object":"Clinical Dementia Rating Scale",
+        "entity_variants":"TBI+, TBI-"
+    },
+    {
+        "source_abstract_id":96,
+        "subject":"Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Cognitive Dysfunction",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":96,
+        "subject":"Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":181,
+        "subject":"Cognitive Impairment",
+        "relation":"associated_with",
+        "object":"Traumatic Brain Injury Severity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":309,
+        "subject":"Number of Lifetime Traumatic Brain Injuries",
+        "relation":"confounds",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":324,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cognitive Deficits",
+        "entity_variants":"TBI"
+    },
+    {
+        "source_abstract_id":393,
+        "subject":"Traumatic Brain Injury",
+        "relation":"contributes_to",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":421,
+        "subject":"Traumatic Brain Injury",
+        "relation":"correlates_with",
+        "object":"Cognitive Deficits",
+        "entity_variants":"not specified"
+    },
+    {
+        "source_abstract_id":423,
+        "subject":"Traumatic Brain Injury",
+        "relation":"triggers",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":426,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":489,
+        "subject":"Traumatic Brain Injury",
+        "relation":"lowers_age_of_onset_of",
+        "object":"Cognitive Decline",
+        "entity_variants":"TBI+, TBI-"
+    },
+    {
+        "source_abstract_id":489,
+        "subject":"Cognitive Decline",
+        "relation":"independent_of",
+        "object":"Clinical Diagnoses",
+        "entity_variants":"TBI+, TBI-"
+    },
+    {
+        "source_abstract_id":489,
+        "subject":"Cognitive Decline",
+        "relation":"independent_of",
+        "object":"Demographic Factors",
+        "entity_variants":"TBI+, TBI-"
+    },
+    {
+        "source_abstract_id":489,
+        "subject":"Cognitive Decline",
+        "relation":"independent_of",
+        "object":"Education",
+        "entity_variants":"TBI+, TBI-"
+    },
+    {
+        "source_abstract_id":489,
+        "subject":"Cognitive Decline",
+        "relation":"independent_of",
+        "object":"Sex",
+        "entity_variants":"TBI+, TBI-"
+    },
+    {
+        "source_abstract_id":495,
+        "subject":"Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Cognitive Impairment",
+        "entity_variants":"not specified"
+    },
+    {
+        "source_abstract_id":539,
+        "subject":"Cognitive Disorders",
+        "relation":"incidence_rate",
+        "object":"TBI Only",
+        "entity_variants":"TBI|"
+    },
+    {
+        "source_abstract_id":539,
+        "subject":"Cognitive Disorders",
+        "relation":"incidence_rate",
+        "object":"CUD Plus TBI",
+        "entity_variants":"CUD+TBI|"
+    },
+    {
+        "source_abstract_id":588,
+        "subject":"Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":56,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":67,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":95,
+        "subject":"Traumatic Brain Injury",
+        "relation":"contributes_to",
+        "object":"Cognitive Impairment",
+        "entity_variants":"TBI"
+    },
+    {
+        "source_abstract_id":123,
+        "subject":"Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":163,
+        "subject":"Traumatic Brain Injury",
+        "relation":"triggers",
+        "object":"Cognitive Deficit",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":181,
+        "subject":"Traumatic Brain Injury",
+        "relation":"no_direct_causal_link",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":193,
+        "subject":"Cognitive Impairment",
+        "relation":"associated_with",
+        "object":"History of Traumatic Brain Injury",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":198,
+        "subject":"Traumatic Brain Injury",
+        "relation":"triggers",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":230,
+        "subject":"Traumatic Brain Injury",
+        "relation":"triggers",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":281,
+        "subject":"Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":305,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":342,
+        "subject":"Traumatic Brain Injury",
+        "relation":"no_direct_causal_link",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":349,
+        "subject":"Traumatic Brain Injury",
+        "relation":"triggers",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":354,
+        "subject":"Traumatic Brain Injury",
+        "relation":"triggers",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":356,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cognitive Deficit",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":382,
+        "subject":"Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":387,
+        "subject":"Traumatic Brain Injury",
+        "relation":"triggers",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":390,
+        "subject":"Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":500,
+        "subject":"Chronic Traumatic Brain Injury",
+        "relation":"no_direct_causal_link",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":514,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":524,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":539,
+        "subject":"Traumatic Brain Injury",
+        "relation":"increases_risk_of",
+        "object":"Cognitive Disorder",
+        "entity_variants":"TBI"
+    },
+    {
+        "source_abstract_id":548,
+        "subject":"Traumatic Brain Injury",
+        "relation":"triggers",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":549,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":554,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cognitive Impairment",
+        "entity_variants":"TBI"
+    },
+    {
+        "source_abstract_id":555,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":562,
+        "subject":"Traumatic Brain Injury",
+        "relation":"no_direct_causal_link",
+        "object":"Cognitive Impairment",
+        "entity_variants":"TBI (self-reported)"
+    },
+    {
+        "source_abstract_id":563,
+        "subject":"Traumatic Brain Injury",
+        "relation":"triggers",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":565,
+        "subject":"Traumatic Brain Injury",
+        "relation":"no_direct_causal_link",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":570,
+        "subject":"Traumatic Brain Injury",
+        "relation":"no_direct_causal_link",
+        "object":"Cognition",
+        "entity_variants":"TBI history"
+    },
+    {
+        "source_abstract_id":571,
+        "subject":"Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":572,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":614,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":630,
+        "subject":"Cognitive Impairment",
+        "relation":"associated_with",
+        "object":"Traumatic Brain Injury",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":630,
+        "subject":"Cognitive Impairment",
+        "relation":"experienced_by",
+        "object":"Individuals with Traumatic Brain Injury",
+        "entity_variants":null
+    }
+]

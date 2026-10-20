@@ -1,0 +1,95 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 4,
+    "edge_count": 3
+  },
+  "nodes": [
+    {
+      "id": "RepetitiveHeadImpacts",
+      "label": "Repetitive Head Injury",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0425026"
+      },
+      "synonyms": [
+        "Repetitive Head Impacts",
+        "RHI",
+        "Cumulative Head Impact"
+      ]
+    },
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "Traumatic Brain Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111"
+      },
+      "synonyms": [
+        "TBI",
+        "Head Injury"
+      ]
+    },
+    {
+      "id": "CavumSeptumPellucidum",
+      "label": "Cavum Septum Pellucidum",
+      "type": "Anatomy",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0007537"
+      },
+      "synonyms": [
+        "Cavum Septi Pellucidi",
+        "Enlarged Cavum Septum Pellucidum",
+        "CSP"
+      ]
+    },
+    {
+      "id": "ThalamicNotching",
+      "label": "Thalamic Notching",
+      "type": "Phenotype",
+      "location": "Brain_Tissue",
+      "identifiers": {},
+      "synonyms": []
+    }
+  ],
+  "edges": [
+    {
+      "source": "RepetitiveHeadImpacts",
+      "target": "CavumSeptumPellucidum",
+      "mechanism": "causes",
+      "evidence_ref": [
+        1,
+        224,
+        241,
+        520
+      ],
+      "confidence": "High",
+      "metadata": "Context: Increases prevalence or causes enlargement"
+    },
+    {
+      "source": "RepetitiveHeadImpacts",
+      "target": "ThalamicNotching",
+      "mechanism": "causes",
+      "evidence_ref": [
+        1
+      ],
+      "confidence": "Moderate",
+      "metadata": ""
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "CavumSeptumPellucidum",
+      "mechanism": "causes",
+      "evidence_ref": [
+        241,
+        520
+      ],
+      "confidence": "High",
+      "metadata": "Context: Increases prevalence or causes enlargement"
+    }
+  ]
+}

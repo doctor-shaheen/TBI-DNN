@@ -1,0 +1,165 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 5,
+    "edge_count": 4
+  },
+  "nodes": [
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "Traumatic Brain Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111",
+        "MeSH": "D001930"
+      },
+      "synonyms": [
+        "TBI",
+        "Moderate-Severe Traumatic Brain Injury",
+        "Head Injury",
+        "Brain Concussion"
+      ]
+    },
+    {
+      "id": "ParkinsonDisease",
+      "label": "Parkinson Disease",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0030567",
+        "MeSH": "D010300"
+      },
+      "synonyms": [
+        "PD",
+        "Paralysis Agitans",
+        "Primary Parkinsonism"
+      ]
+    },
+    {
+      "id": "Neurodegeneration",
+      "label": "Neurodegeneration",
+      "type": "Pathology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027746",
+        "GO": "GO:0006915"
+      },
+      "synonyms": [
+        "Nerve Degeneration",
+        "Neuropathologic Changes",
+        "Neurodegenerative Process",
+        "Progressive Brain Atrophy",
+        "Neurotoxicity",
+        "Histopathological Damage"
+      ]
+    },
+    {
+      "id": "ChronicTraumaticEncephalopathy",
+      "label": "Chronic Traumatic Encephalopathy",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0011559",
+        "MeSH": "D000083242"
+      },
+      "synonyms": [
+        "CTE",
+        "Dementia Pugilistica"
+      ]
+    },
+    {
+      "id": "NeurodegenerativeDisorders",
+      "label": "Neurodegenerative Disorders",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0524851"
+      },
+      "synonyms": [
+        "Neurodegenerative Diseases",
+        "Degenerative Disease of the Central Nervous System"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Neurodegeneration",
+      "mechanism": "causes",
+      "evidence_ref": [
+        1,
+        2,
+        21,
+        42,
+        52,
+        61,
+        65,
+        83,
+        93,
+        104,
+        141,
+        156,
+        169,
+        172,
+        175,
+        177,
+        184,
+        186,
+        192,
+        225,
+        237,
+        261,
+        271,
+        273,
+        298,
+        301,
+        325,
+        328,
+        335,
+        342,
+        359,
+        363,
+        388
+      ],
+      "confidence": "High",
+      "metadata": "Consolidates inputs describing triggers, induction, and causality of neurodegenerative pathology/atrophy/toxicity"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "ParkinsonDisease",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        93,
+        140,
+        328
+      ],
+      "confidence": "High",
+      "metadata": "Input relations: associated_with, causes"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "NeurodegenerativeDisorders",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        258,
+        283,
+        313,
+        373
+      ],
+      "confidence": "Medium",
+      "metadata": "Refers to increased risk or susceptibility to the class of neurodegenerative diseases"
+    },
+    {
+      "source": "ChronicTraumaticEncephalopathy",
+      "target": "Neurodegeneration",
+      "mechanism": "causes",
+      "evidence_ref": [
+        316
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: CTE associated with neurodegenerative pathology"
+    }
+  ]
+}

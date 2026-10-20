@@ -1,0 +1,282 @@
+[
+    {
+        "source_abstract_id":164,
+        "subject":"Cognitive Diagnosis",
+        "relation":"not_associated_with",
+        "object":"Traumatic Brain Injury",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":320,
+        "subject":"Moderate to Severe Traumatic Brain Injury",
+        "relation":"enables",
+        "object":"Self-Administered Cognitive Training",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":348,
+        "subject":"Traumatic Brain Injury",
+        "relation":"no_direct_causal_link",
+        "object":"Semantic Fluency",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":393,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cognitive Symptoms",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":393,
+        "subject":"Traumatic Brain Injury",
+        "relation":"influences",
+        "object":"Cognitive Symptoms",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":454,
+        "subject":"Trauma",
+        "relation":"controlled_for",
+        "object":"Cognitive Performance",
+        "entity_variants":"associated"
+    },
+    {
+        "source_abstract_id":503,
+        "subject":"Childhood Traumatic Brain Injury",
+        "relation":"results_in",
+        "object":"Improved Cognitive Scores",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":503,
+        "subject":"Childhood Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Worse Perceived Cognitive Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":565,
+        "subject":"Traumatic Brain Injury",
+        "relation":"no_direct_causal_link",
+        "object":"Loewenstein Occupational Therapy Cognitive Assessment Score",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":601,
+        "subject":"Traumatic Brain Injury",
+        "relation":"no_direct_causal_relation",
+        "object":"Intelligence Scores",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":601,
+        "subject":"Pediatric Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Lower Intelligence Scores",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":245,
+        "subject":"Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Socioeconomic Disadvantage",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":29,
+        "subject":"Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Cognitive Performance",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":42,
+        "subject":"Cognitive Symptoms",
+        "relation":"associated_with",
+        "object":"Traumatic Brain Injury Symptoms",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":78,
+        "subject":"Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Cognitive Outcomes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":78,
+        "subject":"Traumatic Brain Injury",
+        "relation":"negatively_associated_with",
+        "object":"Cognitive Assessment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":78,
+        "subject":"Cognitive Outcomes",
+        "relation":"associated_with",
+        "object":"Time Since Injury",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":112,
+        "subject":"Traumatic Brain Injury",
+        "relation":"negatively_associated_with",
+        "object":"Cognitive Recovery",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":181,
+        "subject":"Traumatic Brain Injury",
+        "relation":"influences",
+        "object":"Cognitive Profiles",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":181,
+        "subject":"Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Cognitive Domains",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":181,
+        "subject":"Traumatic Brain Injury",
+        "relation":"correlates_with",
+        "object":"Cognitive Recovery",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":203,
+        "subject":"Self-Reported Traumatic Brain Injury",
+        "relation":"negatively_associated_with",
+        "object":"Cognitive Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":282,
+        "subject":"Traumatic Brain Injury",
+        "relation":"negatively_associated_with",
+        "object":"Cognitive Functioning",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":332,
+        "subject":"Neurotrauma",
+        "relation":"associated_with",
+        "object":"Cognitive Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":334,
+        "subject":"Traumatic Brain Injury",
+        "relation":"triggers",
+        "object":"Cognitive Function",
+        "entity_variants":"K-Vie™"
+    },
+    {
+        "source_abstract_id":344,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cognitive Complaints",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":348,
+        "subject":"Traumatic Brain Injury",
+        "relation":"negatively_associated_with",
+        "object":"Global Cognitive Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":348,
+        "subject":"Traumatic Brain Injury",
+        "relation":"negatively_associated_with",
+        "object":"Calculation Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":353,
+        "subject":"Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Neuropsychological Performance",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":381,
+        "subject":"Traumatic Brain Injury",
+        "relation":"reduces",
+        "object":"Cognitive Performance",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":387,
+        "subject":"Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Cognitive Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":419,
+        "subject":"Traumatic Brain Injury",
+        "relation":"negatively_associated_with",
+        "object":"Cognitive Functioning",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":429,
+        "subject":"Traumatic Brain Injury",
+        "relation":"triggers",
+        "object":"Neuropsychological Test Performance",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":454,
+        "subject":"Cognitive Tests",
+        "relation":"evaluated_in",
+        "object":"Patients with Traumatic Brain Injury",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":585,
+        "subject":"Traumatic Brain Injury",
+        "relation":"lowers",
+        "object":"Cognitive Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":585,
+        "subject":"Traumatic Brain Injury",
+        "relation":"lowers",
+        "object":"Cognitive Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":585,
+        "subject":"Traumatic Brain Injury",
+        "relation":"lowers",
+        "object":"Cognitive Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":585,
+        "subject":"Traumatic Brain Injury",
+        "relation":"lowers",
+        "object":"Cognitive Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":585,
+        "subject":"Traumatic Brain Injury",
+        "relation":"lowers",
+        "object":"Cognitive Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":239,
+        "subject":"Traumatic Brain Injury",
+        "relation":"triggers",
+        "object":"Olfactory Deficit",
+        "entity_variants":null
+    }
+]

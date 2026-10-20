@@ -1,0 +1,114 @@
+[
+    {
+        "source_abstract_id":320,
+        "subject":"p17 Protein",
+        "relation":"downregulates",
+        "object":"Ceramide Synthase 1",
+        "entity_variants":"p17KO"
+    },
+    {
+        "source_abstract_id":322,
+        "subject":"Antioxidants",
+        "relation":"decreases",
+        "object":"Neurodegeneration",
+        "entity_variants":"HPN-07, NAC|"
+    },
+    {
+        "source_abstract_id":186,
+        "subject":"Synaptamide",
+        "relation":"regulates",
+        "object":"Astrocyte Marker",
+        "entity_variants":"not specified"
+    },
+    {
+        "source_abstract_id":186,
+        "subject":"Synaptamide",
+        "relation":"stimulates",
+        "object":"Antioxidant Defense",
+        "entity_variants":"not specified"
+    },
+    {
+        "source_abstract_id":186,
+        "subject":"Synaptamide",
+        "relation":"downregulates",
+        "object":"Bcl-2-associated Agonist of Cell Death Protein",
+        "entity_variants":"not specified"
+    },
+    {
+        "source_abstract_id":320,
+        "subject":"p17 Protein",
+        "relation":"mediates",
+        "object":"C18-Ceramide",
+        "entity_variants":"p17 knockout"
+    },
+    {
+        "source_abstract_id":320,
+        "subject":"C18-Ceramide",
+        "relation":"upregulates",
+        "object":"Mitophagy",
+        "entity_variants":"Ceramide analog"
+    },
+    {
+        "source_abstract_id":320,
+        "subject":"C18-Ceramide",
+        "relation":"triggers",
+        "object":"Neuroprotection",
+        "entity_variants":"Ceramide analog"
+    },
+    {
+        "source_abstract_id":320,
+        "subject":"C18-Ceramide",
+        "relation":"treats",
+        "object":"Cognitive Deficit",
+        "entity_variants":"Ceramide analog"
+    },
+    {
+        "source_abstract_id":320,
+        "subject":"C18-Ceramide",
+        "relation":"is_decreased_in",
+        "object":"Chronic Traumatic Encephalopathy",
+        "entity_variants":"CTE human brains"
+    },
+    {
+        "source_abstract_id":337,
+        "subject":"Synaptamide",
+        "relation":"triggers",
+        "object":"A2 Reactive Astrocyte",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":337,
+        "subject":"Synaptamide",
+        "relation":"reduces",
+        "object":"Brain Injury Biomarker",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":337,
+        "subject":"Synaptamide",
+        "relation":"upregulates",
+        "object":"Neurotrophin",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":337,
+        "subject":"Synaptamide",
+        "relation":"mediates",
+        "object":"Neuroprotection",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":337,
+        "subject":"Synaptamide",
+        "relation":"ameliorates",
+        "object":"Long-term Brain Damage",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":337,
+        "subject":"Synaptamide",
+        "relation":"enhances",
+        "object":"Brain Repair",
+        "entity_variants":null
+    }
+]

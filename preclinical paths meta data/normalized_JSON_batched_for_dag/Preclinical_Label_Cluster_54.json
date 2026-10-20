@@ -1,0 +1,184 @@
+[
+    {
+        "source_abstract_id":0,
+        "subject":"Senolytic Agents",
+        "relation":"causes",
+        "object":"Neuronal Loss",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":15,
+        "subject":"Microtubule Stabilizer",
+        "relation":"reduces",
+        "object":"Neurodegeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":18,
+        "subject":"Cytochrome c Oxidase Subunit 6A1",
+        "relation":"associated_with",
+        "object":"Neurodegenerative Pathways",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":69,
+        "subject":"Oxidative Stress",
+        "relation":"causes",
+        "object":"Neuronal Apoptosis",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":88,
+        "subject":"Cis-Targeted Immunotherapy",
+        "relation":"prevents",
+        "object":"Alzheimer Disease-like Neurodegeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":175,
+        "subject":"Oxidative Stress",
+        "relation":"causes",
+        "object":"Neuronal Apoptosis",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":276,
+        "subject":"Oxidative Stress",
+        "relation":"contributes_to",
+        "object":"Neurodegenerative Disorders",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":317,
+        "subject":"Senolytic Therapy",
+        "relation":"reduces",
+        "object":"Neurodegeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":317,
+        "subject":"Senolytic Therapy",
+        "relation":"enhances",
+        "object":"Neuron Number",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":361,
+        "subject":"Oxidative Stress",
+        "relation":"causes",
+        "object":"Glial Cell Death",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":361,
+        "subject":"Oxidative Stress",
+        "relation":"associated_with",
+        "object":"Neurodegenerative Diseases",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":362,
+        "subject":"NOX2",
+        "relation":"causes",
+        "object":"Neurodegeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":74,
+        "subject":"Neurodegeneration",
+        "relation":"causes",
+        "object":"Cognitive Deficits",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":229,
+        "subject":"Delayed Hypoxemia",
+        "relation":"causes",
+        "object":"Neurodegeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":239,
+        "subject":"Reactive Oxygen Species",
+        "relation":"causes",
+        "object":"Neurodegeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":239,
+        "subject":"Lipid Peroxidation Products",
+        "relation":"causes",
+        "object":"Neurodegeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":247,
+        "subject":"Apoptotic Processes",
+        "relation":"increases",
+        "object":"Neurodegenerative Processes",
+        "entity_variants":"not specified"
+    },
+    {
+        "source_abstract_id":261,
+        "subject":"Optic Nerve Damage",
+        "relation":"causes",
+        "object":"Subpopulation Susceptibility",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":311,
+        "subject":"Cell Apoptosis",
+        "relation":"causes",
+        "object":"Neurodegeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":317,
+        "subject":"Senescent Cells",
+        "relation":"contributes_to",
+        "object":"Neurodegeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":318,
+        "subject":"Cerebral Oxygen Consumption",
+        "relation":"mediates",
+        "object":"Neurodegeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":318,
+        "subject":"Glucose Uptake",
+        "relation":"mediates",
+        "object":"Neurodegeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":322,
+        "subject":"Neurodegeneration",
+        "relation":"associated_with",
+        "object":"Auditory System Damage",
+        "entity_variants":"auditory system"
+    },
+    {
+        "source_abstract_id":386,
+        "subject":"Vascular Changes",
+        "relation":"causes",
+        "object":"Neurodegeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":233,
+        "subject":"NADPH Oxidase 2 Activation",
+        "relation":"contributes_to",
+        "object":"Neurodegeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":250,
+        "subject":"Pro-Neurotrophins",
+        "relation":"causes",
+        "object":"Cell Death",
+        "entity_variants":null
+    }
+]

@@ -1,0 +1,513 @@
+[
+    {
+        "source_abstract_id":153,
+        "subject":"Ascorbic Acid",
+        "relation":"supports",
+        "object":"Central Nervous System Function",
+        "entity_variants":"ascorbate reduced"
+    },
+    {
+        "source_abstract_id":170,
+        "subject":"Vanillic Acid",
+        "relation":"regulates",
+        "object":"Oxidative Stress",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":177,
+        "subject":"Cyclic Guanosine Monophosphate",
+        "relation":"mediates",
+        "object":"Synaptic Transmission",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":177,
+        "subject":"Guanylyl Cyclase Isoform 1",
+        "relation":"downregulates",
+        "object":"Neuronal Activity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":177,
+        "subject":"Guanylyl Cyclase Isoform 1",
+        "relation":"mediates",
+        "object":"Ipsilateral Cortical Network Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":178,
+        "subject":"Traumatic Brain Injury",
+        "relation":"increases",
+        "object":"Inducible Nitric Oxide Synthase Expression",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":188,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Matrix Metalloproteinase-2 Activation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":188,
+        "subject":"Oxidative Stress",
+        "relation":"upregulates",
+        "object":"Matrix Metalloproteinase-2",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":210,
+        "subject":"MP201",
+        "relation":"targets",
+        "object":"Reactive Oxygen Species",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":321,
+        "subject":"Procyanidins",
+        "relation":"upregulates",
+        "object":"Glutathione",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":321,
+        "subject":"Procyanidins",
+        "relation":"upregulates",
+        "object":"Superoxide Dismutase",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":321,
+        "subject":"Procyanidins",
+        "relation":"reduces",
+        "object":"Malondialdehyde",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":321,
+        "subject":"Procyanidins",
+        "relation":"upregulates",
+        "object":"Phosphorylated cAMP Response Element-Binding Protein",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":321,
+        "subject":"Procyanidins",
+        "relation":"upregulates",
+        "object":"Total cAMP Response Element-Binding Protein",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":321,
+        "subject":"Procyanidins",
+        "relation":"upregulates",
+        "object":"Cyclic AMP",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":321,
+        "subject":"Procyanidins",
+        "relation":"prevents",
+        "object":"Oxidative Damage",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":361,
+        "subject":"TPP-D-NAC",
+        "relation":"attenuates",
+        "object":"Oxidative Stress",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":361,
+        "subject":"D-NAC",
+        "relation":"demonstrates",
+        "object":"Efficacy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":361,
+        "subject":"TPP-D-NAC",
+        "relation":"improves",
+        "object":"Therapeutic Efficacy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":361,
+        "subject":"TPP-D-NAC",
+        "relation":"penetrates",
+        "object":"Blood-Brain Barrier",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":143,
+        "subject":"N-Docosahexaenoylethanolamine",
+        "relation":"increases",
+        "object":"Superoxide Dismutase",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":153,
+        "subject":"Ascorbic Acid",
+        "relation":"modulates",
+        "object":"Microglial Response",
+        "entity_variants":"Reduced form of ascorbate"
+    },
+    {
+        "source_abstract_id":158,
+        "subject":"Galectin-3",
+        "relation":"upregulates",
+        "object":"Nitric oxide synthase 2",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":391,
+        "subject":"Nuclear factor kappa B",
+        "relation":"upregulates",
+        "object":"Nitric oxide synthase 2",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":30,
+        "subject":"Human Platelet Lysate",
+        "relation":"reduces",
+        "object":"Reactive Oxygen Species",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":239,
+        "subject":"Neuroprotective Copolymers",
+        "relation":"neutralizes",
+        "object":"Reactive Oxygen Species",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":239,
+        "subject":"Neuroprotective Copolymers",
+        "relation":"neutralizes",
+        "object":"Lipid Peroxidation Products",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":239,
+        "subject":"Neuroprotective Copolymers",
+        "relation":"protects",
+        "object":"Neurons",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":239,
+        "subject":"Neuroprotective Copolymers",
+        "relation":"accumulates_in",
+        "object":"Injured Brain",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":239,
+        "subject":"Neuroprotective Copolymers",
+        "relation":"reduces",
+        "object":"Post-Traumatic Oxidative Stress",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":69,
+        "subject":"Hydrogen-Rich Water",
+        "relation":"treats",
+        "object":"Oxidative Stress",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":155,
+        "subject":"High-Fat Diet",
+        "relation":"causes",
+        "object":"Oxidative Stress",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":234,
+        "subject":"Evodiamine",
+        "relation":"causes",
+        "object":"Oxidative Stress",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":234,
+        "subject":"Evodiamine",
+        "relation":"prevents",
+        "object":"Traumatic Brain Injury",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":234,
+        "subject":"Evodiamine",
+        "relation":"treats",
+        "object":"Reactive Oxygen Species",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":234,
+        "subject":"Evodiamine",
+        "relation":"increases",
+        "object":"Catalase Activity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":234,
+        "subject":"Evodiamine",
+        "relation":"increases",
+        "object":"Superoxide Dismutase Activity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":234,
+        "subject":"Evodiamine",
+        "relation":"treats",
+        "object":"Neurological Dysfunction",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":234,
+        "subject":"Evodiamine",
+        "relation":"reduces",
+        "object":"Blood-Brain Barrier Breakdown",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":236,
+        "subject":"Oxiracetam",
+        "relation":"increases",
+        "object":"Superoxide Dismutase 1",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":236,
+        "subject":"Oxiracetam",
+        "relation":"increases",
+        "object":"Superoxide Dismutase 2",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":236,
+        "subject":"Oxiracetam",
+        "relation":"decreases",
+        "object":"Cyclooxygenase-2",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":236,
+        "subject":"Oxiracetam",
+        "relation":"treats",
+        "object":"Reactive Oxygen Species",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":304,
+        "subject":"Oxygen Exposure",
+        "relation":"alters",
+        "object":"Endoplasmic Reticulum Stress Protein Expression",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":304,
+        "subject":"Oxygen Exposure",
+        "relation":"mediates",
+        "object":"Endoplasmic Reticulum Stress Responses",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":304,
+        "subject":"ERO1 Alpha",
+        "relation":"reduces",
+        "object":"Toxic Effects of Free Radicals",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":53,
+        "subject":"Hypoxia",
+        "relation":"upregulates",
+        "object":"Hypoxia-inducible factor 1-alpha",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":202,
+        "subject":"Intermittent fasting",
+        "relation":"partially abolishes",
+        "object":"Arachidonate 8-lipoxygenase",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":202,
+        "subject":"Intermittent fasting",
+        "relation":"partially abolishes",
+        "object":"NADPH oxidase 2",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":338,
+        "subject":"LFHP-1c",
+        "relation":"reduces",
+        "object":"Oxidative stress",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":53,
+        "subject":"Inducible Nitric Oxide Synthase",
+        "relation":"upregulates",
+        "object":"Nitric Oxide",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":177,
+        "subject":"Nitric Oxide",
+        "relation":"upregulates",
+        "object":"Guanylate Cyclase 1",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":177,
+        "subject":"Guanylate Cyclase 1",
+        "relation":"mediates",
+        "object":"Cyclic Guanosine Monophosphate",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":217,
+        "subject":"Endothelial Nitric Oxide Synthase",
+        "relation":"produces",
+        "object":"Nitric Oxide",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":217,
+        "subject":"Endothelial Nitric Oxide Synthase",
+        "relation":"mediates",
+        "object":"Neuroprotective Effects",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":271,
+        "subject":"Neuronal Nitric Oxide Synthase",
+        "relation":"binds_to",
+        "object":"Downstream Genes",
+        "entity_variants":"nNOS_variant"
+    },
+    {
+        "source_abstract_id":147,
+        "subject":"NADPH Oxidase",
+        "relation":"increases",
+        "object":"Reactive Oxygen Species generation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":182,
+        "subject":"NADPH Oxidase 2",
+        "relation":"causes",
+        "object":"Macrophage Activation",
+        "entity_variants":"NOX2-\/-"
+    },
+    {
+        "source_abstract_id":182,
+        "subject":"NADPH Oxidase 2",
+        "relation":"inhibits",
+        "object":"Signal Transducer and Activator of Transcription 1 signaling pathway",
+        "entity_variants":"NOX2-\/-"
+    },
+    {
+        "source_abstract_id":182,
+        "subject":"NADPH Oxidase 2",
+        "relation":"causes",
+        "object":"Pro-inflammatory Activation",
+        "entity_variants":"NOX2-\/-"
+    },
+    {
+        "source_abstract_id":182,
+        "subject":"NADPH Oxidase 2",
+        "relation":"inhibits",
+        "object":"Pro-inflammatory Response",
+        "entity_variants":"NOX2-\/-"
+    },
+    {
+        "source_abstract_id":182,
+        "subject":"NADPH Oxidase 2",
+        "relation":"affects",
+        "object":"Macrophage Phenotype",
+        "entity_variants":"NOX2-\/-"
+    },
+    {
+        "source_abstract_id":188,
+        "subject":"NADPH Oxidase 1",
+        "relation":"causes",
+        "object":"Oxidative Stress",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":233,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"NADPH Oxidase 2 Activation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":233,
+        "subject":"NADPH Oxidase 2 Deficiency",
+        "relation":"reduces",
+        "object":"M1 Macrophage Activation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":233,
+        "subject":"NADPH Oxidase 2 Deficiency",
+        "relation":"limits",
+        "object":"Tissue Loss",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":233,
+        "subject":"NADPH Oxidase 2 Deficiency",
+        "relation":"improves",
+        "object":"Motor Function Recovery",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":233,
+        "subject":"gp91ds-tat Administration",
+        "relation":"increases",
+        "object":"M2 Macrophage Activation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":233,
+        "subject":"NADPH Oxidase 2 Activity",
+        "relation":"acts_as",
+        "object":"Critical Switch",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":362,
+        "subject":"M1 Macrophage Activation",
+        "relation":"upregulates",
+        "object":"NADPH Oxidase 2",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":362,
+        "subject":"gp91ds-tat",
+        "relation":"downregulates",
+        "object":"M1 Macrophage Activation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":362,
+        "subject":"gp91ds-tat",
+        "relation":"reduces",
+        "object":"Oxidative Damage",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":161,
+        "subject":"Daidzein",
+        "relation":"upregulates",
+        "object":"Nuclear factor erythroid 2–related factor 2",
+        "entity_variants":null
+    }
+]

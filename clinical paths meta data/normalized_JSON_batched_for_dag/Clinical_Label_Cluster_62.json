@@ -1,0 +1,275 @@
+[
+    {
+        "source_abstract_id":132,
+        "subject":"Fatigue",
+        "relation":"correlates_with",
+        "object":"Functional Connectivity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":132,
+        "subject":"Self-Reported Fatigue",
+        "relation":"correlates_with",
+        "object":"Brain Functional Connectivity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":132,
+        "subject":"Functional Connectivity",
+        "relation":"serves_as",
+        "object":"Biomarker of Fatigue",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":132,
+        "subject":"Resting State Functional MRI",
+        "relation":"used_for",
+        "object":"Assessment of Fatigue Levels",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":253,
+        "subject":"Left Salience Network Functional Connectivity",
+        "relation":"decreases_with",
+        "object":"Right Insula",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":253,
+        "subject":"Left Salience Network Functional Connectivity",
+        "relation":"increases_with",
+        "object":"Left Precuneus",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":305,
+        "subject":"Corticostriatal interactions",
+        "relation":"associated_with",
+        "object":"Behavioral control",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":344,
+        "subject":"Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Frontoparietal Control Network Connectivity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":355,
+        "subject":"Right Inferior Frontal Gyrus",
+        "relation":"increases",
+        "object":"Functional Connectivity with Right Inferior Parietal Lobule",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":355,
+        "subject":"Right Inferior Frontal Gyrus",
+        "relation":"increases",
+        "object":"Functional Connectivity with Left Frontoparietal Network",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":467,
+        "subject":"Frontal Lobe White Matter Hyperintensity Volume",
+        "relation":"associated_with",
+        "object":"Functional Connectivity in Right Superior Frontal Gyrus",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":467,
+        "subject":"Frontal Lobe White Matter Hyperintensity Volume",
+        "relation":"associated_with",
+        "object":"Functional Connectivity in Right Inferior Temporal Gyrus",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":158,
+        "subject":"Cognitive Function",
+        "relation":"associated_with",
+        "object":"Consistent Connectivity Patterns",
+        "entity_variants":"chronic"
+    },
+    {
+        "source_abstract_id":167,
+        "subject":"Structural Connectivity",
+        "relation":"negatively_associated_with",
+        "object":"Functional Connectivity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":167,
+        "subject":"Structural Connectivity",
+        "relation":"predicts",
+        "object":"Long-Term Outcomes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":167,
+        "subject":"Structural Connectivity",
+        "relation":"associated_with",
+        "object":"Global Properties",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":167,
+        "subject":"Functional Connectivity",
+        "relation":"maintains",
+        "object":"Global Properties",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":192,
+        "subject":"Functional Connectivity",
+        "relation":"associated_with",
+        "object":"Cognitive Performance",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":192,
+        "subject":"Functional Connectivity",
+        "relation":"differs_in",
+        "object":"Age-Matched Controls",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":253,
+        "subject":"Substantia Nigra Functional Connectivity",
+        "relation":"associated_with",
+        "object":"Cognitive Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":344,
+        "subject":"Physical Activity",
+        "relation":"upregulates",
+        "object":"Functional Connectivity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":344,
+        "subject":"Physical Activity",
+        "relation":"associated_with",
+        "object":"Frontoparietal Control Network",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":344,
+        "subject":"Physical Activity",
+        "relation":"modulates",
+        "object":"Functional Connectivity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":344,
+        "subject":"Physical Activity",
+        "relation":"associated_with",
+        "object":"Frontoparietal Control Network Connectivity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":355,
+        "subject":"Neurological Music Therapy",
+        "relation":"increases",
+        "object":"Functional Connectivity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":355,
+        "subject":"Executive Function",
+        "relation":"associated_with",
+        "object":"Functional Connectivity within Frontoparietal Network",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":355,
+        "subject":"Functional Connectivity within Frontoparietal Network",
+        "relation":"associated_with",
+        "object":"Functional Connectivity between Default Mode Network and Sensorimotor Networks",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":355,
+        "subject":"Neurological Music Therapy",
+        "relation":"shifts",
+        "object":"Connectivity State within Frontoparietal Network and Salience Network",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":381,
+        "subject":"Functional Connectivity",
+        "relation":"associated_with",
+        "object":"Cognitive Performance",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":381,
+        "subject":"Structural Integrity",
+        "relation":"affects",
+        "object":"Functional Connectivity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":405,
+        "subject":"Injury Outcomes",
+        "relation":"associated_with",
+        "object":"Functional Connectivity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":405,
+        "subject":"Functional Connectivity",
+        "relation":"associated_with",
+        "object":"Injury Risk",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":467,
+        "subject":"White Matter Hyperintensities",
+        "relation":"modulates",
+        "object":"Functional Connectivity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":478,
+        "subject":"Resting-State fMRI Metrics",
+        "relation":"predicts",
+        "object":"Cognitive Performance",
+        "entity_variants":"fALFF, DC, FCS"
+    },
+    {
+        "source_abstract_id":495,
+        "subject":"Functional Hyperconnectivity",
+        "relation":"downregulates",
+        "object":"Structural Hypoconnectivity",
+        "entity_variants":"not specified"
+    },
+    {
+        "source_abstract_id":527,
+        "subject":"Cognitive Training",
+        "relation":"associated_with",
+        "object":"Functional Connectivity Changes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":530,
+        "subject":"Functional Connectivity",
+        "relation":"associated_with",
+        "object":"Cognitive Performance",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":530,
+        "subject":"Structural Connectivity",
+        "relation":"associated_with",
+        "object":"Cognitive Performance",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":541,
+        "subject":"Structural Connectivity Measures",
+        "relation":"associated_with",
+        "object":"Cognitive Performance",
+        "entity_variants":null
+    }
+]

@@ -1,0 +1,414 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 13,
+    "edge_count": 19
+  },
+  "nodes": [
+    {
+      "id": "NEFL",
+      "label": "NEFL",
+      "type": "Protein",
+      "location": "Blood",
+      "identifiers": {
+        "UMLS_CUI": "C0027798",
+        "HGNC_ID": "HGNC:7739",
+        "UniProt_ID": "P07196"
+      },
+      "synonyms": [
+        "Neurofilament Light Chain",
+        "NfL",
+        "NF-L",
+        "Neurofilament Light Protein",
+        "Serum Neurofilament Light Chain",
+        "Plasma Neurofilament Light Protein"
+      ]
+    },
+    {
+      "id": "NEFH",
+      "label": "NEFH",
+      "type": "Protein",
+      "location": "Blood",
+      "identifiers": {
+        "UMLS_CUI": "C1417765",
+        "HGNC_ID": "HGNC:7737",
+        "UniProt_ID": "P12036"
+      },
+      "synonyms": [
+        "Neurofilament Heavy Chain",
+        "pNF-H",
+        "Phosphorylated Neurofilament Heavy Chain"
+      ]
+    },
+    {
+      "id": "MAPT",
+      "label": "MAPT",
+      "type": "Protein",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0039392",
+        "HGNC_ID": "HGNC:6893",
+        "UniProt_ID": "P10636"
+      },
+      "synonyms": [
+        "Tau Protein",
+        "Total Tau"
+      ]
+    },
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "Traumatic Brain Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111"
+      },
+      "synonyms": [
+        "TBI",
+        "Concussion",
+        "Mild Traumatic Brain Injury",
+        "Blast Exposure",
+        "Head Injury",
+        "Repetitive Head Impacts",
+        "Collision Sports"
+      ]
+    },
+    {
+      "id": "ChronicTraumaticEncephalopathy",
+      "label": "Chronic Traumatic Encephalopathy",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0011609"
+      },
+      "synonyms": [
+        "CTE",
+        "CTE Staging"
+      ]
+    },
+    {
+      "id": "CognitiveImpairment",
+      "label": "Cognitive Impairment",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0338656"
+      },
+      "synonyms": [
+        "Cognitive Decline",
+        "Cognitive Performance",
+        "Executive Function",
+        "Perceptual Reasoning"
+      ]
+    },
+    {
+      "id": "BrainAtrophy",
+      "label": "Brain Atrophy",
+      "type": "Pathology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0241816"
+      },
+      "synonyms": [
+        "Atrophied Brain Regions",
+        "Brain Volume Loss",
+        "Brain Age"
+      ]
+    },
+    {
+      "id": "NeuronalInjury",
+      "label": "Neuronal Injury",
+      "type": "Pathology",
+      "location": "Neuron",
+      "identifiers": {
+        "UMLS_CUI": "C0270613"
+      },
+      "synonyms": [
+        "Neuronal Damage",
+        "Neurodegeneration"
+      ]
+    },
+    {
+      "id": "PostConcussionSyndrome",
+      "label": "Post-Concussion Syndrome",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0032705"
+      },
+      "synonyms": [
+        "Post-Concussion Symptoms"
+      ]
+    },
+    {
+      "id": "Minocycline",
+      "label": "Minocycline",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0026191",
+        "ChEBI_ID": "CHEBI:6946"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Sleep",
+      "label": "Sleep",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0037313",
+        "GO_ID": "GO:0030431"
+      },
+      "synonyms": [
+        "Sleep Quality"
+      ]
+    },
+    {
+      "id": "Autoantibodies",
+      "label": "Autoantibodies",
+      "type": "Protein",
+      "location": "Blood",
+      "identifiers": {
+        "UMLS_CUI": "C0004358"
+      },
+      "synonyms": [
+        "Anti-MAG IgM Autoantibodies"
+      ]
+    },
+    {
+      "id": "GlymphaticSystem",
+      "label": "Glymphatic System",
+      "type": "Anatomy",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C4072124"
+      },
+      "synonyms": [
+        "Glymphatic Clearance"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "NEFL",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        49,
+        60,
+        72,
+        92,
+        105,
+        161,
+        197,
+        225,
+        324,
+        358,
+        361,
+        372,
+        392,
+        404,
+        460
+      ],
+      "confidence": "High",
+      "metadata": "Conflict: Some sources (228, 628, 197) report no effect or no causal association in specific contexts (e.g. collision sports vs blast)."
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "NEFH",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        324
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Moderate to Severe TBI increases Phosphorylated Neurofilament Heavy Chain"
+    },
+    {
+      "source": "NEFL",
+      "target": "NeuronalInjury",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        49,
+        470
+      ],
+      "confidence": "High",
+      "metadata": "NfL reflects underlying neuronal damage/neurodegeneration"
+    },
+    {
+      "source": "NEFL",
+      "target": "ChronicTraumaticEncephalopathy",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        125
+      ],
+      "confidence": "Medium",
+      "metadata": "Binds to CTE Staging"
+    },
+    {
+      "source": "NEFL",
+      "target": "CognitiveImpairment",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        92,
+        95,
+        228,
+        314,
+        324
+      ],
+      "confidence": "High",
+      "metadata": "Predicts decline, performance, and executive function. Source 92 states 'causes' decline."
+    },
+    {
+      "source": "NEFH",
+      "target": "CognitiveImpairment",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        324
+      ],
+      "confidence": "Medium",
+      "metadata": "Upregulates decline, downregulates performance, predicts performance"
+    },
+    {
+      "source": "NEFL",
+      "target": "BrainAtrophy",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        29,
+        34,
+        85,
+        161,
+        361,
+        400
+      ],
+      "confidence": "High",
+      "metadata": "Associated with volume loss, brain age, and white matter microstructure"
+    },
+    {
+      "source": "Minocycline",
+      "target": "NEFL",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        34
+      ],
+      "confidence": "Low",
+      "metadata": "Context: Increases Plasma NfL"
+    },
+    {
+      "source": "NEFL",
+      "target": "PostConcussionSyndrome",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        57
+      ],
+      "confidence": "Medium",
+      "metadata": "Correlates with symptoms and syndrome presence"
+    },
+    {
+      "source": "NEFL",
+      "target": "MAPT",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        225
+      ],
+      "confidence": "Low",
+      "metadata": "Negatively associated with Tau Protein"
+    },
+    {
+      "source": "NEFL",
+      "target": "TraumaticBrainInjury",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        103,
+        105,
+        392,
+        543,
+        612
+      ],
+      "confidence": "High",
+      "metadata": "Used as biomarker for injury severity and in former athletes"
+    },
+    {
+      "source": "Sleep",
+      "target": "NEFL",
+      "mechanism": "predicts",
+      "evidence_ref": [
+        173
+      ],
+      "confidence": "Low",
+      "metadata": "Sleep quality predicts NfL levels"
+    },
+    {
+      "source": "Autoantibodies",
+      "target": "NEFL",
+      "mechanism": "correlates_with",
+      "evidence_ref": [
+        418
+      ],
+      "confidence": "Low",
+      "metadata": "Anti-MAG IgM correlates with elevated NfL"
+    },
+    {
+      "source": "GlymphaticSystem",
+      "target": "NEFL",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        612
+      ],
+      "confidence": "Low",
+      "metadata": "Clearance correlates with Plasma NfL"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "BrainAtrophy",
+      "mechanism": "causes",
+      "evidence_ref": [
+        599
+      ],
+      "confidence": "Medium",
+      "metadata": "Atrophy observed in former NFL players (implied TBI link)"
+    },
+    {
+      "source": "NEFL",
+      "target": "GlymphaticSystem",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        612
+      ],
+      "confidence": "Low",
+      "metadata": "Plasma NfL correlates with Glymphatic Clearance"
+    },
+    {
+      "source": "NEFL",
+      "target": "NEFL",
+      "mechanism": "binds",
+      "evidence_ref": [
+        103,
+        392
+      ],
+      "confidence": "Medium",
+      "metadata": "Self-correlation or correlation with Mean Diffusivity/White Matter (Node mapped to itself if target is vague, here representing White Matter Abnormality link)"
+    },
+    {
+      "source": "NEFL",
+      "target": "Autoantibodies",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        418
+      ],
+      "confidence": "Low",
+      "metadata": "Reflects Anti-MAG activity"
+    },
+    {
+      "source": "NEFL",
+      "target": "Sleep",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        173
+      ],
+      "confidence": "Low",
+      "metadata": "Biomarker relation inverse to prediction"
+    }
+  ]
+}

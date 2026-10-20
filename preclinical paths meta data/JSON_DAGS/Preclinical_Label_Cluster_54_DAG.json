@@ -1,0 +1,529 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 21,
+    "edge_count": 21
+  },
+  "nodes": [
+    {
+      "id": "Senolytics",
+      "label": "Senolytics",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C4763953",
+        "MeSH": "D000080362"
+      },
+      "synonyms": [
+        "Senolytic Agents",
+        "Senolytic Therapy"
+      ]
+    },
+    {
+      "id": "Neurodegeneration",
+      "label": "Neurodegeneration",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027746",
+        "GO_ID": "GO:0006915"
+      },
+      "synonyms": [
+        "Neuronal Loss",
+        "Neurodegenerative Processes",
+        "Neurodegenerative Pathways",
+        "Neuronal Death"
+      ]
+    },
+    {
+      "id": "MicrotubuleStabilizers",
+      "label": "Microtubule Stabilizing Agents",
+      "type": "Chemical",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "UMLS_CUI": "C0302484"
+      },
+      "synonyms": [
+        "Microtubule Stabilizer"
+      ]
+    },
+    {
+      "id": "COX6A1",
+      "label": "COX6A1",
+      "type": "Protein",
+      "location": "Mitochondria",
+      "identifiers": {
+        "HGNC_ID": "HGNC:2277",
+        "UniProt_ID": "P12074"
+      },
+      "synonyms": [
+        "Cytochrome c Oxidase Subunit 6A1"
+      ]
+    },
+    {
+      "id": "OxidativeStress",
+      "label": "Oxidative Stress",
+      "type": "Process",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "UMLS_CUI": "C0029921",
+        "GO_ID": "GO:0006979"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Apoptosis",
+      "label": "Apoptosis",
+      "type": "Process",
+      "location": "Neuron",
+      "identifiers": {
+        "UMLS_CUI": "C0162638",
+        "GO_ID": "GO:0006915"
+      },
+      "synonyms": [
+        "Neuronal Apoptosis",
+        "Cell Apoptosis",
+        "Apoptotic Processes"
+      ]
+    },
+    {
+      "id": "Immunotherapy",
+      "label": "Immunotherapy",
+      "type": "Therapeutic",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0021056"
+      },
+      "synonyms": [
+        "Cis-Targeted Immunotherapy"
+      ]
+    },
+    {
+      "id": "AlzheimerDisease",
+      "label": "Alzheimer Disease",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0002395"
+      },
+      "synonyms": [
+        "Alzheimer Disease-like Neurodegeneration"
+      ]
+    },
+    {
+      "id": "NeurodegenerativeDisorders",
+      "label": "Neurodegenerative Disorders",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0524851"
+      },
+      "synonyms": [
+        "Neurodegenerative Diseases"
+      ]
+    },
+    {
+      "id": "Neuron",
+      "label": "Neuron",
+      "type": "Cell",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027882"
+      },
+      "synonyms": [
+        "Neuron Number"
+      ]
+    },
+    {
+      "id": "CellDeath",
+      "label": "Cell Death",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0011373",
+        "GO_ID": "GO:0008219"
+      },
+      "synonyms": [
+        "Glial Cell Death"
+      ]
+    },
+    {
+      "id": "CYBB",
+      "label": "CYBB",
+      "type": "Protein",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "HGNC_ID": "HGNC:2588",
+        "UniProt_ID": "P04839"
+      },
+      "synonyms": [
+        "NOX2",
+        "NADPH Oxidase 2"
+      ]
+    },
+    {
+      "id": "CognitiveImpairment",
+      "label": "Cognitive Impairment",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0338656"
+      },
+      "synonyms": [
+        "Cognitive Deficits"
+      ]
+    },
+    {
+      "id": "Hypoxia",
+      "label": "Hypoxia",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0020643"
+      },
+      "synonyms": [
+        "Delayed Hypoxemia"
+      ]
+    },
+    {
+      "id": "ReactiveOxygenSpecies",
+      "label": "Reactive Oxygen Species",
+      "type": "Chemical",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "ChEBI": "CHEBI:26523"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "LipidPeroxides",
+      "label": "Lipid Peroxides",
+      "type": "Chemical",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "UMLS_CUI": "C0023806"
+      },
+      "synonyms": [
+        "Lipid Peroxidation Products"
+      ]
+    },
+    {
+      "id": "OpticNerveInjuries",
+      "label": "Optic Nerve Injuries",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0029132"
+      },
+      "synonyms": [
+        "Optic Nerve Damage"
+      ]
+    },
+    {
+      "id": "SelectiveVulnerability",
+      "label": "Selective Vulnerability",
+      "type": "Process",
+      "location": "Neuron",
+      "identifiers": {
+        "UMLS_CUI": "C0596307"
+      },
+      "synonyms": [
+        "Subpopulation Susceptibility"
+      ]
+    },
+    {
+      "id": "SenescentCells",
+      "label": "Senescent Cells",
+      "type": "Cell",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0007593"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "OxygenConsumption",
+      "label": "Oxygen Consumption",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0029969"
+      },
+      "synonyms": [
+        "Cerebral Oxygen Consumption"
+      ]
+    },
+    {
+      "id": "GlucoseMetabolism",
+      "label": "Glucose Metabolism",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0017730"
+      },
+      "synonyms": [
+        "Glucose Uptake"
+      ]
+    },
+    {
+      "id": "HearingLoss",
+      "label": "Hearing Loss",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0018772"
+      },
+      "synonyms": [
+        "Auditory System Damage"
+      ]
+    },
+    {
+      "id": "VascularDysfunction",
+      "label": "Vascular Dysfunction",
+      "type": "Pathology",
+      "location": "Blood",
+      "identifiers": {
+        "UMLS_CUI": "C0042375"
+      },
+      "synonyms": [
+        "Vascular Changes"
+      ]
+    },
+    {
+      "id": "Proneurotrophins",
+      "label": "Proneurotrophins",
+      "type": "Protein",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "UMLS_CUI": "C0027899"
+      },
+      "synonyms": []
+    }
+  ],
+  "edges": [
+    {
+      "source": "Senolytics",
+      "target": "Neurodegeneration",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        317
+      ],
+      "confidence": "High",
+      "metadata": "Reduces neurodegeneration (conflicting noise in Ref 0 rejected)"
+    },
+    {
+      "source": "Senolytics",
+      "target": "Neuron",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        317
+      ],
+      "confidence": "Medium",
+      "metadata": "Enhances neuron number"
+    },
+    {
+      "source": "MicrotubuleStabilizers",
+      "target": "Neurodegeneration",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        15
+      ],
+      "confidence": "Medium",
+      "metadata": "Reduces neurodegeneration"
+    },
+    {
+      "source": "COX6A1",
+      "target": "NeurodegenerativeDisorders",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        18
+      ],
+      "confidence": "Medium",
+      "metadata": "Associated with pathways"
+    },
+    {
+      "source": "OxidativeStress",
+      "target": "Apoptosis",
+      "mechanism": "causes",
+      "evidence_ref": [
+        69,
+        175
+      ],
+      "confidence": "High",
+      "metadata": "Context: Neuronal Apoptosis"
+    },
+    {
+      "source": "OxidativeStress",
+      "target": "NeurodegenerativeDisorders",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        276,
+        361
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "OxidativeStress",
+      "target": "CellDeath",
+      "mechanism": "causes",
+      "evidence_ref": [
+        361
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Glial Cell Death"
+    },
+    {
+      "source": "Immunotherapy",
+      "target": "AlzheimerDisease",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        88
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Cis-Targeted"
+    },
+    {
+      "source": "CYBB",
+      "target": "Neurodegeneration",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        233,
+        362
+      ],
+      "confidence": "High",
+      "metadata": "Context: NOX2 activation"
+    },
+    {
+      "source": "Neurodegeneration",
+      "target": "CognitiveImpairment",
+      "mechanism": "causes",
+      "evidence_ref": [
+        74
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "Hypoxia",
+      "target": "Neurodegeneration",
+      "mechanism": "causes",
+      "evidence_ref": [
+        229
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Delayed Hypoxemia"
+    },
+    {
+      "source": "ReactiveOxygenSpecies",
+      "target": "Neurodegeneration",
+      "mechanism": "causes",
+      "evidence_ref": [
+        239
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "LipidPeroxides",
+      "target": "Neurodegeneration",
+      "mechanism": "causes",
+      "evidence_ref": [
+        239
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "Apoptosis",
+      "target": "NeurodegenerativeDisorders",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        247
+      ],
+      "confidence": "Medium",
+      "metadata": "Increases neurodegenerative processes"
+    },
+    {
+      "source": "Apoptosis",
+      "target": "Neurodegeneration",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        311
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "OpticNerveInjuries",
+      "target": "SelectiveVulnerability",
+      "mechanism": "causes",
+      "evidence_ref": [
+        261
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Subpopulation susceptibility"
+    },
+    {
+      "source": "SenescentCells",
+      "target": "Neurodegeneration",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        317
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "OxygenConsumption",
+      "target": "Neurodegeneration",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        318
+      ],
+      "confidence": "Medium",
+      "metadata": "Mediates neurodegeneration"
+    },
+    {
+      "source": "GlucoseMetabolism",
+      "target": "Neurodegeneration",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        318
+      ],
+      "confidence": "Medium",
+      "metadata": "Uptake mediates neurodegeneration"
+    },
+    {
+      "source": "Neurodegeneration",
+      "target": "HearingLoss",
+      "mechanism": "associated_with",
+      "evidence_ref": [
+        322
+      ],
+      "confidence": "Low",
+      "metadata": ""
+    },
+    {
+      "source": "VascularDysfunction",
+      "target": "Neurodegeneration",
+      "mechanism": "causes",
+      "evidence_ref": [
+        386
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "Proneurotrophins",
+      "target": "CellDeath",
+      "mechanism": "causes",
+      "evidence_ref": [
+        250
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    }
+  ]
+}

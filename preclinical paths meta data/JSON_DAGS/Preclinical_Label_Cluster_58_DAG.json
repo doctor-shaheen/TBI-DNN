@@ -1,0 +1,480 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 21,
+    "edge_count": 20
+  },
+  "nodes": [
+    {
+      "id": "N-acetylserotonin",
+      "label": "N-acetylserotonin",
+      "type": "Chemical",
+      "location": "CSF",
+      "identifiers": {
+        "UMLS_CUI": "C0027546",
+        "ChEBI_ID": "CHEBI:18260"
+      },
+      "synonyms": [
+        "Normelatonin",
+        "N-Acetyl-5-hydroxytryptamine",
+        "NAS"
+      ]
+    },
+    {
+      "id": "Ferroptosis",
+      "label": "Ferroptosis",
+      "type": "Process",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "UMLS_CUI": "C4277543",
+        "GO_ID": "GO:0097707"
+      },
+      "synonyms": [
+        "Iron-dependent regulated cell death"
+      ]
+    },
+    {
+      "id": "Iron",
+      "label": "Iron",
+      "type": "Chemical",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "UMLS_CUI": "C0022104",
+        "ChEBI_ID": "CHEBI:24873"
+      },
+      "synonyms": [
+        "Fe",
+        "Ferric Iron",
+        "Iron Accumulation",
+        "Iron Deposition"
+      ]
+    },
+    {
+      "id": "MesenchymalStemCells",
+      "label": "Mesenchymal Stem Cells",
+      "type": "Cell",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0025533"
+      },
+      "synonyms": [
+        "MSCs",
+        "Mesenchymal Stromal Cells"
+      ]
+    },
+    {
+      "id": "IronOxidePolyLLysineComplex",
+      "label": "Iron Oxide Poly-L-lysine Complex",
+      "type": "Chemical",
+      "location": "Exogenous",
+      "identifiers": {
+        "UMLS_CUI": "N/A"
+      },
+      "synonyms": [
+        "IO-PLL"
+      ]
+    },
+    {
+      "id": "CellTracking",
+      "label": "Cell Tracking",
+      "type": "Process",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0035048"
+      },
+      "synonyms": [
+        "Non-invasive Tracking",
+        "Labeling Efficiency"
+      ]
+    },
+    {
+      "id": "Propofol",
+      "label": "Propofol",
+      "type": "Chemical",
+      "location": "Blood",
+      "identifiers": {
+        "UMLS_CUI": "C0033487",
+        "ChEBI_ID": "CHEBI:8499"
+      },
+      "synonyms": [
+        "2,6-diisopropylphenol"
+      ]
+    },
+    {
+      "id": "ExtracellularVesicles",
+      "label": "Extracellular Vesicles",
+      "type": "Cell_Component",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "UMLS_CUI": "C4054045",
+        "GO_ID": "GO:1903561"
+      },
+      "synonyms": [
+        "EVs",
+        "Platelet Extracellular Vesicles"
+      ]
+    },
+    {
+      "id": "FTH1",
+      "label": "FTH1",
+      "type": "Protein",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "UMLS_CUI": "C1414691",
+        "HGNC_ID": "HGNC:3976",
+        "UniProt_ID": "P02794"
+      },
+      "synonyms": [
+        "Ferritin Heavy Chain",
+        "Fth"
+      ]
+    },
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "Traumatic Brain Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111"
+      },
+      "synonyms": [
+        "TBI",
+        "Brain Injury"
+      ]
+    },
+    {
+      "id": "Ferrostatin-1",
+      "label": "Ferrostatin-1",
+      "type": "Chemical",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "UMLS_CUI": "C3658514",
+        "ChEBI_ID": "CHEBI:132517"
+      },
+      "synonyms": [
+        "Fer-1"
+      ]
+    },
+    {
+      "id": "BrainEdema",
+      "label": "Brain Edema",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006114"
+      },
+      "synonyms": [
+        "Cerebral Edema"
+      ]
+    },
+    {
+      "id": "Neuroprotection",
+      "label": "Neuroprotection",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027868"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Deferoxamine",
+      "label": "Deferoxamine",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0011151",
+        "ChEBI_ID": "CHEBI:4188"
+      },
+      "synonyms": [
+        "Desferrioxamine"
+      ]
+    },
+    {
+      "id": "IntermittentFasting",
+      "label": "Intermittent Fasting",
+      "type": "Process",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0015663"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "NeuronalDeath",
+      "label": "Neuronal Death",
+      "type": "Process",
+      "location": "Neuron",
+      "identifiers": {
+        "UMLS_CUI": "C0278147"
+      },
+      "synonyms": [
+        "Neuron Death"
+      ]
+    },
+    {
+      "id": "FerristatinII",
+      "label": "Ferristatin II",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "N/A"
+      },
+      "synonyms": [
+        "NSC 8689"
+      ]
+    },
+    {
+      "id": "LipidPeroxidation",
+      "label": "Lipid Peroxidation",
+      "type": "Process",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "UMLS_CUI": "C0023773",
+        "GO_ID": "GO:0034442"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Malondialdehyde",
+      "label": "Malondialdehyde",
+      "type": "Chemical",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "UMLS_CUI": "C0024584",
+        "ChEBI_ID": "CHEBI:6700"
+      },
+      "synonyms": [
+        "MDA"
+      ]
+    },
+    {
+      "id": "IronHomeostasis",
+      "label": "Iron Homeostasis",
+      "type": "Process",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0022108",
+        "GO_ID": "GO:0055072"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "NeuronalInjury",
+      "label": "Neuronal Injury",
+      "type": "Disease",
+      "location": "Neuron",
+      "identifiers": {
+        "UMLS_CUI": "C0278147"
+      },
+      "synonyms": [
+        "Nerve Injury"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "N-acetylserotonin",
+      "target": "Ferroptosis",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        195
+      ],
+      "confidence": "High",
+      "metadata": "Corrected from 'causes' to 'inhibits' based on context of protective effects; requires FTH1"
+    },
+    {
+      "source": "N-acetylserotonin",
+      "target": "Iron",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        195
+      ],
+      "confidence": "High",
+      "metadata": "Context: Iron accumulation"
+    },
+    {
+      "source": "MesenchymalStemCells",
+      "target": "IronOxidePolyLLysineComplex",
+      "mechanism": "binds",
+      "evidence_ref": [
+        211
+      ],
+      "confidence": "High",
+      "metadata": "Context: Labeling/Uptake"
+    },
+    {
+      "source": "IronOxidePolyLLysineComplex",
+      "target": "CellTracking",
+      "mechanism": "activates",
+      "evidence_ref": [
+        211
+      ],
+      "confidence": "High",
+      "metadata": "Enhances non-invasive tracking"
+    },
+    {
+      "source": "Propofol",
+      "target": "Iron",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        217
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Iron deposition"
+    },
+    {
+      "source": "ExtracellularVesicles",
+      "target": "Ferroptosis",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        149
+      ],
+      "confidence": "Medium",
+      "metadata": "Source: Platelet EVs"
+    },
+    {
+      "source": "FTH1",
+      "target": "Ferroptosis",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        195
+      ],
+      "confidence": "High",
+      "metadata": "Deficiency/Knockout causes susceptibility"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Ferroptosis",
+      "mechanism": "causes",
+      "evidence_ref": [
+        49,
+        202,
+        217
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "Ferrostatin-1",
+      "target": "Ferroptosis",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        49
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "Ferroptosis",
+      "target": "BrainEdema",
+      "mechanism": "causes",
+      "evidence_ref": [
+        49
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "Ferroptosis",
+      "target": "Neuroprotection",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        49
+      ],
+      "confidence": "Medium",
+      "metadata": "Negatively regulates"
+    },
+    {
+      "source": "Deferoxamine",
+      "target": "Ferroptosis",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        195
+      ],
+      "confidence": "High",
+      "metadata": "Reverses susceptibility induced by Fth knockout"
+    },
+    {
+      "source": "IntermittentFasting",
+      "target": "Ferroptosis",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        202
+      ],
+      "confidence": "Medium",
+      "metadata": "Reduces"
+    },
+    {
+      "source": "Ferroptosis",
+      "target": "NeuronalDeath",
+      "mechanism": "causes",
+      "evidence_ref": [
+        202
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "FerristatinII",
+      "target": "Ferroptosis",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        240
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "FerristatinII",
+      "target": "Iron",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        240
+      ],
+      "confidence": "High",
+      "metadata": "Context: Ferric Iron"
+    },
+    {
+      "source": "FerristatinII",
+      "target": "LipidPeroxidation",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        240
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "FerristatinII",
+      "target": "NeuronalInjury",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        240
+      ],
+      "confidence": "High",
+      "metadata": "Treats/Alleviates"
+    },
+    {
+      "source": "FerristatinII",
+      "target": "IronHomeostasis",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        240
+      ],
+      "confidence": "Medium",
+      "metadata": "Reverses dysregulation of proteins"
+    },
+    {
+      "source": "FerristatinII",
+      "target": "Malondialdehyde",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        240
+      ],
+      "confidence": "High",
+      "metadata": ""
+    }
+  ]
+}

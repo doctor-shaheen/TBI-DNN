@@ -1,0 +1,520 @@
+[
+    {
+        "source_abstract_id":233,
+        "subject":"M2 Macrophage Activation",
+        "relation":"associated_with",
+        "object":"Neuroprotection",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":372,
+        "subject":"Interleukin-10",
+        "relation":"downregulates",
+        "object":"Microglial Activation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":388,
+        "subject":"Perivascular Macrophages",
+        "relation":"upregulates",
+        "object":"Inflammatory Response",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":36,
+        "subject":"Microglial Activation",
+        "relation":"mediates",
+        "object":"Neurocognitive Deficits",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":51,
+        "subject":"Microglial Activation",
+        "relation":"triggers",
+        "object":"Neuroinflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":55,
+        "subject":"Obesity",
+        "relation":"triggers",
+        "object":"Microglial Activation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":55,
+        "subject":"Obese Females",
+        "relation":"do_not_exhibit",
+        "object":"Increased Microglial Activation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":62,
+        "subject":"Microglial Activity",
+        "relation":"mediates",
+        "object":"Tau Proteostasis",
+        "entity_variants":"microglial_activity"
+    },
+    {
+        "source_abstract_id":62,
+        "subject":"Microglial Polarization",
+        "relation":"affects",
+        "object":"Tauopathy",
+        "entity_variants":"microglial_polarization"
+    },
+    {
+        "source_abstract_id":68,
+        "subject":"Microgliosis",
+        "relation":"mediates",
+        "object":"Cognitive Deficits",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":71,
+        "subject":"Microglial Heme Oxygenase-1 Knockout",
+        "relation":"triggers",
+        "object":"Microglial Activation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":71,
+        "subject":"Microglial Heme Oxygenase-1 Knockout",
+        "relation":"triggers",
+        "object":"Astrocyte Activation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":71,
+        "subject":"Microglial Heme Oxygenase-1 Knockout",
+        "relation":"triggers",
+        "object":"Inflammatory Response",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":71,
+        "subject":"Microglial Heme Oxygenase-1 Knockout",
+        "relation":"triggers",
+        "object":"NF-kappaB Expression",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":71,
+        "subject":"Microglial Heme Oxygenase-1 Knockout",
+        "relation":"triggers",
+        "object":"Interferon Gamma Expression",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":73,
+        "subject":"Microglial Activation",
+        "relation":"mediates",
+        "object":"Functional Outcomes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":73,
+        "subject":"Microglial Activation",
+        "relation":"correlates_with",
+        "object":"Phagocytic Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":73,
+        "subject":"Microglial Activation",
+        "relation":"correlates_with",
+        "object":"Autophagic Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":121,
+        "subject":"Microglial Activation",
+        "relation":"triggers",
+        "object":"Neuroinflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":125,
+        "subject":"Xenon",
+        "relation":"reduces",
+        "object":"Microglial Cell Proliferation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":153,
+        "subject":"Microglial Activation",
+        "relation":"drives",
+        "object":"Neuroinflammation",
+        "entity_variants":"activated microglia"
+    },
+    {
+        "source_abstract_id":153,
+        "subject":"Microglial Activation",
+        "relation":"is_influenced_by",
+        "object":"Ascorbic Acid",
+        "entity_variants":"Reduced form of ascorbate"
+    },
+    {
+        "source_abstract_id":157,
+        "subject":"Itaconate",
+        "relation":"modulates",
+        "object":"Microglial Inflammatory Responses",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":157,
+        "subject":"Glycolysis",
+        "relation":"increases",
+        "object":"Microglial Activation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":157,
+        "subject":"Mitochondrial Metabolism",
+        "relation":"disrupted",
+        "object":"Microglial Activation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":180,
+        "subject":"Microglial Activation",
+        "relation":"triggers",
+        "object":"Complement Activation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":181,
+        "subject":"Microglial Activation",
+        "relation":"upregulates",
+        "object":"Pro-inflammatory Cytokines",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":194,
+        "subject":"Microglial Activation",
+        "relation":"mediates",
+        "object":"Neuronal Dysfunction",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":194,
+        "subject":"Microglial Depletion",
+        "relation":"prevents",
+        "object":"Traumatic Brain Injury-induced Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":194,
+        "subject":"Microglial Depletion",
+        "relation":"reverses",
+        "object":"Neuronal Alterations",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":194,
+        "subject":"Microglial Depletion",
+        "relation":"prevents",
+        "object":"Inflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":194,
+        "subject":"Microglial Depletion",
+        "relation":"reverses",
+        "object":"Cognitive Changes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":203,
+        "subject":"Microglial Reactivity",
+        "relation":"contributes_to",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":203,
+        "subject":"Microglial Reactivity",
+        "relation":"mediates",
+        "object":"Synaptic Loss",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":203,
+        "subject":"Microglial Reactivity",
+        "relation":"affects",
+        "object":"Inhibitory Synaptic Drive",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":203,
+        "subject":"Microglial Reactivity",
+        "relation":"influences",
+        "object":"Neuronal Contact",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":204,
+        "subject":"Microglial Activation",
+        "relation":"mediates",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":206,
+        "subject":"Intestinal Inflammation",
+        "relation":"causes",
+        "object":"Microglial Activation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":206,
+        "subject":"Intestinal Inflammation",
+        "relation":"induces",
+        "object":"Microglial Activation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":207,
+        "subject":"Microglial Activation",
+        "relation":"mediates",
+        "object":"Cognitive Deficits",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":207,
+        "subject":"Microglial Activation",
+        "relation":"correlates_with",
+        "object":"Neurological Behavioral Tests",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":207,
+        "subject":"Microglial Activation",
+        "relation":"associated_with",
+        "object":"Long-term Cognitive Deficits",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":207,
+        "subject":"Microglial Activation",
+        "relation":"correlates_with",
+        "object":"Behavioral Outcomes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":221,
+        "subject":"Microglia",
+        "relation":"triggers",
+        "object":"Acidosis",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":221,
+        "subject":"Microglia",
+        "relation":"mediates",
+        "object":"Inflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":221,
+        "subject":"Microglia Depletion",
+        "relation":"reduces",
+        "object":"Inflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":221,
+        "subject":"Microglia",
+        "relation":"promotes",
+        "object":"Reactive Oxygen Species",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":233,
+        "subject":"M1-like Microglial Activation",
+        "relation":"associated_with",
+        "object":"Inflammation-mediated Neurodegeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":251,
+        "subject":"Microglia",
+        "relation":"promotes",
+        "object":"Neurological Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":261,
+        "subject":"Optic Nerve Damage",
+        "relation":"triggers",
+        "object":"Microglial Changes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":261,
+        "subject":"Microglial Changes",
+        "relation":"mediates",
+        "object":"Chronic Outcomes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":283,
+        "subject":"Microglial Response",
+        "relation":"mediates",
+        "object":"Neuronal Excitability",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":283,
+        "subject":"Satellite Microglia",
+        "relation":"suppresses",
+        "object":"Neuronal Excitability",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":290,
+        "subject":"Lipopolysaccharide",
+        "relation":"negatively_affects",
+        "object":"Microglial Cell Viability",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":324,
+        "subject":"Microglial Activation",
+        "relation":"mediates",
+        "object":"Neuroinflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":324,
+        "subject":"Microglial Activation",
+        "relation":"positively_regulates",
+        "object":"Gene Expression Changes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":324,
+        "subject":"Microglial Gene Expression Profile",
+        "relation":"modifies",
+        "object":"Ability to Sense Damage",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":324,
+        "subject":"Microglial Gene Expression Profile",
+        "relation":"affects",
+        "object":"Homeostasis",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":324,
+        "subject":"Microglial Activation",
+        "relation":"positively_regulates",
+        "object":"Biphasic Pattern of Gene Expression",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":324,
+        "subject":"Microglial Gene Expression Changes",
+        "relation":"affects",
+        "object":"Functional Deficits",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":324,
+        "subject":"Microglial Activation",
+        "relation":"mediates",
+        "object":"Neurotoxicity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":324,
+        "subject":"Microglial Activation",
+        "relation":"affects",
+        "object":"Neuroprotection",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":362,
+        "subject":"Microglial Activation",
+        "relation":"polarizes_to",
+        "object":"M1-like Microglial State",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":362,
+        "subject":"Microglial Activation",
+        "relation":"polarizes_to",
+        "object":"M2-like Microglial State",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":362,
+        "subject":"M1-like Microglial State",
+        "relation":"associated_with",
+        "object":"Cortical Neurodegeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":362,
+        "subject":"M1-like Microglial State",
+        "relation":"associated_with",
+        "object":"Hippocampal Neurodegeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":369,
+        "subject":"Lipo-Dex",
+        "relation":"negatively_regulates",
+        "object":"Microglial Activation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":371,
+        "subject":"Lipo-Dex",
+        "relation":"negatively_regulates",
+        "object":"Microglial Activation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":372,
+        "subject":"Microglial Activation",
+        "relation":"mediates",
+        "object":"Neuroprotection",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":388,
+        "subject":"Microglia",
+        "relation":"positively_regulates",
+        "object":"Inflammatory Response",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":369,
+        "subject":"Liposomal Dexamethasone",
+        "relation":"reduces",
+        "object":"Astrogliosis",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":371,
+        "subject":"Liposomal Dexamethasone",
+        "relation":"reduces",
+        "object":"Astrogliosis",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":372,
+        "subject":"Neuroinflammation",
+        "relation":"influences",
+        "object":"Neuroprotection",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":362,
+        "subject":"M2-Like Microglial State",
+        "relation":"mediates",
+        "object":"Neuroprotection",
+        "entity_variants":null
+    }
+]

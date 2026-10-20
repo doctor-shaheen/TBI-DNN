@@ -1,0 +1,358 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 16,
+    "edge_count": 15
+  },
+  "nodes": [
+    {
+      "id": "MontrealCognitiveAssessment",
+      "label": "Montreal Cognitive Assessment",
+      "type": "Process",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C2734160",
+        "SNOMED_CT": "442657002"
+      },
+      "synonyms": [
+        "MoCA",
+        "MoCA Test",
+        "Montreal Cognitive Assessment Scale"
+      ]
+    },
+    {
+      "id": "MattisDementiaRatingScale",
+      "label": "Mattis Dementia Rating Scale",
+      "type": "Process",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0596396"
+      },
+      "synonyms": [
+        "MDRS",
+        "Dementia Rating Scale"
+      ]
+    },
+    {
+      "id": "Cognition",
+      "label": "Cognition",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0009241"
+      },
+      "synonyms": [
+        "Cognitive Functioning",
+        "Mental Processes"
+      ]
+    },
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "Traumatic Brain Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111"
+      },
+      "synonyms": [
+        "TBI",
+        "Head Injury",
+        "Moderate Traumatic Brain Injury"
+      ]
+    },
+    {
+      "id": "EducationalStatus",
+      "label": "Educational Status",
+      "type": "Process",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0013658"
+      },
+      "synonyms": [
+        "Years of Education",
+        "Education Level"
+      ]
+    },
+    {
+      "id": "InferiorTemporalGyrus",
+      "label": "Inferior Temporal Gyrus",
+      "type": "Anatomy",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0039458"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "MiddleTemporalGyrus",
+      "label": "Middle Temporal Gyrus",
+      "type": "Anatomy",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0039463"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "AngularGyrus",
+      "label": "Angular Gyrus",
+      "type": "Anatomy",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0003004"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "CognitiveImpairment",
+      "label": "Cognitive Impairment",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0338656"
+      },
+      "synonyms": [
+        "Cognitive Disorder",
+        "Cognitive Deficit"
+      ]
+    },
+    {
+      "id": "CognitiveTraining",
+      "label": "Cognitive Training",
+      "type": "Process",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0235084"
+      },
+      "synonyms": [
+        "Cognitive Therapy",
+        "Cognitive Rehabilitation"
+      ]
+    },
+    {
+      "id": "PupillaryLightReflex",
+      "label": "Pupillary Light Reflex",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0034139"
+      },
+      "synonyms": [
+        "PLR"
+      ]
+    },
+    {
+      "id": "GlasgowComaScale",
+      "label": "Glasgow Coma Scale",
+      "type": "Process",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0017636"
+      },
+      "synonyms": [
+        "GCS",
+        "Admission Glasgow Coma Scale"
+      ]
+    },
+    {
+      "id": "ConsciousnessRecovery",
+      "label": "Recovery of Consciousness",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0542363"
+      },
+      "synonyms": [
+        "Return of Consciousness"
+      ]
+    },
+    {
+      "id": "Age",
+      "label": "Age",
+      "type": "Process",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0001779"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "MarshallClassification",
+      "label": "Marshall Classification",
+      "type": "Process",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C1285263"
+      },
+      "synonyms": [
+        "Marshall Computed Tomography Classification"
+      ]
+    },
+    {
+      "id": "DiffuseAxonalInjury",
+      "label": "Diffuse Axonal Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0264585"
+      },
+      "synonyms": [
+        "DAI"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "MattisDementiaRatingScale",
+      "target": "Cognition",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        218
+      ],
+      "confidence": "High",
+      "metadata": "Context: Measures Cognitive Functioning"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "MontrealCognitiveAssessment",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        284
+      ],
+      "confidence": "High",
+      "metadata": "Context: Moderate TBI associated with scores"
+    },
+    {
+      "source": "EducationalStatus",
+      "target": "MontrealCognitiveAssessment",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        284,
+        584
+      ],
+      "confidence": "High",
+      "metadata": "Context: Positively associated with scores"
+    },
+    {
+      "source": "InferiorTemporalGyrus",
+      "target": "MontrealCognitiveAssessment",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        531
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Mean diffusivity associated with scores"
+    },
+    {
+      "source": "MiddleTemporalGyrus",
+      "target": "MontrealCognitiveAssessment",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        531
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Mean diffusivity associated with scores"
+    },
+    {
+      "source": "AngularGyrus",
+      "target": "MontrealCognitiveAssessment",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        531
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Mean diffusivity associated with scores"
+    },
+    {
+      "source": "MontrealCognitiveAssessment",
+      "target": "CognitiveImpairment",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        563
+      ],
+      "confidence": "High",
+      "metadata": "Context: Used to assess impairment"
+    },
+    {
+      "source": "CognitiveTraining",
+      "target": "MontrealCognitiveAssessment",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        563
+      ],
+      "confidence": "High",
+      "metadata": "Context: Treats/Improves scores"
+    },
+    {
+      "source": "PupillaryLightReflex",
+      "target": "MontrealCognitiveAssessment",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        584
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Positively associated with scores"
+    },
+    {
+      "source": "GlasgowComaScale",
+      "target": "MontrealCognitiveAssessment",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        584
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Admission GCS positively associated with MoCA"
+    },
+    {
+      "source": "ConsciousnessRecovery",
+      "target": "MontrealCognitiveAssessment",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        584
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Return of consciousness negatively associated (likely refers to time to return)"
+    },
+    {
+      "source": "Age",
+      "target": "MontrealCognitiveAssessment",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        584
+      ],
+      "confidence": "High",
+      "metadata": "Context: Negatively associated with scores"
+    },
+    {
+      "source": "MarshallClassification",
+      "target": "MontrealCognitiveAssessment",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        584
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Negatively associated with scores"
+    },
+    {
+      "source": "DiffuseAxonalInjury",
+      "target": "MontrealCognitiveAssessment",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        584
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Grade negatively associated; Grade 1 and 3 specific memory components positively associated"
+    },
+    {
+      "source": "MontrealCognitiveAssessment",
+      "target": "Cognition",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        630
+      ],
+      "confidence": "High",
+      "metadata": "Context: Measures Cognition"
+    }
+  ]
+}

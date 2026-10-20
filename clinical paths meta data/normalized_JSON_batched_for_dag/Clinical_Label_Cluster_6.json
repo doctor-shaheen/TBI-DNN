@@ -1,0 +1,212 @@
+[
+    {
+        "source_abstract_id":80,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Parkinson Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":80,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Progression of Parkinsonian Signs",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":97,
+        "subject":"Traumatic Brain Injury",
+        "relation":"increases_risk_of",
+        "object":"Parkinson Disease",
+        "entity_variants":"mild traumatic brain injury, moderate-severe traumatic brain injury"
+    },
+    {
+        "source_abstract_id":97,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"increases_risk_of",
+        "object":"Parkinson Disease",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":97,
+        "subject":"Moderate-Severe Traumatic Brain Injury",
+        "relation":"increases_risk_of",
+        "object":"Parkinson Disease",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":104,
+        "subject":"Chronic Traumatic Encephalopathy",
+        "relation":"causes",
+        "object":"Parkinsonism",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":129,
+        "subject":"Traumatic Brain Injury",
+        "relation":"increases_risk_of",
+        "object":"Parkinson Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":171,
+        "subject":"Traumatic Brain Injury",
+        "relation":"increases_risk_of",
+        "object":"Parkinson Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":171,
+        "subject":"Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Parkinson Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":207,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"increases_risk_of",
+        "object":"Parkinson Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":218,
+        "subject":"Parkinson Disease",
+        "relation":"associated_with",
+        "object":"Traumatic Brain Injury",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":226,
+        "subject":"Traumatic Brain Injury",
+        "relation":"increases_risk_of",
+        "object":"Parkinson Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":226,
+        "subject":"Traumatic Brain Injury",
+        "relation":"increases_risk_of",
+        "object":"Parkinson Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":226,
+        "subject":"Traumatic Brain Injury",
+        "relation":"increases_risk_of",
+        "object":"Parkinson Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":273,
+        "subject":"Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Parkinson Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":277,
+        "subject":"Traumatic Brain Injury",
+        "relation":"no_association_with",
+        "object":"Parkinson Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":287,
+        "subject":"Traumatic Brain Injury",
+        "relation":"no_causal_link_with",
+        "object":"Parkinson Disease Progression",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":339,
+        "subject":"History of Traumatic Brain Injury",
+        "relation":"predicts",
+        "object":"Parkinson Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":346,
+        "subject":"Traumatic Brain Injury",
+        "relation":"increases_risk_of",
+        "object":"Parkinson Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":346,
+        "subject":"Traumatic Brain Injury",
+        "relation":"increases_risk_of",
+        "object":"Parkinson Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":346,
+        "subject":"Traumatic Brain Injury",
+        "relation":"increases_risk_of",
+        "object":"Parkinson Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":346,
+        "subject":"Non-Traumatic Trauma",
+        "relation":"compared_to",
+        "object":"Parkinson Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":347,
+        "subject":"Parkinson Disease",
+        "relation":"causes",
+        "object":"Traumatic Brain Injury",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":347,
+        "subject":"Parkinson Disease",
+        "relation":"increases_risk_of",
+        "object":"Traumatic Brain Injury",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":465,
+        "subject":"Head Injuries",
+        "relation":"increases_risk_of",
+        "object":"Parkinson Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":466,
+        "subject":"Head Injury",
+        "relation":"increases_risk_of",
+        "object":"Parkinson Disease",
+        "entity_variants":"head injury with loss of consciousness"
+    },
+    {
+        "source_abstract_id":466,
+        "subject":"Head Injury",
+        "relation":"increases_risk_of",
+        "object":"Parkinson Disease",
+        "entity_variants":"head injury with loss of consciousness"
+    },
+    {
+        "source_abstract_id":481,
+        "subject":"History of Traumatic Brain Injury",
+        "relation":"confounds",
+        "object":"Parkinsonism",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":506,
+        "subject":"Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Parkinson Disease",
+        "entity_variants":"potential association"
+    },
+    {
+        "source_abstract_id":609,
+        "subject":"Head Trauma",
+        "relation":"causes",
+        "object":"Parkinson Disease",
+        "entity_variants":"concussion"
+    }
+]

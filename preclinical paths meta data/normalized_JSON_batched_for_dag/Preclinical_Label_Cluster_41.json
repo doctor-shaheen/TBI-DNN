@@ -1,0 +1,282 @@
+[
+    {
+        "source_abstract_id":17,
+        "subject":"Repetitive Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Neuroinflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":51,
+        "subject":"Repeated Traumatic Brain Injury",
+        "relation":"triggers",
+        "object":"Neuroinflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":60,
+        "subject":"Repetitive Mild Traumatic Brain Injury",
+        "relation":"triggers",
+        "object":"Neuroinflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":69,
+        "subject":"Repetitive Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Inflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":126,
+        "subject":"Repetitive Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Neuroinflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":128,
+        "subject":"Mild Repetitive Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Inflammatory Markers",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":133,
+        "subject":"Anatabine",
+        "relation":"modulates",
+        "object":"Neuroinflammatory Response",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":135,
+        "subject":"Repeated Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Neuroinflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":215,
+        "subject":"Repetitive Mild Traumatic Brain Injury",
+        "relation":"induces",
+        "object":"Inflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":255,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Prolonged Immune Response",
+        "entity_variants":"not specified|"
+    },
+    {
+        "source_abstract_id":293,
+        "subject":"Repetitive Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Inflammation",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":309,
+        "subject":"Acute Brain Injury",
+        "relation":"causes",
+        "object":"Vascular Response",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":319,
+        "subject":"Repetitive Mild Traumatic Brain Injury",
+        "relation":"increases",
+        "object":"Neuroinflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":380,
+        "subject":"Repeated Concussive Brain Injury",
+        "relation":"causes",
+        "object":"Inflammation",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":395,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Neuroinflammation",
+        "entity_variants":"mild TBI, moderate to severe TBI"
+    },
+    {
+        "source_abstract_id":119,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"increases",
+        "object":"Pro-inflammatory Cytokines",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":150,
+        "subject":"Traumatic Brain Injury",
+        "relation":"triggers",
+        "object":"Microglial Inflammatory Responses",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":133,
+        "subject":"Repetitive Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Neuroinflammatory Pathways",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":314,
+        "subject":"Repetitive Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Inflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":315,
+        "subject":"Repetitive Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Neuroinflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":22,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Neuroinflammation",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":39,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Neuroinflammation",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":56,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Neuroinflammation",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":72,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Neuroinflammation",
+        "entity_variants":"not specified"
+    },
+    {
+        "source_abstract_id":79,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Neuroinflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":105,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Neuroinflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":111,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Neuroinflammation",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":119,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Neuroinflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":130,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Neuroinflammation",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":150,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Chronic Neuroinflammation",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":152,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Inflammation",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":213,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Inflammation",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":214,
+        "subject":"Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Neuroinflammation",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":217,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Neuroinflammatory Response",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":236,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Neuroinflammation",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":247,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Neuroinflammatory Response",
+        "entity_variants":"not specified"
+    },
+    {
+        "source_abstract_id":289,
+        "subject":"Inflammation",
+        "relation":"contributes_to",
+        "object":"Brain Damage",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":319,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Neuroinflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":385,
+        "subject":"Focal Vascular Injury",
+        "relation":"causes",
+        "object":"Neuroinflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":395,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"exhibits",
+        "object":"Mild Neuroinflammation",
+        "entity_variants":"none"
+    }
+]

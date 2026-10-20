@@ -1,0 +1,842 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 36,
+    "edge_count": 52
+  },
+  "nodes": [
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "Traumatic Brain Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111"
+      },
+      "synonyms": [
+        "TBI",
+        "Military Blast Injury",
+        "Mild TBI",
+        "rlmTBI"
+      ]
+    },
+    {
+      "id": "MitochondrialComplexI",
+      "label": "NADH Dehydrogenase Complex",
+      "type": "Protein Complex",
+      "location": "Mitochondria",
+      "identifiers": {
+        "GO": "GO:0005747"
+      },
+      "synonyms": [
+        "Mitochondrial Complex I",
+        "Complex I"
+      ]
+    },
+    {
+      "id": "Metabolism",
+      "label": "Cellular Metabolism",
+      "type": "Process",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "GO": "GO:0044237"
+      },
+      "synonyms": [
+        "Metabolic Process"
+      ]
+    },
+    {
+      "id": "Glycolysis",
+      "label": "Glycolysis",
+      "type": "Process",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "GO": "GO:0006096"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "IGF1",
+      "label": "IGF1",
+      "type": "Protein",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "HGNC_ID": "HGNC:5464",
+        "UMLS_CUI": "C0021855"
+      },
+      "synonyms": [
+        "Insulin-Like Growth Factor 1"
+      ]
+    },
+    {
+      "id": "Mitophagy",
+      "label": "Mitophagy",
+      "type": "Process",
+      "location": "Mitochondria",
+      "identifiers": {
+        "GO": "GO:0000422"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "MMP9",
+      "label": "MMP9",
+      "type": "Protein",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "HGNC_ID": "HGNC:7176",
+        "UMLS_CUI": "C0026245"
+      },
+      "synonyms": [
+        "Matrix Metalloproteinase-9"
+      ]
+    },
+    {
+      "id": "BloodBrainBarrierPermeability",
+      "label": "Blood-Brain Barrier Permeability",
+      "type": "Phenotype",
+      "location": "Blood",
+      "identifiers": {
+        "UMLS_CUI": "C0005763"
+      },
+      "synonyms": [
+        "Blood-Brain Barrier Disruption"
+      ]
+    },
+    {
+      "id": "GlucoseUptake",
+      "label": "Glucose Import",
+      "type": "Process",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "GO": "GO:0046323"
+      },
+      "synonyms": [
+        "Glucose Uptake"
+      ]
+    },
+    {
+      "id": "NeurologicalDeficit",
+      "label": "Neurological Deficit",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0521654"
+      },
+      "synonyms": [
+        "Long-Term Complications",
+        "Functional Outcome",
+        "Behavioral Performance"
+      ]
+    },
+    {
+      "id": "CholesterolMetabolism",
+      "label": "Cholesterol Metabolism",
+      "type": "Process",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "GO": "GO:0008203"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "MitochondrialDynamics",
+      "label": "Mitochondrial Dynamics",
+      "type": "Process",
+      "location": "Mitochondria",
+      "identifiers": {
+        "GO": "GO:0000002"
+      },
+      "synonyms": [
+        "Astrocytic Mitochondrial Dynamics"
+      ]
+    },
+    {
+      "id": "SynapticTransmission",
+      "label": "Synaptic Transmission",
+      "type": "Process",
+      "location": "Synapse",
+      "identifiers": {
+        "GO": "GO:0007268"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "DNM1L",
+      "label": "DNM1L",
+      "type": "Protein",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "HGNC_ID": "HGNC:2914",
+        "UMLS_CUI": "C1413926"
+      },
+      "synonyms": [
+        "Dynamin-Related Protein 1",
+        "Drp1",
+        "Dynamin-1-like Protein"
+      ]
+    },
+    {
+      "id": "MitochondrialIntegrity",
+      "label": "Mitochondrial Integrity",
+      "type": "Process",
+      "location": "Mitochondria",
+      "identifiers": {
+        "GO": "GO:0000001"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "NeurodegenerativeDisease",
+      "label": "Neurodegenerative Disease",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0524851"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "MitochondrialDysfunction",
+      "label": "Mitochondrial Dysfunction",
+      "type": "Pathology",
+      "location": "Mitochondria",
+      "identifiers": {
+        "UMLS_CUI": "C0242606"
+      },
+      "synonyms": [
+        "Metabolic Dysfunction",
+        "Metabolic Derangements"
+      ]
+    },
+    {
+      "id": "CognitiveImpairment",
+      "label": "Cognitive Impairment",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0338656"
+      },
+      "synonyms": [
+        "Memory Impairment"
+      ]
+    },
+    {
+      "id": "Mdivi-1",
+      "label": "Mdivi-1",
+      "type": "Chemical",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "ChEBI": "CHEBI:137353"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "MitochondrialMembranePotential",
+      "label": "Mitochondrial Membrane Potential",
+      "type": "Phenotype",
+      "location": "Mitochondria",
+      "identifiers": {
+        "GO": "GO:0003010"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "CorticalLesion",
+      "label": "Cortical Lesion",
+      "type": "Pathology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0270678"
+      },
+      "synonyms": [
+        "Lesion Volume"
+      ]
+    },
+    {
+      "id": "BrainEdema",
+      "label": "Brain Edema",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006114"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "OxidativeStress",
+      "label": "Oxidative Stress",
+      "type": "Process",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "GO": "GO:0006979"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Anxiety",
+      "label": "Anxiety",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0003467"
+      },
+      "synonyms": [
+        "Anxiety-like Behavior"
+      ]
+    },
+    {
+      "id": "OxidativePhosphorylation",
+      "label": "Oxidative Phosphorylation",
+      "type": "Process",
+      "location": "Mitochondria",
+      "identifiers": {
+        "GO": "GO:0006119"
+      },
+      "synonyms": [
+        "Mitochondrial Oxidative Metabolism"
+      ]
+    },
+    {
+      "id": "RHOT1",
+      "label": "RHOT1",
+      "type": "Protein",
+      "location": "Mitochondria",
+      "identifiers": {
+        "HGNC_ID": "HGNC:18698",
+        "UMLS_CUI": "C1422709"
+      },
+      "synonyms": [
+        "Miro1"
+      ]
+    },
+    {
+      "id": "Apoptosis",
+      "label": "Apoptosis",
+      "type": "Process",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "GO": "GO:0006915"
+      },
+      "synonyms": [
+        "Neuronal Apoptosis"
+      ]
+    },
+    {
+      "id": "BAX",
+      "label": "BAX",
+      "type": "Protein",
+      "location": "Mitochondria",
+      "identifiers": {
+        "HGNC_ID": "HGNC:959"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "BCL2",
+      "label": "BCL2",
+      "type": "Protein",
+      "location": "Mitochondria",
+      "identifiers": {
+        "HGNC_ID": "HGNC:990"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "MitochondrialTransport",
+      "label": "Mitochondrial Transport",
+      "type": "Process",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "GO": "GO:0006839"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "ElectronTransportChain",
+      "label": "Electron Transport Chain",
+      "type": "Protein Complex",
+      "location": "Mitochondria",
+      "identifiers": {
+        "GO": "GO:0022900"
+      },
+      "synonyms": [
+        "Mitochondrial Electron Transport Chain"
+      ]
+    },
+    {
+      "id": "CYCS",
+      "label": "CYCS",
+      "type": "Protein",
+      "location": "Mitochondria",
+      "identifiers": {
+        "HGNC_ID": "HGNC:2583"
+      },
+      "synonyms": [
+        "Cytochrome c"
+      ]
+    },
+    {
+      "id": "ReactiveOxygenSpecies",
+      "label": "Reactive Oxygen Species",
+      "type": "Chemical",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "ChEBI": "CHEBI:26523"
+      },
+      "synonyms": [
+        "ROS"
+      ]
+    },
+    {
+      "id": "MitochondrialFission",
+      "label": "Mitochondrial Fission",
+      "type": "Process",
+      "location": "Mitochondria",
+      "identifiers": {
+        "GO": "GO:0000266"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "MitochondrialFragmentation",
+      "label": "Mitochondrial Fragmentation",
+      "type": "Phenotype",
+      "location": "Mitochondria",
+      "identifiers": {
+        "UMLS_CUI": "C4020921"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Neuroprotection",
+      "label": "Neuroprotection",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027883"
+      },
+      "synonyms": []
+    }
+  ],
+  "edges": [
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "MitochondrialComplexI",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        33
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Metabolism",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        41
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Glycolysis",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        41
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "IGF1",
+      "target": "Mitophagy",
+      "mechanism": "activates",
+      "evidence_ref": [
+        296
+      ],
+      "confidence": "High",
+      "metadata": "Mechanism: via exosomal miR-let-7e"
+    },
+    {
+      "source": "MMP9",
+      "target": "BloodBrainBarrierPermeability",
+      "mechanism": "mediates",
+      "evidence_ref": [
+        299
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "GlucoseUptake",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        318
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "Mitophagy",
+      "target": "NeurologicalDeficit",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        320
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Repetitive mild TBI (reduces long-term complications)"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "CholesterolMetabolism",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        325
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "MitochondrialDynamics",
+      "target": "SynapticTransmission",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        403
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "DNM1L",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        222,
+        375
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "MitochondrialIntegrity",
+      "target": "NeurodegenerativeDisease",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        18
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "MitochondrialDysfunction",
+      "mechanism": "causes",
+      "evidence_ref": [
+        21,
+        33,
+        41,
+        155,
+        210,
+        225,
+        375,
+        403
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "MitochondrialDysfunction",
+      "target": "CognitiveImpairment",
+      "mechanism": "causes",
+      "evidence_ref": [
+        210
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "DNM1L",
+      "target": "MitochondrialDysfunction",
+      "mechanism": "mediates",
+      "evidence_ref": [
+        222
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "Mdivi-1",
+      "target": "MitochondrialMembranePotential",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        222
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "Mdivi-1",
+      "target": "CorticalLesion",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        222,
+        375
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "Mdivi-1",
+      "target": "BloodBrainBarrierPermeability",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        222
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "Mdivi-1",
+      "target": "BrainEdema",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        222,
+        375
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "Mdivi-1",
+      "target": "OxidativeStress",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        222
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "Mdivi-1",
+      "target": "NeurologicalDeficit",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        222,
+        375
+      ],
+      "confidence": "High",
+      "metadata": "Improves behavioral/functional performance"
+    },
+    {
+      "source": "Mdivi-1",
+      "target": "Anxiety",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        222
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "OxidativePhosphorylation",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        248
+      ],
+      "confidence": "High",
+      "metadata": "Context: Increases oxidative metabolism"
+    },
+    {
+      "source": "RHOT1",
+      "target": "Apoptosis",
+      "mechanism": "causes",
+      "evidence_ref": [
+        292
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "RHOT1",
+      "target": "BAX",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        292
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "RHOT1",
+      "target": "BCL2",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        292
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "RHOT1",
+      "target": "MitochondrialTransport",
+      "mechanism": "mediates",
+      "evidence_ref": [
+        292
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "RHOT1",
+      "target": "BrainEdema",
+      "mechanism": "causes",
+      "evidence_ref": [
+        292
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "RHOT1",
+      "target": "NeurologicalDeficit",
+      "mechanism": "causes",
+      "evidence_ref": [
+        292
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "RHOT1",
+      "target": "Metabolism",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        292
+      ],
+      "confidence": "High",
+      "metadata": "Causes Energy Deficiency"
+    },
+    {
+      "source": "MitochondrialTransport",
+      "target": "Apoptosis",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        292
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "MitochondrialTransport",
+      "target": "BrainEdema",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        292
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "MitochondrialTransport",
+      "target": "NeurologicalDeficit",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        292
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "MMP9",
+      "target": "Mitophagy",
+      "mechanism": "causes",
+      "evidence_ref": [
+        299
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "MMP9",
+      "target": "MitochondrialDysfunction",
+      "mechanism": "binds",
+      "evidence_ref": [
+        299
+      ],
+      "confidence": "High",
+      "metadata": "Binds to damaged mitochondria"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "ElectronTransportChain",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        313
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "Mdivi-1",
+      "target": "DNM1L",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        375
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "Mdivi-1",
+      "target": "CYCS",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        375
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "Mdivi-1",
+      "target": "MitochondrialMorphology",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        375
+      ],
+      "confidence": "High",
+      "metadata": "Maintains normal morphology"
+    },
+    {
+      "source": "MitochondrialDysfunction",
+      "target": "CognitiveImpairment",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        379
+      ],
+      "confidence": "High",
+      "metadata": "Corrected: Mitochondrial Function improves Memory Impairment (Inverse relationship)"
+    },
+    {
+      "source": "MitochondrialDysfunction",
+      "target": "ReactiveOxygenSpecies",
+      "mechanism": "causes",
+      "evidence_ref": [
+        403
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "MitochondrialDysfunction",
+      "target": "CYCS",
+      "mechanism": "translocates",
+      "evidence_ref": [
+        403
+      ],
+      "confidence": "High",
+      "metadata": "Release"
+    },
+    {
+      "source": "DNM1L",
+      "target": "MitochondrialFission",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        403
+      ],
+      "confidence": "High",
+      "metadata": "State: Phosphorylated at Ser616"
+    },
+    {
+      "source": "MitochondrialFission",
+      "target": "MitochondrialFragmentation",
+      "mechanism": "causes",
+      "evidence_ref": [
+        403
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "MitochondrialFragmentation",
+      "target": "Neuroprotection",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        403
+      ],
+      "confidence": "Medium"
+    }
+  ]
+}

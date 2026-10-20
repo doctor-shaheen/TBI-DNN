@@ -1,0 +1,385 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 16,
+    "edge_count": 16
+  },
+  "nodes": [
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "Traumatic Brain Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111",
+        "MeSH_ID": "D001930"
+      },
+      "synonyms": [
+        "TBI",
+        "Brain Injuries",
+        "Military Blast Injury"
+      ]
+    },
+    {
+      "id": "MicroglialActivation",
+      "label": "Microglial Activation",
+      "type": "Process",
+      "location": "Microglia",
+      "identifiers": {
+        "UMLS_CUI": "C2350352",
+        "GO_ID": "GO:0001774"
+      },
+      "synonyms": [
+        "Microglial Reactivity",
+        "Microglial Response",
+        "Activated Microglial Phenotype",
+        "Microglial Maladaptive States",
+        "Microglial Polarization",
+        "Satellite Microglia Accumulation"
+      ]
+    },
+    {
+      "id": "MetabolicSurgery",
+      "label": "Metabolic Surgery",
+      "type": "Procedure",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C3714552"
+      },
+      "synonyms": [
+        "Bariatric Surgery"
+      ]
+    },
+    {
+      "id": "Minocycline",
+      "label": "Minocycline",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0026190",
+        "ChEBI_ID": "CHEBI:6940"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Neurodegeneration",
+      "label": "Neurodegeneration",
+      "type": "Pathology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027746",
+        "GO_ID": "GO:0070265"
+      },
+      "synonyms": [
+        "Neurodegenerative Processes"
+      ]
+    },
+    {
+      "id": "Inflammation",
+      "label": "Inflammation",
+      "type": "Process",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0021368",
+        "GO_ID": "GO:0006954"
+      },
+      "synonyms": [
+        "Systemic Inflammation",
+        "Neuroinflammation"
+      ]
+    },
+    {
+      "id": "InflammatoryMediators",
+      "label": "Inflammatory Mediators",
+      "type": "Protein",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "UMLS_CUI": "C0021375"
+      },
+      "synonyms": [
+        "Inflammatory Molecules"
+      ]
+    },
+    {
+      "id": "Phagocytosis",
+      "label": "Phagocytosis",
+      "type": "Process",
+      "location": "Microglia",
+      "identifiers": {
+        "UMLS_CUI": "C0031307",
+        "GO_ID": "GO:0006909"
+      },
+      "synonyms": [
+        "Phagocytic Activity",
+        "Phagocytic Function",
+        "Synaptic Engulfment"
+      ]
+    },
+    {
+      "id": "NeuropsychiatricSymptom",
+      "label": "Neuropsychiatric Symptom",
+      "type": "Symptom",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027767"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "AmericanFootball",
+      "label": "American Football",
+      "type": "Activity",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0016538"
+      },
+      "synonyms": [
+        "National Football League Play"
+      ]
+    },
+    {
+      "id": "SynapseLoss",
+      "label": "Synapse Loss",
+      "type": "Pathology",
+      "location": "Synapse",
+      "identifiers": {
+        "UMLS_CUI": "C0030588"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "CellContact",
+      "label": "Cell Contact",
+      "type": "Process",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "UMLS_CUI": "C0007584",
+        "GO_ID": "GO:0048471"
+      },
+      "synonyms": [
+        "Neuronal Contact"
+      ]
+    },
+    {
+      "id": "SynapticTransmission",
+      "label": "Synaptic Transmission",
+      "type": "Process",
+      "location": "Synapse",
+      "identifiers": {
+        "UMLS_CUI": "C0039062",
+        "GO_ID": "GO:0007268"
+      },
+      "synonyms": [
+        "Inhibitory Synaptic Drive"
+      ]
+    },
+    {
+      "id": "NeuronalExcitability",
+      "label": "Neuronal Excitability",
+      "type": "Process",
+      "location": "Neuron",
+      "identifiers": {
+        "UMLS_CUI": "C0424574"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "TSPO",
+      "label": "TSPO",
+      "type": "Protein",
+      "location": "Mitochondria",
+      "identifiers": {
+        "UMLS_CUI": "C1420786",
+        "HGNC_ID": "HGNC:12387"
+      },
+      "synonyms": [
+        "Translocator Protein"
+      ]
+    },
+    {
+      "id": "AstrocyteActivation",
+      "label": "Astrocyte Activation",
+      "type": "Process",
+      "location": "Astrocyte",
+      "identifiers": {
+        "UMLS_CUI": "C3887640",
+        "GO_ID": "GO:0048143"
+      },
+      "synonyms": [
+        "Reactive Astrocyte Phenotype"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "MicroglialActivation",
+      "mechanism": "causes",
+      "evidence_ref": [
+        34,
+        191,
+        356,
+        364,
+        416,
+        477
+      ],
+      "confidence": "High",
+      "metadata": "Context: Includes accumulation of satellite microglia and varying phenotypes"
+    },
+    {
+      "source": "MetabolicSurgery",
+      "target": "MicroglialActivation",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        42
+      ],
+      "confidence": "Medium",
+      "metadata": "Effect: Reduces maladaptive states"
+    },
+    {
+      "source": "Minocycline",
+      "target": "MicroglialActivation",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        34
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Treatment"
+    },
+    {
+      "source": "MicroglialActivation",
+      "target": "Neurodegeneration",
+      "mechanism": "causes",
+      "evidence_ref": [
+        34,
+        108,
+        191
+      ],
+      "confidence": "High",
+      "metadata": "Includes association with neurodegenerative processes"
+    },
+    {
+      "source": "MicroglialActivation",
+      "target": "TraumaticBrainInjury",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        34
+      ],
+      "confidence": "Medium",
+      "metadata": "Effect: Reparative feedback loop"
+    },
+    {
+      "source": "Inflammation",
+      "target": "MicroglialActivation",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        108
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Systemic Inflammation influences activation"
+    },
+    {
+      "source": "MicroglialActivation",
+      "target": "InflammatoryMediators",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        110,
+        303
+      ],
+      "confidence": "High",
+      "metadata": "Ref 303 cites Microglia causing Inflammation generally"
+    },
+    {
+      "source": "MicroglialActivation",
+      "target": "Phagocytosis",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        138,
+        356
+      ],
+      "confidence": "High",
+      "metadata": "Context: Increases phagocytic activity and synaptic engulfment"
+    },
+    {
+      "source": "MicroglialActivation",
+      "target": "NeuropsychiatricSymptom",
+      "mechanism": "causes",
+      "evidence_ref": [
+        191
+      ],
+      "confidence": "Medium",
+      "metadata": "Mechanism: Mediation"
+    },
+    {
+      "source": "AmericanFootball",
+      "target": "MicroglialActivation",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        191
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Associated with persistent activation"
+    },
+    {
+      "source": "MicroglialActivation",
+      "target": "SynapseLoss",
+      "mechanism": "causes",
+      "evidence_ref": [
+        356
+      ],
+      "confidence": "High",
+      "metadata": "Mechanism: Mediation via engulfment"
+    },
+    {
+      "source": "MicroglialActivation",
+      "target": "CellContact",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        356
+      ],
+      "confidence": "Medium",
+      "metadata": "Specific target: Neuronal contact"
+    },
+    {
+      "source": "MicroglialActivation",
+      "target": "SynapticTransmission",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        356
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Reduces inhibitory synaptic drive"
+    },
+    {
+      "source": "MicroglialActivation",
+      "target": "NeuronalExcitability",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        416
+      ],
+      "confidence": "Medium",
+      "metadata": "Mechanism: Mediation"
+    },
+    {
+      "source": "TSPO",
+      "target": "MicroglialActivation",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        444
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "AstrocyteActivation",
+      "mechanism": "causes",
+      "evidence_ref": [
+        593
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Military blast injury"
+    }
+  ]
+}

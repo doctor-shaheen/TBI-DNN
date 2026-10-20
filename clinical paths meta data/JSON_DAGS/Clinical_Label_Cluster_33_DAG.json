@@ -1,0 +1,281 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 11,
+    "edge_count": 11
+  },
+  "nodes": [
+    {
+      "id": "Obesity",
+      "label": "Obesity",
+      "type": "Disease",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0028754",
+        "MeSH_ID": "D009765"
+      },
+      "synonyms": [
+        "Severe Obesity",
+        "Central Obesity",
+        "Obesity-Related Comorbidities",
+        "Adiposity"
+      ]
+    },
+    {
+      "id": "ChronicTraumaticEncephalopathy",
+      "label": "Chronic Traumatic Encephalopathy",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0011560",
+        "MeSH_ID": "D000066542"
+      },
+      "synonyms": [
+        "CTE",
+        "Dementia pugilistica"
+      ]
+    },
+    {
+      "id": "Dementia",
+      "label": "Dementia",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0011265",
+        "MeSH_ID": "D003704"
+      },
+      "synonyms": [
+        "Risk of Dementia",
+        "Conversion to Dementia"
+      ]
+    },
+    {
+      "id": "BariatricSurgery",
+      "label": "Bariatric Surgery",
+      "type": "Procedure",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0004690",
+        "MeSH_ID": "D050110"
+      },
+      "synonyms": [
+        "Metabolic Surgery"
+      ]
+    },
+    {
+      "id": "CognitiveDysfunction",
+      "label": "Cognitive Dysfunction",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0009241",
+        "MeSH_ID": "D003072"
+      },
+      "synonyms": [
+        "Cognitive Symptoms",
+        "Cognitive Function",
+        "Cognitive Decline",
+        "Cognitive Impairment"
+      ]
+    },
+    {
+      "id": "IL1B",
+      "label": "IL1B",
+      "type": "Protein",
+      "location": "Blood",
+      "identifiers": {
+        "HGNC_ID": "HGNC:5992",
+        "UniProt_ID": "P01584",
+        "UMLS_CUI": "C0021753"
+      },
+      "synonyms": [
+        "Interleukin-1 beta",
+        "IL-1 beta"
+      ]
+    },
+    {
+      "id": "IL18",
+      "label": "IL18",
+      "type": "Protein",
+      "location": "Blood",
+      "identifiers": {
+        "HGNC_ID": "HGNC:5986",
+        "UniProt_ID": "Q14116",
+        "UMLS_CUI": "C0063704"
+      },
+      "synonyms": [
+        "Interleukin-18"
+      ]
+    },
+    {
+      "id": "Inflammation",
+      "label": "Inflammation",
+      "type": "Process",
+      "location": "Systemic",
+      "identifiers": {
+        "GO_ID": "GO:0006954",
+        "UMLS_CUI": "C0021368"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "BodyMassIndex",
+      "label": "Body Mass Index",
+      "type": "Phenotype",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0578022",
+        "MeSH_ID": "D015992"
+      },
+      "synonyms": [
+        "BMI"
+      ]
+    },
+    {
+      "id": "MildCognitiveImpairment",
+      "label": "Mild Cognitive Impairment",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0917801",
+        "MeSH_ID": "D060825"
+      },
+      "synonyms": [
+        "Non-amnestic Mild Cognitive Impairment",
+        "MCI"
+      ]
+    },
+    {
+      "id": "NeurodegenerativeDisorders",
+      "label": "Neurodegenerative Disorders",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027763",
+        "MeSH_ID": "D019636"
+      },
+      "synonyms": [
+        "Neurodegenerative Complications"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "Obesity",
+      "target": "ChronicTraumaticEncephalopathy",
+      "mechanism": "causes",
+      "evidence_ref": [
+        42
+      ],
+      "confidence": "Medium",
+      "metadata": "Source asserts direct causality"
+    },
+    {
+      "source": "Obesity",
+      "target": "Dementia",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        11,
+        322,
+        331,
+        375,
+        456,
+        591
+      ],
+      "confidence": "High",
+      "metadata": "Includes Central Obesity; influences conversion and upregulates risk"
+    },
+    {
+      "source": "BariatricSurgery",
+      "target": "Obesity",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        42
+      ],
+      "confidence": "High",
+      "metadata": "Therapeutic intervention (Metabolic Surgery)"
+    },
+    {
+      "source": "Obesity",
+      "target": "CognitiveDysfunction",
+      "mechanism": "causes",
+      "evidence_ref": [
+        42,
+        564
+      ],
+      "confidence": "High",
+      "metadata": "Includes effects of Obesity-Related Comorbidities"
+    },
+    {
+      "source": "Obesity",
+      "target": "IL1B",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        185
+      ],
+      "confidence": "High",
+      "metadata": "Context: Severe Obesity (BMI >35)"
+    },
+    {
+      "source": "Obesity",
+      "target": "IL18",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        185
+      ],
+      "confidence": "High",
+      "metadata": "Context: Severe Obesity"
+    },
+    {
+      "source": "Obesity",
+      "target": "Inflammation",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        185
+      ],
+      "confidence": "High",
+      "metadata": "Augments systemic inflammation"
+    },
+    {
+      "source": "BodyMassIndex",
+      "target": "MildCognitiveImpairment",
+      "mechanism": "causes",
+      "evidence_ref": [
+        567
+      ],
+      "confidence": "Medium",
+      "metadata": "Specific link to Non-amnestic MCI"
+    },
+    {
+      "source": "BodyMassIndex",
+      "target": "NeurodegenerativeDisorders",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        623
+      ],
+      "confidence": "Medium",
+      "metadata": "Predicts complications"
+    },
+    {
+      "source": "IL1B",
+      "target": "Obesity",
+      "mechanism": "binds",
+      "evidence_ref": [
+        185
+      ],
+      "confidence": "Medium",
+      "metadata": "Bidirectional interaction noted in severe obesity"
+    },
+    {
+      "source": "Obesity",
+      "target": "IL1B",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        185
+      ],
+      "confidence": "High",
+      "metadata": "Merged interaction"
+    }
+  ]
+}

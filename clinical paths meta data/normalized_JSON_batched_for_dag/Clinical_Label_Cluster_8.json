@@ -1,0 +1,436 @@
+[
+    {
+        "source_abstract_id":452,
+        "subject":"Polymorphisms in Genes",
+        "relation":"associated_with",
+        "object":"Cognitive Decline",
+        "entity_variants":"ACE variant, PON1 variant"
+    },
+    {
+        "source_abstract_id":452,
+        "subject":"Polymorphisms in Genes",
+        "relation":"associated_with",
+        "object":"Functional Limitations",
+        "entity_variants":"ACE variant, PON1 variant"
+    },
+    {
+        "source_abstract_id":17,
+        "subject":"Apolipoprotein E4",
+        "relation":"upregulates",
+        "object":"Chronic Traumatic Encephalopathy stage",
+        "entity_variants":"APOEε4|"
+    },
+    {
+        "source_abstract_id":17,
+        "subject":"Apolipoprotein E4",
+        "relation":"upregulates",
+        "object":"Phosphorylated tau protein burden",
+        "entity_variants":"APOEε4|"
+    },
+    {
+        "source_abstract_id":17,
+        "subject":"Apolipoprotein E4",
+        "relation":"upregulates",
+        "object":"Dementia",
+        "entity_variants":"APOEε4|"
+    },
+    {
+        "source_abstract_id":17,
+        "subject":"Apolipoprotein E4",
+        "relation":"upregulates",
+        "object":"Phosphorylated tau protein burden in frontal cortex",
+        "entity_variants":"APOEε4|"
+    },
+    {
+        "source_abstract_id":17,
+        "subject":"Apolipoprotein E4",
+        "relation":"upregulates",
+        "object":"Phosphorylated tau protein burden in parietal cortex",
+        "entity_variants":"APOEε4|"
+    },
+    {
+        "source_abstract_id":17,
+        "subject":"Apolipoprotein E4",
+        "relation":"upregulates",
+        "object":"Phosphorylated tau protein burden in amygdala",
+        "entity_variants":"APOEε4|"
+    },
+    {
+        "source_abstract_id":17,
+        "subject":"Apolipoprotein E4",
+        "relation":"upregulates",
+        "object":"Phosphorylated tau protein burden in entorhinal cortex",
+        "entity_variants":"APOEε4|"
+    },
+    {
+        "source_abstract_id":28,
+        "subject":"Absence of Apolipoprotein E4 allele",
+        "relation":"predicts",
+        "object":"Favorable outcomes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":46,
+        "subject":"Apolipoprotein E4",
+        "relation":"causes",
+        "object":"Chronic cerebrovascular alterations",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":46,
+        "subject":"Apolipoprotein E4",
+        "relation":"modulates",
+        "object":"Blood-brain barrier integrity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":58,
+        "subject":"Apolipoprotein E4 proxy SNP rs769449",
+        "relation":"increases_risk_of",
+        "object":"Alzheimer Disease",
+        "entity_variants":"unknown|"
+    },
+    {
+        "source_abstract_id":69,
+        "subject":"Apolipoprotein E4",
+        "relation":"upregulates",
+        "object":"Psychiatric symptoms",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":69,
+        "subject":"Apolipoprotein E4",
+        "relation":"negatively_regulates",
+        "object":"Cognitive performance",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":95,
+        "subject":"Apolipoprotein E",
+        "relation":"associated_with",
+        "object":"Dementia",
+        "entity_variants":"APOE Eε4|"
+    },
+    {
+        "source_abstract_id":134,
+        "subject":"Apolipoprotein E4 genotype",
+        "relation":"affects",
+        "object":"Longitudinal Mini-Mental State Examination scores",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":145,
+        "subject":"Apolipoprotein E",
+        "relation":"associated_with",
+        "object":"Brain entorhinal cortex thickness",
+        "entity_variants":"ε4|"
+    },
+    {
+        "source_abstract_id":164,
+        "subject":"Apolipoprotein E4",
+        "relation":"no_association_with",
+        "object":"Traumatic brain injury",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":280,
+        "subject":"Apolipoprotein E4",
+        "relation":"no_direct_causal_link",
+        "object":"Cognitive decline",
+        "entity_variants":"carrier_status|"
+    },
+    {
+        "source_abstract_id":280,
+        "subject":"Apolipoprotein E4",
+        "relation":"no_direct_causal_link",
+        "object":"Cognitive change",
+        "entity_variants":"carrier_status|"
+    },
+    {
+        "source_abstract_id":282,
+        "subject":"Apolipoprotein E4",
+        "relation":"confounds",
+        "object":"Cognitive functioning",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":319,
+        "subject":"Apolipoprotein E4",
+        "relation":"no_direct_causal_link",
+        "object":"Cognitive function",
+        "entity_variants":"APOEe4|APOEe3|APOEe2"
+    },
+    {
+        "source_abstract_id":319,
+        "subject":"Apolipoprotein E4",
+        "relation":"no_direct_causal_link",
+        "object":"Performance on cognitive tasks",
+        "entity_variants":"APOEe4|APOEe3|APOEe2"
+    },
+    {
+        "source_abstract_id":319,
+        "subject":"Apolipoprotein E4",
+        "relation":"no_direct_causal_link",
+        "object":"Executive function",
+        "entity_variants":"APOEe4|APOEe3|APOEe2"
+    },
+    {
+        "source_abstract_id":319,
+        "subject":"Apolipoprotein E4",
+        "relation":"no_direct_causal_link",
+        "object":"Working memory",
+        "entity_variants":"APOEe4|APOEe3|APOEe2"
+    },
+    {
+        "source_abstract_id":319,
+        "subject":"Apolipoprotein E4",
+        "relation":"no_direct_causal_link",
+        "object":"Processing speed",
+        "entity_variants":"APOEe4|APOEe3|APOEe2"
+    },
+    {
+        "source_abstract_id":319,
+        "subject":"Apolipoprotein E2",
+        "relation":"no_direct_causal_link",
+        "object":"Cognitive function",
+        "entity_variants":"APOEe2|APOEe4|APOEe3"
+    },
+    {
+        "source_abstract_id":319,
+        "subject":"Apolipoprotein E2",
+        "relation":"no_direct_causal_link",
+        "object":"Performance on cognitive tasks",
+        "entity_variants":"APOEe2|APOEe4|APOEe3"
+    },
+    {
+        "source_abstract_id":319,
+        "subject":"Apolipoprotein E2",
+        "relation":"no_direct_causal_link",
+        "object":"Executive function",
+        "entity_variants":"APOEe2|APOEe4|APOEe3"
+    },
+    {
+        "source_abstract_id":319,
+        "subject":"Apolipoprotein E2",
+        "relation":"no_direct_causal_link",
+        "object":"Working memory",
+        "entity_variants":"APOEe2|APOEe4|APOEe3"
+    },
+    {
+        "source_abstract_id":319,
+        "subject":"Apolipoprotein E2",
+        "relation":"no_direct_causal_link",
+        "object":"Processing speed",
+        "entity_variants":"APOEe2|APOEe4|APOEe3"
+    },
+    {
+        "source_abstract_id":367,
+        "subject":"Traumatic brain injury",
+        "relation":"triggers",
+        "object":"Phospholipid dysregulation",
+        "entity_variants":"ApoE4|"
+    },
+    {
+        "source_abstract_id":367,
+        "subject":"Apolipoprotein E4",
+        "relation":"modulates",
+        "object":"Phosphoinositol biphosphate",
+        "entity_variants":"ApoE4|"
+    },
+    {
+        "source_abstract_id":367,
+        "subject":"Synaptojanin 1",
+        "relation":"ameliorates",
+        "object":"Phospholipid dysregulation",
+        "entity_variants":"ApoE4|"
+    },
+    {
+        "source_abstract_id":395,
+        "subject":"Apolipoprotein E",
+        "relation":"binds_to",
+        "object":"Memory performance",
+        "entity_variants":"APOE ε4|"
+    },
+    {
+        "source_abstract_id":395,
+        "subject":"Apolipoprotein E",
+        "relation":"binds_to",
+        "object":"Processing speed",
+        "entity_variants":"APOE ε4|"
+    },
+    {
+        "source_abstract_id":395,
+        "subject":"Apolipoprotein E",
+        "relation":"binds_to",
+        "object":"Overall cognitive impairment",
+        "entity_variants":"APOE ε4|"
+    },
+    {
+        "source_abstract_id":395,
+        "subject":"Apolipoprotein E",
+        "relation":"binds_to",
+        "object":"Post-traumatic stress disorder symptoms",
+        "entity_variants":"APOE ε4|"
+    },
+    {
+        "source_abstract_id":395,
+        "subject":"Apolipoprotein E",
+        "relation":"binds_to",
+        "object":"Cognitive variables",
+        "entity_variants":"APOE ε4|"
+    },
+    {
+        "source_abstract_id":395,
+        "subject":"Apolipoprotein E",
+        "relation":"binds_to",
+        "object":"Cognitive performance",
+        "entity_variants":"APOE ε4|"
+    },
+    {
+        "source_abstract_id":440,
+        "subject":"Mild traumatic brain injury",
+        "relation":"upregulates",
+        "object":"Apolipoprotein E4",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":440,
+        "subject":"Apolipoprotein E4",
+        "relation":"mediates",
+        "object":"Cognitive impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":440,
+        "subject":"Apolipoprotein E4",
+        "relation":"associated_with",
+        "object":"Cognitive decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":450,
+        "subject":"Apolipoprotein E",
+        "relation":"higher_levels_in",
+        "object":"Phosphorylated tau protein",
+        "entity_variants":"APOE ε4|"
+    },
+    {
+        "source_abstract_id":471,
+        "subject":"Apolipoprotein E4",
+        "relation":"confounds",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":485,
+        "subject":"Close range blast exposure",
+        "relation":"interacts_with",
+        "object":"Apolipoprotein E4",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":489,
+        "subject":"Cognitive decline",
+        "relation":"independent_of",
+        "object":"Apolipoprotein E genotype",
+        "entity_variants":"TBI+|TBI-"
+    },
+    {
+        "source_abstract_id":501,
+        "subject":"Apolipoprotein E",
+        "relation":"modulates",
+        "object":"Temporal lobe atrophy",
+        "entity_variants":"APOE ε4|"
+    },
+    {
+        "source_abstract_id":501,
+        "subject":"Apolipoprotein E4",
+        "relation":"predicts",
+        "object":"Language fluency impairment",
+        "entity_variants":"APOE ε4|"
+    },
+    {
+        "source_abstract_id":501,
+        "subject":"Apolipoprotein E4",
+        "relation":"interacts_with",
+        "object":"Mild traumatic brain injury",
+        "entity_variants":"APOE ε4|"
+    },
+    {
+        "source_abstract_id":501,
+        "subject":"Apolipoprotein E4",
+        "relation":"is_risk_factor_for",
+        "object":"Alzheimer Disease",
+        "entity_variants":"APOE ε4|"
+    },
+    {
+        "source_abstract_id":518,
+        "subject":"Apolipoprotein E4 carrier status",
+        "relation":"confounds",
+        "object":"Neurodegeneration",
+        "entity_variants":"APOE ε4|"
+    },
+    {
+        "source_abstract_id":528,
+        "subject":"Traumatic brain injury",
+        "relation":"causes",
+        "object":"Cognitive decline",
+        "entity_variants":"TBI|APOE ε4"
+    },
+    {
+        "source_abstract_id":528,
+        "subject":"Traumatic brain injury",
+        "relation":"causes",
+        "object":"Executive function decline",
+        "entity_variants":"TBI|APOE ε4"
+    },
+    {
+        "source_abstract_id":528,
+        "subject":"Apolipoprotein E4",
+        "relation":"modifies",
+        "object":"Cognitive decline",
+        "entity_variants":"APOE ε4|"
+    },
+    {
+        "source_abstract_id":542,
+        "subject":"Close range blast exposure",
+        "relation":"moderates",
+        "object":"Cognitive functioning",
+        "entity_variants":"APOE ε4|"
+    },
+    {
+        "source_abstract_id":542,
+        "subject":"Close range blast exposure",
+        "relation":"affects",
+        "object":"Memory",
+        "entity_variants":"APOE ε4|"
+    },
+    {
+        "source_abstract_id":542,
+        "subject":"Close range blast exposure",
+        "relation":"affects",
+        "object":"Attention",
+        "entity_variants":"APOE ε4|"
+    },
+    {
+        "source_abstract_id":542,
+        "subject":"Close range blast exposure",
+        "relation":"affects",
+        "object":"Executive functioning",
+        "entity_variants":"APOE ε4|"
+    },
+    {
+        "source_abstract_id":542,
+        "subject":"Apolipoprotein E4",
+        "relation":"moderates",
+        "object":"Cognitive outcomes",
+        "entity_variants":"APOE ε4|"
+    },
+    {
+        "source_abstract_id":485,
+        "subject":"APOE ε4 Allele",
+        "relation":"modulates",
+        "object":"Relationship Between Blast Exposure and White Matter Integrity",
+        "entity_variants":null
+    }
+]

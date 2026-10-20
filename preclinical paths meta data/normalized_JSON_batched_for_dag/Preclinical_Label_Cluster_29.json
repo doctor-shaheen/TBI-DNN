@@ -1,0 +1,114 @@
+[
+    {
+        "source_abstract_id":139,
+        "subject":"Bradykinin B2 Receptor",
+        "relation":"mediates",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":139,
+        "subject":"Bradykinin B2 Receptor",
+        "relation":"mediates",
+        "object":"Hippocampal Damage",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":139,
+        "subject":"Bradykinin B2 Receptor",
+        "relation":"mediates",
+        "object":"Neuroinflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":139,
+        "subject":"Bradykinin B2 Receptor",
+        "relation":"mediates",
+        "object":"Motor Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":139,
+        "subject":"Bradykinin B2 Receptor Deficiency",
+        "relation":"reduces",
+        "object":"CD45-Positive Cells",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":139,
+        "subject":"Bradykinin B2 Receptor Deficiency",
+        "relation":"reduces",
+        "object":"Hippocampal Neurodegeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":139,
+        "subject":"Bradykinin B2 Receptor Deficiency",
+        "relation":"does_not_affect",
+        "object":"Scar Formation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":139,
+        "subject":"Bradykinin B2 Receptor Deficiency",
+        "relation":"does_not_affect",
+        "object":"Astrogliosis",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":115,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"KCNB1 Oxidation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":115,
+        "subject":"KCNB1 Oxidation",
+        "relation":"causes",
+        "object":"Neurodegeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":115,
+        "subject":"KCNB1 Oxidation",
+        "relation":"causes",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":115,
+        "subject":"KCNB1 Oxidation",
+        "relation":"causes",
+        "object":"Inflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":115,
+        "subject":"Oxidative Stress",
+        "relation":"causes",
+        "object":"KCNB1 Oxidation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":115,
+        "subject":"KCNB1 Oxidation",
+        "relation":"causes",
+        "object":"Cell Death",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":115,
+        "subject":"KCNB1 Oxidation",
+        "relation":"causes",
+        "object":"Inflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":115,
+        "subject":"KCNB1 Oxidation",
+        "relation":"causes",
+        "object":"Behavioral Deficits",
+        "entity_variants":null
+    }
+]

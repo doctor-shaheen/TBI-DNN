@@ -1,0 +1,329 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 14,
+    "edge_count": 13
+  },
+  "nodes": [
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "Traumatic Brain Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111"
+      },
+      "synonyms": [
+        "Traumatic brain injury",
+        "Mild Traumatic Brain Injury",
+        "Acute Mild Traumatic Brain Injury",
+        "Chronic Mild Traumatic Brain Injury"
+      ]
+    },
+    {
+      "id": "FunctionalConnectivity",
+      "label": "Functional Connectivity",
+      "type": "Physiologic Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C3642347"
+      },
+      "synonyms": [
+        "Caudate connectivity",
+        "Substantia Nigra Functional Connectivity",
+        "Interhemispheric Functional Connectivity"
+      ]
+    },
+    {
+      "id": "StructuralConnectivity",
+      "label": "Structural Connectivity",
+      "type": "Physiologic Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C3642348"
+      },
+      "synonyms": [
+        "Structural Connectivity Loss",
+        "Axonal Connections"
+      ]
+    },
+    {
+      "id": "NeuralConnectivity",
+      "label": "Neural Pathways",
+      "type": "Physiologic Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C1269607"
+      },
+      "synonyms": [
+        "Brain Connectivity",
+        "Brain Network Edges",
+        "Brain Network Connectivity"
+      ]
+    },
+    {
+      "id": "DiffuseAxonalInjury",
+      "label": "Diffuse Axonal Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0264906"
+      },
+      "synonyms": [
+        "Traumatic Axonal Injury"
+      ]
+    },
+    {
+      "id": "NeuralNetworkTopology",
+      "label": "Neural Network Topology",
+      "type": "Attribute",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C4073002"
+      },
+      "synonyms": [
+        "Betweenness Centrality",
+        "Eigenvector Centrality",
+        "Hubs in Brain Networks"
+      ]
+    },
+    {
+      "id": "CerebralBloodFlow",
+      "label": "Cerebral Blood Flow",
+      "type": "Physiologic Process",
+      "location": "Blood",
+      "identifiers": {
+        "UMLS_CUI": "C0007768"
+      },
+      "synonyms": [
+        "Cerebral Perfusion"
+      ]
+    },
+    {
+      "id": "CognitiveImpairment",
+      "label": "Cognitive Impairment",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0338656"
+      },
+      "synonyms": [
+        "Acute Cognitive Impairment"
+      ]
+    },
+    {
+      "id": "TranscranialMagneticStimulation",
+      "label": "Transcranial Magnetic Stimulation",
+      "type": "Therapeutic Procedure",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0040645"
+      },
+      "synonyms": [
+        "Repetitive Transcranial Magnetic Stimulation"
+      ]
+    },
+    {
+      "id": "FrontalLobe",
+      "label": "Frontal Lobe",
+      "type": "Anatomical Structure",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0016733"
+      },
+      "synonyms": [
+        "Frontal Cortex"
+      ]
+    },
+    {
+      "id": "FractionalAnisotropy",
+      "label": "Fractional Anisotropy",
+      "type": "Attribute",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C1561570"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "BoldSignal",
+      "label": "Blood Oxygen Level Dependent Signal",
+      "type": "Attribute",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C3640246"
+      },
+      "synonyms": [
+        "BOLD Signals"
+      ]
+    },
+    {
+      "id": "MetabolicProfile",
+      "label": "Metabolic Profile",
+      "type": "Attribute",
+      "location": "Blood",
+      "identifiers": {
+        "UMLS_CUI": "C1513364"
+      },
+      "synonyms": [
+        "Metabolomic Biomarker Profiles"
+      ]
+    },
+    {
+      "id": "DiffusionTensorImaging",
+      "label": "Diffusion Tensor Imaging",
+      "type": "Diagnostic Procedure",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0430638"
+      },
+      "synonyms": []
+    }
+  ],
+  "edges": [
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "FunctionalConnectivity",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        130,
+        132,
+        133,
+        167,
+        192,
+        253,
+        305
+      ],
+      "confidence": "High",
+      "metadata": "Includes disruption of caudate, substantia nigra, and interhemispheric connectivity"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "StructuralConnectivity",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        26,
+        133,
+        167
+      ],
+      "confidence": "High",
+      "metadata": "Context: Structural connectivity loss"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "NeuralConnectivity",
+      "mechanism": "disrupts",
+      "evidence_ref": [
+        158,
+        204,
+        402,
+        571
+      ],
+      "confidence": "High",
+      "metadata": "Alters brain network edges and topologies"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "CerebralBloodFlow",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        166,
+        498
+      ],
+      "confidence": "Medium",
+      "metadata": "Causes perfusion abnormalities"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "FrontalLobe",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        5
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Structural changes"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "FractionalAnisotropy",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        169
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Changes in values"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "BoldSignal",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        336
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Abnormal signals"
+    },
+    {
+      "source": "MetabolicProfile",
+      "target": "TraumaticBrainInjury",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        506
+      ],
+      "confidence": "Medium",
+      "metadata": "Associated with specific profiles"
+    },
+    {
+      "source": "DiffuseAxonalInjury",
+      "target": "NeuralNetworkTopology",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        571
+      ],
+      "confidence": "Medium",
+      "metadata": "Reduces Betweenness and Eigenvector Centrality"
+    },
+    {
+      "source": "TranscranialMagneticStimulation",
+      "target": "NeuralConnectivity",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        549
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Brain Connectivity"
+    },
+    {
+      "source": "NeuralConnectivity",
+      "target": "CognitiveImpairment",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        158
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Altered network edges associated with impairment"
+    },
+    {
+      "source": "DiffusionTensorImaging",
+      "target": "TraumaticBrainInjury",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        515
+      ],
+      "confidence": "Medium",
+      "metadata": "Used for diagnosis"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "NeuralNetworkTopology",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        167,
+        401
+      ],
+      "confidence": "Medium",
+      "metadata": "Alters hubs and thalamo-cortical connections"
+    }
+  ]
+}

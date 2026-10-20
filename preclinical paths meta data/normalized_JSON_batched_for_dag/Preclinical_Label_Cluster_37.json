@@ -1,0 +1,436 @@
+[
+    {
+        "source_abstract_id":13,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Nucleocytoplasmic Transport Defects",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":54,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Behavioral Outcomes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":55,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Chronic Secondary Brain Injury",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":55,
+        "subject":"Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Clinical Outcomes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":81,
+        "subject":"5X Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Significant Deficits",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":87,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Behavioral Outcomes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":170,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":248,
+        "subject":"Traumatic Brain Injury",
+        "relation":"worsens",
+        "object":"Clinical Outcomes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":261,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Chronic Outcomes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":297,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Secondary Brain Damage",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":344,
+        "subject":"Diffuse Axonal Injury",
+        "relation":"causes",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":363,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Leukopenia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":372,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Secondary Injury",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":374,
+        "subject":"Traumatic Brain Injury",
+        "relation":"does_not_influence",
+        "object":"Behavioral Outcomes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":187,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Leukopenia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":5,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Behavioral Deficits",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":24,
+        "subject":"Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":33,
+        "subject":"Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Behavioral Deficits",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":36,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Neurocognitive Deficits",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":38,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Behavioral Deficits",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":41,
+        "subject":"Traumatic Brain Injury",
+        "relation":"exacerbates",
+        "object":"Cognitive Impairments",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":46,
+        "subject":"Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Behavioral Outcomes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":54,
+        "subject":"Prior Injury Status",
+        "relation":"influences",
+        "object":"Behavioral Outcomes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":59,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":61,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":64,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Neurological Decline",
+        "entity_variants":"TBI"
+    },
+    {
+        "source_abstract_id":74,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Functional Deficits",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":83,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Functional Impairments",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":90,
+        "subject":"Traumatic Brain Injury",
+        "relation":"prevents",
+        "object":"Cognitive Impairment",
+        "entity_variants":"CSF1"
+    },
+    {
+        "source_abstract_id":102,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cognitive Deficits",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":102,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Behavioral Changes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":104,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cognitive Deficits",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":123,
+        "subject":"Impact Injury",
+        "relation":"causes",
+        "object":"Neurobehavioral Deficits",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":124,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Behavioral Changes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":129,
+        "subject":"Closed Head Injury",
+        "relation":"causes",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":141,
+        "subject":"Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Cognitive Outcome",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":168,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":171,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cognitive Deficits",
+        "entity_variants":"traumatic brain injury"
+    },
+    {
+        "source_abstract_id":175,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Behavioral Deficits",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":184,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Functional Deficits",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":187,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Neurological Deficits",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":194,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":203,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Long-Term Neurological Disability",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":204,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":207,
+        "subject":"Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Cognitive Deficits",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":209,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cognitive Deficits",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":209,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Neurocognitive Disorders",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":226,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":238,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Neuropsychological Impairments",
+        "entity_variants":"neuropsychological impairments"
+    },
+    {
+        "source_abstract_id":241,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":243,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Zinc Deficiency",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":266,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":288,
+        "subject":"Traumatic Brain Injury",
+        "relation":"impairs",
+        "object":"Cognitive Functions",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":298,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cognitive Dysfunction",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":301,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":316,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cognitive Dysfunction",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":334,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Neurobehavioral Deficits",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":344,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":355,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Neurobehavioral Changes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":360,
+        "subject":"Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Cognitive Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":366,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cognitive Deficits",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":393,
+        "subject":"Thoracic Injury",
+        "relation":"causes",
+        "object":"Behavioral Abnormalities",
+        "entity_variants":null
+    }
+]

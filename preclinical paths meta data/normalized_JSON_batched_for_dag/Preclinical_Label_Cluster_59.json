@@ -1,0 +1,128 @@
+[
+    {
+        "source_abstract_id":30,
+        "subject":"Human Platelet Lysate",
+        "relation":"causes",
+        "object":"Motor Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":30,
+        "subject":"Human Platelet Lysate",
+        "relation":"downregulates",
+        "object":"Proinflammatory Genes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":30,
+        "subject":"Human Platelet Lysate",
+        "relation":"preserves",
+        "object":"Cortical Synaptic Proteins",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":30,
+        "subject":"Human Platelet Lysate",
+        "relation":"reverses",
+        "object":"Transport Pathways",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":30,
+        "subject":"Human Platelet Lysate",
+        "relation":"reverses",
+        "object":"Postsynaptic Density Pathways",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":30,
+        "subject":"Human Platelet Lysate",
+        "relation":"reverses",
+        "object":"Mitochondrial Pathways",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":30,
+        "subject":"Human Platelet Lysate",
+        "relation":"reverses",
+        "object":"Lipid Metabolism Pathways",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":30,
+        "subject":"Human Platelet Lysate",
+        "relation":"activates",
+        "object":"Neuroprotective Signaling Pathways",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":30,
+        "subject":"Human Platelet Lysate",
+        "relation":"provides",
+        "object":"Neurorestorative Factors",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":149,
+        "subject":"Platelet Extracellular Vesicles",
+        "relation":"causes",
+        "object":"Neuronal Function Restoration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":149,
+        "subject":"Platelet Extracellular Vesicles",
+        "relation":"promotes",
+        "object":"Anti-inflammatory Responses",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":149,
+        "subject":"Platelet Extracellular Vesicles",
+        "relation":"maintains",
+        "object":"Tyrosine Hydroxylase Expression",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":149,
+        "subject":"Platelet Extracellular Vesicles",
+        "relation":"induces",
+        "object":"Neuroprotective Effects",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":149,
+        "subject":"Platelet Extracellular Vesicles",
+        "relation":"contains",
+        "object":"Trophic Factors",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":149,
+        "subject":"Platelet Extracellular Vesicles",
+        "relation":"exhibits",
+        "object":"Low Expression of Procoagulant Phosphatidylserine",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":149,
+        "subject":"Platelet Extracellular Vesicles",
+        "relation":"demonstrates",
+        "object":"Anti-inflammatory Effects",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":149,
+        "subject":"Platelet Extracellular Vesicles",
+        "relation":"improves",
+        "object":"Motor Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":149,
+        "subject":"Platelet Extracellular Vesicles",
+        "relation":"exhibits",
+        "object":"Rich Composition of Neurotrophins",
+        "entity_variants":null
+    }
+]

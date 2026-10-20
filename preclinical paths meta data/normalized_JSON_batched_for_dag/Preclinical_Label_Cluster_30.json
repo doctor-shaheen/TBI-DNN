@@ -1,0 +1,261 @@
+[
+    {
+        "source_abstract_id":317,
+        "subject":"Senescent Cells",
+        "relation":"upregulates",
+        "object":"Senescence-Associated Secretory Phenotype Factors",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":317,
+        "subject":"Senolytic Therapy",
+        "relation":"downregulates",
+        "object":"Senescence-Associated Secretory Phenotype Factors",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":1,
+        "subject":"Aging",
+        "relation":"upregulates",
+        "object":"Meningeal Genes Involved in Antibody Production",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":1,
+        "subject":"Aging",
+        "relation":"downregulates",
+        "object":"Genes Involved in Extracellular Matrix Remodeling",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":1,
+        "subject":"Aging",
+        "relation":"associated_with",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":33,
+        "subject":"Age",
+        "relation":"upregulates",
+        "object":"Mitochondrial DNA Copy Number",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":54,
+        "subject":"Developmental Age",
+        "relation":"associated_with",
+        "object":"Behavioral Deficits",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":73,
+        "subject":"Age",
+        "relation":"modulates",
+        "object":"Functional Outcomes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":73,
+        "subject":"Age",
+        "relation":"increases",
+        "object":"Mortality",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":73,
+        "subject":"Age",
+        "relation":"associated_with",
+        "object":"Inflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":130,
+        "subject":"Age at Injury",
+        "relation":"modifies",
+        "object":"Acute Outcomes",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":184,
+        "subject":"Age",
+        "relation":"modulates",
+        "object":"Neuropathology",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":184,
+        "subject":"Age",
+        "relation":"modulates",
+        "object":"Functional Deficits",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":184,
+        "subject":"Age",
+        "relation":"affects",
+        "object":"Inflammatory Processes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":184,
+        "subject":"Age",
+        "relation":"affects",
+        "object":"Repair Processes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":213,
+        "subject":"Age",
+        "relation":"contributes_to",
+        "object":"Cognitive Decline",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":213,
+        "subject":"Age",
+        "relation":"modulates",
+        "object":"Cognitive Decline",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":226,
+        "subject":"Age",
+        "relation":"confounds",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":226,
+        "subject":"Age",
+        "relation":"confounds",
+        "object":"Inflammatory Gene Expression",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":226,
+        "subject":"Age",
+        "relation":"affects",
+        "object":"Neurodegenerative Pathology",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":243,
+        "subject":"Age",
+        "relation":"exacerbates",
+        "object":"Neuropathological Outcomes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":327,
+        "subject":"Age",
+        "relation":"causes",
+        "object":"Motor Impairments",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":327,
+        "subject":"Age",
+        "relation":"causes",
+        "object":"Memory Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":366,
+        "subject":"Age",
+        "relation":"upregulates",
+        "object":"Neuroinflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":366,
+        "subject":"Age",
+        "relation":"modulates",
+        "object":"Cognitive Deficits",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":366,
+        "subject":"Age",
+        "relation":"affects",
+        "object":"Pathological Changes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":366,
+        "subject":"Age",
+        "relation":"influences",
+        "object":"Glial Responses",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":366,
+        "subject":"Age",
+        "relation":"modulates",
+        "object":"Behavioral Outcomes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":368,
+        "subject":"Age",
+        "relation":"associated_with",
+        "object":"Dysregulated Immune Response",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":368,
+        "subject":"Age",
+        "relation":"associated_with",
+        "object":"Lower Monocyte and Lymphocyte Counts",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":368,
+        "subject":"Age",
+        "relation":"associated_with",
+        "object":"Altered Peripheral Immune Subsets",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":394,
+        "subject":"Age",
+        "relation":"exacerbates",
+        "object":"Immunoglobulin Production",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":394,
+        "subject":"Age",
+        "relation":"modulates",
+        "object":"Pro-inflammatory Cytokines",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":394,
+        "subject":"Age",
+        "relation":"influences",
+        "object":"Meningeal Transcriptome",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":394,
+        "subject":"Age",
+        "relation":"increases",
+        "object":"Susceptibility to Neurological Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":226,
+        "subject":"Age",
+        "relation":"influences",
+        "object":"Microgliosis",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":368,
+        "subject":"Age",
+        "relation":"associated_with",
+        "object":"Reactive Astrogliosis",
+        "entity_variants":null
+    }
+]

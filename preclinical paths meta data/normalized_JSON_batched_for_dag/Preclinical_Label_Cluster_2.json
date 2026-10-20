@@ -1,0 +1,184 @@
+[
+    {
+        "source_abstract_id":356,
+        "subject":"Donepezil",
+        "relation":"causes",
+        "object":"Neuroinflammation",
+        "entity_variants":"not specified"
+    },
+    {
+        "source_abstract_id":356,
+        "subject":"Donepezil",
+        "relation":"upregulates",
+        "object":"Cell Viability",
+        "entity_variants":"not specified"
+    },
+    {
+        "source_abstract_id":356,
+        "subject":"Donepezil",
+        "relation":"downregulates",
+        "object":"Reactive Oxygen Species",
+        "entity_variants":"not specified"
+    },
+    {
+        "source_abstract_id":356,
+        "subject":"Donepezil",
+        "relation":"downregulates",
+        "object":"Lactate Dehydrogenase",
+        "entity_variants":"not specified"
+    },
+    {
+        "source_abstract_id":356,
+        "subject":"Donepezil",
+        "relation":"downregulates",
+        "object":"TUNEL Positive Cells",
+        "entity_variants":"not specified"
+    },
+    {
+        "source_abstract_id":356,
+        "subject":"Donepezil",
+        "relation":"downregulates",
+        "object":"Cyclooxygenase-2",
+        "entity_variants":"not specified"
+    },
+    {
+        "source_abstract_id":356,
+        "subject":"Donepezil",
+        "relation":"downregulates",
+        "object":"BNIP3L",
+        "entity_variants":"not specified"
+    },
+    {
+        "source_abstract_id":356,
+        "subject":"Donepezil",
+        "relation":"improves",
+        "object":"Cognitive Performance",
+        "entity_variants":"not specified"
+    },
+    {
+        "source_abstract_id":356,
+        "subject":"Donepezil",
+        "relation":"decreases",
+        "object":"Brain Edema",
+        "entity_variants":"not specified"
+    },
+    {
+        "source_abstract_id":356,
+        "subject":"Donepezil",
+        "relation":"decreases",
+        "object":"Cortical Tissue Loss",
+        "entity_variants":"not specified"
+    },
+    {
+        "source_abstract_id":4,
+        "subject":"Blast Injury",
+        "relation":"causes",
+        "object":"Aquaporin-4",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":4,
+        "subject":"Aquaporin-4",
+        "relation":"affects",
+        "object":"Glymphatic System Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":4,
+        "subject":"Aquaporin-4",
+        "relation":"physically_interacts_with",
+        "object":"Glymphatic System Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":4,
+        "subject":"Aquaporin-4",
+        "relation":"affects",
+        "object":"Neuroinflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":4,
+        "subject":"Aquaporin-4",
+        "relation":"affects",
+        "object":"Cerebral Cortex Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":70,
+        "subject":"Amyloid Beta Aggregation",
+        "relation":"decreases",
+        "object":"Aquaporin-4 Expression",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":70,
+        "subject":"Aquaporin-4 Expression",
+        "relation":"affects",
+        "object":"Capillary Density",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":70,
+        "subject":"Transgenic Mice",
+        "relation":"exhibit",
+        "object":"Reduced Aquaporin-4 Capillary Contact Area",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":152,
+        "subject":"Aquaporin-4",
+        "relation":"causes",
+        "object":"Brain Edema",
+        "entity_variants":"AQP4 knockout"
+    },
+    {
+        "source_abstract_id":152,
+        "subject":"Aquaporin-4",
+        "relation":"causes",
+        "object":"Neurological Deficit",
+        "entity_variants":"AQP4 knockout"
+    },
+    {
+        "source_abstract_id":152,
+        "subject":"Aquaporin-4",
+        "relation":"protects",
+        "object":"Blood-Brain Barrier",
+        "entity_variants":"AQP4 knockout"
+    },
+    {
+        "source_abstract_id":152,
+        "subject":"Aquaporin-4",
+        "relation":"facilitates",
+        "object":"Amyloid Beta Clearance",
+        "entity_variants":"AQP4 knockout"
+    },
+    {
+        "source_abstract_id":152,
+        "subject":"Aquaporin-4",
+        "relation":"affects",
+        "object":"Inflammation",
+        "entity_variants":"AQP4 knockout"
+    },
+    {
+        "source_abstract_id":152,
+        "subject":"Aquaporin-4",
+        "relation":"affects",
+        "object":"Cognitive Function",
+        "entity_variants":"AQP4 knockout"
+    },
+    {
+        "source_abstract_id":152,
+        "subject":"Aquaporin-4",
+        "relation":"affects",
+        "object":"Glymphatic System",
+        "entity_variants":"Not applicable"
+    },
+    {
+        "source_abstract_id":196,
+        "subject":"Adipose-derived Stem Cell Conditioned Medium",
+        "relation":"restores",
+        "object":"Aquaporin-4",
+        "entity_variants":"Not reported"
+    }
+]

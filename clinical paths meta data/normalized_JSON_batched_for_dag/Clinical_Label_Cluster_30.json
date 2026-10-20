@@ -1,0 +1,352 @@
+[
+    {
+        "source_abstract_id":50,
+        "subject":"Brain Volume",
+        "relation":"associated_with",
+        "object":"Working Memory",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":156,
+        "subject":"Time Since Injury",
+        "relation":"predicts",
+        "object":"Visual Working Memory Capacity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":204,
+        "subject":"Brain Network Connectivity",
+        "relation":"negatively_associated_with",
+        "object":"Working Memory",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":284,
+        "subject":"Moderate traumatic brain injury",
+        "relation":"causes",
+        "object":"Memory impairment",
+        "entity_variants":"digit span test"
+    },
+    {
+        "source_abstract_id":414,
+        "subject":"Cardiorespiratory Fitness",
+        "relation":"associated_with",
+        "object":"Working Memory",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":433,
+        "subject":"Traumatic Brain Injury Status",
+        "relation":"does_not_moderate",
+        "object":"Subjective Memory",
+        "entity_variants":"traumatic brain injury, no traumatic brain injury"
+    },
+    {
+        "source_abstract_id":433,
+        "subject":"Traumatic Brain Injury Status",
+        "relation":"does_not_moderate",
+        "object":"Objective Memory",
+        "entity_variants":"traumatic brain injury, no traumatic brain injury"
+    },
+    {
+        "source_abstract_id":33,
+        "subject":"Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Morris Water Maze Performance",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":67,
+        "subject":"Four or More Mild Traumatic Brain Injuries",
+        "relation":"causes",
+        "object":"Working Memory Deficits",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":83,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"California Verbal Learning Test-II Short Delay Recall",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":207,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Verbal Fluency",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":35,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Post-Traumatic Amnesia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":45,
+        "subject":"Traumatic Brain Injury",
+        "relation":"downregulates",
+        "object":"Genes Related to Memory Function",
+        "entity_variants":"memory_function_related_genes"
+    },
+    {
+        "source_abstract_id":74,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Memory Deficit",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":74,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"worsens",
+        "object":"Associative Memory",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":87,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Episodic Memory",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":87,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Working Memory",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":133,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"impairs",
+        "object":"Working Memory Performance",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":133,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"increases_risk_of",
+        "object":"Memory Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":139,
+        "subject":"Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Memory Performance",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":156,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Verbal Working Memory Disruption",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":156,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Isolated Disruption in Verbal Working Memory",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":156,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"does_not_affect",
+        "object":"Visual Working Memory",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":175,
+        "subject":"Traumatic Brain Injury",
+        "relation":"no_direct_causal_link",
+        "object":"Memory Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":176,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Memory Performance",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":181,
+        "subject":"Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Memory",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":207,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Memory",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":212,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Memory Performance",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":218,
+        "subject":"Memory Function",
+        "relation":"shows_trend_for_decline_in",
+        "object":"Traumatic Brain Injury",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":270,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"impairs",
+        "object":"Prospective Memory",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":270,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"impairs",
+        "object":"Time-Based Prospective Memory",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":270,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"impairs",
+        "object":"Event-Based Prospective Memory",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":282,
+        "subject":"Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Implicit Memory",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":343,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cognitive Memory Deficit",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":348,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Subjective Memory Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":348,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Subjective Memory Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":348,
+        "subject":"Traumatic Brain Injury",
+        "relation":"no_direct_causal_link",
+        "object":"Verbal Episodic Memory",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":348,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Subjective Memory Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":402,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Working Memory",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":419,
+        "subject":"Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Subjective Memory Complaints",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":419,
+        "subject":"Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Subjective Memory Complaints",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":419,
+        "subject":"Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Subjective Memory Complaints",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":443,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Working Memory Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":528,
+        "subject":"Traumatic Brain Injury",
+        "relation":"no_direct_causal_link",
+        "object":"Episodic Memory Decline",
+        "entity_variants":"TBI, episodic_memory"
+    },
+    {
+        "source_abstract_id":565,
+        "subject":"Traumatic Brain Injury",
+        "relation":"no_direct_causal_link",
+        "object":"Memory Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":597,
+        "subject":"Traumatic Brain Injury",
+        "relation":"impairs",
+        "object":"Spatial Memory",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":597,
+        "subject":"Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Memory Deficit",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":365,
+        "subject":"Repetitive Transcranial Magnetic Stimulation",
+        "relation":"treats",
+        "object":"Working Memory",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":549,
+        "subject":"Repetitive Transcranial Magnetic Stimulation",
+        "relation":"treats",
+        "object":"Memory",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":549,
+        "subject":"Sham Repetitive Transcranial Magnetic Stimulation",
+        "relation":"does_not_treat",
+        "object":"Memory",
+        "entity_variants":null
+    }
+]

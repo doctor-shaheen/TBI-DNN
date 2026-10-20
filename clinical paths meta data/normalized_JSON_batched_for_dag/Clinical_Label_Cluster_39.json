@@ -1,0 +1,800 @@
+[
+    {
+        "source_abstract_id":0,
+        "subject":"Chronic Traumatic Encephalopathy Pathology",
+        "relation":"upregulates",
+        "object":"Behavioral Symptoms",
+        "entity_variants":"N\/A|"
+    },
+    {
+        "source_abstract_id":0,
+        "subject":"Chronic Traumatic Encephalopathy Pathology",
+        "relation":"upregulates",
+        "object":"Cognitive Symptoms",
+        "entity_variants":"N\/A|"
+    },
+    {
+        "source_abstract_id":0,
+        "subject":"Chronic Traumatic Encephalopathy Pathology",
+        "relation":"upregulates",
+        "object":"Dementia",
+        "entity_variants":"N\/A|"
+    },
+    {
+        "source_abstract_id":1,
+        "subject":"Chronic Traumatic Encephalopathy",
+        "relation":"associated_with",
+        "object":"Cognitive Symptoms",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":1,
+        "subject":"Chronic Traumatic Encephalopathy",
+        "relation":"associated_with",
+        "object":"Mood Disturbances",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":1,
+        "subject":"Chronic Traumatic Encephalopathy",
+        "relation":"associated_with",
+        "object":"Neurobehavioral Dysregulation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":10,
+        "subject":"Non-Sports-Related Traumatic Brain Injury",
+        "relation":"not_causes",
+        "object":"Chronic Traumatic Encephalopathy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":22,
+        "subject":"Old Brain Contusions",
+        "relation":"not_colocalized_with",
+        "object":"Chronic Traumatic Encephalopathy Neuropathologic Change",
+        "entity_variants":"not_applicable|"
+    },
+    {
+        "source_abstract_id":22,
+        "subject":"Developmental Brain Anomalies",
+        "relation":"associated_with",
+        "object":"Chronic Traumatic Encephalopathy Neuropathologic Change",
+        "entity_variants":"not_applicable|"
+    },
+    {
+        "source_abstract_id":22,
+        "subject":"Persistent Post-Head Injury Symptoms",
+        "relation":"associated_with",
+        "object":"Chronic Traumatic Encephalopathy Neuropathologic Change",
+        "entity_variants":"not_applicable|"
+    },
+    {
+        "source_abstract_id":23,
+        "subject":"NUP62 Pathology",
+        "relation":"associated_with",
+        "object":"Chronic Traumatic Encephalopathy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":30,
+        "subject":"Chronic Traumatic Encephalopathy Stage",
+        "relation":"associated_with",
+        "object":"Dorsolateral Frontal Cortex",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":30,
+        "subject":"Chronic Traumatic Encephalopathy Stage",
+        "relation":"associated_with",
+        "object":"Locus Coeruleus",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":51,
+        "subject":"Single-Incident Traumatic Brain Injury",
+        "relation":"no_direct_causal_link",
+        "object":"Chronic Traumatic Encephalopathy Pathology",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":51,
+        "subject":"Traumatic Brain Injury",
+        "relation":"no_direct_causal_link",
+        "object":"Chronic Traumatic Encephalopathy Pathology",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":51,
+        "subject":"Chronic Traumatic Encephalopathy Pathology",
+        "relation":"associated_with",
+        "object":"Neurodegenerative Disorders",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":52,
+        "subject":"Chronic Traumatic Encephalopathy",
+        "relation":"affects",
+        "object":"Diagnostic Criteria Meeting",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":52,
+        "subject":"Chronic Traumatic Encephalopathy",
+        "relation":"influences",
+        "object":"Severity of Symptoms",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":52,
+        "subject":"Chronic Traumatic Encephalopathy",
+        "relation":"associated_with",
+        "object":"Brain Bank Selection Bias",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":70,
+        "subject":"Copathologies",
+        "relation":"complicates",
+        "object":"Clinical Assessment of Chronic Traumatic Encephalopathy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":75,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Migraine",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":104,
+        "subject":"Chronic Traumatic Encephalopathy",
+        "relation":"causes",
+        "object":"Suicidal Ideation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":144,
+        "subject":"Cumulative Rotational Acceleration",
+        "relation":"predicts",
+        "object":"Chronic Traumatic Encephalopathy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":302,
+        "subject":"Traumatic encephalopathy syndrome",
+        "relation":"associated_with",
+        "object":"Cognitive decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":302,
+        "subject":"Traumatic encephalopathy syndrome",
+        "relation":"associated_with",
+        "object":"Posterior corpus callosum volume decrease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":307,
+        "subject":"Brain morphometric measures",
+        "relation":"not_associated_with",
+        "object":"Traumatic encephalopathy syndrome diagnosis core clinical features",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":309,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Chronic Pain",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":369,
+        "subject":"Active Rehabilitation",
+        "relation":"triggers",
+        "object":"Suspected Chronic Traumatic Encephalopathy Symptoms",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":376,
+        "subject":"Chronic Traumatic Encephalopathy",
+        "relation":"associated_with",
+        "object":"Clinical Outcomes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":376,
+        "subject":"Chronic Traumatic Encephalopathy",
+        "relation":"associated_with",
+        "object":"Pathological Progression",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":393,
+        "subject":"Migraine",
+        "relation":"associated_with",
+        "object":"Psychiatric Disorders",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":393,
+        "subject":"Migraine",
+        "relation":"associated_with",
+        "object":"Traumatic Brain Injury",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":451,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Chronic Traumatic Encephalopathy Neuropathologic Change",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":451,
+        "subject":"Chronic Traumatic Encephalopathy Neuropathologic Change",
+        "relation":"associated_with",
+        "object":"Hydrocephalus ex Vacuo",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":451,
+        "subject":"Isolated Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Chronic Traumatic Encephalopathy Neuropathologic Change",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":491,
+        "subject":"Perceived Chronic Traumatic Encephalopathy",
+        "relation":"upregulates",
+        "object":"Suicidal Behavior",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":491,
+        "subject":"Subjective Cognitive Difficulties",
+        "relation":"upregulates",
+        "object":"Perceived Chronic Traumatic Encephalopathy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":491,
+        "subject":"Headache",
+        "relation":"upregulates",
+        "object":"Perceived Chronic Traumatic Encephalopathy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":491,
+        "subject":"Depressive Emotional and Behavioral Dyscontrol Symptoms",
+        "relation":"upregulates",
+        "object":"Perceived Chronic Traumatic Encephalopathy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":491,
+        "subject":"Pain",
+        "relation":"upregulates",
+        "object":"Perceived Chronic Traumatic Encephalopathy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":491,
+        "subject":"Perceived Chronic Traumatic Encephalopathy",
+        "relation":"upregulates",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":493,
+        "subject":"Depressive Symptomatology",
+        "relation":"causes",
+        "object":"Traumatic Encephalopathy Syndrome",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":498,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Persistent Headache",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":0,
+        "subject":"Chronic Traumatic Encephalopathy",
+        "relation":"causes",
+        "object":"Behavioral Symptom",
+        "entity_variants":"N\/A|"
+    },
+    {
+        "source_abstract_id":0,
+        "subject":"Chronic Traumatic Encephalopathy",
+        "relation":"causes",
+        "object":"Cognitive Symptom",
+        "entity_variants":"N\/A|"
+    },
+    {
+        "source_abstract_id":0,
+        "subject":"Chronic Traumatic Encephalopathy",
+        "relation":"causes",
+        "object":"Dementia",
+        "entity_variants":"N\/A|"
+    },
+    {
+        "source_abstract_id":7,
+        "subject":"Chronic Traumatic Encephalopathy",
+        "relation":"manifestation_of",
+        "object":"Distinct Pathological Feature",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":7,
+        "subject":"Chronic Traumatic Encephalopathy",
+        "relation":"associated_with",
+        "object":"Underlying Disease Mechanism",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":8,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Chronic Disease",
+        "entity_variants":"none|"
+    },
+    {
+        "source_abstract_id":16,
+        "subject":"Neurodegenerative Disease",
+        "relation":"associated_with",
+        "object":"Chronic Traumatic Encephalopathy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":20,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Chronic Traumatic Encephalopathy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":35,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Chronic Vascular Lesion",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":42,
+        "subject":"Chronic Traumatic Encephalopathy",
+        "relation":"associated_with",
+        "object":"Memory Disorder",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":45,
+        "subject":"Chronic Traumatic Encephalopathy",
+        "relation":"associated_with",
+        "object":"Neurodegeneration",
+        "entity_variants":"CTE|"
+    },
+    {
+        "source_abstract_id":59,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Chronic Traumatic Encephalopathy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":59,
+        "subject":"Chronic Traumatic Encephalopathy",
+        "relation":"associated_with",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":59,
+        "subject":"Chronic Traumatic Encephalopathy",
+        "relation":"associated_with",
+        "object":"Behavioral Symptom",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":59,
+        "subject":"Chronic Traumatic Encephalopathy",
+        "relation":"associated_with",
+        "object":"Motor Symptom",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":70,
+        "subject":"Chronic Traumatic Encephalopathy",
+        "relation":"associated_with",
+        "object":"Psychiatric Symptom",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":70,
+        "subject":"Chronic Traumatic Encephalopathy",
+        "relation":"associated_with",
+        "object":"Motor Symptom",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":75,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Chronic Pain",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":88,
+        "subject":"Neuroinflammation",
+        "relation":"causes",
+        "object":"Chronic Traumatic Encephalopathy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":88,
+        "subject":"Chronic Traumatic Encephalopathy",
+        "relation":"associated_with",
+        "object":"Neuropathological Hallmark",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":88,
+        "subject":"Neuroimaging",
+        "relation":"facilitates",
+        "object":"Chronic Traumatic Encephalopathy Diagnosis",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":104,
+        "subject":"Chronic Traumatic Encephalopathy",
+        "relation":"causes",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":104,
+        "subject":"Chronic Traumatic Encephalopathy",
+        "relation":"causes",
+        "object":"Depression",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":104,
+        "subject":"Chronic Traumatic Encephalopathy",
+        "relation":"causes",
+        "object":"Anxiety",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":104,
+        "subject":"Chronic Traumatic Encephalopathy",
+        "relation":"causes",
+        "object":"Headache",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":104,
+        "subject":"Chronic Traumatic Encephalopathy",
+        "relation":"causes",
+        "object":"Sleep Disorder",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":104,
+        "subject":"Chronic Traumatic Encephalopathy",
+        "relation":"causes",
+        "object":"Rapid Progression of Symptom",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":124,
+        "subject":"Chronic Traumatic Encephalopathy",
+        "relation":"causes",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":124,
+        "subject":"Chronic Traumatic Encephalopathy",
+        "relation":"coexists_with",
+        "object":"Corticobasal Degeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":124,
+        "subject":"Chronic Traumatic Encephalopathy",
+        "relation":"coexists_with",
+        "object":"Vascular Pathology",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":144,
+        "subject":"Cumulative Linear Acceleration",
+        "relation":"predicts",
+        "object":"Chronic Traumatic Encephalopathy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":144,
+        "subject":"PEM-derived Measures",
+        "relation":"predicts",
+        "object":"Chronic Traumatic Encephalopathy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":144,
+        "subject":"Linear Acceleration",
+        "relation":"predicts",
+        "object":"Chronic Traumatic Encephalopathy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":155,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Chronic Traumatic Encephalopathy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":171,
+        "subject":"Chronic Pain",
+        "relation":"interacts_with",
+        "object":"Traumatic Brain Injury",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":171,
+        "subject":"Traumatic Brain Injury",
+        "relation":"interacts_with",
+        "object":"Chronic Pain",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":239,
+        "subject":"Traumatic Brain Injury",
+        "relation":"upregulates",
+        "object":"Chronic Traumatic Encephalopathy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":263,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Chronic Migraine",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":273,
+        "subject":"Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Chronic Traumatic Encephalopathy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":273,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Chronic Post-Traumatic Neuropathology",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":371,
+        "subject":"Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Headache",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":371,
+        "subject":"Chronic Disease",
+        "relation":"associated_with",
+        "object":"Traumatic Brain Injury",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":444,
+        "subject":"Neuroinflammation",
+        "relation":"may_contribute_to",
+        "object":"Chronic Traumatic Encephalopathy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":450,
+        "subject":"Traumatic Brain Injury",
+        "relation":"not_causally_related_to",
+        "object":"Chronic Traumatic Encephalopathy",
+        "entity_variants":"none|"
+    },
+    {
+        "source_abstract_id":475,
+        "subject":"Chronic Traumatic Encephalopathy",
+        "relation":"associated_with",
+        "object":"Neuropathological Finding",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":518,
+        "subject":"Chronic Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Long Term Neuropathology",
+        "entity_variants":"TBI|"
+    },
+    {
+        "source_abstract_id":1,
+        "subject":"Age",
+        "relation":"upregulates",
+        "object":"Chronic Traumatic Encephalopathy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":15,
+        "subject":"Age at death",
+        "relation":"confounds",
+        "object":"Chronic Traumatic Encephalopathy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":30,
+        "subject":"Age at death",
+        "relation":"causes",
+        "object":"Chronic Traumatic Encephalopathy Stage",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":451,
+        "subject":"Age",
+        "relation":"confounds",
+        "object":"Chronic Traumatic Encephalopathy Neuropathologic Change",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":491,
+        "subject":"Younger Age",
+        "relation":"upregulates",
+        "object":"Perceived Chronic Traumatic Encephalopathy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":457,
+        "subject":"C18-Ceramide Levels",
+        "relation":"correlates_with",
+        "object":"Chronic Traumatic Encephalopathy in Human Brains",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":5,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Chronic Traumatic Encephalopathy",
+        "entity_variants":"none|"
+    },
+    {
+        "source_abstract_id":10,
+        "subject":"Military Impact Traumatic Brain Injury",
+        "relation":"does_not_cause",
+        "object":"Chronic Traumatic Encephalopathy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":231,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"implicates",
+        "object":"Chronic Traumatic Encephalopathy",
+        "entity_variants":"not applicable|"
+    },
+    {
+        "source_abstract_id":533,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Chronic Traumatic Encephalopathy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":165,
+        "subject":"Chronic Traumatic Encephalopathy",
+        "relation":"causes",
+        "object":"Neurodegeneration",
+        "entity_variants":"CTE, neurodegeneration"
+    },
+    {
+        "source_abstract_id":30,
+        "subject":"Chronic Traumatic Encephalopathy Stage",
+        "relation":"upregulates",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":491,
+        "subject":"Concussion Signs and Symptoms",
+        "relation":"upregulates",
+        "object":"Perceived Chronic Traumatic Encephalopathy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":75,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Chronic Kidney Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":135,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Chronic Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":165,
+        "subject":"Chronic Traumatic Encephalopathy",
+        "relation":"coexists_with",
+        "object":"Posttraumatic Stress Disorder",
+        "entity_variants":"CTE, PTSD"
+    },
+    {
+        "source_abstract_id":60,
+        "subject":"Chronic Traumatic Encephalopathy Pathology",
+        "relation":"causes",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":30,
+        "subject":"Chronic Traumatic Encephalopathy Stage",
+        "relation":"associated_with",
+        "object":"Superior Temporal Cortex",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":30,
+        "subject":"Chronic Traumatic Encephalopathy Stage",
+        "relation":"associated_with",
+        "object":"Entorhinal Cortex",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":30,
+        "subject":"Chronic Traumatic Encephalopathy Stage",
+        "relation":"associated_with",
+        "object":"Amygdala",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":451,
+        "subject":"Cortical Volume Loss",
+        "relation":"associated_with",
+        "object":"Chronic Traumatic Encephalopathy Neuropathologic Change",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":479,
+        "subject":"Cortical Lesion Expansion",
+        "relation":"occurs_in",
+        "object":"Chronic Traumatic Brain Injury Patients",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":491,
+        "subject":"Perceived Chronic Traumatic Encephalopathy",
+        "relation":"upregulates",
+        "object":"Health Problems Associated with Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":153,
+        "subject":"Cognitive Reserve",
+        "relation":"modifies",
+        "object":"Clinical Expression of Chronic Traumatic Encephalopathy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":357,
+        "subject":"Hyperbaric Oxygen Therapy",
+        "relation":"associated_with",
+        "object":"Headache",
+        "entity_variants":null
+    }
+]

@@ -1,0 +1,443 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 18,
+    "edge_count": 18
+  },
+  "nodes": [
+    {
+      "id": "TARDBP",
+      "label": "TARDBP",
+      "type": "Protein",
+      "location": "Nucleus",
+      "identifiers": {
+        "UMLS_CUI": "C1420603",
+        "HGNC_ID": "HGNC:11571",
+        "UniProt_ID": "Q13148"
+      },
+      "synonyms": [
+        "TAR DNA-binding protein 43",
+        "TDP-43",
+        "TDP43"
+      ]
+    },
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "Traumatic Brain Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111"
+      },
+      "synonyms": [
+        "TBI",
+        "Repetitive Traumatic Brain Injury",
+        "Military Blast Injury",
+        "Mild Traumatic Brain Injury"
+      ]
+    },
+    {
+      "id": "MAPT",
+      "label": "MAPT",
+      "type": "Protein",
+      "location": "Neuron",
+      "identifiers": {
+        "UMLS_CUI": "C0039392",
+        "HGNC_ID": "HGNC:6893",
+        "UniProt_ID": "P10636"
+      },
+      "synonyms": [
+        "Tau Protein",
+        "Tau",
+        "Microtubule-associated protein tau"
+      ]
+    },
+    {
+      "id": "APP",
+      "label": "APP",
+      "type": "Protein",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "UMLS_CUI": "C0002779",
+        "HGNC_ID": "HGNC:620",
+        "UniProt_ID": "P05067"
+      },
+      "synonyms": [
+        "Amyloid Beta",
+        "Abeta",
+        "Amyloid Precursor Protein"
+      ]
+    },
+    {
+      "id": "Neurodegeneration",
+      "label": "Neurodegeneration",
+      "type": "Pathology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0242422"
+      },
+      "synonyms": [
+        "Neuropathological Changes",
+        "Neurodegenerative Pathology",
+        "Neurological Consequences"
+      ]
+    },
+    {
+      "id": "AlzheimerDisease",
+      "label": "Alzheimer Disease",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0002395"
+      },
+      "synonyms": [
+        "AD",
+        "Alzheimer Disease Neuropathology"
+      ]
+    },
+    {
+      "id": "CognitiveImpairment",
+      "label": "Cognitive Impairment",
+      "type": "Symptom",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0338656"
+      },
+      "synonyms": [
+        "Cognitive Deficits",
+        "Cognitive Impairments"
+      ]
+    },
+    {
+      "id": "NuclearPoreComplex",
+      "label": "Nuclear Pore Complex",
+      "type": "Cell_Component",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "UMLS_CUI": "C0028639"
+      },
+      "synonyms": [
+        "NPC",
+        "Nuclear Pore Complex Proteins",
+        "Nucleoporins"
+      ]
+    },
+    {
+      "id": "NucleocytoplasmicTransport",
+      "label": "Nucleocytoplasmic Transport",
+      "type": "Process",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "UMLS_CUI": "C0005763"
+      },
+      "synonyms": [
+        "Nuclear Transport"
+      ]
+    },
+    {
+      "id": "NUP62",
+      "label": "NUP62",
+      "type": "Protein",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "UMLS_CUI": "C0068352",
+        "HGNC_ID": "HGNC:8066"
+      },
+      "synonyms": [
+        "Nucleoporin 62"
+      ]
+    },
+    {
+      "id": "MotorActivity",
+      "label": "Motor Activity",
+      "type": "Process",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0026649"
+      },
+      "synonyms": [
+        "Motor Function"
+      ]
+    },
+    {
+      "id": "Lifespan",
+      "label": "Lifespan",
+      "type": "Phenotype",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0023703"
+      },
+      "synonyms": [
+        "Survival"
+      ]
+    },
+    {
+      "id": "BehavioralSymptoms",
+      "label": "Behavioral Symptoms",
+      "type": "Symptom",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0004927"
+      },
+      "synonyms": [
+        "Behavioral Impairments"
+      ]
+    },
+    {
+      "id": "FrontotemporalDementia",
+      "label": "Frontotemporal Dementia",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0011618"
+      },
+      "synonyms": [
+        "FTD",
+        "Frontotemporal Dementia Symptoms"
+      ]
+    },
+    {
+      "id": "FMR1",
+      "label": "FMR1",
+      "type": "Protein",
+      "location": "Neuron",
+      "identifiers": {
+        "UMLS_CUI": "C1333465",
+        "HGNC_ID": "HGNC:3775"
+      },
+      "synonyms": [
+        "Fragile X Mental Retardation Protein",
+        "FMRP"
+      ]
+    },
+    {
+      "id": "SQSTM1",
+      "label": "SQSTM1",
+      "type": "Protein",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "UMLS_CUI": "C1420138",
+        "HGNC_ID": "HGNC:11280"
+      },
+      "synonyms": [
+        "Sequestosome-1",
+        "p62"
+      ]
+    },
+    {
+      "id": "CellDeath",
+      "label": "Cell Death",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0011373"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "CellNucleus",
+      "label": "Cell Nucleus",
+      "type": "Cell_Component",
+      "location": "Nucleus",
+      "identifiers": {
+        "UMLS_CUI": "C0007610"
+      },
+      "synonyms": [
+        "Nuclear Fragments"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "TARDBP",
+      "mechanism": "causes",
+      "evidence_ref": [
+        9,
+        15,
+        19,
+        138,
+        230,
+        351,
+        386
+      ],
+      "confidence": "High",
+      "metadata": "Context: Induces TDP-43 proteolysis, mislocalization, inclusions, granules, and general pathology."
+    },
+    {
+      "source": "TARDBP",
+      "target": "MAPT",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        9
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Stimulates Tau protein levels."
+    },
+    {
+      "source": "TARDBP",
+      "target": "APP",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        9
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Promotes Amyloid Beta accumulation."
+    },
+    {
+      "source": "TARDBP",
+      "target": "Neurodegeneration",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        9,
+        316,
+        386
+      ],
+      "confidence": "High",
+      "metadata": "Context: Silencing/Rescue reverses pathology; Facilitates neurodegenerative pathology. Note: One source mentions downregulation likely referring to loss-of-function context."
+    },
+    {
+      "source": "TARDBP",
+      "target": "AlzheimerDisease",
+      "mechanism": "aggravates",
+      "evidence_ref": [
+        9
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Overexpression aggravates AD neuropathology."
+    },
+    {
+      "source": "TARDBP",
+      "target": "CognitiveImpairment",
+      "mechanism": "causes",
+      "evidence_ref": [
+        9,
+        19,
+        351
+      ],
+      "confidence": "High",
+      "metadata": "Context: Overexpression, Proteolysis, and Abnormalities mediate deficits."
+    },
+    {
+      "source": "NuclearPoreComplex",
+      "target": "TARDBP",
+      "mechanism": "binds",
+      "evidence_ref": [
+        13
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Co-aggregates with TDP-43."
+    },
+    {
+      "source": "NucleocytoplasmicTransport",
+      "target": "TARDBP",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        13
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Defects mediate TDP-43 pathology; Genetic upregulation triggers mislocalization."
+    },
+    {
+      "source": "TARDBP",
+      "target": "TARDBP",
+      "mechanism": "aggregates_to",
+      "evidence_ref": [
+        13
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Mislocalization causes Aggregation."
+    },
+    {
+      "source": "TARDBP",
+      "target": "MotorActivity",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        13
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Aggregation reduces motor function."
+    },
+    {
+      "source": "TARDBP",
+      "target": "Lifespan",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        13
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Aggregation reduces lifespan."
+    },
+    {
+      "source": "NUP62",
+      "target": "TARDBP",
+      "mechanism": "binds",
+      "evidence_ref": [
+        13
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Co-localizes with TDP-43."
+    },
+    {
+      "source": "TARDBP",
+      "target": "BehavioralSymptoms",
+      "mechanism": "causes",
+      "evidence_ref": [
+        19
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Proteolysis causes behavioral impairments."
+    },
+    {
+      "source": "TARDBP",
+      "target": "FrontotemporalDementia",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        19
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Short fragment mislocalization associated with FTD symptoms."
+    },
+    {
+      "source": "TARDBP",
+      "target": "FMR1",
+      "mechanism": "binds",
+      "evidence_ref": [
+        230
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Granules co-localize with FMRP."
+    },
+    {
+      "source": "TARDBP",
+      "target": "SQSTM1",
+      "mechanism": "binds",
+      "evidence_ref": [
+        230
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Granules co-localize with Sequestosome-1."
+    },
+    {
+      "source": "TARDBP",
+      "target": "CellDeath",
+      "mechanism": "causes",
+      "evidence_ref": [
+        351
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Abnormalities and A315T variant mediate cell death."
+    },
+    {
+      "source": "TARDBP",
+      "target": "CellNucleus",
+      "mechanism": "binds",
+      "evidence_ref": [
+        351
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Abnormalities bind to nuclear fragments."
+    }
+  ]
+}

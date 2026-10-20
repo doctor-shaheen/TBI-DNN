@@ -1,0 +1,219 @@
+[
+    {
+        "source_abstract_id":67,
+        "subject":"Microglial Exosomes",
+        "relation":"upregulates",
+        "object":"MicroRNA-124-3p",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":67,
+        "subject":"MicroRNA-124-3p",
+        "relation":"targets",
+        "object":"RELA Proto-Oncogene",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":67,
+        "subject":"MicroRNA-124-3p",
+        "relation":"prevents",
+        "object":"Neurodegenerative Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":67,
+        "subject":"EXO-124",
+        "relation":"improves",
+        "object":"Cognitive Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":67,
+        "subject":"Repetitive Mild Traumatic Brain Injury",
+        "relation":"alters",
+        "object":"MicroRNA-124-3p Levels",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":67,
+        "subject":"MicroRNA-124-3p",
+        "relation":"transferred_to",
+        "object":"Hippocampal Neurons",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":67,
+        "subject":"EXO-124",
+        "relation":"taken_up_by",
+        "object":"Neurons",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":67,
+        "subject":"MicroRNA-124-3p",
+        "relation":"regulates",
+        "object":"Post-Traumatic Neurodegeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":192,
+        "subject":"Exendin-4",
+        "relation":"prevents",
+        "object":"Inflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":192,
+        "subject":"Exendin-4",
+        "relation":"improves",
+        "object":"Neurological Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":192,
+        "subject":"Exendin-4",
+        "relation":"promotes",
+        "object":"Cerebral Blood Flow",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":192,
+        "subject":"Exendin-4",
+        "relation":"prevents",
+        "object":"Neurodegenerative Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":192,
+        "subject":"Exendin-4",
+        "relation":"inhibits",
+        "object":"Mitogen-Activated Protein Kinase Activation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":192,
+        "subject":"Exendin-4",
+        "relation":"improves",
+        "object":"Cognitive Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":192,
+        "subject":"Exendin-4",
+        "relation":"enhances",
+        "object":"Cerebral Blood Flow",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":242,
+        "subject":"Microglial Exosomes",
+        "relation":"inhibits",
+        "object":"Neuronal Inflammation",
+        "entity_variants":"miR-124-3p"
+    },
+    {
+        "source_abstract_id":242,
+        "subject":"MicroRNA-124-3p",
+        "relation":"promotes",
+        "object":"M2 Macrophage Polarization",
+        "entity_variants":"miR-124-3p"
+    },
+    {
+        "source_abstract_id":242,
+        "subject":"MicroRNA-124-3p",
+        "relation":"targets",
+        "object":"Phosphodiesterase 4B",
+        "entity_variants":"PDE4B"
+    },
+    {
+        "source_abstract_id":242,
+        "subject":"MicroRNA-124-3p",
+        "relation":"contributes_to",
+        "object":"Neurite Outgrowth",
+        "entity_variants":"miR-124-3p"
+    },
+    {
+        "source_abstract_id":242,
+        "subject":"Exosomal MicroRNA-124-3p",
+        "relation":"improves",
+        "object":"Neurological Function",
+        "entity_variants":"miR-124-3p"
+    },
+    {
+        "source_abstract_id":242,
+        "subject":"MicroRNA-124-3p",
+        "relation":"inhibits",
+        "object":"RhoA GTPase",
+        "entity_variants":"RhoA"
+    },
+    {
+        "source_abstract_id":242,
+        "subject":"MicroRNA-124-3p",
+        "relation":"decreases",
+        "object":"Neurodegenerative Proteins",
+        "entity_variants":"Amyloid Beta Peptide, Phosphorylated Tau Protein"
+    },
+    {
+        "source_abstract_id":242,
+        "subject":"Exosomal MicroRNA-124-3p",
+        "relation":"transfers",
+        "object":"Neurons",
+        "entity_variants":"miR-124-3p"
+    },
+    {
+        "source_abstract_id":370,
+        "subject":"MicroRNA-144",
+        "relation":"downregulates",
+        "object":"A Disintegrin and Metalloproteinase Domain-Containing Protein 10",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":370,
+        "subject":"MicroRNA-144",
+        "relation":"promotes",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":370,
+        "subject":"MicroRNA-144",
+        "relation":"inhibits",
+        "object":"Cell Viability",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":370,
+        "subject":"MicroRNA-144",
+        "relation":"enhances",
+        "object":"Lactate Dehydrogenase Release",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":370,
+        "subject":"MicroRNA-144",
+        "relation":"inhibits",
+        "object":"Caspase-3 Activity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":370,
+        "subject":"MicroRNA-144",
+        "relation":"prevents",
+        "object":"Neuronal Cell Death",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":370,
+        "subject":"MicroRNA-144",
+        "relation":"correlates_with",
+        "object":"A Disintegrin and Metalloproteinase Domain-Containing Protein 10 Expression",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":370,
+        "subject":"MicroRNA-144",
+        "relation":"affects",
+        "object":"Neurological Function",
+        "entity_variants":null
+    }
+]

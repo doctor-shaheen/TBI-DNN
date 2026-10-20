@@ -1,0 +1,464 @@
+[
+    {
+        "source_abstract_id":49,
+        "subject":"Plasma Neurofilament Light Protein",
+        "relation":"upregulates",
+        "object":"Neuronal Damage",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":125,
+        "subject":"Neurofilament Light Protein",
+        "relation":"binds_to",
+        "object":"Chronic Traumatic Encephalopathy Staging",
+        "entity_variants":"NfL"
+    },
+    {
+        "source_abstract_id":125,
+        "subject":"Neurofilament Light Protein",
+        "relation":"binds_to",
+        "object":"Chronic Traumatic Encephalopathy Staging",
+        "entity_variants":"NfL"
+    },
+    {
+        "source_abstract_id":225,
+        "subject":"Blast Exposure",
+        "relation":"causes",
+        "object":"Serum Neurofilament Light Chain",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":228,
+        "subject":"Traumatic Brain Injury",
+        "relation":"no_effect_on",
+        "object":"Neurofilament Light Chain Levels",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":324,
+        "subject":"Serum Neurofilament Light Chain",
+        "relation":"binds_to",
+        "object":"Cognitive Performance",
+        "entity_variants":"NF-L"
+    },
+    {
+        "source_abstract_id":324,
+        "subject":"Moderate to Severe Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Elevation of Phosphorylated Neurofilament Heavy Chain",
+        "entity_variants":"msTBI"
+    },
+    {
+        "source_abstract_id":324,
+        "subject":"Phosphorylated Neurofilament Heavy Chain",
+        "relation":"upregulates",
+        "object":"Cognitive Decline",
+        "entity_variants":"pNF-H"
+    },
+    {
+        "source_abstract_id":324,
+        "subject":"Cognitive Performance",
+        "relation":"associated_with",
+        "object":"Serum Neurofilament Light Chain",
+        "entity_variants":"NF-L"
+    },
+    {
+        "source_abstract_id":599,
+        "subject":"Atrophied Brain Regions",
+        "relation":"observed_in",
+        "object":"Former NFL Players",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":105,
+        "subject":"Soccer Heading",
+        "relation":"causes",
+        "object":"Neurofilament Light Chain Expression",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":60,
+        "subject":"Repetitive Head Impacts",
+        "relation":"causes",
+        "object":"Neurofilament Light Chain",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":400,
+        "subject":"Plasma Neurofilament Light Chain",
+        "relation":"no_direct_causal_link",
+        "object":"Brain Age",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":628,
+        "subject":"Collision Sports",
+        "relation":"not_causally_associated_with",
+        "object":"Neurofilament Light Chain Protein",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":72,
+        "subject":"Concussion",
+        "relation":"causes",
+        "object":"Neurofilament Light Chain",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":225,
+        "subject":"Neurofilament Light Chain",
+        "relation":"negatively_associated_with",
+        "object":"Tau Protein",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":400,
+        "subject":"Plasma Neurofilament Light Chain",
+        "relation":"downregulates",
+        "object":"White Matter Microstructure",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":324,
+        "subject":"Phosphorylated Neurofilament Heavy Chain",
+        "relation":"downregulates",
+        "object":"Cognitive Performance",
+        "entity_variants":"pNF-H"
+    },
+    {
+        "source_abstract_id":324,
+        "subject":"Cognitive Performance",
+        "relation":"is_predicted_by",
+        "object":"Phosphorylated Neurofilament Heavy Chain",
+        "entity_variants":"pNF-H"
+    },
+    {
+        "source_abstract_id":29,
+        "subject":"Neurofilament Light Protein",
+        "relation":"associated_with",
+        "object":"Brain Atrophy",
+        "entity_variants":"NfL|"
+    },
+    {
+        "source_abstract_id":34,
+        "subject":"Neurofilament Light Protein",
+        "relation":"associated_with",
+        "object":"Brain Atrophy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":34,
+        "subject":"Minocycline",
+        "relation":"increases",
+        "object":"Plasma Neurofilament Light Protein",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":57,
+        "subject":"Neurofilament Light Protein",
+        "relation":"correlates_with",
+        "object":"Post-Concussion Symptoms",
+        "entity_variants":"unknown|"
+    },
+    {
+        "source_abstract_id":57,
+        "subject":"Neurofilament Light Protein",
+        "relation":"correlates_with",
+        "object":"Lifetime Concussion Events",
+        "entity_variants":"unknown|"
+    },
+    {
+        "source_abstract_id":57,
+        "subject":"Neurofilament Light Protein",
+        "relation":"increased_in",
+        "object":"Post-Concussion Syndrome",
+        "entity_variants":"unknown|"
+    },
+    {
+        "source_abstract_id":57,
+        "subject":"Neurofilament Light Protein",
+        "relation":"associated_with",
+        "object":"Cerebrospinal Fluid Biomarkers",
+        "entity_variants":"unknown|"
+    },
+    {
+        "source_abstract_id":85,
+        "subject":"Neurofilament Light Protein",
+        "relation":"predicts",
+        "object":"Brain Atrophy Rate",
+        "entity_variants":"NfL|"
+    },
+    {
+        "source_abstract_id":92,
+        "subject":"Concussion History",
+        "relation":"causes",
+        "object":"Neurofilament Light Chain",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":92,
+        "subject":"Neurofilament Light Chain",
+        "relation":"causes",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":95,
+        "subject":"Neurofilament Light Chain",
+        "relation":"associated_with",
+        "object":"Cognitive Impairment",
+        "entity_variants":"NfL|"
+    },
+    {
+        "source_abstract_id":103,
+        "subject":"Neurofilament Light Chain",
+        "relation":"binds_to",
+        "object":"White Matter Abnormality",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":103,
+        "subject":"Neurofilament Light Chain",
+        "relation":"correlates_with",
+        "object":"Mean Diffusivity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":103,
+        "subject":"Neurofilament Light Chain",
+        "relation":"predicts",
+        "object":"Increase in Mean Diffusivity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":103,
+        "subject":"Serum Neurofilament Light Chain",
+        "relation":"is_measured_in",
+        "object":"Former Professional Athletes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":105,
+        "subject":"Kicking",
+        "relation":"negatively_associates_with",
+        "object":"Neurofilament Light Protein Expression",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":105,
+        "subject":"Neurofilament Light Protein Expression",
+        "relation":"correlates_with",
+        "object":"Subconcussive Head Impacts",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":105,
+        "subject":"Neurofilament Light Protein Expression",
+        "relation":"is_a",
+        "object":"Biomarker",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":161,
+        "subject":"Brain Age Gap",
+        "relation":"correlates_with",
+        "object":"Plasma Neurofilament Light Protein",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":161,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"increases",
+        "object":"Plasma Neurofilament Light Protein",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":197,
+        "subject":"Traumatic Brain Injury",
+        "relation":"upregulates",
+        "object":"Neurofilament Light Protein",
+        "entity_variants":"unknown|"
+    },
+    {
+        "source_abstract_id":314,
+        "subject":"Neurofilament Light Protein",
+        "relation":"predicts",
+        "object":"Perceptual Reasoning",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":314,
+        "subject":"Neurofilament Light Protein",
+        "relation":"predicts",
+        "object":"Executive Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":324,
+        "subject":"Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Neurofilament Levels",
+        "entity_variants":"TBI|"
+    },
+    {
+        "source_abstract_id":358,
+        "subject":"Traumatic Brain Injury",
+        "relation":"upregulates",
+        "object":"Neurofilament Light Protein",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":361,
+        "subject":"Neurofilament Light Protein",
+        "relation":"predicts",
+        "object":"White Matter Volume Loss",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":361,
+        "subject":"Neurofilament Light Protein",
+        "relation":"correlates_with",
+        "object":"Brain Age",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":361,
+        "subject":"Neurofilament Light Protein",
+        "relation":"correlates_with",
+        "object":"Annualized Brain Volume Loss",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":361,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Elevated Neurofilament Light Protein",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":372,
+        "subject":"Traumatic Brain Injury",
+        "relation":"increases",
+        "object":"Neurofilament Protein",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":392,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Neurofilament Light Protein",
+        "entity_variants":"N\/A|"
+    },
+    {
+        "source_abstract_id":392,
+        "subject":"Neurofilament Light Protein",
+        "relation":"predicts",
+        "object":"Functional Outcomes",
+        "entity_variants":"N\/A|"
+    },
+    {
+        "source_abstract_id":392,
+        "subject":"Neurofilament Light Protein",
+        "relation":"correlates_with",
+        "object":"Diffusion MRI Measures",
+        "entity_variants":"N\/A|"
+    },
+    {
+        "source_abstract_id":392,
+        "subject":"Neurofilament Light Protein",
+        "relation":"correlates_with",
+        "object":"Plasma Measurements",
+        "entity_variants":"N\/A|"
+    },
+    {
+        "source_abstract_id":392,
+        "subject":"Neurofilament Light Protein",
+        "relation":"reflects",
+        "object":"Underlying Damage",
+        "entity_variants":"N\/A|"
+    },
+    {
+        "source_abstract_id":392,
+        "subject":"Neurofilament Light Protein",
+        "relation":"correlates_with",
+        "object":"Cerebral Microdialysis",
+        "entity_variants":"N\/A|"
+    },
+    {
+        "source_abstract_id":404,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Neurofilament Light Chain",
+        "entity_variants":"NFL|"
+    },
+    {
+        "source_abstract_id":418,
+        "subject":"Anti-MAG IgM Autoantibodies",
+        "relation":"correlates_with",
+        "object":"Elevated Neurofilament Light Protein Concentrations",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":460,
+        "subject":"Blast Exposure",
+        "relation":"causes",
+        "object":"Neurofilament Light Chain Accumulation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":470,
+        "subject":"Neurodegeneration",
+        "relation":"contains",
+        "object":"Neurofilament Light Protein",
+        "entity_variants":"N\/A|"
+    },
+    {
+        "source_abstract_id":543,
+        "subject":"Head Injury",
+        "relation":"negatively_associates_with",
+        "object":"Serum Neurofilament Light Chain",
+        "entity_variants":"unknown|"
+    },
+    {
+        "source_abstract_id":612,
+        "subject":"Glymphatic Clearance",
+        "relation":"correlates_with",
+        "object":"Plasma Neurofilament Light Protein",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":612,
+        "subject":"Plasma Neurofilament Light Protein",
+        "relation":"is_biomarker_for",
+        "object":"Injury Severity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":392,
+        "subject":"Plasma Neurofilament Light Chain",
+        "relation":"diagnoses",
+        "object":"Diagnostic Measure",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":228,
+        "subject":"Neurofilament Light Chain",
+        "relation":"higher_levels_associated_with",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":173,
+        "subject":"Sleep Quality",
+        "relation":"predicts",
+        "object":"Neurofilament Light Protein",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":197,
+        "subject":"Repeated Sports-Related Concussions",
+        "relation":"not_associated_with",
+        "object":"Neurofilament Light Chain",
+        "entity_variants":"unknown|"
+    }
+]

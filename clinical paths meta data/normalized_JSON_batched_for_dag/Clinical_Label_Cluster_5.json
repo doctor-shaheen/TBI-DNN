@@ -1,0 +1,408 @@
+[
+    {
+        "source_abstract_id":481,
+        "subject":"Football Participation",
+        "relation":"causes",
+        "object":"Parkinson Disease Diagnosis",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":339,
+        "subject":"Neurofilament Light Protein",
+        "relation":"predicts",
+        "object":"Parkinson Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":97,
+        "subject":"Traumatic Brain Injury",
+        "relation":"increases_risk_of",
+        "object":"Parkinson Disease",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":171,
+        "subject":"Posttraumatic Stress Disorder",
+        "relation":"increases_risk_of",
+        "object":"Parkinson Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":171,
+        "subject":"Posttraumatic Stress Disorder",
+        "relation":"associated_with",
+        "object":"Parkinson Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":171,
+        "subject":"Chronic Pain",
+        "relation":"associated_with",
+        "object":"Parkinson Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":207,
+        "subject":"Cognitive Decline",
+        "relation":"precedes",
+        "object":"Parkinson Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":211,
+        "subject":"Parkinsonism",
+        "relation":"lower_in",
+        "object":"Unexposed Group",
+        "entity_variants":"asymptomatic men"
+    },
+    {
+        "source_abstract_id":218,
+        "subject":"Parkinson Disease",
+        "relation":"causes",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":218,
+        "subject":"Mood Symptoms",
+        "relation":"manifestation_of",
+        "object":"Parkinson Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":218,
+        "subject":"Motor Function",
+        "relation":"manifestation_of",
+        "object":"Parkinson Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":218,
+        "subject":"Demographics",
+        "relation":"no_difference_in",
+        "object":"Parkinson Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":218,
+        "subject":"Disease Severity",
+        "relation":"no_difference_in",
+        "object":"Parkinson Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":226,
+        "subject":"Posttraumatic Stress Disorder",
+        "relation":"increases_risk_of",
+        "object":"Parkinson Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":226,
+        "subject":"Posttraumatic Stress Disorder",
+        "relation":"increases_risk_of",
+        "object":"Parkinson Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":339,
+        "subject":"Age",
+        "relation":"predicts",
+        "object":"Parkinson Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":339,
+        "subject":"Serum Creatinine",
+        "relation":"predicts",
+        "object":"Parkinson Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":339,
+        "subject":"Integrin Subunit Alpha V",
+        "relation":"predicts",
+        "object":"Parkinson Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":339,
+        "subject":"Hematopoietic PGD Synthase",
+        "relation":"predicts",
+        "object":"Parkinson Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":339,
+        "subject":"Histamine N-Methyltransferase",
+        "relation":"predicts",
+        "object":"Parkinson Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":339,
+        "subject":"Tubulin Polymerization Promoting Protein Family Member 3",
+        "relation":"predicts",
+        "object":"Parkinson Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":339,
+        "subject":"Ectodysplasin A2 Receptor",
+        "relation":"predicts",
+        "object":"Parkinson Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":339,
+        "subject":"Latexin",
+        "relation":"predicts",
+        "object":"Parkinson Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":339,
+        "subject":"Interleukin-13 Receptor Subunit Alpha-1",
+        "relation":"predicts",
+        "object":"Parkinson Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":339,
+        "subject":"BAG Family Molecular Chaperone Regulator 3",
+        "relation":"predicts",
+        "object":"Parkinson Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":339,
+        "subject":"Tryptophanyl-TRNA Synthetase",
+        "relation":"predicts",
+        "object":"Parkinson Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":339,
+        "subject":"Secretogranin-2",
+        "relation":"predicts",
+        "object":"Parkinson Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":423,
+        "subject":"Dopaminergic Neuron Damage",
+        "relation":"affects",
+        "object":"Individual Responses to Drugs",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":437,
+        "subject":"Parkinson Disease",
+        "relation":"predicts",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":455,
+        "subject":"Pesticides",
+        "relation":"causes",
+        "object":"Parkinson Disease",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":455,
+        "subject":"Farm Work",
+        "relation":"causes",
+        "object":"Parkinson Disease",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":455,
+        "subject":"Aldrin",
+        "relation":"causes",
+        "object":"Parkinson Disease",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":455,
+        "subject":"Hypertension",
+        "relation":"associated_with",
+        "object":"Parkinson Disease",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":455,
+        "subject":"Head Injury",
+        "relation":"associated_with",
+        "object":"Parkinson Disease",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":459,
+        "subject":"Terbufos",
+        "relation":"upregulates",
+        "object":"Parkinson Disease",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":459,
+        "subject":"Trifluralin",
+        "relation":"upregulates",
+        "object":"Parkinson Disease",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":459,
+        "subject":"2,4,5-Trichlorophenoxyacetic Acid",
+        "relation":"upregulates",
+        "object":"Parkinson Disease",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":459,
+        "subject":"Diazinon",
+        "relation":"downregulates",
+        "object":"Parkinson Disease",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":459,
+        "subject":"2,4,5-Trichlorophenoxypropionic Acid",
+        "relation":"downregulates",
+        "object":"Parkinson Disease",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":459,
+        "subject":"Head Injury",
+        "relation":"modifies",
+        "object":"Pesticide-Associated Parkinson Disease",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":459,
+        "subject":"Chemical Resistant Glove Use",
+        "relation":"modifies",
+        "object":"Pesticide-Associated Parkinson Disease",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":459,
+        "subject":"IWLD",
+        "relation":"upregulates",
+        "object":"Parkinson Disease",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":459,
+        "subject":"Dichlorvos",
+        "relation":"upregulates",
+        "object":"Parkinson Disease",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":459,
+        "subject":"Permethrin",
+        "relation":"upregulates",
+        "object":"Parkinson Disease",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":459,
+        "subject":"Benomyl",
+        "relation":"upregulates",
+        "object":"Parkinson Disease",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":465,
+        "subject":"Benign Paroxysmal Positional Vertigo",
+        "relation":"increases_risk_of",
+        "object":"Parkinson Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":465,
+        "subject":"6-Hydroxydopamine",
+        "relation":"causes",
+        "object":"Cell Death",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":465,
+        "subject":"Benign Paroxysmal Positional Vertigo",
+        "relation":"associated_with",
+        "object":"Parkinson Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":481,
+        "subject":"Family History of Parkinson Disease",
+        "relation":"confounds",
+        "object":"Parkinsonism",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":481,
+        "subject":"Age",
+        "relation":"confounds",
+        "object":"Parkinsonism",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":481,
+        "subject":"Education",
+        "relation":"confounds",
+        "object":"Parkinsonism",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":506,
+        "subject":"Parkinson Disease",
+        "relation":"associated_with",
+        "object":"Glutamic Acid Levels",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":506,
+        "subject":"Parkinson Disease",
+        "relation":"associated_with",
+        "object":"Metabolomic Biomarker Profiles",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":506,
+        "subject":"Parkinson Disease",
+        "relation":"associated_with",
+        "object":"Parkinson Disease Controls",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":506,
+        "subject":"Parkinson Disease Controls",
+        "relation":"compared_to",
+        "object":"Parkinson Disease \/ Parkinson Disease Dementia Groups",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":609,
+        "subject":"Strenuous Athletic Activities",
+        "relation":"no_causal_link_with",
+        "object":"Parkinson Disease",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":609,
+        "subject":"Lead Exposure",
+        "relation":"causes",
+        "object":"Parkinson Disease",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":464,
+        "subject":"REM Sleep Behavior Disorder",
+        "relation":"associated_with",
+        "object":"Prodromal Parkinson Disease",
+        "entity_variants":null
+    }
+]

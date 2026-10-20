@@ -1,0 +1,149 @@
+[
+    {
+        "source_abstract_id":152,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Increased Peak Width of Skeletonized Mean Diffusivity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":152,
+        "subject":"Complicated Mild Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Increased Peak Width of Skeletonized Mean Diffusivity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":152,
+        "subject":"Peak Width of Skeletonized Mean Diffusivity (PSMD)",
+        "relation":"mediates",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":152,
+        "subject":"Diffusion Tensor Imaging - Analysis along the Perivascular Space",
+        "relation":"associated_with",
+        "object":"Peak Width of Skeletonized Mean Diffusivity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":152,
+        "subject":"Diffusion Tensor Imaging - Analysis along the Perivascular Space",
+        "relation":"associated_with",
+        "object":"Verbal Memory",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":152,
+        "subject":"Diffusion Tensor Imaging - Analysis along the Perivascular Space",
+        "relation":"associated_with",
+        "object":"Attention",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":152,
+        "subject":"Diffusion Tensor Imaging - Analysis along the Perivascular Space",
+        "relation":"associated_with",
+        "object":"Executive Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":152,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Decreased Diffusion Tensor Imaging - Analysis along the Perivascular Space",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":152,
+        "subject":"Complicated Mild Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Decreased Diffusion Tensor Imaging - Analysis along the Perivascular Space",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":458,
+        "subject":"Diffusion Tensor Imaging - Analysis along the Perivascular Space Index",
+        "relation":"mediates",
+        "object":"Improvement in Sleep Measures",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":458,
+        "subject":"Diffusion Tensor Imaging - Analysis along the Perivascular Space Index",
+        "relation":"associated_with",
+        "object":"Glymphatic Function",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":461,
+        "subject":"Diffusion Tensor Imaging - Analysis along the Perivascular Space Index",
+        "relation":"mediates",
+        "object":"Sleep Measures",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":461,
+        "subject":"Diffusion Tensor Imaging - Analysis along the Perivascular Space Index",
+        "relation":"associated_with",
+        "object":"Enlarged Perivascular Space Burden",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":461,
+        "subject":"Diffusion Tensor Imaging - Analysis along the Perivascular Space Index",
+        "relation":"predicts",
+        "object":"Cognitive Outcomes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":534,
+        "subject":"Mild to Moderate Traumatic Brain Injury",
+        "relation":"causes_decrease_in",
+        "object":"Diffusion Tensor Imaging - Analysis along the Perivascular Space Index",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":534,
+        "subject":"Traumatic Brain Injury with Cognitive Impairment",
+        "relation":"associated_with",
+        "object":"Lower Diffusion Tensor Imaging - Analysis along the Perivascular Space Index",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":534,
+        "subject":"Diffusion Tensor Imaging - Analysis along the Perivascular Space Index",
+        "relation":"predicts",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":534,
+        "subject":"Traumatic Brain Injury with Cognitive Impairment",
+        "relation":"associated_with",
+        "object":"Lower Diffusion Tensor Imaging - Analysis along the Perivascular Space Index",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":534,
+        "subject":"Traumatic Brain Injury Cognitively Normal",
+        "relation":"associated_with",
+        "object":"Lower Diffusion Tensor Imaging - Analysis along the Perivascular Space Index",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":534,
+        "subject":"Diffusion Tensor Imaging - Analysis along the Perivascular Space Index",
+        "relation":"diagnoses",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":534,
+        "subject":"Diffusion Tensor Imaging - Analysis along the Perivascular Space Index",
+        "relation":"measured_by",
+        "object":"Diffusion Tensor Imaging Analysis",
+        "entity_variants":null
+    }
+]

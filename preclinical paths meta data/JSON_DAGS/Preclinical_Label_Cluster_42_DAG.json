@@ -1,0 +1,210 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 8,
+    "edge_count": 7
+  },
+  "nodes": [
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "Traumatic Brain Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111",
+        "MeSH_ID": "D001930"
+      },
+      "synonyms": [
+        "TBI",
+        "Concussion",
+        "Mild Traumatic Brain Injury",
+        "Repetitive Mild Traumatic Brain Injury",
+        "Repetitive Subconcussive Head Impacts",
+        "Repeated Mild Closed Head Injury",
+        "Repetitive Concussive Injury"
+      ]
+    },
+    {
+      "id": "WhiteMatterInjury",
+      "label": "White Matter Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C4049712"
+      },
+      "synonyms": [
+        "White Matter Degeneration",
+        "White Matter Disruption",
+        "White Matter Pathology",
+        "White Matter Abnormalities",
+        "Chronic White Matter Injury",
+        "Diffuse White Matter Injury",
+        "White Matter Thinning",
+        "Loss of White Matter Connectivity",
+        "Midbrain White Matter Integrity Loss"
+      ]
+    },
+    {
+      "id": "RotationalAcceleration",
+      "label": "Rotational Acceleration",
+      "type": "Process",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0000908"
+      },
+      "synonyms": [
+        "Rotational Head Acceleration",
+        "Rotational Force"
+      ]
+    },
+    {
+      "id": "MechanicalStrain",
+      "label": "Mechanical Strain",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0038848"
+      },
+      "synonyms": [
+        "Mechanical Strain Rate",
+        "Tissue Deformation"
+      ]
+    },
+    {
+      "id": "MilitaryExposure",
+      "label": "Military Exposure",
+      "type": "Process",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0026135"
+      },
+      "synonyms": [
+        "Military Service",
+        "Blast Exposure"
+      ]
+    },
+    {
+      "id": "Oligodendrogenesis",
+      "label": "Oligodendrogenesis",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C1518471",
+        "GO_ID": "GO:0048709"
+      },
+      "synonyms": [
+        "Oligodendrocyte differentiation",
+        "Chronic Oligodendrogenesis"
+      ]
+    },
+    {
+      "id": "SpatialMemory",
+      "label": "Spatial Memory",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0037817",
+        "GO_ID": "GO:0019623"
+      },
+      "synonyms": [
+        "Probe Trial Performance",
+        "Spatial Navigation"
+      ]
+    },
+    {
+      "id": "Locomotion",
+      "label": "Locomotion",
+      "type": "Process",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0023961",
+        "GO_ID": "GO:0040011"
+      },
+      "synonyms": [
+        "Swimming Speed",
+        "Motor Activity"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "WhiteMatterInjury",
+      "mechanism": "causes",
+      "evidence_ref": [
+        42,
+        48,
+        61,
+        104,
+        117,
+        127,
+        245,
+        368
+      ],
+      "confidence": "High",
+      "metadata": "Context: Includes repetitive, mild, and subconcussive impacts causing degeneration, thinning, and loss of integrity in regions including the midbrain."
+    },
+    {
+      "source": "RotationalAcceleration",
+      "target": "WhiteMatterInjury",
+      "mechanism": "causes",
+      "evidence_ref": [
+        48
+      ],
+      "confidence": "Medium",
+      "metadata": "Specific mechanical force affecting midbrain white matter integrity."
+    },
+    {
+      "source": "MechanicalStrain",
+      "target": "WhiteMatterInjury",
+      "mechanism": "causes",
+      "evidence_ref": [
+        208
+      ],
+      "confidence": "Medium",
+      "metadata": "Strain rate predicts white matter thinning."
+    },
+    {
+      "source": "MilitaryExposure",
+      "target": "WhiteMatterInjury",
+      "mechanism": "causes",
+      "evidence_ref": [
+        113,
+        131
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Service-related exposure likely involving blast or impact."
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Oligodendrogenesis",
+      "mechanism": "causes",
+      "evidence_ref": [
+        103
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Repetitive mild TBI causes chronic oligodendrogenesis."
+    },
+    {
+      "source": "WhiteMatterInjury",
+      "target": "SpatialMemory",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        127
+      ],
+      "confidence": "Medium",
+      "metadata": "White matter disruption correlates with probe trial performance."
+    },
+    {
+      "source": "WhiteMatterInjury",
+      "target": "Locomotion",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        127
+      ],
+      "confidence": "Medium",
+      "metadata": "White matter disruption correlates with swimming speed."
+    }
+  ]
+}

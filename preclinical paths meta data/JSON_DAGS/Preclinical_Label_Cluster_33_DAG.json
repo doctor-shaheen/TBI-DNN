@@ -1,0 +1,645 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 27,
+    "edge_count": 35
+  },
+  "nodes": [
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "Traumatic Brain Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111"
+      },
+      "synonyms": [
+        "Blast Injury",
+        "Blast Exposure",
+        "Mild Traumatic Brain Injury",
+        "Penetrating Ballistic Brain Injury",
+        "Concussion",
+        "Diffuse Closed-Head Injury"
+      ]
+    },
+    {
+      "id": "Neurodegeneration",
+      "label": "Nerve Degeneration",
+      "type": "Pathology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027798"
+      },
+      "synonyms": [
+        "Neurodegenerative Disease",
+        "Neuropathology",
+        "Tissue Damage"
+      ]
+    },
+    {
+      "id": "Anxiety",
+      "label": "Anxiety",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0003467"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "CognitiveImpairment",
+      "label": "Cognitive Disorders",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0338656"
+      },
+      "synonyms": [
+        "Memory Impairment",
+        "Cognitive Deficits",
+        "Impaired Novel Object Recognition",
+        "Altered Cued Fear Learning"
+      ]
+    },
+    {
+      "id": "BehavioralSymptoms",
+      "label": "Behavioral Symptoms",
+      "type": "Symptom",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0004944"
+      },
+      "synonyms": [
+        "Behavioral Deficits",
+        "Behavioral Changes",
+        "Chronic Behavioral Phenotype",
+        "Neurobehavioral Syndromes"
+      ]
+    },
+    {
+      "id": "VisionDisorders",
+      "label": "Vision Disorders",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0042798"
+      },
+      "synonyms": [
+        "Visual Deficits",
+        "Reduced Visual Acuity",
+        "Contrast Sensitivity Changes"
+      ]
+    },
+    {
+      "id": "SleepDisorder",
+      "label": "Sleep Disorders",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0038218"
+      },
+      "synonyms": [
+        "Sleep Disruption",
+        "Altered REM Sleep",
+        "Increased Sleep Requirement"
+      ]
+    },
+    {
+      "id": "Inflammation",
+      "label": "Inflammation",
+      "type": "Pathology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0021368"
+      },
+      "synonyms": [
+        "Neuroinflammation"
+      ]
+    },
+    {
+      "id": "BloodBrainBarrier",
+      "label": "Blood-Brain Barrier",
+      "type": "Anatomy",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0005763"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "OxidativeStress",
+      "label": "Oxidative Stress",
+      "type": "Pathology",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "UMLS_CUI": "C0029923"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "EndoplasmicReticulumStress",
+      "label": "Endoplasmic Reticulum Stress",
+      "type": "Process",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "UMLS_CUI": "C1517094",
+        "GO_ID": "GO:0034976"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Iron",
+      "label": "Iron",
+      "type": "Chemical",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0022093",
+        "ChEBI_ID": "CHEBI:18248"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "DiffuseAxonalInjury",
+      "label": "Diffuse Axonal Injury",
+      "type": "Pathology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0151590"
+      },
+      "synonyms": [
+        "Axonal Degeneration"
+      ]
+    },
+    {
+      "id": "Genotype",
+      "label": "Genotype",
+      "type": "Genetic",
+      "location": "Nucleus",
+      "identifiers": {
+        "UMLS_CUI": "C0017416"
+      },
+      "synonyms": [
+        "Genetic Variability",
+        "Genetic Susceptibility"
+      ]
+    },
+    {
+      "id": "OpticNerve",
+      "label": "Optic Nerve",
+      "type": "Anatomy",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0029130"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "RetinalGanglionCell",
+      "label": "Retinal Ganglion Cells",
+      "type": "Cell",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0035311"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "HearingLoss",
+      "label": "Hearing Loss",
+      "type": "Disease",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0018772"
+      },
+      "synonyms": [
+        "Auditory System Damage"
+      ]
+    },
+    {
+      "id": "MotorDysfunction",
+      "label": "Motor Dysfunction",
+      "type": "Symptom",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0026650"
+      },
+      "synonyms": [
+        "Vestibulomotor Disturbances",
+        "Motor Deficits"
+      ]
+    },
+    {
+      "id": "PerivascularSpace",
+      "label": "Virchow-Robin Space",
+      "type": "Anatomy",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0031023"
+      },
+      "synonyms": [
+        "Perivascular Spaces"
+      ]
+    },
+    {
+      "id": "Gliosis",
+      "label": "Gliosis",
+      "type": "Pathology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0017639"
+      },
+      "synonyms": [
+        "Reactive Astrogliosis"
+      ]
+    },
+    {
+      "id": "Microglia",
+      "label": "Microglia",
+      "type": "Cell",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0026038"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Mitochondria",
+      "label": "Mitochondrion",
+      "type": "CellPart",
+      "location": "Mitochondria",
+      "identifiers": {
+        "UMLS_CUI": "C0026237",
+        "GO_ID": "GO:0005739"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "EnvironmentalEnrichment",
+      "label": "Environmental Enrichment",
+      "type": "Therapeutic",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0596387"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Sleep",
+      "label": "Sleep",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0038195"
+      },
+      "synonyms": [
+        "Sleep Modulation",
+        "Slow Wave Activity"
+      ]
+    },
+    {
+      "id": "Taurine",
+      "label": "Taurine",
+      "type": "Chemical",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0039407",
+        "ChEBI_ID": "CHEBI:9467"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Inositol",
+      "label": "Inositol",
+      "type": "Chemical",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0021543",
+        "ChEBI_ID": "CHEBI:17268"
+      },
+      "synonyms": [
+        "Myo-Inositol"
+      ]
+    },
+    {
+      "id": "Glutamine",
+      "label": "Glutamine",
+      "type": "Chemical",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0017797",
+        "ChEBI_ID": "CHEBI:28300"
+      },
+      "synonyms": []
+    }
+  ],
+  "edges": [
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Neurodegeneration",
+      "mechanism": "causes",
+      "evidence_ref": [
+        4,
+        70,
+        322,
+        385,
+        386,
+        390,
+        409
+      ],
+      "confidence": "High",
+      "metadata": "Context: Blast and Penetrating Injury models"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Anxiety",
+      "mechanism": "causes",
+      "evidence_ref": [
+        291
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Repetitive Low-Level Blast"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "CognitiveImpairment",
+      "mechanism": "causes",
+      "evidence_ref": [
+        291,
+        295,
+        302,
+        308,
+        384,
+        410
+      ],
+      "confidence": "High",
+      "metadata": "Context: Blast, PBBI, and Repetitive exposure"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "CognitiveImpairment",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        86
+      ],
+      "confidence": "Low",
+      "metadata": "Context: Repetitive Low-Level Blast (Hormetic effect?)"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "BehavioralSymptoms",
+      "mechanism": "causes",
+      "evidence_ref": [
+        4,
+        86,
+        137,
+        291,
+        384,
+        385
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "VisionDisorders",
+      "mechanism": "causes",
+      "evidence_ref": [
+        262,
+        365
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "SleepDisorder",
+      "mechanism": "causes",
+      "evidence_ref": [
+        390,
+        392
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "BloodBrainBarrier",
+      "mechanism": "disrupts",
+      "evidence_ref": [
+        385,
+        386,
+        398
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Inflammation",
+      "mechanism": "causes",
+      "evidence_ref": [
+        96,
+        289,
+        305,
+        365,
+        386,
+        398
+      ],
+      "confidence": "High",
+      "metadata": "Includes Neuroinflammation"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "OxidativeStress",
+      "mechanism": "causes",
+      "evidence_ref": [
+        276
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "EndoplasmicReticulumStress",
+      "mechanism": "causes",
+      "evidence_ref": [
+        137
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Iron",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        137
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "DiffuseAxonalInjury",
+      "mechanism": "causes",
+      "evidence_ref": [
+        262
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Repeated Blast"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "HearingLoss",
+      "mechanism": "causes",
+      "evidence_ref": [
+        322
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "PerivascularSpace",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        4
+      ],
+      "confidence": "Medium",
+      "metadata": "Increases/Associated with"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "MotorDysfunction",
+      "mechanism": "causes",
+      "evidence_ref": [
+        409,
+        410
+      ],
+      "confidence": "High",
+      "metadata": "PBBI and Blast models"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "OpticNerve",
+      "mechanism": "causes",
+      "evidence_ref": [
+        96
+      ],
+      "confidence": "Medium",
+      "metadata": "Damage"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "RetinalGanglionCell",
+      "mechanism": "causes",
+      "evidence_ref": [
+        96
+      ],
+      "confidence": "Medium",
+      "metadata": "Damage"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Gliosis",
+      "mechanism": "causes",
+      "evidence_ref": [
+        398
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Microglia",
+      "mechanism": "activates",
+      "evidence_ref": [
+        398
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Mitochondria",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        302
+      ],
+      "confidence": "Medium",
+      "metadata": "Function Changes"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Taurine",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        409
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Inositol",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        409
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Glutamine",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        409
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "Genotype",
+      "target": "TraumaticBrainInjury",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        96,
+        302
+      ],
+      "confidence": "Medium",
+      "metadata": "Susceptibility/Response"
+    },
+    {
+      "source": "EnvironmentalEnrichment",
+      "target": "Sleep",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        265
+      ],
+      "confidence": "Medium",
+      "metadata": "REM Sleep"
+    },
+    {
+      "source": "Sleep",
+      "target": "CognitiveImpairment",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        344
+      ],
+      "confidence": "Medium",
+      "metadata": "Improves outcome"
+    },
+    {
+      "source": "Sleep",
+      "target": "DiffuseAxonalInjury",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        344
+      ],
+      "confidence": "Medium",
+      "metadata": "Reduces injury"
+    }
+  ]
+}

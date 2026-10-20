@@ -1,0 +1,163 @@
+[
+    {
+        "source_abstract_id":6,
+        "subject":"Cannabidiol",
+        "relation":"improves",
+        "object":"Neurological Deficits",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":6,
+        "subject":"Cannabidiol",
+        "relation":"reduces",
+        "object":"Amyloid Beta",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":6,
+        "subject":"Cannabidiol",
+        "relation":"enhances",
+        "object":"Cerebral Blood Flow",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":6,
+        "subject":"Cannabidiol",
+        "relation":"induces",
+        "object":"Aquaporin-4 Polarization",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":6,
+        "subject":"Cannabidiol",
+        "relation":"reduces",
+        "object":"Neuroinflammatory Indices",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":6,
+        "subject":"Cannabidiol",
+        "relation":"improves",
+        "object":"Cognitive Performance",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":6,
+        "subject":"Cannabidiol",
+        "relation":"improves",
+        "object":"Motor Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":6,
+        "subject":"Cannabidiol",
+        "relation":"enhances",
+        "object":"Memory Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":40,
+        "subject":"Endocannabinoid System",
+        "relation":"mediates",
+        "object":"Pathogenetic Link",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":173,
+        "subject":"Cannabinoid Receptor 1",
+        "relation":"triggers",
+        "object":"Neuroprotection",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":376,
+        "subject":"Needle-Induced Cavitation",
+        "relation":"mediates",
+        "object":"Cannabinoid Receptor 1",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":376,
+        "subject":"Cannabinoid Receptor 1",
+        "relation":"downregulates",
+        "object":"Extracellular Matrix Proteins",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":376,
+        "subject":"Cannabinoid Receptor 1",
+        "relation":"mediates",
+        "object":"Neural Repair",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":401,
+        "subject":"Cannabinol",
+        "relation":"prevents",
+        "object":"Oxytosis",
+        "entity_variants":"CBN"
+    },
+    {
+        "source_abstract_id":401,
+        "subject":"Cannabinol",
+        "relation":"prevents",
+        "object":"Ferroptosis",
+        "entity_variants":"CBN"
+    },
+    {
+        "source_abstract_id":401,
+        "subject":"Cannabinol",
+        "relation":"preserves",
+        "object":"Neuroprotection",
+        "entity_variants":"CBN"
+    },
+    {
+        "source_abstract_id":401,
+        "subject":"Cannabinol",
+        "relation":"modulates",
+        "object":"Mitochondrial Function",
+        "entity_variants":"CBN"
+    },
+    {
+        "source_abstract_id":401,
+        "subject":"Cannabinol Analogs",
+        "relation":"contributes_to",
+        "object":"Neuroprotection",
+        "entity_variants":"CP1-CP4"
+    },
+    {
+        "source_abstract_id":401,
+        "subject":"Cannabinol Analogs",
+        "relation":"preserves",
+        "object":"Druglike Properties",
+        "entity_variants":"CP1-CP4"
+    },
+    {
+        "source_abstract_id":401,
+        "subject":"Cannabinoids",
+        "relation":"contributes_to",
+        "object":"Neuroprotection",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":6,
+        "subject":"Surgical Lymphatic Interruption",
+        "relation":"negates",
+        "object":"Cannabidiol Effects",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":40,
+        "subject":"Endocannabinoid System",
+        "relation":"interacts_with",
+        "object":"Serotonergic System",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":173,
+        "subject":"2-Arachidonoylglycerol",
+        "relation":"upregulates",
+        "object":"Cannabinoid Receptor 1",
+        "entity_variants":null
+    }
+]

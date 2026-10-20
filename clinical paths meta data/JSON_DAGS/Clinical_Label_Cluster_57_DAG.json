@@ -1,0 +1,494 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 23,
+    "edge_count": 20
+  },
+  "nodes": [
+    {
+      "id": "CerebralBloodFlow",
+      "label": "Cerebral Blood Flow",
+      "type": "Physiological Function",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0007776"
+      },
+      "synonyms": [
+        "CBF",
+        "Right Caudate Nucleus Cerebral Blood Flow"
+      ]
+    },
+    {
+      "id": "Cognition",
+      "label": "Cognition",
+      "type": "Physiological Function",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0009240"
+      },
+      "synonyms": [
+        "Cognitive Performance",
+        "Neuropsychological Performance",
+        "Neuropsychological Test Performance",
+        "Cognitive Factors",
+        "Neuropsychological Outcomes"
+      ]
+    },
+    {
+      "id": "NeurobehavioralSymptomInventory",
+      "label": "Neurobehavioral Symptom Inventory",
+      "type": "Intellectual Product",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C4072381"
+      },
+      "synonyms": [
+        "NSI"
+      ]
+    },
+    {
+      "id": "PatientCompliance",
+      "label": "Patient Compliance",
+      "type": "Behavior",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0029352"
+      },
+      "synonyms": [
+        "Patient Retention"
+      ]
+    },
+    {
+      "id": "CognitiveTraining",
+      "label": "Cognitive Training",
+      "type": "Therapeutic Procedure",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C3243936"
+      },
+      "synonyms": [
+        "Feasibility of Cognitive Training"
+      ]
+    },
+    {
+      "id": "CerebralAutoregulation",
+      "label": "Cerebral Autoregulation",
+      "type": "Physiological Function",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0235650"
+      },
+      "synonyms": [
+        "Autoregulatory Performance"
+      ]
+    },
+    {
+      "id": "RecoveryOfFunction",
+      "label": "Recovery of Function",
+      "type": "Physiological Function",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0034870"
+      },
+      "synonyms": [
+        "Cognitive Recovery"
+      ]
+    },
+    {
+      "id": "CognitiveReserve",
+      "label": "Cognitive Reserve",
+      "type": "Physiological Function",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0009241"
+      },
+      "synonyms": [
+        "Cognitive Reserve Index",
+        "CRIq"
+      ]
+    },
+    {
+      "id": "CognitiveImpairment",
+      "label": "Cognitive Impairment",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0338656"
+      },
+      "synonyms": [
+        "Early Cognitive Impairment",
+        "Cognitive Disorders"
+      ]
+    },
+    {
+      "id": "SelfReport",
+      "label": "Self Report",
+      "type": "Diagnostic Procedure",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0036603"
+      },
+      "synonyms": [
+        "Self-Report Consistency"
+      ]
+    },
+    {
+      "id": "AgeOfOnset",
+      "label": "Age of Onset",
+      "type": "Organism Attribute",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0001779"
+      },
+      "synonyms": [
+        "Age at Cognitive Onset",
+        "Age at Behavioral Onset"
+      ]
+    },
+    {
+      "id": "Employment",
+      "label": "Employment",
+      "type": "Social Behavior",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0014094"
+      },
+      "synonyms": [
+        "Occupational Attainment"
+      ]
+    },
+    {
+      "id": "RotterdamCTScore",
+      "label": "Rotterdam CT Score",
+      "type": "Intellectual Product",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C4763617"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "ReturnToWork",
+      "label": "Return to Work",
+      "type": "Social Behavior",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0558231"
+      },
+      "synonyms": [
+        "Work Return Rate"
+      ]
+    },
+    {
+      "id": "VerbalReasoning",
+      "label": "Verbal Reasoning",
+      "type": "Physiological Function",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0681729"
+      },
+      "synonyms": [
+        "Functional Verbal Reasoning"
+      ]
+    },
+    {
+      "id": "Memory",
+      "label": "Memory",
+      "type": "Physiological Function",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0025260"
+      },
+      "synonyms": [
+        "Verbal Memory"
+      ]
+    },
+    {
+      "id": "Attention",
+      "label": "Attention",
+      "type": "Physiological Function",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0004268"
+      },
+      "synonyms": [
+        "Executive Attention"
+      ]
+    },
+    {
+      "id": "Prognosis",
+      "label": "Prognosis",
+      "type": "Finding",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0033343"
+      },
+      "synonyms": [
+        "Functional Outcome"
+      ]
+    },
+    {
+      "id": "BrainReserve",
+      "label": "Brain Reserve",
+      "type": "Physiological Function",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C2936353"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "TimeFactors",
+      "label": "Time Factors",
+      "type": "Temporal Concept",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0040223"
+      },
+      "synonyms": [
+        "Time Since Injury"
+      ]
+    },
+    {
+      "id": "VentricleToBrainRatio",
+      "label": "Ventricle To Brain Ratio",
+      "type": "Diagnostic Procedure",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0412853"
+      },
+      "synonyms": [
+        "Ventricle to Brain Ratio"
+      ]
+    },
+    {
+      "id": "SocioeconomicFactors",
+      "label": "Socioeconomic Factors",
+      "type": "Social Behavior",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0037648"
+      },
+      "synonyms": [
+        "Contextual Factors"
+      ]
+    },
+    {
+      "id": "Rehabilitation",
+      "label": "Rehabilitation",
+      "type": "Therapeutic Procedure",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0034511"
+      },
+      "synonyms": [
+        "Rehabilitation Effectiveness"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "Cognition",
+      "target": "NeurobehavioralSymptomInventory",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        251
+      ],
+      "confidence": "Medium",
+      "metadata": "Input: Cognitive Performance associated with Neurobehavioral Symptom Inventory"
+    },
+    {
+      "source": "PatientCompliance",
+      "target": "CognitiveTraining",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        320
+      ],
+      "confidence": "High",
+      "metadata": "Input: Patient Retention supports Feasibility of Cognitive Training"
+    },
+    {
+      "source": "CerebralAutoregulation",
+      "target": "Cognition",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        514
+      ],
+      "confidence": "High",
+      "metadata": "Context: Assessed by Neuropsychological Test"
+    },
+    {
+      "source": "CognitiveReserve",
+      "target": "RecoveryOfFunction",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        112
+      ],
+      "confidence": "Medium",
+      "metadata": "Corrected from input 'Cognitive Recovery mediates Cognitive Reserve' based on biological plausibility"
+    },
+    {
+      "source": "CognitiveImpairment",
+      "target": "SelfReport",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        123
+      ],
+      "confidence": "Medium",
+      "metadata": "Input: Predicts consistency"
+    },
+    {
+      "source": "CognitiveReserve",
+      "target": "AgeOfOnset",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        153
+      ],
+      "confidence": "High",
+      "metadata": "Cognitive and Behavioral Onset"
+    },
+    {
+      "source": "Employment",
+      "target": "CognitiveReserve",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        153
+      ],
+      "confidence": "High",
+      "metadata": "Input: Occupational Attainment influences Cognitive Reserve"
+    },
+    {
+      "source": "CognitiveReserve",
+      "target": "Cognition",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        176,
+        611,
+        353
+      ],
+      "confidence": "High",
+      "metadata": "Mediates Cognitive Performance; Affects Neuropsychological Outcomes"
+    },
+    {
+      "source": "RotterdamCTScore",
+      "target": "CognitiveImpairment",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        216
+      ],
+      "confidence": "High",
+      "metadata": "Correlates with Early Cognitive Impairment"
+    },
+    {
+      "source": "Cognition",
+      "target": "ReturnToWork",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        233
+      ],
+      "confidence": "High",
+      "metadata": "Improves Work Return Rate"
+    },
+    {
+      "source": "VerbalReasoning",
+      "target": "Cognition",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        293
+      ],
+      "confidence": "Medium",
+      "metadata": "Sub-domain association"
+    },
+    {
+      "source": "CognitiveReserve",
+      "target": "Memory",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        340
+      ],
+      "confidence": "High",
+      "metadata": "Source: Cognitive Reserve Index associated with Verbal Memory"
+    },
+    {
+      "source": "CognitiveReserve",
+      "target": "Attention",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        340
+      ],
+      "confidence": "High",
+      "metadata": "Source: Cognitive Reserve Index associated with Executive Attention"
+    },
+    {
+      "source": "BrainReserve",
+      "target": "Prognosis",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        353
+      ],
+      "confidence": "High",
+      "metadata": "Associated with Functional Outcome"
+    },
+    {
+      "source": "CognitiveReserve",
+      "target": "Prognosis",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        353
+      ],
+      "confidence": "High",
+      "metadata": "Associated with Functional Outcome"
+    },
+    {
+      "source": "TimeFactors",
+      "target": "CognitiveReserve",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        353
+      ],
+      "confidence": "Medium",
+      "metadata": "Time Since Injury"
+    },
+    {
+      "source": "BrainReserve",
+      "target": "Cognition",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        353
+      ],
+      "confidence": "High",
+      "metadata": "Associated with Neuropsychological Performance"
+    },
+    {
+      "source": "VentricleToBrainRatio",
+      "target": "CognitiveReserve",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        353
+      ],
+      "confidence": "High",
+      "metadata": "Higher VBR (atrophy) associated with lower reserve"
+    },
+    {
+      "source": "SocioeconomicFactors",
+      "target": "Rehabilitation",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        369
+      ],
+      "confidence": "High",
+      "metadata": "Contextual Factors affect Rehabilitation Effectiveness"
+    },
+    {
+      "source": "CognitiveReserve",
+      "target": "CognitiveImpairment",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        611
+      ],
+      "confidence": "High",
+      "metadata": "Prevents Cognitive Impairment"
+    }
+  ]
+}

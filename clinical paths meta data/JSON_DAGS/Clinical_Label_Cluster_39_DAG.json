@@ -1,0 +1,495 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 18,
+    "edge_count": 22
+  },
+  "nodes": [
+    {
+      "id": "ChronicTraumaticEncephalopathy",
+      "label": "Chronic Traumatic Encephalopathy",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C2939413",
+        "MeSH": "D000086382"
+      },
+      "synonyms": [
+        "CTE",
+        "Chronic Traumatic Encephalopathy Pathology",
+        "Traumatic Encephalopathy Syndrome",
+        "Dementia pugilistica"
+      ]
+    },
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "Traumatic Brain Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111",
+        "MeSH": "D001930"
+      },
+      "synonyms": [
+        "TBI",
+        "Concussion",
+        "Mild Traumatic Brain Injury",
+        "Head Injury",
+        "Chronic Traumatic Brain Injury"
+      ]
+    },
+    {
+      "id": "NUP62",
+      "label": "NUP62",
+      "type": "Protein",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C1417834",
+        "HGNC_ID": "HGNC:8067",
+        "UniProt_ID": "P37198"
+      },
+      "synonyms": [
+        "Nucleoporin 62"
+      ]
+    },
+    {
+      "id": "Neuroinflammation",
+      "label": "Neuroinflammation",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027787",
+        "GO_ID": "GO:0002544"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Neurodegeneration",
+      "label": "Neurodegeneration",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027746",
+        "GO_ID": "GO:0006915"
+      },
+      "synonyms": [
+        "Neurodegenerative Disorders"
+      ]
+    },
+    {
+      "id": "Dementia",
+      "label": "Dementia",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0011265",
+        "MeSH": "D003704"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "CognitiveDisorder",
+      "label": "Cognitive Disorder",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0009241",
+        "MeSH": "D003072"
+      },
+      "synonyms": [
+        "Cognitive Symptoms",
+        "Cognitive Decline",
+        "Cognitive Impairment",
+        "Memory Disorder"
+      ]
+    },
+    {
+      "id": "NeurobehavioralManifestation",
+      "label": "Neurobehavioral Manifestation",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0004927"
+      },
+      "synonyms": [
+        "Behavioral Symptoms",
+        "Neurobehavioral Dysregulation",
+        "Mood Disturbances",
+        "Depressive Emotional and Behavioral Dyscontrol Symptoms"
+      ]
+    },
+    {
+      "id": "DepressiveDisorder",
+      "label": "Depressive Disorder",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0011581",
+        "MeSH": "D003866"
+      },
+      "synonyms": [
+        "Depression",
+        "Depressive Symptomatology"
+      ]
+    },
+    {
+      "id": "AnxietyDisorder",
+      "label": "Anxiety Disorder",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0003467",
+        "MeSH": "D001008"
+      },
+      "synonyms": [
+        "Anxiety"
+      ]
+    },
+    {
+      "id": "SuicidalIdeation",
+      "label": "Suicidal Ideation",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0038663"
+      },
+      "synonyms": [
+        "Suicidal Behavior"
+      ]
+    },
+    {
+      "id": "Migraine",
+      "label": "Migraine",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0026138",
+        "MeSH": "D008881"
+      },
+      "synonyms": [
+        "Chronic Migraine"
+      ]
+    },
+    {
+      "id": "ChronicPain",
+      "label": "Chronic Pain",
+      "type": "Disease",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0150055",
+        "MeSH": "D059350"
+      },
+      "synonyms": [
+        "Pain",
+        "Persistent Headache"
+      ]
+    },
+    {
+      "id": "SleepWakeDisorders",
+      "label": "Sleep Wake Disorders",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0037317",
+        "MeSH": "D012893"
+      },
+      "synonyms": [
+        "Sleep Disorder"
+      ]
+    },
+    {
+      "id": "HydrocephalusExVacuo",
+      "label": "Hydrocephalus Ex Vacuo",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0338490"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "ChronicKidneyDisease",
+      "label": "Chronic Kidney Disease",
+      "type": "Disease",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0022661",
+        "MeSH": "D051436"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "N-stearoylsphingosine",
+      "label": "N-stearoylsphingosine",
+      "type": "Chemical",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "ChEBI_ID": "CHEBI:28906"
+      },
+      "synonyms": [
+        "C18-Ceramide",
+        "Ceramide"
+      ]
+    },
+    {
+      "id": "PostTraumaticStressDisorder",
+      "label": "Post Traumatic Stress Disorder",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0038436",
+        "MeSH": "D013313"
+      },
+      "synonyms": [
+        "PTSD"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "ChronicTraumaticEncephalopathy",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        20,
+        59,
+        155,
+        239,
+        273,
+        451,
+        518,
+        533,
+        5
+      ],
+      "confidence": "Medium",
+      "metadata": "Conflict: Some studies (10, 51, 450) found no direct causal link."
+    },
+    {
+      "source": "ChronicTraumaticEncephalopathy",
+      "target": "Dementia",
+      "mechanism": "causes",
+      "evidence_ref": [
+        0,
+        124,
+        30
+      ],
+      "confidence": "High",
+      "metadata": "Context: Progression of disease"
+    },
+    {
+      "source": "ChronicTraumaticEncephalopathy",
+      "target": "CognitiveDisorder",
+      "mechanism": "causes",
+      "evidence_ref": [
+        0,
+        1,
+        59,
+        60,
+        104,
+        302
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "ChronicTraumaticEncephalopathy",
+      "target": "NeurobehavioralManifestation",
+      "mechanism": "causes",
+      "evidence_ref": [
+        0,
+        1,
+        59
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "ChronicTraumaticEncephalopathy",
+      "target": "DepressiveDisorder",
+      "mechanism": "causes",
+      "evidence_ref": [
+        104
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "ChronicTraumaticEncephalopathy",
+      "target": "AnxietyDisorder",
+      "mechanism": "causes",
+      "evidence_ref": [
+        104
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "ChronicTraumaticEncephalopathy",
+      "target": "SuicidalIdeation",
+      "mechanism": "causes",
+      "evidence_ref": [
+        104
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "ChronicTraumaticEncephalopathy",
+      "target": "SleepWakeDisorders",
+      "mechanism": "causes",
+      "evidence_ref": [
+        104
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "ChronicTraumaticEncephalopathy",
+      "target": "Neurodegeneration",
+      "mechanism": "causes",
+      "evidence_ref": [
+        45,
+        165
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "Neuroinflammation",
+      "target": "ChronicTraumaticEncephalopathy",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        88,
+        444
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "NUP62",
+      "target": "ChronicTraumaticEncephalopathy",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        23
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: NUP62 pathology associated with CTE"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Migraine",
+      "mechanism": "causes",
+      "evidence_ref": [
+        75,
+        263,
+        393
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "ChronicPain",
+      "mechanism": "causes",
+      "evidence_ref": [
+        75,
+        171,
+        309,
+        498
+      ],
+      "confidence": "High",
+      "metadata": "Includes persistent headache"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "ChronicKidneyDisease",
+      "mechanism": "causes",
+      "evidence_ref": [
+        75
+      ],
+      "confidence": "Low",
+      "metadata": ""
+    },
+    {
+      "source": "ChronicTraumaticEncephalopathy",
+      "target": "HydrocephalusExVacuo",
+      "mechanism": "associated_with",
+      "evidence_ref": [
+        451
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Neuropathologic change"
+    },
+    {
+      "source": "N-stearoylsphingosine",
+      "target": "ChronicTraumaticEncephalopathy",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        457
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Levels correlate with CTE in human brains"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Neuroinflammation",
+      "mechanism": "causes",
+      "evidence_ref": [
+        88
+      ],
+      "confidence": "High",
+      "metadata": "Inferred from TBI -> Neuroinflammation -> CTE pathway"
+    },
+    {
+      "source": "DepressiveDisorder",
+      "target": "ChronicTraumaticEncephalopathy",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        493
+      ],
+      "confidence": "Low",
+      "metadata": "Ref 493 suggests depressive symptomatology causes TES (mapped to CTE)"
+    },
+    {
+      "source": "ChronicTraumaticEncephalopathy",
+      "target": "PostTraumaticStressDisorder",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        165
+      ],
+      "confidence": "Low",
+      "metadata": "Context: Co-existence/comorbidity"
+    },
+    {
+      "source": "Migraine",
+      "target": "NeurobehavioralManifestation",
+      "mechanism": "associated_with",
+      "evidence_ref": [
+        393
+      ],
+      "confidence": "Medium",
+      "metadata": "Psychiatric disorders"
+    },
+    {
+      "source": "ChronicTraumaticEncephalopathy",
+      "target": "ChronicPain",
+      "mechanism": "causes",
+      "evidence_ref": [
+        104
+      ],
+      "confidence": "Medium",
+      "metadata": "Headache"
+    },
+    {
+      "source": "ChronicTraumaticEncephalopathy",
+      "target": "Migraine",
+      "mechanism": "causes",
+      "evidence_ref": [
+        104
+      ],
+      "confidence": "Medium",
+      "metadata": "Headache mapped to Migraine where appropriate, Ref 104 lists Headache"
+    }
+  ]
+}

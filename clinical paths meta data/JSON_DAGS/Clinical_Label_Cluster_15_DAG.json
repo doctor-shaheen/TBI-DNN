@@ -1,0 +1,482 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 21,
+    "edge_count": 21
+  },
+  "nodes": [
+    {
+      "id": "MildTraumaticBrainInjury",
+      "label": "Mild Traumatic Brain Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0009244",
+        "MeSH_ID": "D001924"
+      },
+      "synonyms": [
+        "Concussion",
+        "Sports Concussion",
+        "Sports-Related Concussion",
+        "Self-Reported Concussion History",
+        "Repeated Sports-Related Concussions"
+      ]
+    },
+    {
+      "id": "PostConcussionSyndrome",
+      "label": "Post-Concussion Syndrome",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0032747",
+        "MeSH_ID": "D038223"
+      },
+      "synonyms": [
+        "Post-Concussion Symptoms",
+        "Concussion Symptoms",
+        "Symptom Severity"
+      ]
+    },
+    {
+      "id": "ChronicTraumaticEncephalopathy",
+      "label": "Chronic Traumatic Encephalopathy",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C4036329",
+        "MeSH_ID": "D000088362"
+      },
+      "synonyms": [
+        "CTE",
+        "Dementia Pugilistica"
+      ]
+    },
+    {
+      "id": "Tauopathy",
+      "label": "Tauopathy",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C1455589",
+        "MeSH_ID": "D024801"
+      },
+      "synonyms": [
+        "Tauopathies"
+      ]
+    },
+    {
+      "id": "Neuroinflammation",
+      "label": "Neuroinflammation",
+      "type": "Pathologic Function",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C3539824",
+        "GO_ID": "GO:0006954"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "CognitiveDysfunction",
+      "label": "Cognitive Dysfunction",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0338656",
+        "MeSH_ID": "D003072"
+      },
+      "synonyms": [
+        "Cognitive Decline",
+        "Memory Concerns",
+        "Thinking Skills Concerns"
+      ]
+    },
+    {
+      "id": "Cognition",
+      "label": "Cognition",
+      "type": "Physiologic Function",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0009241",
+        "MeSH_ID": "D003071"
+      },
+      "synonyms": [
+        "Neuropsychological Performance",
+        "Neuropsychological Function"
+      ]
+    },
+    {
+      "id": "MentalDisorders",
+      "label": "Mental Disorders",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0004936",
+        "MeSH_ID": "D001523"
+      },
+      "synonyms": [
+        "Common Mental Disorders"
+      ]
+    },
+    {
+      "id": "Anxiety",
+      "label": "Anxiety",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0003467",
+        "MeSH_ID": "D001007"
+      },
+      "synonyms": [
+        "Anxiety Symptoms"
+      ]
+    },
+    {
+      "id": "Depression",
+      "label": "Depression",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0011581",
+        "MeSH_ID": "D003863"
+      },
+      "synonyms": [
+        "Depressive Symptoms"
+      ]
+    },
+    {
+      "id": "PsychologicalDistress",
+      "label": "Psychological Distress",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0039335"
+      },
+      "synonyms": [
+        "Distress Symptoms"
+      ]
+    },
+    {
+      "id": "SleepWakeDisorders",
+      "label": "Sleep Wake Disorders",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0037317",
+        "MeSH_ID": "D012893"
+      },
+      "synonyms": [
+        "Sleep Disturbance"
+      ]
+    },
+    {
+      "id": "SubstanceRelatedDisorders",
+      "label": "Substance-Related Disorders",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0038601",
+        "MeSH_ID": "D019966"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "BiologicalMarkers",
+      "label": "Biological Markers",
+      "type": "Substance",
+      "location": "CSF",
+      "identifiers": {
+        "UMLS_CUI": "C0005516",
+        "MeSH_ID": "D015415"
+      },
+      "synonyms": [
+        "Cerebrospinal Fluid Biomarkers"
+      ]
+    },
+    {
+      "id": "FunctionalConnectivity",
+      "label": "Functional Connectivity",
+      "type": "Physiologic Function",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C2985396"
+      },
+      "synonyms": [
+        "Functional Connectivity Changes"
+      ]
+    },
+    {
+      "id": "DefaultModeNetwork",
+      "label": "Default Mode Network",
+      "type": "Anatomical Structure",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C4072225"
+      },
+      "synonyms": [
+        "DMN"
+      ]
+    },
+    {
+      "id": "MotorSkills",
+      "label": "Motor Skills",
+      "type": "Physiologic Function",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0026606"
+      },
+      "synonyms": [
+        "Fine Motor Control"
+      ]
+    },
+    {
+      "id": "PosturalBalance",
+      "label": "Postural Balance",
+      "type": "Physiologic Function",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0032777"
+      },
+      "synonyms": [
+        "Postural Control"
+      ]
+    },
+    {
+      "id": "ContactSports",
+      "label": "Contact Sports",
+      "type": "Activity",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0949767"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "AmericanFootball",
+      "label": "American Football",
+      "type": "Activity",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0016483"
+      },
+      "synonyms": [
+        "National Football League Play",
+        "NFL Play"
+      ]
+    },
+    {
+      "id": "Soccer",
+      "label": "Soccer",
+      "type": "Activity",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0037407"
+      },
+      "synonyms": []
+    }
+  ],
+  "edges": [
+    {
+      "source": "AmericanFootball",
+      "target": "Cognition",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        191
+      ],
+      "confidence": "High",
+      "metadata": "Context: Neuropsychological Performance"
+    },
+    {
+      "source": "PostConcussionSyndrome",
+      "target": "ChronicTraumaticEncephalopathy",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        57
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "PostConcussionSyndrome",
+      "target": "BiologicalMarkers",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        57
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: CSF Biomarkers"
+    },
+    {
+      "source": "PostConcussionSyndrome",
+      "target": "CognitiveDysfunction",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        57
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "ContactSports",
+      "target": "ChronicTraumaticEncephalopathy",
+      "mechanism": "causes",
+      "evidence_ref": [
+        126,
+        150
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "ContactSports",
+      "target": "Tauopathy",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        126
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "MildTraumaticBrainInjury",
+      "target": "CognitiveDysfunction",
+      "mechanism": "causes",
+      "evidence_ref": [
+        186
+      ],
+      "confidence": "High",
+      "metadata": "Context: Memory and thinking skills concerns"
+    },
+    {
+      "source": "MildTraumaticBrainInjury",
+      "target": "ChronicTraumaticEncephalopathy",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        186
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Current concerns"
+    },
+    {
+      "source": "MildTraumaticBrainInjury",
+      "target": "Neuroinflammation",
+      "mechanism": "causes",
+      "evidence_ref": [
+        197
+      ],
+      "confidence": "High",
+      "metadata": "Context: Repeated concussions"
+    },
+    {
+      "source": "MildTraumaticBrainInjury",
+      "target": "MentalDisorders",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        297
+      ],
+      "confidence": "High",
+      "metadata": "Dose-response relationship (4-6+ concussions)"
+    },
+    {
+      "source": "MildTraumaticBrainInjury",
+      "target": "PsychologicalDistress",
+      "mechanism": "causes",
+      "evidence_ref": [
+        297
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "MildTraumaticBrainInjury",
+      "target": "Anxiety",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        297
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "MildTraumaticBrainInjury",
+      "target": "Depression",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        297
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "MildTraumaticBrainInjury",
+      "target": "SleepWakeDisorders",
+      "mechanism": "causes",
+      "evidence_ref": [
+        297
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "MildTraumaticBrainInjury",
+      "target": "SubstanceRelatedDisorders",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        297
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "MildTraumaticBrainInjury",
+      "target": "FunctionalConnectivity",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        453
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Changes"
+    },
+    {
+      "source": "MildTraumaticBrainInjury",
+      "target": "PostConcussionSyndrome",
+      "mechanism": "causes",
+      "evidence_ref": [
+        453,
+        458
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "MildTraumaticBrainInjury",
+      "target": "DefaultModeNetwork",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        453
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "Soccer",
+      "target": "MotorSkills",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        625
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Heading"
+    },
+    {
+      "source": "Soccer",
+      "target": "PosturalBalance",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        625
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Heading"
+    }
+  ]
+}

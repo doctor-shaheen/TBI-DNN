@@ -1,0 +1,359 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 15,
+    "edge_count": 15
+  },
+  "nodes": [
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "Traumatic Brain Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111"
+      },
+      "synonyms": [
+        "Mild Traumatic Brain Injury",
+        "Blunt Traumatic Brain Injury",
+        "Concussion",
+        "Submild traumatic brain injury",
+        "Subconcussive Mild Traumatic Brain Injury"
+      ]
+    },
+    {
+      "id": "MildBehavioralImpairment",
+      "label": "Mild Behavioral Impairment",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C4073053"
+      },
+      "synonyms": [
+        "MBI",
+        "Mild Behavioral Impairment Checklist Total Scores"
+      ]
+    },
+    {
+      "id": "NeurobehavioralManifestation",
+      "label": "Neurobehavioral Manifestation",
+      "type": "Symptom",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027798"
+      },
+      "synonyms": [
+        "Neurobehavioral Dysfunction",
+        "Neuropsychiatric Manifestation"
+      ]
+    },
+    {
+      "id": "NeurologicSymptoms",
+      "label": "Neurologic Symptoms",
+      "type": "Symptom",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0027769"
+      },
+      "synonyms": [
+        "Overall Symptom Burden",
+        "Symptom Severity",
+        "Long Term Symptoms",
+        "Symptom Prevalence"
+      ]
+    },
+    {
+      "id": "NeuralPathway",
+      "label": "Neural Pathway",
+      "type": "Anatomy",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027780"
+      },
+      "synonyms": [
+        "Neural Connections"
+      ]
+    },
+    {
+      "id": "DelayedRecovery",
+      "label": "Delayed Recovery",
+      "type": "Phenomenon",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0011168"
+      },
+      "synonyms": [
+        "Risk of Delayed Recovery"
+      ]
+    },
+    {
+      "id": "MagneticResonanceImaging",
+      "label": "Magnetic Resonance Imaging",
+      "type": "Procedure",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0024485"
+      },
+      "synonyms": [
+        "MRI Findings"
+      ]
+    },
+    {
+      "id": "AutomobileDriving",
+      "label": "Automobile Driving",
+      "type": "Activity",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0004386"
+      },
+      "synonyms": [
+        "Driving Patterns"
+      ]
+    },
+    {
+      "id": "PhysicalActivity",
+      "label": "Physical Activity",
+      "type": "Activity",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0026606"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Affect",
+      "label": "Affect",
+      "type": "MentalProcess",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0001664"
+      },
+      "synonyms": [
+        "Mood",
+        "Emotional Disturbances",
+        "Psychological Distress"
+      ]
+    },
+    {
+      "id": "QualityOfLife",
+      "label": "Quality of Life",
+      "type": "Concept",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0034442"
+      },
+      "synonyms": [
+        "Poor Quality of Life"
+      ]
+    },
+    {
+      "id": "Disability",
+      "label": "Disability",
+      "type": "Finding",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0231170"
+      },
+      "synonyms": [
+        "Functional Impairment"
+      ]
+    },
+    {
+      "id": "Mortality",
+      "label": "Mortality",
+      "type": "Phenomenon",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0026565"
+      },
+      "synonyms": [
+        "Death",
+        "Five Year Mortality Risk"
+      ]
+    },
+    {
+      "id": "Pain",
+      "label": "Pain",
+      "type": "Symptom",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0030193"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Demography",
+      "label": "Demography",
+      "type": "Concept",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0011296"
+      },
+      "synonyms": [
+        "Demographics"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "MildBehavioralImpairment",
+      "mechanism": "causes",
+      "evidence_ref": [
+        289
+      ],
+      "confidence": "High",
+      "metadata": "Context: Submild/Subconcussive TBI triggers impairment"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "NeurobehavioralManifestation",
+      "mechanism": "causes",
+      "evidence_ref": [
+        166,
+        559
+      ],
+      "confidence": "High",
+      "metadata": "Includes neurobehavioral dysfunction and neuropsychiatric manifestations"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "NeurologicSymptoms",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        87,
+        129,
+        168,
+        243,
+        309,
+        498
+      ],
+      "confidence": "High",
+      "metadata": "Increases overall symptom burden, severity, and prevalence"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "NeuralPathway",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        233
+      ],
+      "confidence": "Medium",
+      "metadata": "Impairs neural connections"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "DelayedRecovery",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        533
+      ],
+      "confidence": "Medium",
+      "metadata": "Increases risk of delayed recovery"
+    },
+    {
+      "source": "MagneticResonanceImaging",
+      "target": "TraumaticBrainInjury",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        533
+      ],
+      "confidence": "Medium",
+      "metadata": "MRI findings associated with TBI"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "AutomobileDriving",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        557
+      ],
+      "confidence": "Low",
+      "metadata": "Affects driving patterns"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "PhysicalActivity",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        557
+      ],
+      "confidence": "Low",
+      "metadata": "Affects physical activity levels"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Affect",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        81,
+        243
+      ],
+      "confidence": "High",
+      "metadata": "Affects mood and causes emotional disturbances"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "QualityOfLife",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        87
+      ],
+      "confidence": "High",
+      "metadata": "Causes poor quality of life"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Disability",
+      "mechanism": "causes",
+      "evidence_ref": [
+        87,
+        490
+      ],
+      "confidence": "High",
+      "metadata": "Leads to functional impairment and disability"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Mortality",
+      "mechanism": "increases",
+      "evidence_ref": [
+        201
+      ],
+      "confidence": "High",
+      "metadata": "Increases risk of 5-year mortality"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Pain",
+      "mechanism": "causes",
+      "evidence_ref": [
+        264
+      ],
+      "confidence": "Medium",
+      "metadata": "Associated with pain outcomes"
+    },
+    {
+      "source": "Demography",
+      "target": "TraumaticBrainInjury",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        533
+      ],
+      "confidence": "Medium",
+      "metadata": "Demographics predict TBI outcomes"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Brain_Tissue",
+      "mechanism": "causes",
+      "evidence_ref": [
+        5,
+        122
+      ],
+      "confidence": "Medium",
+      "metadata": "Afffects brain vulnerability and causes injury effects"
+    }
+  ]
+}

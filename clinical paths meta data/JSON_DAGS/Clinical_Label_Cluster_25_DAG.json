@@ -1,0 +1,483 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 21,
+    "edge_count": 22
+  },
+  "nodes": [
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "Traumatic Brain Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111"
+      },
+      "synonyms": [
+        "TBI",
+        "Mild Traumatic Brain Injury",
+        "mTBI",
+        "Moderate Traumatic Brain Injury",
+        "Severe Head Injury",
+        "Concussion",
+        "Repeated Mild Traumatic Brain Injury"
+      ]
+    },
+    {
+      "id": "PostTraumaticHeadache",
+      "label": "Post-Traumatic Headache",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0018681"
+      },
+      "synonyms": [
+        "Headache, Post-Traumatic"
+      ]
+    },
+    {
+      "id": "PostConcussionSyndrome",
+      "label": "Post-Concussion Syndrome",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0032735"
+      },
+      "synonyms": [
+        "Persistent Symptoms",
+        "PCS"
+      ]
+    },
+    {
+      "id": "Cognition",
+      "label": "Cognition",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0009241"
+      },
+      "synonyms": [
+        "Cognitive Performance",
+        "Cognitive Function"
+      ]
+    },
+    {
+      "id": "GrayMatter",
+      "label": "Gray Matter",
+      "type": "Anatomy",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0018214"
+      },
+      "synonyms": [
+        "Grey Matter"
+      ]
+    },
+    {
+      "id": "NervousSystemDiseases",
+      "label": "Nervous System Diseases",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027765"
+      },
+      "synonyms": [
+        "Neurological Disease",
+        "Neurologic Disorders"
+      ]
+    },
+    {
+      "id": "N200",
+      "label": "N200",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0424683"
+      },
+      "synonyms": [
+        "N200 Wave",
+        "N200 Amplitude"
+      ]
+    },
+    {
+      "id": "N100",
+      "label": "N100",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0424680"
+      },
+      "synonyms": [
+        "N100 Response",
+        "N100 Wave"
+      ]
+    },
+    {
+      "id": "Anxiety",
+      "label": "Anxiety",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0003467"
+      },
+      "synonyms": [
+        "Anxiety State"
+      ]
+    },
+    {
+      "id": "HearingLoss",
+      "label": "Hearing Loss",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0018772"
+      },
+      "synonyms": [
+        "Hypoacusis"
+      ]
+    },
+    {
+      "id": "AuditoryEvokedPotentials",
+      "label": "Auditory Evoked Potentials",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0014549"
+      },
+      "synonyms": [
+        "Auditory Event Related Potentials"
+      ]
+    },
+    {
+      "id": "CognitiveImpairment",
+      "label": "Cognitive Impairment",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0338656"
+      },
+      "synonyms": [
+        "Cognitive Dysfunction",
+        "Cognitive Decline",
+        "Cognitive Disorder"
+      ]
+    },
+    {
+      "id": "InternalizingSymptoms",
+      "label": "Internalizing Symptoms",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0557874"
+      },
+      "synonyms": [
+        "Internalizing Psychopathology",
+        "Internalizing Behavior"
+      ]
+    },
+    {
+      "id": "MildCognitiveImpairment",
+      "label": "Mild Cognitive Impairment",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C1270972"
+      },
+      "synonyms": [
+        "MCI"
+      ]
+    },
+    {
+      "id": "ReactionTime",
+      "label": "Reaction Time",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0034746"
+      },
+      "synonyms": [
+        "Response Time"
+      ]
+    },
+    {
+      "id": "GlymphaticSystem",
+      "label": "Glymphatic System",
+      "type": "Anatomy",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C4279768"
+      },
+      "synonyms": [
+        "Glymphatic Clearance Pathway",
+        "ALPS Index target"
+      ]
+    },
+    {
+      "id": "Dizziness",
+      "label": "Dizziness",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0012833"
+      },
+      "synonyms": [
+        "Vertigo",
+        "Lightheadedness"
+      ]
+    },
+    {
+      "id": "SleepWakeDisorders",
+      "label": "Sleep Wake Disorders",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0037317"
+      },
+      "synonyms": [
+        "Sleep Disorders"
+      ]
+    },
+    {
+      "id": "Nausea",
+      "label": "Nausea",
+      "type": "Disease",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0027497"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "AffectiveSymptoms",
+      "label": "Affective Symptoms",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0001618"
+      },
+      "synonyms": [
+        "Emotional Issues",
+        "Emotional Affective Symptoms",
+        "Mood Disturbances"
+      ]
+    },
+    {
+      "id": "NeuropsychiatricDisorders",
+      "label": "Neuropsychiatric Disorders",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027769"
+      },
+      "synonyms": [
+        "Neuropsychiatric Manifestation"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "PostTraumaticHeadache",
+      "mechanism": "causes",
+      "evidence_ref": [
+        521
+      ],
+      "confidence": "High",
+      "metadata": "Context: Mild TBI"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "PostConcussionSyndrome",
+      "mechanism": "causes",
+      "evidence_ref": [
+        57
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Repeated Mild TBI causing Persistent Symptoms"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Cognition",
+      "mechanism": "affects",
+      "evidence_ref": [
+        98
+      ],
+      "confidence": "High",
+      "metadata": "Context: Mild TBI affects Cognitive Performance"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "GrayMatter",
+      "mechanism": "affects",
+      "evidence_ref": [
+        98
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Mild TBI affects Morphology"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "NervousSystemDiseases",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        131
+      ],
+      "confidence": "High",
+      "metadata": "Context: Mild TBI associated with Neurological Disease Risk"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "N200",
+      "mechanism": "affects",
+      "evidence_ref": [
+        170
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Mild TBI affects Amplitude"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "N100",
+      "mechanism": "affects",
+      "evidence_ref": [
+        170
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Repetitive Mild TBI affects Response"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Anxiety",
+      "mechanism": "associated_with",
+      "evidence_ref": [
+        170
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Mild TBI"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "HearingLoss",
+      "mechanism": "associated_with",
+      "evidence_ref": [
+        170
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Mild TBI"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "AuditoryEvokedPotentials",
+      "mechanism": "affects",
+      "evidence_ref": [
+        170
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Mild TBI"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "CognitiveImpairment",
+      "mechanism": "causes",
+      "evidence_ref": [
+        170,
+        185,
+        521,
+        559
+      ],
+      "confidence": "High",
+      "metadata": "Context: Mild and Moderate TBI; includes Cognitive Decline Risk and Cognitive Dysfunction"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "InternalizingSymptoms",
+      "mechanism": "associated_with",
+      "evidence_ref": [
+        170
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Mild TBI associated with Internalizing Psychopathology"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "MildCognitiveImpairment",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        213
+      ],
+      "confidence": "High",
+      "metadata": "Context: History/Severity of TBI upregulates risk and causes diagnosis"
+    },
+    {
+      "source": "Dizziness",
+      "target": "ReactionTime",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        225
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Decrement in reaction time"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "GlymphaticSystem",
+      "mechanism": "affects",
+      "evidence_ref": [
+        458
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Mild TBI affects ALPS Index"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Dizziness",
+      "mechanism": "causes",
+      "evidence_ref": [
+        521
+      ],
+      "confidence": "High",
+      "metadata": "Context: Mild TBI"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "SleepWakeDisorders",
+      "mechanism": "causes",
+      "evidence_ref": [
+        521
+      ],
+      "confidence": "High",
+      "metadata": "Context: Mild TBI causes Sleep Disorders"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Nausea",
+      "mechanism": "causes",
+      "evidence_ref": [
+        521
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Mild TBI"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "AffectiveSymptoms",
+      "mechanism": "causes",
+      "evidence_ref": [
+        521
+      ],
+      "confidence": "High",
+      "metadata": "Context: Mild TBI causes Emotional Issues/Affective Symptoms"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "NeuropsychiatricDisorders",
+      "mechanism": "associated_with",
+      "evidence_ref": [
+        559
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Mild and Moderate TBI"
+    }
+  ]
+}

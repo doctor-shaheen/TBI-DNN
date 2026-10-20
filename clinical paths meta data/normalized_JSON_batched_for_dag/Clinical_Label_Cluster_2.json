@@ -1,0 +1,345 @@
+[
+    {
+        "source_abstract_id":280,
+        "subject":"Traumatic brain injury with loss of consciousness",
+        "relation":"not_associated_with",
+        "object":"Cognitive decline",
+        "entity_variants":"loss of consciousness"
+    },
+    {
+        "source_abstract_id":280,
+        "subject":"Traumatic brain injury",
+        "relation":"not_associated_with",
+        "object":"Cognitive decline",
+        "entity_variants":"loss of consciousness"
+    },
+    {
+        "source_abstract_id":280,
+        "subject":"Traumatic brain injury with loss of consciousness",
+        "relation":"not_associated_with",
+        "object":"Cognitive change",
+        "entity_variants":"loss of consciousness"
+    },
+    {
+        "source_abstract_id":280,
+        "subject":"Traumatic brain injury",
+        "relation":"not_associated_with",
+        "object":"Cognitive change",
+        "entity_variants":"loss of consciousness"
+    },
+    {
+        "source_abstract_id":280,
+        "subject":"Traumatic brain injury with loss of consciousness",
+        "relation":"not_associated_with",
+        "object":"Cognitive change",
+        "entity_variants":"loss of consciousness"
+    },
+    {
+        "source_abstract_id":280,
+        "subject":"Traumatic brain injury",
+        "relation":"not_associated_with",
+        "object":"Cognitive change",
+        "entity_variants":"loss of consciousness"
+    },
+    {
+        "source_abstract_id":289,
+        "subject":"Submild traumatic brain injury",
+        "relation":"triggers",
+        "object":"Subjective cognitive decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":324,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cognitive Decline",
+        "entity_variants":"TBI"
+    },
+    {
+        "source_abstract_id":601,
+        "subject":"Pediatric Traumatic Brain Injury",
+        "relation":"no_association",
+        "object":"Accelerated Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":12,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":12,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":12,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":12,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":19,
+        "subject":"Traumatic Brain Injury",
+        "relation":"negatively_associated_with",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":39,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":48,
+        "subject":"Traumatic Brain Injury",
+        "relation":"upregulates",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":65,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":65,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":65,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":65,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":65,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":65,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":65,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":65,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":78,
+        "subject":"Traumatic Brain Injury",
+        "relation":"no_direct_causal_link",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":96,
+        "subject":"Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":127,
+        "subject":"Traumatic Brain Injury",
+        "relation":"no_direct_causal_link",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":127,
+        "subject":"Time Since Injury",
+        "relation":"negatively_associated_with",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":127,
+        "subject":"Injury Severity",
+        "relation":"negatively_associated_with",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":154,
+        "subject":"Traumatic Brain Injury",
+        "relation":"no_direct_causal_link",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":164,
+        "subject":"Traumatic Brain Injury",
+        "relation":"no_direct_causal_link",
+        "object":"Neurocognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":181,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":214,
+        "subject":"Traumatic Brain Injury",
+        "relation":"influences",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":218,
+        "subject":"Traumatic Brain Injury",
+        "relation":"is_risk_factor_for",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":219,
+        "subject":"Traumatic Brain Injury",
+        "relation":"negatively_associated_with",
+        "object":"Progressive Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":219,
+        "subject":"Traumatic Brain Injury",
+        "relation":"negatively_associated_with",
+        "object":"Cognitive Decline in Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":254,
+        "subject":"Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":280,
+        "subject":"Traumatic Brain Injury",
+        "relation":"no_direct_causal_link",
+        "object":"Cognitive Decline",
+        "entity_variants":"LOC"
+    },
+    {
+        "source_abstract_id":280,
+        "subject":"Traumatic Brain Injury",
+        "relation":"no_direct_causal_link",
+        "object":"Cognitive Decline",
+        "entity_variants":"LOC"
+    },
+    {
+        "source_abstract_id":317,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":370,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":427,
+        "subject":"Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":452,
+        "subject":"Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":462,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":509,
+        "subject":"Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":537,
+        "subject":"Traumatic Brain Injury",
+        "relation":"no_direct_causal_link",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":541,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":561,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":564,
+        "subject":"Traumatic Brain Injury",
+        "relation":"binds_to",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    }
+]

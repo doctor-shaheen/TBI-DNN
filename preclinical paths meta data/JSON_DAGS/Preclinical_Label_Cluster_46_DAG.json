@@ -1,0 +1,183 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 7,
+    "edge_count": 6
+  },
+  "nodes": [
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "Traumatic Brain Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111",
+        "MeSH": "D001930"
+      },
+      "synonyms": [
+        "TBI",
+        "Mild Traumatic Brain Injury",
+        "Concussive Injury",
+        "Repeated Traumatic Brain Injury",
+        "Blast Injury",
+        "Military Exposure"
+      ]
+    },
+    {
+      "id": "Anatabine",
+      "label": "Anatabine",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "ChEBI": "CHEBI:2705",
+        "PubChem": "11388"
+      },
+      "synonyms": [
+        "Delayed Anatabine Treatment"
+      ]
+    },
+    {
+      "id": "SpatialMemory",
+      "label": "Spatial Memory",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "GO": "GO:0042617",
+        "UMLS_CUI": "C0037817"
+      },
+      "synonyms": [
+        "Spatial Cognitive Decline",
+        "Spatial Memory Deficit",
+        "Spatial Memory Impairment",
+        "Performance in Morris Water Maze"
+      ]
+    },
+    {
+      "id": "SpatialLearning",
+      "label": "Spatial Learning",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "GO": "GO:0046327"
+      },
+      "synonyms": [
+        "Spatial Search Strategies",
+        "Spatial Learning Deficits"
+      ]
+    },
+    {
+      "id": "WorkingMemory",
+      "label": "Working Memory",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "GO": "GO:0019702",
+        "UMLS_CUI": "C0025324"
+      },
+      "synonyms": [
+        "Short-Term Working Memory",
+        "Working Memory Deficits"
+      ]
+    },
+    {
+      "id": "SpatialWorkingMemory",
+      "label": "Spatial Working Memory",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "GO": "GO:0007019"
+      },
+      "synonyms": [
+        "Spatial Working Memory Deficits"
+      ]
+    },
+    {
+      "id": "LimbClasping",
+      "label": "Limb Clasping",
+      "type": "Phenotype",
+      "location": "Systemic",
+      "identifiers": {
+        "HP": "HP:0002516",
+        "UMLS_CUI": "C0427016"
+      },
+      "synonyms": [
+        "Abnormal Limb Clasping",
+        "Hindlimb clasping"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "LimbClasping",
+      "mechanism": "causes",
+      "evidence_ref": [
+        19
+      ],
+      "confidence": "High",
+      "metadata": "Context: Abnormal behavior observed post-injury"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "SpatialMemory",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        19,
+        51,
+        84,
+        121,
+        133,
+        382,
+        409
+      ],
+      "confidence": "High",
+      "metadata": "Context: Manifests as deficits, impairment, or decline; includes military/blast exposure contexts"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "SpatialLearning",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        46,
+        127,
+        339,
+        350
+      ],
+      "confidence": "High",
+      "metadata": "Context: Affects search strategies and learning acquisition; includes repetitive injury models"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "WorkingMemory",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        24,
+        38
+      ],
+      "confidence": "High",
+      "metadata": "Context: Includes concussive and mild injury models causing deficits"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "SpatialWorkingMemory",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        68,
+        355
+      ],
+      "confidence": "High",
+      "metadata": "Context: Repeated mild injury affects this specific memory type"
+    },
+    {
+      "source": "Anatabine",
+      "target": "SpatialMemory",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        133
+      ],
+      "confidence": "High",
+      "metadata": "Context: Improves memory; includes delayed treatment protocols"
+    }
+  ]
+}

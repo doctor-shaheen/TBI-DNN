@@ -1,0 +1,282 @@
+[
+    {
+        "source_abstract_id":9,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"TAR DNA-Binding Protein 43",
+        "entity_variants":"none|"
+    },
+    {
+        "source_abstract_id":9,
+        "subject":"TAR DNA-Binding Protein 43",
+        "relation":"stimulates",
+        "object":"Tau Protein",
+        "entity_variants":"none|"
+    },
+    {
+        "source_abstract_id":9,
+        "subject":"TAR DNA-Binding Protein 43",
+        "relation":"promotes",
+        "object":"Amyloid Beta",
+        "entity_variants":"none|"
+    },
+    {
+        "source_abstract_id":9,
+        "subject":"TAR DNA-Binding Protein 43 Silencing",
+        "relation":"treats",
+        "object":"Neuropathological Changes",
+        "entity_variants":"none|"
+    },
+    {
+        "source_abstract_id":9,
+        "subject":"TAR DNA-Binding Protein 43 Rescue",
+        "relation":"reverses",
+        "object":"Neuropathological Changes",
+        "entity_variants":"none|"
+    },
+    {
+        "source_abstract_id":9,
+        "subject":"TAR DNA-Binding Protein 43 Overexpression",
+        "relation":"aggravates",
+        "object":"Alzheimer Disease Neuropathology",
+        "entity_variants":"none|"
+    },
+    {
+        "source_abstract_id":9,
+        "subject":"TAR DNA-Binding Protein 43 Overexpression",
+        "relation":"causes",
+        "object":"Cognitive Impairment",
+        "entity_variants":"none|"
+    },
+    {
+        "source_abstract_id":13,
+        "subject":"Nuclear Pore Complex Proteins",
+        "relation":"coaggregates_with",
+        "object":"TAR DNA-Binding Protein 43",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":13,
+        "subject":"Nucleocytoplasmic Transport Defects",
+        "relation":"mediates",
+        "object":"TAR DNA-Binding Protein 43 Pathology",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":13,
+        "subject":"Genetic Upregulation of Nucleoporins",
+        "relation":"triggers",
+        "object":"TAR DNA-Binding Protein 43 Mislocalization",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":13,
+        "subject":"TAR DNA-Binding Protein 43 Mislocalization",
+        "relation":"causes",
+        "object":"TAR DNA-Binding Protein 43 Aggregation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":13,
+        "subject":"TAR DNA-Binding Protein 43 Aggregation",
+        "relation":"reduces",
+        "object":"Motor Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":13,
+        "subject":"TAR DNA-Binding Protein 43 Aggregation",
+        "relation":"reduces",
+        "object":"Lifespan",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":13,
+        "subject":"Nucleoporin 62",
+        "relation":"co-localizes_with",
+        "object":"TAR DNA-Binding Protein 43",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":15,
+        "subject":"Repetitive Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"TAR DNA-Binding Protein 43 Pathology",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":19,
+        "subject":"Traumatic Brain Injury",
+        "relation":"produces",
+        "object":"TAR DNA-Binding Protein 43 Proteolysis",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":19,
+        "subject":"TAR DNA-Binding Protein 43 Proteolysis",
+        "relation":"causes",
+        "object":"Behavioral Impairments",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":19,
+        "subject":"Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"TAR DNA-Binding Protein 43 Inclusions",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":19,
+        "subject":"TAR DNA-Binding Protein 43 Proteolysis",
+        "relation":"mediates",
+        "object":"Cognitive Impairments",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":19,
+        "subject":"TAR DNA-Binding Protein 43 Short Fragment Mislocalization",
+        "relation":"associated_with",
+        "object":"Frontotemporal Dementia Symptoms",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":138,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"TAR DNA-Binding Protein 43 Mislocalization",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":215,
+        "subject":"TAR DNA-Binding Protein 43 G348C Variant",
+        "relation":"does_not_modify",
+        "object":"Effects of Repetitive Mild Traumatic Brain Injury",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":230,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"TAR DNA-Binding Protein 43 Granules",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":230,
+        "subject":"TAR DNA-Binding Protein 43 Granules",
+        "relation":"co-localizes_with",
+        "object":"Fragile X Mental Retardation Protein",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":230,
+        "subject":"TAR DNA-Binding Protein 43 Granules",
+        "relation":"co-localizes_with",
+        "object":"Sequestosome-1",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":230,
+        "subject":"Traumatic Brain Injury",
+        "relation":"modulates",
+        "object":"TAR DNA-Binding Protein 43 Granules",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":230,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Phosphorylated TAR DNA-Binding Protein 43 Granules",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":230,
+        "subject":"TAR DNA-Binding Protein 43 Granules",
+        "relation":"returns_to_baseline",
+        "object":"Phosphorylated TAR DNA-Binding Protein 43 Positive Neurons",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":316,
+        "subject":"TAR DNA-Binding Protein 43",
+        "relation":"facilitates",
+        "object":"Neurodegenerative Pathology",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":351,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"TAR DNA-Binding Protein 43 Abnormalities",
+        "entity_variants":"unknown|"
+    },
+    {
+        "source_abstract_id":351,
+        "subject":"TAR DNA-Binding Protein 43 Abnormalities",
+        "relation":"mediates",
+        "object":"Cell Death",
+        "entity_variants":"unknown|"
+    },
+    {
+        "source_abstract_id":351,
+        "subject":"TAR DNA-Binding Protein 43 Abnormalities",
+        "relation":"mediates",
+        "object":"Cognitive Deficits",
+        "entity_variants":"unknown|"
+    },
+    {
+        "source_abstract_id":351,
+        "subject":"TAR DNA-Binding Protein 43 Abnormalities",
+        "relation":"binds_to",
+        "object":"Nuclear Fragments",
+        "entity_variants":"unknown|"
+    },
+    {
+        "source_abstract_id":351,
+        "subject":"TAR DNA-Binding Protein 43 A315T Mouse Model",
+        "relation":"aggravates",
+        "object":"TAR DNA-Binding Protein 43 Abnormalities",
+        "entity_variants":"tdp-43A315T|"
+    },
+    {
+        "source_abstract_id":351,
+        "subject":"TAR DNA-Binding Protein 43 A315T Mouse Model",
+        "relation":"causes",
+        "object":"Cognitive Deficits",
+        "entity_variants":"tdp-43A315T|"
+    },
+    {
+        "source_abstract_id":351,
+        "subject":"TAR DNA-Binding Protein 43 A315T Mouse Model",
+        "relation":"causes",
+        "object":"Cell Death",
+        "entity_variants":"tdp-43A315T|"
+    },
+    {
+        "source_abstract_id":351,
+        "subject":"TAR DNA-Binding Protein 43 Abnormalities",
+        "relation":"associated_with",
+        "object":"Neurological Consequences",
+        "entity_variants":"unknown|"
+    },
+    {
+        "source_abstract_id":351,
+        "subject":"TAR DNA-Binding Protein 43 Abnormalities",
+        "relation":"influences",
+        "object":"Functional Outcomes",
+        "entity_variants":"unknown|"
+    },
+    {
+        "source_abstract_id":386,
+        "subject":"Military Blast Injury",
+        "relation":"causes",
+        "object":"TAR DNA-Binding Protein 43",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":386,
+        "subject":"TAR DNA-Binding Protein 43",
+        "relation":"downregulates",
+        "object":"Neurodegeneration",
+        "entity_variants":null
+    }
+]

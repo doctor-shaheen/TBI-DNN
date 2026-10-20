@@ -1,0 +1,255 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 10,
+    "edge_count": 10
+  },
+  "nodes": [
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "Traumatic Brain Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111",
+        "MeSH": "D001930"
+      },
+      "synonyms": [
+        "TBI",
+        "Mild Traumatic Brain Injury",
+        "Severe Traumatic Brain Injury",
+        "Head Injury"
+      ]
+    },
+    {
+      "id": "RBFOX3",
+      "label": "RBFOX3",
+      "type": "Gene",
+      "location": "Nucleus",
+      "identifiers": {
+        "HGNC_ID": "HGNC:16631",
+        "UMLS_CUI": "C1422731",
+        "UniProt_ID": "A6NFN3"
+      },
+      "synonyms": [
+        "NeuN",
+        "Fox-3",
+        "RNA binding fox-1 homolog 3"
+      ]
+    },
+    {
+      "id": "Apoptosis",
+      "label": "Apoptosis",
+      "type": "Process",
+      "location": "Neuron",
+      "identifiers": {
+        "GO_ID": "GO:0006915",
+        "UMLS_CUI": "C0003615"
+      },
+      "synonyms": [
+        "Programmed Cell Death",
+        "Neuronal Apoptosis"
+      ]
+    },
+    {
+      "id": "NeuronalDeath",
+      "label": "Neuronal Death",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "GO_ID": "GO:0070997",
+        "UMLS_CUI": "C0270612"
+      },
+      "synonyms": [
+        "Neuronal Loss",
+        "Neuronal Cell Death",
+        "Loss of Neurons",
+        "Neuronal Density Decrease",
+        "Hippocampal Neuron Death"
+      ]
+    },
+    {
+      "id": "CellDeath",
+      "label": "Cell Death",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "GO_ID": "GO:0008219",
+        "UMLS_CUI": "C0007587"
+      },
+      "synonyms": [
+        "Cellular Loss",
+        "Cell death"
+      ]
+    },
+    {
+      "id": "NeuronalPlasticity",
+      "label": "Neuronal Plasticity",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "GO_ID": "GO:0048666",
+        "UMLS_CUI": "C0027863"
+      },
+      "synonyms": [
+        "Neuroplasticity",
+        "Loss of Neuronal Plasticity"
+      ]
+    },
+    {
+      "id": "SynapticIntegrity",
+      "label": "Synaptic Integrity",
+      "type": "Process",
+      "location": "Synapse",
+      "identifiers": {
+        "UMLS_CUI": "C5441864"
+      },
+      "synonyms": [
+        "Histological Markers of Axonal and Synaptic Integrity"
+      ]
+    },
+    {
+      "id": "CellSurvival",
+      "label": "Cell Survival",
+      "type": "Process",
+      "location": "Neuron",
+      "identifiers": {
+        "UMLS_CUI": "C0596323"
+      },
+      "synonyms": [
+        "Neuronal Survival"
+      ]
+    },
+    {
+      "id": "Cytotoxicity",
+      "label": "Cytotoxicity",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0010839"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "NeuronalFunction",
+      "label": "Neuronal Function",
+      "type": "Process",
+      "location": "Neuron",
+      "identifiers": {
+        "UMLS_CUI": "C0027855"
+      },
+      "synonyms": [
+        "Neuronal Functions"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "NeuronalFunction",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        353
+      ],
+      "confidence": "Medium",
+      "metadata": "Effect: Affects neuronal functions"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Apoptosis",
+      "mechanism": "causes",
+      "evidence_ref": [
+        22,
+        119,
+        236,
+        259,
+        278,
+        350
+      ],
+      "confidence": "High",
+      "metadata": "Context: Includes Mild TBI (Ref 119) and Neuronal Apoptosis"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "NeuronalDeath",
+      "mechanism": "causes",
+      "evidence_ref": [
+        5,
+        84,
+        151,
+        170,
+        176,
+        252,
+        274,
+        299,
+        357,
+        388
+      ],
+      "confidence": "High",
+      "metadata": "Context: Includes Severe TBI (Ref 299) and Hippocampal Neuron Death (Ref 357)"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "CellDeath",
+      "mechanism": "causes",
+      "evidence_ref": [
+        258,
+        325,
+        375
+      ],
+      "confidence": "High",
+      "metadata": "Context: General cellular loss"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "SynapticIntegrity",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        5
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Loss of markers of integrity"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "NeuronalPlasticity",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        61
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Loss of plasticity"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "CellSurvival",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        145
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Negative association with survival"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Cytotoxicity",
+      "mechanism": "causes",
+      "evidence_ref": [
+        162
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "RBFOX3",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        198,
+        266
+      ],
+      "confidence": "High",
+      "metadata": "Context: Decreased expression/Downregulation of NeuN"
+    }
+  ]
+}

@@ -1,0 +1,254 @@
+[
+    {
+        "source_abstract_id":20,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Chromatolysis",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":495,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Progressive Axonal Degeneration",
+        "entity_variants":"not specified"
+    },
+    {
+        "source_abstract_id":574,
+        "subject":"Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Neurodegenerative Diseases",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":8,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Neurodegeneration",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":20,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Ballooned Neurons",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":20,
+        "subject":"Ballooned Neurons",
+        "relation":"associated_with",
+        "object":"Severe Traumatic Brain Injury",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":53,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Neurodegeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":114,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Loss of Neuronal Expression",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":139,
+        "subject":"Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Long-Term Neurodegeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":208,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Neuronal Loss",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":212,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Demyelination",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":212,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Neurodegenerative Processes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":214,
+        "subject":"Traumatic Brain Injury",
+        "relation":"mediates",
+        "object":"Neurodegeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":219,
+        "subject":"Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Neurodegenerative Changes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":263,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Neuronal Development",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":273,
+        "subject":"Traumatic Brain Injury",
+        "relation":"increases_risk_of",
+        "object":"Neurodegenerative Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":277,
+        "subject":"Traumatic Brain Injury",
+        "relation":"increases_risk_of",
+        "object":"Neurodegenerative Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":371,
+        "subject":"Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Neurodegenerative Sequelae",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":372,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Synaptic Loss",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":379,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Neurodegeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":386,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Neurodegenerative Conditions",
+        "entity_variants":"not_reported"
+    },
+    {
+        "source_abstract_id":388,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Brainstem Degeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":392,
+        "subject":"Axonal Injury",
+        "relation":"causes",
+        "object":"Neurodegeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":403,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Neurodegenerative Diseases",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":403,
+        "subject":"Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Neurodegeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":405,
+        "subject":"Injury Mechanisms",
+        "relation":"affects",
+        "object":"Neurodegeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":405,
+        "subject":"Mechanical Trauma",
+        "relation":"causes",
+        "object":"Neurodegeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":416,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Neurodegenerative Disease",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":426,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Neuronal Loss",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":431,
+        "subject":"Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Neurodegeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":477,
+        "subject":"Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Neurodegeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":484,
+        "subject":"Head Injury",
+        "relation":"negatively_associated_with",
+        "object":"Neurodegenerative Condition",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":495,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Neuronal Loss",
+        "entity_variants":"not specified"
+    },
+    {
+        "source_abstract_id":577,
+        "subject":"Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Neurodegeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":578,
+        "subject":"Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Neurodegenerative Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":267,
+        "subject":"Posttraumatic Stress Disorder",
+        "relation":"causes",
+        "object":"Neurodegeneration",
+        "entity_variants":null
+    }
+]

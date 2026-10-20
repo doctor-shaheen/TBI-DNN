@@ -1,0 +1,1354 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 68,
+    "edge_count": 82
+  },
+  "nodes": [
+    {
+      "id": "AscorbicAcid",
+      "label": "Ascorbic Acid",
+      "type": "Chemical",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "ChEBI": "22652",
+        "UMLS_CUI": "C0003968"
+      },
+      "synonyms": [
+        "Ascorbate",
+        "Vitamin C",
+        "L-Ascorbic Acid"
+      ]
+    },
+    {
+      "id": "CNSFunction",
+      "label": "Central Nervous System Physiology",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "GO": "GO:0099689",
+        "UMLS_CUI": "C0007802"
+      },
+      "synonyms": [
+        "Central Nervous System Function"
+      ]
+    },
+    {
+      "id": "VanillicAcid",
+      "label": "Vanillic Acid",
+      "type": "Chemical",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "ChEBI": "18356",
+        "UMLS_CUI": "C0042302"
+      },
+      "synonyms": [
+        "4-Hydroxy-3-methoxybenzoic acid"
+      ]
+    },
+    {
+      "id": "OxidativeStress",
+      "label": "Oxidative Stress",
+      "type": "Pathology",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "UMLS_CUI": "C0029944",
+        "MeSH": "D018384"
+      },
+      "synonyms": [
+        "Post-Traumatic Oxidative Stress"
+      ]
+    },
+    {
+      "id": "CyclicGMP",
+      "label": "Cyclic GMP",
+      "type": "Chemical",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "ChEBI": "16356",
+        "UMLS_CUI": "C0018658"
+      },
+      "synonyms": [
+        "Cyclic Guanosine Monophosphate",
+        "cGMP"
+      ]
+    },
+    {
+      "id": "SynapticTransmission",
+      "label": "Synaptic Transmission",
+      "type": "Process",
+      "location": "Synapse",
+      "identifiers": {
+        "GO": "GO:0007268",
+        "UMLS_CUI": "C0039062"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "GUCY1A1",
+      "label": "Guanylate Cyclase 1 Soluble Subunit Alpha 1",
+      "type": "Protein",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "HGNC_ID": "HGNC:4686",
+        "UMLS_CUI": "C1415306"
+      },
+      "synonyms": [
+        "Guanylyl Cyclase Isoform 1",
+        "Guanylate Cyclase 1",
+        "GUCY1A3"
+      ]
+    },
+    {
+      "id": "NeuronalActivity",
+      "label": "Neuronal Activity",
+      "type": "Process",
+      "location": "Neuron",
+      "identifiers": {
+        "GO": "GO:0000000",
+        "UMLS_CUI": "C0027882"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "CorticalNetworkFunction",
+      "label": "Cortical Network Activity",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0007776"
+      },
+      "synonyms": [
+        "Ipsilateral Cortical Network Function"
+      ]
+    },
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "Traumatic Brain Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111",
+        "MeSH": "D001930"
+      },
+      "synonyms": [
+        "TBI",
+        "Injured Brain"
+      ]
+    },
+    {
+      "id": "NOS2",
+      "label": "Nitric Oxide Synthase 2",
+      "type": "Protein",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "HGNC_ID": "HGNC:7873",
+        "UMLS_CUI": "C0242404"
+      },
+      "synonyms": [
+        "Inducible Nitric Oxide Synthase",
+        "iNOS"
+      ]
+    },
+    {
+      "id": "MMP2",
+      "label": "Matrix Metallopeptidase 2",
+      "type": "Protein",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "HGNC_ID": "HGNC:7166",
+        "UMLS_CUI": "C0067645"
+      },
+      "synonyms": [
+        "Gelatinase A"
+      ]
+    },
+    {
+      "id": "MP201",
+      "label": "MP201",
+      "type": "Chemical",
+      "location": "Mitochondria",
+      "identifiers": {
+        "UMLS_CUI": "C0000000"
+      },
+      "synonyms": [
+        "Mitochondrial uncoupler candidate"
+      ]
+    },
+    {
+      "id": "ReactiveOxygenSpecies",
+      "label": "Reactive Oxygen Species",
+      "type": "Chemical",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "ChEBI": "26523",
+        "UMLS_CUI": "C0017638"
+      },
+      "synonyms": [
+        "ROS",
+        "Free Radicals"
+      ]
+    },
+    {
+      "id": "Procyanidins",
+      "label": "Procyanidins",
+      "type": "Chemical",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "ChEBI": "26268",
+        "UMLS_CUI": "C0033236"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Glutathione",
+      "label": "Glutathione",
+      "type": "Chemical",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "ChEBI": "16856",
+        "UMLS_CUI": "C0017777"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "SOD1",
+      "label": "Superoxide Dismutase 1",
+      "type": "Protein",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "HGNC_ID": "HGNC:11179",
+        "UMLS_CUI": "C0038848"
+      },
+      "synonyms": [
+        "Superoxide Dismutase",
+        "Cu-Zn Superoxide Dismutase"
+      ]
+    },
+    {
+      "id": "Malondialdehyde",
+      "label": "Malondialdehyde",
+      "type": "Chemical",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "ChEBI": "16656",
+        "UMLS_CUI": "C0024628"
+      },
+      "synonyms": [
+        "MDA"
+      ]
+    },
+    {
+      "id": "CREB1",
+      "label": "CAMP Responsive Element Binding Protein 1",
+      "type": "Protein",
+      "location": "Nucleus",
+      "identifiers": {
+        "HGNC_ID": "HGNC:2345",
+        "UMLS_CUI": "C0069357"
+      },
+      "synonyms": [
+        "cAMP Response Element-Binding Protein"
+      ]
+    },
+    {
+      "id": "CyclicAMP",
+      "label": "Cyclic AMP",
+      "type": "Chemical",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "ChEBI": "17489",
+        "UMLS_CUI": "C0010531"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "OxidativeDamage",
+      "label": "Oxidative Damage",
+      "type": "Pathology",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "UMLS_CUI": "C0000000"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "TPP-D-NAC",
+      "label": "TPP-D-NAC",
+      "type": "Chemical",
+      "location": "Mitochondria",
+      "identifiers": {
+        "UMLS_CUI": "C0000000"
+      },
+      "synonyms": [
+        "Mitochondria-targeted N-acetylcysteine"
+      ]
+    },
+    {
+      "id": "BloodBrainBarrier",
+      "label": "Blood-Brain Barrier",
+      "type": "Anatomy",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0005763",
+        "MeSH": "D001786"
+      },
+      "synonyms": [
+        "BBB"
+      ]
+    },
+    {
+      "id": "Synaptamide",
+      "label": "N-Docosahexaenoylethanolamine",
+      "type": "Chemical",
+      "location": "Synapse",
+      "identifiers": {
+        "ChEBI": "138304",
+        "UMLS_CUI": "C006939"
+      },
+      "synonyms": [
+        "Synaptamide"
+      ]
+    },
+    {
+      "id": "MicroglialResponse",
+      "label": "Microglial Activation",
+      "type": "Process",
+      "location": "Microglia",
+      "identifiers": {
+        "GO": "GO:0001774",
+        "UMLS_CUI": "C0026003"
+      },
+      "synonyms": [
+        "Microglial Response"
+      ]
+    },
+    {
+      "id": "LGALS3",
+      "label": "Galectin 3",
+      "type": "Protein",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "HGNC_ID": "HGNC:6563",
+        "UMLS_CUI": "C0018598"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "NFKB1",
+      "label": "Nuclear Factor Kappa B Subunit 1",
+      "type": "Protein",
+      "location": "Nucleus",
+      "identifiers": {
+        "HGNC_ID": "HGNC:7794",
+        "UMLS_CUI": "C0028638"
+      },
+      "synonyms": [
+        "Nuclear factor kappa B"
+      ]
+    },
+    {
+      "id": "HumanPlateletLysate",
+      "label": "Human Platelet Lysate",
+      "type": "Material",
+      "location": "Blood",
+      "identifiers": {
+        "UMLS_CUI": "C0000000"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "LipidPeroxidationProducts",
+      "label": "Lipid Peroxidation Products",
+      "type": "Chemical",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "UMLS_CUI": "C0000000"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Neurons",
+      "label": "Neurons",
+      "type": "Cell",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027882",
+        "MeSH": "D009474"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "NeuroprotectiveCopolymers",
+      "label": "Neuroprotective Copolymers",
+      "type": "Chemical",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0000000"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "HydrogenRichWater",
+      "label": "Hydrogen-Rich Water",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0000000"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "HighFatDiet",
+      "label": "High-Fat Diet",
+      "type": "Exposure",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0242206"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Evodiamine",
+      "label": "Evodiamine",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "ChEBI": "5055",
+        "UMLS_CUI": "C0059523"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "CAT",
+      "label": "Catalase",
+      "type": "Protein",
+      "location": "Peroxisome",
+      "identifiers": {
+        "HGNC_ID": "HGNC:1516",
+        "UMLS_CUI": "C0007355"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "SOD2",
+      "label": "Superoxide Dismutase 2",
+      "type": "Protein",
+      "location": "Mitochondria",
+      "identifiers": {
+        "HGNC_ID": "HGNC:11180",
+        "UMLS_CUI": "C0038849"
+      },
+      "synonyms": [
+        "Mn Superoxide Dismutase"
+      ]
+    },
+    {
+      "id": "NeurologicalDysfunction",
+      "label": "Neurologic Dysfunction",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0242407"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "BloodBrainBarrierBreakdown",
+      "label": "Blood-Brain Barrier Breakdown",
+      "type": "Pathology",
+      "location": "Blood",
+      "identifiers": {
+        "UMLS_CUI": "C0000000"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Oxiracetam",
+      "label": "Oxiracetam",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "ChEBI": "31960",
+        "UMLS_CUI": "C0069818"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "PTGS2",
+      "label": "Prostaglandin-Endoperoxide Synthase 2",
+      "type": "Protein",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "HGNC_ID": "HGNC:9605",
+        "UMLS_CUI": "C0033621"
+      },
+      "synonyms": [
+        "Cyclooxygenase-2",
+        "COX-2"
+      ]
+    },
+    {
+      "id": "OxygenExposure",
+      "label": "Oxygen Exposure",
+      "type": "Exposure",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0029987"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "EndoplasmicReticulumStress",
+      "label": "Endoplasmic Reticulum Stress",
+      "type": "Process",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "GO": "GO:0034976",
+        "UMLS_CUI": "C1517042"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "ERO1A",
+      "label": "Endoplasmic Reticulum Oxidoreductase 1 Alpha",
+      "type": "Protein",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "HGNC_ID": "HGNC:29953",
+        "UMLS_CUI": "C1423719"
+      },
+      "synonyms": [
+        "ERO1 Alpha"
+      ]
+    },
+    {
+      "id": "Hypoxia",
+      "label": "Hypoxia",
+      "type": "Pathology",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0020643",
+        "MeSH": "D000860"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "HIF1A",
+      "label": "Hypoxia Inducible Factor 1 Subunit Alpha",
+      "type": "Protein",
+      "location": "Nucleus",
+      "identifiers": {
+        "HGNC_ID": "HGNC:4910",
+        "UMLS_CUI": "C0294713"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "IntermittentFasting",
+      "label": "Intermittent Fasting",
+      "type": "Intervention",
+      "location": "Systemic",
+      "identifiers": {
+        "MeSH": "D000072597",
+        "UMLS_CUI": "C4072382"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "ALOX15B",
+      "label": "Arachidonate 15-Lipoxygenase Type B",
+      "type": "Protein",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "HGNC_ID": "HGNC:434",
+        "UMLS_CUI": "C1412356"
+      },
+      "synonyms": [
+        "Arachidonate 8-lipoxygenase",
+        "8-LOX (Mouse)"
+      ]
+    },
+    {
+      "id": "CYBB",
+      "label": "Cytochrome B-245 Beta Chain",
+      "type": "Protein",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "HGNC_ID": "HGNC:2577",
+        "UMLS_CUI": "C1413812"
+      },
+      "synonyms": [
+        "NADPH Oxidase 2",
+        "gp91phox",
+        "NOX2"
+      ]
+    },
+    {
+      "id": "LFHP-1c",
+      "label": "LFHP-1c",
+      "type": "Chemical",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0000000"
+      },
+      "synonyms": [
+        "PGAM5 Inhibitor"
+      ]
+    },
+    {
+      "id": "NitricOxide",
+      "label": "Nitric Oxide",
+      "type": "Chemical",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "ChEBI": "16480",
+        "UMLS_CUI": "C0028128"
+      },
+      "synonyms": [
+        "NO"
+      ]
+    },
+    {
+      "id": "NOS3",
+      "label": "Nitric Oxide Synthase 3",
+      "type": "Protein",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "HGNC_ID": "HGNC:7876",
+        "UMLS_CUI": "C0242407"
+      },
+      "synonyms": [
+        "Endothelial Nitric Oxide Synthase",
+        "eNOS"
+      ]
+    },
+    {
+      "id": "Neuroprotection",
+      "label": "Neuroprotection",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027878"
+      },
+      "synonyms": [
+        "Neuroprotective Effects"
+      ]
+    },
+    {
+      "id": "NOS1",
+      "label": "Nitric Oxide Synthase 1",
+      "type": "Protein",
+      "location": "Neuron",
+      "identifiers": {
+        "HGNC_ID": "HGNC:7872",
+        "UMLS_CUI": "C0242400"
+      },
+      "synonyms": [
+        "Neuronal Nitric Oxide Synthase",
+        "nNOS"
+      ]
+    },
+    {
+      "id": "NOX1",
+      "label": "NADPH Oxidase 1",
+      "type": "Protein",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "HGNC_ID": "HGNC:7890",
+        "UMLS_CUI": "C0288863"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "MacrophageActivation",
+      "label": "Macrophage Activation",
+      "type": "Process",
+      "location": "Immune_System",
+      "identifiers": {
+        "GO": "GO:0042116",
+        "UMLS_CUI": "C0024436"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "STAT1",
+      "label": "Signal Transducer And Activator Of Transcription 1",
+      "type": "Protein",
+      "location": "Nucleus",
+      "identifiers": {
+        "HGNC_ID": "HGNC:11362",
+        "UMLS_CUI": "C0078736"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "ProInflammatoryResponse",
+      "label": "Inflammatory Response",
+      "type": "Process",
+      "location": "Systemic",
+      "identifiers": {
+        "GO": "GO:0006954",
+        "UMLS_CUI": "C0021368"
+      },
+      "synonyms": [
+        "Pro-inflammatory Response"
+      ]
+    },
+    {
+      "id": "TissueLoss",
+      "label": "Tissue Loss",
+      "type": "Pathology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0000000"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "MotorFunctionRecovery",
+      "label": "Motor Function Recovery",
+      "type": "Process",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0000000"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "gp91ds-tat",
+      "label": "gp91ds-tat",
+      "type": "Chemical",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "UMLS_CUI": "C0000000"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "M1MacrophageActivation",
+      "label": "M1 Macrophage Activation",
+      "type": "Process",
+      "location": "Immune_System",
+      "identifiers": {
+        "UMLS_CUI": "C0000000"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "M2MacrophageActivation",
+      "label": "M2 Macrophage Activation",
+      "type": "Process",
+      "location": "Immune_System",
+      "identifiers": {
+        "UMLS_CUI": "C0000000"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Daidzein",
+      "label": "Daidzein",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "ChEBI": "28198",
+        "UMLS_CUI": "C0010960"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "NFE2L2",
+      "label": "NFE2 Like BZIP Transcription Factor 2",
+      "type": "Protein",
+      "location": "Nucleus",
+      "identifiers": {
+        "HGNC_ID": "HGNC:7782",
+        "UMLS_CUI": "C0385559"
+      },
+      "synonyms": [
+        "Nrf2",
+        "Nuclear factor erythroid 2–related factor 2"
+      ]
+    },
+    {
+      "id": "MacrophagePhenotype",
+      "label": "Macrophage Phenotype",
+      "type": "Process",
+      "location": "Immune_System",
+      "identifiers": {
+        "UMLS_CUI": "C0000000"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "DownstreamGenes",
+      "label": "Downstream Gene Targets",
+      "type": "Gene",
+      "location": "Nucleus",
+      "identifiers": {
+        "UMLS_CUI": "C0000000"
+      },
+      "synonyms": []
+    }
+  ],
+  "edges": [
+    {
+      "source": "AscorbicAcid",
+      "target": "CNSFunction",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        153
+      ],
+      "metadata": "Variant: Reduced form of ascorbate"
+    },
+    {
+      "source": "AscorbicAcid",
+      "target": "MicroglialResponse",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        153
+      ],
+      "metadata": "Variant: Reduced form of ascorbate"
+    },
+    {
+      "source": "VanillicAcid",
+      "target": "OxidativeStress",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        170
+      ]
+    },
+    {
+      "source": "CyclicGMP",
+      "target": "SynapticTransmission",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        177
+      ]
+    },
+    {
+      "source": "GUCY1A1",
+      "target": "NeuronalActivity",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        177
+      ]
+    },
+    {
+      "source": "GUCY1A1",
+      "target": "CorticalNetworkFunction",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        177
+      ]
+    },
+    {
+      "source": "GUCY1A1",
+      "target": "CyclicGMP",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        177
+      ]
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "NOS2",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        178
+      ]
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "MMP2",
+      "mechanism": "activates",
+      "evidence_ref": [
+        188
+      ]
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "CYBB",
+      "mechanism": "activates",
+      "evidence_ref": [
+        233
+      ]
+    },
+    {
+      "source": "OxidativeStress",
+      "target": "MMP2",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        188
+      ]
+    },
+    {
+      "source": "MP201",
+      "target": "ReactiveOxygenSpecies",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        210
+      ]
+    },
+    {
+      "source": "Procyanidins",
+      "target": "Glutathione",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        321
+      ]
+    },
+    {
+      "source": "Procyanidins",
+      "target": "SOD1",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        321
+      ]
+    },
+    {
+      "source": "Procyanidins",
+      "target": "Malondialdehyde",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        321
+      ]
+    },
+    {
+      "source": "Procyanidins",
+      "target": "CREB1",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        321
+      ],
+      "metadata": "Increases Phosphorylated and Total CREB"
+    },
+    {
+      "source": "Procyanidins",
+      "target": "CyclicAMP",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        321
+      ]
+    },
+    {
+      "source": "Procyanidins",
+      "target": "OxidativeDamage",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        321
+      ]
+    },
+    {
+      "source": "TPP-D-NAC",
+      "target": "OxidativeStress",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        361
+      ],
+      "metadata": "Attenuates"
+    },
+    {
+      "source": "TPP-D-NAC",
+      "target": "BloodBrainBarrier",
+      "mechanism": "translocates",
+      "evidence_ref": [
+        361
+      ],
+      "metadata": "Penetrates BBB"
+    },
+    {
+      "source": "Synaptamide",
+      "target": "SOD1",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        143
+      ]
+    },
+    {
+      "source": "LGALS3",
+      "target": "NOS2",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        158
+      ]
+    },
+    {
+      "source": "NFKB1",
+      "target": "NOS2",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        391
+      ]
+    },
+    {
+      "source": "HumanPlateletLysate",
+      "target": "ReactiveOxygenSpecies",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        30
+      ]
+    },
+    {
+      "source": "NeuroprotectiveCopolymers",
+      "target": "ReactiveOxygenSpecies",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        239
+      ],
+      "metadata": "Neutralizes"
+    },
+    {
+      "source": "NeuroprotectiveCopolymers",
+      "target": "LipidPeroxidationProducts",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        239
+      ],
+      "metadata": "Neutralizes"
+    },
+    {
+      "source": "NeuroprotectiveCopolymers",
+      "target": "Neurons",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        239
+      ],
+      "metadata": "Protects"
+    },
+    {
+      "source": "NeuroprotectiveCopolymers",
+      "target": "TraumaticBrainInjury",
+      "mechanism": "translocates",
+      "evidence_ref": [
+        239
+      ],
+      "metadata": "Accumulates in Injured Brain"
+    },
+    {
+      "source": "NeuroprotectiveCopolymers",
+      "target": "OxidativeStress",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        239
+      ]
+    },
+    {
+      "source": "HydrogenRichWater",
+      "target": "OxidativeStress",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        69
+      ]
+    },
+    {
+      "source": "HighFatDiet",
+      "target": "OxidativeStress",
+      "mechanism": "causes",
+      "evidence_ref": [
+        155
+      ]
+    },
+    {
+      "source": "Evodiamine",
+      "target": "OxidativeStress",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        234
+      ],
+      "metadata": "Corrected from 'causes' based on 'treats ROS' and 'increases SOD'"
+    },
+    {
+      "source": "Evodiamine",
+      "target": "TraumaticBrainInjury",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        234
+      ]
+    },
+    {
+      "source": "Evodiamine",
+      "target": "ReactiveOxygenSpecies",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        234
+      ]
+    },
+    {
+      "source": "Evodiamine",
+      "target": "CAT",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        234
+      ]
+    },
+    {
+      "source": "Evodiamine",
+      "target": "SOD1",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        234
+      ]
+    },
+    {
+      "source": "Evodiamine",
+      "target": "NeurologicalDysfunction",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        234
+      ]
+    },
+    {
+      "source": "Evodiamine",
+      "target": "BloodBrainBarrierBreakdown",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        234
+      ]
+    },
+    {
+      "source": "Oxiracetam",
+      "target": "SOD1",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        236
+      ]
+    },
+    {
+      "source": "Oxiracetam",
+      "target": "SOD2",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        236
+      ]
+    },
+    {
+      "source": "Oxiracetam",
+      "target": "PTGS2",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        236
+      ]
+    },
+    {
+      "source": "Oxiracetam",
+      "target": "ReactiveOxygenSpecies",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        236
+      ]
+    },
+    {
+      "source": "OxygenExposure",
+      "target": "EndoplasmicReticulumStress",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        304
+      ],
+      "metadata": "Alters ER Stress Protein Expression"
+    },
+    {
+      "source": "ERO1A",
+      "target": "ReactiveOxygenSpecies",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        304
+      ],
+      "metadata": "Reduces Toxic Effects of Free Radicals"
+    },
+    {
+      "source": "Hypoxia",
+      "target": "HIF1A",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        53
+      ]
+    },
+    {
+      "source": "IntermittentFasting",
+      "target": "ALOX15B",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        202
+      ],
+      "metadata": "Partially abolishes"
+    },
+    {
+      "source": "IntermittentFasting",
+      "target": "CYBB",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        202
+      ],
+      "metadata": "Partially abolishes"
+    },
+    {
+      "source": "LFHP-1c",
+      "target": "OxidativeStress",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        338
+      ]
+    },
+    {
+      "source": "NOS2",
+      "target": "NitricOxide",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        53
+      ],
+      "metadata": "Enzymatic production"
+    },
+    {
+      "source": "NitricOxide",
+      "target": "GUCY1A1",
+      "mechanism": "activates",
+      "evidence_ref": [
+        177
+      ]
+    },
+    {
+      "source": "NOS3",
+      "target": "NitricOxide",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        217
+      ]
+    },
+    {
+      "source": "NOS3",
+      "target": "Neuroprotection",
+      "mechanism": "promotes",
+      "evidence_ref": [
+        217
+      ]
+    },
+    {
+      "source": "NOS1",
+      "target": "DownstreamGenes",
+      "mechanism": "binds",
+      "evidence_ref": [
+        271
+      ]
+    },
+    {
+      "source": "CYBB",
+      "target": "ReactiveOxygenSpecies",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        147
+      ],
+      "metadata": "Source: NADPH Oxidase"
+    },
+    {
+      "source": "CYBB",
+      "target": "MacrophageActivation",
+      "mechanism": "causes",
+      "evidence_ref": [
+        182
+      ]
+    },
+    {
+      "source": "CYBB",
+      "target": "STAT1",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        182
+      ]
+    },
+    {
+      "source": "CYBB",
+      "target": "ProInflammatoryResponse",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        182
+      ],
+      "metadata": "Causes Activation but also inhibits specific responses (complex regulation)"
+    },
+    {
+      "source": "CYBB",
+      "target": "MacrophagePhenotype",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        182
+      ]
+    },
+    {
+      "source": "NOX1",
+      "target": "OxidativeStress",
+      "mechanism": "causes",
+      "evidence_ref": [
+        188
+      ]
+    },
+    {
+      "source": "CYBB",
+      "target": "M1MacrophageActivation",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        233,
+        362
+      ],
+      "metadata": "Deficiency reduces M1 (implies presence promotes)"
+    },
+    {
+      "source": "CYBB",
+      "target": "TissueLoss",
+      "mechanism": "causes",
+      "evidence_ref": [
+        233
+      ],
+      "metadata": "Deficiency limits loss"
+    },
+    {
+      "source": "CYBB",
+      "target": "MotorFunctionRecovery",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        233
+      ],
+      "metadata": "Deficiency improves recovery"
+    },
+    {
+      "source": "gp91ds-tat",
+      "target": "M2MacrophageActivation",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        233
+      ]
+    },
+    {
+      "source": "M1MacrophageActivation",
+      "target": "CYBB",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        362
+      ]
+    },
+    {
+      "source": "gp91ds-tat",
+      "target": "M1MacrophageActivation",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        362
+      ]
+    },
+    {
+      "source": "gp91ds-tat",
+      "target": "OxidativeDamage",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        362
+      ]
+    },
+    {
+      "source": "Daidzein",
+      "target": "NFE2L2",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        161
+      ]
+    }
+  ]
+}

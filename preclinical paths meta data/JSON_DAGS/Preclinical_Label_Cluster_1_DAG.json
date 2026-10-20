@@ -1,0 +1,342 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 15,
+    "edge_count": 14
+  },
+  "nodes": [
+    {
+      "id": "SARM1",
+      "label": "SARM1",
+      "type": "Protein",
+      "location": "Neuron",
+      "identifiers": {
+        "UMLS_CUI": "C1420367",
+        "HGNC_ID": "HGNC:17086",
+        "UniProt_ID": "Q6SZW1"
+      },
+      "synonyms": [
+        "Sterile Alpha and TIR Motif Containing 1",
+        "SARM1 Deficiency",
+        "Wild-Type SARM1",
+        "SARM1 Signaling Pathway",
+        "SARM1 Haploinsufficiency"
+      ]
+    },
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "Traumatic Brain Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111"
+      },
+      "synonyms": [
+        "TBI",
+        "Mild Traumatic Brain Injury"
+      ]
+    },
+    {
+      "id": "AxonalDegeneration",
+      "label": "Axonal Degeneration",
+      "type": "PathologicProcess",
+      "location": "Neuron",
+      "identifiers": {
+        "UMLS_CUI": "C0028059"
+      },
+      "synonyms": [
+        "Distal Axonal Degeneration",
+        "Wallerian Degeneration",
+        "Axonal Integrity",
+        "Neuroaxonal Loss",
+        "Proximal Axonopathy"
+      ]
+    },
+    {
+      "id": "DiseaseProgression",
+      "label": "Disease Progression",
+      "type": "PathologicProcess",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0242656"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Neuroinflammation",
+      "label": "Neuroinflammation",
+      "type": "PathologicProcess",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0333310"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "CorpusCallosumAtrophy",
+      "label": "Corpus Callosum Atrophy",
+      "type": "PathologicProcess",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0751430"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "MotorLearning",
+      "label": "Motor Learning",
+      "type": "PhysiologicProcess",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0026606"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "SleepBehavior",
+      "label": "Sleep Behavior",
+      "type": "PhysiologicProcess",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0037319"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Demyelination",
+      "label": "Demyelination",
+      "type": "PathologicProcess",
+      "location": "Neuron",
+      "identifiers": {
+        "UMLS_CUI": "C0011304"
+      },
+      "synonyms": [
+        "Myelin Loss"
+      ]
+    },
+    {
+      "id": "TARDBP",
+      "label": "TARDBP",
+      "type": "Protein",
+      "location": "Nucleus",
+      "identifiers": {
+        "UMLS_CUI": "C1336611",
+        "HGNC_ID": "HGNC:11571",
+        "UniProt_ID": "Q13148"
+      },
+      "synonyms": [
+        "TDP-43",
+        "TAR DNA-Binding Protein 43",
+        "Phosphorylated TAR DNA-Binding Protein 43"
+      ]
+    },
+    {
+      "id": "MAPT",
+      "label": "MAPT",
+      "type": "Protein",
+      "location": "Neuron",
+      "identifiers": {
+        "UMLS_CUI": "C0039392",
+        "HGNC_ID": "HGNC:6893",
+        "UniProt_ID": "P10636"
+      },
+      "synonyms": [
+        "Tau",
+        "Phosphorylated Tau Protein"
+      ]
+    },
+    {
+      "id": "Microgliosis",
+      "label": "Microgliosis",
+      "type": "PathologicProcess",
+      "location": "Microglia",
+      "identifiers": {
+        "UMLS_CUI": "C0026033"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Survival",
+      "label": "Survival",
+      "type": "PhysiologicProcess",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0038913"
+      },
+      "synonyms": [
+        "Overall Survival"
+      ]
+    },
+    {
+      "id": "NeurologicDeficits",
+      "label": "Neurologic Deficits",
+      "type": "PathologicProcess",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027855"
+      },
+      "synonyms": [
+        "Functional Deficits"
+      ]
+    },
+    {
+      "id": "AxonalDisconnection",
+      "label": "Axonal Disconnection",
+      "type": "PathologicProcess",
+      "location": "Neuron",
+      "identifiers": {
+        "UMLS_CUI": "C5828471"
+      },
+      "synonyms": [
+        "Initial Traumatic Axonal Disconnection"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "SARM1",
+      "target": "AxonalDegeneration",
+      "mechanism": "causes",
+      "evidence_ref": [
+        138,
+        144,
+        303
+      ],
+      "confidence": "High",
+      "metadata": "Evidence includes prevention by deficiency and direct causation by WT protein"
+    },
+    {
+      "source": "SARM1",
+      "target": "DiseaseProgression",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        138
+      ],
+      "confidence": "Medium",
+      "metadata": "Inferred from 'SARM1 Deficiency prevents Disease Progression'"
+    },
+    {
+      "source": "SARM1",
+      "target": "Neuroinflammation",
+      "mechanism": "causes",
+      "evidence_ref": [
+        144,
+        277
+      ],
+      "confidence": "High",
+      "metadata": "Evidence supports WT SARM1 causing and deficiency reducing neuroinflammation"
+    },
+    {
+      "source": "SARM1",
+      "target": "CorpusCallosumAtrophy",
+      "mechanism": "causes",
+      "evidence_ref": [
+        144
+      ],
+      "confidence": "Medium",
+      "metadata": "Specific association with corpus callosum atrophy in TBI context"
+    },
+    {
+      "source": "SARM1",
+      "target": "MotorLearning",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        144
+      ],
+      "confidence": "Medium",
+      "metadata": "SARM1 deficiency improves motor learning, implying SARM1 impairs it"
+    },
+    {
+      "source": "SARM1",
+      "target": "SleepBehavior",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        144
+      ],
+      "confidence": "Medium",
+      "metadata": "Direction: Impairs/Disrupts; SARM1 deficiency improves sleep behavior"
+    },
+    {
+      "source": "SARM1",
+      "target": "Demyelination",
+      "mechanism": "causes",
+      "evidence_ref": [
+        144
+      ],
+      "confidence": "Medium",
+      "metadata": "Evidence from 'SARM1 Deficiency reduces Myelin Loss'"
+    },
+    {
+      "source": "SARM1",
+      "target": "TARDBP",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        277
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Phosphorylated/Pathological state; SARM1 pathway upregulates"
+    },
+    {
+      "source": "SARM1",
+      "target": "MAPT",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        277
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Phosphorylated Tau Protein"
+    },
+    {
+      "source": "SARM1",
+      "target": "Microgliosis",
+      "mechanism": "causes",
+      "evidence_ref": [
+        277
+      ],
+      "confidence": "Medium",
+      "metadata": "Inferred from reduction by deficiency"
+    },
+    {
+      "source": "SARM1",
+      "target": "NeurologicDeficits",
+      "mechanism": "causes",
+      "evidence_ref": [
+        277
+      ],
+      "confidence": "High",
+      "metadata": "Deficiency improves functional deficits"
+    },
+    {
+      "source": "SARM1",
+      "target": "Survival",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        138,
+        277
+      ],
+      "confidence": "Medium",
+      "metadata": "SARM1 deficiency improves survival"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "AxonalDegeneration",
+      "mechanism": "causes",
+      "evidence_ref": [
+        144
+      ],
+      "confidence": "High",
+      "metadata": "Direct causal link"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "SARM1",
+      "mechanism": "activates",
+      "evidence_ref": [
+        277
+      ],
+      "confidence": "High",
+      "metadata": "TBI causes SARM1 signaling pathway activation"
+    }
+  ]
+}

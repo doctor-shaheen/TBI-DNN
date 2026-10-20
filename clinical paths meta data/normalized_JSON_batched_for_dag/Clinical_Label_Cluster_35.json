@@ -1,0 +1,366 @@
+[
+    {
+        "source_abstract_id":39,
+        "subject":"Neuroinflammation",
+        "relation":"mediates",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":106,
+        "subject":"Kynurenic Acid",
+        "relation":"prevents",
+        "object":"Neurotoxicity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":106,
+        "subject":"3-Hydroxykynurenine",
+        "relation":"contributes_to",
+        "object":"Neurotoxicity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":108,
+        "subject":"Systemic Inflammation",
+        "relation":"mediates",
+        "object":"Neurodegeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":254,
+        "subject":"Inflammation",
+        "relation":"causes",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":254,
+        "subject":"Cognitive Decline",
+        "relation":"predicted_by",
+        "object":"Inflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":303,
+        "subject":"Inflammation",
+        "relation":"contributes_to",
+        "object":"Neurodegenerative conditions",
+        "entity_variants":"inflammation"
+    },
+    {
+        "source_abstract_id":303,
+        "subject":"Neuroinflammation",
+        "relation":"causes",
+        "object":"Neurodegenerative conditions",
+        "entity_variants":"neuroinflammation"
+    },
+    {
+        "source_abstract_id":304,
+        "subject":"Inflammation",
+        "relation":"mediates",
+        "object":"Neurodegeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":356,
+        "subject":"Inflammation",
+        "relation":"mediates",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":416,
+        "subject":"Neuroinflammation",
+        "relation":"contributes_to",
+        "object":"Progressive Pathology",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":426,
+        "subject":"Insulin-Like Growth Factor 1",
+        "relation":"correlates_with",
+        "object":"Cognition",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":444,
+        "subject":"Neuroinflammation",
+        "relation":"mediates",
+        "object":"Neuropsychiatric Symptoms",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":444,
+        "subject":"Neuroinflammation",
+        "relation":"associated_with",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":446,
+        "subject":"Neuroinflammation",
+        "relation":"mediates",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":461,
+        "subject":"Glymphatic Function",
+        "relation":"affects",
+        "object":"Neurodegeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":465,
+        "subject":"Oxidative Stress",
+        "relation":"contributes_to",
+        "object":"Neurodegeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":486,
+        "subject":"Inflammatory Cytokines",
+        "relation":"mediates",
+        "object":"Cognitive Deficits",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":506,
+        "subject":"Glutamate Level",
+        "relation":"potentially_causes",
+        "object":"Excitotoxicity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":507,
+        "subject":"Neuroinflammation",
+        "relation":"promotes",
+        "object":"Neurodegeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":526,
+        "subject":"Complement C1q",
+        "relation":"mediates",
+        "object":"Neuroinflammatory Processes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":526,
+        "subject":"C1q",
+        "relation":"causes",
+        "object":"Maladaptive Neuroinflammatory Processes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":560,
+        "subject":"Elevated Interleukin-1 Beta",
+        "relation":"predicts",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":560,
+        "subject":"Elevated Interleukin-1 Beta",
+        "relation":"associated_with",
+        "object":"Decreased Cognitive Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":560,
+        "subject":"Normal Interleukin-1 Beta",
+        "relation":"associated_with",
+        "object":"Cognitive Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":561,
+        "subject":"Meningitis",
+        "relation":"causes",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":612,
+        "subject":"Glymphatic Clearance",
+        "relation":"associated_with",
+        "object":"Neurodegeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":593,
+        "subject":"Mitochondrial Dysfunction",
+        "relation":"causes",
+        "object":"Synaptic Loss",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":446,
+        "subject":"Translocator Protein Expression",
+        "relation":"mediates",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":356,
+        "subject":"Microglial Reactivity",
+        "relation":"causes",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":107,
+        "subject":"CCAAT\/enhancer-binding protein beta",
+        "relation":"negatively_regulates",
+        "object":"Cognitive Dysfunction",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":152,
+        "subject":"Glymphatic System Function",
+        "relation":"mediates",
+        "object":"Cognitive Dysfunction",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":354,
+        "subject":"Serine",
+        "relation":"associated_with",
+        "object":"Cognitive Dysfunction",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":354,
+        "subject":"Pyroglutamic Acid",
+        "relation":"associated_with",
+        "object":"Cognitive Dysfunction",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":354,
+        "subject":"Phenylalanine",
+        "relation":"associated_with",
+        "object":"Cognitive Dysfunction",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":354,
+        "subject":"Galactose",
+        "relation":"associated_with",
+        "object":"Cognitive Dysfunction",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":354,
+        "subject":"Palmitic Acid",
+        "relation":"associated_with",
+        "object":"Cognitive Dysfunction",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":354,
+        "subject":"Arachidonic Acid",
+        "relation":"associated_with",
+        "object":"Cognitive Dysfunction",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":354,
+        "subject":"Linoleic Acid",
+        "relation":"associated_with",
+        "object":"Cognitive Dysfunction",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":354,
+        "subject":"Citric Acid",
+        "relation":"associated_with",
+        "object":"Cognitive Dysfunction",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":354,
+        "subject":"2,3,4-Trihydroxybutyrate",
+        "relation":"associated_with",
+        "object":"Cognitive Dysfunction",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":426,
+        "subject":"Insulin-Like Growth Factor 1",
+        "relation":"causes",
+        "object":"Cognitive Dysfunction",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":457,
+        "subject":"C18-Ceramide",
+        "relation":"treats",
+        "object":"Cognitive Dysfunction",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":462,
+        "subject":"Insulin-Like Growth Factor 1",
+        "relation":"negatively_associated_with",
+        "object":"Neurovascular Coupling Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":462,
+        "subject":"Cognitive Dysfunction",
+        "relation":"associated_with",
+        "object":"Insulin-Like Growth Factor 1 Deficiency",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":529,
+        "subject":"Peroxisome proliferator-activated receptor gamma coactivator 1-alpha",
+        "relation":"mediates",
+        "object":"Memory Impairment",
+        "entity_variants":"PGC-1α"
+    },
+    {
+        "source_abstract_id":534,
+        "subject":"Glymphatic System",
+        "relation":"negatively_regulates",
+        "object":"Cognitive Dysfunction",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":534,
+        "subject":"Cognitive Dysfunction",
+        "relation":"associated_with",
+        "object":"Glymphatic System Dysfunction",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":548,
+        "subject":"Hyperlipidemia",
+        "relation":"upregulates",
+        "object":"Cognitive Dysfunction",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":593,
+        "subject":"Mitochondrial Dysfunction",
+        "relation":"contributes_to",
+        "object":"Cognitive Dysfunction",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":497,
+        "subject":"Serotonergic System",
+        "relation":"affects",
+        "object":"Cognitive Dysfunction",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":497,
+        "subject":"Cognitive Dysfunction",
+        "relation":"caused_by",
+        "object":"Serotonergic System",
+        "entity_variants":null
+    }
+]

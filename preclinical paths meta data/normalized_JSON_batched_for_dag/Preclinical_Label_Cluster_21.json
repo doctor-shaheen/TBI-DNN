@@ -1,0 +1,359 @@
+[
+    {
+        "source_abstract_id":196,
+        "subject":"ASC-CCM",
+        "relation":"decreases",
+        "object":"Extracellular Glutamate Levels",
+        "entity_variants":"not reported"
+    },
+    {
+        "source_abstract_id":308,
+        "subject":"Simvastatin",
+        "relation":"causes",
+        "object":"Cognitive Dysfunction",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":308,
+        "subject":"Simvastatin",
+        "relation":"downregulates",
+        "object":"Glial Fibrillary Acidic Protein",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":308,
+        "subject":"Simvastatin",
+        "relation":"downregulates",
+        "object":"Interleukin-1 alpha",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":308,
+        "subject":"Simvastatin",
+        "relation":"downregulates",
+        "object":"Interleukin-17",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":308,
+        "subject":"Simvastatin",
+        "relation":"improves",
+        "object":"Motor Function",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":308,
+        "subject":"Simvastatin",
+        "relation":"reduces",
+        "object":"Inflammatory Cytokines",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":308,
+        "subject":"Simvastatin",
+        "relation":"improves",
+        "object":"Latency to Platform",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":308,
+        "subject":"Simvastatin",
+        "relation":"improves",
+        "object":"Retention Scores",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":312,
+        "subject":"Multiple Trauma",
+        "relation":"increases",
+        "object":"Glial Fibrillary Acidic Protein",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":313,
+        "subject":"Pyruvate",
+        "relation":"increases",
+        "object":"Glial Fibrillary Acidic Protein",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":333,
+        "subject":"Angiotensin 1-7",
+        "relation":"improves",
+        "object":"Cognitive Function",
+        "entity_variants":"unknown|"
+    },
+    {
+        "source_abstract_id":333,
+        "subject":"Angiotensin 1-7",
+        "relation":"decreases",
+        "object":"Inflammation",
+        "entity_variants":"unknown|"
+    },
+    {
+        "source_abstract_id":333,
+        "subject":"Angiotensin 1-7",
+        "relation":"modulates_expression_of",
+        "object":"Phosphorylated Tau Protein",
+        "entity_variants":"unknown|"
+    },
+    {
+        "source_abstract_id":333,
+        "subject":"Angiotensin 1-7",
+        "relation":"modulates_expression_of",
+        "object":"Glial Fibrillary Acidic Protein",
+        "entity_variants":"unknown|"
+    },
+    {
+        "source_abstract_id":333,
+        "subject":"Angiotensin 1-7",
+        "relation":"decreases",
+        "object":"Neuronal Injury",
+        "entity_variants":"unknown|"
+    },
+    {
+        "source_abstract_id":333,
+        "subject":"Angiotensin 1-7",
+        "relation":"improves",
+        "object":"Motor Coordination",
+        "entity_variants":"unknown|"
+    },
+    {
+        "source_abstract_id":333,
+        "subject":"Angiotensin 1-7",
+        "relation":"binds_to",
+        "object":"MAS1 Receptor",
+        "entity_variants":"unknown|"
+    },
+    {
+        "source_abstract_id":333,
+        "subject":"Angiotensin 1-7",
+        "relation":"inhibits",
+        "object":"Reactive Oxygen Species",
+        "entity_variants":"unknown|"
+    },
+    {
+        "source_abstract_id":372,
+        "subject":"Interleukin-10",
+        "relation":"upregulates",
+        "object":"Neuroprotection",
+        "entity_variants":"GFAP-IL10 transgenic"
+    },
+    {
+        "source_abstract_id":47,
+        "subject":"Traumatic Brain Injury",
+        "relation":"upregulates",
+        "object":"Glial Fibrillary Acidic Protein",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":76,
+        "subject":"Glial Fibrillary Acidic Protein",
+        "relation":"no_significant_difference_with",
+        "object":"Astrocytes",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":100,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Glial Fibrillary Acidic Protein",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":108,
+        "subject":"Glial Fibrillary Acidic Protein",
+        "relation":"upregulates",
+        "object":"Gene Expression",
+        "entity_variants":"GFAP mutation"
+    },
+    {
+        "source_abstract_id":108,
+        "subject":"Glial Fibrillary Acidic Protein",
+        "relation":"correlates_with",
+        "object":"Alzheimer Disease-Like Gene Expression",
+        "entity_variants":"GFAP mutation"
+    },
+    {
+        "source_abstract_id":110,
+        "subject":"Fibrinogen",
+        "relation":"causes",
+        "object":"Astrocyte Activation",
+        "entity_variants":"fibrinogen (Fg γ+\/-)"
+    },
+    {
+        "source_abstract_id":110,
+        "subject":"Fibrinogen",
+        "relation":"decreases",
+        "object":"Activation of Astrocytes",
+        "entity_variants":"fibrinogen (Fg γ+\/-)"
+    },
+    {
+        "source_abstract_id":133,
+        "subject":"Anatabine",
+        "relation":"reduces",
+        "object":"Astroglial Response",
+        "entity_variants":"Glial Fibrillary Acidic Protein"
+    },
+    {
+        "source_abstract_id":146,
+        "subject":"Glial Fibrillary Acidic Protein Expression",
+        "relation":"associated_with",
+        "object":"Neurobehavioral Outcomes",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":196,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"increases",
+        "object":"Glial Fibrillary Acidic Protein",
+        "entity_variants":"not reported"
+    },
+    {
+        "source_abstract_id":235,
+        "subject":"Traumatic Brain Injury",
+        "relation":"upregulates",
+        "object":"Glial Fibrillary Acidic Protein",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":266,
+        "subject":"Traumatic Brain Injury",
+        "relation":"upregulates",
+        "object":"Glial Fibrillary Acidic Protein",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":267,
+        "subject":"Amyloid Precursor Protein",
+        "relation":"causes",
+        "object":"Glial Fibrillary Acidic Protein",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":341,
+        "subject":"Traumatic Brain Injury",
+        "relation":"upregulates",
+        "object":"Glial Fibrillary Acidic Protein",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":341,
+        "subject":"Glial Fibrillary Acidic Protein",
+        "relation":"mediates",
+        "object":"Neuropathologic Process",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":341,
+        "subject":"Time Post Injury",
+        "relation":"affects",
+        "object":"Glial Fibrillary Acidic Protein",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":341,
+        "subject":"Age",
+        "relation":"interacts_with",
+        "object":"Glial Fibrillary Acidic Protein",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":341,
+        "subject":"Sex",
+        "relation":"affects",
+        "object":"Glial Fibrillary Acidic Protein",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":346,
+        "subject":"Fractional Anisotropy",
+        "relation":"associated_with",
+        "object":"Glial Immunoreactivity",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":346,
+        "subject":"Fractional Anisotropy",
+        "relation":"associated_with",
+        "object":"Astrocyte Activation",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":380,
+        "subject":"Repeated Concussive Brain Injury",
+        "relation":"causes",
+        "object":"Glial Fibrillary Acidic Protein Staining",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":387,
+        "subject":"Traumatic Brain Injury",
+        "relation":"increases",
+        "object":"Glial Fibrillary Acidic Protein Expression",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":397,
+        "subject":"fat-1 Transgenic Mice",
+        "relation":"exhibits",
+        "object":"Reduced Glial Fibrillary Acidic Protein Staining",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":196,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"upregulates",
+        "object":"Glutamate",
+        "entity_variants":"not_reported"
+    },
+    {
+        "source_abstract_id":196,
+        "subject":"Glutamic Acid",
+        "relation":"downregulates",
+        "object":"Glutamate Aspartate Transporter",
+        "entity_variants":"not_reported"
+    },
+    {
+        "source_abstract_id":161,
+        "subject":"Daidzein",
+        "relation":"decreases",
+        "object":"Glial Fibrillary Acidic Protein",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":146,
+        "subject":"Sigma-1 Receptor Deficiency",
+        "relation":"negatively_regulates",
+        "object":"Glial Fibrillary Acidic Protein Expression",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":146,
+        "subject":"Sigma-1 Receptor Deficiency",
+        "relation":"negatively_regulates",
+        "object":"Traumatic Brain Injury-Induced Motor Coordination Impairments",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":146,
+        "subject":"Sigma-1 Receptor Deficiency",
+        "relation":"mediates",
+        "object":"Neurobehavioral Outcomes",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":146,
+        "subject":"Sigma-1 Receptor Deficiency",
+        "relation":"negatively_regulates",
+        "object":"Traumatic Brain Injury-Induced Astrocyte Activation",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":146,
+        "subject":"Sigma-1 Receptor Deficiency",
+        "relation":"prevents",
+        "object":"Traumatic Brain Injury-Induced Neurodegeneration",
+        "entity_variants":"not applicable"
+    }
+]

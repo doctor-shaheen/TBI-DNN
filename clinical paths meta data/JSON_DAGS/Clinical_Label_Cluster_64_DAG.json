@@ -1,0 +1,563 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 24,
+    "edge_count": 25
+  },
+  "nodes": [
+    {
+      "id": "CognitionDisorders",
+      "label": "Cognition Disorders",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0009241"
+      },
+      "synonyms": [
+        "Cognitive Decline",
+        "Cognitive Impairment",
+        "Cognitive Dysfunction",
+        "Cognitive Deficits",
+        "Subjective Cognitive Decline",
+        "Fast Cognitive Decliners",
+        "Poor Cognitive Outcome"
+      ]
+    },
+    {
+      "id": "MiniMentalStateExamination",
+      "label": "Mini-Mental State Examination",
+      "type": "Procedure",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0026192"
+      },
+      "synonyms": [
+        "MMSE",
+        "Cognitive Scores"
+      ]
+    },
+    {
+      "id": "DiseaseDuration",
+      "label": "Duration of illness",
+      "type": "Other",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0205437"
+      },
+      "synonyms": [
+        "Shorter Illness Duration"
+      ]
+    },
+    {
+      "id": "NootropicAgents",
+      "label": "Nootropic Agents",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0028331"
+      },
+      "synonyms": [
+        "Cognitive Enhancer"
+      ]
+    },
+    {
+      "id": "RaceFactors",
+      "label": "Race Factors",
+      "type": "Other",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0034510"
+      },
+      "synonyms": [
+        "Non-White Race"
+      ]
+    },
+    {
+      "id": "NeurobehavioralManifestations",
+      "label": "Neurobehavioral Manifestations",
+      "type": "Symptom",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027806"
+      },
+      "synonyms": [
+        "Neuropsychiatric Symptoms",
+        "Behavioral Symptom",
+        "Psychiatric Disorders",
+        "Neurobehavioral Markers",
+        "Psychiatric Symptoms"
+      ]
+    },
+    {
+      "id": "EducationalStatus",
+      "label": "Educational Status",
+      "type": "Other",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0013658"
+      },
+      "synonyms": [
+        "Education"
+      ]
+    },
+    {
+      "id": "HealthStatus",
+      "label": "Health Status",
+      "type": "Other",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0018684"
+      },
+      "synonyms": [
+        "Postdischarge Health Conditions"
+      ]
+    },
+    {
+      "id": "Neuroinflammation",
+      "label": "Neuroinflammation",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027788"
+      },
+      "synonyms": [
+        "Neuroinflammatory Markers"
+      ]
+    },
+    {
+      "id": "CerebrovascularDisease",
+      "label": "Cerebrovascular Disorders",
+      "type": "Disease",
+      "location": "Blood",
+      "identifiers": {
+        "UMLS_CUI": "C0007796"
+      },
+      "synonyms": [
+        "Vascular Health Issues"
+      ]
+    },
+    {
+      "id": "MetabolicDiseases",
+      "label": "Metabolic Diseases",
+      "type": "Disease",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0025517"
+      },
+      "synonyms": [
+        "Metabolic Conditions"
+      ]
+    },
+    {
+      "id": "MemoryDisorders",
+      "label": "Memory Disorders",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0025277"
+      },
+      "synonyms": [
+        "Spatial Memory Impairments",
+        "Memory Impairment"
+      ]
+    },
+    {
+      "id": "CognitiveStrategies",
+      "label": "Cognitive Strategies",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0009247"
+      },
+      "synonyms": [
+        "Search Strategy Utilization"
+      ]
+    },
+    {
+      "id": "CerebrovascularReactivity",
+      "label": "Cerebrovascular Reactivity",
+      "type": "Process",
+      "location": "Blood",
+      "identifiers": {
+        "UMLS_CUI": "C0034639"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "PsychomotorDisorders",
+      "label": "Psychomotor Disorders",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0030800"
+      },
+      "synonyms": [
+        "Fine Motor Coordination Impairment"
+      ]
+    },
+    {
+      "id": "SocialSupport",
+      "label": "Social Support",
+      "type": "Other",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0037429"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Disability",
+      "label": "Disability",
+      "type": "Symptom",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0231170"
+      },
+      "synonyms": [
+        "Functional Impairment",
+        "Everyday Functioning",
+        "Disability Severity"
+      ]
+    },
+    {
+      "id": "BrainDiseases",
+      "label": "Brain Diseases",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111"
+      },
+      "synonyms": [
+        "Structural Brain Abnormalities"
+      ]
+    },
+    {
+      "id": "Morbidity",
+      "label": "Morbidity",
+      "type": "Process",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0026464"
+      },
+      "synonyms": [
+        "Morbidity Patterns"
+      ]
+    },
+    {
+      "id": "StressPsychological",
+      "label": "Stress, Psychological",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0038443"
+      },
+      "synonyms": [
+        "Psychological Distress"
+      ]
+    },
+    {
+      "id": "QualityOfLife",
+      "label": "Quality of Life",
+      "type": "Other",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0034493"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "SocioeconomicFactors",
+      "label": "Socioeconomic Factors",
+      "type": "Other",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0037433"
+      },
+      "synonyms": [
+        "Income",
+        "Health Insurance Coverage"
+      ]
+    },
+    {
+      "id": "NeurosurgicalProcedures",
+      "label": "Neurosurgical Procedures",
+      "type": "Procedure",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027782"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "AttentionDeficit",
+      "label": "Attention Deficit",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0004164"
+      },
+      "synonyms": [
+        "Concentration Problems"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "MiniMentalStateExamination",
+      "target": "CognitionDisorders",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        28
+      ],
+      "confidence": "High",
+      "metadata": "Lower scores associated with fast decliners"
+    },
+    {
+      "source": "DiseaseDuration",
+      "target": "CognitionDisorders",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        28
+      ],
+      "confidence": "Medium",
+      "metadata": "Shorter duration associated with fast decliners"
+    },
+    {
+      "source": "NootropicAgents",
+      "target": "CognitionDisorders",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        28
+      ],
+      "confidence": "Medium",
+      "metadata": "Usage associated with fast decliners (likely reverse causality or indication)"
+    },
+    {
+      "source": "RaceFactors",
+      "target": "CognitionDisorders",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        36
+      ],
+      "confidence": "Medium",
+      "metadata": "Non-white race associated with poor outcome"
+    },
+    {
+      "source": "CognitionDisorders",
+      "target": "NeurobehavioralManifestations",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        179,
+        349,
+        524
+      ],
+      "confidence": "High",
+      "metadata": "Cognitive symptoms affect/associated with psychiatric/behavioral symptoms"
+    },
+    {
+      "source": "EducationalStatus",
+      "target": "CognitionDisorders",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        309,
+        382
+      ],
+      "confidence": "High",
+      "metadata": "Confounds or predicts impairment"
+    },
+    {
+      "source": "HealthStatus",
+      "target": "CognitionDisorders",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        363
+      ],
+      "confidence": "Medium",
+      "metadata": "Postdischarge conditions downregulate cognitive scores"
+    },
+    {
+      "source": "NeurobehavioralManifestations",
+      "target": "CognitionDisorders",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        202,
+        393
+      ],
+      "confidence": "Medium",
+      "metadata": "Psychiatric disorders/markers affect cognitive symptoms/decline"
+    },
+    {
+      "source": "Neuroinflammation",
+      "target": "CognitionDisorders",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        452
+      ],
+      "confidence": "High",
+      "metadata": "Mediates decline"
+    },
+    {
+      "source": "CerebrovascularDisease",
+      "target": "CognitionDisorders",
+      "mechanism": "causes",
+      "evidence_ref": [
+        564
+      ],
+      "confidence": "High",
+      "metadata": "Vascular health issues cause decline"
+    },
+    {
+      "source": "MetabolicDiseases",
+      "target": "CognitionDisorders",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        564
+      ],
+      "confidence": "High",
+      "metadata": "Metabolic conditions increase decline"
+    },
+    {
+      "source": "MemoryDisorders",
+      "target": "CognitiveStrategies",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        597
+      ],
+      "confidence": "Medium",
+      "metadata": "Spatial memory impairments affect search strategy"
+    },
+    {
+      "source": "CognitiveStrategies",
+      "target": "CognitionDisorders",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        597
+      ],
+      "confidence": "Medium",
+      "metadata": "Strategy utilization reveals impairment"
+    },
+    {
+      "source": "CerebrovascularReactivity",
+      "target": "CognitionDisorders",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        92
+      ],
+      "confidence": "Medium",
+      "metadata": "Mediates decline"
+    },
+    {
+      "source": "CognitionDisorders",
+      "target": "PsychomotorDisorders",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        92
+      ],
+      "confidence": "Medium",
+      "metadata": "Associated with fine motor coordination impairment"
+    },
+    {
+      "source": "SocialSupport",
+      "target": "CognitionDisorders",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        232
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "CognitionDisorders",
+      "target": "Disability",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        289,
+        411,
+        505,
+        562
+      ],
+      "confidence": "High",
+      "metadata": "Mediates functional impairment/associated with disability"
+    },
+    {
+      "source": "BrainDiseases",
+      "target": "CognitionDisorders",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        452
+      ],
+      "confidence": "High",
+      "metadata": "Structural abnormalities mediate decline"
+    },
+    {
+      "source": "CognitionDisorders",
+      "target": "MemoryDisorders",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        561
+      ],
+      "confidence": "High",
+      "metadata": "Decline associated with memory impairment"
+    },
+    {
+      "source": "CognitionDisorders",
+      "target": "Morbidity",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        564
+      ],
+      "confidence": "Medium",
+      "metadata": "Mediates morbidity patterns"
+    },
+    {
+      "source": "CognitionDisorders",
+      "target": "StressPsychological",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        36,
+        199
+      ],
+      "confidence": "Medium",
+      "metadata": "Dysfunction associated with distress"
+    },
+    {
+      "source": "CognitionDisorders",
+      "target": "QualityOfLife",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        36
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "SocioeconomicFactors",
+      "target": "CognitionDisorders",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        36
+      ],
+      "confidence": "Medium",
+      "metadata": "Lower income/lack of insurance associated with dysfunction"
+    },
+    {
+      "source": "NeurosurgicalProcedures",
+      "target": "CognitionDisorders",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        345
+      ],
+      "confidence": "Medium",
+      "metadata": "Predicts cognitive disability"
+    },
+    {
+      "source": "AttentionDeficit",
+      "target": "CognitionDisorders",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        199
+      ],
+      "confidence": "Medium",
+      "metadata": "Concentration problems associated with cognitive complaints"
+    }
+  ]
+}

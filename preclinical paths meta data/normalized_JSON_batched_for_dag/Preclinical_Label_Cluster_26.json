@@ -1,0 +1,814 @@
+[
+    {
+        "source_abstract_id":181,
+        "subject":"ACT001",
+        "relation":"improves",
+        "object":"Motor Function Deficit",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":181,
+        "subject":"ACT001",
+        "relation":"protects",
+        "object":"Blood-Brain Barrier Integrity",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":181,
+        "subject":"ACT001",
+        "relation":"binds_to",
+        "object":"Unknown Proteins",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":193,
+        "subject":"Mus musculus",
+        "relation":"less_susceptible_to",
+        "object":"Traumatic Brain Injury-induced Neural Plasticity",
+        "entity_variants":"female, not specified"
+    },
+    {
+        "source_abstract_id":3,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Lysosomal Membrane Permeabilization",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":3,
+        "subject":"Lysosomal Membrane Permeabilization",
+        "relation":"inhibits",
+        "object":"Autophagy",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":3,
+        "subject":"Lysosomal Membrane Permeabilization",
+        "relation":"causes",
+        "object":"Neuronal Cell Death",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":3,
+        "subject":"PLA2G4A",
+        "relation":"mediates",
+        "object":"Lysosomal Membrane Permeabilization",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":3,
+        "subject":"PLA2G4A",
+        "relation":"inhibits",
+        "object":"Autophagy",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":3,
+        "subject":"PLA2G4A Inhibition",
+        "relation":"prevents",
+        "object":"Lysosomal Membrane Permeabilization",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":3,
+        "subject":"PLA2G4A Inhibition",
+        "relation":"improves",
+        "object":"Neurological Outcome",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":3,
+        "subject":"PLA2G4A",
+        "relation":"causes",
+        "object":"Amyloid Beta-Induced Lysosomal Membrane Permeabilization",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":3,
+        "subject":"Controlled Cortical Impact",
+        "relation":"causes",
+        "object":"Neuronal Cell Death",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":3,
+        "subject":"Lysosomal Membrane Permeabilization",
+        "relation":"associated_with",
+        "object":"Neurodegeneration",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":8,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Corpus Callosum Thinning",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":8,
+        "subject":"Repetitive Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Corpus Callosum Atrophy",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":8,
+        "subject":"Traumatic Brain Injury Severity",
+        "relation":"affects",
+        "object":"Corpus Callosum Pathology",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":8,
+        "subject":"Traumatic Brain Injury Chronicity",
+        "relation":"affects",
+        "object":"Corpus Callosum Pathology",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":37,
+        "subject":"Military Exposure",
+        "relation":"mediates",
+        "object":"Blood-Brain Barrier Dysfunction",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":37,
+        "subject":"Cortical Spreading Depolarization",
+        "relation":"causes",
+        "object":"Blood-Brain Barrier Dysfunction",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":37,
+        "subject":"Blood-Brain Barrier Dysfunction",
+        "relation":"associated_with",
+        "object":"Neurological Complication",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":37,
+        "subject":"Concussive Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Blood-Brain Barrier Dysfunction",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":37,
+        "subject":"Repetitive Mild Traumatic Brain Injury",
+        "relation":"increases",
+        "object":"Neurological Complication",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":37,
+        "subject":"Blood-Brain Barrier Dysfunction",
+        "relation":"associated_with",
+        "object":"Prolonged Recovery",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":43,
+        "subject":"Repetitive Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Anxiety",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":43,
+        "subject":"Repetitive Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Hypoactivity",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":43,
+        "subject":"Avertin",
+        "relation":"reduces",
+        "object":"Neurodegeneration",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":43,
+        "subject":"Isoflurane",
+        "relation":"treats",
+        "object":"Neurodegeneration",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":43,
+        "subject":"Repetitive Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Chronic Neurodegeneration",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":43,
+        "subject":"Mice Anesthetized with Avertin",
+        "relation":"exhibits",
+        "object":"Abnormal Behavior",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":43,
+        "subject":"Mice Anesthetized with Isoflurane",
+        "relation":"exhibits",
+        "object":"Normal Behavior",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":43,
+        "subject":"Mice Subjected to Repetitive Mild Traumatic Brain Injury",
+        "relation":"shows",
+        "object":"Sensorimotor Function",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":43,
+        "subject":"Mice Subjected to Repetitive Mild Traumatic Brain Injury",
+        "relation":"shows",
+        "object":"Cognitive Function",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":43,
+        "subject":"Mice Subjected to Repetitive Mild Traumatic Brain Injury",
+        "relation":"shows",
+        "object":"Social Function",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":43,
+        "subject":"Mice Subjected to Repetitive Mild Traumatic Brain Injury",
+        "relation":"shows",
+        "object":"Emotional Function",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":73,
+        "subject":"Autophagy Enhancer",
+        "relation":"improves",
+        "object":"Functional Recovery",
+        "entity_variants":"trehalose"
+    },
+    {
+        "source_abstract_id":89,
+        "subject":"Repetitive Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cognitive Decline",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":89,
+        "subject":"Repetitive Mild Traumatic Brain Injury",
+        "relation":"upregulates",
+        "object":"BrdU Labeled Cells",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":89,
+        "subject":"Repetitive Mild Traumatic Brain Injury",
+        "relation":"upregulates",
+        "object":"c-Fos Expression",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":89,
+        "subject":"Neural Progenitor Cells",
+        "relation":"downregulates",
+        "object":"c-Fos Expression",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":89,
+        "subject":"Cognitive Decline",
+        "relation":"associated_with",
+        "object":"Immature Neurons",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":89,
+        "subject":"Cognitive Decline",
+        "relation":"associated_with",
+        "object":"Gene Expression Changes",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":107,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Impaired Spatial Learning",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":107,
+        "subject":"Amyloid Beta",
+        "relation":"causes",
+        "object":"Impaired Spatial Learning",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":107,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cognitive Impairment",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":109,
+        "subject":"Repetitive Concussions",
+        "relation":"causes",
+        "object":"Cognitive Dysfunction",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":109,
+        "subject":"Repetitive Concussions",
+        "relation":"decreases",
+        "object":"Cerebral Blood Flow",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":109,
+        "subject":"Cerebral Blood Flow",
+        "relation":"mediates",
+        "object":"Cognitive Outcome",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":109,
+        "subject":"Cerebral Blood Flow",
+        "relation":"predicts",
+        "object":"Cognitive Dysfunction",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":109,
+        "subject":"Repetitive Concussions",
+        "relation":"affects",
+        "object":"Morris Water Maze Performance",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":109,
+        "subject":"Time Intervals Between Concussions",
+        "relation":"prevents",
+        "object":"Cognitive Dysfunction",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":134,
+        "subject":"Moderate to Severe Traumatic Brain Injury",
+        "relation":"increases_risk_of",
+        "object":"Dementia",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":134,
+        "subject":"Repetitive Mild Traumatic Brain Injury",
+        "relation":"no_significant_effect_on",
+        "object":"Cognitive Impairment",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":134,
+        "subject":"Single Mild Traumatic Brain Injury",
+        "relation":"no_significant_effect_on",
+        "object":"Cognitive Impairment",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":134,
+        "subject":"Traumatic Brain Injury Severity",
+        "relation":"affects",
+        "object":"Functional Impairment",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":137,
+        "subject":"Blast Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Learning Disruption",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":137,
+        "subject":"Salubrinal",
+        "relation":"improves",
+        "object":"Elevated Plus Maze Performance",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":160,
+        "subject":"Traumatic Brain Injury",
+        "relation":"improves",
+        "object":"Cognitive Impairment",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":160,
+        "subject":"Trehalose",
+        "relation":"upregulates",
+        "object":"Synaptophysin",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":160,
+        "subject":"Trehalose",
+        "relation":"upregulates",
+        "object":"Doublecortin",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":160,
+        "subject":"Trehalose",
+        "relation":"upregulates",
+        "object":"Brain-Derived Neurotrophic Factor",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":160,
+        "subject":"Trehalose",
+        "relation":"modulates",
+        "object":"Metal Dyshomeostasis",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":160,
+        "subject":"Trehalose",
+        "relation":"improves",
+        "object":"Morris Water Maze Performance",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":160,
+        "subject":"Trehalose",
+        "relation":"improves",
+        "object":"Y Maze Performance",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":160,
+        "subject":"Trehalose",
+        "relation":"improves",
+        "object":"Open Field Test Performance",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":243,
+        "subject":"Trehalose",
+        "relation":"upregulates",
+        "object":"Brain Zinc Levels",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":264,
+        "subject":"Cerebral Hypoperfusion",
+        "relation":"worsens",
+        "object":"Traumatic Brain Injury",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":264,
+        "subject":"Bilateral Carotid Artery Stenosis",
+        "relation":"causes",
+        "object":"Cerebral Hypoperfusion",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":264,
+        "subject":"Cerebral Hypoperfusion",
+        "relation":"affects",
+        "object":"Spatial Learning",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":264,
+        "subject":"Bilateral Carotid Artery Stenosis",
+        "relation":"causes",
+        "object":"Spatial Learning Deficits",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":264,
+        "subject":"Traumatic Brain Injury",
+        "relation":"modifies",
+        "object":"Gene Expression",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":264,
+        "subject":"Cerebral Hypoperfusion",
+        "relation":"increases",
+        "object":"Risk of Secondary Diseases",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":264,
+        "subject":"Female Mice",
+        "relation":"exhibits",
+        "object":"Spatial Memory Deficits",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":264,
+        "subject":"Cerebral Hypoperfusion",
+        "relation":"modifies",
+        "object":"Traumatic Brain Injury Outcomes",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":274,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Increased Blood-Brain Barrier Permeability",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":274,
+        "subject":"Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Cholinergic Neurotransmission",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":293,
+        "subject":"Repetitive Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cognitive Impairment",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":293,
+        "subject":"Repetitive Mild Traumatic Brain Injury",
+        "relation":"decreases",
+        "object":"Cerebrovascular Associated Markers",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":293,
+        "subject":"Repetitive Mild Traumatic Brain Injury",
+        "relation":"decreases",
+        "object":"Global Cerebral Blood Flow",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":293,
+        "subject":"Cerebrovascular Dysfunction",
+        "relation":"causes",
+        "object":"Cognitive Impairment",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":333,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cognitive Impairment",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":333,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Neuronal Injury",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":339,
+        "subject":"Traumatic Brain Injury",
+        "relation":"does_not_affect",
+        "object":"Physical Activity",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":348,
+        "subject":"Cerium Oxide Nanoparticles",
+        "relation":"decreases",
+        "object":"Fluoro-Jade B Positive Cells",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":348,
+        "subject":"Cerium Oxide Nanoparticles",
+        "relation":"decreases",
+        "object":"TUNEL Positive Cells",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":348,
+        "subject":"Cerium Oxide Nanoparticles",
+        "relation":"restores",
+        "object":"Superoxide Dismutase 1 mRNA Levels",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":348,
+        "subject":"Cerium Oxide Nanoparticles",
+        "relation":"restores",
+        "object":"Superoxide Dismutase 2 mRNA Levels",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":348,
+        "subject":"Cerium Oxide Nanoparticles",
+        "relation":"decreases",
+        "object":"Cyclooxygenase-2 Expression",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":348,
+        "subject":"Cerium Oxide Nanorods",
+        "relation":"decreases",
+        "object":"Brain Water Content",
+        "entity_variants":"Ceria_NRs, Ceria_NSs"
+    },
+    {
+        "source_abstract_id":348,
+        "subject":"Cerium Oxide Nanorods",
+        "relation":"improves",
+        "object":"Cognitive Impairment",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":348,
+        "subject":"Cerium Oxide Nanospheres",
+        "relation":"improves",
+        "object":"Cognitive Impairment",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":348,
+        "subject":"Cerium Oxide Nanorods",
+        "relation":"exhibits",
+        "object":"Anti-inflammatory Effect",
+        "entity_variants":"Ceria_NRs, Ceria_NSs"
+    },
+    {
+        "source_abstract_id":348,
+        "subject":"Cerium Oxide Nanospheres",
+        "relation":"exhibits",
+        "object":"Anti-inflammatory Effect",
+        "entity_variants":"Ceria_NSs, Ceria_NRs"
+    },
+    {
+        "source_abstract_id":404,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Spatial Memory Impairments",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":404,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Systematic Search Strategy Impairments",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":404,
+        "subject":"Spatial Memory Impairments",
+        "relation":"affects",
+        "object":"Executive Function",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":404,
+        "subject":"Spatial Memory Impairments",
+        "relation":"affects",
+        "object":"Working Memory",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":404,
+        "subject":"Search Strategy Utilization",
+        "relation":"measured_by",
+        "object":"Machine Learning Algorithm",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":404,
+        "subject":"Barnes Maze Testing",
+        "relation":"limited_by",
+        "object":"Non-Spatial Strategies",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":404,
+        "subject":"Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Chronic Effects",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":404,
+        "subject":"Spatial Memory Impairments",
+        "relation":"detected_by",
+        "object":"Probe Trial",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":404,
+        "subject":"Search Strategy Utilization",
+        "relation":"affected_by",
+        "object":"Traumatic Brain Injury",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":404,
+        "subject":"Barnes Maze Testing",
+        "relation":"enhanced_by",
+        "object":"Machine Learning Algorithm",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":408,
+        "subject":"Calcium",
+        "relation":"binds_to",
+        "object":"Cerebral Blood Volume",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":408,
+        "subject":"Calcium",
+        "relation":"binds_to",
+        "object":"Glucose Uptake",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":408,
+        "subject":"Neurovascular Coupling",
+        "relation":"causes",
+        "object":"Neurometabolic Coupling",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":408,
+        "subject":"2-NBDG",
+        "relation":"binds_to",
+        "object":"Glucose",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":408,
+        "subject":"Neurovascular Coupling",
+        "relation":"mediates",
+        "object":"Ischemia",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":408,
+        "subject":"Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Neurovascular Coupling",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":408,
+        "subject":"Aging",
+        "relation":"affects",
+        "object":"Neurometabolic Coupling",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":408,
+        "subject":"Alzheimer Disease",
+        "relation":"disrupts",
+        "object":"Neurovascular Coupling",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":408,
+        "subject":"Cerebral Blood Volume",
+        "relation":"varies_with",
+        "object":"Neuronal Activity",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":408,
+        "subject":"Calcium",
+        "relation":"affects",
+        "object":"Metabolic Activity",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":8,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Axonal Injury",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":397,
+        "subject":"fat-1 Mice",
+        "relation":"exhibits",
+        "object":"Neurological Severity Score",
+        "entity_variants":"lower mean, unknown"
+    },
+    {
+        "source_abstract_id":159,
+        "subject":"Immunofluorescence",
+        "relation":"diagnoses",
+        "object":"Neurodegenerative Disease",
+        "entity_variants":"unclear|"
+    }
+]

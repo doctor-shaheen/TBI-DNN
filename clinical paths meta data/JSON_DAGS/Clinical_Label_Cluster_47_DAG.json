@@ -1,0 +1,443 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 16,
+    "edge_count": 19
+  },
+  "nodes": [
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "Traumatic Brain Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111",
+        "HGNC_ID": null,
+        "UniProt_ID": null
+      },
+      "synonyms": [
+        "TBI",
+        "Brain Injury",
+        "Traumatic Axonal Injury",
+        "Subacute Injury"
+      ]
+    },
+    {
+      "id": "DiffuseAxonalInjury",
+      "label": "Diffuse Axonal Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0263666",
+        "HGNC_ID": null,
+        "UniProt_ID": null
+      },
+      "synonyms": [
+        "DAI",
+        "Injured Fiber Bundles"
+      ]
+    },
+    {
+      "id": "DiffusionTensorImaging",
+      "label": "Diffusion Tensor Imaging",
+      "type": "DiagnosticProcedure",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0430482",
+        "HGNC_ID": null,
+        "UniProt_ID": null
+      },
+      "synonyms": [
+        "DTI",
+        "Diffusion MRI",
+        "Diffusion Tensor Imaging Metrics"
+      ]
+    },
+    {
+      "id": "Tractography",
+      "label": "Tractography",
+      "type": "DiagnosticProcedure",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0242409",
+        "HGNC_ID": null,
+        "UniProt_ID": null
+      },
+      "synonyms": [
+        "Fiber Tractography Analysis",
+        "Differential Tractography",
+        "Brainstem Bundle Tool",
+        "Diffusion MRI Tractography"
+      ]
+    },
+    {
+      "id": "FractionalAnisotropy",
+      "label": "Fractional Anisotropy",
+      "type": "ClinicalAttribute",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C1517228",
+        "HGNC_ID": null,
+        "UniProt_ID": null
+      },
+      "synonyms": [
+        "FA",
+        "Deep White Matter Fractional Anisotropy"
+      ]
+    },
+    {
+      "id": "MeanDiffusivity",
+      "label": "Mean Diffusivity",
+      "type": "ClinicalAttribute",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C3639945",
+        "HGNC_ID": null,
+        "UniProt_ID": null
+      },
+      "synonyms": [
+        "MD",
+        "Normalized Mean Diffusivity",
+        "Diffusivity"
+      ]
+    },
+    {
+      "id": "AxialDiffusivity",
+      "label": "Axial Diffusivity",
+      "type": "ClinicalAttribute",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C4054522",
+        "HGNC_ID": null,
+        "UniProt_ID": null
+      },
+      "synonyms": [
+        "AD",
+        "Longitudinal Diffusivity"
+      ]
+    },
+    {
+      "id": "RadialDiffusivity",
+      "label": "Radial Diffusivity",
+      "type": "ClinicalAttribute",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C4054523",
+        "HGNC_ID": null,
+        "UniProt_ID": null
+      },
+      "synonyms": [
+        "RD",
+        "Transverse Diffusivity"
+      ]
+    },
+    {
+      "id": "WhiteMatterAtrophy",
+      "label": "Atrophy of White Matter",
+      "type": "PathologicFunction",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0242278",
+        "HGNC_ID": null,
+        "UniProt_ID": null
+      },
+      "synonyms": [
+        "White Matter Atrophy",
+        "Volumetric Variations"
+      ]
+    },
+    {
+      "id": "NeurologicPrognosis",
+      "label": "Neurologic Prognosis",
+      "type": "ClinicalAttribute",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0033352",
+        "HGNC_ID": null,
+        "UniProt_ID": null
+      },
+      "synonyms": [
+        "Neurologic Outcome",
+        "Prognostic Utility"
+      ]
+    },
+    {
+      "id": "VerbalMemory",
+      "label": "Verbal Memory",
+      "type": "MentalProcess",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0042533",
+        "HGNC_ID": null,
+        "UniProt_ID": null
+      },
+      "synonyms": []
+    },
+    {
+      "id": "VerbalFluency",
+      "label": "Verbal Fluency",
+      "type": "MentalProcess",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0042534",
+        "HGNC_ID": null,
+        "UniProt_ID": null
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Cognition",
+      "label": "Cognition",
+      "type": "MentalProcess",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0009241",
+        "HGNC_ID": null,
+        "UniProt_ID": null
+      },
+      "synonyms": [
+        "Cognitive Performance"
+      ]
+    },
+    {
+      "id": "PsychomotorPerformance",
+      "label": "Psychomotor Performance",
+      "type": "MentalProcess",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0033928",
+        "HGNC_ID": null,
+        "UniProt_ID": null
+      },
+      "synonyms": [
+        "Visuomotor Coordination"
+      ]
+    },
+    {
+      "id": "Disability",
+      "label": "Disability",
+      "type": "PathologicFunction",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0231170",
+        "HGNC_ID": null,
+        "UniProt_ID": null
+      },
+      "synonyms": [
+        "Functional Impairment"
+      ]
+    },
+    {
+      "id": "Age",
+      "label": "Age",
+      "type": "OrganismAttribute",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0001779",
+        "HGNC_ID": null,
+        "UniProt_ID": null
+      },
+      "synonyms": [
+        "Older Age"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "DiffusionTensorImaging",
+      "target": "DiffuseAxonalInjury",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        243,
+        487,
+        492
+      ],
+      "confidence": "High",
+      "metadata": "Diagnoses traumatic axonal injury and subacute injury"
+    },
+    {
+      "source": "DiffusionTensorImaging",
+      "target": "TraumaticBrainInjury",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        500
+      ],
+      "confidence": "High",
+      "metadata": "Indicates microstructural abnormalities"
+    },
+    {
+      "source": "DiffusionTensorImaging",
+      "target": "NeurologicPrognosis",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        25
+      ],
+      "confidence": "Medium",
+      "metadata": "Predicts neurologic outcome"
+    },
+    {
+      "source": "Tractography",
+      "target": "DiffuseAxonalInjury",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        474,
+        556
+      ],
+      "confidence": "High",
+      "metadata": "Evaluates injured fiber bundles and brainstem alterations"
+    },
+    {
+      "source": "Tractography",
+      "target": "NeurologicPrognosis",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        556
+      ],
+      "confidence": "Medium",
+      "metadata": "Supports prognostic utility via Brainstem Bundle Tool"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "FractionalAnisotropy",
+      "mechanism": "causes",
+      "evidence_ref": [
+        155,
+        524
+      ],
+      "confidence": "High",
+      "metadata": "Causes decrease in FA"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "MeanDiffusivity",
+      "mechanism": "causes",
+      "evidence_ref": [
+        275,
+        524
+      ],
+      "confidence": "Medium",
+      "metadata": "Causes changes in MD (Increased in chronic/severe; Reduced in specific acute contexts)"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "AxialDiffusivity",
+      "mechanism": "causes",
+      "evidence_ref": [
+        487
+      ],
+      "confidence": "Medium",
+      "metadata": "Causes elevated AD in athletes"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "RadialDiffusivity",
+      "mechanism": "causes",
+      "evidence_ref": [
+        515
+      ],
+      "confidence": "Medium",
+      "metadata": "Identified for RD in Thalamic Tract"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "WhiteMatterAtrophy",
+      "mechanism": "causes",
+      "evidence_ref": [
+        25
+      ],
+      "confidence": "Medium",
+      "metadata": "Implied association with volumetric variations"
+    },
+    {
+      "source": "WhiteMatterAtrophy",
+      "target": "FractionalAnisotropy",
+      "mechanism": "causes",
+      "evidence_ref": [
+        25
+      ],
+      "confidence": "Medium",
+      "metadata": "Associated with lower FA"
+    },
+    {
+      "source": "WhiteMatterAtrophy",
+      "target": "MeanDiffusivity",
+      "mechanism": "causes",
+      "evidence_ref": [
+        25
+      ],
+      "confidence": "Medium",
+      "metadata": "Negatively correlated with normalized MD"
+    },
+    {
+      "source": "FractionalAnisotropy",
+      "target": "VerbalMemory",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        183
+      ],
+      "confidence": "Low",
+      "metadata": "DTI abnormalities associated with memory function"
+    },
+    {
+      "source": "FractionalAnisotropy",
+      "target": "VerbalFluency",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        183
+      ],
+      "confidence": "Low",
+      "metadata": "DTI abnormalities associated with fluency"
+    },
+    {
+      "source": "FractionalAnisotropy",
+      "target": "Disability",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        490
+      ],
+      "confidence": "Medium",
+      "metadata": "Microstructure alterations associated with functional impairment"
+    },
+    {
+      "source": "MeanDiffusivity",
+      "target": "Cognition",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        500
+      ],
+      "confidence": "Medium",
+      "metadata": "Associated with cognitive performance"
+    },
+    {
+      "source": "RadialDiffusivity",
+      "target": "PsychomotorPerformance",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        500
+      ],
+      "confidence": "Medium",
+      "metadata": "Associated with visuomotor coordination"
+    },
+    {
+      "source": "Age",
+      "target": "FractionalAnisotropy",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        183
+      ],
+      "confidence": "Medium",
+      "metadata": "Older age associated with DTI abnormalities"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Disability",
+      "mechanism": "causes",
+      "evidence_ref": [
+        490
+      ],
+      "confidence": "High",
+      "metadata": "Functional impairment mediated by microstructure alterations"
+    }
+  ]
+}

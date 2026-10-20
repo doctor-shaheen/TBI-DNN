@@ -1,0 +1,282 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 11,
+    "edge_count": 12
+  },
+  "nodes": [
+    {
+      "id": "BDKRB2",
+      "label": "BDKRB2",
+      "type": "Protein",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "UMLS_CUI": "C0006123",
+        "HGNC_ID": "HGNC:1020",
+        "UniProt_ID": "P30411"
+      },
+      "synonyms": [
+        "Bradykinin B2 Receptor",
+        "B2R",
+        "BK-2 receptor"
+      ]
+    },
+    {
+      "id": "CognitiveDysfunction",
+      "label": "Cognitive Dysfunction",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0338656"
+      },
+      "synonyms": [
+        "Cognitive Impairment",
+        "Cognitive decline"
+      ]
+    },
+    {
+      "id": "Neurodegeneration",
+      "label": "Neurodegeneration",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027746"
+      },
+      "synonyms": [
+        "Hippocampal Neurodegeneration",
+        "Hippocampal Damage",
+        "Neuronal loss"
+      ]
+    },
+    {
+      "id": "Neuroinflammation",
+      "label": "Neuroinflammation",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027785"
+      },
+      "synonyms": [
+        "Brain Inflammation",
+        "Inflammatory response in brain"
+      ]
+    },
+    {
+      "id": "MotorActivity",
+      "label": "Motor Activity",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0026606"
+      },
+      "synonyms": [
+        "Motor Function",
+        "Locomotor activity"
+      ]
+    },
+    {
+      "id": "PTPRC",
+      "label": "PTPRC",
+      "type": "Protein",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "UMLS_CUI": "C0023617",
+        "HGNC_ID": "HGNC:9666",
+        "UniProt_ID": "P08575"
+      },
+      "synonyms": [
+        "CD45",
+        "Leukocyte Common Antigen",
+        "LCA"
+      ]
+    },
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "Traumatic Brain Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111"
+      },
+      "synonyms": [
+        "TBI",
+        "Head Injury"
+      ]
+    },
+    {
+      "id": "KCNB1",
+      "label": "KCNB1",
+      "type": "Protein",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "UMLS_CUI": "C1416301",
+        "HGNC_ID": "HGNC:6231",
+        "UniProt_ID": "Q14721"
+      },
+      "synonyms": [
+        "Kv2.1",
+        "Voltage-gated potassium channel subunit Kv2.1"
+      ]
+    },
+    {
+      "id": "OxidativeStress",
+      "label": "Oxidative Stress",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0029929"
+      },
+      "synonyms": [
+        "ROS production"
+      ]
+    },
+    {
+      "id": "CellDeath",
+      "label": "Cell Death",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0007587"
+      },
+      "synonyms": [
+        "Apoptosis",
+        "Necrosis"
+      ]
+    },
+    {
+      "id": "BehavioralSymptoms",
+      "label": "Behavioral Symptoms",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0004936"
+      },
+      "synonyms": [
+        "Behavioral Deficits"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "BDKRB2",
+      "target": "CognitiveDysfunction",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        139
+      ],
+      "confidence": "High",
+      "metadata": "Context: Receptor activation mediates impairment"
+    },
+    {
+      "source": "BDKRB2",
+      "target": "Neurodegeneration",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        139
+      ],
+      "confidence": "High",
+      "metadata": "Context: Receptor activation mediates hippocampal damage; Deficiency reduces neurodegeneration"
+    },
+    {
+      "source": "BDKRB2",
+      "target": "Neuroinflammation",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        139
+      ],
+      "confidence": "High",
+      "metadata": "Context: Receptor mediates neuroinflammation"
+    },
+    {
+      "source": "BDKRB2",
+      "target": "MotorActivity",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        139
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Meditates function/deficits"
+    },
+    {
+      "source": "BDKRB2",
+      "target": "PTPRC",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        139
+      ],
+      "confidence": "High",
+      "metadata": "Context: Deficiency reduces CD45+ cell count (infiltration)"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "KCNB1",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        115
+      ],
+      "confidence": "High",
+      "metadata": "Effect: Causes Oxidation"
+    },
+    {
+      "source": "KCNB1",
+      "target": "Neurodegeneration",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        115
+      ],
+      "confidence": "High",
+      "metadata": "Requirement: Oxidized state"
+    },
+    {
+      "source": "KCNB1",
+      "target": "CognitiveDysfunction",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        115
+      ],
+      "confidence": "High",
+      "metadata": "Requirement: Oxidized state"
+    },
+    {
+      "source": "KCNB1",
+      "target": "Neuroinflammation",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        115
+      ],
+      "confidence": "High",
+      "metadata": "Requirement: Oxidized state"
+    },
+    {
+      "source": "OxidativeStress",
+      "target": "KCNB1",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        115
+      ],
+      "confidence": "High",
+      "metadata": "Effect: Causes Oxidation"
+    },
+    {
+      "source": "KCNB1",
+      "target": "CellDeath",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        115
+      ],
+      "confidence": "High",
+      "metadata": "Requirement: Oxidized state"
+    },
+    {
+      "source": "KCNB1",
+      "target": "BehavioralSymptoms",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        115
+      ],
+      "confidence": "High",
+      "metadata": "Requirement: Oxidized state"
+    }
+  ]
+}

@@ -1,0 +1,744 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 37,
+    "edge_count": 31
+  },
+  "nodes": [
+    {
+      "id": "Neuroinflammation",
+      "label": "Neuroinflammation",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027947",
+        "GO_ID": "GO:0150076"
+      },
+      "synonyms": [
+        "Neuroinflammatory Processes",
+        "Maladaptive Neuroinflammatory Processes"
+      ]
+    },
+    {
+      "id": "CognitiveDysfunction",
+      "label": "Cognitive Dysfunction",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0009241"
+      },
+      "synonyms": [
+        "Cognitive Decline",
+        "Cognitive Impairment",
+        "Cognitive Deficits",
+        "Decreased Cognitive Function",
+        "Memory Impairment"
+      ]
+    },
+    {
+      "id": "KynurenicAcid",
+      "label": "Kynurenic Acid",
+      "type": "Chemical",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "ChEBI_ID": "CHEBI:18344"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Neurotoxicity",
+      "label": "Neurotoxicity",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027943"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "3-Hydroxykynurenine",
+      "label": "3-Hydroxykynurenine",
+      "type": "Chemical",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "ChEBI_ID": "CHEBI:1547"
+      },
+      "synonyms": [
+        "3-HK"
+      ]
+    },
+    {
+      "id": "Inflammation",
+      "label": "Inflammation",
+      "type": "Process",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0021368",
+        "GO_ID": "GO:0006954"
+      },
+      "synonyms": [
+        "Systemic Inflammation",
+        "Inflammatory Cytokines"
+      ]
+    },
+    {
+      "id": "Neurodegeneration",
+      "label": "Neurodegeneration",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027787",
+        "GO_ID": "GO:0070271"
+      },
+      "synonyms": [
+        "Neurodegenerative conditions",
+        "Progressive Pathology"
+      ]
+    },
+    {
+      "id": "Dementia",
+      "label": "Dementia",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0497327"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "IGF1",
+      "label": "IGF1",
+      "type": "Protein",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "HGNC_ID": "HGNC:5464",
+        "UMLS_CUI": "C0021703"
+      },
+      "synonyms": [
+        "Insulin-Like Growth Factor 1"
+      ]
+    },
+    {
+      "id": "Cognition",
+      "label": "Cognition",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0009240"
+      },
+      "synonyms": [
+        "Cognitive Function"
+      ]
+    },
+    {
+      "id": "NeurobehavioralManifestations",
+      "label": "Neurobehavioral Manifestations",
+      "type": "Phenotype",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027806"
+      },
+      "synonyms": [
+        "Neuropsychiatric Symptoms"
+      ]
+    },
+    {
+      "id": "GlymphaticClearance",
+      "label": "Glymphatic Clearance",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C4072120"
+      },
+      "synonyms": [
+        "Glymphatic Function",
+        "Glymphatic System Function",
+        "Glymphatic System"
+      ]
+    },
+    {
+      "id": "OxidativeStress",
+      "label": "Oxidative Stress",
+      "type": "Process",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "UMLS_CUI": "C0029912",
+        "GO_ID": "GO:0006979"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Glutamate",
+      "label": "Glutamic Acid",
+      "type": "Chemical",
+      "location": "Synapse",
+      "identifiers": {
+        "ChEBI_ID": "CHEBI:14321"
+      },
+      "synonyms": [
+        "Glutamate Level"
+      ]
+    },
+    {
+      "id": "Excitotoxicity",
+      "label": "Excitotoxicity",
+      "type": "Process",
+      "location": "Neuron",
+      "identifiers": {
+        "UMLS_CUI": "C0596328"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "C1QA",
+      "label": "C1QA",
+      "type": "Protein",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "HGNC_ID": "HGNC:1241",
+        "UMLS_CUI": "C0009657"
+      },
+      "synonyms": [
+        "Complement C1q",
+        "C1q"
+      ]
+    },
+    {
+      "id": "IL1B",
+      "label": "IL1B",
+      "type": "Protein",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "HGNC_ID": "HGNC:5992",
+        "UMLS_CUI": "C0021752"
+      },
+      "synonyms": [
+        "Interleukin-1 Beta"
+      ]
+    },
+    {
+      "id": "Meningitis",
+      "label": "Meningitis",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0025289"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "MitochondrialDysfunction",
+      "label": "Mitochondrial Dysfunction",
+      "type": "Process",
+      "location": "Mitochondria",
+      "identifiers": {
+        "UMLS_CUI": "C0242602"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "SynapseLoss",
+      "label": "Synapse Loss",
+      "type": "Process",
+      "location": "Synapse",
+      "identifiers": {
+        "UMLS_CUI": "C0853504"
+      },
+      "synonyms": [
+        "Synaptic Loss"
+      ]
+    },
+    {
+      "id": "TSPO",
+      "label": "TSPO",
+      "type": "Protein",
+      "location": "Mitochondria",
+      "identifiers": {
+        "HGNC_ID": "HGNC:1158",
+        "UMLS_CUI": "C1420718"
+      },
+      "synonyms": [
+        "Translocator Protein"
+      ]
+    },
+    {
+      "id": "MicroglialActivation",
+      "label": "Microglial Activation",
+      "type": "Process",
+      "location": "Microglia",
+      "identifiers": {
+        "UMLS_CUI": "C0751419"
+      },
+      "synonyms": [
+        "Microglial Reactivity"
+      ]
+    },
+    {
+      "id": "CEBPB",
+      "label": "CEBPB",
+      "type": "Protein",
+      "location": "Nucleus",
+      "identifiers": {
+        "HGNC_ID": "HGNC:1834"
+      },
+      "synonyms": [
+        "CCAAT/enhancer-binding protein beta"
+      ]
+    },
+    {
+      "id": "Serine",
+      "label": "Serine",
+      "type": "Chemical",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "ChEBI_ID": "CHEBI:17822"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "PyroglutamicAcid",
+      "label": "Pyroglutamic Acid",
+      "type": "Chemical",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "ChEBI_ID": "CHEBI:18183"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Phenylalanine",
+      "label": "Phenylalanine",
+      "type": "Chemical",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "ChEBI_ID": "CHEBI:17915"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Galactose",
+      "label": "Galactose",
+      "type": "Chemical",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "ChEBI_ID": "CHEBI:17118"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "PalmiticAcid",
+      "label": "Palmitic Acid",
+      "type": "Chemical",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "ChEBI_ID": "CHEBI:15756"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "ArachidonicAcid",
+      "label": "Arachidonic Acid",
+      "type": "Chemical",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "ChEBI_ID": "CHEBI:15531"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "LinoleicAcid",
+      "label": "Linoleic Acid",
+      "type": "Chemical",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "ChEBI_ID": "CHEBI:17351"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "CitricAcid",
+      "label": "Citric Acid",
+      "type": "Chemical",
+      "location": "Mitochondria",
+      "identifiers": {
+        "ChEBI_ID": "CHEBI:30769"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "2,3,4-TrihydroxybutyricAcid",
+      "label": "2,3,4-Trihydroxybutyric Acid",
+      "type": "Chemical",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "ChEBI_ID": "CHEBI:46029"
+      },
+      "synonyms": [
+        "2,3,4-Trihydroxybutyrate"
+      ]
+    },
+    {
+      "id": "N-stearoylsphingosine",
+      "label": "N-stearoylsphingosine",
+      "type": "Chemical",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "ChEBI_ID": "CHEBI:72961"
+      },
+      "synonyms": [
+        "C18-Ceramide"
+      ]
+    },
+    {
+      "id": "NeurovascularCoupling",
+      "label": "Neurovascular Coupling",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C4277561"
+      },
+      "synonyms": [
+        "Neurovascular Coupling Impairment"
+      ]
+    },
+    {
+      "id": "PPARGC1A",
+      "label": "PPARGC1A",
+      "type": "Protein",
+      "location": "Nucleus",
+      "identifiers": {
+        "HGNC_ID": "HGNC:9232"
+      },
+      "synonyms": [
+        "PGC-1alpha"
+      ]
+    },
+    {
+      "id": "Hyperlipidemia",
+      "label": "Hyperlipidemia",
+      "type": "Disease",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0020473"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "SerotonergicSystem",
+      "label": "Serotonergic System",
+      "type": "Anatomy",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0036746"
+      },
+      "synonyms": []
+    }
+  ],
+  "edges": [
+    {
+      "source": "Neuroinflammation",
+      "target": "CognitiveDysfunction",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        39,
+        444,
+        446
+      ],
+      "confidence": "High",
+      "metadata": "Context: Mediates decline and symptoms"
+    },
+    {
+      "source": "KynurenicAcid",
+      "target": "Neurotoxicity",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        106
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "3-Hydroxykynurenine",
+      "target": "Neurotoxicity",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        106
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "Inflammation",
+      "target": "Neurodegeneration",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        108,
+        303,
+        304
+      ],
+      "confidence": "High",
+      "metadata": "Context: Systemic and general inflammation"
+    },
+    {
+      "source": "Inflammation",
+      "target": "Dementia",
+      "mechanism": "causes",
+      "evidence_ref": [
+        254
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "Inflammation",
+      "target": "CognitiveDysfunction",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        254,
+        356,
+        486
+      ],
+      "confidence": "High",
+      "metadata": "Also acts as a predictor/biomarker"
+    },
+    {
+      "source": "Neuroinflammation",
+      "target": "Neurodegeneration",
+      "mechanism": "causes",
+      "evidence_ref": [
+        303,
+        416,
+        507
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "IGF1",
+      "target": "Cognition",
+      "mechanism": "associated_with",
+      "evidence_ref": [
+        426
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Correlation"
+    },
+    {
+      "source": "Neuroinflammation",
+      "target": "NeurobehavioralManifestations",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        444
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "GlymphaticClearance",
+      "target": "Neurodegeneration",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        461,
+        612
+      ],
+      "confidence": "High",
+      "metadata": "Associated with and affects"
+    },
+    {
+      "source": "OxidativeStress",
+      "target": "Neurodegeneration",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        465
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "Glutamate",
+      "target": "Excitotoxicity",
+      "mechanism": "causes",
+      "evidence_ref": [
+        506
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "C1QA",
+      "target": "Neuroinflammation",
+      "mechanism": "activates",
+      "evidence_ref": [
+        526
+      ],
+      "confidence": "High",
+      "metadata": "Mediates/Causes maladaptive processes"
+    },
+    {
+      "source": "IL1B",
+      "target": "CognitiveDysfunction",
+      "mechanism": "associated_with",
+      "evidence_ref": [
+        560
+      ],
+      "confidence": "High",
+      "metadata": "Context: Elevated levels predict impairment"
+    },
+    {
+      "source": "IL1B",
+      "target": "Cognition",
+      "mechanism": "associated_with",
+      "evidence_ref": [
+        560
+      ],
+      "confidence": "High",
+      "metadata": "Context: Normal levels associated with function"
+    },
+    {
+      "source": "Meningitis",
+      "target": "CognitiveDysfunction",
+      "mechanism": "causes",
+      "evidence_ref": [
+        561
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "MitochondrialDysfunction",
+      "target": "SynapseLoss",
+      "mechanism": "causes",
+      "evidence_ref": [
+        593
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "TSPO",
+      "target": "CognitiveDysfunction",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        446
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "MicroglialActivation",
+      "target": "CognitiveDysfunction",
+      "mechanism": "causes",
+      "evidence_ref": [
+        356
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "CEBPB",
+      "target": "CognitiveDysfunction",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        107
+      ],
+      "confidence": "High",
+      "metadata": "Negatively regulates"
+    },
+    {
+      "source": "GlymphaticClearance",
+      "target": "CognitiveDysfunction",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        152,
+        534
+      ],
+      "confidence": "High",
+      "metadata": "Function prevents dysfunction; Dysfunction contributes to it"
+    },
+    {
+      "source": "Serine",
+      "target": "CognitiveDysfunction",
+      "mechanism": "associated_with",
+      "evidence_ref": [
+        354
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "PyroglutamicAcid",
+      "target": "CognitiveDysfunction",
+      "mechanism": "associated_with",
+      "evidence_ref": [
+        354
+      ],
+      "confidence": "Medium",
+      "metadata": "Also includes Phenylalanine, Galactose, Palmitic Acid, Arachidonic Acid, Linoleic Acid, Citric Acid, 2,3,4-Trihydroxybutyrate"
+    },
+    {
+      "source": "IGF1",
+      "target": "CognitiveDysfunction",
+      "mechanism": "associated_with",
+      "evidence_ref": [
+        426,
+        462
+      ],
+      "confidence": "High",
+      "metadata": "Context: Deficiency associated with dysfunction"
+    },
+    {
+      "source": "N-stearoylsphingosine",
+      "target": "CognitiveDysfunction",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        457
+      ],
+      "confidence": "High",
+      "metadata": "Context: Treats"
+    },
+    {
+      "source": "IGF1",
+      "target": "NeurovascularCoupling",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        462
+      ],
+      "confidence": "High",
+      "metadata": "Negatively associated with impairment"
+    },
+    {
+      "source": "PPARGC1A",
+      "target": "CognitiveDysfunction",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        529
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "Hyperlipidemia",
+      "target": "CognitiveDysfunction",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        548
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "MitochondrialDysfunction",
+      "target": "CognitiveDysfunction",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        593
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "SerotonergicSystem",
+      "target": "CognitiveDysfunction",
+      "mechanism": "causes",
+      "evidence_ref": [
+        497
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "CitricAcid",
+      "target": "CognitiveDysfunction",
+      "mechanism": "associated_with",
+      "evidence_ref": [
+        354
+      ],
+      "confidence": "Medium"
+    }
+  ]
+}

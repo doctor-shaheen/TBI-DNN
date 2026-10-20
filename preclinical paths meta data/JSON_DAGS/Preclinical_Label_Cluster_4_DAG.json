@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 2,
+    "edge_count": 1
+  },
+  "nodes": [
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "Traumatic Brain Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111",
+        "MeSH_ID": "D000070642"
+      },
+      "synonyms": [
+        "TBI",
+        "Brain Injury, Traumatic",
+        "Head Injury"
+      ]
+    },
+    {
+      "id": "Inflammation",
+      "label": "Inflammation",
+      "type": "BiologicalProcess",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0021368",
+        "GO_ID": "GO:0006954"
+      },
+      "synonyms": [
+        "Inflammatory Response",
+        "Chronic Inflammation",
+        "Cortical Inflammation",
+        "Neuroinflammation"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Inflammation",
+      "mechanism": "causes",
+      "evidence_ref": [
+        36,
+        47,
+        52,
+        102,
+        186,
+        192,
+        194,
+        203,
+        219,
+        225,
+        237,
+        268,
+        325,
+        327,
+        328,
+        334,
+        342,
+        350,
+        352,
+        369,
+        371,
+        388,
+        394
+      ],
+      "confidence": "High",
+      "metadata": "Context: Includes acute, chronic (Ref: 194), and cortical (Ref: 352) inflammatory responses; merges 'upregulates' and 'affects' mechanism descriptions."
+    }
+  ]
+}

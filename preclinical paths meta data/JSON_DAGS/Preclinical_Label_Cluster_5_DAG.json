@@ -1,0 +1,554 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 22,
+    "edge_count": 28
+  },
+  "nodes": [
+    {
+      "id": "Omega3FattyAcids",
+      "label": "Omega-3 Fatty Acids",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "ChEBI_ID": "CHEBI:25627",
+        "UMLS_CUI": "C0027725"
+      },
+      "synonyms": [
+        "Omega-3 Polyunsaturated Fatty Acids",
+        "Eicosapentaenoic Acid",
+        "EPA",
+        "n-3 PUFAs"
+      ]
+    },
+    {
+      "id": "Synaptamide",
+      "label": "Synaptamide",
+      "type": "Chemical",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "ChEBI_ID": "CHEBI:138167",
+        "PubChem_CID": "10418386"
+      },
+      "synonyms": [
+        "N-Docosahexaenoylethanolamine",
+        "DHEA"
+      ]
+    },
+    {
+      "id": "Galantamine",
+      "label": "Galantamine",
+      "type": "Chemical",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "ChEBI_ID": "CHEBI:5252",
+        "UMLS_CUI": "C0016867"
+      },
+      "synonyms": [
+        "Galanthamine",
+        "Nivalin"
+      ]
+    },
+    {
+      "id": "AmnionDerivedCytokineSolution",
+      "label": "Amnion Derived Cytokine Solution",
+      "type": "Biological_Agent",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C4760824"
+      },
+      "synonyms": [
+        "Amnion Cytokine Concentrate Solution",
+        "ACCS"
+      ]
+    },
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "Traumatic Brain Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111"
+      },
+      "synonyms": [
+        "Projectile Impact",
+        "TBI",
+        "Head Injury"
+      ]
+    },
+    {
+      "id": "CognitiveImpairment",
+      "label": "Cognitive Impairment",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0338656"
+      },
+      "synonyms": [
+        "Cognitive Deficits",
+        "N1 Amplitude Reduction",
+        "Cognitive Dysfunction"
+      ]
+    },
+    {
+      "id": "MotorDeficit",
+      "label": "Motor Deficit",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0521654"
+      },
+      "synonyms": [
+        "Motor Function Deficit",
+        "Motor Dysfunction"
+      ]
+    },
+    {
+      "id": "VisionDisorder",
+      "label": "Vision Disorder",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0042798"
+      },
+      "synonyms": [
+        "Visual Deficit"
+      ]
+    },
+    {
+      "id": "Anxiety",
+      "label": "Anxiety",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0003467"
+      },
+      "synonyms": [
+        "Emotional Deficit"
+      ]
+    },
+    {
+      "id": "Neuroinflammation",
+      "label": "Neuroinflammation",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0494480",
+        "GO_ID": "GO:0006954"
+      },
+      "synonyms": [
+        "Inflammatory Gene Expression"
+      ]
+    },
+    {
+      "id": "Neurodegeneration",
+      "label": "Neurodegeneration",
+      "type": "Pathology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027746"
+      },
+      "synonyms": [
+        "Neuronal Loss",
+        "Neuronal Death"
+      ]
+    },
+    {
+      "id": "Neurogenesis",
+      "label": "Neurogenesis",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "GO_ID": "GO:0022008"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Angiogenesis",
+      "label": "Angiogenesis",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "GO_ID": "GO:0001525"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "OligodendrocyteDifferentiation",
+      "label": "Oligodendrocyte Differentiation",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "GO_ID": "GO:0048709"
+      },
+      "synonyms": [
+        "Oligodendrogenesis"
+      ]
+    },
+    {
+      "id": "MicroglialActivation",
+      "label": "Microglial Activation",
+      "type": "Process",
+      "location": "Microglia",
+      "identifiers": {
+        "GO_ID": "GO:0001774"
+      },
+      "synonyms": [
+        "Pro-inflammatory Microglial Cell Activity"
+      ]
+    },
+    {
+      "id": "BloodBrainBarrierPermeability",
+      "label": "Blood Brain Barrier Permeability",
+      "type": "Process",
+      "location": "Blood",
+      "identifiers": {
+        "GO_ID": "GO:0099608"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "CholinergicSynapticTransmission",
+      "label": "Cholinergic Synaptic Transmission",
+      "type": "Process",
+      "location": "Synapse",
+      "identifiers": {
+        "GO_ID": "GO:0007271"
+      },
+      "synonyms": [
+        "Nicotinic Receptor Signaling"
+      ]
+    },
+    {
+      "id": "ACHE",
+      "label": "ACHE",
+      "type": "Protein",
+      "location": "Synapse",
+      "identifiers": {
+        "HGNC_ID": "HGNC:108",
+        "UMLS_CUI": "C0001049"
+      },
+      "synonyms": [
+        "Acetylcholinesterase"
+      ]
+    },
+    {
+      "id": "AIF1",
+      "label": "AIF1",
+      "type": "Protein",
+      "location": "Microglia",
+      "identifiers": {
+        "HGNC_ID": "HGNC:354",
+        "UMLS_CUI": "C1412217"
+      },
+      "synonyms": [
+        "Iba1",
+        "Ionized Calcium Binding Adapter Molecule 1"
+      ]
+    },
+    {
+      "id": "MPO",
+      "label": "MPO",
+      "type": "Protein",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "HGNC_ID": "HGNC:7218",
+        "UMLS_CUI": "C0026993"
+      },
+      "synonyms": [
+        "Myeloperoxidase"
+      ]
+    },
+    {
+      "id": "MRC1",
+      "label": "MRC1",
+      "type": "Protein",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "HGNC_ID": "HGNC:7228",
+        "UMLS_CUI": "C1417036"
+      },
+      "synonyms": [
+        "CD206",
+        "Mannose Receptor C-Type 1"
+      ]
+    },
+    {
+      "id": "Ceramides",
+      "label": "Ceramides",
+      "type": "Chemical",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "ChEBI_ID": "CHEBI:17761",
+        "UMLS_CUI": "C0007774"
+      },
+      "synonyms": []
+    }
+  ],
+  "edges": [
+    {
+      "source": "Omega3FattyAcids",
+      "target": "CognitiveImpairment",
+      "mechanism": "treats",
+      "evidence_ref": [
+        94,
+        209,
+        397
+      ],
+      "confidence": "High",
+      "metadata": "Reduces deficits, attenuates N1 amplitude reduction, improves functional outcome"
+    },
+    {
+      "source": "Omega3FattyAcids",
+      "target": "MotorDeficit",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        105,
+        397
+      ],
+      "confidence": "High",
+      "metadata": "Variant: Eicosapentaenoic Acid"
+    },
+    {
+      "source": "Omega3FattyAcids",
+      "target": "VisionDisorder",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        105
+      ],
+      "confidence": "Medium",
+      "metadata": "Variant: Eicosapentaenoic Acid"
+    },
+    {
+      "source": "Omega3FattyAcids",
+      "target": "Anxiety",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        105
+      ],
+      "confidence": "Medium",
+      "metadata": "Prevents emotional deficit"
+    },
+    {
+      "source": "Omega3FattyAcids",
+      "target": "Ceramides",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        105
+      ],
+      "confidence": "Medium",
+      "metadata": "Prevents increase"
+    },
+    {
+      "source": "Omega3FattyAcids",
+      "target": "Neuroinflammation",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        105
+      ],
+      "confidence": "High",
+      "metadata": "Decreases inflammatory gene expression"
+    },
+    {
+      "source": "Omega3FattyAcids",
+      "target": "Neurogenesis",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        209
+      ],
+      "confidence": "High",
+      "metadata": "Context: Brain Remodeling"
+    },
+    {
+      "source": "Omega3FattyAcids",
+      "target": "Angiogenesis",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        209
+      ],
+      "confidence": "High",
+      "metadata": "Context: Brain Remodeling"
+    },
+    {
+      "source": "Omega3FattyAcids",
+      "target": "OligodendrocyteDifferentiation",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        209
+      ],
+      "confidence": "High",
+      "metadata": "Context: Brain Remodeling"
+    },
+    {
+      "source": "Galantamine",
+      "target": "BloodBrainBarrierPermeability",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        274
+      ],
+      "confidence": "High",
+      "metadata": "Decreases permeability"
+    },
+    {
+      "source": "Galantamine",
+      "target": "Neurodegeneration",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        274
+      ],
+      "confidence": "High",
+      "metadata": "Decreases neuronal loss"
+    },
+    {
+      "source": "Galantamine",
+      "target": "CognitiveImpairment",
+      "mechanism": "treats",
+      "evidence_ref": [
+        274
+      ],
+      "confidence": "High",
+      "metadata": "Enhances cognitive function, improves hippocampal function"
+    },
+    {
+      "source": "Galantamine",
+      "target": "ACHE",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        274
+      ],
+      "confidence": "High",
+      "metadata": "Inhibits activity"
+    },
+    {
+      "source": "Galantamine",
+      "target": "CholinergicSynapticTransmission",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        274
+      ],
+      "confidence": "Medium",
+      "metadata": "Increases nicotinic receptor signaling"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Neuroinflammation",
+      "mechanism": "activates",
+      "evidence_ref": [
+        395
+      ],
+      "confidence": "Medium",
+      "metadata": "Modulates cytokine mRNA expression"
+    },
+    {
+      "source": "Synaptamide",
+      "target": "CognitiveImpairment",
+      "mechanism": "treats",
+      "evidence_ref": [
+        143
+      ],
+      "confidence": "High",
+      "metadata": "Reduces impairment, causes recovery"
+    },
+    {
+      "source": "Synaptamide",
+      "target": "MicroglialActivation",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        143
+      ],
+      "confidence": "High",
+      "metadata": "Inhibits pro-inflammatory activity"
+    },
+    {
+      "source": "Synaptamide",
+      "target": "Neuroinflammation",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        143
+      ],
+      "confidence": "High",
+      "metadata": "Decreases pro-inflammatory cytokine levels"
+    },
+    {
+      "source": "Synaptamide",
+      "target": "MRC1",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        143
+      ],
+      "confidence": "Medium",
+      "metadata": "Increases CD206"
+    },
+    {
+      "source": "Synaptamide",
+      "target": "Anxiety",
+      "mechanism": "treats",
+      "evidence_ref": [
+        143
+      ],
+      "confidence": "Medium",
+      "metadata": "Improves anxiety"
+    },
+    {
+      "source": "Synaptamide",
+      "target": "Neurodegeneration",
+      "mechanism": "treats",
+      "evidence_ref": [
+        186
+      ],
+      "confidence": "Medium",
+      "metadata": "Treats neurodegenerative disease"
+    },
+    {
+      "source": "AmnionDerivedCytokineSolution",
+      "target": "MotorDeficit",
+      "mechanism": "treats",
+      "evidence_ref": [
+        400
+      ],
+      "confidence": "High",
+      "metadata": "Causes persistent motor improvement"
+    },
+    {
+      "source": "AmnionDerivedCytokineSolution",
+      "target": "Neuroinflammation",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        400
+      ],
+      "confidence": "High",
+      "metadata": "Decreases neuroinflammation"
+    },
+    {
+      "source": "AmnionDerivedCytokineSolution",
+      "target": "MPO",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        400
+      ],
+      "confidence": "Medium",
+      "metadata": "Decreases expression"
+    },
+    {
+      "source": "AmnionDerivedCytokineSolution",
+      "target": "AIF1",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        400
+      ],
+      "confidence": "Medium",
+      "metadata": "Decreases expression"
+    },
+    {
+      "source": "AmnionDerivedCytokineSolution",
+      "target": "Neurodegeneration",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        400
+      ],
+      "confidence": "High",
+      "metadata": "Decreases neurodegeneration"
+    }
+  ]
+}

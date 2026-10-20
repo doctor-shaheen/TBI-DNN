@@ -1,0 +1,261 @@
+[
+    {
+        "source_abstract_id":305,
+        "subject":"Traumatic brain injury",
+        "relation":"disrupts",
+        "object":"Caudate connectivity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":405,
+        "subject":"Axonal Connections",
+        "relation":"decreases",
+        "object":"Network Efficiency",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":429,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Dissociable Connectivity Trajectories",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":549,
+        "subject":"Repetitive Transcranial Magnetic Stimulation",
+        "relation":"modulates",
+        "object":"Brain Connectivity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":571,
+        "subject":"Traumatic Brain Injury",
+        "relation":"disrupts",
+        "object":"Brain Connectivity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":571,
+        "subject":"Traumatic Axonal Injury",
+        "relation":"reduces",
+        "object":"Betweenness Centrality",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":571,
+        "subject":"Traumatic Axonal Injury",
+        "relation":"reduces",
+        "object":"Eigenvector Centrality",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":5,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Frontal Cortex Structural Changes",
+        "entity_variants":"none|"
+    },
+    {
+        "source_abstract_id":132,
+        "subject":"Functional Connectivity",
+        "relation":"is_altered_in",
+        "object":"Mild Traumatic Brain Injury Patients",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":166,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cerebral Blood Flow Changes",
+        "entity_variants":"N\/A|"
+    },
+    {
+        "source_abstract_id":192,
+        "subject":"Functional Connectivity",
+        "relation":"is_reduced_in",
+        "object":"Mild Traumatic Brain Injury Patients",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":26,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Structural Connectivity Loss",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":26,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Altered Interhemispheric Functional Connectivity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":130,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"disrupts",
+        "object":"Functional Connectivity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":133,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Functional and Structural Disruption",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":158,
+        "subject":"Acute Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Altered Brain Network Edges",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":158,
+        "subject":"Chronic Mild Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Consistent Altered Brain Network Edges",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":158,
+        "subject":"Acute Cognitive Impairment",
+        "relation":"associated_with",
+        "object":"Altered Brain Network Edges",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":167,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Structural Connectivity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":167,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Functional Connectivity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":167,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"alters",
+        "object":"Brain Network Topologies",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":167,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Hubs in Brain Networks",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":169,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Fractional Anisotropy Changes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":192,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"disrupts",
+        "object":"Functional Connectivity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":204,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Brain Network Connectivity Changes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":253,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Substantia Nigra Functional Connectivity Disruption",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":253,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Functional Connectivity Disruption",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":279,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"not_causes",
+        "object":"DaTscan Changes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":279,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"not_associated_with",
+        "object":"DaTscan Changes After Correction",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":336,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Abnormal BOLD Signals",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":401,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Thalamo-Cortical Connections Alteration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":402,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Functional Neuroimaging Changes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":402,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Activation Patterns",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":490,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Microstructure Alterations",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":498,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cerebral Perfusion Abnormalities",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":506,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Metabolomic Biomarker Profiles",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":515,
+        "subject":"Diffusion Tensor Imaging",
+        "relation":"diagnoses",
+        "object":"Mild Traumatic Brain Injury",
+        "entity_variants":null
+    }
+]

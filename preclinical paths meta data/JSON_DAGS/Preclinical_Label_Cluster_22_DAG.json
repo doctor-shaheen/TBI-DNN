@@ -1,0 +1,309 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 13,
+    "edge_count": 12
+  },
+  "nodes": [
+    {
+      "id": "LIF",
+      "label": "Leukemia inhibitory factor",
+      "type": "Protein",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "HGNC_ID": "HGNC:6596",
+        "UniProt_ID": "P15018",
+        "UMLS_CUI": "C0065171"
+      },
+      "synonyms": [
+        "Leukemia Inhibitory Factor",
+        "CDF",
+        "HILDA"
+      ]
+    },
+    {
+      "id": "CSF1",
+      "label": "Colony stimulating factor 1",
+      "type": "Protein",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "HGNC_ID": "HGNC:2432",
+        "UniProt_ID": "P09603",
+        "UMLS_CUI": "C0024471"
+      },
+      "synonyms": [
+        "M-CSF",
+        "Macrophage colony-stimulating factor 1",
+        "Colony Stimulating Factor 1"
+      ]
+    },
+    {
+      "id": "IGF1",
+      "label": "Insulin like growth factor 1",
+      "type": "Protein",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "HGNC_ID": "HGNC:5464",
+        "UniProt_ID": "P05019",
+        "UMLS_CUI": "C0021641"
+      },
+      "synonyms": [
+        "Somatomedin C",
+        "Insulin-Like Growth Factor 1",
+        "Plasma IGF1",
+        "Serum IGF1",
+        "RAd-IGF1"
+      ]
+    },
+    {
+      "id": "Gliosis",
+      "label": "Gliosis",
+      "type": "Pathology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0017639"
+      },
+      "synonyms": [
+        "Glial Reactivity",
+        "Reactive Gliosis",
+        "Glial scar formation"
+      ]
+    },
+    {
+      "id": "Astrogliosis",
+      "label": "Reactive astrogliosis",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C3887640",
+        "GO_ID": "GO:0014002"
+      },
+      "synonyms": [
+        "Astrocyte Reactivity",
+        "Astrocytosis",
+        "Vimentin-Positive Cells"
+      ]
+    },
+    {
+      "id": "Neuroinflammation",
+      "label": "Neuroinflammation",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027947",
+        "GO_ID": "GO:0150076"
+      },
+      "synonyms": [
+        "CNS Inflammation"
+      ]
+    },
+    {
+      "id": "MicroglialActivation",
+      "label": "Microglial cell activation",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0206679",
+        "GO_ID": "GO:0001774"
+      },
+      "synonyms": [
+        "Microglial Activation",
+        "Iba1-Positive Cells",
+        "MHC Class II-Positive Cells"
+      ]
+    },
+    {
+      "id": "Cognition",
+      "label": "Cognition",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0009241",
+        "GO_ID": "GO:0050890"
+      },
+      "synonyms": [
+        "Cognitive Function"
+      ]
+    },
+    {
+      "id": "WorkingMemory",
+      "label": "Working memory",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0086520",
+        "GO_ID": "GO:0098655"
+      },
+      "synonyms": [
+        "Working Memory Performance"
+      ]
+    },
+    {
+      "id": "GeneExpression",
+      "label": "Gene expression",
+      "type": "Process",
+      "location": "Nucleus",
+      "identifiers": {
+        "GO_ID": "GO:0010467",
+        "UMLS_CUI": "C0017262"
+      },
+      "synonyms": [
+        "Transcriptomic Changes"
+      ]
+    },
+    {
+      "id": "Recovery",
+      "label": "Recovery",
+      "type": "Process",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0237820"
+      },
+      "synonyms": [
+        "Functional Outcome"
+      ]
+    },
+    {
+      "id": "CognitiveImpairment",
+      "label": "Cognitive impairment",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0338656"
+      },
+      "synonyms": [
+        "Cognitive Dysfunction"
+      ]
+    },
+    {
+      "id": "GlialScar",
+      "label": "Glial Scar",
+      "type": "Pathology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0206680"
+      },
+      "synonyms": []
+    }
+  ],
+  "edges": [
+    {
+      "source": "LIF",
+      "target": "Gliosis",
+      "mechanism": "causes",
+      "evidence_ref": [
+        407
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "CSF1",
+      "target": "Neuroinflammation",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        90
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "CSF1",
+      "target": "Cognition",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        90
+      ],
+      "confidence": "High",
+      "metadata": "Context: Improves Cognitive Function"
+    },
+    {
+      "source": "CSF1",
+      "target": "GeneExpression",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        90
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Transcriptomic changes related to cognition"
+    },
+    {
+      "source": "CSF1",
+      "target": "Astrogliosis",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        90
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "IGF1",
+      "target": "WorkingMemory",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        285
+      ],
+      "confidence": "High",
+      "metadata": "Context: RAd-IGF1 therapy"
+    },
+    {
+      "source": "IGF1",
+      "target": "MicroglialActivation",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        285
+      ],
+      "confidence": "High",
+      "metadata": "Measured by Iba1 and MHC Class II markers"
+    },
+    {
+      "source": "IGF1",
+      "target": "Gliosis",
+      "mechanism": "causes",
+      "evidence_ref": [
+        285
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Reactive Gliosis induced by RAd-IGF1"
+    },
+    {
+      "source": "IGF1",
+      "target": "Recovery",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        285
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Functional outcome"
+    },
+    {
+      "source": "IGF1",
+      "target": "Astrogliosis",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        285
+      ],
+      "confidence": "Medium",
+      "metadata": "Measured by Vimentin-positive cells"
+    },
+    {
+      "source": "IGF1",
+      "target": "CognitiveImpairment",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        296
+      ],
+      "confidence": "Medium",
+      "metadata": "Source states 'upregulates Cognitive Dysfunction'"
+    },
+    {
+      "source": "IGF1",
+      "target": "Cognition",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        296
+      ],
+      "confidence": "Medium",
+      "metadata": "Plasma IGF1 associated with Cognition"
+    }
+  ]
+}

@@ -1,0 +1,940 @@
+[
+    {
+        "source_abstract_id":81,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Post-Concussion Symptoms",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":103,
+        "subject":"Contact Sports",
+        "relation":"causes",
+        "object":"Multiple Concussions",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":103,
+        "subject":"Multiple Concussions",
+        "relation":"causes",
+        "object":"Neurodegeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":117,
+        "subject":"Contact Sports",
+        "relation":"causes",
+        "object":"Concussion",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":176,
+        "subject":"Cognitive Reserve",
+        "relation":"upregulates",
+        "object":"Persistent Post-Concussion Symptoms",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":216,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Concussion Symptoms",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":490,
+        "subject":"Microstructural Abnormality",
+        "relation":"negatively_correlates_with",
+        "object":"Post-Concussion Syndrome",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":557,
+        "subject":"Cell-Free DNA",
+        "relation":"predicts",
+        "object":"Post-Concussion Syndrome",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":13,
+        "subject":"Concussion",
+        "relation":"negatively_associated_with",
+        "object":"Cognitive Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":13,
+        "subject":"Concussion",
+        "relation":"causes",
+        "object":"Cognitive Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":13,
+        "subject":"Age",
+        "relation":"interacts_with",
+        "object":"Concussion",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":41,
+        "subject":"Sport-Related Concussion",
+        "relation":"affects",
+        "object":"Cognitive Performance",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":41,
+        "subject":"History of Concussion",
+        "relation":"affects",
+        "object":"N-back Task Performance",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":41,
+        "subject":"Sex",
+        "relation":"interacts_with",
+        "object":"History of Concussion",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":41,
+        "subject":"Lower Level Cognition",
+        "relation":"negatively_associated_with",
+        "object":"History of Concussion",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":41,
+        "subject":"Cognitive Outcomes",
+        "relation":"persist",
+        "object":"Long Term After Concussion",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":59,
+        "subject":"Neuropathological Patterns",
+        "relation":"consistent_with",
+        "object":"Models of Concussion",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":69,
+        "subject":"Concussion Exposure",
+        "relation":"causes",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":69,
+        "subject":"Concussion Exposure",
+        "relation":"causes",
+        "object":"Psychiatric Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":70,
+        "subject":"Multiple Concussions",
+        "relation":"upregulates",
+        "object":"Cognitive Symptoms",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":72,
+        "subject":"Concussion",
+        "relation":"influences",
+        "object":"Exosome Size",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":73,
+        "subject":"Contact Sports",
+        "relation":"causes",
+        "object":"Persistent Concussion Symptoms",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":92,
+        "subject":"Concussion History",
+        "relation":"causes",
+        "object":"Oxidative Stress",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":92,
+        "subject":"Concussion History",
+        "relation":"causes",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":93,
+        "subject":"Concussions",
+        "relation":"negatively_associated_with",
+        "object":"Neurocognitive Performance",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":93,
+        "subject":"Concussions with Loss of Consciousness",
+        "relation":"negatively_associated_with",
+        "object":"Neurocognitive Performance",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":106,
+        "subject":"Sport-Related Concussion",
+        "relation":"causes",
+        "object":"Kynurenine Pathway Metabolites",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":106,
+        "subject":"Kynurenine Pathway Metabolites",
+        "relation":"predicts",
+        "object":"Post-Concussion Psychological Symptoms",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":106,
+        "subject":"Prior Concussion",
+        "relation":"downregulates",
+        "object":"Serum Kynurenic Acid\/Quinolinic Acid Ratio",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":109,
+        "subject":"Concussion",
+        "relation":"causes",
+        "object":"Inhibitory Control Deficit",
+        "entity_variants":"post_concussion, non_concussed"
+    },
+    {
+        "source_abstract_id":109,
+        "subject":"Concussion",
+        "relation":"correlates_with",
+        "object":"Anxiety",
+        "entity_variants":"post_concussion, non_concussed"
+    },
+    {
+        "source_abstract_id":109,
+        "subject":"Concussion",
+        "relation":"correlates_with",
+        "object":"Depression",
+        "entity_variants":"post_concussion, non_concussed"
+    },
+    {
+        "source_abstract_id":109,
+        "subject":"Concussion",
+        "relation":"correlates_with",
+        "object":"Trouble Concentrating",
+        "entity_variants":"post_concussion, non_concussed"
+    },
+    {
+        "source_abstract_id":109,
+        "subject":"Inhibitory Control Deficit",
+        "relation":"predicts",
+        "object":"Cognitive Performance",
+        "entity_variants":"post_concussion, non_concussed"
+    },
+    {
+        "source_abstract_id":116,
+        "subject":"Football Concussion Symptoms",
+        "relation":"associated_with",
+        "object":"Cognitive Performance",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":116,
+        "subject":"Diagnosed Concussions",
+        "relation":"negatively_associated_with",
+        "object":"Cognitive Performance",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":121,
+        "subject":"Concussion History",
+        "relation":"upregulates",
+        "object":"Perceived Future Risk",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":121,
+        "subject":"Concussion",
+        "relation":"causes",
+        "object":"Long Term Health Consequences",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":121,
+        "subject":"Previous Concussions",
+        "relation":"upregulates",
+        "object":"Belief in Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":121,
+        "subject":"Concussion",
+        "relation":"binds_to",
+        "object":"Athlete Perceptions",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":121,
+        "subject":"Concussion History",
+        "relation":"upregulates",
+        "object":"Concern About Health Outcomes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":121,
+        "subject":"Concussion",
+        "relation":"causes",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":121,
+        "subject":"Perceived Future Risk",
+        "relation":"upregulates",
+        "object":"Anxiety About Concussions",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":121,
+        "subject":"Concussion",
+        "relation":"binds_to",
+        "object":"Athlete Behavior",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":162,
+        "subject":"Concussion",
+        "relation":"more_common_in",
+        "object":"Isolated REM Sleep Behavior Disorder",
+        "entity_variants":"<not_reported>"
+    },
+    {
+        "source_abstract_id":162,
+        "subject":"Concussion",
+        "relation":"occurs_at_age",
+        "object":"24.7 years",
+        "entity_variants":"<not_reported>"
+    },
+    {
+        "source_abstract_id":162,
+        "subject":"Interval Between Concussion and IRBD Diagnosis",
+        "relation":"is",
+        "object":"43.0 years",
+        "entity_variants":"<not_reported>"
+    },
+    {
+        "source_abstract_id":189,
+        "subject":"Concussion",
+        "relation":"causes",
+        "object":"Brain Atrophy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":189,
+        "subject":"Concussion",
+        "relation":"causes",
+        "object":"Cerebral Blood Flow Changes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":189,
+        "subject":"Concussion",
+        "relation":"causes",
+        "object":"Functional Alterations",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":189,
+        "subject":"Concussion",
+        "relation":"negatively_associated_with",
+        "object":"Neuropsychological Performance",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":189,
+        "subject":"Concussion",
+        "relation":"causes",
+        "object":"Temporal Lobe Changes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":189,
+        "subject":"Concussion",
+        "relation":"causes",
+        "object":"Frontal Lobe Changes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":189,
+        "subject":"Concussion",
+        "relation":"causes",
+        "object":"Aging Brain Changes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":189,
+        "subject":"Concussion",
+        "relation":"increases_risk_of",
+        "object":"Neurodegenerative Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":189,
+        "subject":"Concussion",
+        "relation":"causes",
+        "object":"Longitudinal Changes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":202,
+        "subject":"Remote Concussions",
+        "relation":"interacts_with",
+        "object":"Normal Aging",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":202,
+        "subject":"MRI Volumetric Markers",
+        "relation":"binds_to",
+        "object":"Remote Concussions",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":202,
+        "subject":"Genetic Markers",
+        "relation":"interacts_with",
+        "object":"Remote Concussions",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":202,
+        "subject":"Sports-Related Concussions",
+        "relation":"causes",
+        "object":"Brain Structure Anomalies",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":209,
+        "subject":"Concussion",
+        "relation":"impairs",
+        "object":"Motor Learning Retention",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":209,
+        "subject":"Concussion",
+        "relation":"impairs",
+        "object":"Occlusion Mechanism",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":209,
+        "subject":"Previous Concussions",
+        "relation":"correlates_with",
+        "object":"Behavioral Impairments",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":209,
+        "subject":"Previous Concussions",
+        "relation":"correlates_with",
+        "object":"Neurophysiological Impairments",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":209,
+        "subject":"Acute State of Concussion",
+        "relation":"impairs",
+        "object":"Motor Learning Retention",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":209,
+        "subject":"Chronic State of Concussion",
+        "relation":"impairs",
+        "object":"Motor Learning Retention",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":209,
+        "subject":"Concussion History",
+        "relation":"affects",
+        "object":"Neurophysiological Mechanisms",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":209,
+        "subject":"Concussion",
+        "relation":"affects",
+        "object":"Behavioral Symptoms",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":263,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Post-Concussion Syndrome",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":283,
+        "subject":"Adverse Childhood Experiences",
+        "relation":"causes",
+        "object":"Concussion Symptoms",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":283,
+        "subject":"Concussions",
+        "relation":"downregulates",
+        "object":"Neuropsychiatric Health",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":285,
+        "subject":"Concussion Symptoms",
+        "relation":"upregulates",
+        "object":"Cognition-Related Quality of Life",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":285,
+        "subject":"Concussion Symptoms",
+        "relation":"upregulates",
+        "object":"Depression",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":285,
+        "subject":"Concussion Symptoms",
+        "relation":"upregulates",
+        "object":"Anxiety",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":296,
+        "subject":"Concussions",
+        "relation":"causes",
+        "object":"Mood Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":296,
+        "subject":"Concussions",
+        "relation":"causes",
+        "object":"Brain Atrophy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":304,
+        "subject":"Concussion History",
+        "relation":"upregulates",
+        "object":"Monocyte Chemoattractant Protein-1",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":304,
+        "subject":"Concussion History",
+        "relation":"upregulates",
+        "object":"Monocyte Chemoattractant Protein-4",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":475,
+        "subject":"Contact Sports",
+        "relation":"associated_with",
+        "object":"Post-Concussive Symptoms",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":475,
+        "subject":"Concussion History",
+        "relation":"associated_with",
+        "object":"Neurological Symptoms",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":487,
+        "subject":"Concussion",
+        "relation":"causes",
+        "object":"Decreased Axial Diffusivity",
+        "entity_variants":"not specified"
+    },
+    {
+        "source_abstract_id":487,
+        "subject":"Concussion",
+        "relation":"leads_to",
+        "object":"Persistent Post-Concussive Symptoms",
+        "entity_variants":"not specified"
+    },
+    {
+        "source_abstract_id":487,
+        "subject":"Concussion",
+        "relation":"affects",
+        "object":"Attention Network",
+        "entity_variants":"not specified"
+    },
+    {
+        "source_abstract_id":492,
+        "subject":"Non-Collision Sport Controls",
+        "relation":"negatively_associated_with",
+        "object":"Abnormalities in Brain Structure",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":493,
+        "subject":"Number of Concussions",
+        "relation":"negatively_associated_with",
+        "object":"Traumatic Encephalopathy Syndrome",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":493,
+        "subject":"Number of Concussions with Loss of Consciousness",
+        "relation":"negatively_associated_with",
+        "object":"Traumatic Encephalopathy Syndrome",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":497,
+        "subject":"Concussion",
+        "relation":"causes",
+        "object":"Anxiety",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":497,
+        "subject":"Concussion",
+        "relation":"causes",
+        "object":"Impulsivity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":497,
+        "subject":"Concussion",
+        "relation":"causes",
+        "object":"Anger",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":497,
+        "subject":"Concussion",
+        "relation":"contributes_to",
+        "object":"Cognitive Disruption",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":497,
+        "subject":"Concussion",
+        "relation":"leads_to",
+        "object":"Neuropsychological Changes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":508,
+        "subject":"Concussion",
+        "relation":"increases_risk_of",
+        "object":"Memory Loss",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":508,
+        "subject":"Concussion",
+        "relation":"increases_risk_of",
+        "object":"Mild Cognitive Impairment",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":508,
+        "subject":"Concussion",
+        "relation":"increases_risk_of",
+        "object":"Dementia",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":508,
+        "subject":"Concussion",
+        "relation":"negatively_associated_with",
+        "object":"Early Onset Dementia",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":531,
+        "subject":"Concussion",
+        "relation":"associated_with",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":540,
+        "subject":"Self-reported Concussion",
+        "relation":"increases",
+        "object":"Symptom Burden",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":540,
+        "subject":"Self-reported Concussion",
+        "relation":"causes",
+        "object":"Neurobehavioral Dysregulation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":540,
+        "subject":"Self-reported Concussion",
+        "relation":"associated_with",
+        "object":"Executive Function Behaviors",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":586,
+        "subject":"Sport-related Concussion",
+        "relation":"causes",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":586,
+        "subject":"Perceptual Motor Performance",
+        "relation":"diagnoses",
+        "object":"History of Concussion",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":586,
+        "subject":"History of Multiple Concussions",
+        "relation":"associated_with",
+        "object":"Perceptual Motor Performance",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":586,
+        "subject":"Years Since Last Concussion",
+        "relation":"associated_with",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":586,
+        "subject":"Sport-related Concussion",
+        "relation":"affects",
+        "object":"Health and Wellness Outcomes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":586,
+        "subject":"Machine Learning Models",
+        "relation":"improves_understanding_of",
+        "object":"Factors Associated with Concussion",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":586,
+        "subject":"K Nearest Neighbors Algorithm",
+        "relation":"diagnoses",
+        "object":"History of Multiple Concussions",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":590,
+        "subject":"Contact Sports",
+        "relation":"causes",
+        "object":"Lifetime Concussion History",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":590,
+        "subject":"Female Sex",
+        "relation":"not_associated_with",
+        "object":"Lifetime Concussion History",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":590,
+        "subject":"Years of Contact Sport Exposure",
+        "relation":"not_associated_with",
+        "object":"Lifetime Concussion History",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":590,
+        "subject":"Years of Contact Sport Exposure",
+        "relation":"causes",
+        "object":"Lifetime Concussion History",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":602,
+        "subject":"Concussion",
+        "relation":"negatively_affects",
+        "object":"Memory",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":602,
+        "subject":"Concussion",
+        "relation":"negatively_affects",
+        "object":"Language",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":602,
+        "subject":"Concussion",
+        "relation":"associated_with",
+        "object":"Neurodegenerative Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":602,
+        "subject":"Concussion",
+        "relation":"affects",
+        "object":"Brain Structure",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":602,
+        "subject":"Concussion",
+        "relation":"causes",
+        "object":"Tissue Loss",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":602,
+        "subject":"Concussion",
+        "relation":"affects",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":606,
+        "subject":"Concussion Severity",
+        "relation":"affects",
+        "object":"Concussion Recovery",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":606,
+        "subject":"Concussion Severity",
+        "relation":"mediated_by",
+        "object":"Concussion Recovery",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":611,
+        "subject":"Concussion",
+        "relation":"associated_with",
+        "object":"Neuropsychological Performance",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":611,
+        "subject":"Concussion",
+        "relation":"affects",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":611,
+        "subject":"Concussion",
+        "relation":"associated_with",
+        "object":"Lower Scores in Neuropsychological Tests",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":611,
+        "subject":"Concussion",
+        "relation":"causes",
+        "object":"Lower Premorbid Function Scores",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":611,
+        "subject":"Concussion",
+        "relation":"associated_with",
+        "object":"Long Term Neuropsychological Outcomes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":618,
+        "subject":"Repeat Sports-related Concussion",
+        "relation":"causes",
+        "object":"Altered Neural Recruitment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":618,
+        "subject":"Repeat Sports-related Concussion",
+        "relation":"causes",
+        "object":"Reduced Neural Recruitment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":618,
+        "subject":"Repeat Sports-related Concussion",
+        "relation":"affects",
+        "object":"Dual Task Performance",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":618,
+        "subject":"Repeat Sports-related Concussion",
+        "relation":"causes",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":618,
+        "subject":"Time Since Last Concussion",
+        "relation":"affects",
+        "object":"Neural Recruitment Patterns",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":618,
+        "subject":"Repeat Sports-related Concussion",
+        "relation":"causes",
+        "object":"Musculoskeletal Injury Risk",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":618,
+        "subject":"Repeat Sports-related Concussion",
+        "relation":"affects",
+        "object":"Neurocognitive Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":619,
+        "subject":"VR Dispersion",
+        "relation":"predicts",
+        "object":"Self-reported History of Concussion",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":619,
+        "subject":"SFWI",
+        "relation":"predicts",
+        "object":"Self-reported History of Concussion",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":619,
+        "subject":"Concussion",
+        "relation":"associated_with",
+        "object":"Progressive Neurodegenerative Processes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":626,
+        "subject":"Number of Concussions",
+        "relation":"not_associated_with",
+        "object":"Motor Evoked Potentials",
+        "entity_variants":null
+    }
+]

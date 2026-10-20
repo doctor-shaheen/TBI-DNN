@@ -1,0 +1,497 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 21,
+    "edge_count": 22
+  },
+  "nodes": [
+    {
+      "id": "Cannabidiol",
+      "label": "Cannabidiol",
+      "type": "Chemical",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "UMLS_CUI": "C0006864",
+        "ChEBI_ID": "CHEBI:3380"
+      },
+      "synonyms": [
+        "CBD"
+      ]
+    },
+    {
+      "id": "NeurologicDeficits",
+      "label": "Neurologic Deficits",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0521654"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "APP",
+      "label": "APP",
+      "type": "Protein",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "UMLS_CUI": "C0002778",
+        "HGNC_ID": "HGNC:620",
+        "UniProt_ID": "P05067"
+      },
+      "synonyms": [
+        "Amyloid Beta",
+        "Abeta",
+        "Amyloid beta-peptides"
+      ]
+    },
+    {
+      "id": "CerebrovascularCirculation",
+      "label": "Cerebrovascular Circulation",
+      "type": "Process",
+      "location": "Blood",
+      "identifiers": {
+        "UMLS_CUI": "C0007796"
+      },
+      "synonyms": [
+        "Cerebral Blood Flow"
+      ]
+    },
+    {
+      "id": "AQP4",
+      "label": "AQP4",
+      "type": "Protein",
+      "location": "Astrocyte",
+      "identifiers": {
+        "UMLS_CUI": "C1412534",
+        "HGNC_ID": "HGNC:637",
+        "UniProt_ID": "P55087"
+      },
+      "synonyms": [
+        "Aquaporin-4"
+      ]
+    },
+    {
+      "id": "Neuroinflammation",
+      "label": "Neuroinflammation",
+      "type": "Pathology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0494470"
+      },
+      "synonyms": [
+        "Neuroinflammatory Indices"
+      ]
+    },
+    {
+      "id": "Cognition",
+      "label": "Cognition",
+      "type": "Function",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0009241"
+      },
+      "synonyms": [
+        "Cognitive Performance"
+      ]
+    },
+    {
+      "id": "MotorActivity",
+      "label": "Motor Activity",
+      "type": "Function",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0026649"
+      },
+      "synonyms": [
+        "Motor Function"
+      ]
+    },
+    {
+      "id": "Memory",
+      "label": "Memory",
+      "type": "Function",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0025260"
+      },
+      "synonyms": [
+        "Memory Function"
+      ]
+    },
+    {
+      "id": "EndocannabinoidSystem",
+      "label": "Endocannabinoid System",
+      "type": "Anatomy",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0014217"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Pathogenesis",
+      "label": "Pathogenesis",
+      "type": "Process",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0030659"
+      },
+      "synonyms": [
+        "Pathogenetic Link"
+      ]
+    },
+    {
+      "id": "CNR1",
+      "label": "CNR1",
+      "type": "Protein",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "UMLS_CUI": "C1413695",
+        "HGNC_ID": "HGNC:2159",
+        "UniProt_ID": "P21554"
+      },
+      "synonyms": [
+        "Cannabinoid Receptor 1",
+        "CB1"
+      ]
+    },
+    {
+      "id": "NeedleInducedCavitation",
+      "label": "Needle Induced Cavitation",
+      "type": "Procedure",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "UMLS_CUI": "C0333226"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "ExtracellularMatrixProteins",
+      "label": "Extracellular Matrix Proteins",
+      "type": "Chemical",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "UMLS_CUI": "C0015264"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "NerveRegeneration",
+      "label": "Nerve Regeneration",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027756"
+      },
+      "synonyms": [
+        "Neural Repair"
+      ]
+    },
+    {
+      "id": "Cannabinol",
+      "label": "Cannabinol",
+      "type": "Chemical",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "UMLS_CUI": "C0006866",
+        "ChEBI_ID": "CHEBI:3381"
+      },
+      "synonyms": [
+        "CBN",
+        "Cannabinol Analogs",
+        "CP1",
+        "CP2",
+        "CP3",
+        "CP4"
+      ]
+    },
+    {
+      "id": "Oxytosis",
+      "label": "Oxytosis",
+      "type": "Process",
+      "location": "Neuron",
+      "identifiers": {
+        "UMLS_CUI": "C1518552"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Ferroptosis",
+      "label": "Ferroptosis",
+      "type": "Process",
+      "location": "Neuron",
+      "identifiers": {
+        "UMLS_CUI": "C4277726"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Neuroprotection",
+      "label": "Neuroprotection",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027869"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "MitochondrialMetabolism",
+      "label": "Mitochondrial Metabolism",
+      "type": "Process",
+      "location": "Mitochondria",
+      "identifiers": {
+        "UMLS_CUI": "C0026237"
+      },
+      "synonyms": [
+        "Mitochondrial Function"
+      ]
+    },
+    {
+      "id": "SurgicalLymphaticInterruption",
+      "label": "Surgical Lymphatic Interruption",
+      "type": "Procedure",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0191836"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "SerotonergicSystem",
+      "label": "Serotonergic System",
+      "type": "Anatomy",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0036774"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "2-Arachidonoylglycerol",
+      "label": "2-Arachidonoylglycerol",
+      "type": "Chemical",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "UMLS_CUI": "C0254203",
+        "ChEBI_ID": "CHEBI:52392"
+      },
+      "synonyms": [
+        "2-AG"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "Cannabidiol",
+      "target": "NeurologicDeficits",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        6
+      ],
+      "confidence": "High",
+      "metadata": "Context: Improves deficits"
+    },
+    {
+      "source": "Cannabidiol",
+      "target": "APP",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        6
+      ],
+      "confidence": "High",
+      "metadata": "Context: Reduces Amyloid Beta levels"
+    },
+    {
+      "source": "Cannabidiol",
+      "target": "CerebrovascularCirculation",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        6
+      ],
+      "confidence": "High",
+      "metadata": "Context: Enhances flow"
+    },
+    {
+      "source": "Cannabidiol",
+      "target": "AQP4",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        6
+      ],
+      "confidence": "Medium",
+      "metadata": "Effect: Induces Polarization"
+    },
+    {
+      "source": "Cannabidiol",
+      "target": "Neuroinflammation",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        6
+      ],
+      "confidence": "High",
+      "metadata": "Context: Reduces indices"
+    },
+    {
+      "source": "Cannabidiol",
+      "target": "Cognition",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        6
+      ],
+      "confidence": "High",
+      "metadata": "Context: Improves performance"
+    },
+    {
+      "source": "Cannabidiol",
+      "target": "MotorActivity",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        6
+      ],
+      "confidence": "High",
+      "metadata": "Context: Improves function"
+    },
+    {
+      "source": "Cannabidiol",
+      "target": "Memory",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        6
+      ],
+      "confidence": "High",
+      "metadata": "Context: Enhances function"
+    },
+    {
+      "source": "EndocannabinoidSystem",
+      "target": "Pathogenesis",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        40
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Mediates pathogenetic link"
+    },
+    {
+      "source": "CNR1",
+      "target": "Neuroprotection",
+      "mechanism": "activates",
+      "evidence_ref": [
+        173
+      ],
+      "confidence": "High",
+      "metadata": "Context: Triggers neuroprotection"
+    },
+    {
+      "source": "NeedleInducedCavitation",
+      "target": "CNR1",
+      "mechanism": "activates",
+      "evidence_ref": [
+        376
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Mediates receptor activity"
+    },
+    {
+      "source": "CNR1",
+      "target": "ExtracellularMatrixProteins",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        376
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "CNR1",
+      "target": "NerveRegeneration",
+      "mechanism": "activates",
+      "evidence_ref": [
+        376
+      ],
+      "confidence": "High",
+      "metadata": "Context: Mediates neural repair"
+    },
+    {
+      "source": "Cannabinol",
+      "target": "Oxytosis",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        401
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "Cannabinol",
+      "target": "Ferroptosis",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        401
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "Cannabinol",
+      "target": "Neuroprotection",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        401
+      ],
+      "confidence": "High",
+      "metadata": "Includes contribution from Analogs"
+    },
+    {
+      "source": "Cannabinol",
+      "target": "MitochondrialMetabolism",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        401
+      ],
+      "confidence": "High",
+      "metadata": "Context: Preserves function"
+    },
+    {
+      "source": "Cannabidiol",
+      "target": "Neuroprotection",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        401
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: General Cannabinoids effect"
+    },
+    {
+      "source": "SurgicalLymphaticInterruption",
+      "target": "Cannabidiol",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        6
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Negates CBD effects"
+    },
+    {
+      "source": "EndocannabinoidSystem",
+      "target": "SerotonergicSystem",
+      "mechanism": "binds",
+      "evidence_ref": [
+        40
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Interacts with"
+    },
+    {
+      "source": "2-Arachidonoylglycerol",
+      "target": "CNR1",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        173
+      ],
+      "confidence": "High",
+      "metadata": ""
+    }
+  ]
+}

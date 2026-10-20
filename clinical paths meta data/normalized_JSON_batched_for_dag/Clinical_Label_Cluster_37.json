@@ -1,0 +1,254 @@
+[
+    {
+        "source_abstract_id":11,
+        "subject":"Contact Sports",
+        "relation":"associated_with",
+        "object":"Risk of Dementia",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":51,
+        "subject":"Contact Sports",
+        "relation":"not_causally_associated_with",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":73,
+        "subject":"Contact Sports",
+        "relation":"causes",
+        "object":"Cognitive Decline",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":73,
+        "subject":"Contact Sports",
+        "relation":"causes",
+        "object":"Cardiovascular Disease",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":73,
+        "subject":"Contact Sports",
+        "relation":"causes",
+        "object":"Allostatic Load",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":73,
+        "subject":"Contact Sports",
+        "relation":"causes",
+        "object":"Mental Health",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":73,
+        "subject":"Contact Sports",
+        "relation":"causes",
+        "object":"Social Functioning",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":73,
+        "subject":"Contact Sports",
+        "relation":"causes",
+        "object":"Work Functioning",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":73,
+        "subject":"Contact Sports",
+        "relation":"causes",
+        "object":"Fine Motor Coordination",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":73,
+        "subject":"Contact Sports",
+        "relation":"causes",
+        "object":"Verbal Learning",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":102,
+        "subject":"Contact Sports",
+        "relation":"causes",
+        "object":"Motor Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":102,
+        "subject":"Contact Sports",
+        "relation":"causes",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":102,
+        "subject":"Contact Sports",
+        "relation":"causes",
+        "object":"Neurophysiological Changes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":102,
+        "subject":"Contact Sports",
+        "relation":"causes",
+        "object":"Increased Long-Interval Cortical Inhibition",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":102,
+        "subject":"Contact Sports",
+        "relation":"causes",
+        "object":"Decreased Cortical Silent Period",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":141,
+        "subject":"Contact Sports",
+        "relation":"not_causally_associated_with",
+        "object":"Early Onset Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":141,
+        "subject":"Contact Sports",
+        "relation":"not_causally_associated_with",
+        "object":"Mild Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":141,
+        "subject":"Contact Sports",
+        "relation":"not_causally_associated_with",
+        "object":"Anxiety",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":141,
+        "subject":"Contact Sports",
+        "relation":"not_causally_associated_with",
+        "object":"Unusual Beliefs",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":202,
+        "subject":"Contact Sports",
+        "relation":"causes",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":296,
+        "subject":"Contact Sports",
+        "relation":"causes",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":444,
+        "subject":"Kickboxers",
+        "relation":"participate_in",
+        "object":"Contact Sports",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":463,
+        "subject":"Contact Sports",
+        "relation":"associated_with",
+        "object":"Increased Myelin Water Fraction",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":507,
+        "subject":"Contact Sports",
+        "relation":"increases_risk_of",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":590,
+        "subject":"Contact Sports",
+        "relation":"causes",
+        "object":"Depressive Symptoms",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":590,
+        "subject":"Contact Sports",
+        "relation":"causes",
+        "object":"Anxiety Symptoms",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":590,
+        "subject":"Contact Sports",
+        "relation":"causes",
+        "object":"Cognitive Symptoms",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":608,
+        "subject":"Contact Sports",
+        "relation":"causes",
+        "object":"Mental Health Symptoms",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":608,
+        "subject":"Contact Sports",
+        "relation":"causes",
+        "object":"Attention Deficit Hyperactivity Disorder Symptoms",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":608,
+        "subject":"Contact Sports",
+        "relation":"causes",
+        "object":"Anxiety Symptoms",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":613,
+        "subject":"Contact Sports",
+        "relation":"causes",
+        "object":"Impaired Reaction Time",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":613,
+        "subject":"Cognitive Impairment",
+        "relation":"is_risk_factor_for",
+        "object":"Contact Sports",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":613,
+        "subject":"Contact Sports",
+        "relation":"associated_with",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":626,
+        "subject":"Contact Sports",
+        "relation":"causes",
+        "object":"Cortical Neurophysiology Changes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":628,
+        "subject":"Collision Sports",
+        "relation":"not_causally_associated_with",
+        "object":"Inflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":150,
+        "subject":"Contact Sports",
+        "relation":"associated_with",
+        "object":"Decline in Linguistic Complexity",
+        "entity_variants":"unknown|"
+    }
+]

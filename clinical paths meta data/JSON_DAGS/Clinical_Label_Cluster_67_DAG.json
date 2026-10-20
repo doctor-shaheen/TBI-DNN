@@ -1,0 +1,178 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 6,
+    "edge_count": 5
+  },
+  "nodes": [
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "Traumatic Brain Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111"
+      },
+      "synonyms": [
+        "Mild Traumatic Brain Injury",
+        "Chronic Mild Traumatic Brain Injury",
+        "TBI",
+        "Mild TBI",
+        "Concussion"
+      ]
+    },
+    {
+      "id": "CognitiveDisorder",
+      "label": "Cognition Disorders",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0009241"
+      },
+      "synonyms": [
+        "Cognitive Deficits",
+        "Cognitive Impairment",
+        "Neurocognitive Deficits",
+        "Cognitive Dysfunction",
+        "Persistent Cognitive Deficits",
+        "Neurocognitive Symptoms"
+      ]
+    },
+    {
+      "id": "Cognition",
+      "label": "Cognition",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0009240",
+        "GO_ID": "GO:0050890"
+      },
+      "synonyms": [
+        "Cognitive Function",
+        "Cognitive Performance",
+        "Cognitive Processing",
+        "Cognitive Status",
+        "Neuropsychological Performance"
+      ]
+    },
+    {
+      "id": "MaxillofacialInjury",
+      "label": "Maxillofacial Injuries",
+      "type": "Disease",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0024965"
+      },
+      "synonyms": [
+        "Isolated Maxillofacial Injury",
+        "Facial Trauma"
+      ]
+    },
+    {
+      "id": "MildCognitiveImpairment",
+      "label": "Mild Cognitive Impairment",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0917801"
+      },
+      "synonyms": [
+        "MCI"
+      ]
+    },
+    {
+      "id": "BehavioralSymptom",
+      "label": "Behavioral Symptoms",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0004927"
+      },
+      "synonyms": [
+        "Behavioral Dysfunctions",
+        "Behavioral Changes"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "CognitiveDisorder",
+      "mechanism": "causes",
+      "evidence_ref": [
+        26,
+        31,
+        36,
+        83,
+        87,
+        113,
+        160,
+        167,
+        176,
+        192,
+        199,
+        216,
+        251,
+        253,
+        284,
+        336,
+        402,
+        474,
+        486,
+        490,
+        512,
+        559
+      ],
+      "confidence": "High",
+      "metadata": "Context: Includes acute and chronic outcomes; mild to severe TBI. Conflicting negative associations noted in refs 223, 286, 473 for specific contexts."
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Cognition",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        31,
+        74,
+        81,
+        156,
+        158,
+        168,
+        169,
+        440,
+        473
+      ],
+      "confidence": "High",
+      "metadata": "manifested_as: Impaired processing speed, memory, and performance on neuropsychological tasks"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "MildCognitiveImpairment",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        89
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Associated with TBI positive status"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "BehavioralSymptom",
+      "mechanism": "causes",
+      "evidence_ref": [
+        486
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "MaxillofacialInjury",
+      "target": "CognitiveDisorder",
+      "mechanism": "causes",
+      "evidence_ref": [
+        480
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Isolated injury leading to deficits"
+    }
+  ]
+}

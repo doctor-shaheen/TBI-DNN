@@ -1,0 +1,128 @@
+[
+    {
+        "source_abstract_id":84,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Earlier Age of Diagnosis",
+        "entity_variants":"TBI+, TBI-"
+    },
+    {
+        "source_abstract_id":164,
+        "subject":"Age",
+        "relation":"associated_with",
+        "object":"Traumatic Brain Injury",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":281,
+        "subject":"Age",
+        "relation":"influences",
+        "object":"Traumatic brain injury",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":14,
+        "subject":"Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Earlier Age of Onset",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":74,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"compared_to",
+        "object":"Older Adults",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":84,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Earlier Age of Symptom Onset",
+        "entity_variants":"TBI+, TBI-"
+    },
+    {
+        "source_abstract_id":100,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Brain Aging",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":100,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Acute Phase Brain Age",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":122,
+        "subject":"Age at Mild Traumatic Brain Injury Onset",
+        "relation":"modulates",
+        "object":"Mild Traumatic Brain Injury",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":122,
+        "subject":"Age at Mild Traumatic Brain Injury Onset",
+        "relation":"affects",
+        "object":"Brain Structure Integrity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":161,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Brain Age Gap",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":161,
+        "subject":"Brain Age Gap",
+        "relation":"is_higher_in",
+        "object":"Mild Traumatic Brain Injury Patients",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":383,
+        "subject":"Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Earlier Age of Diagnosis",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":407,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Accelerated Senescence",
+        "entity_variants":"mTBI|"
+    },
+    {
+        "source_abstract_id":407,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Brain Age Difference",
+        "entity_variants":"mTBI|"
+    },
+    {
+        "source_abstract_id":407,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Brain Age Estimation",
+        "entity_variants":"mTBI|"
+    },
+    {
+        "source_abstract_id":407,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"results_in",
+        "object":"Brain Age Acceleration",
+        "entity_variants":"mTBI|"
+    },
+    {
+        "source_abstract_id":570,
+        "subject":"Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Age of Symptom Onset",
+        "entity_variants":"TBI, <25 years"
+    }
+]

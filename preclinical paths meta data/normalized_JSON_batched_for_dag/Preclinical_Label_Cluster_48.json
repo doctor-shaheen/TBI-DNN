@@ -1,0 +1,275 @@
+[
+    {
+        "source_abstract_id":26,
+        "subject":"Combined Use of ERK1\/2 and JNK Inhibitors",
+        "relation":"reduces",
+        "object":"Cell Death",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":188,
+        "subject":"C-X-C Motif Chemokine Ligand 12 Alpha",
+        "relation":"causes",
+        "object":"Apoptosis",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":54,
+        "subject":"High-Fat Diet",
+        "relation":"exacerbates",
+        "object":"Behavioral Deficits",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":54,
+        "subject":"High-Fat Diet",
+        "relation":"affects",
+        "object":"Neurologic Manifestations",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":55,
+        "subject":"Obesity",
+        "relation":"causes",
+        "object":"Weight Gain",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":55,
+        "subject":"Obesity",
+        "relation":"affects",
+        "object":"Corticosterone Level",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":55,
+        "subject":"Obesity",
+        "relation":"associated_with",
+        "object":"Poor Prognosis",
+        "entity_variants":"male"
+    },
+    {
+        "source_abstract_id":55,
+        "subject":"Obesity",
+        "relation":"modulates",
+        "object":"Traumatic Brain Injury Outcome",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":60,
+        "subject":"Nutrient Intake",
+        "relation":"prevents",
+        "object":"Behavioral Changes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":66,
+        "subject":"GrandFusion Diet",
+        "relation":"prevents",
+        "object":"Inflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":66,
+        "subject":"GrandFusion Diet",
+        "relation":"treats",
+        "object":"Memory Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":66,
+        "subject":"GrandFusion Diet",
+        "relation":"causes",
+        "object":"Spatial Orientation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":66,
+        "subject":"GrandFusion Diet",
+        "relation":"mediates",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":155,
+        "subject":"High-Fat Diet",
+        "relation":"causes",
+        "object":"Neuroinflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":155,
+        "subject":"High-Fat Diet",
+        "relation":"causes",
+        "object":"Neurodegeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":155,
+        "subject":"High-Fat Diet",
+        "relation":"prevents",
+        "object":"Cell Proliferation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":155,
+        "subject":"High-Fat Diet",
+        "relation":"causes",
+        "object":"Lesion Volume",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":155,
+        "subject":"High-Fat Diet",
+        "relation":"causes",
+        "object":"Motor Coordination",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":155,
+        "subject":"High-Fat Diet",
+        "relation":"exacerbates",
+        "object":"Neuropathological Changes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":155,
+        "subject":"High-Fat Diet",
+        "relation":"exacerbates",
+        "object":"Behavioral Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":290,
+        "subject":"Lipopolysaccharide",
+        "relation":"causes",
+        "object":"Apoptosis",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":329,
+        "subject":"High-Carbohydrate Diet",
+        "relation":"compared_to",
+        "object":"Ketogenic Diet",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":329,
+        "subject":"High-Fat Low-Carbohydrate Diet",
+        "relation":"may_affect",
+        "object":"Cognitive and Behavioral Symptoms",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":369,
+        "subject":"Lipo-Dex",
+        "relation":"reduces",
+        "object":"Inflammatory Cytokines",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":369,
+        "subject":"Lipo-Dex",
+        "relation":"reduces",
+        "object":"Lesion Volume",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":369,
+        "subject":"Lipo-Dex",
+        "relation":"reduces",
+        "object":"Cell Death",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":369,
+        "subject":"Lipo-Dex",
+        "relation":"affects",
+        "object":"Male Mice",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":369,
+        "subject":"Lipo-Dex",
+        "relation":"targets",
+        "object":"Injured Brain",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":369,
+        "subject":"Lipo-Dex",
+        "relation":"prevents",
+        "object":"Swelling",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":369,
+        "subject":"Lipo-Dex",
+        "relation":"treats",
+        "object":"Traumatic Brain Injury Outcome",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":371,
+        "subject":"Lipo-Dex",
+        "relation":"reduces",
+        "object":"Lesion Volume",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":371,
+        "subject":"Lipo-Dex",
+        "relation":"reduces",
+        "object":"Cell Death",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":371,
+        "subject":"Lipo-Dex",
+        "relation":"reduces",
+        "object":"Pro-Inflammatory Cytokines",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":371,
+        "subject":"Sex",
+        "relation":"moderates",
+        "object":"Lipo-Dex Effectiveness",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":371,
+        "subject":"Lipo-Dex",
+        "relation":"targets",
+        "object":"Injured Brain",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":371,
+        "subject":"Lipo-Dex",
+        "relation":"treats",
+        "object":"Traumatic Brain Injury Outcome",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":371,
+        "subject":"Lipo-Dex",
+        "relation":"prevents",
+        "object":"Neurodegeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":382,
+        "subject":"Obesity",
+        "relation":"causes",
+        "object":"Peripheral Inflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":407,
+        "subject":"Leukemia Inhibitory Factor",
+        "relation":"mediates",
+        "object":"Cell Death",
+        "entity_variants":null
+    }
+]

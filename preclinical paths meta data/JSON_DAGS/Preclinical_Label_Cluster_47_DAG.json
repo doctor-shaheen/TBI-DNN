@@ -1,0 +1,720 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 30,
+    "edge_count": 38
+  },
+  "nodes": [
+    {
+      "id": "Dysbiosis",
+      "label": "Dysbiosis",
+      "type": "Disease",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C3714736"
+      },
+      "synonyms": [
+        "Gut Dysbiosis",
+        "Microbial Dysbiosis"
+      ]
+    },
+    {
+      "id": "CognitiveImpairment",
+      "label": "Cognitive Impairment",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0338656"
+      },
+      "synonyms": [
+        "Neurocognitive Deficits",
+        "Cognitive Deficit",
+        "Cognitive Decline",
+        "Cognitive Dysfunction"
+      ]
+    },
+    {
+      "id": "FecalMicrobiotaTransplantation",
+      "label": "Fecal Microbiota Transplantation",
+      "type": "Therapeutic",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C1455581"
+      },
+      "synonyms": [
+        "FMT",
+        "Stool Transplant"
+      ]
+    },
+    {
+      "id": "GastrointestinalMicrobiome",
+      "label": "Gastrointestinal Microbiome",
+      "type": "Anatomy",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C4036815"
+      },
+      "synonyms": [
+        "Gut Microbiota",
+        "Intestinal Flora"
+      ]
+    },
+    {
+      "id": "ImmuneSystem",
+      "label": "Immune System",
+      "type": "Anatomy",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0020962"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "T-Lymphocyte",
+      "label": "T-Lymphocyte",
+      "type": "Cell",
+      "location": "Blood",
+      "identifiers": {
+        "UMLS_CUI": "C0039194"
+      },
+      "synonyms": [
+        "T Cells"
+      ]
+    },
+    {
+      "id": "Neurodegeneration",
+      "label": "Neurodegeneration",
+      "type": "Pathologic Function",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027746"
+      },
+      "synonyms": [
+        "Nerve Degeneration"
+      ]
+    },
+    {
+      "id": "PRNP",
+      "label": "PRNP",
+      "type": "Gene",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "HGNC_ID": "HGNC:9449",
+        "UMLS_CUI": "C1418933"
+      },
+      "synonyms": [
+        "Prion Protein",
+        "CD230",
+        "Cellular Prion Protein"
+      ]
+    },
+    {
+      "id": "Inflammation",
+      "label": "Inflammation",
+      "type": "Pathologic Function",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0021368"
+      },
+      "synonyms": [
+        "Chronic Inflammation",
+        "Inflammatory Response"
+      ]
+    },
+    {
+      "id": "ComplementActivation",
+      "label": "Complement Activation",
+      "type": "Process",
+      "location": "Blood",
+      "identifiers": {
+        "UMLS_CUI": "C0009532"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Neuroinflammation",
+      "label": "Neuroinflammation",
+      "type": "Pathologic Function",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027787"
+      },
+      "synonyms": [
+        "Cortical Inflammation",
+        "Chronic Neuroinflammation",
+        "Neuroinflammatory Response"
+      ]
+    },
+    {
+      "id": "C3",
+      "label": "C3",
+      "type": "Protein",
+      "location": "Blood",
+      "identifiers": {
+        "HGNC_ID": "HGNC:1318",
+        "UMLS_CUI": "C0009510"
+      },
+      "synonyms": [
+        "Complement Component 3"
+      ]
+    },
+    {
+      "id": "ComplementSystem",
+      "label": "Complement System",
+      "type": "Protein Complex",
+      "location": "Blood",
+      "identifiers": {
+        "UMLS_CUI": "C0009539"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "NeuronalDeath",
+      "label": "Neuronal Death",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027771"
+      },
+      "synonyms": [
+        "Neuronal Loss",
+        "Hippocampal Neuronal Cell Loss"
+      ]
+    },
+    {
+      "id": "Enteritis",
+      "label": "Enteritis",
+      "type": "Disease",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0014335"
+      },
+      "synonyms": [
+        "Intestinal Inflammation"
+      ]
+    },
+    {
+      "id": "B-Lymphocyte",
+      "label": "B-Lymphocyte",
+      "type": "Cell",
+      "location": "Blood",
+      "identifiers": {
+        "UMLS_CUI": "C0004561"
+      },
+      "synonyms": [
+        "B Cells"
+      ]
+    },
+    {
+      "id": "NeurologicDeficits",
+      "label": "Neurologic Deficits",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027768"
+      },
+      "synonyms": [
+        "Neurological Dysfunction",
+        "Neurologic Complication",
+        "Neuronal Dysfunction"
+      ]
+    },
+    {
+      "id": "BloodBrainBarrier",
+      "label": "Blood-Brain Barrier",
+      "type": "Anatomy",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0005763"
+      },
+      "synonyms": [
+        "BBB"
+      ]
+    },
+    {
+      "id": "Vasculitis",
+      "label": "Vasculitis",
+      "type": "Disease",
+      "location": "Blood",
+      "identifiers": {
+        "UMLS_CUI": "C0042384"
+      },
+      "synonyms": [
+        "Vascular Inflammation"
+      ]
+    },
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "Traumatic Brain Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111"
+      },
+      "synonyms": [
+        "TBI",
+        "Closed Head Injury"
+      ]
+    },
+    {
+      "id": "Anxiety",
+      "label": "Anxiety",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0003467"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Cognition",
+      "label": "Cognition",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0009241"
+      },
+      "synonyms": [
+        "Cognitive Function",
+        "Cognitive Performance"
+      ]
+    },
+    {
+      "id": "Nutrition",
+      "label": "Nutrition",
+      "type": "Process",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0028661"
+      },
+      "synonyms": [
+        "Nutrient Intake"
+      ]
+    },
+    {
+      "id": "Cytokine",
+      "label": "Cytokine",
+      "type": "Protein",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "UMLS_CUI": "C0010804"
+      },
+      "synonyms": [
+        "Proinflammatory Cytokine"
+      ]
+    },
+    {
+      "id": "ComplementPathwayAlternative",
+      "label": "Complement Pathway Alternative",
+      "type": "Process",
+      "location": "Blood",
+      "identifiers": {
+        "UMLS_CUI": "C0009524"
+      },
+      "synonyms": [
+        "Alternative Complement Pathway"
+      ]
+    },
+    {
+      "id": "Synapse",
+      "label": "Synapse",
+      "type": "Anatomy",
+      "location": "Synapse",
+      "identifiers": {
+        "UMLS_CUI": "C0039063"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "BiologicalSex",
+      "label": "Biological Sex",
+      "type": "Attribute",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0079399"
+      },
+      "synonyms": [
+        "Sex"
+      ]
+    },
+    {
+      "id": "ImmuneResponse",
+      "label": "Immune Response",
+      "type": "Process",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0020963"
+      },
+      "synonyms": [
+        "Prolonged Immune Response"
+      ]
+    },
+    {
+      "id": "InflammatoryMediator",
+      "label": "Inflammatory Mediator",
+      "type": "Chemical",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "UMLS_CUI": "C3539746"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Phagocytosis",
+      "label": "Phagocytosis",
+      "type": "Process",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "UMLS_CUI": "C0031354"
+      },
+      "synonyms": [
+        "Engulfment"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "Dysbiosis",
+      "target": "CognitiveImpairment",
+      "mechanism": "causes",
+      "evidence_ref": [
+        36
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "FecalMicrobiotaTransplantation",
+      "target": "Dysbiosis",
+      "mechanism": "treats",
+      "evidence_ref": [
+        36
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "GastrointestinalMicrobiome",
+      "target": "ImmuneSystem",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        52
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "T-Lymphocyte",
+      "target": "Neurodegeneration",
+      "mechanism": "promotes",
+      "evidence_ref": [
+        74
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "PRNP",
+      "target": "Inflammation",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        100
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "ComplementActivation",
+      "target": "Neuroinflammation",
+      "mechanism": "causes",
+      "evidence_ref": [
+        180
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "C3",
+      "target": "Inflammation",
+      "mechanism": "activates",
+      "evidence_ref": [
+        180
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Activation mediates chronic inflammation"
+    },
+    {
+      "source": "ComplementSystem",
+      "target": "NeuronalDeath",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        180
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Inhibition of complement reduces neuronal loss"
+    },
+    {
+      "source": "Inflammation",
+      "target": "NeuronalDeath",
+      "mechanism": "associated_with",
+      "evidence_ref": [
+        180
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Chronic inflammation"
+    },
+    {
+      "source": "Enteritis",
+      "target": "NeuronalDeath",
+      "mechanism": "exacerbates",
+      "evidence_ref": [
+        206
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "Enteritis",
+      "target": "CognitiveImpairment",
+      "mechanism": "causes",
+      "evidence_ref": [
+        206
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "B-Lymphocyte",
+      "target": "NeurologicDeficits",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        255
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Deficiency causes dysfunction"
+    },
+    {
+      "source": "BloodBrainBarrier",
+      "target": "Neuroinflammation",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        386
+      ],
+      "confidence": "High",
+      "metadata": "Context: Disruption causes neuroinflammation"
+    },
+    {
+      "source": "Vasculitis",
+      "target": "NeurologicDeficits",
+      "mechanism": "causes",
+      "evidence_ref": [
+        20
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Dysbiosis",
+      "mechanism": "causes",
+      "evidence_ref": [
+        36
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Neuroinflammation",
+      "mechanism": "causes",
+      "evidence_ref": [
+        129
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "Neuroinflammation",
+      "target": "NeurologicDeficits",
+      "mechanism": "mediates",
+      "evidence_ref": [
+        37,
+        282
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "Neuroinflammation",
+      "target": "Cognition",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        50,
+        51,
+        282,
+        319
+      ],
+      "confidence": "High",
+      "metadata": "Includes impairment of cognitive function and recovery"
+    },
+    {
+      "source": "Neuroinflammation",
+      "target": "Anxiety",
+      "mechanism": "mediates",
+      "evidence_ref": [
+        51
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "Nutrition",
+      "target": "Neuroinflammation",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        60
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "Neuroinflammation",
+      "target": "CognitiveImpairment",
+      "mechanism": "causes",
+      "evidence_ref": [
+        129,
+        247,
+        301,
+        352
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "Inflammation",
+      "target": "CognitiveImpairment",
+      "mechanism": "mediates",
+      "evidence_ref": [
+        69,
+        203,
+        225,
+        350
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "Neuroinflammation",
+      "target": "Neurodegeneration",
+      "mechanism": "causes",
+      "evidence_ref": [
+        74,
+        284,
+        386
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "Neuroinflammation",
+      "target": "Cytokine",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        129
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "ComplementPathwayAlternative",
+      "target": "Neuroinflammation",
+      "mechanism": "causes",
+      "evidence_ref": [
+        180
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "Inflammation",
+      "target": "Neurodegeneration",
+      "mechanism": "exacerbates",
+      "evidence_ref": [
+        192,
+        390
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "Neuroinflammation",
+      "target": "NeurologicDeficits",
+      "mechanism": "causes",
+      "evidence_ref": [
+        198,
+        352
+      ],
+      "confidence": "High",
+      "metadata": "Context: Cortical inflammation causing neuronal dysfunction"
+    },
+    {
+      "source": "Inflammation",
+      "target": "Synapse",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        225
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Causes synaptic loss"
+    },
+    {
+      "source": "ImmuneResponse",
+      "target": "Neurodegeneration",
+      "mechanism": "causes",
+      "evidence_ref": [
+        255
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Prolonged response"
+    },
+    {
+      "source": "Neuroinflammation",
+      "target": "Synapse",
+      "mechanism": "disrupts",
+      "evidence_ref": [
+        301
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Affects synaptic integrity"
+    },
+    {
+      "source": "BiologicalSex",
+      "target": "Neuroinflammation",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        366
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "Cytokine",
+      "target": "Neurodegeneration",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        372
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "ImmuneResponse",
+      "target": "Neurodegeneration",
+      "mechanism": "mediates",
+      "evidence_ref": [
+        388
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Inflammatory response"
+    },
+    {
+      "source": "InflammatoryMediator",
+      "target": "Phagocytosis",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        203
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Synaptic engulfment"
+    },
+    {
+      "source": "Neuroinflammation",
+      "target": "TraumaticBrainInjury",
+      "mechanism": "causes",
+      "evidence_ref": [
+        135
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Secondary brain damage"
+    }
+  ]
+}

@@ -1,0 +1,928 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 42,
+    "edge_count": 55
+  },
+  "nodes": [
+    {
+      "id": "IL10",
+      "label": "Interleukin-10",
+      "type": "Protein",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "UMLS_CUI": "C0021759",
+        "HGNC_ID": "HGNC:5962",
+        "UniProt_ID": "P22301"
+      },
+      "synonyms": [
+        "CSIF",
+        "IL-10"
+      ]
+    },
+    {
+      "id": "HMOX1",
+      "label": "Heme Oxygenase-1",
+      "type": "Protein",
+      "location": "Intracellular",
+      "identifiers": {
+        "UMLS_CUI": "C0019086",
+        "HGNC_ID": "HGNC:5013",
+        "UniProt_ID": "P09601"
+      },
+      "synonyms": [
+        "HO-1",
+        "Hsp32"
+      ]
+    },
+    {
+      "id": "NFKB1",
+      "label": "NF-kappaB",
+      "type": "Protein",
+      "location": "Nucleus",
+      "identifiers": {
+        "UMLS_CUI": "C0028122",
+        "HGNC_ID": "HGNC:7794",
+        "UniProt_ID": "P19838"
+      },
+      "synonyms": [
+        "Nuclear factor NF-kappa-B p105 subunit",
+        "NF-kappaB"
+      ]
+    },
+    {
+      "id": "IFNG",
+      "label": "Interferon Gamma",
+      "type": "Protein",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "UMLS_CUI": "C0021768",
+        "HGNC_ID": "HGNC:5438",
+        "UniProt_ID": "P01579"
+      },
+      "synonyms": [
+        "IFN-gamma"
+      ]
+    },
+    {
+      "id": "MAPT",
+      "label": "Microtubule-associated Protein Tau",
+      "type": "Protein",
+      "location": "Neuron",
+      "identifiers": {
+        "UMLS_CUI": "C0039392",
+        "HGNC_ID": "HGNC:6893",
+        "UniProt_ID": "P10636"
+      },
+      "synonyms": [
+        "Tau",
+        "Tau Protein",
+        "Neurofibrillary Tangles"
+      ]
+    },
+    {
+      "id": "Xenon",
+      "label": "Xenon",
+      "type": "Chemical",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0043310",
+        "ChEBI_ID": "CHEBI:49475"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "AscorbicAcid",
+      "label": "Ascorbic Acid",
+      "type": "Chemical",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "UMLS_CUI": "C0003968",
+        "ChEBI_ID": "CHEBI:29073"
+      },
+      "synonyms": [
+        "Vitamin C",
+        "Ascorbate"
+      ]
+    },
+    {
+      "id": "Itaconate",
+      "label": "Itaconate",
+      "type": "Chemical",
+      "location": "Mitochondria",
+      "identifiers": {
+        "UMLS_CUI": "C0022260",
+        "ChEBI_ID": "CHEBI:30838"
+      },
+      "synonyms": [
+        "Itaconic acid"
+      ]
+    },
+    {
+      "id": "Lipopolysaccharide",
+      "label": "Lipopolysaccharide",
+      "type": "Chemical",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "UMLS_CUI": "C0023816",
+        "ChEBI_ID": "CHEBI:6494"
+      },
+      "synonyms": [
+        "LPS",
+        "Endotoxin"
+      ]
+    },
+    {
+      "id": "Dexamethasone",
+      "label": "Dexamethasone",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0011777",
+        "ChEBI_ID": "CHEBI:41879"
+      },
+      "synonyms": [
+        "Lipo-Dex",
+        "Liposomal Dexamethasone"
+      ]
+    },
+    {
+      "id": "ReactiveOxygenSpecies",
+      "label": "Reactive Oxygen Species",
+      "type": "Chemical",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "UMLS_CUI": "C0035548",
+        "ChEBI_ID": "CHEBI:26523"
+      },
+      "synonyms": [
+        "ROS"
+      ]
+    },
+    {
+      "id": "Microglia",
+      "label": "Microglia",
+      "type": "Cell",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0026001"
+      },
+      "synonyms": [
+        "Microglial Cells",
+        "Satellite Microglia"
+      ]
+    },
+    {
+      "id": "Macrophage",
+      "label": "Macrophage",
+      "type": "Cell",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0024433"
+      },
+      "synonyms": [
+        "Perivascular Macrophages"
+      ]
+    },
+    {
+      "id": "Obesity",
+      "label": "Obesity",
+      "type": "Disease",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0028754"
+      },
+      "synonyms": [
+        "Adiposity"
+      ]
+    },
+    {
+      "id": "CognitiveImpairment",
+      "label": "Cognitive Impairment",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0338656"
+      },
+      "synonyms": [
+        "Cognitive Deficits",
+        "Neurocognitive Deficits",
+        "Cognitive Changes",
+        "Long-term Cognitive Deficits"
+      ]
+    },
+    {
+      "id": "Tauopathy",
+      "label": "Tauopathy",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C1859842"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Neuroinflammation",
+      "label": "Neuroinflammation",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027798"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Acidosis",
+      "label": "Acidosis",
+      "type": "Disease",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "UMLS_CUI": "C0001122"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "OpticNerveInjury",
+      "label": "Injury of Optic Nerve",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0029156"
+      },
+      "synonyms": [
+        "Optic Nerve Damage"
+      ]
+    },
+    {
+      "id": "NeurologicDeficits",
+      "label": "Neurologic Deficits",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0521654"
+      },
+      "synonyms": [
+        "Neurological Impairment",
+        "Functional Deficits"
+      ]
+    },
+    {
+      "id": "MicroglialCellActivation",
+      "label": "Microglial Cell Activation",
+      "type": "Process",
+      "location": "Microglia",
+      "identifiers": {
+        "UMLS_CUI": "C4054593",
+        "GO_ID": "GO:0001774"
+      },
+      "synonyms": [
+        "Microgliosis",
+        "Microglial Reactivity",
+        "Microglial Polarization"
+      ]
+    },
+    {
+      "id": "MacrophageActivation",
+      "label": "Macrophage Activation",
+      "type": "Process",
+      "location": "Macrophage",
+      "identifiers": {
+        "UMLS_CUI": "C0024436",
+        "GO_ID": "GO:0042116"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Neuroprotection",
+      "label": "Neuroprotection",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027877"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Inflammation",
+      "label": "Inflammation",
+      "type": "Process",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0021368"
+      },
+      "synonyms": [
+        "Inflammatory Response",
+        "Intestinal Inflammation"
+      ]
+    },
+    {
+      "id": "Astrocytosis",
+      "label": "Astrocytosis",
+      "type": "Process",
+      "location": "Astrocyte",
+      "identifiers": {
+        "UMLS_CUI": "C0004132"
+      },
+      "synonyms": [
+        "Astrogliosis",
+        "Astrocyte Activation"
+      ]
+    },
+    {
+      "id": "Phagocytosis",
+      "label": "Phagocytosis",
+      "type": "Process",
+      "location": "Microglia",
+      "identifiers": {
+        "UMLS_CUI": "C0031308",
+        "GO_ID": "GO:0006909"
+      },
+      "synonyms": [
+        "Phagocytic Function"
+      ]
+    },
+    {
+      "id": "Autophagy",
+      "label": "Autophagy",
+      "type": "Process",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "UMLS_CUI": "C0004403",
+        "GO_ID": "GO:0006914"
+      },
+      "synonyms": [
+        "Autophagic Function"
+      ]
+    },
+    {
+      "id": "CellProliferation",
+      "label": "Cell Proliferation",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0007608",
+        "GO_ID": "GO:0008283"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Glycolysis",
+      "label": "Glycolysis",
+      "type": "Process",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "UMLS_CUI": "C0017929",
+        "GO_ID": "GO:0006096"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Metabolism",
+      "label": "Metabolism",
+      "type": "Process",
+      "location": "Mitochondria",
+      "identifiers": {
+        "UMLS_CUI": "C0025519",
+        "GO_ID": "GO:0008152"
+      },
+      "synonyms": [
+        "Mitochondrial Metabolism"
+      ]
+    },
+    {
+      "id": "ComplementActivation",
+      "label": "Complement Activation",
+      "type": "Process",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "UMLS_CUI": "C0009503",
+        "GO_ID": "GO:0006956"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "NeuronalDysfunction",
+      "label": "Neurologic Dysfunction",
+      "type": "Process",
+      "location": "Neuron",
+      "identifiers": {
+        "UMLS_CUI": "C0235025"
+      },
+      "synonyms": [
+        "Neuronal Alterations"
+      ]
+    },
+    {
+      "id": "SynapseLoss",
+      "label": "Synaptic Loss",
+      "type": "Process",
+      "location": "Synapse",
+      "identifiers": {
+        "UMLS_CUI": "C0039128"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "SynapticTransmission",
+      "label": "Synaptic Transmission",
+      "type": "Process",
+      "location": "Synapse",
+      "identifiers": {
+        "UMLS_CUI": "C0039137",
+        "GO_ID": "GO:0007268"
+      },
+      "synonyms": [
+        "Inhibitory Synaptic Drive"
+      ]
+    },
+    {
+      "id": "CellSurvival",
+      "label": "Cell Survival",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0007623",
+        "GO_ID": "GO:0043067"
+      },
+      "synonyms": [
+        "Cell Viability"
+      ]
+    },
+    {
+      "id": "GeneExpression",
+      "label": "Gene Expression",
+      "type": "Process",
+      "location": "Nucleus",
+      "identifiers": {
+        "UMLS_CUI": "C0017258",
+        "GO_ID": "GO:0010467"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "SignalTransduction",
+      "label": "Signal Transduction",
+      "type": "Process",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "UMLS_CUI": "C0037083",
+        "GO_ID": "GO:0007165"
+      },
+      "synonyms": [
+        "Ability to Sense Damage"
+      ]
+    },
+    {
+      "id": "Homeostasis",
+      "label": "Homeostasis",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0019864",
+        "GO_ID": "GO:0042592"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Neurotoxicity",
+      "label": "Neurotoxicity",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027871"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "NeuronalExcitability",
+      "label": "Neuronal Excitability",
+      "type": "Process",
+      "location": "Neuron",
+      "identifiers": {
+        "UMLS_CUI": "C0027855"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Neurodegeneration",
+      "label": "Neurodegeneration",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027819"
+      },
+      "synonyms": [
+        "Cortical Neurodegeneration",
+        "Hippocampal Neurodegeneration"
+      ]
+    },
+    {
+      "id": "Cytokines",
+      "label": "Cytokines",
+      "type": "Protein",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "UMLS_CUI": "C0010802"
+      },
+      "synonyms": [
+        "Pro-inflammatory Cytokines"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "HMOX1",
+      "target": "MicroglialCellActivation",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        71
+      ],
+      "metadata": "Inferred from KO effect"
+    },
+    {
+      "source": "HMOX1",
+      "target": "Astrocytosis",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        71
+      ],
+      "metadata": "Inferred from KO effect"
+    },
+    {
+      "source": "HMOX1",
+      "target": "Inflammation",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        71
+      ],
+      "metadata": "Inferred from KO effect"
+    },
+    {
+      "source": "HMOX1",
+      "target": "NFKB1",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        71
+      ],
+      "metadata": "Inferred from KO effect"
+    },
+    {
+      "source": "HMOX1",
+      "target": "IFNG",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        71
+      ],
+      "metadata": "Inferred from KO effect"
+    },
+    {
+      "source": "MicroglialCellActivation",
+      "target": "Neuroinflammation",
+      "mechanism": "causes",
+      "evidence_ref": [
+        51,
+        121,
+        153,
+        324
+      ]
+    },
+    {
+      "source": "MicroglialCellActivation",
+      "target": "CognitiveImpairment",
+      "mechanism": "causes",
+      "evidence_ref": [
+        36,
+        68,
+        73,
+        203,
+        204,
+        207
+      ]
+    },
+    {
+      "source": "MicroglialCellActivation",
+      "target": "NeuronalDysfunction",
+      "mechanism": "causes",
+      "evidence_ref": [
+        194
+      ]
+    },
+    {
+      "source": "MicroglialCellActivation",
+      "target": "SynapseLoss",
+      "mechanism": "mediates",
+      "evidence_ref": [
+        203
+      ]
+    },
+    {
+      "source": "MicroglialCellActivation",
+      "target": "SynapticTransmission",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        203
+      ],
+      "metadata": "Effect on Inhibitory Drive"
+    },
+    {
+      "source": "MicroglialCellActivation",
+      "target": "ComplementActivation",
+      "mechanism": "activates",
+      "evidence_ref": [
+        180
+      ]
+    },
+    {
+      "source": "MicroglialCellActivation",
+      "target": "Neurotoxicity",
+      "mechanism": "causes",
+      "evidence_ref": [
+        324
+      ]
+    },
+    {
+      "source": "MicroglialCellActivation",
+      "target": "Neurodegeneration",
+      "mechanism": "causes",
+      "evidence_ref": [
+        233,
+        362
+      ],
+      "metadata": "Context: M1-like state"
+    },
+    {
+      "source": "MicroglialCellActivation",
+      "target": "GeneExpression",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        324
+      ]
+    },
+    {
+      "source": "MicroglialCellActivation",
+      "target": "Neuroprotection",
+      "mechanism": "promotes",
+      "evidence_ref": [
+        372,
+        362
+      ],
+      "metadata": "Context: M2-like state"
+    },
+    {
+      "source": "MicroglialCellActivation",
+      "target": "MAPT",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        62
+      ],
+      "metadata": "Context: Tau Proteostasis"
+    },
+    {
+      "source": "MicroglialCellActivation",
+      "target": "Tauopathy",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        62
+      ]
+    },
+    {
+      "source": "MicroglialCellActivation",
+      "target": "Cytokines",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        181
+      ]
+    },
+    {
+      "source": "MacrophageActivation",
+      "target": "Neuroprotection",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        233
+      ],
+      "metadata": "Context: M2 state"
+    },
+    {
+      "source": "IL10",
+      "target": "MicroglialCellActivation",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        372
+      ]
+    },
+    {
+      "source": "Macrophage",
+      "target": "Inflammation",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        388
+      ],
+      "metadata": "Perivascular Macrophages"
+    },
+    {
+      "source": "Obesity",
+      "target": "MicroglialCellActivation",
+      "mechanism": "causes",
+      "evidence_ref": [
+        55
+      ],
+      "metadata": "Sex-specific: Males (Absent in Females)"
+    },
+    {
+      "source": "Xenon",
+      "target": "CellProliferation",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        125
+      ],
+      "metadata": "Cell: Microglia"
+    },
+    {
+      "source": "AscorbicAcid",
+      "target": "MicroglialCellActivation",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        153
+      ]
+    },
+    {
+      "source": "Itaconate",
+      "target": "MicroglialCellActivation",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        157
+      ]
+    },
+    {
+      "source": "Glycolysis",
+      "target": "MicroglialCellActivation",
+      "mechanism": "activates",
+      "evidence_ref": [
+        157
+      ]
+    },
+    {
+      "source": "Metabolism",
+      "target": "MicroglialCellActivation",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        157
+      ],
+      "metadata": "Context: Disruption causes activation"
+    },
+    {
+      "source": "Microglia",
+      "target": "Acidosis",
+      "mechanism": "causes",
+      "evidence_ref": [
+        221
+      ]
+    },
+    {
+      "source": "Microglia",
+      "target": "Inflammation",
+      "mechanism": "causes",
+      "evidence_ref": [
+        221,
+        388
+      ]
+    },
+    {
+      "source": "Microglia",
+      "target": "ReactiveOxygenSpecies",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        221
+      ]
+    },
+    {
+      "source": "Microglia",
+      "target": "NeurologicDeficits",
+      "mechanism": "promotes",
+      "evidence_ref": [
+        251
+      ]
+    },
+    {
+      "source": "Microglia",
+      "target": "NeuronalExcitability",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        283
+      ],
+      "metadata": "Context: Satellite Microglia"
+    },
+    {
+      "source": "OpticNerveInjury",
+      "target": "MicroglialCellActivation",
+      "mechanism": "causes",
+      "evidence_ref": [
+        261
+      ]
+    },
+    {
+      "source": "Lipopolysaccharide",
+      "target": "CellSurvival",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        290
+      ],
+      "metadata": "Cell: Microglia"
+    },
+    {
+      "source": "GeneExpression",
+      "target": "SignalTransduction",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        324
+      ]
+    },
+    {
+      "source": "GeneExpression",
+      "target": "Homeostasis",
+      "mechanism": "affects",
+      "evidence_ref": [
+        324
+      ]
+    },
+    {
+      "source": "Dexamethasone",
+      "target": "MicroglialCellActivation",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        369,
+        371
+      ]
+    },
+    {
+      "source": "Dexamethasone",
+      "target": "Astrocytosis",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        369,
+        371
+      ]
+    },
+    {
+      "source": "Inflammation",
+      "target": "MicroglialCellActivation",
+      "mechanism": "causes",
+      "evidence_ref": [
+        206
+      ],
+      "metadata": "Origin: Intestinal"
+    },
+    {
+      "source": "Neuroinflammation",
+      "target": "Neuroprotection",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        372
+      ]
+    },
+    {
+      "source": "Microglia",
+      "target": "CognitiveImpairment",
+      "mechanism": "causes",
+      "evidence_ref": [
+        194
+      ],
+      "metadata": "Inferred from Depletion studies"
+    },
+    {
+      "source": "Microglia",
+      "target": "NeuronalDysfunction",
+      "mechanism": "causes",
+      "evidence_ref": [
+        194
+      ],
+      "metadata": "Inferred from Depletion studies"
+    },
+    {
+      "source": "MicroglialCellActivation",
+      "target": "Phagocytosis",
+      "mechanism": "correlates_with",
+      "evidence_ref": [
+        73
+      ]
+    },
+    {
+      "source": "MicroglialCellActivation",
+      "target": "Autophagy",
+      "mechanism": "correlates_with",
+      "evidence_ref": [
+        73
+      ]
+    },
+    {
+      "source": "MicroglialCellActivation",
+      "target": "GeneExpression",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        324
+      ],
+      "metadata": "Biphasic Pattern"
+    }
+  ]
+}

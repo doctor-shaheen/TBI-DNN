@@ -1,0 +1,690 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 27,
+    "edge_count": 34
+  },
+  "nodes": [
+    {
+      "id": "SleepQuality",
+      "label": "Sleep Quality",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0037317"
+      },
+      "synonyms": [
+        "Poor Sleep",
+        "Sleep"
+      ]
+    },
+    {
+      "id": "ObstructiveSleepApnea",
+      "label": "Obstructive Sleep Apnea",
+      "type": "Disease",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0037315"
+      },
+      "synonyms": [
+        "OSA",
+        "Sleep Apnea"
+      ]
+    },
+    {
+      "id": "Aging",
+      "label": "Aging",
+      "type": "Process",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0001792"
+      },
+      "synonyms": [
+        "Age",
+        "Age of First Exposure"
+      ]
+    },
+    {
+      "id": "SleepWakeDisorders",
+      "label": "Sleep Wake Disorders",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0037316"
+      },
+      "synonyms": [
+        "Sleep Disturbances",
+        "Sleep Disorders",
+        "Sleep Disruption",
+        "Sleep Difficulty"
+      ]
+    },
+    {
+      "id": "CognitiveImpairment",
+      "label": "Cognitive Impairment",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0338656"
+      },
+      "synonyms": [
+        "Cognitive Symptoms"
+      ]
+    },
+    {
+      "id": "Cognition",
+      "label": "Cognition",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0009241"
+      },
+      "synonyms": [
+        "Cognitive Function",
+        "Complex Processing Speed",
+        "Executive Function",
+        "Cognitive Test Performance"
+      ]
+    },
+    {
+      "id": "HypnoticsAndSedatives",
+      "label": "Hypnotics And Sedatives",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0020610",
+        "ChEBI": "CHEBI:35476"
+      },
+      "synonyms": [
+        "Hypnotics Use",
+        "Hypnotics"
+      ]
+    },
+    {
+      "id": "Dementia",
+      "label": "Dementia",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0497327"
+      },
+      "synonyms": [
+        "Incident Dementia"
+      ]
+    },
+    {
+      "id": "Insomnia",
+      "label": "Insomnia",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0917801"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "Traumatic Brain Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111"
+      },
+      "synonyms": [
+        "TBI",
+        "Mild Traumatic Brain Injury",
+        "Neurotrauma",
+        "Head Injury"
+      ]
+    },
+    {
+      "id": "OccupationalExposure",
+      "label": "Occupational Exposure",
+      "type": "Process",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0028821"
+      },
+      "synonyms": [
+        "Military Exposure"
+      ]
+    },
+    {
+      "id": "REMSleepBehaviorDisorder",
+      "label": "REM Sleep Behavior Disorder",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0751495"
+      },
+      "synonyms": [
+        "RBD",
+        "Isolated REM Sleep Behavior Disorder"
+      ]
+    },
+    {
+      "id": "DepressiveDisorder",
+      "label": "Depressive Disorder",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0011581"
+      },
+      "synonyms": [
+        "Depression"
+      ]
+    },
+    {
+      "id": "AntidepressiveAgents",
+      "label": "Antidepressive Agents",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0003289",
+        "ChEBI": "CHEBI:35469"
+      },
+      "synonyms": [
+        "Antidepressants"
+      ]
+    },
+    {
+      "id": "NeurodegenerativeDisorders",
+      "label": "Neurodegenerative Disorders",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0524851"
+      },
+      "synonyms": [
+        "Neurodegenerative Disease",
+        "Neurodegeneration",
+        "Early Neurodegeneration",
+        "Neurodegenerative Process"
+      ]
+    },
+    {
+      "id": "BiologicalSex",
+      "label": "Biological Sex",
+      "type": "Attribute",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0036857"
+      },
+      "synonyms": [
+        "Gender"
+      ]
+    },
+    {
+      "id": "GlymphaticClearance",
+      "label": "Glymphatic Clearance",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C4073286"
+      },
+      "synonyms": [
+        "Glymphatic System Clearance"
+      ]
+    },
+    {
+      "id": "Synucleinopathies",
+      "label": "Synucleinopathies",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C1864850"
+      },
+      "synonyms": [
+        "Prodromal Synucleinopathy"
+      ]
+    },
+    {
+      "id": "Dysautonomia",
+      "label": "Dysautonomia",
+      "type": "Disease",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0013264"
+      },
+      "synonyms": [
+        "Autonomic Dysfunction",
+        "Autonomic Nervous System Dysfunction"
+      ]
+    },
+    {
+      "id": "Hypertension",
+      "label": "Hypertension",
+      "type": "Disease",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0020538"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Apathy",
+      "label": "Apathy",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0003578"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Anosmia",
+      "label": "Anosmia",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0003126"
+      },
+      "synonyms": [
+        "Hyposmia"
+      ]
+    },
+    {
+      "id": "Constipation",
+      "label": "Constipation",
+      "type": "Disease",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0009806"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "OrthostaticHypotension",
+      "label": "Orthostatic Hypotension",
+      "type": "Disease",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0020651"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "HeartRateVariability",
+      "label": "Heart Rate Variability",
+      "type": "Process",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0277983"
+      },
+      "synonyms": [
+        "HRV"
+      ]
+    },
+    {
+      "id": "HippocampalAtrophy",
+      "label": "Hippocampal Atrophy",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0270634"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Dopamine",
+      "label": "Dopamine",
+      "type": "Chemical",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0013031",
+        "ChEBI": "CHEBI:18243"
+      },
+      "synonyms": [
+        "Dopaminergic Network",
+        "Dopaminergic System"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "SleepQuality",
+      "target": "ObstructiveSleepApnea",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        173
+      ],
+      "confidence": "Medium",
+      "metadata": "Relationship: Association/Risk prediction"
+    },
+    {
+      "source": "Aging",
+      "target": "SleepWakeDisorders",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        215
+      ],
+      "confidence": "High",
+      "metadata": "Context: Age and Age of First Exposure"
+    },
+    {
+      "source": "ObstructiveSleepApnea",
+      "target": "CognitiveImpairment",
+      "mechanism": "causes",
+      "evidence_ref": [
+        251
+      ],
+      "confidence": "High",
+      "metadata": "Context: Associated with impairment, processing speed, executive function"
+    },
+    {
+      "source": "ObstructiveSleepApnea",
+      "target": "Dementia",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        598
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "HypnoticsAndSedatives",
+      "target": "Dementia",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        441
+      ],
+      "confidence": "High",
+      "metadata": "Relation: Increases risk of"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "ObstructiveSleepApnea",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        251
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Mild TBI associated with OSA"
+    },
+    {
+      "source": "OccupationalExposure",
+      "target": "SleepWakeDisorders",
+      "mechanism": "causes",
+      "evidence_ref": [
+        129
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Military Exposure"
+    },
+    {
+      "source": "REMSleepBehaviorDisorder",
+      "target": "DepressiveDisorder",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        332,
+        464
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Association/Comorbidity"
+    },
+    {
+      "source": "AntidepressiveAgents",
+      "target": "Insomnia",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        43
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "SleepQuality",
+      "target": "Cognition",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        173,
+        554
+      ],
+      "confidence": "High",
+      "metadata": "Context: Associated with Executive Function and general Cognitive Function"
+    },
+    {
+      "source": "NeurodegenerativeDisorders",
+      "target": "SleepQuality",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        173
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Associated with Poor Sleep"
+    },
+    {
+      "source": "SleepQuality",
+      "target": "DepressiveDisorder",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        196
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Mediates depression"
+    },
+    {
+      "source": "SleepQuality",
+      "target": "CognitiveImpairment",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        196
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Correlates with Cognitive Symptoms"
+    },
+    {
+      "source": "SleepWakeDisorders",
+      "target": "CognitiveImpairment",
+      "mechanism": "causes",
+      "evidence_ref": [
+        312
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "SleepWakeDisorders",
+      "target": "Dementia",
+      "mechanism": "causes",
+      "evidence_ref": [
+        375
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "BiologicalSex",
+      "target": "SleepWakeDisorders",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        399
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Gender affects disturbances"
+    },
+    {
+      "source": "SleepWakeDisorders",
+      "target": "GlymphaticClearance",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        612
+      ],
+      "confidence": "High",
+      "metadata": "Context: Sleep Disruption impacts Clearance"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "SleepWakeDisorders",
+      "mechanism": "causes",
+      "evidence_ref": [
+        75,
+        399,
+        554,
+        555
+      ],
+      "confidence": "High",
+      "metadata": "Context: Causes Sleep Disturbances/Disorders"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "REMSleepBehaviorDisorder",
+      "mechanism": "causes",
+      "evidence_ref": [
+        162
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "REMSleepBehaviorDisorder",
+      "target": "NeurodegenerativeDisorders",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        162,
+        332,
+        615,
+        629
+      ],
+      "confidence": "High",
+      "metadata": "Context: Associated with/Precedes neurodegeneration"
+    },
+    {
+      "source": "REMSleepBehaviorDisorder",
+      "target": "Synucleinopathies",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        162,
+        615
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Dysautonomia",
+      "mechanism": "causes",
+      "evidence_ref": [
+        332,
+        403,
+        629
+      ],
+      "confidence": "High",
+      "metadata": "Context: Neurotrauma associated with autonomic dysfunction"
+    },
+    {
+      "source": "REMSleepBehaviorDisorder",
+      "target": "Dysautonomia",
+      "mechanism": "causes",
+      "evidence_ref": [
+        615,
+        629
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "Dysautonomia",
+      "target": "TraumaticBrainInjury",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        403
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Mediates/Predicts complications or clinical features of TBI"
+    },
+    {
+      "source": "REMSleepBehaviorDisorder",
+      "target": "Apathy",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        464
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "REMSleepBehaviorDisorder",
+      "target": "Anosmia",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        464
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "REMSleepBehaviorDisorder",
+      "target": "Constipation",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        464
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "REMSleepBehaviorDisorder",
+      "target": "OrthostaticHypotension",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        464
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "REMSleepBehaviorDisorder",
+      "target": "Hypertension",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        332,
+        615
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Associated with RBD and Neurotrauma"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Hypertension",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        332,
+        615
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Associated with RBD and Neurotrauma"
+    },
+    {
+      "source": "HeartRateVariability",
+      "target": "NeurodegenerativeDisorders",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        615,
+        629
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Early neurodegeneration biomarker"
+    },
+    {
+      "source": "REMSleepBehaviorDisorder",
+      "target": "HeartRateVariability",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        629
+      ],
+      "confidence": "High",
+      "metadata": "Context: Decreases HRV"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "HeartRateVariability",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        629
+      ],
+      "confidence": "High",
+      "metadata": "Context: Neurotrauma decreases HRV"
+    },
+    {
+      "source": "HippocampalAtrophy",
+      "target": "Dopamine",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        622
+      ],
+      "confidence": "High",
+      "metadata": "Context: Causes dopaminergic network dysregulation"
+    }
+  ]
+}

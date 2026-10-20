@@ -1,0 +1,128 @@
+[
+    {
+        "source_abstract_id":33,
+        "subject":"Traumatic Brain Injury",
+        "relation":"does_not_affect",
+        "object":"Cytochrome Oxidase Activity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":53,
+        "subject":"Repetitive Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Oxidative Stress",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":69,
+        "subject":"Repetitive Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Oxidative Stress",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":135,
+        "subject":"Repeated Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Oxidative Stress",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":147,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Oxidative Stress",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":161,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Oxidative Stress",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":170,
+        "subject":"Traumatic Brain Injury",
+        "relation":"increases",
+        "object":"Oxidative Stress",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":175,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Oxidative Stress",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":187,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Oxidative Stress",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":197,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Oxidative Stress",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":239,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Reactive Oxygen Species",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":239,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Lipid Peroxidation Products",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":240,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Lipid Peroxidation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":278,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Oxidative Stress",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":326,
+        "subject":"Repeated Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Oxidative Stress",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":355,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Oxidative Stress",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":363,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Oxidative Stress",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":385,
+        "subject":"Focal Vascular Injury",
+        "relation":"causes",
+        "object":"Oxidative Stress",
+        "entity_variants":null
+    }
+]

@@ -1,0 +1,198 @@
+[
+    {
+        "source_abstract_id":138,
+        "subject":"SARM1 Deficiency",
+        "relation":"prevents",
+        "object":"Disease Progression",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":138,
+        "subject":"SARM1 Deficiency",
+        "relation":"prevents",
+        "object":"Neuropathology",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":138,
+        "subject":"Sterile Alpha and TIR Motif Containing 1 Protein",
+        "relation":"causes",
+        "object":"Axonal Degeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":138,
+        "subject":"SARM1 Deficiency",
+        "relation":"improves",
+        "object":"Survival",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":144,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Axonal Degeneration",
+        "entity_variants":"SARM1"
+    },
+    {
+        "source_abstract_id":144,
+        "subject":"Sterile Alpha and TIR Motif Containing 1 Protein",
+        "relation":"downregulates",
+        "object":"Axonal Integrity",
+        "entity_variants":"SARM1"
+    },
+    {
+        "source_abstract_id":144,
+        "subject":"SARM1 Deficiency",
+        "relation":"prevents",
+        "object":"Axonal Integrity",
+        "entity_variants":"SARM1 Deficiency"
+    },
+    {
+        "source_abstract_id":144,
+        "subject":"SARM1 Deficiency",
+        "relation":"reduces",
+        "object":"Corpus Callosum Atrophy",
+        "entity_variants":"SARM1 Deficiency"
+    },
+    {
+        "source_abstract_id":144,
+        "subject":"SARM1 Deficiency",
+        "relation":"reduces",
+        "object":"Neuroinflammation",
+        "entity_variants":"SARM1 Deficiency"
+    },
+    {
+        "source_abstract_id":144,
+        "subject":"SARM1 Deficiency",
+        "relation":"improves",
+        "object":"Motor Learning",
+        "entity_variants":"SARM1 Deficiency"
+    },
+    {
+        "source_abstract_id":144,
+        "subject":"SARM1 Deficiency",
+        "relation":"improves",
+        "object":"Sleep Behavior",
+        "entity_variants":"SARM1 Deficiency"
+    },
+    {
+        "source_abstract_id":144,
+        "subject":"Wild-Type SARM1",
+        "relation":"causes",
+        "object":"Corpus Callosum Atrophy",
+        "entity_variants":"Wild-Type SARM1"
+    },
+    {
+        "source_abstract_id":144,
+        "subject":"Wild-Type SARM1",
+        "relation":"causes",
+        "object":"Neuroinflammation",
+        "entity_variants":"Wild-Type SARM1"
+    },
+    {
+        "source_abstract_id":144,
+        "subject":"SARM1 Deficiency",
+        "relation":"reduces",
+        "object":"Myelin Loss",
+        "entity_variants":"SARM1 Deficiency"
+    },
+    {
+        "source_abstract_id":277,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"SARM1 Signaling Pathway",
+        "entity_variants":"Wild-Type SARM1, SARM1 Deficiency"
+    },
+    {
+        "source_abstract_id":277,
+        "subject":"SARM1 Signaling Pathway",
+        "relation":"upregulates",
+        "object":"Phosphorylated TAR DNA-Binding Protein 43",
+        "entity_variants":"SARM1 Deficiency, SARM1 Hemizygous"
+    },
+    {
+        "source_abstract_id":277,
+        "subject":"SARM1 Signaling Pathway",
+        "relation":"causes",
+        "object":"Phosphorylated Tau Protein",
+        "entity_variants":"SARM1 Deficiency, Wild-Type SARM1"
+    },
+    {
+        "source_abstract_id":277,
+        "subject":"SARM1 Deficiency",
+        "relation":"improves",
+        "object":"Cortical Neuronal Integrity",
+        "entity_variants":"SARM1 Deficiency, Wild-Type SARM1"
+    },
+    {
+        "source_abstract_id":277,
+        "subject":"SARM1 Deficiency",
+        "relation":"reduces",
+        "object":"Microgliosis",
+        "entity_variants":"SARM1 Deficiency, Wild-Type SARM1"
+    },
+    {
+        "source_abstract_id":277,
+        "subject":"SARM1 Haploinsufficiency",
+        "relation":"reduces",
+        "object":"Phosphorylated TAR DNA-Binding Protein 43 Pathology",
+        "entity_variants":"SARM1 Haploinsufficiency, Wild-Type SARM1"
+    },
+    {
+        "source_abstract_id":277,
+        "subject":"SARM1 Haploinsufficiency",
+        "relation":"reduces",
+        "object":"Neuroaxonal Loss",
+        "entity_variants":"SARM1 Haploinsufficiency, Wild-Type SARM1"
+    },
+    {
+        "source_abstract_id":277,
+        "subject":"SARM1 Deficiency",
+        "relation":"improves",
+        "object":"Functional Deficits",
+        "entity_variants":"SARM1 Deficiency, Wild-Type SARM1"
+    },
+    {
+        "source_abstract_id":277,
+        "subject":"SARM1 Haploinsufficiency",
+        "relation":"delays",
+        "object":"Neurological Deficits",
+        "entity_variants":"SARM1 Haploinsufficiency, Wild-Type SARM1"
+    },
+    {
+        "source_abstract_id":277,
+        "subject":"SARM1 Deficiency",
+        "relation":"improves",
+        "object":"Overall Survival",
+        "entity_variants":"SARM1 Deficiency, Wild-Type SARM1"
+    },
+    {
+        "source_abstract_id":303,
+        "subject":"SARM1 Deficiency",
+        "relation":"reduces",
+        "object":"Distal Axonal Degeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":303,
+        "subject":"SARM1 Deficiency",
+        "relation":"no_effect_on",
+        "object":"Proximal Axonopathy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":303,
+        "subject":"SARM1 Deficiency",
+        "relation":"no_effect_on",
+        "object":"Initial Traumatic Axonal Disconnection",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":303,
+        "subject":"Sterile Alpha and TIR Motif Containing 1 Protein",
+        "relation":"causes",
+        "object":"Wallerian Degeneration",
+        "entity_variants":null
+    }
+]

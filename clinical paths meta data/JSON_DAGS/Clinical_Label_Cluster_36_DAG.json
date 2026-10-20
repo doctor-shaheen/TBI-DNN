@@ -1,0 +1,559 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 18,
+    "edge_count": 25
+  },
+  "nodes": [
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "Traumatic Brain Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111",
+        "MeSH": "D001930"
+      },
+      "synonyms": [
+        "Concussion",
+        "Mild Traumatic Brain Injury",
+        "Mild TBI",
+        "Sport-Related Concussion",
+        "Football Concussion",
+        "Multiple Concussions",
+        "Recurrent Concussion"
+      ]
+    },
+    {
+      "id": "PostConcussionSyndrome",
+      "label": "Post-Concussion Syndrome",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0032747",
+        "MeSH": "D038223"
+      },
+      "synonyms": [
+        "Post-Concussion Symptoms",
+        "Persistent Post-Concussion Symptoms",
+        "Persistent Concussion Symptoms",
+        "Post-Concussive Symptoms"
+      ]
+    },
+    {
+      "id": "ChronicTraumaticEncephalopathy",
+      "label": "Chronic Traumatic Encephalopathy",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C3272365",
+        "MeSH": "D000066553"
+      },
+      "synonyms": [
+        "CTE",
+        "Traumatic Encephalopathy Syndrome",
+        "Dementia Pugilistica"
+      ]
+    },
+    {
+      "id": "NeurodegenerativeDisorders",
+      "label": "Neurodegenerative Disorders",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0524851"
+      },
+      "synonyms": [
+        "Neurodegeneration",
+        "Neurodegenerative Disease",
+        "Progressive Neurodegenerative Processes"
+      ]
+    },
+    {
+      "id": "Cognition",
+      "label": "Cognition",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "GO_ID": "GO:0050890",
+        "UMLS_CUI": "C0009240"
+      },
+      "synonyms": [
+        "Cognitive Function",
+        "Cognitive Performance",
+        "Neurocognitive Performance",
+        "Memory",
+        "Executive Function",
+        "Attention",
+        "Inhibitory Control",
+        "Motor Learning Retention"
+      ]
+    },
+    {
+      "id": "DepressiveDisorders",
+      "label": "Depressive Disorders",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0011570"
+      },
+      "synonyms": [
+        "Depression",
+        "Mood Decline",
+        "Psychiatric Impairment"
+      ]
+    },
+    {
+      "id": "Anxiety",
+      "label": "Anxiety",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0003467"
+      },
+      "synonyms": [
+        "Anxiety Disorders",
+        "Anxiety About Concussions"
+      ]
+    },
+    {
+      "id": "BrainAtrophy",
+      "label": "Brain Atrophy",
+      "type": "PathologicalProcess",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0241816"
+      },
+      "synonyms": [
+        "Tissue Loss",
+        "Cerebral Atrophy",
+        "Decreased Axial Diffusivity",
+        "Microstructural Abnormality"
+      ]
+    },
+    {
+      "id": "ContactSports",
+      "label": "Contact Sports",
+      "type": "Activity",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "UMLS_CUI": "C0038039"
+      },
+      "synonyms": [
+        "Football",
+        "Sport Exposure",
+        "Non-Collision Sport Controls"
+      ]
+    },
+    {
+      "id": "Kynurenine",
+      "label": "Kynurenine",
+      "type": "Chemical",
+      "location": "Blood",
+      "identifiers": {
+        "ChEBI_ID": "CHEBI:16723"
+      },
+      "synonyms": [
+        "Kynurenine Pathway Metabolites",
+        "Kynurenic Acid",
+        "Quinolinic Acid"
+      ]
+    },
+    {
+      "id": "CellFreeDNA",
+      "label": "Cell Free DNA",
+      "type": "Chemical",
+      "location": "Blood",
+      "identifiers": {
+        "UMLS_CUI": "C0012854"
+      },
+      "synonyms": [
+        "cfDNA"
+      ]
+    },
+    {
+      "id": "Exosome",
+      "label": "Exosome",
+      "type": "CellComponent",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "GO_ID": "GO:0070062"
+      },
+      "synonyms": [
+        "Extracellular vesicles"
+      ]
+    },
+    {
+      "id": "OxidativeStress",
+      "label": "Oxidative Stress",
+      "type": "Process",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "GO_ID": "GO:0006979"
+      },
+      "synonyms": [
+        "Reactive Oxygen Species Damage"
+      ]
+    },
+    {
+      "id": "REMSleepBehaviorDisorder",
+      "label": "REM Sleep Behavior Disorder",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0520743"
+      },
+      "synonyms": [
+        "Isolated REM Sleep Behavior Disorder",
+        "IRBD"
+      ]
+    },
+    {
+      "id": "AdverseChildhoodExperiences",
+      "label": "Adverse Childhood Experiences",
+      "type": "SocialBehavior",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C4064138"
+      },
+      "synonyms": [
+        "ACEs"
+      ]
+    },
+    {
+      "id": "CognitiveReserve",
+      "label": "Cognitive Reserve",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0009241"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Age",
+      "label": "Age",
+      "type": "Attribute",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0001779"
+      },
+      "synonyms": [
+        "Aging"
+      ]
+    },
+    {
+      "id": "Sex",
+      "label": "Sex",
+      "type": "Attribute",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0036823"
+      },
+      "synonyms": [
+        "Female Sex"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "ContactSports",
+      "target": "TraumaticBrainInjury",
+      "mechanism": "causes",
+      "evidence_ref": [
+        103,
+        117,
+        73,
+        475,
+        590
+      ],
+      "confidence": "High",
+      "metadata": "Context: Risk increases with years of exposure; leads to Lifetime Concussion History"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "PostConcussionSyndrome",
+      "mechanism": "causes",
+      "evidence_ref": [
+        81,
+        216,
+        263,
+        487,
+        490,
+        73,
+        176
+      ],
+      "confidence": "High",
+      "metadata": "Context: Acute and persistent symptoms; includes headaches, dizziness, fatigue"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "NeurodegenerativeDisorders",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        103,
+        189,
+        508,
+        602,
+        619
+      ],
+      "confidence": "High",
+      "metadata": "Context: Multiple concussions increase risk; includes Dementia and Early Onset Dementia"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "ChronicTraumaticEncephalopathy",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        493
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Associated with number of concussions (negative association reported in one abstract likely refers to specific threshold or subset, but general consensus is causal)"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Cognition",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        13,
+        41,
+        69,
+        93,
+        109,
+        116,
+        121,
+        189,
+        209,
+        497,
+        508,
+        531,
+        586,
+        602,
+        611,
+        618
+      ],
+      "confidence": "Very High",
+      "metadata": "Context: Impairs memory, attention, executive function, motor learning, and inhibitory control"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "DepressiveDisorders",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        109,
+        285,
+        296,
+        540
+      ],
+      "confidence": "High",
+      "metadata": "Context: Correlates with and upregulates depression symptoms"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Anxiety",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        109,
+        121,
+        285,
+        497
+      ],
+      "confidence": "High",
+      "metadata": "Context: Correlates with anxiety and perceived risk"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "BrainAtrophy",
+      "mechanism": "causes",
+      "evidence_ref": [
+        189,
+        202,
+        296,
+        492,
+        602,
+        487
+      ],
+      "confidence": "High",
+      "metadata": "Context: Structural anomalies, tissue loss, frontal/temporal lobe changes"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "OxidativeStress",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        92
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Concussion history causes oxidative stress"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Kynurenine",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        106
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Increases pathway metabolites; alters Kynurenic Acid/Quinolinic Acid ratio"
+    },
+    {
+      "source": "Kynurenine",
+      "target": "PostConcussionSyndrome",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        106
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Predicts psychological symptoms"
+    },
+    {
+      "source": "CellFreeDNA",
+      "target": "PostConcussionSyndrome",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        557
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Predicts syndrome development"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Exosome",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        72
+      ],
+      "confidence": "Low",
+      "metadata": "Context: Influences exosome size"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "REMSleepBehaviorDisorder",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        162
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: More common in isolated REM sleep behavior disorder; long latency"
+    },
+    {
+      "source": "AdverseChildhoodExperiences",
+      "target": "PostConcussionSyndrome",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        283
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Causes concussion symptoms independent of injury severity"
+    },
+    {
+      "source": "CognitiveReserve",
+      "target": "PostConcussionSyndrome",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        176
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Input states 'upregulates', implies interaction with symptom persistence"
+    },
+    {
+      "source": "Age",
+      "target": "TraumaticBrainInjury",
+      "mechanism": "interacts_with",
+      "evidence_ref": [
+        13,
+        162,
+        189,
+        202
+      ],
+      "confidence": "High",
+      "metadata": "Context: Modifies recovery and risk; interacts with aging brain changes"
+    },
+    {
+      "source": "Sex",
+      "target": "TraumaticBrainInjury",
+      "mechanism": "interacts_with",
+      "evidence_ref": [
+        41,
+        590
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Influence on history and outcomes"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "TraumaticBrainInjury",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        103,
+        121,
+        590
+      ],
+      "confidence": "High",
+      "metadata": "Context: History of concussion increases risk of future concussions/perceived risk"
+    },
+    {
+      "source": "PostConcussionSyndrome",
+      "target": "DepressiveDisorders",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        285
+      ],
+      "confidence": "High",
+      "metadata": "Context: Symptoms lead to depression"
+    },
+    {
+      "source": "PostConcussionSyndrome",
+      "target": "Anxiety",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        285
+      ],
+      "confidence": "High",
+      "metadata": "Context: Symptoms lead to anxiety"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "TraumaticBrainInjury",
+      "mechanism": "causes",
+      "evidence_ref": [
+        618
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Altered neural recruitment / Musculoskeletal injury risk"
+    },
+    {
+      "source": "PostConcussionSyndrome",
+      "target": "Cognition",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        285,
+        490
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Impact on Quality of Life related to cognition"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "PostConcussionSyndrome",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        304
+      ],
+      "confidence": "Low",
+      "metadata": "Context: Upregulates MCP-1 and MCP-4 (Chemokines)"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Cognition",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        618,
+        626
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Altered Neural Recruitment; Motor Evoked Potentials (no association in some contexts)"
+    }
+  ]
+}

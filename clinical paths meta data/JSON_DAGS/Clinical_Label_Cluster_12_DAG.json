@@ -1,0 +1,282 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 11,
+    "edge_count": 11
+  },
+  "nodes": [
+    {
+      "id": "PosttraumaticStressDisorder",
+      "label": "Posttraumatic Stress Disorder",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0032768"
+      },
+      "synonyms": [
+        "PTSD",
+        "Post-Traumatic Stress Disorder"
+      ]
+    },
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "Traumatic Brain Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111"
+      },
+      "synonyms": [
+        "TBI",
+        "Mild Traumatic Brain Injury",
+        "mTBI"
+      ]
+    },
+    {
+      "id": "CognitiveImpairment",
+      "label": "Cognitive Impairment",
+      "type": "Symptom",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0009241"
+      },
+      "synonyms": [
+        "Mild Cognitive Impairment",
+        "Cognitive Decline",
+        "Cognitive Deficits",
+        "Poor Cognitive Performance"
+      ]
+    },
+    {
+      "id": "Aging",
+      "label": "Aging",
+      "type": "Process",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0001779"
+      },
+      "synonyms": [
+        "Age"
+      ]
+    },
+    {
+      "id": "CellAging",
+      "label": "Cell Aging",
+      "type": "Process",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0007568",
+        "GO_ID": "GO:0007568"
+      },
+      "synonyms": [
+        "Accelerated Cellular Aging"
+      ]
+    },
+    {
+      "id": "SocioeconomicStatus",
+      "label": "Socioeconomic Status",
+      "type": "Process",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0037434"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "BehavioralSymptoms",
+      "label": "Behavioral Symptoms",
+      "type": "Symptom",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0004936"
+      },
+      "synonyms": [
+        "Behavioral Function",
+        "Behavioral Disturbance"
+      ]
+    },
+    {
+      "id": "CorticalAtrophy",
+      "label": "Cortical Atrophy",
+      "type": "Pathology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0241816"
+      },
+      "synonyms": [
+        "Cortical Surface Area Reduction",
+        "Brain Structure Changes",
+        "Cortical Thickness Change"
+      ]
+    },
+    {
+      "id": "Dementia",
+      "label": "Dementia",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0497327"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "ChronicPain",
+      "label": "Chronic Pain",
+      "type": "Symptom",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0008678"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "DepressiveDisorder",
+      "label": "Depressive Disorder",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0011581"
+      },
+      "synonyms": [
+        "Depression"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "PosttraumaticStressDisorder",
+      "mechanism": "causes",
+      "evidence_ref": [
+        39,
+        75,
+        113,
+        160,
+        171,
+        226,
+        234,
+        264,
+        309,
+        358,
+        629
+      ],
+      "confidence": "High",
+      "metadata": "Context: Mild TBI and TBI correlate with or cause PTSD; conflicting evidence on direct causal link in some subsets (Ref 286, 562)"
+    },
+    {
+      "source": "PosttraumaticStressDisorder",
+      "target": "CognitiveImpairment",
+      "mechanism": "causes",
+      "evidence_ref": [
+        19,
+        96,
+        113,
+        160,
+        286,
+        309,
+        395,
+        411,
+        421,
+        509,
+        562
+      ],
+      "confidence": "High",
+      "metadata": "Mediated by symptoms and severity"
+    },
+    {
+      "source": "Aging",
+      "target": "PosttraumaticStressDisorder",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        113,
+        267,
+        309
+      ],
+      "confidence": "Medium",
+      "metadata": "Interacts with and confounds PTSD effects"
+    },
+    {
+      "source": "PosttraumaticStressDisorder",
+      "target": "CellAging",
+      "mechanism": "causes",
+      "evidence_ref": [
+        113
+      ],
+      "confidence": "Low",
+      "metadata": "Refers to accelerated cellular aging"
+    },
+    {
+      "source": "SocioeconomicStatus",
+      "target": "PosttraumaticStressDisorder",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        608
+      ],
+      "confidence": "Medium",
+      "metadata": "Modulates symptoms"
+    },
+    {
+      "source": "PosttraumaticStressDisorder",
+      "target": "BehavioralSymptoms",
+      "mechanism": "causes",
+      "evidence_ref": [
+        19
+      ],
+      "confidence": "Medium",
+      "metadata": "Negatively affects behavioral function"
+    },
+    {
+      "source": "PosttraumaticStressDisorder",
+      "target": "Dementia",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        66,
+        335
+      ],
+      "confidence": "Medium",
+      "metadata": "Conflicting evidence on direct causal link (Ref 160 suggests no direct link)"
+    },
+    {
+      "source": "PosttraumaticStressDisorder",
+      "target": "CorticalAtrophy",
+      "mechanism": "causes",
+      "evidence_ref": [
+        113,
+        267
+      ],
+      "confidence": "Medium",
+      "metadata": "Includes cortical surface area reduction and atrophy; some studies find no association (Ref 38, 519)"
+    },
+    {
+      "source": "ChronicPain",
+      "target": "PosttraumaticStressDisorder",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        171
+      ],
+      "confidence": "Medium",
+      "metadata": "Bidirectional interaction"
+    },
+    {
+      "source": "PosttraumaticStressDisorder",
+      "target": "DepressiveDisorder",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        286
+      ],
+      "confidence": "Medium",
+      "metadata": "Comorbidity"
+    },
+    {
+      "source": "DepressiveDisorder",
+      "target": "CognitiveImpairment",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        286
+      ],
+      "confidence": "Medium",
+      "metadata": "In context of PTSD comorbidity"
+    }
+  ]
+}

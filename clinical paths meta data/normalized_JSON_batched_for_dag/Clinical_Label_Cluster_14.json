@@ -1,0 +1,205 @@
+[
+    {
+        "source_abstract_id":32,
+        "subject":"Head Injury",
+        "relation":"causes",
+        "object":"Chronic Traumatic Encephalopathy-like Changes",
+        "entity_variants":"unknown|"
+    },
+    {
+        "source_abstract_id":55,
+        "subject":"Neurodegeneration",
+        "relation":"associated_with",
+        "object":"Chronic Traumatic Encephalopathy",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":99,
+        "subject":"Chronic Traumatic Encephalopathy Tissue",
+        "relation":"demonstrates",
+        "object":"Laminar Pattern",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":126,
+        "subject":"Chronic Traumatic Encephalopathy",
+        "relation":"associated_with",
+        "object":"Dementia",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":126,
+        "subject":"Chronic Traumatic Encephalopathy",
+        "relation":"associated_with",
+        "object":"Psychotic Disorder",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":126,
+        "subject":"Chronic Traumatic Encephalopathy",
+        "relation":"associated_with",
+        "object":"Movement Disorders",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":126,
+        "subject":"Chronic Traumatic Encephalopathy",
+        "relation":"associated_with",
+        "object":"Alcohol Abuse",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":178,
+        "subject":"C-C Motif Chemokine Ligand 11",
+        "relation":"increased_in",
+        "object":"Chronic Traumatic Encephalopathy",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":178,
+        "subject":"C-C Motif Chemokine Ligand 11",
+        "relation":"correlates_with",
+        "object":"Years of Exposure to Football",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":178,
+        "subject":"C-C Motif Chemokine Ligand 11",
+        "relation":"correlates_with",
+        "object":"Cerebrospinal Fluid CCL11 Levels",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":178,
+        "subject":"C-C Motif Chemokine Ligand 11",
+        "relation":"distinguishes",
+        "object":"Chronic Traumatic Encephalopathy",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":178,
+        "subject":"C-C Motif Chemokine Ligand 11",
+        "relation":"increased_in",
+        "object":"Cerebrospinal Fluid",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":178,
+        "subject":"C-C Motif Chemokine Ligand 11",
+        "relation":"correlates_with",
+        "object":"Age",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":186,
+        "subject":"Current Chronic Traumatic Encephalopathy Concerns",
+        "relation":"mediated_by",
+        "object":"Retrospective Chronic Traumatic Encephalopathy Concerns",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":186,
+        "subject":"Current Chronic Traumatic Encephalopathy Concerns",
+        "relation":"no_association",
+        "object":"Retrospective Chronic Traumatic Encephalopathy Concerns",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":32,
+        "subject":"Alcohol Abuse",
+        "relation":"causes",
+        "object":"Chronic Traumatic Encephalopathy-like Changes",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":32,
+        "subject":"Drug Abuse",
+        "relation":"causes",
+        "object":"Chronic Traumatic Encephalopathy-like Changes",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":32,
+        "subject":"Age",
+        "relation":"causes",
+        "object":"Chronic Traumatic Encephalopathy-like Changes",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":32,
+        "subject":"Chronic Traumatic Encephalopathy-like Changes",
+        "relation":"negatively_associated_with",
+        "object":"Contusion",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":44,
+        "subject":"Chronic Traumatic Encephalopathy",
+        "relation":"associated_with",
+        "object":"Dementia",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":44,
+        "subject":"Chronic Traumatic Encephalopathy",
+        "relation":"associated_with",
+        "object":"Extrapyramidal Motor Symptoms",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":325,
+        "subject":"Chronic Traumatic Encephalopathy",
+        "relation":"causes",
+        "object":"Frontal-Temporal Atrophy",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":325,
+        "subject":"Chronic Traumatic Encephalopathy",
+        "relation":"causes",
+        "object":"Orbital Frontal Atrophy",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":325,
+        "subject":"Chronic Traumatic Encephalopathy",
+        "relation":"causes",
+        "object":"Dorsolateral Frontal Atrophy",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":325,
+        "subject":"Chronic Traumatic Encephalopathy",
+        "relation":"causes",
+        "object":"Superior Frontal Atrophy",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":325,
+        "subject":"Chronic Traumatic Encephalopathy",
+        "relation":"causes",
+        "object":"Anterior Temporal Atrophy",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":325,
+        "subject":"Chronic Traumatic Encephalopathy",
+        "relation":"causes",
+        "object":"Medial Temporal Atrophy",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":325,
+        "subject":"Chronic Traumatic Encephalopathy",
+        "relation":"causes",
+        "object":"Lateral Ventricular Enlargement",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":325,
+        "subject":"Chronic Traumatic Encephalopathy",
+        "relation":"causes",
+        "object":"Third Ventricular Enlargement",
+        "entity_variants":"unknown"
+    }
+]

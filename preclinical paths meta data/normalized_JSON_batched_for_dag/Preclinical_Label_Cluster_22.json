@@ -1,0 +1,128 @@
+[
+    {
+        "source_abstract_id":407,
+        "subject":"Leukemia Inhibitory Factor",
+        "relation":"causes",
+        "object":"Glial Reactivity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":90,
+        "subject":"Colony Stimulating Factor 1",
+        "relation":"prevents",
+        "object":"Neuroinflammation",
+        "entity_variants":"CSF1|"
+    },
+    {
+        "source_abstract_id":90,
+        "subject":"Colony Stimulating Factor 1",
+        "relation":"improves",
+        "object":"Cognitive Function",
+        "entity_variants":"CSF1|"
+    },
+    {
+        "source_abstract_id":90,
+        "subject":"Colony Stimulating Factor 1",
+        "relation":"modulates",
+        "object":"Transcriptomic Changes Related to Cognition",
+        "entity_variants":"CSF1|"
+    },
+    {
+        "source_abstract_id":90,
+        "subject":"Colony Stimulating Factor 1",
+        "relation":"prevents",
+        "object":"Astrocyte Reactivity",
+        "entity_variants":"CSF1|"
+    },
+    {
+        "source_abstract_id":90,
+        "subject":"Colony Stimulating Factor 1",
+        "relation":"has_property",
+        "object":"Therapeutic Time Window",
+        "entity_variants":"CSF1|"
+    },
+    {
+        "source_abstract_id":90,
+        "subject":"Colony Stimulating Factor 1",
+        "relation":"has_status",
+        "object":"Approved for Human Use",
+        "entity_variants":"CSF1|"
+    },
+    {
+        "source_abstract_id":285,
+        "subject":"Insulin-Like Growth Factor 1",
+        "relation":"upregulates",
+        "object":"Serum Insulin-Like Growth Factor 1 Levels",
+        "entity_variants":"RAd-IGF1|"
+    },
+    {
+        "source_abstract_id":285,
+        "subject":"Insulin-Like Growth Factor 1",
+        "relation":"improves",
+        "object":"Working Memory Performance",
+        "entity_variants":"RAd-IGF1|"
+    },
+    {
+        "source_abstract_id":285,
+        "subject":"Insulin-Like Growth Factor 1",
+        "relation":"prevents",
+        "object":"Iba1-Positive Cells",
+        "entity_variants":"RAd-IGF1|"
+    },
+    {
+        "source_abstract_id":285,
+        "subject":"Insulin-Like Growth Factor 1",
+        "relation":"prevents",
+        "object":"MHC Class II-Positive Cells",
+        "entity_variants":"RAd-IGF1|"
+    },
+    {
+        "source_abstract_id":285,
+        "subject":"Insulin-Like Growth Factor 1",
+        "relation":"does_not_affect",
+        "object":"GFAP-Positive Cells",
+        "entity_variants":"RAd-IGF1|"
+    },
+    {
+        "source_abstract_id":285,
+        "subject":"RAd-IGF1",
+        "relation":"causes",
+        "object":"Reactive Gliosis",
+        "entity_variants":"RAd-IGF1|"
+    },
+    {
+        "source_abstract_id":285,
+        "subject":"RAd-IGF1",
+        "relation":"modulates",
+        "object":"Functional Outcome",
+        "entity_variants":"RAd-IGF1|"
+    },
+    {
+        "source_abstract_id":285,
+        "subject":"RAd-IGF1",
+        "relation":"prevents",
+        "object":"Vimentin-Positive Cells",
+        "entity_variants":"RAd-IGF1|"
+    },
+    {
+        "source_abstract_id":285,
+        "subject":"RAd-IGF1",
+        "relation":"does_not_affect",
+        "object":"Glial Scar Formation",
+        "entity_variants":"RAd-IGF1|"
+    },
+    {
+        "source_abstract_id":296,
+        "subject":"Insulin-Like Growth Factor 1",
+        "relation":"upregulates",
+        "object":"Cognitive Dysfunction",
+        "entity_variants":"Astrocytic IGF-1|"
+    },
+    {
+        "source_abstract_id":296,
+        "subject":"Plasma Insulin-Like Growth Factor 1",
+        "relation":"associated_with",
+        "object":"Cognition",
+        "entity_variants":"not applicable|"
+    }
+]

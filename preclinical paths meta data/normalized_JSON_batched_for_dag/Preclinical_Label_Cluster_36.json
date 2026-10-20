@@ -1,0 +1,289 @@
+[
+    {
+        "source_abstract_id":93,
+        "subject":"Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Parkinson Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":93,
+        "subject":"Moderate-Severe Traumatic Brain Injury",
+        "relation":"potentially_causes",
+        "object":"Neurodegenerative Outcomes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":140,
+        "subject":"Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Parkinson Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":169,
+        "subject":"Traumatic Brain Injury",
+        "relation":"triggers",
+        "object":"Progressive Histopathological Damage",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":316,
+        "subject":"Chronic Traumatic Encephalopathy",
+        "relation":"associated_with",
+        "object":"Neurodegenerative Pathology",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":328,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Parkinson Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":1,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Neuropathologic Changes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":2,
+        "subject":"Traumatic Brain Injury",
+        "relation":"triggers",
+        "object":"Neurodegeneration",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":21,
+        "subject":"Traumatic Brain Injury",
+        "relation":"triggers",
+        "object":"Neurodegenerative Process",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":42,
+        "subject":"Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Neurodegeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":52,
+        "subject":"Traumatic Brain Injury",
+        "relation":"triggers",
+        "object":"Neurodegeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":61,
+        "subject":"Traumatic Brain Injury",
+        "relation":"induces",
+        "object":"Progressive Brain Atrophy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":65,
+        "subject":"Neurodegeneration",
+        "relation":"associated_with",
+        "object":"Traumatic Brain Injury",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":83,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Neurodegeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":104,
+        "subject":"Traumatic Brain Injury",
+        "relation":"triggers",
+        "object":"Neurodegeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":141,
+        "subject":"Traumatic Brain Injury",
+        "relation":"influences",
+        "object":"Long-Term Neuropathologic Changes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":156,
+        "subject":"Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Neurodegeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":172,
+        "subject":"Traumatic Brain Injury",
+        "relation":"induces",
+        "object":"Neurodegeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":175,
+        "subject":"Traumatic Brain Injury",
+        "relation":"triggers",
+        "object":"Neurodegeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":177,
+        "subject":"Traumatic Brain Injury",
+        "relation":"triggers",
+        "object":"Neurodegeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":184,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Neuropathologic Changes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":186,
+        "subject":"Traumatic Brain Injury",
+        "relation":"induces",
+        "object":"Neurodegenerative Changes",
+        "entity_variants":"not specified"
+    },
+    {
+        "source_abstract_id":192,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Neurodegeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":225,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Neurodegeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":237,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Neurodegeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":258,
+        "subject":"Traumatic Brain Injury",
+        "relation":"triggers",
+        "object":"Increased Risk of Neurodegenerative Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":261,
+        "subject":"Traumatic Brain Injury",
+        "relation":"triggers",
+        "object":"Neurodegeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":271,
+        "subject":"Traumatic Brain Injury",
+        "relation":"induces",
+        "object":"Neurodegeneration",
+        "entity_variants":"TBI variant"
+    },
+    {
+        "source_abstract_id":273,
+        "subject":"Traumatic Brain Injury",
+        "relation":"induces",
+        "object":"Neurotoxicity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":283,
+        "subject":"Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Neurodegenerative Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":298,
+        "subject":"Traumatic Brain Injury",
+        "relation":"results_in",
+        "object":"Neurodegeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":301,
+        "subject":"Traumatic Brain Injury",
+        "relation":"triggers",
+        "object":"Neurodegenerative Pathology",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":313,
+        "subject":"Traumatic Brain Injury",
+        "relation":"increases",
+        "object":"Susceptibility to Neurodegenerative Disorders",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":325,
+        "subject":"Traumatic Brain Injury",
+        "relation":"triggers",
+        "object":"Neurodegeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":328,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Neurodegeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":335,
+        "subject":"Traumatic Brain Injury",
+        "relation":"triggers",
+        "object":"Neurodegeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":342,
+        "subject":"Traumatic Brain Injury",
+        "relation":"induces",
+        "object":"Neurodegeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":359,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Secondary Neurodegeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":363,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Neuropathologic Changes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":373,
+        "subject":"Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Neurodegenerative Disorders",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":388,
+        "subject":"Traumatic Brain Injury",
+        "relation":"triggers",
+        "object":"Neurodegeneration",
+        "entity_variants":null
+    }
+]

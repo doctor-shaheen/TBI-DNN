@@ -1,0 +1,348 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 14,
+    "edge_count": 18
+  },
+  "nodes": [
+    {
+      "id": "FGFR3",
+      "label": "FGFR3",
+      "type": "Gene",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "HGNC_ID": "HGNC:3690",
+        "UMLS_CUI": "C0016186",
+        "UniProt_ID": "P22607"
+      },
+      "synonyms": [
+        "Fibroblast growth factor receptor 3",
+        "CD333"
+      ]
+    },
+    {
+      "id": "HeadBanging",
+      "label": "Head Banging",
+      "type": "Phenotype",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0018666"
+      },
+      "synonyms": [
+        "Repetitive head banging"
+      ]
+    },
+    {
+      "id": "Polymicrogyria",
+      "label": "Polymicrogyria",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0431379"
+      },
+      "synonyms": [
+        "Bilateral Peri-Sylvian Polymicrogyria"
+      ]
+    },
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "Traumatic Brain Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111"
+      },
+      "synonyms": [
+        "Head Injury",
+        "Brain Injury",
+        "Concussion",
+        "Multiple Head Injuries"
+      ]
+    },
+    {
+      "id": "HeadImpact",
+      "label": "Head Impact",
+      "type": "Process",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "UMLS_CUI": "C5441864"
+      },
+      "synonyms": [
+        "Helmet-to-Helmet Impact",
+        "Helmeted Head Impact",
+        "Occipital Head Impact",
+        "Head Acceleration"
+      ]
+    },
+    {
+      "id": "Cognition",
+      "label": "Cognition",
+      "type": "Physiologic Function",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0009241"
+      },
+      "synonyms": [
+        "Cognitive Performance",
+        "Neurocognitive Performance",
+        "Cognitive Function"
+      ]
+    },
+    {
+      "id": "PosturalBalance",
+      "label": "Postural Balance",
+      "type": "Physiologic Function",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0032816"
+      },
+      "synonyms": [
+        "Balance Measures",
+        "Body Sway"
+      ]
+    },
+    {
+      "id": "PracticeRestriction",
+      "label": "Sports Practice Restriction",
+      "type": "Health Care Activity",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0037593"
+      },
+      "synonyms": [
+        "Full contact practice restriction"
+      ]
+    },
+    {
+      "id": "Calvaria",
+      "label": "Calvaria",
+      "type": "Body Part",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0036277"
+      },
+      "synonyms": [
+        "Calvarium",
+        "Skull"
+      ]
+    },
+    {
+      "id": "Age",
+      "label": "Age",
+      "type": "Organism Attribute",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0001779"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "CerebralPalsy",
+      "label": "Cerebral Palsy",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0007789"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "ContactSports",
+      "label": "Contact Sports",
+      "type": "Social Behavior",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0525007"
+      },
+      "synonyms": [
+        "Rugby",
+        "Lacrosse",
+        "Men's Lacrosse",
+        "Rugby Union"
+      ]
+    },
+    {
+      "id": "EvokedPotentials",
+      "label": "Evoked Potentials",
+      "type": "Diagnostic Procedure",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0015225"
+      },
+      "synonyms": [
+        "P200",
+        "P3b",
+        "Middle Latency Auditory Evoked Potential"
+      ]
+    },
+    {
+      "id": "ProtectiveDevices",
+      "label": "Protective Devices",
+      "type": "Medical Device",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0033604"
+      },
+      "synonyms": [
+        "Headgear",
+        "Helmet"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "FGFR3",
+      "target": "HeadBanging",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        22
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Mutation associated with behavior"
+    },
+    {
+      "source": "Polymicrogyria",
+      "target": "TraumaticBrainInjury",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        22
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Association with multiple head injuries"
+    },
+    {
+      "source": "HeadImpact",
+      "target": "TraumaticBrainInjury",
+      "mechanism": "causes",
+      "evidence_ref": [
+        155
+      ],
+      "confidence": "High",
+      "metadata": "Context: Helmet-to-helmet and Occipital impacts leading to injury"
+    },
+    {
+      "source": "HeadImpact",
+      "target": "Cognition",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        93,
+        231,
+        617
+      ],
+      "confidence": "Low",
+      "metadata": "Conflict: Refs 93 and 617 find no direct causal link; Ref 231 finds effect"
+    },
+    {
+      "source": "Cognition",
+      "target": "PosturalBalance",
+      "mechanism": "associates_with",
+      "evidence_ref": [
+        231
+      ],
+      "confidence": "Medium",
+      "metadata": "Correlation between cognitive performance and balance measures"
+    },
+    {
+      "source": "PracticeRestriction",
+      "target": "HeadImpact",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        272
+      ],
+      "confidence": "High",
+      "metadata": "Reduces frequency/exposure in linemen, receivers, D-players, RBs, LBs"
+    },
+    {
+      "source": "Age",
+      "target": "Calvaria",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        504
+      ],
+      "confidence": "Medium",
+      "metadata": "Affects heterogeneity"
+    },
+    {
+      "source": "HeadImpact",
+      "target": "PosturalBalance",
+      "mechanism": "disrupts",
+      "evidence_ref": [
+        231
+      ],
+      "confidence": "Medium",
+      "metadata": "Affects body sway"
+    },
+    {
+      "source": "ContactSports",
+      "target": "HeadImpact",
+      "mechanism": "causes",
+      "evidence_ref": [
+        16,
+        117
+      ],
+      "confidence": "High",
+      "metadata": "Higher acceleration in Lacrosse; Rugby exposure"
+    },
+    {
+      "source": "CerebralPalsy",
+      "target": "HeadBanging",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        22
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "HeadImpact",
+      "target": "HeadImpact",
+      "mechanism": "positively_regulates",
+      "evidence_ref": [
+        117
+      ],
+      "confidence": "Medium",
+      "metadata": "Quantity drives subsequent impact burden; Game vs Practice frequency"
+    },
+    {
+      "source": "ProtectiveDevices",
+      "target": "HeadImpact",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        117
+      ],
+      "confidence": "Medium",
+      "metadata": "Headgear regulations may affect burden"
+    },
+    {
+      "source": "HeadImpact",
+      "target": "Calvaria",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        504
+      ],
+      "confidence": "Medium",
+      "metadata": "Past impacts contribute to heterogeneity"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "EvokedPotentials",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        484
+      ],
+      "confidence": "Medium",
+      "metadata": "Decreases P200 and Middle Latency amplitudes; No link to P3b"
+    },
+    {
+      "source": "PracticeRestriction",
+      "target": "HeadImpact",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        272
+      ],
+      "confidence": "Medium",
+      "metadata": "Does not affect impact magnitude"
+    }
+  ]
+}

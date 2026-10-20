@@ -1,0 +1,1305 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 48,
+    "edge_count": 65
+  },
+  "nodes": [
+    {
+      "id": "MAPT",
+      "label": "MAPT",
+      "type": "Protein",
+      "location": "Neuron",
+      "identifiers": {
+        "UMLS_CUI": "C0039392",
+        "HGNC_ID": "HGNC:6893",
+        "UniProt_ID": "P10636"
+      },
+      "synonyms": [
+        "Tau Protein",
+        "Microtubule-associated protein tau",
+        "Phosphorylated Tau",
+        "Hyperphosphorylated Tau",
+        "Neurofibrillary Tangles",
+        "Acetylated Tau",
+        "Cis pT231 Tau",
+        "Tau Oligomers",
+        "Paired Helical Filaments"
+      ]
+    },
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "Traumatic Brain Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111"
+      },
+      "synonyms": [
+        "TBI",
+        "Mild Traumatic Brain Injury",
+        "Repetitive Head Trauma",
+        "Blast Injury",
+        "Concussion",
+        "Chronic Traumatic Encephalopathy",
+        "Impact Injury"
+      ]
+    },
+    {
+      "id": "Neurodegeneration",
+      "label": "Neurodegeneration",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027819",
+        "GO_ID": "GO:0001352"
+      },
+      "synonyms": [
+        "Neurodegenerative Process",
+        "Neuronal Death",
+        "Cell Loss",
+        "Brain Atrophy"
+      ]
+    },
+    {
+      "id": "CognitiveImpairment",
+      "label": "Cognitive Impairment",
+      "type": "Symptom",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0338656"
+      },
+      "synonyms": [
+        "Cognitive Decline",
+        "Memory Deficits",
+        "Memory Impairment",
+        "Behavioral Changes",
+        "Neurobehavioral Deficits",
+        "Brain Dysfunction"
+      ]
+    },
+    {
+      "id": "Tauopathy",
+      "label": "Tauopathy",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C1864306"
+      },
+      "synonyms": [
+        "Tauopathies",
+        "Neurodegenerative Tauopathies",
+        "Tau Pathology"
+      ]
+    },
+    {
+      "id": "Neuroinflammation",
+      "label": "Neuroinflammation",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0020306",
+        "GO_ID": "GO:0150076"
+      },
+      "synonyms": [
+        "Inflammation",
+        "Glial Activation",
+        "Gliosis",
+        "Microglial Reactivity"
+      ]
+    },
+    {
+      "id": "AntiAcTauK174",
+      "label": "Anti-ac-tauK174 Antibody",
+      "type": "Drug",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "UMLS_CUI": "CN2023001"
+      },
+      "synonyms": [
+        "Anti-ac-tauK174",
+        "Tau Immunotherapy"
+      ]
+    },
+    {
+      "id": "CellularSenescence",
+      "label": "Cellular Senescence",
+      "type": "Process",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "UMLS_CUI": "C0007588",
+        "GO_ID": "GO:0090398"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "APP",
+      "label": "APP",
+      "type": "Protein",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "UMLS_CUI": "C0002778",
+        "HGNC_ID": "HGNC:620"
+      },
+      "synonyms": [
+        "Amyloid Precursor Protein",
+        "Amyloid beta",
+        "Abeta",
+        "Amyloid beta-Protein"
+      ]
+    },
+    {
+      "id": "PPP2CA",
+      "label": "PPP2CA",
+      "type": "Protein",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "UMLS_CUI": "C1418833",
+        "HGNC_ID": "HGNC:9299"
+      },
+      "synonyms": [
+        "Protein Phosphatase 2A",
+        "PP2A",
+        "PR55"
+      ]
+    },
+    {
+      "id": "GSK3B",
+      "label": "GSK3B",
+      "type": "Protein",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "UMLS_CUI": "C1415254",
+        "HGNC_ID": "HGNC:4617"
+      },
+      "synonyms": [
+        "Glycogen Synthase Kinase 3 Beta"
+      ]
+    },
+    {
+      "id": "DAPK1",
+      "label": "DAPK1",
+      "type": "Protein",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "UMLS_CUI": "C1413936",
+        "HGNC_ID": "HGNC:2674"
+      },
+      "synonyms": [
+        "Death-associated Protein Kinase 1"
+      ]
+    },
+    {
+      "id": "PIN1",
+      "label": "PIN1",
+      "type": "Protein",
+      "location": "Nucleus",
+      "identifiers": {
+        "UMLS_CUI": "C1418659",
+        "HGNC_ID": "HGNC:8974"
+      },
+      "synonyms": [
+        "Peptidyl-prolyl cis-trans isomerase NIMA-interacting 1"
+      ]
+    },
+    {
+      "id": "FYN",
+      "label": "FYN",
+      "type": "Protein",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "UMLS_CUI": "C0018447",
+        "HGNC_ID": "HGNC:4037"
+      },
+      "synonyms": [
+        "Fyn Kinase"
+      ]
+    },
+    {
+      "id": "LGMN",
+      "label": "LGMN",
+      "type": "Protein",
+      "location": "Lysosome",
+      "identifiers": {
+        "UMLS_CUI": "C1416629",
+        "HGNC_ID": "HGNC:6556"
+      },
+      "synonyms": [
+        "Asparaginyl Endopeptidase",
+        "AEP",
+        "Legumain"
+      ]
+    },
+    {
+      "id": "SYNJ1",
+      "label": "SYNJ1",
+      "type": "Protein",
+      "location": "Synapse",
+      "identifiers": {
+        "UMLS_CUI": "C1420366",
+        "HGNC_ID": "HGNC:11504"
+      },
+      "synonyms": [
+        "Synaptojanin 1"
+      ]
+    },
+    {
+      "id": "PRNP",
+      "label": "PRNP",
+      "type": "Protein",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "UMLS_CUI": "C0033108",
+        "HGNC_ID": "HGNC:9449"
+      },
+      "synonyms": [
+        "Prion Protein",
+        "Cellular Prion Protein",
+        "PrP"
+      ]
+    },
+    {
+      "id": "SodiumSelenate",
+      "label": "Sodium Selenate",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0074697",
+        "ChEBI": "CHEBI:132107"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Cannabidiol",
+      "label": "Cannabidiol",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0006868",
+        "ChEBI": "CHEBI:69478"
+      },
+      "synonyms": [
+        "CBD"
+      ]
+    },
+    {
+      "id": "LithiumChloride",
+      "label": "Lithium Chloride",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0023880",
+        "ChEBI": "CHEBI:31792"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Rosiglitazone",
+      "label": "Rosiglitazone",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0771146",
+        "ChEBI": "CHEBI:8899"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Temsirolimus",
+      "label": "Temsirolimus",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0994969",
+        "ChEBI": "CHEBI:63567"
+      },
+      "synonyms": [
+        "CCI-779"
+      ]
+    },
+    {
+      "id": "Nilvadipine",
+      "label": "Nilvadipine",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0068472",
+        "ChEBI": "CHEBI:7563"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "OxidativeStress",
+      "label": "Oxidative Stress",
+      "type": "Process",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "UMLS_CUI": "C0029913",
+        "GO_ID": "GO:0006979"
+      },
+      "synonyms": [
+        "Reactive Oxygen Species"
+      ]
+    },
+    {
+      "id": "NOS3",
+      "label": "NOS3",
+      "type": "Protein",
+      "location": "Endothelium",
+      "identifiers": {
+        "UMLS_CUI": "C1417578",
+        "HGNC_ID": "HGNC:7876"
+      },
+      "synonyms": [
+        "Endothelial Nitric Oxide Synthase",
+        "eNOS"
+      ]
+    },
+    {
+      "id": "NOS2",
+      "label": "NOS2",
+      "type": "Protein",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "UMLS_CUI": "C1417577",
+        "HGNC_ID": "HGNC:7873"
+      },
+      "synonyms": [
+        "Inducible Nitric Oxide Synthase",
+        "iNOS"
+      ]
+    },
+    {
+      "id": "TAC1",
+      "label": "TAC1",
+      "type": "Protein",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "UMLS_CUI": "C0039322",
+        "HGNC_ID": "HGNC:11516"
+      },
+      "synonyms": [
+        "Substance P",
+        "Protachykinin-1"
+      ]
+    },
+    {
+      "id": "ADORA2A",
+      "label": "ADORA2A",
+      "type": "Protein",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "UMLS_CUI": "C1412035",
+        "HGNC_ID": "HGNC:263"
+      },
+      "synonyms": [
+        "Adenosine A2A Receptor"
+      ]
+    },
+    {
+      "id": "PAFAH1B1",
+      "label": "PAFAH1B1",
+      "type": "Protein",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "UMLS_CUI": "C1418464",
+        "HGNC_ID": "HGNC:8593"
+      },
+      "synonyms": [
+        "Lissencephaly-1",
+        "LIS1"
+      ]
+    },
+    {
+      "id": "Microglia",
+      "label": "Microglia",
+      "type": "Cell",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0026003"
+      },
+      "synonyms": [
+        "Microglia/Macrophages"
+      ]
+    },
+    {
+      "id": "Astrocyte",
+      "label": "Astrocyte",
+      "type": "Cell",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0004115"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "MuralCell",
+      "label": "Mural Cell",
+      "type": "Cell",
+      "location": "Blood_Vessel",
+      "identifiers": {
+        "UMLS_CUI": "C1709121"
+      },
+      "synonyms": [
+        "Pericyte",
+        "Vascular Smooth Muscle Cell"
+      ]
+    },
+    {
+      "id": "GlymphaticSystem",
+      "label": "Glymphatic System",
+      "type": "Anatomy",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C4073121"
+      },
+      "synonyms": [
+        "Glymphatic Drainage"
+      ]
+    },
+    {
+      "id": "Exosome",
+      "label": "Exosome",
+      "type": "Component",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "UMLS_CUI": "C1517172",
+        "GO_ID": "GO:0070062"
+      },
+      "synonyms": [
+        "Extracellular Vesicles"
+      ]
+    },
+    {
+      "id": "Pyruvate",
+      "label": "Pyruvate",
+      "type": "Chemical",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "UMLS_CUI": "C0034263",
+        "ChEBI": "CHEBI:15361"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "GlutamicAcid",
+      "label": "Glutamic Acid",
+      "type": "Chemical",
+      "location": "Synapse",
+      "identifiers": {
+        "UMLS_CUI": "C0017725",
+        "ChEBI": "CHEBI:18237"
+      },
+      "synonyms": [
+        "Glutamate"
+      ]
+    },
+    {
+      "id": "OkadaicAcid",
+      "label": "Okadaic Acid",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0028913",
+        "ChEBI": "CHEBI:17688"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "CircularTauAptamer",
+      "label": "Circular Tau Aptamer",
+      "type": "Drug",
+      "location": "Blood",
+      "identifiers": {
+        "UMLS_CUI": "CN_APTAMER_001"
+      },
+      "synonyms": [
+        "Circular Tau Transferrin Receptor Aptamer"
+      ]
+    },
+    {
+      "id": "AxonalInjury",
+      "label": "Axonal Injury",
+      "type": "Pathology",
+      "location": "Neuron",
+      "identifiers": {
+        "UMLS_CUI": "C0151474"
+      },
+      "synonyms": [
+        "Axonopathy"
+      ]
+    },
+    {
+      "id": "SynapticLoss",
+      "label": "Synaptic Loss",
+      "type": "Pathology",
+      "location": "Synapse",
+      "identifiers": {
+        "UMLS_CUI": "C0234559"
+      },
+      "synonyms": [
+        "Reduced Synapse Density"
+      ]
+    },
+    {
+      "id": "H89",
+      "label": "H89",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "ChEBI": "CHEBI:3547"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "ZM241385",
+      "label": "ZM241385",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "ChEBI": "CHEBI:47447"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "CGS21680",
+      "label": "CGS21680",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "ChEBI": "CHEBI:31393"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "SB216763",
+      "label": "SB216763",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "ChEBI": "CHEBI:45598"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "CisTauAntibody",
+      "label": "Cis Tau Antibody",
+      "type": "Drug",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "CN_CISTAUAB"
+      },
+      "synonyms": [
+        "Cis Antibody"
+      ]
+    },
+    {
+      "id": "NeutralizingAntibody",
+      "label": "Neutralizing Antibody",
+      "type": "Drug",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0003248"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "TACR1",
+      "label": "TACR1",
+      "type": "Protein",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "UMLS_CUI": "C0074218",
+        "HGNC_ID": "HGNC:11520"
+      },
+      "synonyms": [
+        "NK1 Receptor"
+      ]
+    },
+    {
+      "id": "AlzheimerDisease",
+      "label": "Alzheimer Disease",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0002395"
+      },
+      "synonyms": [
+        "Alzheimer's",
+        "AD"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "MAPT",
+      "mechanism": "causes",
+      "evidence_ref": [
+        12,
+        16,
+        25,
+        28,
+        35,
+        42,
+        58,
+        59,
+        60,
+        62,
+        79,
+        82,
+        97,
+        100,
+        102,
+        111,
+        114,
+        117,
+        121,
+        127,
+        128,
+        131,
+        132,
+        154,
+        232,
+        245,
+        283,
+        300,
+        322,
+        334,
+        346
+      ],
+      "confidence": "High",
+      "metadata": "Context: Hyperphosphorylation, Aggregation, Acetylation, Oligomerization. Severity: Mild to Severe."
+    },
+    {
+      "source": "MAPT",
+      "target": "Neurodegeneration",
+      "mechanism": "causes",
+      "evidence_ref": [
+        0,
+        12,
+        14,
+        15,
+        65,
+        85,
+        88,
+        322
+      ],
+      "confidence": "High",
+      "metadata": "Context: Hyperphosphorylated, Aggregated (Tangles), Cis-conformation"
+    },
+    {
+      "source": "MAPT",
+      "target": "CognitiveImpairment",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        0,
+        14,
+        22,
+        31,
+        35,
+        57,
+        60,
+        85,
+        88,
+        100,
+        131,
+        171,
+        232,
+        245,
+        300,
+        334,
+        358
+      ],
+      "confidence": "High",
+      "metadata": "Context: Synaptic failure, Memory deficits, Behavioral changes"
+    },
+    {
+      "source": "MAPT",
+      "target": "Neuroinflammation",
+      "mechanism": "causes",
+      "evidence_ref": [
+        17,
+        44,
+        45,
+        358
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Microglial activation"
+    },
+    {
+      "source": "MAPT",
+      "target": "Tauopathy",
+      "mechanism": "aggregates_to",
+      "evidence_ref": [
+        16,
+        62,
+        85,
+        132
+      ],
+      "confidence": "High",
+      "metadata": "Pathological hallmark"
+    },
+    {
+      "source": "MAPT",
+      "target": "CellularSenescence",
+      "mechanism": "binds",
+      "evidence_ref": [
+        0
+      ],
+      "confidence": "Low",
+      "metadata": "Context: Interaction with senescence pathways"
+    },
+    {
+      "source": "AntiAcTauK174",
+      "target": "MAPT",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        12
+      ],
+      "confidence": "Medium",
+      "metadata": "Target: Acetylated Tau (K174)"
+    },
+    {
+      "source": "AntiAcTauK174",
+      "target": "CognitiveImpairment",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        12
+      ],
+      "confidence": "Medium",
+      "metadata": "Effect: Preserves memory, restores behavior"
+    },
+    {
+      "source": "AntiAcTauK174",
+      "target": "Neurodegeneration",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        12
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: TBI-induced"
+    },
+    {
+      "source": "AntiAcTauK174",
+      "target": "Microglia",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        12
+      ],
+      "confidence": "Medium",
+      "metadata": "Restores transcriptomic state"
+    },
+    {
+      "source": "PPP2CA",
+      "target": "MAPT",
+      "mechanism": "dephosphorylates",
+      "evidence_ref": [
+        58,
+        114
+      ],
+      "confidence": "High",
+      "metadata": "Regulatory subunit B55 involved"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "PPP2CA",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        58,
+        114
+      ],
+      "confidence": "Medium",
+      "metadata": "Reduces activity/expression"
+    },
+    {
+      "source": "SodiumSelenate",
+      "target": "PPP2CA",
+      "mechanism": "activates",
+      "evidence_ref": [
+        58,
+        114
+      ],
+      "confidence": "Medium",
+      "metadata": "Mechanism: Enhances PP2A activity"
+    },
+    {
+      "source": "SodiumSelenate",
+      "target": "MAPT",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        58,
+        114
+      ],
+      "confidence": "Medium",
+      "metadata": "Reduces phosphorylation"
+    },
+    {
+      "source": "SodiumSelenate",
+      "target": "CognitiveImpairment",
+      "mechanism": "treats",
+      "evidence_ref": [
+        58,
+        114
+      ],
+      "confidence": "Medium",
+      "metadata": "Improves behavioral outcomes"
+    },
+    {
+      "source": "OxidativeStress",
+      "target": "MAPT",
+      "mechanism": "activates",
+      "evidence_ref": [
+        53
+      ],
+      "confidence": "Medium",
+      "metadata": "Promotes phosphorylation"
+    },
+    {
+      "source": "NOS3",
+      "target": "MAPT",
+      "mechanism": "activates",
+      "evidence_ref": [
+        53
+      ],
+      "confidence": "Low",
+      "metadata": "Uncoupled eNOS enhances p-Tau"
+    },
+    {
+      "source": "DAPK1",
+      "target": "MAPT",
+      "mechanism": "phosphorylates",
+      "evidence_ref": [
+        65,
+        88
+      ],
+      "confidence": "Medium",
+      "metadata": "Specifically promotes Cis p-Tau"
+    },
+    {
+      "source": "DAPK1",
+      "target": "PIN1",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        65,
+        88
+      ],
+      "confidence": "Medium",
+      "metadata": "Phosphorylation at Ser71"
+    },
+    {
+      "source": "PIN1",
+      "target": "MAPT",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        65,
+        88
+      ],
+      "confidence": "High",
+      "metadata": "Regulates Cis/Trans conformation; loss leads to Cis accumulation"
+    },
+    {
+      "source": "LGMN",
+      "target": "MAPT",
+      "mechanism": "cleaves",
+      "evidence_ref": [
+        82
+      ],
+      "confidence": "Medium",
+      "metadata": "Upregulates hyperphosphorylation"
+    },
+    {
+      "source": "FYN",
+      "target": "MAPT",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        85
+      ],
+      "confidence": "Low",
+      "metadata": "Reduces p-Tau (Reference 85)"
+    },
+    {
+      "source": "FYN",
+      "target": "CognitiveImpairment",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        85
+      ],
+      "confidence": "Low",
+      "metadata": "Improves memory"
+    },
+    {
+      "source": "PRNP",
+      "target": "MAPT",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        100
+      ],
+      "confidence": "Medium",
+      "metadata": "Influences total and p-Tau levels"
+    },
+    {
+      "source": "TAC1",
+      "target": "MAPT",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        154
+      ],
+      "confidence": "Medium",
+      "metadata": "Substance P mediates phosphorylation"
+    },
+    {
+      "source": "APP",
+      "target": "MAPT",
+      "mechanism": "binds",
+      "evidence_ref": [
+        14,
+        31,
+        121,
+        334
+      ],
+      "confidence": "High",
+      "metadata": "Co-aggregation/Interaction"
+    },
+    {
+      "source": "GSK3B",
+      "target": "MAPT",
+      "mechanism": "phosphorylates",
+      "evidence_ref": [
+        220,
+        331
+      ],
+      "confidence": "High",
+      "metadata": "Major Tau kinase"
+    },
+    {
+      "source": "SYNJ1",
+      "target": "GSK3B",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        220
+      ],
+      "confidence": "Medium",
+      "metadata": "Prevents Tau phosphorylation"
+    },
+    {
+      "source": "SYNJ1",
+      "target": "MAPT",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        220
+      ],
+      "confidence": "Medium",
+      "metadata": "Reduces p-Tau"
+    },
+    {
+      "source": "ADORA2A",
+      "target": "MAPT",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        232
+      ],
+      "confidence": "Medium",
+      "metadata": "Receptor activation causes hyperphosphorylation"
+    },
+    {
+      "source": "CGS21680",
+      "target": "MAPT",
+      "mechanism": "activates",
+      "evidence_ref": [
+        232
+      ],
+      "confidence": "Medium",
+      "metadata": "A2A agonist exacerbates phosphorylation"
+    },
+    {
+      "source": "ZM241385",
+      "target": "MAPT",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        232
+      ],
+      "confidence": "Medium",
+      "metadata": "A2A antagonist treats phosphorylation"
+    },
+    {
+      "source": "MuralCell",
+      "target": "MAPT",
+      "mechanism": "transports",
+      "evidence_ref": [
+        35
+      ],
+      "confidence": "Medium",
+      "metadata": "Dysfunction reduces uptake"
+    },
+    {
+      "source": "GlymphaticSystem",
+      "target": "MAPT",
+      "mechanism": "transports",
+      "evidence_ref": [
+        336
+      ],
+      "confidence": "Medium",
+      "metadata": "Clearance; dysfunction leads to deposition"
+    },
+    {
+      "source": "Exosome",
+      "target": "MAPT",
+      "mechanism": "transports",
+      "evidence_ref": [
+        57
+      ],
+      "confidence": "Medium",
+      "metadata": "Spreads pathology; exacerbates cognitive deficits"
+    },
+    {
+      "source": "Cannabidiol",
+      "target": "MAPT",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        6
+      ],
+      "confidence": "Medium",
+      "metadata": "Reduces p-Tau"
+    },
+    {
+      "source": "Temsirolimus",
+      "target": "MAPT",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        78
+      ],
+      "confidence": "Medium",
+      "metadata": "Decreases insoluble Tau"
+    },
+    {
+      "source": "Nilvadipine",
+      "target": "MAPT",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        319
+      ],
+      "confidence": "Medium",
+      "metadata": "Reduces hyperphosphorylation"
+    },
+    {
+      "source": "Pyruvate",
+      "target": "MAPT",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        313
+      ],
+      "confidence": "Low",
+      "metadata": "Increases Tau protein"
+    },
+    {
+      "source": "LithiumChloride",
+      "target": "MAPT",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        300
+      ],
+      "confidence": "Medium",
+      "metadata": "Combination with Rosiglitazone reduces p-Tau"
+    },
+    {
+      "source": "Rosiglitazone",
+      "target": "MAPT",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        300
+      ],
+      "confidence": "Medium",
+      "metadata": "Combination with Lithium reduces p-Tau"
+    },
+    {
+      "source": "OkadaicAcid",
+      "target": "MAPT",
+      "mechanism": "activates",
+      "evidence_ref": [
+        232
+      ],
+      "confidence": "High",
+      "metadata": "PP2A inhibitor causes hyperphosphorylation"
+    },
+    {
+      "source": "PAFAH1B1",
+      "target": "MAPT",
+      "mechanism": "binds",
+      "evidence_ref": [
+        263
+      ],
+      "confidence": "Medium",
+      "metadata": "Interacts with Tau"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Tauopathy",
+      "mechanism": "causes",
+      "evidence_ref": [
+        81,
+        85,
+        132,
+        137,
+        346,
+        385
+      ],
+      "confidence": "High",
+      "metadata": "Includes CTE, Post-traumatic tauopathy"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Neuroinflammation",
+      "mechanism": "causes",
+      "evidence_ref": [
+        17
+      ],
+      "confidence": "High",
+      "metadata": "Precedes Tau pathology"
+    },
+    {
+      "source": "MAPT",
+      "target": "AxonalInjury",
+      "mechanism": "causes",
+      "evidence_ref": [
+        88,
+        121,
+        310
+      ],
+      "confidence": "Medium",
+      "metadata": "Cis p-Tau induces axonopathy"
+    },
+    {
+      "source": "CircularTauAptamer",
+      "target": "Tauopathy",
+      "mechanism": "treats",
+      "evidence_ref": [
+        171
+      ],
+      "confidence": "Low",
+      "metadata": "Enhances BBB penetration"
+    },
+    {
+      "source": "CisTauAntibody",
+      "target": "MAPT",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        310
+      ],
+      "confidence": "Medium",
+      "metadata": "Targets Cis p-Tau"
+    },
+    {
+      "source": "MAPT",
+      "target": "SynapticLoss",
+      "mechanism": "causes",
+      "evidence_ref": [
+        59,
+        85
+      ],
+      "confidence": "High",
+      "metadata": "Mediates synaptic deficits"
+    },
+    {
+      "source": "GlutamicAcid",
+      "target": "MAPT",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        178
+      ],
+      "confidence": "Low",
+      "metadata": "Reduces MAP2, implies cytoskeletal disruption"
+    },
+    {
+      "source": "H89",
+      "target": "MAPT",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        232
+      ],
+      "confidence": "Low",
+      "metadata": "Treats hyperphosphorylation"
+    },
+    {
+      "source": "SB216763",
+      "target": "MAPT",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        232
+      ],
+      "confidence": "Low",
+      "metadata": "Treats hyperphosphorylation"
+    },
+    {
+      "source": "NeutralizingAntibody",
+      "target": "MAPT",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        310
+      ],
+      "confidence": "Medium",
+      "metadata": "Targets Cis p-Tau"
+    },
+    {
+      "source": "Microglia",
+      "target": "Tauopathy",
+      "mechanism": "mediates",
+      "evidence_ref": [
+        46
+      ],
+      "confidence": "Medium",
+      "metadata": "Microglial response drives pathology"
+    },
+    {
+      "source": "MAPT",
+      "target": "Microglia",
+      "mechanism": "binds",
+      "evidence_ref": [
+        46
+      ],
+      "confidence": "Medium",
+      "metadata": "Tau accumulation in microglia"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Exosome",
+      "mechanism": "activates",
+      "evidence_ref": [
+        57
+      ],
+      "confidence": "Medium",
+      "metadata": "Triggers Tau-containing exosomes"
+    },
+    {
+      "source": "MAPT",
+      "target": "AlzheimerDisease",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        31
+      ],
+      "confidence": "High",
+      "metadata": "Accumulation of AD-related variants"
+    },
+    {
+      "source": "MAPT",
+      "target": "Neurodegeneration",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        65
+      ],
+      "confidence": "High",
+      "metadata": "Cis p-Tau is a marker"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Neurodegeneration",
+      "mechanism": "causes",
+      "evidence_ref": [
+        12
+      ],
+      "confidence": "High",
+      "metadata": "TBI-induced"
+    }
+  ]
+}

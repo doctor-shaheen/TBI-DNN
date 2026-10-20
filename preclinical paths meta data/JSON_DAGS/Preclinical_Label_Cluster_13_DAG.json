@@ -1,0 +1,646 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 25,
+    "edge_count": 27
+  },
+  "nodes": [
+    {
+      "id": "MIR124-3",
+      "label": "MIR124-3",
+      "type": "Gene",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "UMLS_CUI": "C3539750",
+        "HGNC_ID": "HGNC:31505",
+        "UniProt_ID": null
+      },
+      "synonyms": [
+        "MicroRNA-124-3p",
+        "hsa-miR-124-3p",
+        "miR-124"
+      ]
+    },
+    {
+      "id": "MIR144",
+      "label": "MIR144",
+      "type": "Gene",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "UMLS_CUI": "C1536640",
+        "HGNC_ID": "HGNC:31532",
+        "UniProt_ID": null
+      },
+      "synonyms": [
+        "MicroRNA-144",
+        "hsa-miR-144"
+      ]
+    },
+    {
+      "id": "RELA",
+      "label": "RELA",
+      "type": "Gene",
+      "location": "Nucleus",
+      "identifiers": {
+        "UMLS_CUI": "C1419336",
+        "HGNC_ID": "HGNC:9955",
+        "UniProt_ID": "Q04206"
+      },
+      "synonyms": [
+        "RELA Proto-Oncogene",
+        "Nuclear Factor NF-kappa-B p65 Subunit"
+      ]
+    },
+    {
+      "id": "PDE4B",
+      "label": "PDE4B",
+      "type": "Gene",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "UMLS_CUI": "C1418579",
+        "HGNC_ID": "HGNC:8781",
+        "UniProt_ID": "Q07343"
+      },
+      "synonyms": [
+        "Phosphodiesterase 4B"
+      ]
+    },
+    {
+      "id": "RHOA",
+      "label": "RHOA",
+      "type": "Gene",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "UMLS_CUI": "C1419488",
+        "HGNC_ID": "HGNC:667",
+        "UniProt_ID": "P61586"
+      },
+      "synonyms": [
+        "RhoA GTPase",
+        "Ras homolog family member A"
+      ]
+    },
+    {
+      "id": "ADAM10",
+      "label": "ADAM10",
+      "type": "Gene",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "UMLS_CUI": "C1412353",
+        "HGNC_ID": "HGNC:191",
+        "UniProt_ID": "O14672"
+      },
+      "synonyms": [
+        "A Disintegrin and Metalloproteinase Domain-Containing Protein 10"
+      ]
+    },
+    {
+      "id": "APP",
+      "label": "APP",
+      "type": "Gene",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "UMLS_CUI": "C1412526",
+        "HGNC_ID": "HGNC:620",
+        "UniProt_ID": "P05067"
+      },
+      "synonyms": [
+        "Amyloid Beta Precursor Protein",
+        "Amyloid Beta Peptide",
+        "Abeta42"
+      ]
+    },
+    {
+      "id": "MAPT",
+      "label": "MAPT",
+      "type": "Gene",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0039392",
+        "HGNC_ID": "HGNC:6893",
+        "UniProt_ID": "P10636"
+      },
+      "synonyms": [
+        "Microtubule Associated Protein Tau",
+        "Phosphorylated Tau",
+        "Total Tau"
+      ]
+    },
+    {
+      "id": "LDHA",
+      "label": "LDHA",
+      "type": "Gene",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "UMLS_CUI": "C1416629",
+        "HGNC_ID": "HGNC:6535",
+        "UniProt_ID": "P00338"
+      },
+      "synonyms": [
+        "Lactate Dehydrogenase A",
+        "LDH"
+      ]
+    },
+    {
+      "id": "CASP3",
+      "label": "CASP3",
+      "type": "Gene",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "UMLS_CUI": "C1413180",
+        "HGNC_ID": "HGNC:1504",
+        "UniProt_ID": "P42574"
+      },
+      "synonyms": [
+        "Caspase 3"
+      ]
+    },
+    {
+      "id": "MAPK1",
+      "label": "MAPK1",
+      "type": "Gene",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "UMLS_CUI": "C1416867",
+        "HGNC_ID": "HGNC:6871",
+        "UniProt_ID": "P28482"
+      },
+      "synonyms": [
+        "Mitogen-Activated Protein Kinase 1",
+        "ERK2",
+        "MAPK Activation"
+      ]
+    },
+    {
+      "id": "Exenatide",
+      "label": "Exenatide",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C1136780",
+        "HGNC_ID": null,
+        "UniProt_ID": null
+      },
+      "synonyms": [
+        "Exendin-4"
+      ]
+    },
+    {
+      "id": "Exosomes",
+      "label": "Exosomes",
+      "type": "CellularComponent",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "UMLS_CUI": "C3537153",
+        "HGNC_ID": null,
+        "UniProt_ID": null
+      },
+      "synonyms": [
+        "Microglial Exosomes",
+        "Extracellular Vesicles",
+        "EXO-124"
+      ]
+    },
+    {
+      "id": "Neurons",
+      "label": "Neurons",
+      "type": "Cell",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027882",
+        "HGNC_ID": null,
+        "UniProt_ID": null
+      },
+      "synonyms": [
+        "Hippocampal Neurons",
+        "Nerve Cells"
+      ]
+    },
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "Traumatic Brain Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111",
+        "HGNC_ID": null,
+        "UniProt_ID": null
+      },
+      "synonyms": [
+        "Repetitive Mild Traumatic Brain Injury",
+        "TBI"
+      ]
+    },
+    {
+      "id": "NeurodegenerativeDisorders",
+      "label": "Neurodegenerative Disorders",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0524851",
+        "HGNC_ID": null,
+        "UniProt_ID": null
+      },
+      "synonyms": [
+        "Neurodegenerative Disease",
+        "Post-Traumatic Neurodegeneration"
+      ]
+    },
+    {
+      "id": "CognitiveImpairment",
+      "label": "Cognitive Impairment",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0338656",
+        "HGNC_ID": null,
+        "UniProt_ID": null
+      },
+      "synonyms": [
+        "Cognitive Deficit"
+      ]
+    },
+    {
+      "id": "Cognition",
+      "label": "Cognition",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0009241",
+        "HGNC_ID": null,
+        "UniProt_ID": null
+      },
+      "synonyms": [
+        "Cognitive Function"
+      ]
+    },
+    {
+      "id": "Inflammation",
+      "label": "Inflammation",
+      "type": "Process",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0021368",
+        "HGNC_ID": null,
+        "UniProt_ID": null
+      },
+      "synonyms": [
+        "Neuronal Inflammation"
+      ]
+    },
+    {
+      "id": "NeurologicFunction",
+      "label": "Neurologic Function",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027853",
+        "HGNC_ID": null,
+        "UniProt_ID": null
+      },
+      "synonyms": [
+        "Neurological Function"
+      ]
+    },
+    {
+      "id": "CerebralBloodFlow",
+      "label": "Cerebral Blood Flow",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0007776",
+        "HGNC_ID": null,
+        "UniProt_ID": null
+      },
+      "synonyms": []
+    },
+    {
+      "id": "MacrophagePolarization",
+      "label": "Macrophage Polarization",
+      "type": "Process",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "UMLS_CUI": "C3839848",
+        "HGNC_ID": null,
+        "UniProt_ID": null
+      },
+      "synonyms": [
+        "M2 Macrophage Polarization"
+      ]
+    },
+    {
+      "id": "NeuriteOutgrowth",
+      "label": "Neurite Outgrowth",
+      "type": "Process",
+      "location": "Neuron",
+      "identifiers": {
+        "UMLS_CUI": "C0027878",
+        "HGNC_ID": null,
+        "UniProt_ID": null
+      },
+      "synonyms": []
+    },
+    {
+      "id": "CellSurvival",
+      "label": "Cell Survival",
+      "type": "Process",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "UMLS_CUI": "C0007613",
+        "HGNC_ID": null,
+        "UniProt_ID": null
+      },
+      "synonyms": [
+        "Cell Viability"
+      ]
+    },
+    {
+      "id": "NeuronalDeath",
+      "label": "Neuronal Death",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0242435",
+        "HGNC_ID": null,
+        "UniProt_ID": null
+      },
+      "synonyms": [
+        "Neuronal Cell Death"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "Exosomes",
+      "target": "MIR124-3",
+      "mechanism": "transports",
+      "evidence_ref": [
+        67
+      ],
+      "confidence": "High",
+      "metadata": "Source: Microglia"
+    },
+    {
+      "source": "MIR124-3",
+      "target": "RELA",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        67
+      ],
+      "confidence": "High",
+      "metadata": "Interaction: miRNA targeting"
+    },
+    {
+      "source": "MIR124-3",
+      "target": "NeurodegenerativeDisorders",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        67
+      ],
+      "confidence": "High",
+      "metadata": null
+    },
+    {
+      "source": "Exosomes",
+      "target": "Cognition",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        67
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Exosomes loaded with miR-124 (EXO-124)"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "MIR124-3",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        67
+      ],
+      "confidence": "High",
+      "metadata": "Effect: Alters levels"
+    },
+    {
+      "source": "Exosomes",
+      "target": "Neurons",
+      "mechanism": "translocates",
+      "evidence_ref": [
+        67,
+        242
+      ],
+      "confidence": "High",
+      "metadata": "Process: Uptake/Transfer"
+    },
+    {
+      "source": "MIR124-3",
+      "target": "Neurons",
+      "mechanism": "translocates",
+      "evidence_ref": [
+        67
+      ],
+      "confidence": "High",
+      "metadata": "Via: Exosomal transfer"
+    },
+    {
+      "source": "Exenatide",
+      "target": "Inflammation",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        192
+      ],
+      "confidence": "High",
+      "metadata": null
+    },
+    {
+      "source": "Exenatide",
+      "target": "NeurologicFunction",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        192
+      ],
+      "confidence": "High",
+      "metadata": "Action: Improves"
+    },
+    {
+      "source": "Exenatide",
+      "target": "CerebralBloodFlow",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        192
+      ],
+      "confidence": "Medium",
+      "metadata": "Action: Promotes"
+    },
+    {
+      "source": "Exenatide",
+      "target": "NeurodegenerativeDisorders",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        192
+      ],
+      "confidence": "High",
+      "metadata": null
+    },
+    {
+      "source": "Exenatide",
+      "target": "MAPK1",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        192
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Inhibits activation"
+    },
+    {
+      "source": "Exenatide",
+      "target": "Cognition",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        192
+      ],
+      "confidence": "High",
+      "metadata": "Action: Improves"
+    },
+    {
+      "source": "Exosomes",
+      "target": "Inflammation",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        242
+      ],
+      "confidence": "High",
+      "metadata": "Source: Microglia"
+    },
+    {
+      "source": "MIR124-3",
+      "target": "MacrophagePolarization",
+      "mechanism": "promotes",
+      "evidence_ref": [
+        242
+      ],
+      "confidence": "High",
+      "metadata": "Type: M2"
+    },
+    {
+      "source": "MIR124-3",
+      "target": "PDE4B",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        242
+      ],
+      "confidence": "High",
+      "metadata": "Interaction: miRNA targeting"
+    },
+    {
+      "source": "MIR124-3",
+      "target": "NeuriteOutgrowth",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        242
+      ],
+      "confidence": "Medium",
+      "metadata": null
+    },
+    {
+      "source": "MIR124-3",
+      "target": "NeurologicFunction",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        242
+      ],
+      "confidence": "High",
+      "metadata": "Action: Improves"
+    },
+    {
+      "source": "MIR124-3",
+      "target": "RHOA",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        242
+      ],
+      "confidence": "High",
+      "metadata": null
+    },
+    {
+      "source": "MIR124-3",
+      "target": "APP",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        242
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Amyloid Beta Peptide levels"
+    },
+    {
+      "source": "MIR124-3",
+      "target": "MAPT",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        242
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Phosphorylated Tau Protein levels"
+    },
+    {
+      "source": "MIR144",
+      "target": "ADAM10",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        370
+      ],
+      "confidence": "High",
+      "metadata": null
+    },
+    {
+      "source": "MIR144",
+      "target": "CognitiveImpairment",
+      "mechanism": "causes",
+      "evidence_ref": [
+        370
+      ],
+      "confidence": "High",
+      "metadata": "Action: Promotes"
+    },
+    {
+      "source": "MIR144",
+      "target": "CellSurvival",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        370
+      ],
+      "confidence": "High",
+      "metadata": null
+    },
+    {
+      "source": "MIR144",
+      "target": "LDHA",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        370
+      ],
+      "confidence": "Medium",
+      "metadata": "Effect: Enhances Release"
+    },
+    {
+      "source": "MIR144",
+      "target": "NeuronalDeath",
+      "mechanism": "causes",
+      "evidence_ref": [
+        370
+      ],
+      "confidence": "High",
+      "metadata": "Correction: Input stated 'prevents', but context 'inhibits viability' and 'downregulates ADAM10' implies promotion of death."
+    },
+    {
+      "source": "MIR144",
+      "target": "NeurologicFunction",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        370
+      ],
+      "confidence": "Medium",
+      "metadata": "Action: Affects"
+    }
+  ]
+}

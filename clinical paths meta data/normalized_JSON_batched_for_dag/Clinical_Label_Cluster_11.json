@@ -1,0 +1,163 @@
+[
+    {
+        "source_abstract_id":1,
+        "subject":"Repetitive Head Impacts",
+        "relation":"upregulates",
+        "object":"Cavum Septum Pellucidum",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":1,
+        "subject":"Repetitive Head Impacts",
+        "relation":"upregulates",
+        "object":"Thalamic Notching",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":224,
+        "subject":"Repetitive Head Impacts",
+        "relation":"associated_with",
+        "object":"Cavum Septi Pellucidi",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":241,
+        "subject":"Repetitive Head Impacts",
+        "relation":"causes",
+        "object":"Cavum Septum Pellucidum",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":241,
+        "subject":"Repetitive Head Impacts",
+        "relation":"causes",
+        "object":"Cavum Septum Pellucidum",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":241,
+        "subject":"Repetitive Head Impacts",
+        "relation":"causes",
+        "object":"Cavum Septum Pellucidum",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":520,
+        "subject":"Repetitive Head Impacts",
+        "relation":"causes",
+        "object":"Enlarged Cavum Septum Pellucidum",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":241,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cavum Septum Pellucidum",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":241,
+        "subject":"Traumatic Brain Injury",
+        "relation":"upregulates",
+        "object":"Cavum Septum Pellucidum",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":241,
+        "subject":"Cavum Septum Pellucidum",
+        "relation":"not_associated_with",
+        "object":"Neurodegenerative Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":241,
+        "subject":"Cavum Septum Pellucidum",
+        "relation":"not_associated_with",
+        "object":"Brain Atrophy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":241,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cavum Septum Pellucidum",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":241,
+        "subject":"Cavum Septum Pellucidum",
+        "relation":"not_associated_with",
+        "object":"Age",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":241,
+        "subject":"Cavum Septum Pellucidum",
+        "relation":"not_associated_with",
+        "object":"Gender",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":484,
+        "subject":"Head Injury",
+        "relation":"not_associated_with",
+        "object":"Cavum Septum Pellucidum",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":520,
+        "subject":"Enlarged Cavum Septum Pellucidum",
+        "relation":"not_associated_with",
+        "object":"Ventricular Enlargement",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":520,
+        "subject":"Enlarged Cavum Septum Pellucidum",
+        "relation":"not_associated_with",
+        "object":"Neuropsychiatric Symptoms",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":520,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Enlarged Cavum Septum Pellucidum",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":520,
+        "subject":"Enlarged Cavum Septum Pellucidum",
+        "relation":"not_associated_with",
+        "object":"Composite MRI Volumes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":520,
+        "subject":"Enlarged Cavum Septum Pellucidum",
+        "relation":"not_associated_with",
+        "object":"Processing Speed",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":520,
+        "subject":"Enlarged Cavum Septum Pellucidum",
+        "relation":"not_associated_with",
+        "object":"Mental Flexibility",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":520,
+        "subject":"Enlarged Cavum Septum Pellucidum",
+        "relation":"not_associated_with",
+        "object":"Semantic Fluency",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":540,
+        "subject":"Cavum Septum Pellucidum",
+        "relation":"location_of",
+        "object":"Former Players",
+        "entity_variants":null
+    }
+]

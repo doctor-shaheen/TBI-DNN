@@ -1,0 +1,254 @@
+[
+    {
+        "source_abstract_id":130,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Behavioral Responses",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":152,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Brain Edema",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":193,
+        "subject":"Sex",
+        "relation":"interacts_with",
+        "object":"Traumatic Brain Injury",
+        "entity_variants":"not specified"
+    },
+    {
+        "source_abstract_id":263,
+        "subject":"Drosophila Genetic Variation",
+        "relation":"affects",
+        "object":"Traumatic Brain Injury Outcomes",
+        "entity_variants":"not applicable|"
+    },
+    {
+        "source_abstract_id":336,
+        "subject":"Hypothermia",
+        "relation":"exacerbates",
+        "object":"Cognitive Impairment",
+        "entity_variants":"none|"
+    },
+    {
+        "source_abstract_id":341,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Neuropathology",
+        "entity_variants":"none|"
+    },
+    {
+        "source_abstract_id":346,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Increased Radial Diffusivity",
+        "entity_variants":"not applicable|"
+    },
+    {
+        "source_abstract_id":380,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Pathological Changes",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":341,
+        "subject":"Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Thalamocortical Circuitry",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":263,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Neurodegeneration",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":31,
+        "subject":"Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Neurobehavioral Deficits",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":31,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cognitive Deficits",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":31,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Affective Deficits",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":56,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cognitive Decline",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":100,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cognitive Deficits",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":104,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Fractional Anisotropy Decrease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":111,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"exacerbates",
+        "object":"Cognitive Deficits",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":152,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Neurological Deficit",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":154,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Chronic Traumatic Encephalopathy",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":213,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Iron",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":213,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Copper",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":213,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Zinc",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":213,
+        "subject":"Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Neurological Disease",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":216,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Histological Damage",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":263,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Mortality Variation",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":312,
+        "subject":"Multiple Trauma",
+        "relation":"disrupts",
+        "object":"Behavior",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":341,
+        "subject":"Traumatic Brain Injury",
+        "relation":"interacts_with",
+        "object":"Sex",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":346,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Reduction in Fractional Anisotropy",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":346,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Reduction in Axial Diffusivity",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":357,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Behavioral Deficits",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":380,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cognitive Deficits",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":380,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Neuropsychiatric Symptoms",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":395,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Mood Dysfunction",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":411,
+        "subject":"Traumatic Brain Injury",
+        "relation":"prevents",
+        "object":"Lesion Size",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":411,
+        "subject":"Traumatic Brain Injury",
+        "relation":"prevents",
+        "object":"Behavioral Deficits",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":146,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Motor Coordination Impairment",
+        "entity_variants":"not applicable"
+    }
+]

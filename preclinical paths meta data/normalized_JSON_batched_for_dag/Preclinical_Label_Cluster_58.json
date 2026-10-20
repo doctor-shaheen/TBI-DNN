@@ -1,0 +1,191 @@
+[
+    {
+        "source_abstract_id":195,
+        "subject":"N-Acetylserotonin",
+        "relation":"causes",
+        "object":"Ferroptosis",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":195,
+        "subject":"N-Acetylserotonin",
+        "relation":"modulates",
+        "object":"Ferroptosis-related Molecule Expression",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":195,
+        "subject":"N-Acetylserotonin",
+        "relation":"decreases",
+        "object":"Iron Accumulation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":211,
+        "subject":"Mesenchymal Stem Cells",
+        "relation":"binds_to",
+        "object":"Iron Oxide Poly-L-lysine Complex",
+        "entity_variants":"IO-PLL"
+    },
+    {
+        "source_abstract_id":211,
+        "subject":"Iron Oxide Poly-L-lysine Complex",
+        "relation":"enhances",
+        "object":"Non-invasive Tracking",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":217,
+        "subject":"Propofol",
+        "relation":"reduces",
+        "object":"Iron Deposition",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":149,
+        "subject":"Platelet Extracellular Vesicles",
+        "relation":"prevents",
+        "object":"Ferroptosis",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":195,
+        "subject":"Ferritin Heavy Chain Knockout",
+        "relation":"abolishes",
+        "object":"Protective Effects of N-Acetylserotonin",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":49,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Ferroptosis",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":49,
+        "subject":"Ferrostatin-1",
+        "relation":"inhibits",
+        "object":"Ferroptosis",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":49,
+        "subject":"Ferroptosis",
+        "relation":"causes",
+        "object":"Brain Edema",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":49,
+        "subject":"Ferroptosis",
+        "relation":"negatively_regulates",
+        "object":"Neuroprotection",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":49,
+        "subject":"Ferroptosis",
+        "relation":"affects",
+        "object":"Traumatic Brain Injury Outcomes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":195,
+        "subject":"Fth Knockout",
+        "relation":"causes",
+        "object":"Increased Susceptibility to Ferroptosis",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":195,
+        "subject":"Deferoxamine",
+        "relation":"reverses",
+        "object":"Fth Knockout-Induced Susceptibility to Ferroptosis",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":202,
+        "subject":"Intermittent Fasting",
+        "relation":"reduces",
+        "object":"Ferroptosis",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":202,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Ferroptosis",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":202,
+        "subject":"Ferroptosis",
+        "relation":"causes",
+        "object":"Neuronal Death",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":211,
+        "subject":"Iron Oxide Poly-L-Lysine Complex",
+        "relation":"increases",
+        "object":"Labeling Efficiency",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":211,
+        "subject":"Mesenchymal Stem Cells",
+        "relation":"binds_to",
+        "object":"Prussian Blue Staining",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":217,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Ferroptosis",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":240,
+        "subject":"Ferristatin II",
+        "relation":"inhibits",
+        "object":"Ferroptosis",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":240,
+        "subject":"Ferristatin II",
+        "relation":"reduces",
+        "object":"Ferric Iron",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":240,
+        "subject":"Ferristatin II",
+        "relation":"reduces",
+        "object":"Lipid Peroxidation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":240,
+        "subject":"Ferristatin II",
+        "relation":"treats",
+        "object":"Neuronal Injury",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":240,
+        "subject":"Ferristatin II",
+        "relation":"reverses",
+        "object":"Dysregulation of Iron Homeostasis Proteins",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":240,
+        "subject":"Ferristatin II",
+        "relation":"reduces",
+        "object":"Malondialdehyde",
+        "entity_variants":null
+    }
+]

@@ -1,0 +1,317 @@
+[
+    {
+        "source_abstract_id":94,
+        "subject":"Omega-3 Polyunsaturated Fatty Acids",
+        "relation":"attenuates",
+        "object":"N1 Amplitude Reduction",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":94,
+        "subject":"Omega-3 Polyunsaturated Fatty Acids",
+        "relation":"reduces",
+        "object":"Cognitive Deficits",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":94,
+        "subject":"Omega-3 Polyunsaturated Fatty Acids",
+        "relation":"modulates",
+        "object":"Functional Outcome",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":94,
+        "subject":"Omega-3 Polyunsaturated Fatty Acids",
+        "relation":"prevents",
+        "object":"Neuropathological Effects",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":105,
+        "subject":"Omega-3 Polyunsaturated Fatty Acids",
+        "relation":"prevents",
+        "object":"Visual Deficit",
+        "entity_variants":"Eicosapentaenoic Acid"
+    },
+    {
+        "source_abstract_id":105,
+        "subject":"Omega-3 Polyunsaturated Fatty Acids",
+        "relation":"prevents",
+        "object":"Motor Deficit",
+        "entity_variants":"Eicosapentaenoic Acid"
+    },
+    {
+        "source_abstract_id":105,
+        "subject":"Omega-3 Polyunsaturated Fatty Acids",
+        "relation":"prevents",
+        "object":"Emotional Deficit",
+        "entity_variants":"Eicosapentaenoic Acid"
+    },
+    {
+        "source_abstract_id":105,
+        "subject":"Omega-3 Polyunsaturated Fatty Acids",
+        "relation":"prevents",
+        "object":"Ceramide Increase",
+        "entity_variants":"Eicosapentaenoic Acid"
+    },
+    {
+        "source_abstract_id":105,
+        "subject":"Omega-3 Polyunsaturated Fatty Acids",
+        "relation":"decreases",
+        "object":"Inflammatory Gene Expression",
+        "entity_variants":"Eicosapentaenoic Acid"
+    },
+    {
+        "source_abstract_id":105,
+        "subject":"Omega-3 Polyunsaturated Fatty Acids",
+        "relation":"increases",
+        "object":"Eicosapentaenoic Acid",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":209,
+        "subject":"Omega-3 Polyunsaturated Fatty Acids",
+        "relation":"upregulates",
+        "object":"Neurogenesis",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":209,
+        "subject":"Omega-3 Polyunsaturated Fatty Acids",
+        "relation":"upregulates",
+        "object":"Angiogenesis",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":209,
+        "subject":"Omega-3 Polyunsaturated Fatty Acids",
+        "relation":"upregulates",
+        "object":"Oligodendrogenesis",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":209,
+        "subject":"Omega-3 Polyunsaturated Fatty Acids",
+        "relation":"mediates",
+        "object":"Cognitive Recovery",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":209,
+        "subject":"Omega-3 Polyunsaturated Fatty Acids",
+        "relation":"ameliorates",
+        "object":"Cognitive Deficits",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":209,
+        "subject":"Omega-3 Polyunsaturated Fatty Acids",
+        "relation":"improves",
+        "object":"Brain Remodeling",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":274,
+        "subject":"Galantamine",
+        "relation":"decreases",
+        "object":"Blood-Brain Barrier Permeability",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":274,
+        "subject":"Galantamine",
+        "relation":"decreases",
+        "object":"Neuronal Loss",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":274,
+        "subject":"Galantamine",
+        "relation":"improves",
+        "object":"Hippocampal Function",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":274,
+        "subject":"Galantamine",
+        "relation":"enhances",
+        "object":"Cognitive Function",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":274,
+        "subject":"Galantamine",
+        "relation":"inhibits",
+        "object":"Acetylcholinesterase Activity",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":274,
+        "subject":"Galantamine",
+        "relation":"increases",
+        "object":"Nicotinic Receptor Signaling",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":395,
+        "subject":"Projectile Impact",
+        "relation":"modulates",
+        "object":"Cytokine mRNA Expression",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":143,
+        "subject":"N-Docosahexaenoylethanolamine",
+        "relation":"causes",
+        "object":"Cognitive Recovery",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":143,
+        "subject":"N-Docosahexaenoylethanolamine",
+        "relation":"inhibits",
+        "object":"Pro-inflammatory Microglial Cell Activity",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":143,
+        "subject":"N-Docosahexaenoylethanolamine",
+        "relation":"decreases",
+        "object":"Pro-inflammatory Cytokine Levels",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":143,
+        "subject":"N-Docosahexaenoylethanolamine",
+        "relation":"increases",
+        "object":"CD206",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":143,
+        "subject":"N-Docosahexaenoylethanolamine",
+        "relation":"prevents",
+        "object":"Neuroinflammation",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":143,
+        "subject":"N-Docosahexaenoylethanolamine",
+        "relation":"improves",
+        "object":"Anxiety",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":143,
+        "subject":"N-Docosahexaenoylethanolamine",
+        "relation":"reduces",
+        "object":"Cognitive Impairment",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":143,
+        "subject":"N-Docosahexaenoylethanolamine",
+        "relation":"affects",
+        "object":"Microglial Activity",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":143,
+        "subject":"N-Docosahexaenoylethanolamine",
+        "relation":"modulates",
+        "object":"Cytokine Levels",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":397,
+        "subject":"Omega-3 Polyunsaturated Fatty Acids",
+        "relation":"causes",
+        "object":"Cognitive Function",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":397,
+        "subject":"Omega-3 Polyunsaturated Fatty Acids",
+        "relation":"causes",
+        "object":"Motor Function",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":397,
+        "subject":"Omega-3 Polyunsaturated Fatty Acids",
+        "relation":"causes",
+        "object":"Behavioral Function",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":400,
+        "subject":"Amnion-Derived Cytokine Solution",
+        "relation":"causes",
+        "object":"Motor Improvement",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":400,
+        "subject":"Amnion-Derived Cytokine Solution",
+        "relation":"decreases",
+        "object":"Neuroinflammation",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":400,
+        "subject":"Intracerebroventricular Delivery of Amnion Cytokine Concentrate Solution",
+        "relation":"causes",
+        "object":"Persistent Motor Improvement",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":400,
+        "subject":"Intracerebroventricular Delivery of Amnion Cytokine Concentrate Solution",
+        "relation":"decreases",
+        "object":"Myeloperoxidase Expression",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":400,
+        "subject":"Intracerebroventricular Delivery of Amnion Cytokine Concentrate Solution",
+        "relation":"decreases",
+        "object":"Ionized Calcium Binding Adapter Molecule 1 Expression",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":400,
+        "subject":"Intracerebroventricular Delivery of Amnion Cytokine Concentrate Solution",
+        "relation":"decreases",
+        "object":"Neurodegeneration",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":400,
+        "subject":"Amnion Cytokine Concentrate Solution Therapy",
+        "relation":"improves",
+        "object":"Behavioral Outcomes",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":400,
+        "subject":"Amnion Cytokine Concentrate Solution Therapy",
+        "relation":"does_not_improve",
+        "object":"Cognitive Outcomes",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":400,
+        "subject":"Amnion Cytokine Concentrate Solution Therapy",
+        "relation":"does_not_improve",
+        "object":"Tissue Sparing",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":186,
+        "subject":"Synaptamide",
+        "relation":"treats",
+        "object":"Neurodegenerative Disease",
+        "entity_variants":"N-docosahexaenoylethanolamine"
+    }
+]

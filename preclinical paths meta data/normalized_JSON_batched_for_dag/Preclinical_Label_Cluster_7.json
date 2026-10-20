@@ -1,0 +1,170 @@
+[
+    {
+        "source_abstract_id":241,
+        "subject":"Resolvin D1",
+        "relation":"prevents",
+        "object":"Cognitive Dysfunction",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":241,
+        "subject":"Resolvin D1",
+        "relation":"upregulates",
+        "object":"Brain-Derived Neurotrophic Factor",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":241,
+        "subject":"Resolvin D1",
+        "relation":"upregulates",
+        "object":"Glutamate-Aspartate Transporter",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":241,
+        "subject":"Resolvin D1",
+        "relation":"mediates",
+        "object":"Mitophagy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":241,
+        "subject":"Resolvin D1",
+        "relation":"prevents",
+        "object":"Reactive Oxygen Species",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":241,
+        "subject":"Resolvin D1",
+        "relation":"protects",
+        "object":"Astrocyte Mitochondria",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":241,
+        "subject":"Resolvin D1",
+        "relation":"inhibits",
+        "object":"Gliosis",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":241,
+        "subject":"Resolvin D1",
+        "relation":"ameliorates",
+        "object":"Neuronal Loss",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":241,
+        "subject":"Resolvin D1",
+        "relation":"protects",
+        "object":"Neuron",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":340,
+        "subject":"Sirtuin 2",
+        "relation":"downregulates",
+        "object":"NLRP3 Inflammasome",
+        "entity_variants":"SIRT2 knockout"
+    },
+    {
+        "source_abstract_id":340,
+        "subject":"Sirtuin 2",
+        "relation":"downregulates",
+        "object":"Caspase-1",
+        "entity_variants":"SIRT2 knockout"
+    },
+    {
+        "source_abstract_id":340,
+        "subject":"Sirtuin 2",
+        "relation":"downregulates",
+        "object":"Neuroinflammation",
+        "entity_variants":"SIRT2 knockout"
+    },
+    {
+        "source_abstract_id":340,
+        "subject":"Sirtuin 2",
+        "relation":"downregulates",
+        "object":"Neuronal Pyroptosis",
+        "entity_variants":"SIRT2 knockout"
+    },
+    {
+        "source_abstract_id":340,
+        "subject":"Sirtuin 2",
+        "relation":"ameliorates",
+        "object":"Brain Edema",
+        "entity_variants":"SIRT2 knockout"
+    },
+    {
+        "source_abstract_id":340,
+        "subject":"Sirtuin 2",
+        "relation":"ameliorates",
+        "object":"Blood-Brain Barrier Disruption",
+        "entity_variants":"SIRT2 knockout"
+    },
+    {
+        "source_abstract_id":340,
+        "subject":"Sirtuin 2",
+        "relation":"improves",
+        "object":"Neurological Function",
+        "entity_variants":"SIRT2 knockout"
+    },
+    {
+        "source_abstract_id":340,
+        "subject":"Sirtuin 2",
+        "relation":"reduces",
+        "object":"Neuroinflammation",
+        "entity_variants":"SIRT2 knockout"
+    },
+    {
+        "source_abstract_id":340,
+        "subject":"Sirtuin 2",
+        "relation":"reduces",
+        "object":"Pyroptosis",
+        "entity_variants":"SIRT2 knockout"
+    },
+    {
+        "source_abstract_id":377,
+        "subject":"Resveratrol",
+        "relation":"upregulates",
+        "object":"Sirtuin 1",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":377,
+        "subject":"Sirtuin 1 Overexpression",
+        "relation":"ameliorates",
+        "object":"Retinal Ganglion Cell Loss",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":377,
+        "subject":"Resveratrol",
+        "relation":"improves",
+        "object":"Optokinetic Response Scores",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":377,
+        "subject":"Sirtuin 1 Overexpression",
+        "relation":"improves",
+        "object":"Optokinetic Response Scores",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":377,
+        "subject":"Resveratrol",
+        "relation":"preserves",
+        "object":"Visual Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":377,
+        "subject":"Sirtuin 1 Overexpression",
+        "relation":"recapitulates",
+        "object":"Neuroprotective Effect of Resveratrol",
+        "entity_variants":null
+    }
+]

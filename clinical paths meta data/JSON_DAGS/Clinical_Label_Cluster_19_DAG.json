@@ -1,0 +1,390 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 18,
+    "edge_count": 16
+  },
+  "nodes": [
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "Traumatic Brain Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111"
+      },
+      "synonyms": [
+        "TBI",
+        "Head Injury",
+        "Brain Injury"
+      ]
+    },
+    {
+      "id": "OpticChiasm",
+      "label": "Optic Chiasm",
+      "type": "Anatomy",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0029126"
+      },
+      "synonyms": [
+        "Optic Chiasma"
+      ]
+    },
+    {
+      "id": "CerebrospinalFluidPulsation",
+      "label": "Cerebrospinal Fluid Pulsation",
+      "type": "Process",
+      "location": "CSF",
+      "identifiers": {
+        "UMLS_CUI": "C0007806_Pulsation"
+      },
+      "synonyms": [
+        "CSF Pulsation",
+        "CSF Dynamics"
+      ]
+    },
+    {
+      "id": "NeurotoxinAccumulation",
+      "label": "Accumulation of Toxic Substances",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0001150"
+      },
+      "synonyms": [
+        "Toxic Substance Accumulation",
+        "Metabolic Waste Accumulation"
+      ]
+    },
+    {
+      "id": "BrainFunction",
+      "label": "Brain Function",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006118"
+      },
+      "synonyms": [
+        "Neurological Function"
+      ]
+    },
+    {
+      "id": "HyperbaricOxygenTherapy",
+      "label": "Hyperbaric Oxygenation",
+      "type": "Procedure",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0020436"
+      },
+      "synonyms": [
+        "Hyperbaric Oxygen",
+        "HBOT"
+      ]
+    },
+    {
+      "id": "Angiogenesis",
+      "label": "Angiogenesis",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "GO_ID": "GO:0001525",
+        "UMLS_CUI": "C0002976"
+      },
+      "synonyms": [
+        "Neovascularization"
+      ]
+    },
+    {
+      "id": "Cognition",
+      "label": "Cognition",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0009241"
+      },
+      "synonyms": [
+        "Cognitive Function",
+        "Cognitive Performance"
+      ]
+    },
+    {
+      "id": "CerebralBloodFlow",
+      "label": "Cerebrovascular Circulation",
+      "type": "Process",
+      "location": "Blood",
+      "identifiers": {
+        "UMLS_CUI": "C0007785"
+      },
+      "synonyms": [
+        "Cerebral Blood Flow",
+        "CBF"
+      ]
+    },
+    {
+      "id": "CerebralBloodVolume",
+      "label": "Cerebral Blood Volume",
+      "type": "Process",
+      "location": "Blood",
+      "identifiers": {
+        "UMLS_CUI": "C0229676"
+      },
+      "synonyms": [
+        "CBV"
+      ]
+    },
+    {
+      "id": "OxygenMetabolism",
+      "label": "Oxygen Metabolic Process",
+      "type": "Process",
+      "location": "Mitochondria",
+      "identifiers": {
+        "GO_ID": "GO:0070482"
+      },
+      "synonyms": [
+        "Oxygen Metabolism"
+      ]
+    },
+    {
+      "id": "StemCellMobilization",
+      "label": "Stem Cell Mobilization",
+      "type": "Process",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0085160"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "StemCellMarker",
+      "label": "Stem Cell Marker",
+      "type": "Protein",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "UMLS_CUI": "C1519563"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "NerveTissue",
+      "label": "Nerve Tissue",
+      "type": "Anatomy",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027783"
+      },
+      "synonyms": [
+        "Neuronal Tissue"
+      ]
+    },
+    {
+      "id": "Consciousness",
+      "label": "Consciousness",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0009809"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Prognosis",
+      "label": "Prognosis",
+      "type": "Concept",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0033343"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "IntracranialHematoma",
+      "label": "Intracranial Hematoma",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0018946"
+      },
+      "synonyms": [
+        "Hematoma"
+      ]
+    },
+    {
+      "id": "ApneaHypopneaIndex",
+      "label": "Apnea-Hypopnea Index",
+      "type": "Process",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0746970"
+      },
+      "synonyms": [
+        "AHI"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "OpticChiasm",
+      "mechanism": "causes",
+      "evidence_ref": [
+        71
+      ],
+      "confidence": "High",
+      "metadata": "Effect: Increases Volume/Hypertrophy"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "CerebrospinalFluidPulsation",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        385
+      ],
+      "confidence": "High",
+      "metadata": "Context: Decreased pulsation"
+    },
+    {
+      "source": "CerebrospinalFluidPulsation",
+      "target": "NeurotoxinAccumulation",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        385
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Decreased pulsation leads to accumulation"
+    },
+    {
+      "source": "CerebrospinalFluidPulsation",
+      "target": "BrainFunction",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        385
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Pulsation affects function"
+    },
+    {
+      "source": "HyperbaricOxygenTherapy",
+      "target": "Angiogenesis",
+      "mechanism": "causes",
+      "evidence_ref": [
+        247
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "HyperbaricOxygenTherapy",
+      "target": "Cognition",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        247,
+        359,
+        552
+      ],
+      "confidence": "High",
+      "metadata": "Context: Improves Cognitive Function/Performance"
+    },
+    {
+      "source": "HyperbaricOxygenTherapy",
+      "target": "CerebralBloodFlow",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        247
+      ],
+      "confidence": "Medium",
+      "metadata": "Effect: Increases flow"
+    },
+    {
+      "source": "HyperbaricOxygenTherapy",
+      "target": "CerebralBloodVolume",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        247
+      ],
+      "confidence": "Medium",
+      "metadata": "Effect: Increases volume"
+    },
+    {
+      "source": "HyperbaricOxygenTherapy",
+      "target": "OxygenMetabolism",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        357
+      ],
+      "confidence": "Medium",
+      "metadata": "Effect: Increases metabolism"
+    },
+    {
+      "source": "HyperbaricOxygenTherapy",
+      "target": "StemCellMobilization",
+      "mechanism": "causes",
+      "evidence_ref": [
+        359
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "HyperbaricOxygenTherapy",
+      "target": "StemCellMarker",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        359
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "HyperbaricOxygenTherapy",
+      "target": "NerveTissue",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        359
+      ],
+      "confidence": "Medium",
+      "metadata": "Interaction: Binds to/Targets"
+    },
+    {
+      "source": "HyperbaricOxygenTherapy",
+      "target": "Consciousness",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        552
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Promotes consciousness"
+    },
+    {
+      "source": "HyperbaricOxygenTherapy",
+      "target": "Prognosis",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        552
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Improves prognosis"
+    },
+    {
+      "source": "HyperbaricOxygenTherapy",
+      "target": "IntracranialHematoma",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        552
+      ],
+      "confidence": "High",
+      "metadata": "Context: Decreases TBI-induced hematoma volume"
+    },
+    {
+      "source": "ApneaHypopneaIndex",
+      "target": "Cognition",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        553
+      ],
+      "confidence": "Low",
+      "metadata": "Relationship: No direct causal link observed"
+    }
+  ]
+}

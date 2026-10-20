@@ -1,0 +1,651 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 28,
+    "edge_count": 31
+  },
+  "nodes": [
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "Traumatic Brain Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111"
+      },
+      "synonyms": [
+        "TBI",
+        "Clinical Traumatic Brain Injury"
+      ]
+    },
+    {
+      "id": "CEBPB",
+      "label": "CEBPB",
+      "type": "Protein",
+      "location": "Nucleus",
+      "identifiers": {
+        "HGNC_ID": "HGNC:2045",
+        "UMLS_CUI": "C0054705"
+      },
+      "synonyms": [
+        "CCAAT/Enhancer Binding Protein Beta"
+      ]
+    },
+    {
+      "id": "RELA",
+      "label": "RELA",
+      "type": "Protein",
+      "location": "Nucleus",
+      "identifiers": {
+        "HGNC_ID": "HGNC:9955",
+        "UMLS_CUI": "C0037525"
+      },
+      "synonyms": [
+        "Nuclear Factor NF-kappa-B p65 subunit",
+        "p65"
+      ]
+    },
+    {
+      "id": "APOE",
+      "label": "APOE",
+      "type": "Protein",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "HGNC_ID": "HGNC:613",
+        "UMLS_CUI": "C0003565"
+      },
+      "synonyms": [
+        "Apolipoprotein E"
+      ]
+    },
+    {
+      "id": "MAPK1",
+      "label": "MAPK1",
+      "type": "Protein",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "HGNC_ID": "HGNC:6871",
+        "UMLS_CUI": "C1417030"
+      },
+      "synonyms": [
+        "Mitogen-activated protein kinase",
+        "ERK2"
+      ]
+    },
+    {
+      "id": "NFKB1",
+      "label": "NFKB1",
+      "type": "Protein",
+      "location": "Nucleus",
+      "identifiers": {
+        "HGNC_ID": "HGNC:7794",
+        "UMLS_CUI": "C0028639"
+      },
+      "synonyms": [
+        "Nuclear factor kappa B",
+        "NF-kappa B"
+      ]
+    },
+    {
+      "id": "AIF1",
+      "label": "AIF1",
+      "type": "Protein",
+      "location": "Microglia",
+      "identifiers": {
+        "HGNC_ID": "HGNC:354",
+        "UMLS_CUI": "C1334057"
+      },
+      "synonyms": [
+        "Ionized calcium-binding adapter molecule 1",
+        "Iba1"
+      ]
+    },
+    {
+      "id": "AstrocyteActivation",
+      "label": "Astrocyte Activation",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C4015099",
+        "GO_ID": "GO:0048143"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "GMFB",
+      "label": "GMFB",
+      "type": "Protein",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "HGNC_ID": "HGNC:4373",
+        "UMLS_CUI": "C0061596"
+      },
+      "synonyms": [
+        "Glia maturation factor"
+      ]
+    },
+    {
+      "id": "Neuroinflammation",
+      "label": "Neuroinflammation",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0020302"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "NicotinamideMononucleotide",
+      "label": "Nicotinamide Mononucleotide",
+      "type": "Chemical",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "UMLS_CUI": "C0068478",
+        "ChEBI_ID": "17659"
+      },
+      "synonyms": [
+        "NMN"
+      ]
+    },
+    {
+      "id": "IKBKB",
+      "label": "IKBKB",
+      "type": "Protein",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "HGNC_ID": "HGNC:5960",
+        "UMLS_CUI": "C1416045"
+      },
+      "synonyms": [
+        "IKK2",
+        "Inhibitor of nuclear factor kappa B kinase subunit beta"
+      ]
+    },
+    {
+      "id": "Inflammation",
+      "label": "Inflammation",
+      "type": "Process",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0021368"
+      },
+      "synonyms": [
+        "Inflammatory Response",
+        "Proinflammatory gene expression"
+      ]
+    },
+    {
+      "id": "NeurologicalOutcome",
+      "label": "Neurological Outcome",
+      "type": "Phenotype",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027853"
+      },
+      "synonyms": [
+        "Neurological function"
+      ]
+    },
+    {
+      "id": "NeuronalSurvival",
+      "label": "Neuronal Survival",
+      "type": "Process",
+      "location": "Neuron",
+      "identifiers": {
+        "GO_ID": "GO:0097468"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "FAM76B",
+      "label": "FAM76B",
+      "type": "Protein",
+      "location": "Nucleus",
+      "identifiers": {
+        "HGNC_ID": "HGNC:25624",
+        "UMLS_CUI": "C1825656"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "HSPA1A",
+      "label": "HSPA1A",
+      "type": "Protein",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "HGNC_ID": "HGNC:5232",
+        "UMLS_CUI": "C0018946"
+      },
+      "synonyms": [
+        "Heat shock protein 70",
+        "Hsp70"
+      ]
+    },
+    {
+      "id": "IL6",
+      "label": "IL6",
+      "type": "Protein",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "HGNC_ID": "HGNC:6018",
+        "UMLS_CUI": "C0021765"
+      },
+      "synonyms": [
+        "Interleukin-6"
+      ]
+    },
+    {
+      "id": "TLR4",
+      "label": "TLR4",
+      "type": "Protein",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "HGNC_ID": "HGNC:11804",
+        "UMLS_CUI": "C0040316"
+      },
+      "synonyms": [
+        "Toll-like receptor 4"
+      ]
+    },
+    {
+      "id": "TRIM44",
+      "label": "TRIM44",
+      "type": "Protein",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "HGNC_ID": "HGNC:16291",
+        "UMLS_CUI": "C1420719"
+      },
+      "synonyms": [
+        "Tripartite motif-containing protein 44"
+      ]
+    },
+    {
+      "id": "BrainEdema",
+      "label": "Brain Edema",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006114"
+      },
+      "synonyms": [
+        "Brain water content"
+      ]
+    },
+    {
+      "id": "Cytokines",
+      "label": "Cytokines",
+      "type": "Protein",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "UMLS_CUI": "C0010819"
+      },
+      "synonyms": [
+        "Proinflammatory cytokines"
+      ]
+    },
+    {
+      "id": "MAPK8",
+      "label": "MAPK8",
+      "type": "Protein",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "HGNC_ID": "HGNC:6881",
+        "UMLS_CUI": "C1416952"
+      },
+      "synonyms": [
+        "c-Jun N-terminal kinase",
+        "JNK"
+      ]
+    },
+    {
+      "id": "TNF",
+      "label": "TNF",
+      "type": "Protein",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "HGNC_ID": "HGNC:11892",
+        "UMLS_CUI": "C0041370"
+      },
+      "synonyms": [
+        "Tumor necrosis factor alpha"
+      ]
+    },
+    {
+      "id": "IL1B",
+      "label": "IL1B",
+      "type": "Protein",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "HGNC_ID": "HGNC:5992",
+        "UMLS_CUI": "C0021753"
+      },
+      "synonyms": [
+        "Interleukin-1 beta"
+      ]
+    },
+    {
+      "id": "Mortality",
+      "label": "Mortality",
+      "type": "Phenotype",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0026565"
+      },
+      "synonyms": [
+        "Acute posttraumatic mortality rate"
+      ]
+    },
+    {
+      "id": "JAK_STAT_Signaling",
+      "label": "JAK-STAT Signaling",
+      "type": "Process",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "GO_ID": "GO:0001604"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "TNF_Signaling",
+      "label": "TNF Signaling",
+      "type": "Process",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "GO_ID": "GO:0033209"
+      },
+      "synonyms": []
+    }
+  ],
+  "edges": [
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "CEBPB",
+      "mechanism": "activates",
+      "evidence_ref": [
+        45
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "RELA",
+      "target": "APOE",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        67
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "MAPK1",
+      "target": "NFKB1",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        26
+      ],
+      "confidence": "High",
+      "metadata": "Context: MAPK Phosphorylation"
+    },
+    {
+      "source": "AIF1",
+      "target": "NFKB1",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        101
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Correlation with Phosphorylation signals"
+    },
+    {
+      "source": "AstrocyteActivation",
+      "target": "NFKB1",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        110
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "NFKB1",
+      "mechanism": "activates",
+      "evidence_ref": [
+        172
+      ],
+      "confidence": "High",
+      "metadata": "Context: Triggers signaling"
+    },
+    {
+      "source": "GMFB",
+      "target": "NFKB1",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        172
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "NFKB1",
+      "target": "Neuroinflammation",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        172,
+        284
+      ],
+      "confidence": "High",
+      "metadata": "Context: Mediates"
+    },
+    {
+      "source": "NicotinamideMononucleotide",
+      "target": "NFKB1",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        216
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "NicotinamideMononucleotide",
+      "target": "JAK_STAT_Signaling",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        216
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "NicotinamideMononucleotide",
+      "target": "TNF_Signaling",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        216
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "IKBKB",
+      "target": "NeuronalSurvival",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        252
+      ],
+      "confidence": "High",
+      "metadata": "Context: Protects Neurons"
+    },
+    {
+      "source": "IKBKB",
+      "target": "Inflammation",
+      "mechanism": "regulates",
+      "evidence_ref": [
+        252
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "IKBKB",
+      "target": "NeurologicalOutcome",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        252
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "IKBKB",
+      "target": "Mortality",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        252
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "FAM76B",
+      "target": "NFKB1",
+      "mechanism": "regulates",
+      "evidence_ref": [
+        257
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "HSPA1A",
+      "target": "NFKB1",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        260
+      ],
+      "confidence": "Medium",
+      "metadata": "Conflict: Input states both upregulates and reduces"
+    },
+    {
+      "source": "NFKB1",
+      "target": "IL6",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        260
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "TLR4",
+      "target": "NFKB1",
+      "mechanism": "activates",
+      "evidence_ref": [
+        284,
+        294
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "RELA",
+      "target": "Neuroinflammation",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        286
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "TRIM44",
+      "target": "TLR4",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        294
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "TRIM44",
+      "target": "Inflammation",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        294
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "TRIM44",
+      "target": "BrainEdema",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        294
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "TLR4",
+      "target": "NeurologicalOutcome",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        294
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "TRIM44",
+      "target": "NFKB1",
+      "mechanism": "regulates",
+      "evidence_ref": [
+        294
+      ],
+      "confidence": "High",
+      "metadata": "Context: via TLR4"
+    },
+    {
+      "source": "TRIM44",
+      "target": "Cytokines",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        294
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "NFKB1",
+      "target": "BrainEdema",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        294
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "MAPK8",
+      "target": "NFKB1",
+      "mechanism": "activates",
+      "evidence_ref": [
+        391
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "NFKB1",
+      "target": "TNF",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        391
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "NFKB1",
+      "target": "IL1B",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        391
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "MAPK8",
+      "target": "Inflammation",
+      "mechanism": "activates",
+      "evidence_ref": [
+        166
+      ],
+      "confidence": "High"
+    }
+  ]
+}

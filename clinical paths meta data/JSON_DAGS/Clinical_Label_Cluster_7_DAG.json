@@ -1,0 +1,502 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 20,
+    "edge_count": 23
+  },
+  "nodes": [
+    {
+      "id": "Exosomes",
+      "label": "Exosomes",
+      "type": "Cell Component",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "UMLS_CUI": "C2986851",
+        "GO_ID": "GO:0070062"
+      },
+      "synonyms": [
+        "Microglial Exosomes",
+        "Extracellular Vesicles"
+      ]
+    },
+    {
+      "id": "MIR124-3",
+      "label": "MIR124-3",
+      "type": "Gene",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "UMLS_CUI": "C3539702",
+        "HGNC_ID": "HGNC:31504"
+      },
+      "synonyms": [
+        "MicroRNA-124-3p",
+        "hsa-miR-124-3p",
+        "miR-124"
+      ]
+    },
+    {
+      "id": "Neurodegeneration",
+      "label": "Neurodegeneration",
+      "type": "Pathology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027746"
+      },
+      "synonyms": [
+        "Neuronal degeneration"
+      ]
+    },
+    {
+      "id": "Neuron",
+      "label": "Neuron",
+      "type": "Cell Type",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027882"
+      },
+      "synonyms": [
+        "Hippocampal Neurons"
+      ]
+    },
+    {
+      "id": "RELA",
+      "label": "RELA",
+      "type": "Protein",
+      "location": "Nucleus",
+      "identifiers": {
+        "UMLS_CUI": "C0035043",
+        "HGNC_ID": "HGNC:9955",
+        "UniProt_ID": "Q04206"
+      },
+      "synonyms": [
+        "RELA Proto-Oncogene",
+        "Transcription factor p65",
+        "NF-kappa-B subunit p65"
+      ]
+    },
+    {
+      "id": "CognitiveImpairment",
+      "label": "Cognitive Impairment",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0338656"
+      },
+      "synonyms": [
+        "Cognitive Outcome",
+        "Cognitive Deficits",
+        "Cognitive Dysfunction"
+      ]
+    },
+    {
+      "id": "MIR144",
+      "label": "MIR144",
+      "type": "Gene",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "UMLS_CUI": "C1536647",
+        "HGNC_ID": "HGNC:31532"
+      },
+      "synonyms": [
+        "MicroRNA-144",
+        "hsa-miR-144"
+      ]
+    },
+    {
+      "id": "ADAM10",
+      "label": "ADAM10",
+      "type": "Protein",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "UMLS_CUI": "C1367469",
+        "HGNC_ID": "HGNC:188",
+        "UniProt_ID": "O14672"
+      },
+      "synonyms": [
+        "ADAM Metallopeptidase Domain 10"
+      ]
+    },
+    {
+      "id": "CellSurvival",
+      "label": "Cell Survival",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0007613",
+        "GO_ID": "GO:0043067"
+      },
+      "synonyms": [
+        "Neuron Viability",
+        "Cell Viability"
+      ]
+    },
+    {
+      "id": "LactateDehydrogenase",
+      "label": "Lactate Dehydrogenase",
+      "type": "Protein",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "UMLS_CUI": "C0022916"
+      },
+      "synonyms": [
+        "LDH",
+        "Lactate Dehydrogenase Release"
+      ]
+    },
+    {
+      "id": "CASP3",
+      "label": "CASP3",
+      "type": "Protein",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "UMLS_CUI": "C1366624",
+        "HGNC_ID": "HGNC:1504"
+      },
+      "synonyms": [
+        "Caspase-3"
+      ]
+    },
+    {
+      "id": "NeurologicRecovery",
+      "label": "Neurologic Recovery",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0034606"
+      },
+      "synonyms": [
+        "Improved Neurological Outcome"
+      ]
+    },
+    {
+      "id": "Neuroprotection",
+      "label": "Neuroprotection",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0598194"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "MIR7844",
+      "label": "MIR7844",
+      "type": "Gene",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "UMLS_CUI": "C4759458",
+        "HGNC_ID": "HGNC:50044"
+      },
+      "synonyms": [
+        "MicroRNA-7844-5p"
+      ]
+    },
+    {
+      "id": "PPP1R1B",
+      "label": "PPP1R1B",
+      "type": "Protein",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "UMLS_CUI": "C1413837",
+        "HGNC_ID": "HGNC:9293"
+      },
+      "synonyms": [
+        "Protein Phosphatase 1 Regulatory Inhibitor Subunit 1B"
+      ]
+    },
+    {
+      "id": "LIMS1",
+      "label": "LIMS1",
+      "type": "Protein",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "UMLS_CUI": "C1416757",
+        "HGNC_ID": "HGNC:14371"
+      },
+      "synonyms": [
+        "LIM Zinc Finger Domain Containing 1"
+      ]
+    },
+    {
+      "id": "ATG12",
+      "label": "ATG12",
+      "type": "Protein",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "UMLS_CUI": "C1412674",
+        "HGNC_ID": "HGNC:16945"
+      },
+      "synonyms": [
+        "Autophagy Related 12"
+      ]
+    },
+    {
+      "id": "MAP1LC3B",
+      "label": "MAP1LC3B",
+      "type": "Protein",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "UMLS_CUI": "C1416972",
+        "HGNC_ID": "HGNC:13352"
+      },
+      "synonyms": [
+        "Microtubule Associated Protein 1 Light Chain 3 Beta"
+      ]
+    },
+    {
+      "id": "ITGA1",
+      "label": "ITGA1",
+      "type": "Protein",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "UMLS_CUI": "C1416248",
+        "HGNC_ID": "HGNC:6134"
+      },
+      "synonyms": [
+        "Integrin Subunit Alpha 1"
+      ]
+    },
+    {
+      "id": "MAPK1",
+      "label": "MAPK1",
+      "type": "Protein",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "UMLS_CUI": "C1366710",
+        "HGNC_ID": "HGNC:6871"
+      },
+      "synonyms": [
+        "Mitogen-Activated Protein Kinase 1"
+      ]
+    },
+    {
+      "id": "GSK3B",
+      "label": "GSK3B",
+      "type": "Protein",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "UMLS_CUI": "C1415170",
+        "HGNC_ID": "HGNC:4617"
+      },
+      "synonyms": [
+        "Glycogen Synthase Kinase 3 Beta"
+      ]
+    },
+    {
+      "id": "MAPK8",
+      "label": "MAPK8",
+      "type": "Protein",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "UMLS_CUI": "C1366718",
+        "HGNC_ID": "HGNC:6881"
+      },
+      "synonyms": [
+        "Mitogen-Activated Protein Kinase 8"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "Exosomes",
+      "target": "MIR124-3",
+      "mechanism": "transports",
+      "evidence_ref": [
+        147
+      ],
+      "confidence": "High",
+      "metadata": "Source: Microglial Exosomes"
+    },
+    {
+      "source": "MIR124-3",
+      "target": "Neurodegeneration",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        147
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "MIR124-3",
+      "target": "Neuron",
+      "mechanism": "translocates",
+      "evidence_ref": [
+        147
+      ],
+      "confidence": "High",
+      "metadata": "Direction: Into Hippocampal Neurons"
+    },
+    {
+      "source": "MIR124-3",
+      "target": "RELA",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        147
+      ],
+      "confidence": "High",
+      "metadata": "Interaction: targets"
+    },
+    {
+      "source": "MIR124-3",
+      "target": "CognitiveImpairment",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        147
+      ],
+      "confidence": "Medium",
+      "metadata": "Inferred from 'mediates Cognitive Outcome' and context"
+    },
+    {
+      "source": "MIR144",
+      "target": "ADAM10",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        513
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "MIR144",
+      "target": "CognitiveImpairment",
+      "mechanism": "causes",
+      "evidence_ref": [
+        513
+      ],
+      "confidence": "High",
+      "metadata": "Verified by external search; contradicts source error 'inhibits cognitive deficits'"
+    },
+    {
+      "source": "ADAM10",
+      "target": "Neuroprotection",
+      "mechanism": "activates",
+      "evidence_ref": [
+        513
+      ],
+      "confidence": "Medium",
+      "metadata": "Requirement: Abrogates neuroprotection if absent"
+    },
+    {
+      "source": "MIR144",
+      "target": "CellSurvival",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        513
+      ],
+      "confidence": "High",
+      "metadata": "Source text: 'inhibits Neuron Viability'"
+    },
+    {
+      "source": "MIR144",
+      "target": "LactateDehydrogenase",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        513
+      ],
+      "confidence": "Medium",
+      "metadata": "Corrected from 'suppresses LDH Release' (Inhibitor effect)"
+    },
+    {
+      "source": "MIR144",
+      "target": "CASP3",
+      "mechanism": "activates",
+      "evidence_ref": [
+        513
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Increases activity (Cell Death)"
+    },
+    {
+      "source": "MIR144",
+      "target": "NeurologicRecovery",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        513
+      ],
+      "confidence": "Medium",
+      "metadata": "Source text says inhibitor confers improved outcome, so miR-144 inhibits it"
+    },
+    {
+      "source": "MIR7844",
+      "target": "PPP1R1B",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        610
+      ],
+      "confidence": "High",
+      "metadata": "Interaction: targets"
+    },
+    {
+      "source": "MIR7844",
+      "target": "LIMS1",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        610
+      ],
+      "confidence": "High",
+      "metadata": "Interaction: targets"
+    },
+    {
+      "source": "MIR7844",
+      "target": "ATG12",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        610
+      ],
+      "confidence": "High",
+      "metadata": "Interaction: targets"
+    },
+    {
+      "source": "MIR7844",
+      "target": "MAP1LC3B",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        610
+      ],
+      "confidence": "High",
+      "metadata": "Interaction: targets"
+    },
+    {
+      "source": "MIR7844",
+      "target": "ITGA1",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        610
+      ],
+      "confidence": "High",
+      "metadata": "Interaction: targets"
+    },
+    {
+      "source": "MIR7844",
+      "target": "MAPK1",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        610
+      ],
+      "confidence": "High",
+      "metadata": "Interaction: targets"
+    },
+    {
+      "source": "MIR7844",
+      "target": "GSK3B",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        610
+      ],
+      "confidence": "High",
+      "metadata": "Interaction: targets"
+    },
+    {
+      "source": "MIR7844",
+      "target": "MAPK8",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        610
+      ],
+      "confidence": "High",
+      "metadata": "Interaction: targets"
+    }
+  ]
+}

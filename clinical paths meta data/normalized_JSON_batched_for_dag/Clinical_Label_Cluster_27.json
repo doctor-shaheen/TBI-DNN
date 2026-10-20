@@ -1,0 +1,240 @@
+[
+    {
+        "source_abstract_id":418,
+        "subject":"Traumatic Brain Injury",
+        "relation":"results_in",
+        "object":"Complex Autoantibody Responses",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":418,
+        "subject":"Traumatic Brain Injury",
+        "relation":"leads_to",
+        "object":"Immune Response Patterns",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":418,
+        "subject":"Traumatic Brain Injury",
+        "relation":"induces",
+        "object":"Variable Autoantibody Responses",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":418,
+        "subject":"Traumatic Brain Injury",
+        "relation":"results_in",
+        "object":"Persistent Autoantibody Responses",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":447,
+        "subject":"Repetitive Traumatic Brain Injury",
+        "relation":"no_direct_causal_link_with",
+        "object":"Blood-Based Biomarker Candidates for Chronic Traumatic Encephalopathy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":526,
+        "subject":"C1q Blockade",
+        "relation":"treats",
+        "object":"Traumatic Brain Injury Outcomes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":583,
+        "subject":"Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Neurotoxic Autoantibodies",
+        "entity_variants":"Repeated TBI, Single TBI with Autoimmunity"
+    },
+    {
+        "source_abstract_id":583,
+        "subject":"Repeated Traumatic Brain Injury",
+        "relation":"increases",
+        "object":"Neurotoxic Autoantibodies",
+        "entity_variants":"Repeated TBI, Single TBI with Autoimmunity"
+    },
+    {
+        "source_abstract_id":583,
+        "subject":"Repeated Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Cognitive Decline",
+        "entity_variants":"Repeated TBI, Single TBI with Autoimmunity"
+    },
+    {
+        "source_abstract_id":583,
+        "subject":"Autoimmunity",
+        "relation":"associated_with",
+        "object":"Neurotoxic Autoantibodies",
+        "entity_variants":"TBI with Autoimmunity, TBI without Autoimmunity"
+    },
+    {
+        "source_abstract_id":583,
+        "subject":"Autoimmunity",
+        "relation":"exacerbates",
+        "object":"Neurotoxic Autoantibodies",
+        "entity_variants":"TBI with Autoimmunity, TBI without Autoimmunity"
+    },
+    {
+        "source_abstract_id":583,
+        "subject":"Repeated Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Increased Autoantibody Levels",
+        "entity_variants":"Repeated TBI, Single TBI"
+    },
+    {
+        "source_abstract_id":197,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Neuroinflammation",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":75,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Rheumatoid Arthritis",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":75,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Arthritis",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":88,
+        "subject":"Traumatic Brain Injury",
+        "relation":"upregulates",
+        "object":"Inflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":108,
+        "subject":"Traumatic Brain Injury",
+        "relation":"triggers",
+        "object":"Systemic Inflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":143,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Inflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":254,
+        "subject":"Traumatic Brain Injury",
+        "relation":"increases",
+        "object":"Inflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":260,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Perivascular Neuroinflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":263,
+        "subject":"Traumatic Brain Injury",
+        "relation":"triggers",
+        "object":"Autoimmunity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":263,
+        "subject":"Traumatic Brain Injury",
+        "relation":"triggers",
+        "object":"Immune Response",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":317,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Neuroinflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":356,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Inflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":364,
+        "subject":"Traumatic Brain Injury",
+        "relation":"triggers",
+        "object":"Neuroinflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":372,
+        "subject":"Traumatic Brain Injury",
+        "relation":"triggers",
+        "object":"Inflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":418,
+        "subject":"Traumatic Brain Injury",
+        "relation":"triggers",
+        "object":"Autoantibody Production",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":418,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Neuroinflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":431,
+        "subject":"Blood-Brain Barrier Disruption",
+        "relation":"associated_with",
+        "object":"Neuroinflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":477,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Chronic Neuroinflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":477,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Persistent Inflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":526,
+        "subject":"Traumatic Brain Injury",
+        "relation":"triggers",
+        "object":"Inflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":560,
+        "subject":"Traumatic Brain Injury",
+        "relation":"triggers",
+        "object":"Inflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":612,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Inflammation",
+        "entity_variants":null
+    }
+]

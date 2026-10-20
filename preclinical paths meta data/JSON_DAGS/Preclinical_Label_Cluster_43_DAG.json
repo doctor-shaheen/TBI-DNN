@@ -1,0 +1,1073 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 48,
+    "edge_count": 55
+  },
+  "nodes": [
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "Traumatic Brain Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111"
+      },
+      "synonyms": [
+        "Repetitive Traumatic Brain Injury",
+        "Mild Traumatic Brain Injury",
+        "Repetitive Mild Traumatic Brain Injury",
+        "Repetitive Concussive Injury",
+        "Concussion",
+        "rmTBI",
+        "rlmTBI"
+      ]
+    },
+    {
+      "id": "MuralCell",
+      "label": "Mural Cell",
+      "type": "Cell",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027564"
+      },
+      "synonyms": [
+        "Pericyte",
+        "Vascular Smooth Muscle Cell"
+      ]
+    },
+    {
+      "id": "PostConcussionSyndrome",
+      "label": "Post-Concussion Syndrome",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0032697"
+      },
+      "synonyms": [
+        "Lingering Symptomatology",
+        "Post-concussive symptoms"
+      ]
+    },
+    {
+      "id": "TraumaticAxonalInjury",
+      "label": "Traumatic Axonal Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0270613"
+      },
+      "synonyms": [
+        "TAI",
+        "Diffuse Axonal Injury"
+      ]
+    },
+    {
+      "id": "Mitophagy",
+      "label": "Mitophagy",
+      "type": "Process",
+      "location": "Mitochondria",
+      "identifiers": {
+        "GO_ID": "GO:0000422"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "DelayedRecovery",
+      "label": "Delayed Recovery",
+      "type": "Phenotype",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0332997"
+      },
+      "synonyms": [
+        "Failure to Recover",
+        "Prolonged Recovery Time"
+      ]
+    },
+    {
+      "id": "Demyelination",
+      "label": "Demyelination",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "GO_ID": "GO:0006626"
+      },
+      "synonyms": [
+        "Myelin Loss"
+      ]
+    },
+    {
+      "id": "Neuropathology",
+      "label": "Neuropathology",
+      "type": "Pathology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027855"
+      },
+      "synonyms": [
+        "Neuropathologic Changes"
+      ]
+    },
+    {
+      "id": "Neurodegeneration",
+      "label": "Neurodegeneration",
+      "type": "Pathology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027819"
+      },
+      "synonyms": [
+        "Neuronal Degeneration",
+        "Chronic Damage"
+      ]
+    },
+    {
+      "id": "Behavior",
+      "label": "Behavior",
+      "type": "Phenotype",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0004927"
+      },
+      "synonyms": [
+        "Behavioral Outcome",
+        "Behavioral Abnormalities",
+        "Behavioral Disruption"
+      ]
+    },
+    {
+      "id": "NeuronalDamage",
+      "label": "Neuronal Injury",
+      "type": "Pathology",
+      "location": "Neuron",
+      "identifiers": {
+        "UMLS_CUI": "C0270614"
+      },
+      "synonyms": [
+        "Neuronal Damage"
+      ]
+    },
+    {
+      "id": "CognitiveImpairment",
+      "label": "Cognitive Impairment",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0338656"
+      },
+      "synonyms": [
+        "Cognitive Deficits",
+        "Cognitive Decline",
+        "Cognitive Dysfunction",
+        "Cognitive Performance"
+      ]
+    },
+    {
+      "id": "MotorDysfunction",
+      "label": "Motor Dysfunction",
+      "type": "Symptom",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0026600"
+      },
+      "synonyms": [
+        "Motor Deficits",
+        "Motor Function Impairment"
+      ]
+    },
+    {
+      "id": "NeurologicalDysfunction",
+      "label": "Neurologic Dysfunction",
+      "type": "Symptom",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0235032"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "LearningDisability",
+      "label": "Learning Disability",
+      "type": "Symptom",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0023186"
+      },
+      "synonyms": [
+        "Learning Deficit"
+      ]
+    },
+    {
+      "id": "Hyperactivity",
+      "label": "Hyperactivity",
+      "type": "Symptom",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0020554"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "BloodBrainBarrierDysfunction",
+      "label": "Blood-Brain Barrier Dysfunction",
+      "type": "Pathology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C5441864"
+      },
+      "synonyms": [
+        "Chronic Blood-Brain Barrier Alterations"
+      ]
+    },
+    {
+      "id": "CSFCirculation",
+      "label": "CSF Circulation",
+      "type": "Process",
+      "location": "CSF",
+      "identifiers": {
+        "GO_ID": "GO:0010534"
+      },
+      "synonyms": [
+        "Cerebrospinal Fluid Movement"
+      ]
+    },
+    {
+      "id": "Norepinephrine",
+      "label": "Norepinephrine",
+      "type": "Chemical",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "ChEBI_ID": "CHEBI:18357"
+      },
+      "synonyms": [
+        "Noradrenaline"
+      ]
+    },
+    {
+      "id": "Arousal",
+      "label": "Arousal",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0003788"
+      },
+      "synonyms": [
+        "Arousal Levels"
+      ]
+    },
+    {
+      "id": "PsychostimulantResponse",
+      "label": "Psychostimulant Response",
+      "type": "Phenotype",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0597193"
+      },
+      "synonyms": [
+        "Psychostimulant Responsivity"
+      ]
+    },
+    {
+      "id": "BrainHypometabolism",
+      "label": "Brain Hypometabolism",
+      "type": "Pathology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C4048956"
+      },
+      "synonyms": [
+        "Hypometabolism"
+      ]
+    },
+    {
+      "id": "ChronicTraumaticEncephalopathy",
+      "label": "Chronic Traumatic Encephalopathy",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C1510526"
+      },
+      "synonyms": [
+        "CTE"
+      ]
+    },
+    {
+      "id": "MemoryImpairment",
+      "label": "Memory Impairment",
+      "type": "Symptom",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0150063"
+      },
+      "synonyms": [
+        "Memory Deficit",
+        "Short-Term Memory Loss"
+      ]
+    },
+    {
+      "id": "SocialBehavior",
+      "label": "Social Behavior",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "GO_ID": "GO:0035176"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Adaptation",
+      "label": "Adaptation",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0001452"
+      },
+      "synonyms": [
+        "Environmental Response"
+      ]
+    },
+    {
+      "id": "Vasodilation",
+      "label": "Vasodilation",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "GO_ID": "GO:0042311"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "LGMN",
+      "label": "LGMN",
+      "type": "Protein",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "HGNC_ID": "HGNC:6561",
+        "UMLS_CUI": "C1334468"
+      },
+      "synonyms": [
+        "Asparaginyl Endopeptidase",
+        "AEP",
+        "Legumain"
+      ]
+    },
+    {
+      "id": "CerebrovascularReactivity",
+      "label": "Cerebrovascular Reactivity",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C2349987"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "VisualEvokedPotential",
+      "label": "Visual Evoked Potential",
+      "type": "Diagnostic",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0015264"
+      },
+      "synonyms": [
+        "VEP"
+      ]
+    },
+    {
+      "id": "SensorimotorDysfunction",
+      "label": "Sensorimotor Dysfunction",
+      "type": "Symptom",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0521654"
+      },
+      "synonyms": [
+        "Sensorimotor Function Impairment"
+      ]
+    },
+    {
+      "id": "BrainAtrophy",
+      "label": "Brain Atrophy",
+      "type": "Pathology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0235946"
+      },
+      "synonyms": [
+        "Cortex Volume Loss"
+      ]
+    },
+    {
+      "id": "Neuron",
+      "label": "Neuron",
+      "type": "Cell",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027882"
+      },
+      "synonyms": [
+        "Neuron Count"
+      ]
+    },
+    {
+      "id": "WhiteMatterInjury",
+      "label": "White Matter Injury",
+      "type": "Pathology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C4014885"
+      },
+      "synonyms": [
+        "Abnormal DTI Parameters"
+      ]
+    },
+    {
+      "id": "Ventriculomegaly",
+      "label": "Ventriculomegaly",
+      "type": "Pathology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C3278925"
+      },
+      "synonyms": [
+        "Lateral Ventricle Volume Increase"
+      ]
+    },
+    {
+      "id": "NeurologicalSeverity",
+      "label": "Neurological Severity",
+      "type": "Phenotype",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0036775"
+      },
+      "synonyms": [
+        "NSS"
+      ]
+    },
+    {
+      "id": "VisuospatialLearning",
+      "label": "Visuospatial Learning",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "GO_ID": "GO:0001906"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Attention",
+      "label": "Attention",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0004268"
+      },
+      "synonyms": [
+        "Sustained Attention"
+      ]
+    },
+    {
+      "id": "NeuronalDeath",
+      "label": "Neuronal Death",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "GO_ID": "GO:0070997"
+      },
+      "synonyms": [
+        "Neuronal Cell Death"
+      ]
+    },
+    {
+      "id": "CerebellarInjury",
+      "label": "Cerebellar Injury",
+      "type": "Pathology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0270830"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "CorticospinalTractInjury",
+      "label": "Corticospinal Tract Injury",
+      "type": "Pathology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0151624"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "NeuronalActivity",
+      "label": "Neuronal Activity",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0034762"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "InhibitorySynapticTransmission",
+      "label": "Inhibitory Synaptic Transmission",
+      "type": "Process",
+      "location": "Synapse",
+      "identifiers": {
+        "GO_ID": "GO:0060077"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "FearLearning",
+      "label": "Fear Learning",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "GO_ID": "GO:0001662"
+      },
+      "synonyms": [
+        "Associative Fear Learning"
+      ]
+    },
+    {
+      "id": "ExplorationBehavior",
+      "label": "Exploration Behavior",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "GO_ID": "GO:0035640"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "GroomingBehavior",
+      "label": "Grooming Behavior",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "GO_ID": "GO:0007625"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Immobility",
+      "label": "Immobility",
+      "type": "Phenotype",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0232675"
+      },
+      "synonyms": [
+        "Inactivity"
+      ]
+    },
+    {
+      "id": "DiseaseOnset",
+      "label": "Disease Onset",
+      "type": "Process",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0205250"
+      },
+      "synonyms": []
+    }
+  ],
+  "edges": [
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "MuralCell",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        35
+      ],
+      "confidence": "High",
+      "metadata": "Context: Progressive decline in mural cell markers/Dysfunction"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "PostConcussionSyndrome",
+      "mechanism": "triggers",
+      "evidence_ref": [
+        54
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "TraumaticAxonalInjury",
+      "mechanism": "triggers",
+      "evidence_ref": [
+        315
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Mitophagy",
+      "mechanism": "activates",
+      "evidence_ref": [
+        320
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "DelayedRecovery",
+      "mechanism": "causes",
+      "evidence_ref": [
+        81,
+        116
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Demyelination",
+      "mechanism": "causes",
+      "evidence_ref": [
+        44
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Neuropathology",
+      "mechanism": "causes",
+      "evidence_ref": [
+        9
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Neurodegeneration",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        15,
+        20,
+        32,
+        215
+      ],
+      "confidence": "Medium",
+      "metadata": "Conflict: Ref 20 states TBI does not cause neurodegeneration; Ref 15, 32, 215 state it does."
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "NeuronalDamage",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        18
+      ],
+      "confidence": "High",
+      "metadata": "Context: Exacerbates"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Behavior",
+      "mechanism": "causes",
+      "evidence_ref": [
+        17,
+        127,
+        332
+      ],
+      "confidence": "Medium",
+      "metadata": "Conflict: Ref 17 states no effect; Refs 127, 332 observe abnormalities."
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "CognitiveImpairment",
+      "mechanism": "causes",
+      "evidence_ref": [
+        18,
+        28,
+        29,
+        68,
+        126,
+        185,
+        300,
+        314,
+        332
+      ],
+      "confidence": "Very High",
+      "metadata": ""
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "MotorDysfunction",
+      "mechanism": "causes",
+      "evidence_ref": [
+        18,
+        32
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "NeurologicalDysfunction",
+      "mechanism": "causes",
+      "evidence_ref": [
+        20
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "LearningDisability",
+      "mechanism": "causes",
+      "evidence_ref": [
+        20
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Hyperactivity",
+      "mechanism": "causes",
+      "evidence_ref": [
+        20
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "BloodBrainBarrierDysfunction",
+      "mechanism": "causes",
+      "evidence_ref": [
+        25
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "CSFCirculation",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        25
+      ],
+      "confidence": "High",
+      "metadata": "Context: Reduces movement"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Norepinephrine",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        29
+      ],
+      "confidence": "High",
+      "metadata": "Location: Prefrontal Cortex response"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Arousal",
+      "mechanism": "causes",
+      "evidence_ref": [
+        29
+      ],
+      "confidence": "High",
+      "metadata": "Context: Persistent/Altered levels"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "PsychostimulantResponse",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        29
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "BrainHypometabolism",
+      "mechanism": "causes",
+      "evidence_ref": [
+        32
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "ChronicTraumaticEncephalopathy",
+      "mechanism": "causes",
+      "evidence_ref": [
+        44,
+        103,
+        245
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "MemoryImpairment",
+      "mechanism": "causes",
+      "evidence_ref": [
+        53,
+        332
+      ],
+      "confidence": "High",
+      "metadata": "Includes Short-Term Memory decrease"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "SocialBehavior",
+      "mechanism": "impairs",
+      "evidence_ref": [
+        68,
+        127
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Adaptation",
+      "mechanism": "impairs",
+      "evidence_ref": [
+        68
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Vasodilation",
+      "mechanism": "causes",
+      "evidence_ref": [
+        71
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "LGMN",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        82
+      ],
+      "confidence": "High",
+      "metadata": "Context: Correlates with Active Asparaginyl Endopeptidase"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "CerebrovascularReactivity",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        92
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "VisualEvokedPotential",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        94
+      ],
+      "confidence": "High",
+      "metadata": "Context: Changes"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "SensorimotorDysfunction",
+      "mechanism": "causes",
+      "evidence_ref": [
+        103
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "BrainAtrophy",
+      "mechanism": "causes",
+      "evidence_ref": [
+        114,
+        116
+      ],
+      "confidence": "High",
+      "metadata": "Includes Cortex Volume changes"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Neuron",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        116,
+        185
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Ref 116 notes count change; Ref 185 notes no effect on integrity."
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "WhiteMatterInjury",
+      "mechanism": "causes",
+      "evidence_ref": [
+        116
+      ],
+      "confidence": "High",
+      "metadata": "Context: Abnormal DTI parameters"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Ventriculomegaly",
+      "mechanism": "causes",
+      "evidence_ref": [
+        116
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "NeurologicalSeverity",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        116
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "VisuospatialLearning",
+      "mechanism": "impairs",
+      "evidence_ref": [
+        117
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "DiseaseOnset",
+      "mechanism": "accelerates",
+      "evidence_ref": [
+        138,
+        373
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Attention",
+      "mechanism": "impairs",
+      "evidence_ref": [
+        185
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "NeuronalDeath",
+      "mechanism": "causes",
+      "evidence_ref": [
+        315
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "CerebellarInjury",
+      "mechanism": "causes",
+      "evidence_ref": [
+        315
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "CorticospinalTractInjury",
+      "mechanism": "causes",
+      "evidence_ref": [
+        315
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "NeuronalActivity",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        332
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "InhibitorySynapticTransmission",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        332
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "FearLearning",
+      "mechanism": "impairs",
+      "evidence_ref": [
+        332
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "ExplorationBehavior",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        332
+      ],
+      "confidence": "High",
+      "metadata": "Context: Increased time"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "GroomingBehavior",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        332
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Immobility",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        332
+      ],
+      "confidence": "High",
+      "metadata": "Context: Decreased inactivity"
+    }
+  ]
+}

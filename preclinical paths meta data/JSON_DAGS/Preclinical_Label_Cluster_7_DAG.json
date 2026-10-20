@@ -1,0 +1,495 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 21,
+    "edge_count": 21
+  },
+  "nodes": [
+    {
+      "id": "ResolvinD1",
+      "label": "Resolvin D1",
+      "type": "Chemical",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "UMLS_CUI": "C1519195",
+        "ChEBI_ID": "CHEBI:84088"
+      },
+      "synonyms": [
+        "RvD1",
+        "17(S)-resolvin D1"
+      ]
+    },
+    {
+      "id": "CognitiveDysfunction",
+      "label": "Cognitive Dysfunction",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0009241"
+      },
+      "synonyms": [
+        "Cognitive Impairment",
+        "Cognitive Decline"
+      ]
+    },
+    {
+      "id": "BDNF",
+      "label": "BDNF",
+      "type": "Protein",
+      "location": "Astrocyte",
+      "identifiers": {
+        "UMLS_CUI": "C0006248",
+        "HGNC_ID": "HGNC:1033",
+        "UniProt_ID": "P23560"
+      },
+      "synonyms": [
+        "Brain-Derived Neurotrophic Factor",
+        "Abrineurin"
+      ]
+    },
+    {
+      "id": "SLC1A3",
+      "label": "SLC1A3",
+      "type": "Protein",
+      "location": "Astrocyte",
+      "identifiers": {
+        "UMLS_CUI": "C1415174",
+        "HGNC_ID": "HGNC:10972",
+        "UniProt_ID": "P43003"
+      },
+      "synonyms": [
+        "GLAST",
+        "EAAT1",
+        "Glutamate-Aspartate Transporter"
+      ]
+    },
+    {
+      "id": "Mitophagy",
+      "label": "Mitophagy",
+      "type": "Process",
+      "location": "Mitochondria",
+      "identifiers": {
+        "UMLS_CUI": "C3463870",
+        "GO_ID": "GO:0000422"
+      },
+      "synonyms": [
+        "Mitochondrial Autophagy"
+      ]
+    },
+    {
+      "id": "ReactiveOxygenSpecies",
+      "label": "Reactive Oxygen Species",
+      "type": "Chemical",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "UMLS_CUI": "C0034795",
+        "ChEBI_ID": "CHEBI:26523"
+      },
+      "synonyms": [
+        "ROS",
+        "Free Radicals"
+      ]
+    },
+    {
+      "id": "MitochondrialDysfunction",
+      "label": "Mitochondrial Dysfunction",
+      "type": "Pathology",
+      "location": "Mitochondria",
+      "identifiers": {
+        "UMLS_CUI": "C0026237"
+      },
+      "synonyms": [
+        "Mitochondrial Damage",
+        "Mitochondrial Impairment"
+      ]
+    },
+    {
+      "id": "Gliosis",
+      "label": "Gliosis",
+      "type": "Pathology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0017639"
+      },
+      "synonyms": [
+        "Glial Scarring"
+      ]
+    },
+    {
+      "id": "NeuronalDeath",
+      "label": "Neuronal Death",
+      "type": "Process",
+      "location": "Neuron",
+      "identifiers": {
+        "UMLS_CUI": "C0027651",
+        "GO_ID": "GO:0070997"
+      },
+      "synonyms": [
+        "Neuronal Loss",
+        "Neurodegeneration",
+        "Retinal Ganglion Cell Loss"
+      ]
+    },
+    {
+      "id": "SIRT2",
+      "label": "SIRT2",
+      "type": "Protein",
+      "location": "Microglia",
+      "identifiers": {
+        "UMLS_CUI": "C1335868",
+        "HGNC_ID": "HGNC:14930",
+        "UniProt_ID": "Q8IXJ6"
+      },
+      "synonyms": [
+        "Sirtuin 2",
+        "NAD-dependent protein deacetylase sirtuin-2"
+      ]
+    },
+    {
+      "id": "NLRP3",
+      "label": "NLRP3",
+      "type": "Protein",
+      "location": "Microglia",
+      "identifiers": {
+        "UMLS_CUI": "C1417552",
+        "HGNC_ID": "HGNC:16400",
+        "UniProt_ID": "Q96P20"
+      },
+      "synonyms": [
+        "NLRP3 Inflammasome",
+        "Cryopyrin"
+      ]
+    },
+    {
+      "id": "CASP1",
+      "label": "CASP1",
+      "type": "Protein",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "UMLS_CUI": "C1332822",
+        "HGNC_ID": "HGNC:1499",
+        "UniProt_ID": "P29466"
+      },
+      "synonyms": [
+        "Caspase-1",
+        "Interleukin-1 beta-converting enzyme"
+      ]
+    },
+    {
+      "id": "Neuroinflammation",
+      "label": "Neuroinflammation",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027947"
+      },
+      "synonyms": [
+        "Brain Inflammation"
+      ]
+    },
+    {
+      "id": "Pyroptosis",
+      "label": "Pyroptosis",
+      "type": "Process",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "UMLS_CUI": "C3539744",
+        "GO_ID": "GO:0070269"
+      },
+      "synonyms": [
+        "Inflammatory Cell Death"
+      ]
+    },
+    {
+      "id": "BrainEdema",
+      "label": "Brain Edema",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006114"
+      },
+      "synonyms": [
+        "Cerebral Edema"
+      ]
+    },
+    {
+      "id": "BloodBrainBarrierDisruption",
+      "label": "Blood Brain Barrier Disruption",
+      "type": "Pathology",
+      "location": "Blood",
+      "identifiers": {
+        "UMLS_CUI": "C0206124"
+      },
+      "synonyms": [
+        "BBB Breakdown"
+      ]
+    },
+    {
+      "id": "NeurologicFunction",
+      "label": "Neurologic Function",
+      "type": "Physiology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027853"
+      },
+      "synonyms": [
+        "Neurological Function"
+      ]
+    },
+    {
+      "id": "Resveratrol",
+      "label": "Resveratrol",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0094676",
+        "ChEBI_ID": "CHEBI:27881"
+      },
+      "synonyms": [
+        "Trans-resveratrol"
+      ]
+    },
+    {
+      "id": "SIRT1",
+      "label": "SIRT1",
+      "type": "Protein",
+      "location": "Nucleus",
+      "identifiers": {
+        "UMLS_CUI": "C1420176",
+        "HGNC_ID": "HGNC:14929",
+        "UniProt_ID": "Q96EB6"
+      },
+      "synonyms": [
+        "Sirtuin 1"
+      ]
+    },
+    {
+      "id": "OptokineticResponse",
+      "label": "Optokinetic Response",
+      "type": "Physiology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0029114"
+      },
+      "synonyms": [
+        "Optokinetic Nystagmus"
+      ]
+    },
+    {
+      "id": "VisualPerception",
+      "label": "Visual Perception",
+      "type": "Physiology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0042789"
+      },
+      "synonyms": [
+        "Visual Function",
+        "Vision"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "ResolvinD1",
+      "target": "CognitiveDysfunction",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        241
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "ResolvinD1",
+      "target": "BDNF",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        241
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "ResolvinD1",
+      "target": "SLC1A3",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        241
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "ResolvinD1",
+      "target": "Mitophagy",
+      "mechanism": "activates",
+      "evidence_ref": [
+        241
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "ResolvinD1",
+      "target": "ReactiveOxygenSpecies",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        241
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "ResolvinD1",
+      "target": "MitochondrialDysfunction",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        241
+      ],
+      "confidence": "High",
+      "metadata": "Context: Protects Astrocyte Mitochondria"
+    },
+    {
+      "source": "ResolvinD1",
+      "target": "Gliosis",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        241
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "ResolvinD1",
+      "target": "NeuronalDeath",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        241
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "SIRT2",
+      "target": "NLRP3",
+      "mechanism": "activates",
+      "evidence_ref": [
+        340
+      ],
+      "confidence": "High",
+      "metadata": "Evidence: SIRT2 Knockout downregulates NLRP3 Inflammasome"
+    },
+    {
+      "source": "SIRT2",
+      "target": "CASP1",
+      "mechanism": "activates",
+      "evidence_ref": [
+        340
+      ],
+      "confidence": "High",
+      "metadata": "Evidence: SIRT2 Knockout downregulates Caspase-1"
+    },
+    {
+      "source": "SIRT2",
+      "target": "Neuroinflammation",
+      "mechanism": "causes",
+      "evidence_ref": [
+        340
+      ],
+      "confidence": "High",
+      "metadata": "Evidence: SIRT2 Knockout downregulates Neuroinflammation"
+    },
+    {
+      "source": "SIRT2",
+      "target": "Pyroptosis",
+      "mechanism": "causes",
+      "evidence_ref": [
+        340
+      ],
+      "confidence": "High",
+      "metadata": "Evidence: SIRT2 Knockout downregulates Pyroptosis"
+    },
+    {
+      "source": "SIRT2",
+      "target": "BrainEdema",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        340
+      ],
+      "confidence": "High",
+      "metadata": "Evidence: SIRT2 Knockout ameliorates Brain Edema"
+    },
+    {
+      "source": "SIRT2",
+      "target": "BloodBrainBarrierDisruption",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        340
+      ],
+      "confidence": "High",
+      "metadata": "Evidence: SIRT2 Knockout ameliorates BBB Disruption"
+    },
+    {
+      "source": "SIRT2",
+      "target": "NeurologicFunction",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        340
+      ],
+      "confidence": "High",
+      "metadata": "Evidence: SIRT2 Knockout improves Neurological Function"
+    },
+    {
+      "source": "Resveratrol",
+      "target": "SIRT1",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        377
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "SIRT1",
+      "target": "NeuronalDeath",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        377
+      ],
+      "confidence": "High",
+      "metadata": "Context: Retinal Ganglion Cells; Evidence: SIRT1 Overexpression ameliorates cell loss"
+    },
+    {
+      "source": "Resveratrol",
+      "target": "OptokineticResponse",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        377
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "SIRT1",
+      "target": "OptokineticResponse",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        377
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "Resveratrol",
+      "target": "VisualPerception",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        377
+      ],
+      "confidence": "High",
+      "metadata": "Context: Preserves Visual Function"
+    },
+    {
+      "source": "Resveratrol",
+      "target": "NeuronalDeath",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        377
+      ],
+      "confidence": "High",
+      "metadata": "Context: Retinal Ganglion Cells; Mediated by SIRT1"
+    }
+  ]
+}

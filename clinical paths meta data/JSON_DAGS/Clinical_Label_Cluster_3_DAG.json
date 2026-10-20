@@ -1,0 +1,143 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 5,
+    "edge_count": 5
+  },
+  "nodes": [
+    {
+      "id": "DiabetesMellitus",
+      "label": "Diabetes Mellitus",
+      "type": "Disease",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0011849",
+        "MeSH": "D003920"
+      },
+      "synonyms": [
+        "Type 2 Diabetes Mellitus",
+        "DM",
+        "T2DM"
+      ]
+    },
+    {
+      "id": "Dementia",
+      "label": "Dementia",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0497327",
+        "MeSH": "D003704"
+      },
+      "synonyms": [
+        "Senile Dementia"
+      ]
+    },
+    {
+      "id": "VascularDementia",
+      "label": "Vascular Dementia",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0011265",
+        "MeSH": "D015140"
+      },
+      "synonyms": [
+        "Multi-infarct dementia",
+        "Vascular cognitive impairment"
+      ]
+    },
+    {
+      "id": "Hyperglycemia",
+      "label": "Hyperglycemia",
+      "type": "Phenotype",
+      "location": "Blood",
+      "identifiers": {
+        "UMLS_CUI": "C0020459",
+        "MeSH": "D006943"
+      },
+      "synonyms": [
+        "High Blood Sugar",
+        "Hyperglycemic Crisis"
+      ]
+    },
+    {
+      "id": "CognitiveImpairment",
+      "label": "Cognitive Impairment",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0338656",
+        "MeSH": "D060825"
+      },
+      "synonyms": [
+        "Cognitive Dysfunction",
+        "Cognitive Decline",
+        "Mild Cognitive Impairment"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "DiabetesMellitus",
+      "target": "Dementia",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        11,
+        322,
+        331,
+        335,
+        375,
+        456,
+        496,
+        591,
+        598
+      ],
+      "confidence": "High",
+      "metadata": "Consolidated findings: causes, increases risk of, and influences conversion to Dementia."
+    },
+    {
+      "source": "DiabetesMellitus",
+      "target": "VascularDementia",
+      "mechanism": "causes",
+      "evidence_ref": [
+        311
+      ],
+      "confidence": "Medium",
+      "metadata": "Specific etiology link."
+    },
+    {
+      "source": "DiabetesMellitus",
+      "target": "CognitiveImpairment",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        537,
+        548,
+        564
+      ],
+      "confidence": "Low",
+      "metadata": "Conflict: Ref 537 states 'not causally related'; Ref 548 states 'causes'; Ref 564 states 'interacts with'."
+    },
+    {
+      "source": "Hyperglycemia",
+      "target": "Dementia",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        437
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Hyperglycemic Crisis increases risk."
+    },
+    {
+      "source": "Hyperglycemia",
+      "target": "CognitiveImpairment",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        36
+      ],
+      "confidence": "Low",
+      "metadata": "Input text noted 'Cognitive Dysfunction associated with Hyperglycemia'."
+    }
+  ]
+}

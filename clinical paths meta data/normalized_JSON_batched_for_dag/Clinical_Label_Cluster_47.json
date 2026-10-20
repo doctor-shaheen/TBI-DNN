@@ -1,0 +1,219 @@
+[
+    {
+        "source_abstract_id":25,
+        "subject":"White Matter Atrophy",
+        "relation":"associated_with",
+        "object":"Lower Fractional Anisotropy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":243,
+        "subject":"Diffusion Tensor Imaging",
+        "relation":"diagnoses",
+        "object":"Diffuse Axonal Injury",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":487,
+        "subject":"Diffusion Tensor Imaging Metrics",
+        "relation":"diagnoses",
+        "object":"Traumatic Axonal Injury",
+        "entity_variants":"not specified"
+    },
+    {
+        "source_abstract_id":500,
+        "subject":"Traumatic Brain Injury Subjects",
+        "relation":"exhibit",
+        "object":"Microstructural Abnormalities",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":515,
+        "subject":"Right Anterior Thalamic Tract",
+        "relation":"identified_for",
+        "object":"Radial Diffusivity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":515,
+        "subject":"Right Anterior Thalamic Tract",
+        "relation":"identified_for",
+        "object":"Axial Diffusivity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":25,
+        "subject":"Volumetric Variations",
+        "relation":"negatively_correlated_with",
+        "object":"Normalized Mean Diffusivity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":25,
+        "subject":"Diffusion Tensor Imaging",
+        "relation":"predicts",
+        "object":"Neurologic Outcome",
+        "entity_variants":"baseline"
+    },
+    {
+        "source_abstract_id":155,
+        "subject":"Diffusion Tensor Imaging Abnormalities",
+        "relation":"manifestation_of",
+        "object":"Decrease in Fractional Anisotropy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":183,
+        "subject":"Older Age",
+        "relation":"associated_with",
+        "object":"Diffusion Tensor Imaging Abnormalities",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":183,
+        "subject":"Verbal Memory",
+        "relation":"associated_with",
+        "object":"Diffusion Tensor Imaging Abnormalities",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":183,
+        "subject":"Verbal Fluency",
+        "relation":"associated_with",
+        "object":"Diffusion Tensor Imaging Abnormalities",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":183,
+        "subject":"Brain Injury Diagnosis",
+        "relation":"associated_with",
+        "object":"Diffusion Tensor Imaging Abnormalities",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":275,
+        "subject":"Noncollar Group",
+        "relation":"associated_with",
+        "object":"Reduced Diffusivity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":275,
+        "subject":"Season 1",
+        "relation":"associated_with",
+        "object":"Significant Reduction in Diffusivity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":474,
+        "subject":"Differential Tractography",
+        "relation":"evaluates",
+        "object":"Injured Fiber Bundles",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":487,
+        "subject":"Scholastic Athletes",
+        "relation":"associated_with",
+        "object":"Elevated Axial Diffusivity",
+        "entity_variants":"not specified"
+    },
+    {
+        "source_abstract_id":487,
+        "subject":"Diffusion Tensor Imaging",
+        "relation":"reveals",
+        "object":"Differences in Mechanisms",
+        "entity_variants":"not specified"
+    },
+    {
+        "source_abstract_id":490,
+        "subject":"Microstructure Alterations",
+        "relation":"associated_with",
+        "object":"Functional Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":490,
+        "subject":"Deep White Matter Fractional Anisotropy",
+        "relation":"associated_with",
+        "object":"Functional Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":492,
+        "subject":"Diffusion Tensor Imaging",
+        "relation":"diagnoses",
+        "object":"Subacute Injury",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":500,
+        "subject":"Diffusion Tensor Imaging",
+        "relation":"indicates",
+        "object":"Microstructural Abnormalities",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":500,
+        "subject":"Mean Diffusivity",
+        "relation":"associated_with",
+        "object":"Cognitive Performance",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":500,
+        "subject":"Radial Diffusivity",
+        "relation":"associated_with",
+        "object":"Visuomotor Coordination",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":515,
+        "subject":"Fiber Tracts",
+        "relation":"produced_by",
+        "object":"Fiber Tractography Analysis",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":524,
+        "subject":"Decreased Fractional Anisotropy Value",
+        "relation":"associated_with",
+        "object":"Increased Mean Diffusivity Value",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":556,
+        "subject":"Diffusion MRI Tractography",
+        "relation":"creates",
+        "object":"Brainstem Bundle Tool",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":556,
+        "subject":"Brainstem Bundle Tool",
+        "relation":"reveals",
+        "object":"Brainstem White Matter Bundle Alterations",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":556,
+        "subject":"Brainstem Bundle Tool",
+        "relation":"supports",
+        "object":"Prognostic Utility",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":556,
+        "subject":"Brainstem Bundle Tool",
+        "relation":"validates",
+        "object":"Diffusion MRI Acquisition Protocols",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":556,
+        "subject":"Brainstem Bundle Tool",
+        "relation":"facilitates",
+        "object":"Investigation of Brainstem Role",
+        "entity_variants":null
+    }
+]

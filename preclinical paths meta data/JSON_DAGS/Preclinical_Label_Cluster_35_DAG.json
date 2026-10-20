@@ -1,0 +1,472 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 21,
+    "edge_count": 19
+  },
+  "nodes": [
+    {
+      "id": "Xenon",
+      "label": "Xenon",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0043292",
+        "ChEBI_ID": "CHEBI:49476"
+      },
+      "synonyms": [
+        "Xe"
+      ]
+    },
+    {
+      "id": "MemoryDisorders",
+      "label": "Memory Disorders",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0025277"
+      },
+      "synonyms": [
+        "Memory Deficit",
+        "Recognition Memory Deficits",
+        "Amnesia"
+      ]
+    },
+    {
+      "id": "HypobaricHypoxia",
+      "label": "Hypobaric Hypoxia",
+      "type": "Process",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0002935"
+      },
+      "synonyms": [
+        "Hypobaric Exposure",
+        "High Altitude Hypoxia"
+      ]
+    },
+    {
+      "id": "CognitiveDysfunction",
+      "label": "Cognitive Dysfunction",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0338656"
+      },
+      "synonyms": [
+        "Cognitive Deficit",
+        "Cognitive Decline",
+        "Cognitive Disorders"
+      ]
+    },
+    {
+      "id": "NeuronalDeath",
+      "label": "Neuronal Death",
+      "type": "Process",
+      "location": "Neuron",
+      "identifiers": {
+        "GO_ID": "GO:0070245",
+        "UMLS_CUI": "C0027787"
+      },
+      "synonyms": [
+        "Hippocampal Neuronal Loss",
+        "Neuron Loss"
+      ]
+    },
+    {
+      "id": "Hyperoxia",
+      "label": "Hyperoxia",
+      "type": "Condition",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0020516"
+      },
+      "synonyms": [
+        "High Oxygen Tension"
+      ]
+    },
+    {
+      "id": "Neuroinflammation",
+      "label": "Neuroinflammation",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0020517"
+      },
+      "synonyms": [
+        "Brain Inflammation"
+      ]
+    },
+    {
+      "id": "TissueMorphology",
+      "label": "Tissue Morphology",
+      "type": "Phenotype",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0026639"
+      },
+      "synonyms": [
+        "Histological Changes",
+        "Microstructural Changes",
+        "Dynamic Changes"
+      ]
+    },
+    {
+      "id": "Behavior",
+      "label": "Behavior",
+      "type": "Phenotype",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0004927"
+      },
+      "synonyms": [
+        "Behavioral Outcome"
+      ]
+    },
+    {
+      "id": "SensorimotorDisorders",
+      "label": "Sensorimotor Disorders",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0521557"
+      },
+      "synonyms": [
+        "Sensorimotor Deficit"
+      ]
+    },
+    {
+      "id": "NeurologicOutcome",
+      "label": "Neurologic Outcome",
+      "type": "Phenotype",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C1276226"
+      },
+      "synonyms": [
+        "Long-Term Outcome"
+      ]
+    },
+    {
+      "id": "Gliosis",
+      "label": "Gliosis",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0017639"
+      },
+      "synonyms": [
+        "Microglial and Astrocyte Activation",
+        "Glial Activation"
+      ]
+    },
+    {
+      "id": "Oxygen",
+      "label": "Oxygen",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "ChEBI_ID": "CHEBI:15379",
+        "UMLS_CUI": "C0030054"
+      },
+      "synonyms": [
+        "O2",
+        "Oxygen Exposure",
+        "Oxygen Therapy"
+      ]
+    },
+    {
+      "id": "VisualAcuity",
+      "label": "Visual Acuity",
+      "type": "Phenotype",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0042789"
+      },
+      "synonyms": [
+        "Vision"
+      ]
+    },
+    {
+      "id": "CombatExposure",
+      "label": "Combat Exposure",
+      "type": "Process",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0009388"
+      },
+      "synonyms": [
+        "Military Exposure",
+        "Military Personnel",
+        "Warfare"
+      ]
+    },
+    {
+      "id": "BrainVolume",
+      "label": "Brain Volume",
+      "type": "Phenotype",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C4040909"
+      },
+      "synonyms": [
+        "Reduced Brain Volume",
+        "Ipsilateral Volume Changes"
+      ]
+    },
+    {
+      "id": "WhiteMatterStructure",
+      "label": "White Matter Structure",
+      "type": "Phenotype",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0043135"
+      },
+      "synonyms": [
+        "Fractional Anisotropy",
+        "Radial Diffusivity",
+        "Axial Diffusivity Changes"
+      ]
+    },
+    {
+      "id": "CerebrovascularCirculation",
+      "label": "Cerebrovascular Circulation",
+      "type": "Process",
+      "location": "Blood",
+      "identifiers": {
+        "UMLS_CUI": "C0007767"
+      },
+      "synonyms": [
+        "Cerebral Blood Flow Alterations"
+      ]
+    },
+    {
+      "id": "PostTraumaticStressDisorder",
+      "label": "Post Traumatic Stress Disorder",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0038436"
+      },
+      "synonyms": [
+        "PTSD"
+      ]
+    },
+    {
+      "id": "MentalDisorders",
+      "label": "Mental Disorders",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0004936"
+      },
+      "synonyms": [
+        "Neurobehavioral Deficits",
+        "Neuropsychiatric Sequelae"
+      ]
+    },
+    {
+      "id": "VascularSystemInjury",
+      "label": "Vascular System Injury",
+      "type": "Disease",
+      "location": "Blood",
+      "identifiers": {
+        "UMLS_CUI": "C0149520"
+      },
+      "synonyms": [
+        "Focal Vascular Injury"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "Xenon",
+      "target": "MemoryDisorders",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        125
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "HypobaricHypoxia",
+      "target": "CognitiveDysfunction",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        174
+      ],
+      "confidence": "High",
+      "metadata": "Effect: Worsens"
+    },
+    {
+      "source": "HypobaricHypoxia",
+      "target": "NeuronalDeath",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        174
+      ],
+      "confidence": "High",
+      "metadata": "Location: Hippocampus"
+    },
+    {
+      "source": "HypobaricHypoxia",
+      "target": "Neuroinflammation",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        174
+      ],
+      "confidence": "High",
+      "metadata": "Effect: Worsens"
+    },
+    {
+      "source": "HypobaricHypoxia",
+      "target": "TissueMorphology",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        174
+      ],
+      "confidence": "High",
+      "metadata": "Context: Histological Changes"
+    },
+    {
+      "source": "HypobaricHypoxia",
+      "target": "Behavior",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        174
+      ],
+      "confidence": "High",
+      "metadata": "Effect: Worsens"
+    },
+    {
+      "source": "HypobaricHypoxia",
+      "target": "SensorimotorDisorders",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        174
+      ],
+      "confidence": "High",
+      "metadata": "Effect: Worsens"
+    },
+    {
+      "source": "HypobaricHypoxia",
+      "target": "NeurologicOutcome",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        174
+      ],
+      "confidence": "High",
+      "metadata": "Effect: Worsens Long-Term Outcome"
+    },
+    {
+      "source": "HypobaricHypoxia",
+      "target": "Gliosis",
+      "mechanism": "activates",
+      "evidence_ref": [
+        174
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "Hyperoxia",
+      "target": "CognitiveDysfunction",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        174
+      ],
+      "confidence": "High",
+      "metadata": "Effect: Exacerbates"
+    },
+    {
+      "source": "Oxygen",
+      "target": "VisualAcuity",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        304
+      ],
+      "confidence": "High",
+      "metadata": "Context: Oxygen Therapy improves acuity"
+    },
+    {
+      "source": "CombatExposure",
+      "target": "TissueMorphology",
+      "mechanism": "causes",
+      "evidence_ref": [
+        113
+      ],
+      "confidence": "High",
+      "metadata": "Context: Microstructural Changes"
+    },
+    {
+      "source": "CombatExposure",
+      "target": "CognitiveDysfunction",
+      "mechanism": "causes",
+      "evidence_ref": [
+        113,
+        121,
+        291
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "CombatExposure",
+      "target": "BrainVolume",
+      "mechanism": "affects",
+      "evidence_ref": [
+        113
+      ],
+      "confidence": "High",
+      "metadata": "Context: Reduction, Ipsilateral Changes"
+    },
+    {
+      "source": "CombatExposure",
+      "target": "WhiteMatterStructure",
+      "mechanism": "affects",
+      "evidence_ref": [
+        113
+      ],
+      "confidence": "High",
+      "metadata": "Metrics: Fractional Anisotropy, Radial Diffusivity"
+    },
+    {
+      "source": "CombatExposure",
+      "target": "CerebrovascularCirculation",
+      "mechanism": "causes",
+      "evidence_ref": [
+        131
+      ],
+      "confidence": "High",
+      "metadata": "Effect: Alterations"
+    },
+    {
+      "source": "CombatExposure",
+      "target": "MentalDisorders",
+      "mechanism": "causes",
+      "evidence_ref": [
+        131,
+        316
+      ],
+      "confidence": "High",
+      "metadata": "Context: Neurobehavioral Deficits, Neuropsychiatric Sequelae"
+    },
+    {
+      "source": "CombatExposure",
+      "target": "PostTraumaticStressDisorder",
+      "mechanism": "causes",
+      "evidence_ref": [
+        291
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "CombatExposure",
+      "target": "VascularSystemInjury",
+      "mechanism": "causes",
+      "evidence_ref": [
+        385
+      ],
+      "confidence": "High"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 4,
+    "edge_count": 3
+  },
+  "nodes": [
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "Traumatic Brain Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111",
+        "MESH_ID": "D000070642"
+      },
+      "synonyms": [
+        "Mild Traumatic Brain Injury",
+        "Repetitive Mild Traumatic Brain Injury",
+        "Concussion",
+        "TBI"
+      ]
+    },
+    {
+      "id": "NeurodegenerativeDisorders",
+      "label": "Neurodegenerative Disorders",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0524851",
+        "MESH_ID": "D019636"
+      },
+      "synonyms": [
+        "Neurodegenerative Disease",
+        "Chronic Neurodegenerative Conditions",
+        "Neurodegenerative Diseases"
+      ]
+    },
+    {
+      "id": "NerveDegeneration",
+      "label": "Nerve Degeneration",
+      "type": "Pathology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027746",
+        "GO_ID": "GO:0006412"
+      },
+      "synonyms": [
+        "Neurodegeneration",
+        "Neuronal Changes",
+        "Accelerated neurodegeneration"
+      ]
+    },
+    {
+      "id": "Aging",
+      "label": "Aging",
+      "type": "BiologicalProcess",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0001811",
+        "GO_ID": "GO:0007568"
+      },
+      "synonyms": [
+        "Age",
+        "Age-Related Changes",
+        "Age at Onset"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "NeurodegenerativeDisorders",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        5,
+        114,
+        201,
+        440,
+        504
+      ],
+      "confidence": "High",
+      "metadata": "Consolidated: Includes 'causes', 'increases risk of', and 'associated with' relationships relative to the clinical disease state."
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "NerveDegeneration",
+      "mechanism": "causes",
+      "evidence_ref": [
+        122,
+        129,
+        147,
+        196,
+        267,
+        468,
+        470,
+        474,
+        616
+      ],
+      "confidence": "High",
+      "metadata": "Includes repetitive and mild forms; linked to accelerated age-related changes."
+    },
+    {
+      "source": "Aging",
+      "target": "NerveDegeneration",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        122
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Age at TBI onset determines extent/outcome of neurodegeneration."
+    }
+  ]
+}

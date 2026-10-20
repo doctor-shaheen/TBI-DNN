@@ -1,0 +1,114 @@
+[
+    {
+        "source_abstract_id":11,
+        "subject":"Diabetes Mellitus",
+        "relation":"associated_with",
+        "object":"Dementia",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":36,
+        "subject":"Cognitive Dysfunction",
+        "relation":"associated_with",
+        "object":"Hyperglycemia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":311,
+        "subject":"Diabetes Mellitus",
+        "relation":"causes",
+        "object":"Vascular Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":322,
+        "subject":"Diabetes Mellitus",
+        "relation":"associated_with",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":331,
+        "subject":"Diabetes Mellitus",
+        "relation":"associated_with",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":335,
+        "subject":"Diabetes Mellitus",
+        "relation":"causes",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":375,
+        "subject":"Diabetes Mellitus",
+        "relation":"causes",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":437,
+        "subject":"Hyperglycemic Crisis",
+        "relation":"increases_risk_of",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":437,
+        "subject":"Hyperglycemic Crisis",
+        "relation":"increases_risk_of",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":456,
+        "subject":"Diabetes Mellitus",
+        "relation":"causes",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":496,
+        "subject":"Diabetes Mellitus",
+        "relation":"increases_risk_of",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":537,
+        "subject":"Diabetes Mellitus",
+        "relation":"not_causally_related_to",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":548,
+        "subject":"Diabetes Mellitus",
+        "relation":"causes",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":564,
+        "subject":"Type 2 Diabetes Mellitus",
+        "relation":"interacts_with",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":591,
+        "subject":"Diabetes Mellitus",
+        "relation":"influences",
+        "object":"Conversion to Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":598,
+        "subject":"Diabetes Mellitus",
+        "relation":"increases_risk_of",
+        "object":"Dementia",
+        "entity_variants":null
+    }
+]

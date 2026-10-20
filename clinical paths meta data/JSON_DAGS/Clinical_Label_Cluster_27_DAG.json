@@ -1,0 +1,260 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 10,
+    "edge_count": 10
+  },
+  "nodes": [
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "Traumatic Brain Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111",
+        "MeSH": "D001930"
+      },
+      "synonyms": [
+        "TBI",
+        "Repetitive Traumatic Brain Injury",
+        "Repeated Traumatic Brain Injury",
+        "Head Injury"
+      ]
+    },
+    {
+      "id": "Autoantibody",
+      "label": "Autoantibodies",
+      "type": "Chemical",
+      "location": "Blood",
+      "identifiers": {
+        "UMLS_CUI": "C0004358",
+        "MeSH": "D001323"
+      },
+      "synonyms": [
+        "Neurotoxic Autoantibodies",
+        "Autoantibody Responses"
+      ]
+    },
+    {
+      "id": "Neuroinflammation",
+      "label": "Neuroinflammation",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027705",
+        "GO": "GO:0150076"
+      },
+      "synonyms": [
+        "Perivascular Neuroinflammation",
+        "Chronic Neuroinflammation"
+      ]
+    },
+    {
+      "id": "Inflammation",
+      "label": "Inflammation",
+      "type": "Process",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0021368",
+        "GO": "GO:0006954"
+      },
+      "synonyms": [
+        "Systemic Inflammation",
+        "Persistent Inflammation"
+      ]
+    },
+    {
+      "id": "ImmuneResponse",
+      "label": "Immune Response",
+      "type": "Process",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0020963",
+        "GO": "GO:0006955"
+      },
+      "synonyms": [
+        "Immune Response Patterns"
+      ]
+    },
+    {
+      "id": "Autoimmunity",
+      "label": "Autoimmunity",
+      "type": "Process",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0004364",
+        "MeSH": "D001327"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "RheumatoidArthritis",
+      "label": "Rheumatoid Arthritis",
+      "type": "Disease",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0003873",
+        "MeSH": "D001172"
+      },
+      "synonyms": [
+        "Arthritis"
+      ]
+    },
+    {
+      "id": "CognitiveDecline",
+      "label": "Cognitive Decline",
+      "type": "Symptom",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0234985"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "C1QA",
+      "label": "C1QA",
+      "type": "Protein",
+      "location": "Blood",
+      "identifiers": {
+        "HGNC_ID": "HGNC:1244",
+        "UniProt_ID": "P02745",
+        "UMLS_CUI": "C0009383"
+      },
+      "synonyms": [
+        "Complement C1q",
+        "C1q",
+        "C1q Blockade"
+      ]
+    },
+    {
+      "id": "BloodBrainBarrierDisruption",
+      "label": "Blood-Brain Barrier Disruption",
+      "type": "Pathology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0269382"
+      },
+      "synonyms": [
+        "BBB Disruption"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Autoantibody",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        418,
+        583
+      ],
+      "confidence": "High",
+      "metadata": "Context: Includes neurotoxic, complex, and persistent autoantibody responses."
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Neuroinflammation",
+      "mechanism": "causes",
+      "evidence_ref": [
+        197,
+        260,
+        317,
+        364,
+        418,
+        477
+      ],
+      "confidence": "High",
+      "metadata": "Context: Includes perivascular and chronic forms."
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Inflammation",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        88,
+        108,
+        143,
+        254,
+        356,
+        372,
+        526,
+        560,
+        612
+      ],
+      "confidence": "High",
+      "metadata": "Context: Systemic and persistent inflammation."
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "ImmuneResponse",
+      "mechanism": "activates",
+      "evidence_ref": [
+        263,
+        418
+      ],
+      "confidence": "Medium",
+      "metadata": "Triggers patterns of immune response."
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Autoimmunity",
+      "mechanism": "causes",
+      "evidence_ref": [
+        263
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "RheumatoidArthritis",
+      "mechanism": "causes",
+      "evidence_ref": [
+        75
+      ],
+      "confidence": "Medium",
+      "metadata": "References link TBI to arthritis/RA development."
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "CognitiveDecline",
+      "mechanism": "associated_with",
+      "evidence_ref": [
+        583
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Repeated TBI."
+    },
+    {
+      "source": "Autoimmunity",
+      "target": "Autoantibody",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        583
+      ],
+      "confidence": "Medium",
+      "metadata": "Associated with exacerbation of neurotoxic autoantibodies."
+    },
+    {
+      "source": "C1QA",
+      "target": "TraumaticBrainInjury",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        526
+      ],
+      "confidence": "Medium",
+      "metadata": "Inferred from 'C1q Blockade treats TBI Outcomes'. C1q activity exacerbates outcomes."
+    },
+    {
+      "source": "BloodBrainBarrierDisruption",
+      "target": "Neuroinflammation",
+      "mechanism": "associated_with",
+      "evidence_ref": [
+        431
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    }
+  ]
+}

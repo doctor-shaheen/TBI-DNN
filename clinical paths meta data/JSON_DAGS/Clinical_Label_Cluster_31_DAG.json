@@ -1,0 +1,329 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 12,
+    "edge_count": 14
+  },
+  "nodes": [
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "Traumatic Brain Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111",
+        "MeSH_ID": "D001930"
+      },
+      "synonyms": [
+        "TBI",
+        "Head Injury",
+        "Mild Traumatic Brain Injury",
+        "Severe Traumatic Brain Injury",
+        "Mechanical Trauma",
+        "Injury Mechanisms"
+      ]
+    },
+    {
+      "id": "NeurodegenerativeDisorders",
+      "label": "Neurodegenerative Disorders",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0524851"
+      },
+      "synonyms": [
+        "Neurodegenerative Diseases",
+        "Neurodegenerative Conditions",
+        "Neurodegenerative Sequelae"
+      ]
+    },
+    {
+      "id": "Neurodegeneration",
+      "label": "Neurodegeneration",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027746",
+        "GO_ID": "GO:0006326"
+      },
+      "synonyms": [
+        "Nerve Degeneration",
+        "Neurodegenerative Processes",
+        "Long-Term Neurodegeneration",
+        "Neurodegenerative Changes"
+      ]
+    },
+    {
+      "id": "NeuronalDeath",
+      "label": "Neuronal Death",
+      "type": "Process",
+      "location": "Neuron",
+      "identifiers": {
+        "UMLS_CUI": "C0027740",
+        "GO_ID": "GO:0070997"
+      },
+      "synonyms": [
+        "Neuronal Loss",
+        "Loss of Neuronal Expression",
+        "Nerve Cell Death"
+      ]
+    },
+    {
+      "id": "AxonalInjury",
+      "label": "Axonal Injury",
+      "type": "Pathology",
+      "location": "Neuron",
+      "identifiers": {
+        "UMLS_CUI": "C0151611"
+      },
+      "synonyms": [
+        "Progressive Axonal Degeneration",
+        "Diffuse Axonal Injury"
+      ]
+    },
+    {
+      "id": "Chromatolysis",
+      "label": "Chromatolysis",
+      "type": "Process",
+      "location": "Neuron",
+      "identifiers": {
+        "UMLS_CUI": "C0008515"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "BalloonedNeurons",
+      "label": "Ballooned Neurons",
+      "type": "Pathology",
+      "location": "Neuron",
+      "identifiers": {
+        "UMLS_CUI": "C0424563"
+      },
+      "synonyms": [
+        "Balloon Cells"
+      ]
+    },
+    {
+      "id": "Demyelination",
+      "label": "Demyelination",
+      "type": "Process",
+      "location": "Neuron",
+      "identifiers": {
+        "UMLS_CUI": "C0011304",
+        "GO_ID": "GO:0006338"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "SynapseLoss",
+      "label": "Synapse Loss",
+      "type": "Process",
+      "location": "Synapse",
+      "identifiers": {
+        "UMLS_CUI": "C4277742"
+      },
+      "synonyms": [
+        "Synaptic Loss"
+      ]
+    },
+    {
+      "id": "Neurogenesis",
+      "label": "Neurogenesis",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027743",
+        "GO_ID": "GO:0022008"
+      },
+      "synonyms": [
+        "Neuronal Development"
+      ]
+    },
+    {
+      "id": "BrainstemDegeneration",
+      "label": "Brainstem Degeneration",
+      "type": "Pathology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C1265882"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "PostTraumaticStressDisorder",
+      "label": "Post-Traumatic Stress Disorder",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0038436"
+      },
+      "synonyms": [
+        "PTSD"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "NeurodegenerativeDisorders",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        273,
+        277,
+        386,
+        403,
+        416,
+        574,
+        578,
+        484
+      ],
+      "confidence": "High",
+      "metadata": "Ref 484 notes a negative association, contradicting the consensus of increased risk."
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Neurodegeneration",
+      "mechanism": "causes",
+      "evidence_ref": [
+        8,
+        53,
+        139,
+        214,
+        219,
+        371,
+        379,
+        403,
+        405,
+        431,
+        477,
+        577
+      ],
+      "confidence": "High",
+      "metadata": "Consolidated multiple mechanism descriptions including 'mediates', 'affects', and 'associated_with'."
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "NeuronalDeath",
+      "mechanism": "causes",
+      "evidence_ref": [
+        114,
+        208,
+        426,
+        495
+      ],
+      "confidence": "High",
+      "metadata": "Includes evidence from Mild TBI contexts."
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "AxonalInjury",
+      "mechanism": "causes",
+      "evidence_ref": [
+        495
+      ],
+      "confidence": "Medium",
+      "metadata": "Specific to progressive axonal degeneration."
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Chromatolysis",
+      "mechanism": "causes",
+      "evidence_ref": [
+        20
+      ],
+      "confidence": "Medium",
+      "metadata": null
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "BalloonedNeurons",
+      "mechanism": "causes",
+      "evidence_ref": [
+        20
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Severe TBI."
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Demyelination",
+      "mechanism": "causes",
+      "evidence_ref": [
+        212
+      ],
+      "confidence": "Medium",
+      "metadata": null
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Neurogenesis",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        263
+      ],
+      "confidence": "Medium",
+      "metadata": "Original input described as 'Neuronal Development'."
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "SynapseLoss",
+      "mechanism": "causes",
+      "evidence_ref": [
+        372
+      ],
+      "confidence": "Medium",
+      "metadata": null
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "BrainstemDegeneration",
+      "mechanism": "causes",
+      "evidence_ref": [
+        388
+      ],
+      "confidence": "Medium",
+      "metadata": null
+    },
+    {
+      "source": "AxonalInjury",
+      "target": "Neurodegeneration",
+      "mechanism": "causes",
+      "evidence_ref": [
+        392
+      ],
+      "confidence": "Medium",
+      "metadata": null
+    },
+    {
+      "source": "PostTraumaticStressDisorder",
+      "target": "Neurodegeneration",
+      "mechanism": "causes",
+      "evidence_ref": [
+        267
+      ],
+      "confidence": "Medium",
+      "metadata": null
+    },
+    {
+      "source": "BalloonedNeurons",
+      "target": "TraumaticBrainInjury",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        20
+      ],
+      "confidence": "Low",
+      "metadata": "Context: Associated with Severe TBI."
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "TraumaticBrainInjury",
+      "mechanism": "causes",
+      "evidence_ref": [
+        405
+      ],
+      "confidence": "Low",
+      "metadata": "Self-referential merge of 'Mechanical Trauma' and 'Injury Mechanisms' into TBI node."
+    }
+  ]
+}

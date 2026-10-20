@@ -1,0 +1,683 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 28,
+    "edge_count": 35
+  },
+  "nodes": [
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "Traumatic Brain Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111"
+      },
+      "synonyms": [
+        "TBI",
+        "Head Injury",
+        "Brain Injury",
+        "Blunt Traumatic Brain Injury",
+        "Concussion",
+        "Mild Traumatic Brain Injury"
+      ]
+    },
+    {
+      "id": "AlzheimerDisease",
+      "label": "Alzheimer Disease",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0002395"
+      },
+      "synonyms": [
+        "AD",
+        "Alzheimer Disease Pathology",
+        "Definite Alzheimer Disease Pathology",
+        "Late Onset Alzheimer Disease",
+        "Early Onset Alzheimer Disease",
+        "Alzheimer Disease Dementia"
+      ]
+    },
+    {
+      "id": "ReturnToPlay",
+      "label": "Return to Play",
+      "type": "Process",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0420559"
+      },
+      "synonyms": [
+        "Return to Play Time"
+      ]
+    },
+    {
+      "id": "SocioeconomicFactors",
+      "label": "Socioeconomic Factors",
+      "type": "Process",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0037666"
+      },
+      "synonyms": [
+        "Socioeconomic Disadvantage"
+      ]
+    },
+    {
+      "id": "HomeTime",
+      "label": "Home Time",
+      "type": "Process",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C4761226"
+      },
+      "synonyms": [
+        "Days at Home",
+        "Loss of Home Time"
+      ]
+    },
+    {
+      "id": "RecoveryOutcomes",
+      "label": "Recovery Outcomes",
+      "type": "Process",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0033909"
+      },
+      "synonyms": [
+        "Poor Recovery Metrics",
+        "Concussion Recovery Metrics"
+      ]
+    },
+    {
+      "id": "FamilyHistory",
+      "label": "Family History",
+      "type": "Process",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0241889"
+      },
+      "synonyms": [
+        "Maternal History of Dementia",
+        "Parental History of Early Onset Dementia"
+      ]
+    },
+    {
+      "id": "Education",
+      "label": "Education",
+      "type": "Process",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0013658"
+      },
+      "synonyms": [
+        "Years of Education"
+      ]
+    },
+    {
+      "id": "AgeOfOnset",
+      "label": "Age of Onset",
+      "type": "Process",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0001779"
+      },
+      "synonyms": [
+        "Intergenerational Difference in Age at Onset"
+      ]
+    },
+    {
+      "id": "Hypertension",
+      "label": "Hypertension",
+      "type": "Disease",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0020538"
+      },
+      "synonyms": [
+        "History of Hypertension"
+      ]
+    },
+    {
+      "id": "Depression",
+      "label": "Depression",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0011581"
+      },
+      "synonyms": [
+        "Active Depression"
+      ]
+    },
+    {
+      "id": "TobaccoUse",
+      "label": "Tobacco Use",
+      "type": "Process",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0040336"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "MicroRNAs",
+      "label": "MicroRNAs",
+      "type": "Gene",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "UMLS_CUI": "C0026012"
+      },
+      "synonyms": [
+        "miRNA"
+      ]
+    },
+    {
+      "id": "TemporalLobeAtrophy",
+      "label": "Temporal Lobe Atrophy",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0427244"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Exercise",
+      "label": "Exercise",
+      "type": "Process",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0015259"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Neuroimaging",
+      "label": "Neuroimaging",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027853"
+      },
+      "synonyms": [
+        "Neuroimaging Markers",
+        "Structural Imaging",
+        "Alzheimer Disease Fingerprint"
+      ]
+    },
+    {
+      "id": "MetabolicCoupling",
+      "label": "Metabolic Coupling",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0025519"
+      },
+      "synonyms": [
+        "Neurometabolic Coupling"
+      ]
+    },
+    {
+      "id": "H2AX",
+      "label": "H2AX",
+      "type": "Protein",
+      "location": "Nucleus",
+      "identifiers": {
+        "HGNC_ID": "HGNC:4739",
+        "UMLS_CUI": "C1415510"
+      },
+      "synonyms": [
+        "H2AFX",
+        "Phosphorylated Histone H2AX"
+      ]
+    },
+    {
+      "id": "AstrocyticDegeneration",
+      "label": "Astrocytic Degeneration",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C5441772"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "PostTraumaticStressDisorder",
+      "label": "Post-Traumatic Stress Disorder",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0038436"
+      },
+      "synonyms": [
+        "PTSD"
+      ]
+    },
+    {
+      "id": "Amnesia",
+      "label": "Amnesia",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0002622"
+      },
+      "synonyms": [
+        "Posttraumatic Amnesia"
+      ]
+    },
+    {
+      "id": "VascularLesion",
+      "label": "Vascular Lesion",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0042379"
+      },
+      "synonyms": [
+        "Chronic Vascular Lesions"
+      ]
+    },
+    {
+      "id": "ChronicTraumaticEncephalopathy",
+      "label": "Chronic Traumatic Encephalopathy",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0687711"
+      },
+      "synonyms": [
+        "CTE"
+      ]
+    },
+    {
+      "id": "APP",
+      "label": "APP",
+      "type": "Protein",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "HGNC_ID": "HGNC:620",
+        "UMLS_CUI": "C0002772"
+      },
+      "synonyms": [
+        "Neuritic Plaque",
+        "Amyloid Beta"
+      ]
+    },
+    {
+      "id": "DNPEP",
+      "label": "DNPEP",
+      "type": "Protein",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "HGNC_ID": "HGNC:2995",
+        "UMLS_CUI": "C1414343"
+      },
+      "synonyms": [
+        "Aminopeptidase E",
+        "Aspartyl aminopeptidase"
+      ]
+    },
+    {
+      "id": "MilitaryService",
+      "label": "Military Service",
+      "type": "Process",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0026139"
+      },
+      "synonyms": [
+        "Veteran Status",
+        "Deployment"
+      ]
+    },
+    {
+      "id": "CognitiveImpairment",
+      "label": "Cognitive Impairment",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0338656"
+      },
+      "synonyms": [
+        "Cognitive Decline"
+      ]
+    },
+    {
+      "id": "APOE",
+      "label": "APOE",
+      "type": "Gene",
+      "location": "Blood",
+      "identifiers": {
+        "HGNC_ID": "HGNC:613",
+        "UMLS_CUI": "C0003565"
+      },
+      "synonyms": [
+        "Apolipoprotein E4",
+        "Apolipoprotein E"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "AlzheimerDisease",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        9,
+        58,
+        79,
+        80,
+        24,
+        63,
+        128,
+        220,
+        263,
+        488,
+        517
+      ],
+      "metadata": "High confidence correlation; Some contradictory negative findings exist (e.g., ref 9, 89, 96)."
+    },
+    {
+      "source": "AlzheimerDisease",
+      "target": "TraumaticBrainInjury",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        240,
+        245
+      ],
+      "metadata": "Context: AD exacerbates impact of TBI or interacts with TBI pathology"
+    },
+    {
+      "source": "AlzheimerDisease",
+      "target": "ReturnToPlay",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        146,
+        606
+      ],
+      "metadata": "Context: Polygenic Risk Score causes/affects Return to Play Time"
+    },
+    {
+      "source": "AlzheimerDisease",
+      "target": "RecoveryOutcomes",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        146,
+        245,
+        606
+      ],
+      "metadata": "Context: Polygenic Risk Score/ADRD impacts recovery/concussion metrics"
+    },
+    {
+      "source": "SocioeconomicFactors",
+      "target": "HomeTime",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        245
+      ],
+      "metadata": "Context: Impact of AD on Days at Home"
+    },
+    {
+      "source": "AlzheimerDisease",
+      "target": "HomeTime",
+      "mechanism": "causes",
+      "evidence_ref": [
+        245
+      ],
+      "metadata": "Context: Loss of Home Time"
+    },
+    {
+      "source": "FamilyHistory",
+      "target": "AgeOfOnset",
+      "mechanism": "causes",
+      "evidence_ref": [
+        265
+      ],
+      "metadata": "Context: Maternal/Parental history causes intergenerational difference in age at onset"
+    },
+    {
+      "source": "Education",
+      "target": "AgeOfOnset",
+      "mechanism": "causes",
+      "evidence_ref": [
+        265
+      ],
+      "metadata": "Context: Intergenerational difference"
+    },
+    {
+      "source": "Hypertension",
+      "target": "AgeOfOnset",
+      "mechanism": "causes",
+      "evidence_ref": [
+        265
+      ],
+      "metadata": "Context: History of Hypertension"
+    },
+    {
+      "source": "Depression",
+      "target": "AgeOfOnset",
+      "mechanism": "causes",
+      "evidence_ref": [
+        265
+      ],
+      "metadata": "Context: Active Depression"
+    },
+    {
+      "source": "TobaccoUse",
+      "target": "AgeOfOnset",
+      "mechanism": "causes",
+      "evidence_ref": [
+        265
+      ],
+      "metadata": "Context: Intergenerational difference"
+    },
+    {
+      "source": "MicroRNAs",
+      "target": "AlzheimerDisease",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        488
+      ],
+      "metadata": "Context: Mediation of AD"
+    },
+    {
+      "source": "TemporalLobeAtrophy",
+      "target": "AlzheimerDisease",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        501
+      ],
+      "metadata": "Context: Associated with AD Phenotype"
+    },
+    {
+      "source": "Education",
+      "target": "AlzheimerDisease",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        550
+      ],
+      "metadata": "Context: Downregulates AD Biomarker Burden"
+    },
+    {
+      "source": "Exercise",
+      "target": "AlzheimerDisease",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        550
+      ],
+      "metadata": "Context: Downregulates AD Biomarker Burden"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "AlzheimerDisease",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        550,
+        35,
+        79
+      ],
+      "metadata": "Context: Biomarker Burden, Dementia, Pathology"
+    },
+    {
+      "source": "Neuroimaging",
+      "target": "AlzheimerDisease",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        599
+      ],
+      "metadata": "Context: Reveals pathology, indicates risk"
+    },
+    {
+      "source": "AlzheimerDisease",
+      "target": "MetabolicCoupling",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        627
+      ],
+      "metadata": "Context: Disrupts neurometabolic coupling"
+    },
+    {
+      "source": "AstrocyticDegeneration",
+      "target": "AlzheimerDisease",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        7
+      ],
+      "metadata": "Context: Associated with AD"
+    },
+    {
+      "source": "PostTraumaticStressDisorder",
+      "target": "AlzheimerDisease",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        19,
+        96,
+        509
+      ],
+      "metadata": "Negative association reported in refs 19, 96, 509"
+    },
+    {
+      "source": "Amnesia",
+      "target": "AlzheimerDisease",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        35
+      ],
+      "metadata": "Context: Posttraumatic amnesia upregulates AD Dementia"
+    },
+    {
+      "source": "VascularLesion",
+      "target": "AlzheimerDisease",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        35
+      ],
+      "metadata": "Context: Chronic vascular lesions upregulate AD Dementia"
+    },
+    {
+      "source": "ChronicTraumaticEncephalopathy",
+      "target": "AlzheimerDisease",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        40,
+        45,
+        124
+      ],
+      "metadata": "Context: Causes pathology, associated with, co-occurs"
+    },
+    {
+      "source": "APP",
+      "target": "AlzheimerDisease",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        40
+      ],
+      "metadata": "Context: Neuritic plaques more frequent in AD pathology"
+    },
+    {
+      "source": "AlzheimerDisease",
+      "target": "CognitiveImpairment",
+      "mechanism": "causes",
+      "evidence_ref": [
+        95
+      ],
+      "metadata": "Context: Contributes to"
+    },
+    {
+      "source": "DNPEP",
+      "target": "AlzheimerDisease",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        107
+      ],
+      "metadata": "Context: Inhibits AD pathology"
+    },
+    {
+      "source": "MilitaryService",
+      "target": "AlzheimerDisease",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        111,
+        488
+      ],
+      "metadata": "Context: Deployment increases risk; Military Employment not associated (Ref 111)"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "RecoveryOutcomes",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        146
+      ],
+      "metadata": "Context: AD PRS does NOT associate with Concussion Severity (TBI severity)"
+    },
+    {
+      "source": "CognitiveImpairment",
+      "target": "AlzheimerDisease",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        198
+      ],
+      "metadata": "Context: Precedes AD"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "CognitiveImpairment",
+      "mechanism": "causes",
+      "evidence_ref": [
+        198
+      ],
+      "metadata": "Context: TBI accelerates AD (Cognitive aspect)"
+    },
+    {
+      "source": "APOE",
+      "target": "AgeOfOnset",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        265
+      ],
+      "metadata": "Context: Triggers intergenerational difference"
+    },
+    {
+      "source": "AlzheimerDisease",
+      "target": "Neuroimaging",
+      "mechanism": "causes",
+      "evidence_ref": [
+        519,
+        256
+      ],
+      "metadata": "Context: Cortical thickness change, Vulnerable cortical thickness"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Neuroimaging",
+      "mechanism": "correlated_with",
+      "evidence_ref": [
+        256
+      ],
+      "metadata": "Context: Associated with AD vulnerable cortical thickness"
+    }
+  ]
+}

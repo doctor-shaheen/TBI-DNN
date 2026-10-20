@@ -1,0 +1,451 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 20,
+    "edge_count": 21
+  },
+  "nodes": [
+    {
+      "id": "Apoptosis",
+      "label": "Apoptosis",
+      "type": "Process",
+      "location": "Neuron",
+      "identifiers": {
+        "UMLS_CUI": "C0162638",
+        "GO_ID": "GO:0006915"
+      },
+      "synonyms": [
+        "Neuronal Apoptosis",
+        "Cell Death"
+      ]
+    },
+    {
+      "id": "CognitiveImpairment",
+      "label": "Cognitive Impairment",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0338656"
+      },
+      "synonyms": [
+        "Cognitive Decline",
+        "Cognitive Deficit",
+        "Cognitive Damage",
+        "Cognitive Deficits"
+      ]
+    },
+    {
+      "id": "Neuropathology",
+      "label": "Neuropathology",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027868"
+      },
+      "synonyms": [
+        "Neuropathological Changes",
+        "Progressive Histopathological Damage"
+      ]
+    },
+    {
+      "id": "SensorimotorDeficit",
+      "label": "Sensorimotor Deficit",
+      "type": "Symptom",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0427086"
+      },
+      "synonyms": [
+        "Sensorimotor Function Deficits",
+        "Sensorimotor Impairments"
+      ]
+    },
+    {
+      "id": "BloodBrainBarrierDysfunction",
+      "label": "Blood-Brain Barrier Dysfunction",
+      "type": "Disease",
+      "location": "Blood_Brain_Barrier",
+      "identifiers": {
+        "UMLS_CUI": "C5441551"
+      },
+      "synonyms": [
+        "Blood-Brain Barrier Damage"
+      ]
+    },
+    {
+      "id": "NeuronalDysfunction",
+      "label": "Neuronal Dysfunction",
+      "type": "Disease",
+      "location": "Neuron",
+      "identifiers": {
+        "UMLS_CUI": "C0235007"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "BehavioralDeficit",
+      "label": "Behavioral Deficit",
+      "type": "Symptom",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0004941"
+      },
+      "synonyms": [
+        "Behavioral Deficits"
+      ]
+    },
+    {
+      "id": "Neurodegeneration",
+      "label": "Neurodegeneration",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027819",
+        "GO_ID": "GO:0070263"
+      },
+      "synonyms": [
+        "Neurodegenerative Processes"
+      ]
+    },
+    {
+      "id": "BrainInjury",
+      "label": "Brain Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111"
+      },
+      "synonyms": [
+        "Tissue Damage",
+        "Cerebral Cortex Injury"
+      ]
+    },
+    {
+      "id": "MechanicalForce",
+      "label": "Mechanical Force",
+      "type": "Phenomenon",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "UMLS_CUI": "C0559385"
+      },
+      "synonyms": [
+        "Mechanical Variables"
+      ]
+    },
+    {
+      "id": "IntegratedStressResponse",
+      "label": "Integrated Stress Response",
+      "type": "Process",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "UMLS_CUI": "C3833075",
+        "GO_ID": "GO:0034976"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "ISRIB",
+      "label": "ISRIB",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "ChEBI_ID": "CHEBI:133036"
+      },
+      "synonyms": [
+        "Integrated Stress Response Inhibitor"
+      ]
+    },
+    {
+      "id": "VascularPermeability",
+      "label": "Vascular Permeability",
+      "type": "Phenotype",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "UMLS_CUI": "C0007306"
+      },
+      "synonyms": [
+        "Cerebrovascular Permeability",
+        "Ktrans"
+      ]
+    },
+    {
+      "id": "MemoryImpairment",
+      "label": "Memory Impairment",
+      "type": "Symptom",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0025277"
+      },
+      "synonyms": [
+        "Short-Term Memory Decline"
+      ]
+    },
+    {
+      "id": "NeuronLoss",
+      "label": "Neuron Loss",
+      "type": "Pathology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0270612"
+      },
+      "synonyms": [
+        "Neuronal Loss"
+      ]
+    },
+    {
+      "id": "CerebralHypoperfusion",
+      "label": "Cerebral Hypoperfusion",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0241695"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "VascularDysfunction",
+      "label": "Vascular Dysfunction",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0042373"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "NeuropsychiatricDisorder",
+      "label": "Neuropsychiatric Disorder",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027907"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Electroencephalography",
+      "label": "Electroencephalography",
+      "type": "Diagnostic",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0013819"
+      },
+      "synonyms": [
+        "Electroencephalogram Pattern Changes"
+      ]
+    },
+    {
+      "id": "KidneyInjury",
+      "label": "Kidney Injury",
+      "type": "Disease",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0022660"
+      },
+      "synonyms": [
+        "Kidney Injury Model Mouse"
+      ]
+    },
+    {
+      "id": "WhiteMatterDisease",
+      "label": "White Matter Disease",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0023414"
+      },
+      "synonyms": [
+        "White Matter Pathology"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "Apoptosis",
+      "target": "CognitiveImpairment",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        69
+      ],
+      "confidence": "High",
+      "metadata": "Context: Neuronal Apoptosis"
+    },
+    {
+      "source": "Neuropathology",
+      "target": "SensorimotorDeficit",
+      "mechanism": "causes",
+      "evidence_ref": [
+        98,
+        311
+      ],
+      "confidence": "High",
+      "metadata": "Context: Neurodegeneration"
+    },
+    {
+      "source": "BloodBrainBarrierDysfunction",
+      "target": "CognitiveImpairment",
+      "mechanism": "causes",
+      "evidence_ref": [
+        191
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "NeuronalDysfunction",
+      "target": "CognitiveImpairment",
+      "mechanism": "causes",
+      "evidence_ref": [
+        198,
+        352
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "Neuropathology",
+      "target": "BehavioralDeficit",
+      "mechanism": "causes",
+      "evidence_ref": [
+        245
+      ],
+      "confidence": "Medium",
+      "metadata": "Relationship: depends_on"
+    },
+    {
+      "source": "Neurodegeneration",
+      "target": "CognitiveImpairment",
+      "mechanism": "causes",
+      "evidence_ref": [
+        247
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "BrainInjury",
+      "target": "CognitiveImpairment",
+      "mechanism": "causes",
+      "evidence_ref": [
+        276,
+        337
+      ],
+      "confidence": "High",
+      "metadata": "Context: Cerebral Cortex Injury"
+    },
+    {
+      "source": "MechanicalForce",
+      "target": "CognitiveImpairment",
+      "mechanism": "causes",
+      "evidence_ref": [
+        276
+      ],
+      "confidence": "Medium",
+      "metadata": "Relationship: determines"
+    },
+    {
+      "source": "IntegratedStressResponse",
+      "target": "CognitiveImpairment",
+      "mechanism": "causes",
+      "evidence_ref": [
+        24
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "ISRIB",
+      "target": "CognitiveImpairment",
+      "mechanism": "treats",
+      "evidence_ref": [
+        24
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "VascularPermeability",
+      "target": "CognitiveImpairment",
+      "mechanism": "causes",
+      "evidence_ref": [
+        110,
+        266
+      ],
+      "confidence": "High",
+      "metadata": "Includes Ktrans correlation"
+    },
+    {
+      "source": "VascularPermeability",
+      "target": "MemoryImpairment",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        110
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "Neuropathology",
+      "target": "CognitiveImpairment",
+      "mechanism": "associated_with",
+      "evidence_ref": [
+        169
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "NeuronLoss",
+      "target": "BehavioralDeficit",
+      "mechanism": "associated_with",
+      "evidence_ref": [
+        245
+      ],
+      "confidence": "Medium",
+      "metadata": "Relationship: correlates_with"
+    },
+    {
+      "source": "CerebralHypoperfusion",
+      "target": "VascularDysfunction",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        248
+      ],
+      "confidence": "Medium",
+      "metadata": "Relationship: exacerbates"
+    },
+    {
+      "source": "CognitiveImpairment",
+      "target": "NeuropsychiatricDisorder",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        276
+      ],
+      "confidence": "Medium",
+      "metadata": "Relationship: predicts"
+    },
+    {
+      "source": "Electroencephalography",
+      "target": "CognitiveImpairment",
+      "mechanism": "associated_with",
+      "evidence_ref": [
+        392
+      ],
+      "confidence": "High",
+      "metadata": "Context: Pattern Changes"
+    },
+    {
+      "source": "KidneyInjury",
+      "target": "CognitiveImpairment",
+      "mechanism": "causes",
+      "evidence_ref": [
+        129
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "WhiteMatterDisease",
+      "target": "BehavioralDeficit",
+      "mechanism": "associated_with",
+      "evidence_ref": [
+        245
+      ],
+      "confidence": "Medium",
+      "metadata": "Relationship: correlates_with"
+    }
+  ]
+}

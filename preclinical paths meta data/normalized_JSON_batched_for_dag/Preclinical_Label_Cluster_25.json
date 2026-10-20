@@ -1,0 +1,450 @@
+[
+    {
+        "source_abstract_id":384,
+        "subject":"Repeated Blast Traumatic Brain Injury",
+        "relation":"does_not_cause",
+        "object":"Astrogliosis and Microgliosis",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":17,
+        "subject":"Repetitive Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Astrocytosis",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":17,
+        "subject":"Sham-Injured P301S Mice",
+        "relation":"negatively_associated_with",
+        "object":"Astrocytosis",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":20,
+        "subject":"Repetitive Mild Traumatic Brain Injury",
+        "relation":"does_not_cause",
+        "object":"Gliosis",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":28,
+        "subject":"Repetitive Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Glial Activation",
+        "entity_variants":"rmTBI"
+    },
+    {
+        "source_abstract_id":51,
+        "subject":"Astrocytosis",
+        "relation":"causes",
+        "object":"Neuroinflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":51,
+        "subject":"Repeated Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Astrocytosis",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":59,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Astrogliosis",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":59,
+        "subject":"Astrogliosis",
+        "relation":"mediates",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":59,
+        "subject":"Astrogliosis",
+        "relation":"mediates",
+        "object":"Synaptic Loss",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":60,
+        "subject":"Repetitive Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Astrogliosis",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":60,
+        "subject":"Astrogliosis",
+        "relation":"mediates",
+        "object":"Behavioral Changes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":61,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Sustained Astrogliosis",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":68,
+        "subject":"Microgliosis",
+        "relation":"affects",
+        "object":"Neuronal Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":71,
+        "subject":"Repetitive Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Astrogliosis",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":93,
+        "subject":"Moderate-Severe Traumatic Brain Injury",
+        "relation":"reduces",
+        "object":"GFAP-Positive Cells",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":94,
+        "subject":"N-3 Polyunsaturated Fatty Acids",
+        "relation":"upregulates",
+        "object":"Glial Activation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":94,
+        "subject":"Repeated Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Glial Activation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":101,
+        "subject":"Glial Activation",
+        "relation":"associated_with",
+        "object":"Acute Cerebral Blood Flow",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":104,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Astrogliosis",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":106,
+        "subject":"Repetitive Mild Traumatic Brain Injury",
+        "relation":"no_direct_causal_link_with",
+        "object":"Glial Activation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":117,
+        "subject":"Repetitive Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Astrogliosis",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":123,
+        "subject":"Impact Injury",
+        "relation":"causes",
+        "object":"Microgliosis",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":123,
+        "subject":"Impact Injury",
+        "relation":"causes",
+        "object":"Astrocytosis",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":124,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Astrogliosis",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":131,
+        "subject":"Military Exposure",
+        "relation":"causes",
+        "object":"Gliosis",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":138,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Astrocytosis",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":145,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Astrogliosis",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":146,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Astrocyte Activation",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":156,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Astrocytic Hypertrophy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":162,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Astroglial Scar Formation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":173,
+        "subject":"Astrocytes",
+        "relation":"maintains",
+        "object":"Brain Homeostasis",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":180,
+        "subject":"Astrocyte Activation",
+        "relation":"causes",
+        "object":"Complement Activation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":186,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Glial Activation",
+        "entity_variants":"not specified"
+    },
+    {
+        "source_abstract_id":198,
+        "subject":"Traumatic Brain Injury",
+        "relation":"increases",
+        "object":"Cortical Astrogliosis",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":225,
+        "subject":"Traumatic Brain Injury",
+        "relation":"upregulates",
+        "object":"Gliosis",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":225,
+        "subject":"Gliosis",
+        "relation":"associated_with",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":226,
+        "subject":"Traumatic Brain Injury",
+        "relation":"promotes",
+        "object":"Gliosis",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":261,
+        "subject":"Optic Nerve Damage",
+        "relation":"causes",
+        "object":"Astrogliosis",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":261,
+        "subject":"Astrogliosis",
+        "relation":"mediates",
+        "object":"Chronic Outcomes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":267,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Reactive Astrogliosis",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":268,
+        "subject":"Human Mesenchymal Stem Cells",
+        "relation":"reduces",
+        "object":"Microgliosis",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":268,
+        "subject":"Human Mesenchymal Stem Cells",
+        "relation":"reduces",
+        "object":"Astrogliosis",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":283,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Astrogliosis",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":285,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Reactive Gliosis",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":301,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Astrocyte Proliferation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":313,
+        "subject":"Pyruvic Acid",
+        "relation":"stimulates",
+        "object":"Astrogliosis",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":325,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Astrocytosis",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":337,
+        "subject":"Synaptamide",
+        "relation":"inhibits",
+        "object":"Reactive Astrogliosis",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":337,
+        "subject":"Cerebral Cortex Injury",
+        "relation":"causes",
+        "object":"Reactive Astrogliosis",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":337,
+        "subject":"Reactive Astrogliosis",
+        "relation":"contributes_to",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":341,
+        "subject":"Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Astrocyte Activation",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":346,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Glial Cell Activity",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":350,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Reactive Gliosis",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":350,
+        "subject":"Reactive Gliosis",
+        "relation":"mediates",
+        "object":"Cognitive Deficits",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":352,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Astrogliosis",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":368,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Proinflammatory Astrocytic State",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":384,
+        "subject":"Blast Injury",
+        "relation":"increases",
+        "object":"Astrogliosis",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":385,
+        "subject":"Focal Vascular Injury",
+        "relation":"causes",
+        "object":"Astrocyte Reactivity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":403,
+        "subject":"Military Blast Injury",
+        "relation":"causes",
+        "object":"Reactive Astrocyte Phenotype",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":406,
+        "subject":"Tbk1\/IKK-ε Inhibition",
+        "relation":"enhances",
+        "object":"Astroglial Scar Formation",
+        "entity_variants":"not specified"
+    },
+    {
+        "source_abstract_id":409,
+        "subject":"Diffuse Closed Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Glial Abnormality",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":411,
+        "subject":"Traumatic Brain Injury",
+        "relation":"reduces",
+        "object":"Reactive Gliosis",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":304,
+        "subject":"Oxygen Exposure",
+        "relation":"prevents",
+        "object":"Gliosis",
+        "entity_variants":null
+    }
+]

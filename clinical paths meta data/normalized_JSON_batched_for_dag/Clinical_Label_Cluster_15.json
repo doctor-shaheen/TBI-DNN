@@ -1,0 +1,219 @@
+[
+    {
+        "source_abstract_id":191,
+        "subject":"National Football League Play",
+        "relation":"affects",
+        "object":"Neuropsychological Performance",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":57,
+        "subject":"Post-Concussion Syndrome",
+        "relation":"associated_with",
+        "object":"Chronic Traumatic Encephalopathy",
+        "entity_variants":"unknown|"
+    },
+    {
+        "source_abstract_id":57,
+        "subject":"Post-Concussion Symptoms",
+        "relation":"associated_with",
+        "object":"Cerebrospinal Fluid Biomarkers",
+        "entity_variants":"unknown|"
+    },
+    {
+        "source_abstract_id":57,
+        "subject":"Post-Concussion Syndrome",
+        "relation":"associated_with",
+        "object":"Cognitive Decline",
+        "entity_variants":"unknown|"
+    },
+    {
+        "source_abstract_id":126,
+        "subject":"Contact Sports",
+        "relation":"causes",
+        "object":"Chronic Traumatic Encephalopathy",
+        "entity_variants":"unknown|"
+    },
+    {
+        "source_abstract_id":126,
+        "subject":"Contact Sports",
+        "relation":"increases",
+        "object":"Tauopathy",
+        "entity_variants":"unknown|"
+    },
+    {
+        "source_abstract_id":150,
+        "subject":"Contact Sports",
+        "relation":"associated_with",
+        "object":"Chronic Traumatic Encephalopathy",
+        "entity_variants":"unknown|"
+    },
+    {
+        "source_abstract_id":186,
+        "subject":"Self-Reported Concussion History",
+        "relation":"associated_with",
+        "object":"Current Memory Concerns",
+        "entity_variants":"unknown|"
+    },
+    {
+        "source_abstract_id":186,
+        "subject":"Self-Reported Concussion History",
+        "relation":"associated_with",
+        "object":"Current Thinking Skills Concerns",
+        "entity_variants":"unknown|"
+    },
+    {
+        "source_abstract_id":186,
+        "subject":"Self-Reported Concussion History",
+        "relation":"associated_with",
+        "object":"Current Chronic Traumatic Encephalopathy Concerns",
+        "entity_variants":"unknown|"
+    },
+    {
+        "source_abstract_id":197,
+        "subject":"Repeated Sports-Related Concussions",
+        "relation":"causes",
+        "object":"Neuroinflammation",
+        "entity_variants":"unknown|"
+    },
+    {
+        "source_abstract_id":197,
+        "subject":"Repeated Sports-Related Concussions",
+        "relation":"not_associated_with",
+        "object":"Cognitive Decline",
+        "entity_variants":"unknown|"
+    },
+    {
+        "source_abstract_id":297,
+        "subject":"Sports Concussion",
+        "relation":"causes",
+        "object":"Common Mental Disorders",
+        "entity_variants":"unknown|"
+    },
+    {
+        "source_abstract_id":297,
+        "subject":"Sports Concussion",
+        "relation":"causes",
+        "object":"Distress Symptoms",
+        "entity_variants":"unknown|"
+    },
+    {
+        "source_abstract_id":297,
+        "subject":"Sports Concussion",
+        "relation":"causes",
+        "object":"Anxiety Symptoms",
+        "entity_variants":"unknown|"
+    },
+    {
+        "source_abstract_id":297,
+        "subject":"Sports Concussion",
+        "relation":"causes",
+        "object":"Depressive Symptoms",
+        "entity_variants":"unknown|"
+    },
+    {
+        "source_abstract_id":297,
+        "subject":"Sports Concussion",
+        "relation":"causes",
+        "object":"Sleep Disturbance",
+        "entity_variants":"unknown|"
+    },
+    {
+        "source_abstract_id":297,
+        "subject":"Sports Concussion",
+        "relation":"causes",
+        "object":"Substance-Related Disorders",
+        "entity_variants":"unknown|"
+    },
+    {
+        "source_abstract_id":297,
+        "subject":"Number of Concussions",
+        "relation":"predicts",
+        "object":"Common Mental Disorders",
+        "entity_variants":"unknown|"
+    },
+    {
+        "source_abstract_id":297,
+        "subject":"Four or Five Concussions",
+        "relation":"increases",
+        "object":"Common Mental Disorders",
+        "entity_variants":"unknown|"
+    },
+    {
+        "source_abstract_id":297,
+        "subject":"Six or More Concussions",
+        "relation":"increases",
+        "object":"Common Mental Disorders",
+        "entity_variants":"unknown|"
+    },
+    {
+        "source_abstract_id":316,
+        "subject":"Concussion",
+        "relation":"no_association",
+        "object":"Neuropsychological Function",
+        "entity_variants":"unknown|"
+    },
+    {
+        "source_abstract_id":453,
+        "subject":"Sports-Related Concussion",
+        "relation":"causes",
+        "object":"Functional Connectivity Changes",
+        "entity_variants":"unknown|"
+    },
+    {
+        "source_abstract_id":453,
+        "subject":"Sports-Related Concussion",
+        "relation":"causes",
+        "object":"Symptom Severity",
+        "entity_variants":"unknown|"
+    },
+    {
+        "source_abstract_id":453,
+        "subject":"Sports-Related Concussion",
+        "relation":"affects",
+        "object":"Default Mode Network",
+        "entity_variants":"unknown|"
+    },
+    {
+        "source_abstract_id":458,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Post-Concussion Symptoms",
+        "entity_variants":"unknown|"
+    },
+    {
+        "source_abstract_id":625,
+        "subject":"Soccer Heading",
+        "relation":"causes",
+        "object":"Fine Motor Control",
+        "entity_variants":"unknown|"
+    },
+    {
+        "source_abstract_id":625,
+        "subject":"Soccer Heading",
+        "relation":"causes",
+        "object":"Postural Control",
+        "entity_variants":"unknown|"
+    },
+    {
+        "source_abstract_id":625,
+        "subject":"Soccer Heading",
+        "relation":"not_associated_with",
+        "object":"Health Perception",
+        "entity_variants":"unknown|"
+    },
+    {
+        "source_abstract_id":625,
+        "subject":"Soccer Heading",
+        "relation":"not_associated_with",
+        "object":"Concussion Symptoms",
+        "entity_variants":"unknown|"
+    },
+    {
+        "source_abstract_id":625,
+        "subject":"Soccer Heading",
+        "relation":"not_associated_with",
+        "object":"Cognitive Performance",
+        "entity_variants":"unknown|"
+    }
+]

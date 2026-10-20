@@ -1,0 +1,896 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 34,
+    "edge_count": 48
+  },
+  "nodes": [
+    {
+      "id": "Dimethylaminomicheliolide",
+      "label": "Dimethylaminomicheliolide",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C4724898",
+        "ChEBI_ID": "None",
+        "CAS_Registry": "1403357-81-2"
+      },
+      "synonyms": [
+        "ACT001",
+        "DMAMCL"
+      ]
+    },
+    {
+      "id": "MotorDeficit",
+      "label": "Motor Deficit",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0521654"
+      },
+      "synonyms": [
+        "Motor Function Deficit",
+        "Motor impairment"
+      ]
+    },
+    {
+      "id": "BloodBrainBarrierDysfunction",
+      "label": "Blood-Brain Barrier Dysfunction",
+      "type": "Disease",
+      "location": "Blood",
+      "identifiers": {
+        "UMLS_CUI": "C4022417"
+      },
+      "synonyms": [
+        "Blood-Brain Barrier Integrity Loss",
+        "Increased Blood-Brain Barrier Permeability"
+      ]
+    },
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "Traumatic Brain Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111"
+      },
+      "synonyms": [
+        "TBI",
+        "Mild Traumatic Brain Injury",
+        "Severe Head Injury",
+        "Concussion",
+        "Controlled Cortical Impact",
+        "Blast Traumatic Brain Injury"
+      ]
+    },
+    {
+      "id": "LysosomalMembranePermeabilization",
+      "label": "Lysosomal Membrane Permeabilization",
+      "type": "Process",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "GO_ID": "GO:0090383"
+      },
+      "synonyms": [
+        "LMP"
+      ]
+    },
+    {
+      "id": "Autophagy",
+      "label": "Autophagy",
+      "type": "Process",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "GO_ID": "GO:0006914"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "NeuronalDeath",
+      "label": "Neuronal Death",
+      "type": "Process",
+      "location": "Neuron",
+      "identifiers": {
+        "GO_ID": "GO:0070997"
+      },
+      "synonyms": [
+        "Neuronal Cell Death",
+        "Neuronal Injury",
+        "Fluoro-Jade B Positive Cells"
+      ]
+    },
+    {
+      "id": "PLA2G4A",
+      "label": "PLA2G4A",
+      "type": "Protein",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "UMLS_CUI": "C1418579",
+        "HGNC_ID": "HGNC:9035",
+        "UniProt_ID": "P47712"
+      },
+      "synonyms": [
+        "Cytosolic phospholipase A2",
+        "cPLA2"
+      ]
+    },
+    {
+      "id": "NeurologicDeficits",
+      "label": "Neurologic Deficits",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0521654"
+      },
+      "synonyms": [
+        "Neurological Outcome",
+        "Neurological Complication",
+        "Functional Recovery"
+      ]
+    },
+    {
+      "id": "AmyloidBetaPeptides",
+      "label": "Amyloid Beta Peptides",
+      "type": "Protein",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "UMLS_CUI": "C0002736"
+      },
+      "synonyms": [
+        "Amyloid Beta",
+        "Abeta",
+        "Amyloid Beta-Induced"
+      ]
+    },
+    {
+      "id": "Neurodegeneration",
+      "label": "Neurodegeneration",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027763"
+      },
+      "synonyms": [
+        "Chronic Neurodegeneration"
+      ]
+    },
+    {
+      "id": "CorpusCallosumAtrophy",
+      "label": "Corpus Callosum Atrophy",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0152433"
+      },
+      "synonyms": [
+        "Corpus Callosum Thinning",
+        "Corpus Callosum Pathology"
+      ]
+    },
+    {
+      "id": "CorticalSpreadingDepolarization",
+      "label": "Cortical Spreading Depolarization",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0010072"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Anxiety",
+      "label": "Anxiety",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0003467"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Hypoactivity",
+      "label": "Hypoactivity",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0237154"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Tribromoethanol",
+      "label": "Tribromoethanol",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "ChEBI_ID": "CHEBI:39090"
+      },
+      "synonyms": [
+        "Avertin"
+      ]
+    },
+    {
+      "id": "Isoflurane",
+      "label": "Isoflurane",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "ChEBI_ID": "CHEBI:6016"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Trehalose",
+      "label": "Trehalose",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "ChEBI_ID": "CHEBI:16551"
+      },
+      "synonyms": [
+        "Autophagy Enhancer"
+      ]
+    },
+    {
+      "id": "CognitiveImpairment",
+      "label": "Cognitive Impairment",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0338656"
+      },
+      "synonyms": [
+        "Cognitive Decline",
+        "Cognitive Dysfunction",
+        "Impaired Spatial Learning",
+        "Spatial Memory Impairments"
+      ]
+    },
+    {
+      "id": "FOS",
+      "label": "FOS",
+      "type": "Protein",
+      "location": "Nucleus",
+      "identifiers": {
+        "UMLS_CUI": "C0062545",
+        "HGNC_ID": "HGNC:3796"
+      },
+      "synonyms": [
+        "c-Fos"
+      ]
+    },
+    {
+      "id": "CerebralBloodFlow",
+      "label": "Cerebral Blood Flow",
+      "type": "Process",
+      "location": "Blood",
+      "identifiers": {
+        "UMLS_CUI": "C0007787"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Dementia",
+      "label": "Dementia",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0011265"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Salubrinal",
+      "label": "Salubrinal",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "ChEBI_ID": "CHEBI:90343"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "SYP",
+      "label": "SYP",
+      "type": "Protein",
+      "location": "Synapse",
+      "identifiers": {
+        "HGNC_ID": "HGNC:11508"
+      },
+      "synonyms": [
+        "Synaptophysin"
+      ]
+    },
+    {
+      "id": "DCX",
+      "label": "DCX",
+      "type": "Protein",
+      "location": "Neuron",
+      "identifiers": {
+        "HGNC_ID": "HGNC:2714"
+      },
+      "synonyms": [
+        "Doublecortin"
+      ]
+    },
+    {
+      "id": "BDNF",
+      "label": "BDNF",
+      "type": "Protein",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "HGNC_ID": "HGNC:1033"
+      },
+      "synonyms": [
+        "Brain-Derived Neurotrophic Factor"
+      ]
+    },
+    {
+      "id": "CerebralHypoperfusion",
+      "label": "Cerebral Hypoperfusion",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0232406"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "CarotidArteryStenosis",
+      "label": "Carotid Artery Stenosis",
+      "type": "Disease",
+      "location": "Blood",
+      "identifiers": {
+        "UMLS_CUI": "C0007282"
+      },
+      "synonyms": [
+        "Bilateral Carotid Artery Stenosis"
+      ]
+    },
+    {
+      "id": "CeriumOxide",
+      "label": "Cerium Oxide",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "ChEBI_ID": "CHEBI:39268"
+      },
+      "synonyms": [
+        "Cerium Oxide Nanoparticles",
+        "Cerium Oxide Nanorods",
+        "Cerium Oxide Nanospheres"
+      ]
+    },
+    {
+      "id": "SOD1",
+      "label": "SOD1",
+      "type": "Protein",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "HGNC_ID": "HGNC:11179"
+      },
+      "synonyms": [
+        "Superoxide Dismutase 1"
+      ]
+    },
+    {
+      "id": "SOD2",
+      "label": "SOD2",
+      "type": "Protein",
+      "location": "Mitochondria",
+      "identifiers": {
+        "HGNC_ID": "HGNC:11180"
+      },
+      "synonyms": [
+        "Superoxide Dismutase 2"
+      ]
+    },
+    {
+      "id": "PTGS2",
+      "label": "PTGS2",
+      "type": "Protein",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "HGNC_ID": "HGNC:9605"
+      },
+      "synonyms": [
+        "Cyclooxygenase-2"
+      ]
+    },
+    {
+      "id": "NeurovascularCoupling",
+      "label": "Neurovascular Coupling",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C3887640"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "AlzheimerDisease",
+      "label": "Alzheimer Disease",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0002395"
+      },
+      "synonyms": []
+    }
+  ],
+  "edges": [
+    {
+      "source": "Dimethylaminomicheliolide",
+      "target": "MotorDeficit",
+      "mechanism": "treats",
+      "evidence_ref": [
+        181
+      ],
+      "confidence": "High",
+      "metadata": "Input variant: ACT001"
+    },
+    {
+      "source": "Dimethylaminomicheliolide",
+      "target": "BloodBrainBarrierDysfunction",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        181
+      ],
+      "confidence": "High",
+      "metadata": "Input variant: ACT001"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "LysosomalMembranePermeabilization",
+      "mechanism": "causes",
+      "evidence_ref": [
+        3,
+        274
+      ],
+      "confidence": "High",
+      "metadata": "Also triggers leakage of lysosomal enzymes"
+    },
+    {
+      "source": "LysosomalMembranePermeabilization",
+      "target": "Autophagy",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        3
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "LysosomalMembranePermeabilization",
+      "target": "NeuronalDeath",
+      "mechanism": "causes",
+      "evidence_ref": [
+        3
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "PLA2G4A",
+      "target": "LysosomalMembranePermeabilization",
+      "mechanism": "activates",
+      "evidence_ref": [
+        3
+      ],
+      "confidence": "High",
+      "metadata": "Inhibition of PLA2G4A prevents LMP"
+    },
+    {
+      "source": "PLA2G4A",
+      "target": "Autophagy",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        3
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "AmyloidBetaPeptides",
+      "target": "LysosomalMembranePermeabilization",
+      "mechanism": "causes",
+      "evidence_ref": [
+        3
+      ],
+      "confidence": "High",
+      "metadata": "Mediated by PLA2G4A"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "NeuronalDeath",
+      "mechanism": "causes",
+      "evidence_ref": [
+        3,
+        333
+      ],
+      "confidence": "High",
+      "metadata": "Context: Controlled Cortical Impact"
+    },
+    {
+      "source": "LysosomalMembranePermeabilization",
+      "target": "Neurodegeneration",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        3
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "CorpusCallosumAtrophy",
+      "mechanism": "causes",
+      "evidence_ref": [
+        8
+      ],
+      "confidence": "High",
+      "metadata": "Context: Thinning and Atrophy observed"
+    },
+    {
+      "source": "CorticalSpreadingDepolarization",
+      "target": "BloodBrainBarrierDysfunction",
+      "mechanism": "causes",
+      "evidence_ref": [
+        37
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "BloodBrainBarrierDysfunction",
+      "mechanism": "causes",
+      "evidence_ref": [
+        37,
+        274
+      ],
+      "confidence": "High",
+      "metadata": "Context: Concussive/Military exposure"
+    },
+    {
+      "source": "BloodBrainBarrierDysfunction",
+      "target": "NeurologicDeficits",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        37
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Anxiety",
+      "mechanism": "causes",
+      "evidence_ref": [
+        43
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Repetitive Mild TBI"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Hypoactivity",
+      "mechanism": "causes",
+      "evidence_ref": [
+        43
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Repetitive Mild TBI"
+    },
+    {
+      "source": "Tribromoethanol",
+      "target": "Neurodegeneration",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        43
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "Isoflurane",
+      "target": "Neurodegeneration",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        43
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Neurodegeneration",
+      "mechanism": "causes",
+      "evidence_ref": [
+        43
+      ],
+      "confidence": "High",
+      "metadata": "Context: Repetitive Mild TBI"
+    },
+    {
+      "source": "Trehalose",
+      "target": "NeurologicDeficits",
+      "mechanism": "treats",
+      "evidence_ref": [
+        73,
+        160
+      ],
+      "confidence": "High",
+      "metadata": "Improves functional recovery"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "CognitiveImpairment",
+      "mechanism": "causes",
+      "evidence_ref": [
+        89,
+        107,
+        109,
+        293,
+        333,
+        404
+      ],
+      "confidence": "High",
+      "metadata": "Includes spatial learning and memory deficits"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "FOS",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        89
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "AmyloidBetaPeptides",
+      "target": "CognitiveImpairment",
+      "mechanism": "causes",
+      "evidence_ref": [
+        107
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "CerebralBloodFlow",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        109,
+        293
+      ],
+      "confidence": "Medium",
+      "metadata": "Decreases CBF"
+    },
+    {
+      "source": "CerebralBloodFlow",
+      "target": "CognitiveImpairment",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        109
+      ],
+      "confidence": "Medium",
+      "metadata": "Predicts cognitive outcome"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Dementia",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        134
+      ],
+      "confidence": "High",
+      "metadata": "Context: Moderate to Severe TBI"
+    },
+    {
+      "source": "Salubrinal",
+      "target": "Anxiety",
+      "mechanism": "treats",
+      "evidence_ref": [
+        137
+      ],
+      "confidence": "Medium",
+      "metadata": "Improves Elevated Plus Maze performance"
+    },
+    {
+      "source": "Trehalose",
+      "target": "SYP",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        160
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "Trehalose",
+      "target": "DCX",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        160
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "Trehalose",
+      "target": "BDNF",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        160
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "Trehalose",
+      "target": "CognitiveImpairment",
+      "mechanism": "treats",
+      "evidence_ref": [
+        160
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "CarotidArteryStenosis",
+      "target": "CerebralHypoperfusion",
+      "mechanism": "causes",
+      "evidence_ref": [
+        264
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "CerebralHypoperfusion",
+      "target": "TraumaticBrainInjury",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        264
+      ],
+      "confidence": "High",
+      "metadata": "Worsens TBI outcomes"
+    },
+    {
+      "source": "CerebralHypoperfusion",
+      "target": "CognitiveImpairment",
+      "mechanism": "causes",
+      "evidence_ref": [
+        264
+      ],
+      "confidence": "High",
+      "metadata": "Spatial learning deficits"
+    },
+    {
+      "source": "CeriumOxide",
+      "target": "NeuronalDeath",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        348
+      ],
+      "confidence": "High",
+      "metadata": "Decreases Fluoro-Jade B and TUNEL positive cells"
+    },
+    {
+      "source": "CeriumOxide",
+      "target": "SOD1",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        348
+      ],
+      "confidence": "High",
+      "metadata": "Restores mRNA levels"
+    },
+    {
+      "source": "CeriumOxide",
+      "target": "SOD2",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        348
+      ],
+      "confidence": "High",
+      "metadata": "Restores mRNA levels"
+    },
+    {
+      "source": "CeriumOxide",
+      "target": "PTGS2",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        348
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "CeriumOxide",
+      "target": "CognitiveImpairment",
+      "mechanism": "treats",
+      "evidence_ref": [
+        348
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "NeurovascularCoupling",
+      "target": "BrainIschemia",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        408
+      ],
+      "confidence": "Medium",
+      "metadata": "Mediates ischemia (when disrupted)"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "NeurovascularCoupling",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        408
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "AlzheimerDisease",
+      "target": "NeurovascularCoupling",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        408
+      ],
+      "confidence": "High",
+      "metadata": "Disrupts coupling"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "NeurologicDeficits",
+      "mechanism": "causes",
+      "evidence_ref": [
+        3
+      ],
+      "confidence": "High",
+      "metadata": "Measured by Neurological Outcome"
+    },
+    {
+      "source": "CognitiveImpairment",
+      "target": "Neurogenesis",
+      "mechanism": "correlated_with",
+      "evidence_ref": [
+        89
+      ],
+      "confidence": "Low",
+      "metadata": "Associated with Immature Neurons"
+    },
+    {
+      "source": "Trehalose",
+      "target": "Zinc",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        243
+      ],
+      "confidence": "Medium",
+      "metadata": "Brain Zinc Levels"
+    },
+    {
+      "source": "PLA2G4A",
+      "target": "NeurologicDeficits",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        3
+      ],
+      "confidence": "High",
+      "metadata": "Inhibition improves outcome"
+    },
+    {
+      "source": "Omega3FattyAcids",
+      "target": "NeurologicDeficits",
+      "mechanism": "treats",
+      "evidence_ref": [
+        397
+      ],
+      "confidence": "Medium",
+      "metadata": "Source: fat-1 Mice model (endogenous production)"
+    },
+    {
+      "source": "CerebralHypoperfusion",
+      "target": "CognitiveImpairment",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        264
+      ],
+      "confidence": "High",
+      "metadata": "Modifies TBI outcomes"
+    }
+  ]
+}

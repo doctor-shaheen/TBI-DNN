@@ -1,0 +1,1934 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 92,
+    "edge_count": 145
+  },
+  "nodes": [
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "Traumatic Brain Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111"
+      },
+      "synonyms": [
+        "Concussion",
+        "Mild Traumatic Brain Injury",
+        "Severe Head Injury",
+        "Chronic Traumatic Encephalopathy",
+        "Diffuse Axonal Injury"
+      ]
+    },
+    {
+      "id": "MAPT",
+      "label": "MAPT",
+      "type": "Protein",
+      "location": "Neuron",
+      "identifiers": {
+        "HGNC_ID": "HGNC:6893",
+        "UMLS_CUI": "C0039392"
+      },
+      "synonyms": [
+        "Tau Protein",
+        "Phosphorylated Tau",
+        "Neurofibrillary Tangles",
+        "Tauopathy"
+      ]
+    },
+    {
+      "id": "SOD1",
+      "label": "SOD1",
+      "type": "Protein",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "HGNC_ID": "HGNC:11179"
+      },
+      "synonyms": [
+        "Superoxide Dismutase 1"
+      ]
+    },
+    {
+      "id": "CDKN2A",
+      "label": "CDKN2A",
+      "type": "Protein",
+      "location": "Nucleus",
+      "identifiers": {
+        "HGNC_ID": "HGNC:1787"
+      },
+      "synonyms": [
+        "Cyclin-Dependent Kinase Inhibitor 2A",
+        "p16"
+      ]
+    },
+    {
+      "id": "DNALI1",
+      "label": "DNALI1",
+      "type": "Protein",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "HGNC_ID": "HGNC:2969"
+      },
+      "synonyms": [
+        "Dynein Axonemal Light Intermediate Chain 1"
+      ]
+    },
+    {
+      "id": "Autophagy",
+      "label": "Autophagy",
+      "type": "BiologicalProcess",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "GO_ID": "GO:0006914"
+      },
+      "synonyms": [
+        "Autophagic Flux",
+        "Macroautophagy"
+      ]
+    },
+    {
+      "id": "Neurodegeneration",
+      "label": "Neurodegeneration",
+      "type": "Pathology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027746"
+      },
+      "synonyms": [
+        "Neuronal Loss",
+        "Neuronal Death",
+        "Chronic Axon Pathology"
+      ]
+    },
+    {
+      "id": "BrainAtrophy",
+      "label": "Brain Atrophy",
+      "type": "Pathology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0154676"
+      },
+      "synonyms": [
+        "Cerebral Atrophy",
+        "Corpus Callosum Atrophy",
+        "Cortical Atrophy",
+        "Cortical Thinning"
+      ]
+    },
+    {
+      "id": "MicroglialActivation",
+      "label": "Microglial Activation",
+      "type": "BiologicalProcess",
+      "location": "Microglia",
+      "identifiers": {
+        "UMLS_CUI": "C0026009"
+      },
+      "synonyms": [
+        "Microgliosis",
+        "Activated Microglia"
+      ]
+    },
+    {
+      "id": "Deferiprone",
+      "label": "Deferiprone",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "ChEBI_ID": "CHEBI:3926"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "OxidativeStress",
+      "label": "Oxidative Stress",
+      "type": "Pathology",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "UMLS_CUI": "C0029944"
+      },
+      "synonyms": [
+        "Reactive Oxygen Species"
+      ]
+    },
+    {
+      "id": "Astrocytosis",
+      "label": "Astrocytosis",
+      "type": "Pathology",
+      "location": "Astrocyte",
+      "identifiers": {
+        "UMLS_CUI": "C0004118"
+      },
+      "synonyms": [
+        "Astrogliosis",
+        "Reactive Astrocytosis"
+      ]
+    },
+    {
+      "id": "CognitiveImpairment",
+      "label": "Cognitive Impairment",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0338656"
+      },
+      "synonyms": [
+        "Cognitive Dysfunction",
+        "Memory Deficits",
+        "Learning Deficits"
+      ]
+    },
+    {
+      "id": "Anxiety",
+      "label": "Anxiety",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0003467"
+      },
+      "synonyms": [
+        "Anxiety-Like Behavior"
+      ]
+    },
+    {
+      "id": "NUP62",
+      "label": "NUP62",
+      "type": "Protein",
+      "location": "Nucleus",
+      "identifiers": {
+        "HGNC_ID": "HGNC:8066"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "SNCA",
+      "label": "SNCA",
+      "type": "Protein",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "HGNC_ID": "HGNC:11138"
+      },
+      "synonyms": [
+        "Alpha-Synuclein"
+      ]
+    },
+    {
+      "id": "FrontotemporalDementia",
+      "label": "Frontotemporal Dementia",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0338451"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "IL1B",
+      "label": "IL1B",
+      "type": "Protein",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "HGNC_ID": "HGNC:5992"
+      },
+      "synonyms": [
+        "Interleukin-1 Beta"
+      ]
+    },
+    {
+      "id": "IntegratedStressResponse",
+      "label": "Integrated Stress Response",
+      "type": "BiologicalProcess",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "GO_ID": "GO:0030968"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "DendriticSpineOrganization",
+      "label": "Dendritic Spine Organization",
+      "type": "BiologicalProcess",
+      "location": "Synapse",
+      "identifiers": {
+        "GO_ID": "GO:0097105"
+      },
+      "synonyms": [
+        "Dendritic Spine Dynamics",
+        "Dendritic Spine Density"
+      ]
+    },
+    {
+      "id": "ISRIB",
+      "label": "ISRIB",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "ChEBI_ID": "CHEBI:132966"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "CASP3",
+      "label": "CASP3",
+      "type": "Protein",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "HGNC_ID": "HGNC:1504"
+      },
+      "synonyms": [
+        "Caspase-3",
+        "Cleaved Caspase-3"
+      ]
+    },
+    {
+      "id": "PARP1",
+      "label": "PARP1",
+      "type": "Protein",
+      "location": "Nucleus",
+      "identifiers": {
+        "HGNC_ID": "HGNC:270"
+      },
+      "synonyms": [
+        "Poly(ADP-Ribose) Polymerase 1"
+      ]
+    },
+    {
+      "id": "Methylphenidate",
+      "label": "Methylphenidate",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "ChEBI_ID": "CHEBI:6898"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Norepinephrine",
+      "label": "Norepinephrine",
+      "type": "Chemical",
+      "location": "Synapse",
+      "identifiers": {
+        "ChEBI_ID": "CHEBI:18357"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Paclitaxel",
+      "label": "Paclitaxel",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "ChEBI_ID": "CHEBI:45863"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "FecalMicrobiotaTransplantation",
+      "label": "Fecal Microbiota Transplantation",
+      "type": "MedicalProcedure",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C2348575"
+      },
+      "synonyms": [
+        "FMT"
+      ]
+    },
+    {
+      "id": "Neuroinflammation",
+      "label": "Neuroinflammation",
+      "type": "Pathology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0020306"
+      },
+      "synonyms": [
+        "Inflammation",
+        "Pro-inflammatory Cytokines"
+      ]
+    },
+    {
+      "id": "AntithrombinIII",
+      "label": "SERPINC1",
+      "type": "Protein",
+      "location": "Blood",
+      "identifiers": {
+        "HGNC_ID": "HGNC:10558"
+      },
+      "synonyms": [
+        "Antithrombin III"
+      ]
+    },
+    {
+      "id": "LGALS3",
+      "label": "LGALS3",
+      "type": "Protein",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "HGNC_ID": "HGNC:6563"
+      },
+      "synonyms": [
+        "Galectin-3"
+      ]
+    },
+    {
+      "id": "APP",
+      "label": "APP",
+      "type": "Protein",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "HGNC_ID": "HGNC:620"
+      },
+      "synonyms": [
+        "Amyloid Beta",
+        "Abeta",
+        "Aβ Plaque"
+      ]
+    },
+    {
+      "id": "Myelination",
+      "label": "Myelination",
+      "type": "BiologicalProcess",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "GO_ID": "GO:0042552"
+      },
+      "synonyms": [
+        "Myelin Repair"
+      ]
+    },
+    {
+      "id": "Temsirolimus",
+      "label": "Temsirolimus",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "ChEBI_ID": "CHEBI:63510"
+      },
+      "synonyms": [
+        "CCI-779"
+      ]
+    },
+    {
+      "id": "Sirolimus",
+      "label": "Sirolimus",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "ChEBI_ID": "CHEBI:9168"
+      },
+      "synonyms": [
+        "Rapamycin"
+      ]
+    },
+    {
+      "id": "Depression",
+      "label": "Depression",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0011570"
+      },
+      "synonyms": [
+        "Depressive Behavior",
+        "Mood Disorders"
+      ]
+    },
+    {
+      "id": "ASIC1",
+      "label": "ASIC1",
+      "type": "Protein",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "HGNC_ID": "HGNC:100"
+      },
+      "synonyms": [
+        "ASIC1a"
+      ]
+    },
+    {
+      "id": "BrainEdema",
+      "label": "Brain Edema",
+      "type": "Pathology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006114"
+      },
+      "synonyms": [
+        "Cerebral Edema"
+      ]
+    },
+    {
+      "id": "EPHA4",
+      "label": "EPHA4",
+      "type": "Protein",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "HGNC_ID": "HGNC:3388"
+      },
+      "synonyms": [
+        "Ephrin Type-A Receptor 4"
+      ]
+    },
+    {
+      "id": "PRNP",
+      "label": "PRNP",
+      "type": "Protein",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "HGNC_ID": "HGNC:9449"
+      },
+      "synonyms": [
+        "Cellular Prion Protein"
+      ]
+    },
+    {
+      "id": "AIF1",
+      "label": "AIF1",
+      "type": "Protein",
+      "location": "Microglia",
+      "identifiers": {
+        "HGNC_ID": "HGNC:354"
+      },
+      "synonyms": [
+        "IBA1",
+        "Ionized Calcium Binding Adapter Molecule 1"
+      ]
+    },
+    {
+      "id": "CerebrovascularReactivity",
+      "label": "Cerebrovascular Reactivity",
+      "type": "BiologicalProcess",
+      "location": "Blood",
+      "identifiers": {
+        "UMLS_CUI": "C0007806"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Dasatinib",
+      "label": "Dasatinib",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "ChEBI_ID": "CHEBI:49375"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Phenserine",
+      "label": "Phenserine",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "ChEBI_ID": "CHEBI:8052"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Bryostatin1",
+      "label": "Bryostatin 1",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "ChEBI_ID": "CHEBI:3206"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Xenon",
+      "label": "Xenon",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "ChEBI_ID": "CHEBI:27338"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Nilvadipine",
+      "label": "Nilvadipine",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "ChEBI_ID": "CHEBI:7563"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Morin",
+      "label": "Morin",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "ChEBI_ID": "CHEBI:28623"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Progesterone",
+      "label": "Progesterone",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "ChEBI_ID": "CHEBI:17026"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "CTSB",
+      "label": "CTSB",
+      "type": "Protein",
+      "location": "Lysosome",
+      "identifiers": {
+        "HGNC_ID": "HGNC:2527"
+      },
+      "synonyms": [
+        "Cathepsin B"
+      ]
+    },
+    {
+      "id": "Acetylcysteine",
+      "label": "Acetylcysteine",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "ChEBI_ID": "CHEBI:17530"
+      },
+      "synonyms": [
+        "N-Acetylcysteine"
+      ]
+    },
+    {
+      "id": "GPER1",
+      "label": "GPER1",
+      "type": "Protein",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "HGNC_ID": "HGNC:4485"
+      },
+      "synonyms": [
+        "G-Protein Coupled Estrogen Receptor 1"
+      ]
+    },
+    {
+      "id": "MIF",
+      "label": "MIF",
+      "type": "Protein",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "HGNC_ID": "HGNC:7097"
+      },
+      "synonyms": [
+        "Macrophage Migration Inhibitory Factor"
+      ]
+    },
+    {
+      "id": "SCN1A",
+      "label": "SCN1A",
+      "type": "Protein",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "HGNC_ID": "HGNC:10585"
+      },
+      "synonyms": [
+        "Voltage-Gated Sodium Channel",
+        "Nav1.1"
+      ]
+    },
+    {
+      "id": "VanillicAcid",
+      "label": "Vanillic Acid",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "ChEBI_ID": "CHEBI:28987"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "MGLL",
+      "label": "MGLL",
+      "type": "Protein",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "HGNC_ID": "HGNC:7055"
+      },
+      "synonyms": [
+        "Monoacylglycerol Lipase"
+      ]
+    },
+    {
+      "id": "Pomalidomide",
+      "label": "Pomalidomide",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "ChEBI_ID": "CHEBI:72516"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Naltrexone",
+      "label": "Naltrexone",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "ChEBI_ID": "CHEBI:7458"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "IL10",
+      "label": "IL10",
+      "type": "Protein",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "HGNC_ID": "HGNC:5962"
+      },
+      "synonyms": [
+        "Interleukin-10"
+      ]
+    },
+    {
+      "id": "MMP2",
+      "label": "MMP2",
+      "type": "Protein",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "HGNC_ID": "HGNC:7166"
+      },
+      "synonyms": [
+        "Matrix Metalloproteinase-2"
+      ]
+    },
+    {
+      "id": "CXCL12",
+      "label": "CXCL12",
+      "type": "Protein",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "HGNC_ID": "HGNC:10672"
+      },
+      "synonyms": [
+        "SDF-1",
+        "Stromal Cell-Derived Factor 1"
+      ]
+    },
+    {
+      "id": "PPARG",
+      "label": "PPARG",
+      "type": "Protein",
+      "location": "Nucleus",
+      "identifiers": {
+        "HGNC_ID": "HGNC:9236"
+      },
+      "synonyms": [
+        "Peroxisome Proliferator-Activated Receptor Gamma"
+      ]
+    },
+    {
+      "id": "Catechin",
+      "label": "Catechin",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "ChEBI_ID": "CHEBI:23053"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "DRD2",
+      "label": "DRD2",
+      "type": "Protein",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "HGNC_ID": "HGNC:3023"
+      },
+      "synonyms": [
+        "Dopamine Receptor"
+      ]
+    },
+    {
+      "id": "N-acetylserotonin",
+      "label": "N-acetylserotonin",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "ChEBI_ID": "CHEBI:17623"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Fucoidan",
+      "label": "Fucoidan",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "ChEBI_ID": "CHEBI:28139"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "NEFL",
+      "label": "NEFL",
+      "type": "Protein",
+      "location": "Axon",
+      "identifiers": {
+        "HGNC_ID": "HGNC:7739"
+      },
+      "synonyms": [
+        "Neurofilament Light Chain"
+      ]
+    },
+    {
+      "id": "NLRP3",
+      "label": "NLRP3",
+      "type": "Protein",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "HGNC_ID": "HGNC:16400"
+      },
+      "synonyms": [
+        "NLRP3 Inflammasome"
+      ]
+    },
+    {
+      "id": "NicotinamideMononucleotide",
+      "label": "Nicotinamide mononucleotide",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "ChEBI_ID": "CHEBI:17634"
+      },
+      "synonyms": [
+        "NMN"
+      ]
+    },
+    {
+      "id": "Propofol",
+      "label": "Propofol",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "ChEBI_ID": "CHEBI:8499"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "EFNB1",
+      "label": "EFNB1",
+      "type": "Protein",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "HGNC_ID": "HGNC:3226"
+      },
+      "synonyms": [
+        "Ephrin-B1"
+      ]
+    },
+    {
+      "id": "STAT3",
+      "label": "STAT3",
+      "type": "Protein",
+      "location": "Nucleus",
+      "identifiers": {
+        "HGNC_ID": "HGNC:11364"
+      },
+      "synonyms": [
+        "Signal Transducer and Activator of Transcription 3"
+      ]
+    },
+    {
+      "id": "ThymosinAlpha1",
+      "label": "Thymosin Alpha 1",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0040166"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Lithium",
+      "label": "Lithium",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "ChEBI_ID": "CHEBI:30145"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Mitoquinone",
+      "label": "Mitoquinone",
+      "type": "Chemical",
+      "location": "Mitochondria",
+      "identifiers": {
+        "ChEBI_ID": "CHEBI:76033"
+      },
+      "synonyms": [
+        "MitoQ"
+      ]
+    },
+    {
+      "id": "Simvastatin",
+      "label": "Simvastatin",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "ChEBI_ID": "CHEBI:9150"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Pyruvate",
+      "label": "Pyruvate",
+      "type": "Chemical",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "ChEBI_ID": "CHEBI:32816"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Pioglitazone",
+      "label": "Pioglitazone",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "ChEBI_ID": "CHEBI:8228"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "CSF1R",
+      "label": "CSF1R",
+      "type": "Protein",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "HGNC_ID": "HGNC:2433"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "AmyotrophicLateralSclerosis",
+      "label": "Amyotrophic Lateral Sclerosis",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0002736"
+      },
+      "synonyms": [
+        "ALS"
+      ]
+    },
+    {
+      "id": "Ruxolitinib",
+      "label": "Ruxolitinib",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "ChEBI_ID": "CHEBI:63909"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Oxiracetam",
+      "label": "Oxiracetam",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "ChEBI_ID": "CHEBI:31941"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Daidzein",
+      "label": "Daidzein",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "ChEBI_ID": "CHEBI:28133"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "SIRT2",
+      "label": "SIRT2",
+      "type": "Protein",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "HGNC_ID": "HGNC:14930"
+      },
+      "synonyms": [
+        "Sirtuin 2"
+      ]
+    },
+    {
+      "id": "TBK1",
+      "label": "TBK1",
+      "type": "Protein",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "HGNC_ID": "HGNC:11584"
+      },
+      "synonyms": [
+        "TANK-binding kinase 1"
+      ]
+    },
+    {
+      "id": "Microglia",
+      "label": "Microglia",
+      "type": "Cell",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0026010"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Astrocyte",
+      "label": "Astrocyte",
+      "type": "Cell",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0004115"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "BDNF",
+      "label": "BDNF",
+      "type": "Protein",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "HGNC_ID": "HGNC:1033"
+      },
+      "synonyms": [
+        "Brain-Derived Neurotrophic Factor"
+      ]
+    },
+    {
+      "id": "APOE",
+      "label": "APOE",
+      "type": "Protein",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "HGNC_ID": "HGNC:613"
+      },
+      "synonyms": [
+        "Apolipoprotein E4"
+      ]
+    },
+    {
+      "id": "LongTermPotentiation",
+      "label": "Long Term Potentiation",
+      "type": "BiologicalProcess",
+      "location": "Synapse",
+      "identifiers": {
+        "GO_ID": "GO:0050852"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "NFE2L2",
+      "label": "NFE2L2",
+      "type": "Protein",
+      "location": "Nucleus",
+      "identifiers": {
+        "HGNC_ID": "HGNC:7782"
+      },
+      "synonyms": [
+        "Nrf2"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "SOD1",
+      "target": "MAPT",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        81
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: SOD1 Rat Model exhibits Increased Tauopathy"
+    },
+    {
+      "source": "CDKN2A",
+      "target": "BrainAtrophy",
+      "mechanism": "associated_with",
+      "evidence_ref": [
+        0
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "DNALI1",
+      "target": "Autophagy",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        2
+      ],
+      "confidence": "High",
+      "metadata": "Context: Inhibits Autophagosome-Lysosome Fusion and reduces Flux"
+    },
+    {
+      "source": "MAPT",
+      "target": "Neurodegeneration",
+      "mechanism": "causes",
+      "evidence_ref": [
+        8
+      ],
+      "confidence": "High",
+      "metadata": "Context: hTau.P301S variant upregulates Chronic Axon Pathology"
+    },
+    {
+      "source": "MAPT",
+      "target": "BrainAtrophy",
+      "mechanism": "mediates",
+      "evidence_ref": [
+        8
+      ],
+      "confidence": "High",
+      "metadata": "Context: Corpus Callosum Atrophy"
+    },
+    {
+      "source": "MAPT",
+      "target": "MicroglialActivation",
+      "mechanism": "activates",
+      "evidence_ref": [
+        8
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "Deferiprone",
+      "target": "OxidativeStress",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        10
+      ],
+      "confidence": "High",
+      "metadata": "Context: Attenuates oxidative stress"
+    },
+    {
+      "source": "Deferiprone",
+      "target": "TraumaticBrainInjury",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        10
+      ],
+      "confidence": "High",
+      "metadata": "Context: Improves Neurological Severity Scores, reduces Iron Levels, preserves Neurons"
+    },
+    {
+      "source": "Deferiprone",
+      "target": "Astrocytosis",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        10
+      ],
+      "confidence": "High",
+      "metadata": "Context: Reduces Astrogliosis"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "CognitiveImpairment",
+      "mechanism": "causes",
+      "evidence_ref": [
+        11,
+        134,
+        197,
+        319,
+        327,
+        396
+      ],
+      "confidence": "High",
+      "metadata": "Context: Concussion, Mild TBI, Repeated TBI"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "NUP62",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        13
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "SNCA",
+      "mechanism": "causes",
+      "evidence_ref": [
+        18,
+        140,
+        328
+      ],
+      "confidence": "High",
+      "metadata": "Context: Protein Aggregation, Alpha-Synuclein accumulation"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "FrontotemporalDementia",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        19
+      ],
+      "confidence": "High",
+      "metadata": "Context: Increases risk"
+    },
+    {
+      "source": "IL1B",
+      "target": "TraumaticBrainInjury",
+      "mechanism": "mediates",
+      "evidence_ref": [
+        20
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Mediates Neurological Dysfunction"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "IntegratedStressResponse",
+      "mechanism": "causes",
+      "evidence_ref": [
+        24
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "IntegratedStressResponse",
+      "target": "DendriticSpineOrganization",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        24
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "ISRIB",
+      "target": "IntegratedStressResponse",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        24
+      ],
+      "confidence": "High",
+      "metadata": "Context: Reverses Dendritic Spine Dynamics caused by ISR"
+    },
+    {
+      "source": "CASP3",
+      "target": "Neurodegeneration",
+      "mechanism": "mediates",
+      "evidence_ref": [
+        26,
+        311
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "PARP1",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        26,
+        167
+      ],
+      "confidence": "High",
+      "metadata": "Context: Stretch Injury"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Norepinephrine",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        29
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Impairs Norepinephrine System Function"
+    },
+    {
+      "source": "Methylphenidate",
+      "target": "Norepinephrine",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        29
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "Paclitaxel",
+      "target": "CognitiveImpairment",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        32
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "FecalMicrobiotaTransplantation",
+      "target": "CognitiveImpairment",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        36
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Improves Neurocognitive Outcomes"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Neuroinflammation",
+      "mechanism": "causes",
+      "evidence_ref": [
+        50,
+        52,
+        256,
+        389
+      ],
+      "confidence": "High",
+      "metadata": "Context: Neurovascular Inflammation"
+    },
+    {
+      "source": "AntithrombinIII",
+      "target": "Neuroinflammation",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        50
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Anxiety",
+      "mechanism": "causes",
+      "evidence_ref": [
+        51,
+        55,
+        79,
+        168,
+        184,
+        206
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "BrainAtrophy",
+      "mechanism": "causes",
+      "evidence_ref": [
+        38,
+        61,
+        116,
+        359
+      ],
+      "confidence": "High",
+      "metadata": "Context: Cortical Atrophy"
+    },
+    {
+      "source": "LGALS3",
+      "target": "Neurodegeneration",
+      "mechanism": "promotes",
+      "evidence_ref": [
+        158
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "APP",
+      "target": "MAPT",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        64
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Aβ1-6A2V(D) Peptide upregulates Tau Degradation (inhibits aggregation)"
+    },
+    {
+      "source": "Myelination",
+      "target": "Depression",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        69
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Alleviates Depressive Disorder"
+    },
+    {
+      "source": "Temsirolimus",
+      "target": "MAPT",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        78
+      ],
+      "confidence": "High",
+      "metadata": "Context: Decreases Neurofibrillary Tangles"
+    },
+    {
+      "source": "Sirolimus",
+      "target": "Autophagy",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        78
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "ASIC1",
+      "target": "BrainEdema",
+      "mechanism": "mediates",
+      "evidence_ref": [
+        83
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Deficiency reduces Brain Water Content"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "BrainEdema",
+      "mechanism": "causes",
+      "evidence_ref": [
+        84,
+        141,
+        170,
+        177,
+        197,
+        216,
+        288
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "EPHA4",
+      "target": "Neurogenesis",
+      "mechanism": "mediates",
+      "evidence_ref": [
+        89
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Neurogenic Remodeling"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "CerebrovascularReactivity",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        92,
+        145
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "PRNP",
+      "target": "Neurodegeneration",
+      "mechanism": "mediates",
+      "evidence_ref": [
+        100
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Neuronal Loss"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Depression",
+      "mechanism": "causes",
+      "evidence_ref": [
+        102,
+        301,
+        355,
+        360
+      ],
+      "confidence": "High",
+      "metadata": "Context: Mood Disorders"
+    },
+    {
+      "source": "Dasatinib",
+      "target": "Neurodegeneration",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        115
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Ameliorates"
+    },
+    {
+      "source": "Phenserine",
+      "target": "Neuroinflammation",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        119
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "Bryostatin1",
+      "target": "CognitiveImpairment",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        122
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Improves Cognitive Outcomes"
+    },
+    {
+      "source": "Xenon",
+      "target": "Neuroinflammation",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        125
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "Nilvadipine",
+      "target": "Neuroinflammation",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        126,
+        319
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "Morin",
+      "target": "Autophagy",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        128
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "Progesterone",
+      "target": "Neuroinflammation",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        135
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "CTSB",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        136
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Increases Cytosolic Cathepsin B Activity"
+    },
+    {
+      "source": "CTSB",
+      "target": "MotorDisorders",
+      "mechanism": "mediates",
+      "evidence_ref": [
+        136
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "Acetylcysteine",
+      "target": "CognitiveImpairment",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        147
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Treats Memory Impairment"
+    },
+    {
+      "source": "GPER1",
+      "target": "CognitiveImpairment",
+      "mechanism": "causes",
+      "evidence_ref": [
+        151
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: G-1 causes impairment (Need to check directionality, GPER1 usually neuroprotective? Abstract says G-1 causes impairment)"
+    },
+    {
+      "source": "MIF",
+      "target": "Neurodegeneration",
+      "mechanism": "promotes",
+      "evidence_ref": [
+        167
+      ],
+      "confidence": "High",
+      "metadata": "Context: Promotes Neuronal Cell Death"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "SCN1A",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        168
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Nav1.1, Nav1.3, Nav1.6"
+    },
+    {
+      "source": "VanillicAcid",
+      "target": "BrainEdema",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        170
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "MGLL",
+      "target": "CognitiveImpairment",
+      "mechanism": "mediates",
+      "evidence_ref": [
+        173
+      ],
+      "confidence": "High",
+      "metadata": "Context: Knockout prevents Cognitive Decline"
+    },
+    {
+      "source": "PPARG",
+      "target": "Neurodegeneration",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        173
+      ],
+      "confidence": "High",
+      "metadata": "Context: Neuroprotection"
+    },
+    {
+      "source": "Pomalidomide",
+      "target": "Neuroinflammation",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        175
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "Naltrexone",
+      "target": "Neuroinflammation",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        178
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "IL10",
+      "target": "STAT3",
+      "mechanism": "activates",
+      "evidence_ref": [
+        182
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "MMP2",
+      "target": "Neurodegeneration",
+      "mechanism": "mediates",
+      "evidence_ref": [
+        188
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "MMP2",
+      "target": "CXCL12",
+      "mechanism": "cleaves",
+      "evidence_ref": [
+        188
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "Catechin",
+      "target": "Neuroinflammation",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        191
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "DRD2",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        193
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "N-acetylserotonin",
+      "target": "Neurodegeneration",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        195
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Reduces Lesion Volume"
+    },
+    {
+      "source": "Fucoidan",
+      "target": "BrainEdema",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        197
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Ameliorates BBB Integrity"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "NEFL",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        198,
+        352
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "NLRP3",
+      "target": "CognitiveImpairment",
+      "mechanism": "mediates",
+      "evidence_ref": [
+        212
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "NicotinamideMononucleotide",
+      "target": "Neuroinflammation",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        216
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "Propofol",
+      "target": "Neuroinflammation",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        217
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "EFNB1",
+      "target": "STAT3",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        238
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Downregulates Phosphorylation"
+    },
+    {
+      "source": "ThymosinAlpha1",
+      "target": "BrainEdema",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        295
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "Lithium",
+      "target": "Neurogenesis",
+      "mechanism": "activates",
+      "evidence_ref": [
+        306
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "Mitoquinone",
+      "target": "Neuroinflammation",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        307
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "Simvastatin",
+      "target": "TraumaticBrainInjury",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        308
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Therapeutic Effects"
+    },
+    {
+      "source": "Pyruvate",
+      "target": "OxidativeStress",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        313
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Reduces Nitrosative Stress"
+    },
+    {
+      "source": "Procyanidins",
+      "target": "BDNF",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        321
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "Pioglitazone",
+      "target": "MicroglialActivation",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        268,
+        347
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "CSF1R",
+      "target": "MicroglialActivation",
+      "mechanism": "activates",
+      "evidence_ref": [
+        280
+      ],
+      "confidence": "High",
+      "metadata": "Context: Inhibition decreases Microglia"
+    },
+    {
+      "source": "APP",
+      "target": "TraumaticBrainInjury",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        258
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Phospholipid Precursors decrease APP"
+    },
+    {
+      "source": "SIRT2",
+      "target": "Neuroinflammation",
+      "mechanism": "activates",
+      "evidence_ref": [
+        330
+      ],
+      "confidence": "High",
+      "metadata": "Context: Inhibition inhibits Neuroinflammation"
+    },
+    {
+      "source": "TBK1",
+      "target": "Neuroinflammation",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        406
+      ],
+      "confidence": "High",
+      "metadata": "Context: Downregulates"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "AmyotrophicLateralSclerosis",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        373
+      ],
+      "confidence": "High",
+      "metadata": "Context: Risk factor"
+    },
+    {
+      "source": "Ruxolitinib",
+      "target": "Neurodegeneration",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        49
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "Oxiracetam",
+      "target": "CognitiveImpairment",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        236
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "Daidzein",
+      "target": "OxidativeStress",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        161
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "APOE",
+      "target": "MAPT",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        25,
+        122
+      ],
+      "confidence": "High",
+      "metadata": "Context: Increases Tau Levels and Phosphorylation"
+    },
+    {
+      "source": "NFE2L2",
+      "target": "OxidativeStress",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        338
+      ],
+      "confidence": "High",
+      "metadata": "Context: Promotes Antioxidative stress factors"
+    }
+  ]
+}

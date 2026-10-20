@@ -1,0 +1,509 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 20,
+    "edge_count": 20
+  },
+  "nodes": [
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "Traumatic brain injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111"
+      },
+      "synonyms": [
+        "TBI",
+        "Repeated Blast Traumatic Brain Injury",
+        "Repetitive Traumatic Brain Injury",
+        "Mild TBI",
+        "Moderate-Severe Traumatic Brain Injury",
+        "Diffuse Closed Traumatic Brain Injury",
+        "Impact Injury",
+        "Blast Injury",
+        "Military Blast Injury",
+        "Cerebral Cortex Injury"
+      ]
+    },
+    {
+      "id": "Astrogliosis",
+      "label": "Astrogliosis",
+      "type": "Pathology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0004133"
+      },
+      "synonyms": [
+        "Astrocytosis",
+        "Astrocyte Activation",
+        "Reactive Astrogliosis",
+        "Astroglial Scar Formation",
+        "Astrocytic Hypertrophy",
+        "Astrocyte Reactivity",
+        "Proinflammatory Astrocytic State",
+        "Astrocyte Proliferation"
+      ]
+    },
+    {
+      "id": "Microgliosis",
+      "label": "Microgliosis",
+      "type": "Pathology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0026013"
+      },
+      "synonyms": [
+        "Microglial Activation"
+      ]
+    },
+    {
+      "id": "Gliosis",
+      "label": "Gliosis",
+      "type": "Pathology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0017639"
+      },
+      "synonyms": [
+        "Glial Activation",
+        "Reactive Gliosis",
+        "Glial Abnormality",
+        "Glial Cell Activity"
+      ]
+    },
+    {
+      "id": "Neuroinflammation",
+      "label": "Neuroinflammation",
+      "type": "Pathology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027947"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "CognitiveImpairment",
+      "label": "Cognitive disorders",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0009241"
+      },
+      "synonyms": [
+        "Cognitive Decline",
+        "Cognitive Deficits",
+        "Cognitive Dysfunction"
+      ]
+    },
+    {
+      "id": "BehavioralSymptoms",
+      "label": "Behavioral Symptoms",
+      "type": "Symptom",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0004927"
+      },
+      "synonyms": [
+        "Behavioral Changes"
+      ]
+    },
+    {
+      "id": "SynapseLoss",
+      "label": "Synaptic Loss",
+      "type": "Pathology",
+      "location": "Synapse",
+      "identifiers": {
+        "UMLS_CUI": "C0036608"
+      },
+      "synonyms": [
+        "Synaptic degeneration"
+      ]
+    },
+    {
+      "id": "Astrocytes",
+      "label": "Astrocytes",
+      "type": "Cell",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0004132"
+      },
+      "synonyms": [
+        "GFAP-Positive Cells"
+      ]
+    },
+    {
+      "id": "MesenchymalStemCells",
+      "label": "Mesenchymal Stem Cells",
+      "type": "Cell",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C1269647"
+      },
+      "synonyms": [
+        "Human Mesenchymal Stem Cells"
+      ]
+    },
+    {
+      "id": "Omega-3FattyAcid",
+      "label": "omega-3 fatty acid",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0015645",
+        "ChEBI_ID": "CHEBI:25627"
+      },
+      "synonyms": [
+        "N-3 Polyunsaturated Fatty Acids"
+      ]
+    },
+    {
+      "id": "PyruvicAcid",
+      "label": "pyruvic acid",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0034237",
+        "ChEBI_ID": "CHEBI:32816"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Synaptamide",
+      "label": "synaptamide",
+      "type": "Chemical",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "ChEBI_ID": "CHEBI:85252"
+      },
+      "synonyms": [
+        "N-docosahexaenoylethanolamine"
+      ]
+    },
+    {
+      "id": "Oxygen",
+      "label": "Oxygen",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0029973",
+        "ChEBI_ID": "CHEBI:15379"
+      },
+      "synonyms": [
+        "Oxygen Exposure"
+      ]
+    },
+    {
+      "id": "TBK1",
+      "label": "TBK1",
+      "type": "Protein",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "HGNC_ID": "HGNC:11584",
+        "UMLS_CUI": "C1336605"
+      },
+      "synonyms": [
+        "TANK-binding kinase 1"
+      ]
+    },
+    {
+      "id": "OpticNerveInjuries",
+      "label": "Optic Nerve Injuries",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0029131"
+      },
+      "synonyms": [
+        "Optic Nerve Damage"
+      ]
+    },
+    {
+      "id": "TissueHomeostasis",
+      "label": "Tissue homeostasis",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "GO_ID": "GO:0001894"
+      },
+      "synonyms": [
+        "Brain Homeostasis"
+      ]
+    },
+    {
+      "id": "NeuronalFunction",
+      "label": "Neuronal physiological process",
+      "type": "Process",
+      "location": "Neuron",
+      "identifiers": {
+        "GO_ID": "GO:0019226"
+      },
+      "synonyms": [
+        "Neuronal Function"
+      ]
+    },
+    {
+      "id": "CerebralBloodFlow",
+      "label": "Cerebrovascular Circulation",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0007786"
+      },
+      "synonyms": [
+        "Acute Cerebral Blood Flow"
+      ]
+    },
+    {
+      "id": "ComplementActivation",
+      "label": "Complement activation",
+      "type": "Process",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "GO_ID": "GO:0006956"
+      },
+      "synonyms": []
+    }
+  ],
+  "edges": [
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Astrogliosis",
+      "mechanism": "causes",
+      "evidence_ref": [
+        17,
+        28,
+        51,
+        59,
+        60,
+        61,
+        71,
+        104,
+        117,
+        123,
+        124,
+        138,
+        145,
+        146,
+        156,
+        162,
+        198,
+        267,
+        283,
+        301,
+        325,
+        341,
+        352,
+        368,
+        384,
+        385,
+        403
+      ],
+      "confidence": "High",
+      "metadata": "Includes repetitive, mild, moderate-severe, and blast injury contexts. Ref 17 indicates negative association in Sham-Injured P301S mice (control)."
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Microgliosis",
+      "mechanism": "causes",
+      "evidence_ref": [
+        123
+      ],
+      "confidence": "Medium",
+      "metadata": "Specific to Impact Injury context."
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Gliosis",
+      "mechanism": "causes",
+      "evidence_ref": [
+        20,
+        106,
+        131,
+        186,
+        225,
+        226,
+        285,
+        346,
+        350,
+        409,
+        411
+      ],
+      "confidence": "High",
+      "metadata": "Variant findings: Ref 20 and 106 report 'does not cause' or 'no direct link' for rmTBI. Ref 411 reports 'reduces'."
+    },
+    {
+      "source": "Astrogliosis",
+      "target": "Neuroinflammation",
+      "mechanism": "causes",
+      "evidence_ref": [
+        51
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "Astrogliosis",
+      "target": "CognitiveImpairment",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        59,
+        337
+      ],
+      "confidence": "Medium",
+      "metadata": "Described as mediating cognitive impairment/decline."
+    },
+    {
+      "source": "Astrogliosis",
+      "target": "BehavioralSymptoms",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        60
+      ],
+      "confidence": "Medium",
+      "metadata": "Described as mediating behavioral changes."
+    },
+    {
+      "source": "Astrogliosis",
+      "target": "SynapseLoss",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        59
+      ],
+      "confidence": "Medium",
+      "metadata": "Described as mediating synaptic loss."
+    },
+    {
+      "source": "Astrogliosis",
+      "target": "ComplementActivation",
+      "mechanism": "activates",
+      "evidence_ref": [
+        180
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "Microgliosis",
+      "target": "NeuronalFunction",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        68
+      ],
+      "confidence": "Medium",
+      "metadata": "Described as affecting neuronal function."
+    },
+    {
+      "source": "Gliosis",
+      "target": "CognitiveImpairment",
+      "mechanism": "associated_with",
+      "evidence_ref": [
+        225,
+        350
+      ],
+      "confidence": "Medium",
+      "metadata": "Gliosis and Reactive Gliosis associated with/mediating cognitive decline/deficits."
+    },
+    {
+      "source": "Gliosis",
+      "target": "CerebralBloodFlow",
+      "mechanism": "associated_with",
+      "evidence_ref": [
+        101
+      ],
+      "confidence": "Medium",
+      "metadata": "Glial Activation associated with Acute Cerebral Blood Flow."
+    },
+    {
+      "source": "MesenchymalStemCells",
+      "target": "Microgliosis",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        268
+      ],
+      "confidence": "Medium",
+      "metadata": "Reduces microgliosis."
+    },
+    {
+      "source": "MesenchymalStemCells",
+      "target": "Astrogliosis",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        268
+      ],
+      "confidence": "Medium",
+      "metadata": "Reduces astrogliosis."
+    },
+    {
+      "source": "Omega-3FattyAcid",
+      "target": "Gliosis",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        94
+      ],
+      "confidence": "Medium",
+      "metadata": "Source states upregulation of Glial Activation."
+    },
+    {
+      "source": "PyruvicAcid",
+      "target": "Astrogliosis",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        313
+      ],
+      "confidence": "Medium",
+      "metadata": "Stimulates astrogliosis."
+    },
+    {
+      "source": "Synaptamide",
+      "target": "Astrogliosis",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        337
+      ],
+      "confidence": "Medium",
+      "metadata": "Inhibits reactive astrogliosis."
+    },
+    {
+      "source": "Oxygen",
+      "target": "Gliosis",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        304
+      ],
+      "confidence": "Medium",
+      "metadata": "Oxygen exposure prevents gliosis."
+    },
+    {
+      "source": "TBK1",
+      "target": "Astrogliosis",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        406
+      ],
+      "confidence": "Medium",
+      "metadata": "Inferred from 'Tbk1/IKK-e Inhibition enhances Astroglial Scar Formation'."
+    },
+    {
+      "source": "OpticNerveInjuries",
+      "target": "Astrogliosis",
+      "mechanism": "causes",
+      "evidence_ref": [
+        261
+      ],
+      "confidence": "Medium",
+      "metadata": "Optic Nerve Damage causes Astrogliosis."
+    },
+    {
+      "source": "Astrocytes",
+      "target": "TissueHomeostasis",
+      "mechanism": "maintains",
+      "evidence_ref": [
+        173
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    }
+  ]
+}

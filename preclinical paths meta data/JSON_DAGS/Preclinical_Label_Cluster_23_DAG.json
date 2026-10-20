@@ -1,0 +1,177 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 6,
+    "edge_count": 5
+  },
+  "nodes": [
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "Traumatic Brain Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111",
+        "MeSH": "D001930"
+      },
+      "synonyms": [
+        "TBI",
+        "Mild Traumatic Brain Injury",
+        "Severe Head Injury",
+        "Repetitive Mild Traumatic Brain Injury",
+        "Military Blast Injury",
+        "Concussion"
+      ]
+    },
+    {
+      "id": "MicroglialActivation",
+      "label": "Microglial Activation",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "GO_ID": "GO:0001774",
+        "UMLS_CUI": "C2349712"
+      },
+      "synonyms": [
+        "Microglial cell activation",
+        "Microglial Reactivity",
+        "Microglial Response",
+        "M1 Microglial Polarization"
+      ]
+    },
+    {
+      "id": "Microglia",
+      "label": "Microglia",
+      "type": "Cell",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0026002",
+        "CL_ID": "CL:0000129"
+      },
+      "synonyms": [
+        "Microglial Cell"
+      ]
+    },
+    {
+      "id": "PerivascularMacrophage",
+      "label": "Perivascular Macrophage",
+      "type": "Cell",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C3714652",
+        "CL_ID": "CL:0000889"
+      },
+      "synonyms": [
+        "Brain Perivascular Macrophage"
+      ]
+    },
+    {
+      "id": "Phagocytosis",
+      "label": "Phagocytosis",
+      "type": "Process",
+      "location": "Microglia",
+      "identifiers": {
+        "GO_ID": "GO:0006909",
+        "UMLS_CUI": "C0031301"
+      },
+      "synonyms": [
+        "Phagocytic Activity",
+        "Phagocytic Receptor Activity"
+      ]
+    },
+    {
+      "id": "SARM1",
+      "label": "SARM1",
+      "type": "Protein",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "HGNC_ID": "HGNC:17688",
+        "UniProt_ID": "Q6SZW1",
+        "UMLS_CUI": "C1420233"
+      },
+      "synonyms": [
+        "Sterile Alpha and TIR Motif Containing 1"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "MicroglialActivation",
+      "mechanism": "activates",
+      "evidence_ref": [
+        5,
+        36,
+        51,
+        71,
+        73,
+        74,
+        121,
+        153,
+        156,
+        157,
+        181,
+        194,
+        197,
+        203,
+        204,
+        207,
+        214,
+        283,
+        286,
+        324,
+        347,
+        355,
+        359,
+        362,
+        409
+      ],
+      "confidence": "High",
+      "metadata": "Context: Widespread consensus; includes M1 polarization (Ref 286) and response to military/blast/mild TBI. Minority reports: No link (Ref 156), Negative effect (Ref 359)."
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Phagocytosis",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        106,
+        203,
+        363
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Induces phagocytic activity (Ref 203, 363); Repetitive Mild TBI reported to downregulate phagocytic receptor (Ref 106)."
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Microglia",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        301,
+        388
+      ],
+      "confidence": "High",
+      "metadata": "Context: Increases microglia number/abundance."
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "PerivascularMacrophage",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        388
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Causes presence/infiltration."
+    },
+    {
+      "source": "SARM1",
+      "target": "MicroglialActivation",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        303
+      ],
+      "confidence": "High",
+      "metadata": "Context: Negative regulation."
+    }
+  ]
+}

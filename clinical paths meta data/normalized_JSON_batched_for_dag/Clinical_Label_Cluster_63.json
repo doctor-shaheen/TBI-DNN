@@ -1,0 +1,513 @@
+[
+    {
+        "source_abstract_id":140,
+        "subject":"Subdural Hemorrhage",
+        "relation":"correlates_with",
+        "object":"Intracranial Hemorrhage Progression",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":140,
+        "subject":"Dementia",
+        "relation":"correlates_with",
+        "object":"Intracranial Hemorrhage Progression",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":250,
+        "subject":"Angiotensin-Converting Enzyme Inhibitors",
+        "relation":"prevents",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":250,
+        "subject":"Statins",
+        "relation":"prevents",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":250,
+        "subject":"Combination of ACE Inhibitors and Statins",
+        "relation":"delays",
+        "object":"Onset of Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":250,
+        "subject":"Beta Blockers",
+        "relation":"unknown_effect_on",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":250,
+        "subject":"Combination of ACE Inhibitors and Statins",
+        "relation":"associated_with",
+        "object":"Lowered Risk of Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":321,
+        "subject":"Pre-existing Dementia",
+        "relation":"interacts_with",
+        "object":"Patients Without Severe Head Injury",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":342,
+        "subject":"Rivastigmine",
+        "relation":"no_direct_causal_link",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":342,
+        "subject":"Rivastigmine",
+        "relation":"no_direct_causal_link",
+        "object":"Memory Improvement",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":342,
+        "subject":"Rivastigmine",
+        "relation":"no_direct_causal_link",
+        "object":"Placebo Effect",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":342,
+        "subject":"Rivastigmine",
+        "relation":"no_direct_causal_link",
+        "object":"Memory Deficits",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":437,
+        "subject":"Hyperlipidemia",
+        "relation":"predicts",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":456,
+        "subject":"Low Educational Status",
+        "relation":"causes",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":537,
+        "subject":"Hypertension",
+        "relation":"increases_prevalence_of",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":564,
+        "subject":"Vascular Conditions",
+        "relation":"upregulates",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":623,
+        "subject":"Hypertension",
+        "relation":"predicts",
+        "object":"Neurodegenerative Complications",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":11,
+        "subject":"Hypertension",
+        "relation":"associated_with",
+        "object":"Dementia",
+        "entity_variants":"none|"
+    },
+    {
+        "source_abstract_id":18,
+        "subject":"Cardiovascular Diseases",
+        "relation":"causes",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":18,
+        "subject":"Cardiovascular Disease Risk Factors",
+        "relation":"mediates",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":95,
+        "subject":"Cognitive Status",
+        "relation":"diagnoses",
+        "object":"Dementia",
+        "entity_variants":"dementia|"
+    },
+    {
+        "source_abstract_id":160,
+        "subject":"Dementia",
+        "relation":"mediates",
+        "object":"Cognitive Deficits",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":160,
+        "subject":"Dementia",
+        "relation":"no_direct_causal_link",
+        "object":"International Classification of Diseases Codes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":252,
+        "subject":"Insurance Type",
+        "relation":"influences",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":252,
+        "subject":"Medicaid",
+        "relation":"upregulates",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":252,
+        "subject":"Medicare",
+        "relation":"upregulates",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":252,
+        "subject":"Insurance Type",
+        "relation":"modulates",
+        "object":"Dementia Incidence",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":252,
+        "subject":"Demographic Variables",
+        "relation":"confounds",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":252,
+        "subject":"Medical Comorbidities",
+        "relation":"confounds",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":252,
+        "subject":"Psychiatric Conditions",
+        "relation":"confounds",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":255,
+        "subject":"Nonacupuncture",
+        "relation":"increases_risk_of",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":283,
+        "subject":"Adverse Childhood Experiences",
+        "relation":"causes",
+        "object":"Dementia Symptoms",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":299,
+        "subject":"Cognitive Ability",
+        "relation":"does_not_prevent",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":299,
+        "subject":"Education",
+        "relation":"does_not_prevent",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":311,
+        "subject":"Hypertension",
+        "relation":"upregulates",
+        "object":"Vascular Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":311,
+        "subject":"Coronary Artery Disease",
+        "relation":"upregulates",
+        "object":"Vascular Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":311,
+        "subject":"Cerebrovascular Disease",
+        "relation":"upregulates",
+        "object":"Vascular Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":321,
+        "subject":"Pre-existing Dementia",
+        "relation":"no_direct_causal_link",
+        "object":"Neurosurgical Intervention",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":321,
+        "subject":"Pre-existing Dementia",
+        "relation":"no_direct_causal_link",
+        "object":"Survival at Discharge",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":321,
+        "subject":"Pre-existing Dementia",
+        "relation":"associated_with",
+        "object":"Discharge to Home",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":321,
+        "subject":"Pre-existing Dementia",
+        "relation":"interacts_with",
+        "object":"Younger Patients",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":322,
+        "subject":"Education Level",
+        "relation":"associated_with",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":322,
+        "subject":"Arterial Hypertension",
+        "relation":"associated_with",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":322,
+        "subject":"Smoking",
+        "relation":"associated_with",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":322,
+        "subject":"Social Isolation",
+        "relation":"associated_with",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":322,
+        "subject":"Air Pollution",
+        "relation":"associated_with",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":331,
+        "subject":"Arterial Hypertension",
+        "relation":"associated_with",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":331,
+        "subject":"Smoking",
+        "relation":"associated_with",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":331,
+        "subject":"Social Isolation",
+        "relation":"associated_with",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":331,
+        "subject":"Air Pollution",
+        "relation":"associated_with",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":335,
+        "subject":"Cerebrovascular Diseases",
+        "relation":"upregulates",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":375,
+        "subject":"Physical Inactivity",
+        "relation":"upregulates",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":375,
+        "subject":"Hypertension",
+        "relation":"upregulates",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":375,
+        "subject":"Education",
+        "relation":"downregulates",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":375,
+        "subject":"Social Isolation",
+        "relation":"upregulates",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":437,
+        "subject":"Hypertension",
+        "relation":"predicts",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":437,
+        "subject":"Cerebrovascular Disease",
+        "relation":"predicts",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":456,
+        "subject":"Physical Inactivity",
+        "relation":"causes",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":456,
+        "subject":"Social Isolation",
+        "relation":"causes",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":456,
+        "subject":"Hypertension",
+        "relation":"causes",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":456,
+        "subject":"High Nitrogen Dioxide Exposure",
+        "relation":"causes",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":469,
+        "subject":"Arteriolosclerosis",
+        "relation":"upregulates",
+        "object":"Dementia",
+        "entity_variants":"none|"
+    },
+    {
+        "source_abstract_id":471,
+        "subject":"Previous Dementia History",
+        "relation":"confounds",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":471,
+        "subject":"Hospitalization",
+        "relation":"associated_with",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":471,
+        "subject":"Dementia",
+        "relation":"causes",
+        "object":"Death",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":472,
+        "subject":"Physical Activity",
+        "relation":"attenuates_association_with",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":496,
+        "subject":"Lower Income",
+        "relation":"increases_risk_of",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":496,
+        "subject":"Vascular Diseases",
+        "relation":"increases_risk_of",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":496,
+        "subject":"Senile Cataract",
+        "relation":"increases_risk_of",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":536,
+        "subject":"Non-Hispanic Black",
+        "relation":"causes",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":539,
+        "subject":"Cognitive Disorders",
+        "relation":"associated_with",
+        "object":"Early-Onset Dementia",
+        "entity_variants":"CUD|"
+    },
+    {
+        "source_abstract_id":564,
+        "subject":"Hypertension",
+        "relation":"associated_with",
+        "object":"Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":591,
+        "subject":"Cluster 3",
+        "relation":"has_lower_rate_of",
+        "object":"Conversion to Dementia",
+        "entity_variants":null
+    }
+]

@@ -1,0 +1,236 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 10,
+    "edge_count": 8
+  },
+  "nodes": [
+    {
+      "id": "AmericanFootball",
+      "label": "American Football",
+      "type": "Activity",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0016448"
+      },
+      "synonyms": [
+        "Football",
+        "NFL Play",
+        "High School Football",
+        "Gridiron Football",
+        "Canadian Football League"
+      ]
+    },
+    {
+      "id": "Rugby",
+      "label": "Rugby",
+      "type": "Activity",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0035928"
+      },
+      "synonyms": [
+        "Rugby Union"
+      ]
+    },
+    {
+      "id": "ChronicTraumaticEncephalopathy",
+      "label": "Chronic Traumatic Encephalopathy",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C4036132"
+      },
+      "synonyms": [
+        "CTE",
+        "Traumatic Encephalopathy Syndrome",
+        "Neuropathologic Severity"
+      ]
+    },
+    {
+      "id": "CerebralAtrophy",
+      "label": "Cerebral Atrophy",
+      "type": "Pathology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0235946"
+      },
+      "synonyms": [
+        "Brain Atrophy",
+        "Reduced Cortical Thickness"
+      ]
+    },
+    {
+      "id": "CognitiveDysfunction",
+      "label": "Cognitive Dysfunction",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0338656"
+      },
+      "synonyms": [
+        "Cognitive Decline",
+        "Cognitive Impairment",
+        "Memory Symptoms",
+        "Neurocognitive Deficits"
+      ]
+    },
+    {
+      "id": "ExecutiveDysfunction",
+      "label": "Executive Dysfunction",
+      "type": "Symptom",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0233633"
+      },
+      "synonyms": [
+        "Inhibitory Control Deficit"
+      ]
+    },
+    {
+      "id": "DepressiveDisorder",
+      "label": "Depressive Disorder",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0011581"
+      },
+      "synonyms": [
+        "Depression",
+        "Neuropsychiatric Health Deficits"
+      ]
+    },
+    {
+      "id": "AnxietyDisorder",
+      "label": "Anxiety Disorder",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0002871"
+      },
+      "synonyms": [
+        "Anxiety"
+      ]
+    },
+    {
+      "id": "Leukoaraiosis",
+      "label": "Leukoaraiosis",
+      "type": "Pathology",
+      "location": "WhiteMatter",
+      "identifiers": {
+        "UMLS_CUI": "C0241072"
+      },
+      "synonyms": [
+        "White Matter Rarefaction"
+      ]
+    },
+    {
+      "id": "Death",
+      "label": "Death",
+      "type": "Phenomenon",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0011065"
+      },
+      "synonyms": [
+        "Mortality",
+        "All-Cause Mortality"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "AmericanFootball",
+      "target": "ChronicTraumaticEncephalopathy",
+      "mechanism": "causes",
+      "evidence_ref": [
+        0,
+        1,
+        52,
+        144
+      ],
+      "confidence": "High",
+      "metadata": "Context: Dose-response relationship with duration of play; severity correlated with years played."
+    },
+    {
+      "source": "AmericanFootball",
+      "target": "CerebralAtrophy",
+      "mechanism": "causes",
+      "evidence_ref": [
+        307,
+        446
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Reduced cortical thickness and volume observed in former players."
+    },
+    {
+      "source": "AmericanFootball",
+      "target": "CognitiveDysfunction",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        93,
+        285,
+        308,
+        446,
+        482,
+        617
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Strong association in professional/former players; conflicting/null results in high school/active player cohorts."
+    },
+    {
+      "source": "AmericanFootball",
+      "target": "ExecutiveDysfunction",
+      "mechanism": "causes",
+      "evidence_ref": [
+        109,
+        308
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Includes inhibitory control deficits."
+    },
+    {
+      "source": "AmericanFootball",
+      "target": "DepressiveDisorder",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        285,
+        308,
+        482
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Observed in former professionals; some high school studies show no association."
+    },
+    {
+      "source": "AmericanFootball",
+      "target": "AnxietyDisorder",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        285
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Associated with seasons of professional play."
+    },
+    {
+      "source": "AmericanFootball",
+      "target": "Leukoaraiosis",
+      "mechanism": "causes",
+      "evidence_ref": [
+        469
+      ],
+      "confidence": "Low",
+      "metadata": "Context: White matter rarefaction linked to play years."
+    },
+    {
+      "source": "Rugby",
+      "target": "Death",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        16
+      ],
+      "confidence": "Low",
+      "metadata": "Context: Lower all-cause mortality observed until age 70."
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+[
+    {
+        "source_abstract_id":19,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Abnormal Limb Clasping",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":19,
+        "subject":"Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Impaired Performance in Morris Water Maze",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":24,
+        "subject":"Concussive Injury",
+        "relation":"causes",
+        "object":"Working Memory Deficits",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":38,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Short-Term Working Memory Deficits",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":46,
+        "subject":"Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Spatial Search Strategies",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":51,
+        "subject":"Repeated Traumatic Brain Injury",
+        "relation":"impairs",
+        "object":"Spatial Memory",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":68,
+        "subject":"Repeated Mild Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Spatial Working Memory",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":84,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Spatial Cognitive Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":95,
+        "subject":"Traumatic Brain Injury",
+        "relation":"no_direct_causal_link",
+        "object":"Spatial Learning and Memory Deficits",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":121,
+        "subject":"Military Exposure",
+        "relation":"causes",
+        "object":"Spatial Memory Deficit",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":127,
+        "subject":"Repetitive Concussive Injury",
+        "relation":"causes",
+        "object":"Spatial Learning Deficit",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":133,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Spatial Memory Deficit",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":133,
+        "subject":"Anatabine",
+        "relation":"improves",
+        "object":"Spatial Memory",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":133,
+        "subject":"Delayed Anatabine Treatment",
+        "relation":"improves",
+        "object":"Spatial Memory",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":339,
+        "subject":"Traumatic Brain Injury",
+        "relation":"impairs",
+        "object":"Spatial Learning",
+        "entity_variants":"3×Tg-AD|"
+    },
+    {
+        "source_abstract_id":350,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Spatial Learning Deficits",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":355,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Spatial Working Memory Deficits",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":382,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"impairs",
+        "object":"Spatial Memory",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":409,
+        "subject":"Blast Injury",
+        "relation":"causes",
+        "object":"Spatial Memory Impairment",
+        "entity_variants":null
+    }
+]

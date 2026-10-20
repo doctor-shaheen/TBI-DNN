@@ -1,0 +1,338 @@
+[
+    {
+        "source_abstract_id":326,
+        "subject":"NK1 Receptor Antagonist",
+        "relation":"improves",
+        "object":"Neurological Outcome",
+        "entity_variants":"not specified"
+    },
+    {
+        "source_abstract_id":326,
+        "subject":"Substance P",
+        "relation":"binds_to",
+        "object":"NK1 Receptor",
+        "entity_variants":"not specified"
+    },
+    {
+        "source_abstract_id":326,
+        "subject":"NK1 Receptor Antagonist",
+        "relation":"reduces",
+        "object":"Neurological Deficits",
+        "entity_variants":"not specified"
+    },
+    {
+        "source_abstract_id":352,
+        "subject":"Nuclear factor erythroid 2-related factor 2",
+        "relation":"upregulates",
+        "object":"Ferritin Heavy Chain",
+        "entity_variants":"Nrf2"
+    },
+    {
+        "source_abstract_id":352,
+        "subject":"Ferritin Heavy Chain Knockout",
+        "relation":"abolishes",
+        "object":"Protective Effects of N-Acetylserotonin",
+        "entity_variants":"Fth_KO"
+    },
+    {
+        "source_abstract_id":352,
+        "subject":"Deferoxamine",
+        "relation":"reverses",
+        "object":"Susceptibility due to Ferritin Heavy Chain Deletion",
+        "entity_variants":"deferoxamine"
+    },
+    {
+        "source_abstract_id":580,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Serotransferrin",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":580,
+        "subject":"Subarachnoid Hemorrhage",
+        "relation":"causes",
+        "object":"Serotransferrin",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":583,
+        "subject":"Neurotoxic Autoantibodies",
+        "relation":"prevents",
+        "object":"Neurite Retraction",
+        "entity_variants":"Prazosin, M100907"
+    },
+    {
+        "source_abstract_id":628,
+        "subject":"Collision Sports",
+        "relation":"no_direct_causal_link",
+        "object":"Brain-Derived Neurotrophic Factor",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":444,
+        "subject":"Repetitive Head Injury",
+        "relation":"causes",
+        "object":"Translocator Protein",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":236,
+        "subject":"Military Exposure",
+        "relation":"causes",
+        "object":"CD81",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":236,
+        "subject":"Military Exposure",
+        "relation":"causes",
+        "object":"Ras-related Small GTPase 10",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":236,
+        "subject":"Military Exposure",
+        "relation":"causes",
+        "object":"Annexin VII",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":236,
+        "subject":"Military Exposure",
+        "relation":"causes",
+        "object":"Claudin-5",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":236,
+        "subject":"Military Exposure",
+        "relation":"causes",
+        "object":"Sodium-Potassium-Chloride Cotransporter 1",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":236,
+        "subject":"Military Exposure",
+        "relation":"causes",
+        "object":"Aquaporin-4",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":326,
+        "subject":"TRPV1 Mechanoreceptor",
+        "relation":"facilitates",
+        "object":"Substance P Release",
+        "entity_variants":"not specified|"
+    },
+    {
+        "source_abstract_id":326,
+        "subject":"TRPV1 Mechanoreceptor",
+        "relation":"causes",
+        "object":"Substance P Release",
+        "entity_variants":"not specified|"
+    },
+    {
+        "source_abstract_id":426,
+        "subject":"Astrocytic Insulin-like Growth Factor 1",
+        "relation":"upregulates",
+        "object":"Mitophagy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":426,
+        "subject":"Insulin-like Growth Factor 1 Receptor",
+        "relation":"facilitates",
+        "object":"Mitophagy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":426,
+        "subject":"Insulin-like Growth Factor 1",
+        "relation":"facilitates",
+        "object":"Mitophagy Markers",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":426,
+        "subject":"Nuclear Factor-kappa B Pathway",
+        "relation":"regulates",
+        "object":"Dcp2",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":434,
+        "subject":"Caspase-3",
+        "relation":"predicts",
+        "object":"Clinical Outcome",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":434,
+        "subject":"Intracranial Pressure",
+        "relation":"interacts_with",
+        "object":"Caspase-3",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":442,
+        "subject":"Morin",
+        "relation":"inhibits",
+        "object":"Tumor Necrosis Factor-alpha",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":442,
+        "subject":"Morin",
+        "relation":"inhibits",
+        "object":"Interleukin-6",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":442,
+        "subject":"Morin",
+        "relation":"inhibits",
+        "object":"Interleukin-1 beta",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":442,
+        "subject":"Morin",
+        "relation":"decreases",
+        "object":"Caspase-3",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":442,
+        "subject":"Morin",
+        "relation":"increases",
+        "object":"Bcl-2",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":442,
+        "subject":"Morin",
+        "relation":"upregulates",
+        "object":"Non-canonical Wnt-1\/Protein Kinase C alpha Pathway",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":442,
+        "subject":"Morin",
+        "relation":"upregulates",
+        "object":"Interleukin-10",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":442,
+        "subject":"Morin",
+        "relation":"upregulates",
+        "object":"Janus Kinase 2",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":442,
+        "subject":"Morin",
+        "relation":"upregulates",
+        "object":"Signal Transducer and Activator of Transcription 3",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":457,
+        "subject":"p17 Protein",
+        "relation":"facilitates",
+        "object":"C18-Ceramide",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":457,
+        "subject":"C18-Ceramide",
+        "relation":"causes",
+        "object":"Mitophagy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":457,
+        "subject":"p17 Knockout Mice",
+        "relation":"exhibit",
+        "object":"Loss of C18-Ceramide-Induced Mitophagy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":457,
+        "subject":"LCL768",
+        "relation":"restores",
+        "object":"Mitophagy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":457,
+        "subject":"C18-Ceramide",
+        "relation":"reduces",
+        "object":"Long-Term Secondary Complications",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":457,
+        "subject":"p17 Expression",
+        "relation":"decreases",
+        "object":"Ceramide Synthase 1 and C18-Ceramide Levels",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":457,
+        "subject":"p17 Protein",
+        "relation":"acts_as",
+        "object":"Elimination Signal",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":465,
+        "subject":"Oxidative Stress",
+        "relation":"inhibits",
+        "object":"Sirtuin 1",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":465,
+        "subject":"Sirtuin 1",
+        "relation":"promotes",
+        "object":"Cell Survival",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":465,
+        "subject":"Oxidative Stress",
+        "relation":"facilitates",
+        "object":"Sirtuin 1 Inhibition",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":465,
+        "subject":"Sirtuin 1",
+        "relation":"is_downregulated_by",
+        "object":"Oxidative Stress",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":580,
+        "subject":"Subarachnoid Hemorrhage",
+        "relation":"causes",
+        "object":"Peroxiredoxin-2",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":593,
+        "subject":"Phosphorylated Dynamin-Related Protein 1 at Serine 616",
+        "relation":"upregulates",
+        "object":"Mitochondrial Fission",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":593,
+        "subject":"Mitochondrial Fission",
+        "relation":"causes",
+        "object":"Reactive Oxygen Species",
+        "entity_variants":null
+    }
+]

@@ -1,0 +1,177 @@
+[
+    {
+        "source_abstract_id":373,
+        "subject":"Severity of Injury Symptoms",
+        "relation":"predicts",
+        "object":"Worsened Outcome",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":178,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Reduced Locomotor Activity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":31,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Sensorimotor Deficit",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":34,
+        "subject":"Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Motor Dysfunction",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":59,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Locomotor Dysfunction",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":61,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Motor Deficit",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":81,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Motor Deficit",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":95,
+        "subject":"Traumatic Brain Injury",
+        "relation":"negatively_associated_with",
+        "object":"Motor Deficit",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":102,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Motor Function Deficit",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":102,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Motor Coordination Deficit",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":120,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Sensorimotor Functional Recovery",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":136,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Motor Deficit",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":169,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Motor Function Recovery",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":191,
+        "subject":"Blood-Brain Barrier Damage",
+        "relation":"causes",
+        "object":"Motor Deficit",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":207,
+        "subject":"Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Sensorimotor Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":230,
+        "subject":"Traumatic Brain Injury",
+        "relation":"negatively_associated_with",
+        "object":"Motor Performance",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":244,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Sensorimotor Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":298,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Sensorimotor Skill Deficit",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":311,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Sensorimotor Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":327,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Motor Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":335,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Sensorimotor Deficit",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":355,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Change in Motor Performance",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":360,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Motor Deficit",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":380,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Motor Deficit",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":387,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Motor Impairment",
+        "entity_variants":null
+    }
+]

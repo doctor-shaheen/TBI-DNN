@@ -1,0 +1,268 @@
+[
+    {
+        "source_abstract_id":4,
+        "subject":"Perivascular Space Volume",
+        "relation":"downregulates",
+        "object":"Cognitive Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":4,
+        "subject":"Perivascular Space Volume",
+        "relation":"associated_with",
+        "object":"CHII-R",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":4,
+        "subject":"Perivascular Space Volume",
+        "relation":"associated_with",
+        "object":"CHII-G",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":50,
+        "subject":"Brain Volume",
+        "relation":"associated_with",
+        "object":"Daily Functioning",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":154,
+        "subject":"Late-Onset Alzheimer Disease",
+        "relation":"not_associated_with",
+        "object":"Hippocampal Volume",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":154,
+        "subject":"Behavioral Variant Frontotemporal Dementia",
+        "relation":"not_associated_with",
+        "object":"Total Gray Matter Volume",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":229,
+        "subject":"Whole Brain Parenchyma Volume",
+        "relation":"compared_to",
+        "object":"Subgroup Volumes",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":317,
+        "subject":"Extracellular Free Water Volume Fraction",
+        "relation":"correlates_with",
+        "object":"Neuropsychological Functioning",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":401,
+        "subject":"Thalamic Volume",
+        "relation":"positively_affects",
+        "object":"Cognitive Scores",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":499,
+        "subject":"Mammillary Body Volume",
+        "relation":"negatively_affects",
+        "object":"Psychomotor Performance",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":511,
+        "subject":"Repetitive Head Trauma",
+        "relation":"associated_with",
+        "object":"Caudate Nucleus Volume",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":511,
+        "subject":"Fight Exposure Score",
+        "relation":"associated_with",
+        "object":"Thalamic Volume",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":511,
+        "subject":"Fight Exposure Score",
+        "relation":"associated_with",
+        "object":"Caudate Nucleus Volume",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":511,
+        "subject":"Years of Fighting",
+        "relation":"associated_with",
+        "object":"Thalamic Volume",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":511,
+        "subject":"Years of Fighting",
+        "relation":"associated_with",
+        "object":"Caudate Nucleus Volume",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":511,
+        "subject":"Number of Fights",
+        "relation":"associated_with",
+        "object":"Thalamic Volume",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":511,
+        "subject":"Number of Fights",
+        "relation":"associated_with",
+        "object":"Caudate Nucleus Volume",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":600,
+        "subject":"Racial Identity",
+        "relation":"affects",
+        "object":"Gray Matter Volume",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":600,
+        "subject":"Racial Identity",
+        "relation":"affects",
+        "object":"Right Hippocampal Volume",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":600,
+        "subject":"Cumulative Head Impact Index",
+        "relation":"no_direct_causal_relation",
+        "object":"Gray Matter Volume",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":600,
+        "subject":"Cumulative Head Impact Index",
+        "relation":"no_direct_causal_relation",
+        "object":"Right Hippocampal Volume",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":627,
+        "subject":"Calcium",
+        "relation":"causes",
+        "object":"Cerebral Blood Volume",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":511,
+        "subject":"Repetitive Head Trauma",
+        "relation":"interacts_with",
+        "object":"Thalamic Volume",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":38,
+        "subject":"Years Since Blast Exposure",
+        "relation":"decreases",
+        "object":"Fractional Anisotropy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":307,
+        "subject":"Cortical Volume",
+        "relation":"reduced_in",
+        "object":"Amygdala",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":307,
+        "subject":"Cortical Volume",
+        "relation":"reduced_in",
+        "object":"Parahippocampal Gyrus",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":307,
+        "subject":"Cortical Volume",
+        "relation":"reduced_in",
+        "object":"Insula",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":512,
+        "subject":"Cortical Volume",
+        "relation":"negatively_correlates_with",
+        "object":"Cognitive Performance",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":229,
+        "subject":"NeuroQuant Volumes",
+        "relation":"greater_than",
+        "object":"FreeSurfer Volumes",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":229,
+        "subject":"NeuroQuant Volumes",
+        "relation":"associated_with",
+        "object":"FreeSurfer Volumes",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":317,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Extracellular Free Water Volume Fraction",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":317,
+        "subject":"Neuroinflammation",
+        "relation":"affects",
+        "object":"Extracellular Free Water Volume Fraction",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":499,
+        "subject":"Traumatic Brain Injury Exposure",
+        "relation":"causes",
+        "object":"Fornix Volume",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":499,
+        "subject":"Fornix Volume",
+        "relation":"negatively_regulates",
+        "object":"Memory Performance",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":499,
+        "subject":"Mammillary Body Volume",
+        "relation":"negatively_regulates",
+        "object":"Fornix Volume",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":499,
+        "subject":"Traumatic Encephalopathy Syndrome Status",
+        "relation":"causes",
+        "object":"Fornix Volume",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":499,
+        "subject":"Mammillary Body Volume",
+        "relation":"associated_with",
+        "object":"Other Papez Circuit Structures",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":499,
+        "subject":"Fornix Volume",
+        "relation":"associated_with",
+        "object":"Other Papez Circuit Structures",
+        "entity_variants":null
+    }
+]

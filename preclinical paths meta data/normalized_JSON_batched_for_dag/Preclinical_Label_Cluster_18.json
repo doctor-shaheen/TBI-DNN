@@ -1,0 +1,709 @@
+[
+    {
+        "source_abstract_id":9,
+        "subject":"Mild Closed Head Injury",
+        "relation":"exacerbates",
+        "object":"Alzheimer Disease Neuropathology",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":40,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"upregulates",
+        "object":"Beta-Secretase 1",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":45,
+        "subject":"Traumatic Brain Injury",
+        "relation":"triggers",
+        "object":"Delta Secretase",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":45,
+        "subject":"Delta Secretase",
+        "relation":"cleaves",
+        "object":"Tau Protein",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":45,
+        "subject":"CCAAT\/Enhancer Binding Protein Beta",
+        "relation":"upregulates",
+        "object":"Delta Secretase",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":108,
+        "subject":"CK-p25 Model",
+        "relation":"exhibits",
+        "object":"Alzheimer Disease-like Gene Expression",
+        "entity_variants":"CK-p25 model"
+    },
+    {
+        "source_abstract_id":108,
+        "subject":"Bulbectomized Rat Model",
+        "relation":"exhibits",
+        "object":"Alzheimer Disease-like Gene Expression",
+        "entity_variants":"bulbectomized model"
+    },
+    {
+        "source_abstract_id":267,
+        "subject":"Amyloid Beta Precursor Protein",
+        "relation":"downregulates",
+        "object":"Intermediate Filament Network Remodeling",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":319,
+        "subject":"Nilvadipine",
+        "relation":"downregulates",
+        "object":"Amyloid Beta Protein Production",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":402,
+        "subject":"Amyloid Beta",
+        "relation":"upregulates",
+        "object":"Beta-Secretase 1",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":402,
+        "subject":"N-Acetylglucosaminyltransferase III",
+        "relation":"downregulates",
+        "object":"Beta-Secretase 1",
+        "entity_variants":"Mgat3(-\/-)"
+    },
+    {
+        "source_abstract_id":402,
+        "subject":"Beta-Secretase 1",
+        "relation":"causes",
+        "object":"Amyloid Beta Generation",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":402,
+        "subject":"Beta-Secretase 1",
+        "relation":"binds_to",
+        "object":"Bisecting N-Acetylglucosamine",
+        "entity_variants":"Asn(153), Asn(223)"
+    },
+    {
+        "source_abstract_id":402,
+        "subject":"Beta-Secretase 1",
+        "relation":"downregulates",
+        "object":"Amyloid Beta Plaque Formation",
+        "entity_variants":"Mgat3(-\/-)"
+    },
+    {
+        "source_abstract_id":402,
+        "subject":"Beta-Secretase 1",
+        "relation":"mediates",
+        "object":"Neuronal Death",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":344,
+        "subject":"Amyloid Precursor Protein Immunoreactivity",
+        "relation":"correlates_with",
+        "object":"Cognitive Impairment",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":267,
+        "subject":"Amyloid beta-Protein Precursor",
+        "relation":"mediates",
+        "object":"Cytokine Production",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":267,
+        "subject":"Amyloid beta-Protein Precursor",
+        "relation":"upregulates",
+        "object":"Interferon Pathway",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":267,
+        "subject":"Amyloid beta-Protein Precursor",
+        "relation":"inhibits",
+        "object":"Interferon-Stimulated Gene Products",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":267,
+        "subject":"Amyloid beta-Protein Precursor",
+        "relation":"associated_with",
+        "object":"Interferon",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":61,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Alzheimer Disease and Related Dementias Pathology",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":339,
+        "subject":"Traumatic Brain Injury",
+        "relation":"increases",
+        "object":"Amyloid Beta Precursor Protein Accumulation",
+        "entity_variants":"APP"
+    },
+    {
+        "source_abstract_id":262,
+        "subject":"Blast Injury",
+        "relation":"diagnoses",
+        "object":"Amyloid Precursor Protein Identifiability",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":22,
+        "subject":"Alzheimer Disease Model Mouse",
+        "relation":"exhibits",
+        "object":"Altered Cognitive Function",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":402,
+        "subject":"Traumatic Brain Injury",
+        "relation":"upregulates",
+        "object":"Beta-Secretase 1",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":262,
+        "subject":"Amyloid Precursor Protein Staining",
+        "relation":"diagnoses",
+        "object":"Axonal Breakage",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":111,
+        "subject":"Repeated Mild Closed Head Injury",
+        "relation":"accelerates",
+        "object":"Alzheimer Disease Pathology",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":22,
+        "subject":"Traumatic Brain Injury",
+        "relation":"exacerbates",
+        "object":"Alzheimer Disease",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":22,
+        "subject":"Alzheimer Disease Mouse Model",
+        "relation":"exhibits",
+        "object":"Elevated Amyloid beta-Protein",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":31,
+        "subject":"Amyloid beta-Protein",
+        "relation":"correlates_with",
+        "object":"Neurobehavioral Deficits",
+        "entity_variants":"Amyloid beta-Protein"
+    },
+    {
+        "source_abstract_id":33,
+        "subject":"Traumatic Brain Injury",
+        "relation":"mediates",
+        "object":"Alzheimer Disease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":40,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"triggers",
+        "object":"Amyloid beta-Protein 1-42",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":40,
+        "subject":"APP Swedish Mutation Mouse Model",
+        "relation":"exhibits",
+        "object":"Biochemical Changes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":41,
+        "subject":"Traumatic Brain Injury",
+        "relation":"triggers",
+        "object":"Amyloid beta-Protein",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":41,
+        "subject":"Traumatic Brain Injury",
+        "relation":"facilitates",
+        "object":"Alzheimer Disease Pathogenesis",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":45,
+        "subject":"Delta Secretase",
+        "relation":"cleaves",
+        "object":"Amyloid Precursor Protein",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":45,
+        "subject":"Amyloid Precursor Protein",
+        "relation":"promotes",
+        "object":"Amyloid beta-Protein",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":45,
+        "subject":"Asparagine Endopeptidase",
+        "relation":"knockout_reduces",
+        "object":"Alzheimer Disease-like Pathology",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":66,
+        "subject":"GrandFusion Diet",
+        "relation":"downregulates",
+        "object":"Amyloid beta-Protein",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":66,
+        "subject":"GrandFusion Diet",
+        "relation":"reduces",
+        "object":"Amyloid Load",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":67,
+        "subject":"Apolipoprotein E",
+        "relation":"promotes",
+        "object":"Beta-Amyloid Proteolytic Breakdown",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":70,
+        "subject":"Blast Injury",
+        "relation":"triggers",
+        "object":"Amyloid beta-Protein Aggregation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":76,
+        "subject":"Traumatic Brain Injury",
+        "relation":"triggers",
+        "object":"Beta-Amyloid",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":76,
+        "subject":"Traumatic Brain Injury",
+        "relation":"triggers",
+        "object":"Beta-Amyloid",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":76,
+        "subject":"Age",
+        "relation":"moderates",
+        "object":"Beta-Amyloid",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":76,
+        "subject":"Traumatic Brain Injury",
+        "relation":"triggers",
+        "object":"Amyloid beta-Protein Plaque Load",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":76,
+        "subject":"Traumatic Brain Injury",
+        "relation":"triggers",
+        "object":"Amyloid beta-Protein Plaque Load",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":76,
+        "subject":"APP\/PS1 Mouse Model",
+        "relation":"exhibits",
+        "object":"Amyloid beta-Protein Plaque Load",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":76,
+        "subject":"C57BL\/6 Wild-Type Mouse",
+        "relation":"shows",
+        "object":"No Amyloid beta-Protein Plaque Load",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":79,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"triggers",
+        "object":"Amyloidogenesis",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":86,
+        "subject":"Military Blast Exposure",
+        "relation":"reduces",
+        "object":"Amyloid beta-Protein 1-42",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":86,
+        "subject":"Repetitive Low-Level Blast Exposure",
+        "relation":"reduces",
+        "object":"Amyloid beta-Protein Oligomers",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":86,
+        "subject":"Amyloid beta-Protein 1-42",
+        "relation":"correlates_with",
+        "object":"Behavioral Parameters",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":86,
+        "subject":"Amyloid Precursor Protein",
+        "relation":"influences",
+        "object":"Amyloid beta-Protein",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":86,
+        "subject":"Repetitive Low-Level Blast Exposure",
+        "relation":"does_not_change",
+        "object":"Amyloid Plaque Loads",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":96,
+        "subject":"Blast-Induced Traumatic Brain Injury",
+        "relation":"upregulates",
+        "object":"Amyloid Precursor Protein",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":96,
+        "subject":"Blast-Induced Traumatic Brain Injury",
+        "relation":"exacerbates",
+        "object":"Cerebral Cortical Amyloid beta-Protein Plaque Load",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":96,
+        "subject":"APPswePSENd19e Mouse Model",
+        "relation":"exhibits",
+        "object":"Lower Pattern Electroretinogram Responses",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":96,
+        "subject":"APPswePSENd19e Mouse Model",
+        "relation":"exhibits",
+        "object":"Thinner Retinal Ganglion Cell Complex",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":100,
+        "subject":"Cellular Prion Protein",
+        "relation":"physically_interacts_with",
+        "object":"Amyloid beta-Protein Oligomers",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":106,
+        "subject":"Repetitive Mild Traumatic Brain Injury",
+        "relation":"triggers",
+        "object":"Amyloid Pathology",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":106,
+        "subject":"Repetitive Mild Traumatic Brain Injury",
+        "relation":"downregulates",
+        "object":"Soluble Amyloid beta-Protein",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":106,
+        "subject":"Repetitive Mild Traumatic Brain Injury",
+        "relation":"upregulates",
+        "object":"Insoluble Amyloid beta-Protein Ratio",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":106,
+        "subject":"Repetitive Mild Traumatic Brain Injury",
+        "relation":"no_direct_causal_link",
+        "object":"Amyloid Burden",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":107,
+        "subject":"Traumatic Brain Injury",
+        "relation":"triggers",
+        "object":"Amyloid beta-Protein",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":107,
+        "subject":"Traumatic Brain Injury",
+        "relation":"accelerates",
+        "object":"Alzheimer Disease Progression",
+        "entity_variants":"unknown"
+    },
+    {
+        "source_abstract_id":108,
+        "subject":"Amyloid Precursor Protein",
+        "relation":"physically_interacts_with",
+        "object":"Presenilin-1",
+        "entity_variants":"APP\/PSEN1"
+    },
+    {
+        "source_abstract_id":108,
+        "subject":"APP\/PS1 Mouse Model",
+        "relation":"exhibits",
+        "object":"Alzheimer Disease-like Gene Expression",
+        "entity_variants":"APP\/PS1 transgenic mice"
+    },
+    {
+        "source_abstract_id":111,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"triggers",
+        "object":"Amyloid beta-Protein",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":111,
+        "subject":"AppNL-F\/NL-F Mouse Model",
+        "relation":"exhibits",
+        "object":"Minimal Symptomatology",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":111,
+        "subject":"Gene-Environment Interaction",
+        "relation":"promotes",
+        "object":"Alzheimer Disease Risk",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":118,
+        "subject":"PSAPP Mouse Model",
+        "relation":"shows",
+        "object":"Amyloid Pathology",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":128,
+        "subject":"Mild Repetitive Traumatic Brain Injury",
+        "relation":"triggers",
+        "object":"Amyloid beta-Protein 1-42",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":129,
+        "subject":"APP\/PS1 Mouse Model",
+        "relation":"exhibits",
+        "object":"Persistent Neuroinflammation",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":130,
+        "subject":"APP\/PS1 Genotype",
+        "relation":"modifies",
+        "object":"Amyloid beta-Protein Deposits",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":130,
+        "subject":"APP\/PS1 Genotype",
+        "relation":"affects",
+        "object":"Acute Response to Traumatic Brain Injury",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":130,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Amyloid beta-Protein Metabolism",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":142,
+        "subject":"Traumatic Brain Injury",
+        "relation":"triggers",
+        "object":"Amyloid beta-Protein",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":142,
+        "subject":"Traumatic Brain Injury",
+        "relation":"triggers",
+        "object":"Amyloid beta-Protein",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":142,
+        "subject":"Traumatic Brain Injury",
+        "relation":"triggers",
+        "object":"Amyloid beta-Protein",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":142,
+        "subject":"Repetitive Traumatic Brain Injury",
+        "relation":"increases",
+        "object":"Amyloid beta-Protein",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":142,
+        "subject":"Repetitive Traumatic Brain Injury",
+        "relation":"increases",
+        "object":"Amyloid beta-Protein",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":325,
+        "subject":"Traumatic Brain Injury",
+        "relation":"downregulates",
+        "object":"Amyloid beta-Protein Clearance",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":334,
+        "subject":"Traumatic Brain Injury",
+        "relation":"triggers",
+        "object":"Amyloid beta-Protein",
+        "entity_variants":"Amyloid beta-Protein 1-42"
+    },
+    {
+        "source_abstract_id":334,
+        "subject":"Amyloid beta-Protein",
+        "relation":"correlates_with",
+        "object":"Behavioral Deficits",
+        "entity_variants":"Amyloid beta-Protein 1-42"
+    },
+    {
+        "source_abstract_id":334,
+        "subject":"Protein Aggregation",
+        "relation":"correlates_with",
+        "object":"Amyloid beta-Protein",
+        "entity_variants":"Amyloid beta-Protein 1-42"
+    },
+    {
+        "source_abstract_id":336,
+        "subject":"Glymphatic Drainage Dysfunction",
+        "relation":"mediates",
+        "object":"Beta-Amyloid Deposition",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":339,
+        "subject":"Traumatic Brain Injury",
+        "relation":"triggers",
+        "object":"Amyloid beta-Protein",
+        "entity_variants":"Amyloid Precursor Protein"
+    },
+    {
+        "source_abstract_id":345,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"triggers",
+        "object":"Amyloid beta-Protein",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":370,
+        "subject":"ADAM Metallopeptidase Domain 10",
+        "relation":"modulates",
+        "object":"Beta-Amyloid",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":267,
+        "subject":"Amyloid Precursor Protein",
+        "relation":"causes",
+        "object":"Reactive Astrogliosis",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":267,
+        "subject":"Amyloid Precursor Protein",
+        "relation":"regulates",
+        "object":"Reactive Astrogliosis",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":267,
+        "subject":"Amyloid Precursor Protein",
+        "relation":"influences",
+        "object":"Astrocyte Morphology",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":97,
+        "subject":"Apolipoprotein E4",
+        "relation":"no_effect",
+        "object":"Soluble Amyloid Beta Levels",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":97,
+        "subject":"Apolipoprotein E3",
+        "relation":"no_effect",
+        "object":"Soluble Amyloid Beta Levels",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":108,
+        "subject":"5XFAD Mouse Model",
+        "relation":"exhibits",
+        "object":"Alzheimer Disease-like Gene Expression",
+        "entity_variants":"5XFAD model"
+    },
+    {
+        "source_abstract_id":22,
+        "subject":"Alzheimer Disease",
+        "relation":"upregulates",
+        "object":"Interleukin-1 beta protein expression",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":166,
+        "subject":"c-Jun N-terminal Kinase",
+        "relation":"upregulates",
+        "object":"Amyloid Precursor Protein",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":166,
+        "subject":"c-Jun N-terminal Kinase",
+        "relation":"upregulates",
+        "object":"Amyloid Beta",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":402,
+        "subject":"Oxidative Stress",
+        "relation":"increases",
+        "object":"Beta-Secretase 1",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":344,
+        "subject":"Slow Wave Activity",
+        "relation":"decreases",
+        "object":"Amyloid beta-Protein Precursor Immunoreactivity",
+        "entity_variants":null
+    }
+]

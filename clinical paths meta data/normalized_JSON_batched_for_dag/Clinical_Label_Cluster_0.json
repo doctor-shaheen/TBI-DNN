@@ -1,0 +1,485 @@
+[
+    {
+        "source_abstract_id":61,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":61,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":61,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":61,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":61,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":61,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":90,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Dementia Diagnosis",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":160,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":200,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":200,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":200,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":250,
+        "subject":"Traumatic Brain Injury",
+        "relation":"increases_risk_of",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":250,
+        "subject":"Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":250,
+        "subject":"Traumatic Brain Injury",
+        "relation":"is_risk_factor_for",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":250,
+        "subject":"Traumatic Brain Injury",
+        "relation":"is_modifiable_risk_factor_for",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":299,
+        "subject":"Traumatic brain injury",
+        "relation":"triggers",
+        "object":"Early onset dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":472,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"not_associated_with",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":539,
+        "subject":"Traumatic Brain Injury",
+        "relation":"increases",
+        "object":"Early Onset Dementia",
+        "entity_variants":"TBI|"
+    },
+    {
+        "source_abstract_id":63,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Non-Alzheimer Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":63,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Non-Alzheimer Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":577,
+        "subject":"Dementia",
+        "relation":"associated_with",
+        "object":"Female Traumatic Brain Injury Donors",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":311,
+        "subject":"Head Injury",
+        "relation":"causes",
+        "object":"Vascular Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":335,
+        "subject":"Head Injury",
+        "relation":"causes",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":394,
+        "subject":"Head Injury",
+        "relation":"causes",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":394,
+        "subject":"Head Injury",
+        "relation":"causes",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":394,
+        "subject":"Head Injury",
+        "relation":"causes",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":394,
+        "subject":"Head Injury",
+        "relation":"causes",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":394,
+        "subject":"Head Injury",
+        "relation":"causes",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":394,
+        "subject":"Head Injury",
+        "relation":"causes",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":397,
+        "subject":"History of Head Injury",
+        "relation":"associated_with",
+        "object":"Cognitive Disorder",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":437,
+        "subject":"Head Injury",
+        "relation":"predicts",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":496,
+        "subject":"Head Injury",
+        "relation":"increases_risk_of",
+        "object":"Dementia",
+        "entity_variants":"severe"
+    },
+    {
+        "source_abstract_id":598,
+        "subject":"History of Head Injury",
+        "relation":"increases_risk_of",
+        "object":"Incident Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":543,
+        "subject":"Head Injury",
+        "relation":"associated_with",
+        "object":"Cognitive Function",
+        "entity_variants":"Loss of Consciousness, Head Injury >15 years prior"
+    },
+    {
+        "source_abstract_id":18,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":18,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":66,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":66,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":80,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":129,
+        "subject":"Traumatic Brain Injury",
+        "relation":"increases_risk_of",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":157,
+        "subject":"Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Dementia Risk",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":175,
+        "subject":"Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Dementia Incidence",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":200,
+        "subject":"Traumatic Brain Injury",
+        "relation":"increases_risk_of",
+        "object":"Dementia Risk",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":219,
+        "subject":"Traumatic Brain Injury",
+        "relation":"increases_risk_of",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":220,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":220,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":220,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":220,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":220,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":220,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":252,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":252,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":254,
+        "subject":"Traumatic Brain Injury",
+        "relation":"decreases_risk_of",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":254,
+        "subject":"Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Long-Term Dementia Risk",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":258,
+        "subject":"Traumatic Brain Injury",
+        "relation":"increases_risk_of",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":258,
+        "subject":"Repeat Traumatic Brain Injury",
+        "relation":"increases_risk_of",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":277,
+        "subject":"Traumatic Brain Injury",
+        "relation":"increases_risk_of",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":299,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":299,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":322,
+        "subject":"Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":331,
+        "subject":"Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":403,
+        "subject":"Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Dementia Subtypes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":456,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":471,
+        "subject":"Traumatic Brain Injury",
+        "relation":"increases_risk_of",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":472,
+        "subject":"Traumatic Brain Injury",
+        "relation":"increases_risk_of",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":472,
+        "subject":"Traumatic Brain Injury",
+        "relation":"increases_risk_of",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":577,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":591,
+        "subject":"Traumatic Brain Injury",
+        "relation":"influences",
+        "object":"Conversion to Dementia",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":75,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Osteoporosis",
+        "entity_variants":"or Osteopenia"
+    }
+]

@@ -1,0 +1,605 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 25,
+    "edge_count": 27
+  },
+  "nodes": [
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "Traumatic Brain Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111"
+      },
+      "synonyms": [
+        "TBI",
+        "Head Injury"
+      ]
+    },
+    {
+      "id": "GRN",
+      "label": "Progranulin",
+      "type": "Protein",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "HGNC_ID": "HGNC:4601",
+        "UMLS_CUI": "C1415170"
+      },
+      "synonyms": [
+        "PGRN",
+        "Proepithelin"
+      ]
+    },
+    {
+      "id": "NeurodegenerativeDisorders",
+      "label": "Neurodegenerative Disorders",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0524851"
+      },
+      "synonyms": [
+        "Neurodegenerative conditions",
+        "Neurodegenerative Disease"
+      ]
+    },
+    {
+      "id": "Neuroinflammation",
+      "label": "Neuroinflammation",
+      "type": "Pathologic Function",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027787"
+      },
+      "synonyms": [
+        "Brain Inflammation"
+      ]
+    },
+    {
+      "id": "S100B",
+      "label": "S100 Calcium Binding Protein B",
+      "type": "Protein",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "HGNC_ID": "HGNC:10489",
+        "UMLS_CUI": "C0035985"
+      },
+      "synonyms": [
+        "S100B",
+        "S100 Protein Beta Chain"
+      ]
+    },
+    {
+      "id": "CALB2",
+      "label": "Calbindin 2",
+      "type": "Protein",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "HGNC_ID": "HGNC:1515",
+        "UMLS_CUI": "C0053982"
+      },
+      "synonyms": [
+        "Calretinin"
+      ]
+    },
+    {
+      "id": "Cognition",
+      "label": "Cognition",
+      "type": "Mental Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0009241"
+      },
+      "synonyms": [
+        "Cognitive Outcome",
+        "Cognitive Function"
+      ]
+    },
+    {
+      "id": "FunctionalConnectivity",
+      "label": "Functional Connectivity",
+      "type": "Physiologic Function",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C4072124"
+      },
+      "synonyms": [
+        "Resting State Functional Connectivity"
+      ]
+    },
+    {
+      "id": "MentalBehavior",
+      "label": "Mental Behavior",
+      "type": "Mental Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0004927"
+      },
+      "synonyms": [
+        "Behavioral Measures",
+        "Behavior"
+      ]
+    },
+    {
+      "id": "LCN2",
+      "label": "Lipocalin 2",
+      "type": "Protein",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "HGNC_ID": "HGNC:6526",
+        "UMLS_CUI": "C0206173"
+      },
+      "synonyms": [
+        "NGAL",
+        "Lipocalin-2"
+      ]
+    },
+    {
+      "id": "IL6",
+      "label": "Interleukin 6",
+      "type": "Protein",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "HGNC_ID": "HGNC:6018",
+        "UMLS_CUI": "C0021777"
+      },
+      "synonyms": [
+        "IL-6",
+        "Interleukin-6"
+      ]
+    },
+    {
+      "id": "Interleukin6MediatedSignalingPathway",
+      "label": "Interleukin-6-mediated signaling pathway",
+      "type": "Process",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "GO_ID": "GO:0070102"
+      },
+      "synonyms": [
+        "IL-6 Signaling",
+        "Interleukin-6 Signaling"
+      ]
+    },
+    {
+      "id": "IL6R",
+      "label": "Interleukin 6 Receptor",
+      "type": "Protein",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "HGNC_ID": "HGNC:6019",
+        "UMLS_CUI": "C0021783"
+      },
+      "synonyms": [
+        "IL6R",
+        "Interleukin-6 Receptors"
+      ]
+    },
+    {
+      "id": "SLC22A17",
+      "label": "Solute Carrier Family 22 Member 17",
+      "type": "Protein",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "HGNC_ID": "HGNC:10965",
+        "UMLS_CUI": "C1367503"
+      },
+      "synonyms": [
+        "Lipocalin-2 Receptor",
+        "24p3R"
+      ]
+    },
+    {
+      "id": "Inflammation",
+      "label": "Inflammation",
+      "type": "Pathologic Function",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0021368"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "S100Proteins",
+      "label": "S100 Proteins",
+      "type": "Protein",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "UMLS_CUI": "C0036005"
+      },
+      "synonyms": [
+        "S100 Protein Family"
+      ]
+    },
+    {
+      "id": "NRGN",
+      "label": "Neurogranin",
+      "type": "Protein",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "HGNC_ID": "HGNC:7996",
+        "UMLS_CUI": "C0068478"
+      },
+      "synonyms": [
+        "RC3"
+      ]
+    },
+    {
+      "id": "Neurons",
+      "label": "Neurons",
+      "type": "Cell",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027882"
+      },
+      "synonyms": [
+        "Neuron",
+        "Nerve Cell"
+      ]
+    },
+    {
+      "id": "FABP3",
+      "label": "Fatty Acid Binding Protein 3",
+      "type": "Protein",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "HGNC_ID": "HGNC:3557",
+        "UMLS_CUI": "C0061328"
+      },
+      "synonyms": [
+        "H-FABP",
+        "Fatty Acid-Binding Protein, Heart"
+      ]
+    },
+    {
+      "id": "AlzheimerDisease",
+      "label": "Alzheimer Disease",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0002395"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "HyperbaricOxygenation",
+      "label": "Hyperbaric Oxygenation",
+      "type": "Therapeutic Procedure",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0020509"
+      },
+      "synonyms": [
+        "Hyperbaric Oxygen Therapy"
+      ]
+    },
+    {
+      "id": "IL18",
+      "label": "Interleukin 18",
+      "type": "Protein",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "HGNC_ID": "HGNC:5986",
+        "UMLS_CUI": "C0064619"
+      },
+      "synonyms": [
+        "IL-18"
+      ]
+    },
+    {
+      "id": "IL16",
+      "label": "Interleukin 16",
+      "type": "Protein",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "HGNC_ID": "HGNC:5980",
+        "UMLS_CUI": "C0064560"
+      },
+      "synonyms": [
+        "IL-16"
+      ]
+    },
+    {
+      "id": "PRDX6",
+      "label": "Peroxiredoxin 6",
+      "type": "Protein",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "HGNC_ID": "HGNC:9357",
+        "UMLS_CUI": "C1418706"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "PRDX3",
+      "label": "Peroxiredoxin 3",
+      "type": "Protein",
+      "location": "Mitochondria",
+      "identifiers": {
+        "HGNC_ID": "HGNC:9354",
+        "UMLS_CUI": "C1418703"
+      },
+      "synonyms": [
+        "Thioredoxin-Dependent Peroxide Reductase"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "GRN",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        303
+      ],
+      "confidence": "High",
+      "metadata": "Context: Triggers expression"
+    },
+    {
+      "source": "GRN",
+      "target": "NeurodegenerativeDisorders",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        303
+      ],
+      "confidence": "High",
+      "metadata": "Context: Mediates conditions"
+    },
+    {
+      "source": "GRN",
+      "target": "Neuroinflammation",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        303
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "S100B",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        313,
+        404
+      ],
+      "confidence": "High",
+      "metadata": "Context: Correlation and Triggering"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "CALB2",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        313
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Correlation"
+    },
+    {
+      "source": "S100B",
+      "target": "Cognition",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        366
+      ],
+      "confidence": "Medium",
+      "metadata": "Negative correlation with cognitive outcome"
+    },
+    {
+      "source": "S100B",
+      "target": "FunctionalConnectivity",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        366
+      ],
+      "confidence": "Medium",
+      "metadata": "Negative correlation with resting state functional connectivity"
+    },
+    {
+      "source": "S100B",
+      "target": "MentalBehavior",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        366
+      ],
+      "confidence": "Medium",
+      "metadata": "Correlation with behavioral measures"
+    },
+    {
+      "source": "LCN2",
+      "target": "IL6",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        368
+      ],
+      "confidence": "Medium",
+      "metadata": "Ref 368 notes both upregulation and reduction of expression"
+    },
+    {
+      "source": "IL6",
+      "target": "LCN2",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        368
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "LCN2",
+      "target": "Interleukin6MediatedSignalingPathway",
+      "mechanism": "activates",
+      "evidence_ref": [
+        368
+      ],
+      "confidence": "High",
+      "metadata": "Context: Triggers signaling"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "IL6",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        368,
+        404
+      ],
+      "confidence": "High",
+      "metadata": "Context: Increases/Triggers"
+    },
+    {
+      "source": "LCN2",
+      "target": "IL6R",
+      "mechanism": "binds",
+      "evidence_ref": [
+        368
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "IL6",
+      "target": "SLC22A17",
+      "mechanism": "binds",
+      "evidence_ref": [
+        368
+      ],
+      "confidence": "High",
+      "metadata": "Context: Binds to Lipocalin-2 Receptors"
+    },
+    {
+      "source": "LCN2",
+      "target": "Neuroinflammation",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        368
+      ],
+      "confidence": "High",
+      "metadata": "Context: Mediates"
+    },
+    {
+      "source": "IL6",
+      "target": "Neuroinflammation",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        368
+      ],
+      "confidence": "High",
+      "metadata": "Context: Mediates"
+    },
+    {
+      "source": "Inflammation",
+      "target": "S100Proteins",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        372
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "NRGN",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        386,
+        420
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "NRGN",
+      "target": "Neurons",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        386
+      ],
+      "confidence": "High",
+      "metadata": "Input states 'binds to', interpreted as neuronal marker"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "FABP3",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        420
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "NRGN",
+      "target": "NeurodegenerativeDisorders",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        470
+      ],
+      "confidence": "High",
+      "metadata": "Disease contains protein"
+    },
+    {
+      "source": "NRGN",
+      "target": "AlzheimerDisease",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        470
+      ],
+      "confidence": "High",
+      "metadata": "Disease contains protein"
+    },
+    {
+      "source": "HyperbaricOxygenation",
+      "target": "S100B",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        552
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "IL18",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        404
+      ],
+      "confidence": "High",
+      "metadata": "Context: Causes"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "IL16",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        313
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Correlates with"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "PRDX6",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        420
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "PRDX3",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        420
+      ],
+      "confidence": "High",
+      "metadata": "Input: Thioredoxin-Dependent Peroxide Reductase"
+    }
+  ]
+}

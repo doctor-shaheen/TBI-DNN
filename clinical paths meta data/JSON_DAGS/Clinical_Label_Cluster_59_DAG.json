@@ -1,0 +1,151 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 5,
+    "edge_count": 4
+  },
+  "nodes": [
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "Traumatic Brain Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111",
+        "MeSH_ID": "D001930"
+      },
+      "synonyms": [
+        "TBI",
+        "Neurotrauma",
+        "Moderate to Severe Traumatic Brain Injury",
+        "Pediatric Traumatic Brain Injury",
+        "Childhood Traumatic Brain Injury",
+        "Head Injury"
+      ]
+    },
+    {
+      "id": "Cognition",
+      "label": "Cognition",
+      "type": "Physiologic Function",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0009241",
+        "GO_ID": "GO:0050890"
+      },
+      "synonyms": [
+        "Cognitive Function",
+        "Cognitive Performance",
+        "Cognitive Outcomes",
+        "Cognitive Symptoms",
+        "Intelligence Scores",
+        "Semantic Fluency",
+        "Neuropsychological Performance",
+        "Global Cognitive Function",
+        "Calculation Impairment"
+      ]
+    },
+    {
+      "id": "OlfactionDisorders",
+      "label": "Olfaction Disorders",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0028939",
+        "MeSH_ID": "D000857"
+      },
+      "synonyms": [
+        "Olfactory Deficit",
+        "Olfactory Dysfunction",
+        "Anosmia"
+      ]
+    },
+    {
+      "id": "SocioeconomicStatus",
+      "label": "Socioeconomic Status",
+      "type": "Social Behavior",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0037663"
+      },
+      "synonyms": [
+        "Socioeconomic Disadvantage"
+      ]
+    },
+    {
+      "id": "CognitiveTherapy",
+      "label": "Cognitive Therapy",
+      "type": "Therapeutic or Preventive Procedure",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0009246"
+      },
+      "synonyms": [
+        "Self-Administered Cognitive Training",
+        "Cognitive Rehabilitation"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Cognition",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        29,
+        42,
+        78,
+        112,
+        181,
+        203,
+        282,
+        332,
+        334,
+        344,
+        348,
+        353,
+        381,
+        387,
+        393,
+        419,
+        429,
+        454,
+        503,
+        585,
+        601
+      ],
+      "confidence": "High",
+      "metadata": "Context: TBI generally lowers/reduces cognitive function and recovery; includes pediatric and adult outcomes."
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "OlfactionDisorders",
+      "mechanism": "causes",
+      "evidence_ref": [
+        239
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Triggers olfactory deficit."
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "SocioeconomicStatus",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        245
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Affects socioeconomic disadvantage."
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "CognitiveTherapy",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        320
+      ],
+      "confidence": "Low",
+      "metadata": "Context: Enables self-administered cognitive training (feasibility)."
+    }
+  ]
+}

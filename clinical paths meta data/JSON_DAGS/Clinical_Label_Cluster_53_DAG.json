@@ -1,0 +1,305 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 13,
+    "edge_count": 12
+  },
+  "nodes": [
+    {
+      "id": "ExtracellularVesicle",
+      "label": "Extracellular Vesicle",
+      "type": "Cellular_Component",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "GO": "GO:1903561",
+        "UMLS_CUI": "C3539828",
+        "Mesh": "D060201"
+      },
+      "synonyms": [
+        "Exosome",
+        "Microvesicle",
+        "Ectosome",
+        "Platelet-Derived Extracellular Vesicle",
+        "Neuron-Derived Exosome"
+      ]
+    },
+    {
+      "id": "C1QA",
+      "label": "Complement C1q A Chain",
+      "type": "Protein",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "HGNC_ID": "HGNC:1241",
+        "UMLS_CUI": "C0009968",
+        "UniProt_ID": "P02745"
+      },
+      "synonyms": [
+        "Complement Component C1q",
+        "C1q"
+      ]
+    },
+    {
+      "id": "EnvironmentalExposure",
+      "label": "Environmental Exposure",
+      "type": "Phenomenon",
+      "location": "Systemic",
+      "identifiers": {
+        "Mesh": "D004781",
+        "UMLS_CUI": "C0014407"
+      },
+      "synonyms": [
+        "Military Exposure",
+        "Occupational Exposure"
+      ]
+    },
+    {
+      "id": "Ferroptosis",
+      "label": "Ferroptosis",
+      "type": "Biological_Process",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "GO": "GO:0097707",
+        "UMLS_CUI": "C4037803"
+      },
+      "synonyms": [
+        "Iron-dependent cell death"
+      ]
+    },
+    {
+      "id": "AntiInflammatoryResponse",
+      "label": "Anti-Inflammatory Response",
+      "type": "Biological_Process",
+      "location": "Systemic",
+      "identifiers": {
+        "GO": "GO:0050729",
+        "UMLS_CUI": "C1510484"
+      },
+      "synonyms": [
+        "Negative regulation of inflammatory response"
+      ]
+    },
+    {
+      "id": "TH",
+      "label": "Tyrosine Hydroxylase",
+      "type": "Protein",
+      "location": "Neuron",
+      "identifiers": {
+        "HGNC_ID": "HGNC:11782",
+        "UMLS_CUI": "C0041481",
+        "UniProt_ID": "P07101"
+      },
+      "synonyms": [
+        "Tyrosine 3-monooxygenase"
+      ]
+    },
+    {
+      "id": "MotorActivity",
+      "label": "Motor Activity",
+      "type": "Biological_Process",
+      "location": "Systemic",
+      "identifiers": {
+        "GO": "GO:0003774",
+        "UMLS_CUI": "C0026606"
+      },
+      "synonyms": [
+        "Motor Function",
+        "Locomotion"
+      ]
+    },
+    {
+      "id": "Neurotrophin",
+      "label": "Neurotrophin",
+      "type": "Protein_Family",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "Mesh": "D009414",
+        "UMLS_CUI": "C0027960"
+      },
+      "synonyms": [
+        "Nerve Growth Factor Family"
+      ]
+    },
+    {
+      "id": "Neurotransmitter",
+      "label": "Neurotransmitter",
+      "type": "Chemical_Group",
+      "location": "Synapse",
+      "identifiers": {
+        "CHEBI": "CHEBI:25512",
+        "UMLS_CUI": "C0027963"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Antioxidant",
+      "label": "Antioxidant",
+      "type": "Chemical_Group",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "CHEBI": "CHEBI:22586",
+        "UMLS_CUI": "C0003402"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Phosphatidylserine",
+      "label": "Phosphatidylserine",
+      "type": "Chemical",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "CHEBI": "CHEBI:18303",
+        "UMLS_CUI": "C0031527"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Cytoskeleton",
+      "label": "Cytoskeleton",
+      "type": "Cellular_Component",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "GO": "GO:0005856",
+        "UMLS_CUI": "C0010878"
+      },
+      "synonyms": [
+        "Cytoskeletal Proteins"
+      ]
+    },
+    {
+      "id": "Synapse",
+      "label": "Synapse",
+      "type": "Cellular_Component",
+      "location": "Synapse",
+      "identifiers": {
+        "GO": "GO:0045202",
+        "UMLS_CUI": "C0039121"
+      },
+      "synonyms": [
+        "Synaptic Proteins"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "ExtracellularVesicle",
+      "target": "C1QA",
+      "mechanism": "transports",
+      "evidence_ref": [
+        391
+      ],
+      "confidence": "High",
+      "metadata": "Context: Microvesicle/Exosome cargo"
+    },
+    {
+      "source": "EnvironmentalExposure",
+      "target": "ExtracellularVesicle",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        236
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Military exposure causes release of Neuron-derived exosomes"
+    },
+    {
+      "source": "ExtracellularVesicle",
+      "target": "Ferroptosis",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        323
+      ],
+      "confidence": "High",
+      "metadata": "Source: Platelet-derived"
+    },
+    {
+      "source": "ExtracellularVesicle",
+      "target": "AntiInflammatoryResponse",
+      "mechanism": "activates",
+      "evidence_ref": [
+        323
+      ],
+      "confidence": "High",
+      "metadata": "Source: Platelet-derived"
+    },
+    {
+      "source": "ExtracellularVesicle",
+      "target": "TH",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        323
+      ],
+      "confidence": "High",
+      "metadata": "Context: Increases Tyrosine Hydroxylase expression; Source: Platelet-derived"
+    },
+    {
+      "source": "ExtracellularVesicle",
+      "target": "MotorActivity",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        323
+      ],
+      "confidence": "High",
+      "metadata": "Context: Restores/Improves function; Source: Platelet-derived"
+    },
+    {
+      "source": "ExtracellularVesicle",
+      "target": "Neurotrophin",
+      "mechanism": "transports",
+      "evidence_ref": [
+        323
+      ],
+      "confidence": "High",
+      "metadata": "Source: Platelet-derived"
+    },
+    {
+      "source": "ExtracellularVesicle",
+      "target": "Neurotransmitter",
+      "mechanism": "transports",
+      "evidence_ref": [
+        323
+      ],
+      "confidence": "High",
+      "metadata": "Source: Platelet-derived"
+    },
+    {
+      "source": "ExtracellularVesicle",
+      "target": "Antioxidant",
+      "mechanism": "transports",
+      "evidence_ref": [
+        323
+      ],
+      "confidence": "High",
+      "metadata": "Source: Platelet-derived"
+    },
+    {
+      "source": "ExtracellularVesicle",
+      "target": "Phosphatidylserine",
+      "mechanism": "transports",
+      "evidence_ref": [
+        323
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Low levels of procoagulant PS; Source: Platelet-derived"
+    },
+    {
+      "source": "ExtracellularVesicle",
+      "target": "Cytoskeleton",
+      "mechanism": "transports",
+      "evidence_ref": [
+        391
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Contains cytoskeletal proteins"
+    },
+    {
+      "source": "ExtracellularVesicle",
+      "target": "Synapse",
+      "mechanism": "transports",
+      "evidence_ref": [
+        391
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Contains synaptic proteins"
+    }
+  ]
+}

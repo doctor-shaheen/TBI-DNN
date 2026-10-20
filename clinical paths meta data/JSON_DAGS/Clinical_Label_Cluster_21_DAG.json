@@ -1,0 +1,867 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 36,
+    "edge_count": 48
+  },
+  "nodes": [
+    {
+      "id": "BlastExposure",
+      "label": "Blast Injury",
+      "type": "Event",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0005708",
+        "MESH": "D001753"
+      },
+      "synonyms": [
+        "Military Blast Exposure",
+        "Explosive Blast",
+        "Combat Exposure",
+        "Fight Exposure Score",
+        "Higher Blast Exposure"
+      ]
+    },
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "Traumatic Brain Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111",
+        "MESH": "D000070642"
+      },
+      "synonyms": [
+        "Blast-Induced Mild Traumatic Brain Injury",
+        "Blast traumatic brain injury",
+        "Mild Traumatic Brain Injury",
+        "Brain Injury",
+        "Blast-Related Traumatic Brain Injury"
+      ]
+    },
+    {
+      "id": "DilatedPerivascularSpaces",
+      "label": "Dilated Perivascular Spaces",
+      "type": "Pathology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0442340"
+      },
+      "synonyms": [
+        "Enlargement of Virchow-Robin Spaces",
+        "MRI-visible Perivascular Spaces"
+      ]
+    },
+    {
+      "id": "Neurodegeneration",
+      "label": "Neurodegeneration",
+      "type": "Pathology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027746",
+        "GO": "GO:0070266"
+      },
+      "synonyms": [
+        "Age-Associated Neurodegenerative Disease",
+        "Chronic Neurodegeneration"
+      ]
+    },
+    {
+      "id": "ReactionTime",
+      "label": "Reaction Time",
+      "type": "Physiology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0034768"
+      },
+      "synonyms": [
+        "Reaction Time Decrement"
+      ]
+    },
+    {
+      "id": "Headache",
+      "label": "Headache",
+      "type": "Symptom",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0018681"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "CognitiveImpairment",
+      "label": "Cognitive Impairment",
+      "type": "Symptom",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0338656"
+      },
+      "synonyms": [
+        "Cognitive decline",
+        "Cognitive disruption",
+        "Cognitive Deficit",
+        "Early Cognitive Impairment",
+        "Cognitive Performance",
+        "Suboptimal Brain Function",
+        "Cognitive Function"
+      ]
+    },
+    {
+      "id": "Unemployment",
+      "label": "Unemployment",
+      "type": "Social",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0041674"
+      },
+      "synonyms": [
+        "Employment inability"
+      ]
+    },
+    {
+      "id": "EndoplasmicReticulumStress",
+      "label": "Endoplasmic Reticulum Stress",
+      "type": "Process",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "UMLS_CUI": "C1517101",
+        "GO": "GO:0034976"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "IronToxicity",
+      "label": "Iron Toxicity",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0162580"
+      },
+      "synonyms": [
+        "Iron toxicity"
+      ]
+    },
+    {
+      "id": "BehavioralSymptoms",
+      "label": "Behavioral Symptoms",
+      "type": "Symptom",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0004927"
+      },
+      "synonyms": [
+        "Behavioral changes",
+        "Behavioral Dysfunction",
+        "Behavioral Disorder"
+      ]
+    },
+    {
+      "id": "GlialScar",
+      "label": "Glial Scar",
+      "type": "Pathology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0206680"
+      },
+      "synonyms": [
+        "Scar Border Formation"
+      ]
+    },
+    {
+      "id": "MitochondrialDysfunction",
+      "label": "Mitochondrial Dysfunction",
+      "type": "Pathology",
+      "location": "Mitochondria",
+      "identifiers": {
+        "UMLS_CUI": "C0751651"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "GlymphaticSystem",
+      "label": "Glymphatic System",
+      "type": "Anatomy",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C3887688"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "ExecutiveDysfunction",
+      "label": "Executive Dysfunction",
+      "type": "Symptom",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0338668"
+      },
+      "synonyms": [
+        "Executive Function Impairments"
+      ]
+    },
+    {
+      "id": "Disability",
+      "label": "Disability",
+      "type": "Symptom",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0231170"
+      },
+      "synonyms": [
+        "Functional Impairment"
+      ]
+    },
+    {
+      "id": "ChronicTraumaticEncephalopathy",
+      "label": "Chronic Traumatic Encephalopathy",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C2937350"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Aging",
+      "label": "Aging",
+      "type": "Process",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0001779",
+        "GO": "GO:0007568"
+      },
+      "synonyms": [
+        "Age"
+      ]
+    },
+    {
+      "id": "Dementia",
+      "label": "Dementia",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0011265"
+      },
+      "synonyms": [
+        "Early Onset Dementia"
+      ]
+    },
+    {
+      "id": "PsychologicalSymptoms",
+      "label": "Psychological Symptoms",
+      "type": "Symptom",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0033983"
+      },
+      "synonyms": [
+        "Mood Symptom",
+        "Post-Concussive Symptom",
+        "Chronic Neurobehavioral Symptom",
+        "Post-Traumatic Stress Symptom"
+      ]
+    },
+    {
+      "id": "PostTraumaticStressDisorder",
+      "label": "Post Traumatic Stress Disorder",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0038436"
+      },
+      "synonyms": [
+        "PTSD"
+      ]
+    },
+    {
+      "id": "PostconcussionSyndrome",
+      "label": "Postconcussion Syndrome",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0032743"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "MilitaryService",
+      "label": "Military Service",
+      "type": "Occupation",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0026136"
+      },
+      "synonyms": [
+        "Military Employment",
+        "Military Cadets"
+      ]
+    },
+    {
+      "id": "MilitaryExposure",
+      "label": "Occupational Exposure",
+      "type": "Event",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0028784"
+      },
+      "synonyms": [
+        "Military Exposure"
+      ]
+    },
+    {
+      "id": "FDDNP",
+      "label": "FDDNP",
+      "type": "Chemical",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C1276024"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "SensationDisorders",
+      "label": "Sensation Disorders",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0036658"
+      },
+      "synonyms": [
+        "Neurosensory Difficulty"
+      ]
+    },
+    {
+      "id": "Pain",
+      "label": "Pain",
+      "type": "Symptom",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0030193"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "MicroRNAs",
+      "label": "MicroRNAs",
+      "type": "Gene",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "UMLS_CUI": "C1136015",
+        "HGNC_ID": "HGNC:Group"
+      },
+      "synonyms": [
+        "Dysregulated MicroRNA Expression"
+      ]
+    },
+    {
+      "id": "BrainAtrophy",
+      "label": "Brain Atrophy",
+      "type": "Pathology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0241816"
+      },
+      "synonyms": [
+        "Brain Volume Loss"
+      ]
+    },
+    {
+      "id": "SocialAdjustment",
+      "label": "Social Adjustment",
+      "type": "Social",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0037380"
+      },
+      "synonyms": [
+        "Reintegration into Work and Society"
+      ]
+    },
+    {
+      "id": "RibbonSynapse",
+      "label": "Ribbon Synapse",
+      "type": "Cell_Part",
+      "location": "Synapse",
+      "identifiers": {
+        "UMLS_CUI": "C0887854"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "HearingLoss",
+      "label": "Hearing Loss",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0018772"
+      },
+      "synonyms": [
+        "Auditory Function Loss"
+      ]
+    },
+    {
+      "id": "SomaticSymptoms",
+      "label": "Somatic Symptoms",
+      "type": "Symptom",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0235086"
+      },
+      "synonyms": [
+        "Poorer Somatic Outcomes"
+      ]
+    },
+    {
+      "id": "GulfWarSyndrome",
+      "label": "Gulf War Syndrome",
+      "type": "Disease",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0235022"
+      },
+      "synonyms": [
+        "Gulf War Illness"
+      ]
+    },
+    {
+      "id": "RemSleepBehaviorDisorder",
+      "label": "REM Sleep Behavior Disorder",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0270830"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "SolventExposure",
+      "label": "Solvent Exposure",
+      "type": "Event",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C4724213"
+      },
+      "synonyms": []
+    }
+  ],
+  "edges": [
+    {
+      "source": "BlastExposure",
+      "target": "DilatedPerivascularSpaces",
+      "mechanism": "associated_with",
+      "evidence_ref": [
+        5,
+        194
+      ],
+      "confidence": "Medium",
+      "metadata": "Also noted as Enlargement of Virchow-Robin Spaces"
+    },
+    {
+      "source": "BlastExposure",
+      "target": "Neurodegeneration",
+      "mechanism": "exacerbates",
+      "evidence_ref": [
+        38,
+        593
+      ],
+      "confidence": "High",
+      "metadata": "Context: Age-associated"
+    },
+    {
+      "source": "BlastExposure",
+      "target": "ReactionTime",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        225
+      ],
+      "confidence": "Medium",
+      "metadata": "Described as Reaction Time Decrement"
+    },
+    {
+      "source": "BlastExposure",
+      "target": "Headache",
+      "mechanism": "causes",
+      "evidence_ref": [
+        225
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "BlastExposure",
+      "target": "TraumaticBrainInjury",
+      "mechanism": "causes",
+      "evidence_ref": [
+        50,
+        160
+      ],
+      "confidence": "High",
+      "metadata": "Causes Mild TBI specifically"
+    },
+    {
+      "source": "BlastExposure",
+      "target": "GlialScar",
+      "mechanism": "causes",
+      "evidence_ref": [
+        422
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "BlastExposure",
+      "target": "MitochondrialDysfunction",
+      "mechanism": "causes",
+      "evidence_ref": [
+        593
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "BlastExposure",
+      "target": "GlymphaticSystem",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        5
+      ],
+      "confidence": "Medium",
+      "metadata": "Associated with function"
+    },
+    {
+      "source": "BlastExposure",
+      "target": "ChronicTraumaticEncephalopathy",
+      "mechanism": "not_associated_with",
+      "evidence_ref": [
+        10
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "BlastExposure",
+      "target": "Aging",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        38
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Mediates Age"
+    },
+    {
+      "source": "BlastExposure",
+      "target": "PostTraumaticStressDisorder",
+      "mechanism": "causes",
+      "evidence_ref": [
+        160
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "BlastExposure",
+      "target": "CognitiveImpairment",
+      "mechanism": "causes",
+      "evidence_ref": [
+        566
+      ],
+      "confidence": "Medium",
+      "metadata": "High exposure leads to poorer outcomes"
+    },
+    {
+      "source": "BlastExposure",
+      "target": "MicroRNAs",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        172
+      ],
+      "confidence": "Medium",
+      "metadata": "Dysregulation"
+    },
+    {
+      "source": "BlastExposure",
+      "target": "PsychologicalSymptoms",
+      "mechanism": "associated_with",
+      "evidence_ref": [
+        172
+      ],
+      "confidence": "Medium",
+      "metadata": "Chronic neurobehavioral and PTSD symptoms"
+    },
+    {
+      "source": "BlastExposure",
+      "target": "BrainAtrophy",
+      "mechanism": "causes",
+      "evidence_ref": [
+        194
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "BlastExposure",
+      "target": "RibbonSynapse",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        460
+      ],
+      "confidence": "Medium",
+      "metadata": "Loss of synapses"
+    },
+    {
+      "source": "BlastExposure",
+      "target": "HearingLoss",
+      "mechanism": "causes",
+      "evidence_ref": [
+        460
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "BlastExposure",
+      "target": "SomaticSymptoms",
+      "mechanism": "causes",
+      "evidence_ref": [
+        566
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "EndoplasmicReticulumStress",
+      "mechanism": "activates",
+      "evidence_ref": [
+        300
+      ],
+      "confidence": "Medium",
+      "metadata": "Triggered by Blast TBI"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "IronToxicity",
+      "mechanism": "causes",
+      "evidence_ref": [
+        300
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "BehavioralSymptoms",
+      "mechanism": "causes",
+      "evidence_ref": [
+        50,
+        300
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Neurodegeneration",
+      "mechanism": "causes",
+      "evidence_ref": [
+        183,
+        300
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "CognitiveImpairment",
+      "mechanism": "causes",
+      "evidence_ref": [
+        50,
+        300
+      ],
+      "confidence": "High",
+      "metadata": ""
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "ExecutiveDysfunction",
+      "mechanism": "mediates",
+      "evidence_ref": [
+        269
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Disability",
+      "mechanism": "causes",
+      "evidence_ref": [
+        269
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "PsychologicalSymptoms",
+      "mechanism": "associated_with",
+      "evidence_ref": [
+        50
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "CognitiveImpairment",
+      "target": "Unemployment",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        296
+      ],
+      "confidence": "Medium",
+      "metadata": "Triggers employment inability"
+    },
+    {
+      "source": "CognitiveImpairment",
+      "target": "SocialAdjustment",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        216
+      ],
+      "confidence": "Medium",
+      "metadata": "Affects reintegration"
+    },
+    {
+      "source": "MilitaryExposure",
+      "target": "Neurodegeneration",
+      "mechanism": "associated_with",
+      "evidence_ref": [
+        119
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "MilitaryExposure",
+      "target": "Dementia",
+      "mechanism": "causes",
+      "evidence_ref": [
+        39
+      ],
+      "confidence": "Medium",
+      "metadata": "Early onset"
+    },
+    {
+      "source": "MilitaryExposure",
+      "target": "PostTraumaticStressDisorder",
+      "mechanism": "causes",
+      "evidence_ref": [
+        77
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "MilitaryExposure",
+      "target": "PostconcussionSyndrome",
+      "mechanism": "causes",
+      "evidence_ref": [
+        77
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "MilitaryExposure",
+      "target": "FDDNP",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        119
+      ],
+      "confidence": "Low",
+      "metadata": "Context: Increased binding of tracer"
+    },
+    {
+      "source": "MilitaryExposure",
+      "target": "CognitiveImpairment",
+      "mechanism": "causes",
+      "evidence_ref": [
+        119,
+        129
+      ],
+      "confidence": "High",
+      "metadata": "Associated with binding and deficit"
+    },
+    {
+      "source": "MilitaryExposure",
+      "target": "BehavioralSymptoms",
+      "mechanism": "causes",
+      "evidence_ref": [
+        129
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "MilitaryExposure",
+      "target": "SensationDisorders",
+      "mechanism": "causes",
+      "evidence_ref": [
+        129
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "MilitaryExposure",
+      "target": "Pain",
+      "mechanism": "causes",
+      "evidence_ref": [
+        129
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "MilitaryService",
+      "target": "CognitiveImpairment",
+      "mechanism": "not_associated_with",
+      "evidence_ref": [
+        111
+      ],
+      "confidence": "Low",
+      "metadata": "Ref 111 contradicts Ref 39/129; requires contextual differentiation"
+    },
+    {
+      "source": "MilitaryService",
+      "target": "Dementia",
+      "mechanism": "not_associated_with",
+      "evidence_ref": [
+        111
+      ],
+      "confidence": "Low",
+      "metadata": "Healthy worker effect?"
+    },
+    {
+      "source": "GulfWarSyndrome",
+      "target": "CognitiveImpairment",
+      "mechanism": "causes",
+      "evidence_ref": [
+        614
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "SolventExposure",
+      "target": "RemSleepBehaviorDisorder",
+      "mechanism": "associated_with",
+      "evidence_ref": [
+        464
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+[
+    {
+        "source_abstract_id":187,
+        "subject":"Traumatic Brain Injury",
+        "relation":"induces",
+        "object":"Bone Marrow Stem Cells",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":187,
+        "subject":"Bone Marrow Stem\/Progenitor Cell Pool",
+        "relation":"induces",
+        "object":"Innate Immunity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":253,
+        "subject":"Human Mesenchymal Stem Cell-Derived Extracellular Vesicles",
+        "relation":"reduces",
+        "object":"Interleukin-1 Beta",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":253,
+        "subject":"Human Mesenchymal Stem Cell-Derived Extracellular Vesicles",
+        "relation":"reduces",
+        "object":"Interleukin-18",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":253,
+        "subject":"Human Mesenchymal Stem Cell-Derived Extracellular Vesicles",
+        "relation":"inhibits",
+        "object":"p38 Mitogen-Activated Protein Kinase Signaling",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":253,
+        "subject":"Human Mesenchymal Stem Cell-Derived Extracellular Vesicles",
+        "relation":"prevents",
+        "object":"Long-Term Cognitive Impairments",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":253,
+        "subject":"Human Mesenchymal Stem Cell-Derived Extracellular Vesicles",
+        "relation":"improves",
+        "object":"Mood Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":253,
+        "subject":"Human Mesenchymal Stem Cell-Derived Extracellular Vesicles",
+        "relation":"improves",
+        "object":"Cognitive Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":253,
+        "subject":"Human Mesenchymal Stem Cell-Derived Extracellular Vesicles",
+        "relation":"partially_improves",
+        "object":"Cognitive Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":253,
+        "subject":"Human Mesenchymal Stem Cell-Derived Extracellular Vesicles",
+        "relation":"partially_improves",
+        "object":"Mood Function",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":268,
+        "subject":"Mesenchymal Stem Cells",
+        "relation":"decreases",
+        "object":"Brain Lesion Volume",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":269,
+        "subject":"Inflammation",
+        "relation":"decreases",
+        "object":"Mesenchymal Stem Cell Efficacy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":363,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Bone Marrow Stem Cells",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":363,
+        "subject":"Bone Marrow Stem Cells",
+        "relation":"affects",
+        "object":"Innate Immunity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":268,
+        "subject":"Inflammation",
+        "relation":"mediates",
+        "object":"Human Mesenchymal Stem Cell Efficacy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":196,
+        "subject":"Adipose Tissue-Derived Mesenchymal Stem Cells",
+        "relation":"causes",
+        "object":"Visual Function",
+        "entity_variants":"ASC-CCM"
+    },
+    {
+        "source_abstract_id":211,
+        "subject":"Mesenchymal Stem Cells",
+        "relation":"causes",
+        "object":"Signal Loss",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":211,
+        "subject":"Mesenchymal Stem Cells",
+        "relation":"causes",
+        "object":"Increase in Relaxation Time",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":211,
+        "subject":"Mesenchymal Stem Cells",
+        "relation":"causes",
+        "object":"Magnetic Resonance Imaging Tracking",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":211,
+        "subject":"Mesenchymal Stem Cells",
+        "relation":"associated_with",
+        "object":"Histological Analysis",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":211,
+        "subject":"Mesenchymal Stem Cells",
+        "relation":"mediates",
+        "object":"Regenerative Medicine",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":268,
+        "subject":"Human Mesenchymal Stem Cells",
+        "relation":"improves",
+        "object":"Sensorimotor Responses",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":269,
+        "subject":"Human Mesenchymal Stem Cell Therapy",
+        "relation":"improves",
+        "object":"Behavioral Deficits",
+        "entity_variants":null
+    }
+]

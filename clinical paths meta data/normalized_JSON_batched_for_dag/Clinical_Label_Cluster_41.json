@@ -1,0 +1,233 @@
+[
+    {
+        "source_abstract_id":22,
+        "subject":"FGFR3 Mutation",
+        "relation":"associated_with",
+        "object":"Head Banging",
+        "entity_variants":"not_applicable|"
+    },
+    {
+        "source_abstract_id":22,
+        "subject":"Bilateral Peri-Sylvian Polymicrogyria",
+        "relation":"associated_with",
+        "object":"Multiple Head Injuries",
+        "entity_variants":"not_applicable|"
+    },
+    {
+        "source_abstract_id":93,
+        "subject":"Head Injury Exposure",
+        "relation":"no_direct_causal_link",
+        "object":"Neurocognitive Performance",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":155,
+        "subject":"Helmet-to-Helmet Impact",
+        "relation":"causes",
+        "object":"Brain Injury",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":155,
+        "subject":"Helmeted Head Impact",
+        "relation":"causes",
+        "object":"Brain Injury",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":162,
+        "subject":"Head Injury Prevention",
+        "relation":"is_necessary_for",
+        "object":"Early Life",
+        "entity_variants":"<not_reported>"
+    },
+    {
+        "source_abstract_id":231,
+        "subject":"Cognitive Performance",
+        "relation":"associated_with",
+        "object":"Balance Measures",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":272,
+        "subject":"Full contact practice restriction",
+        "relation":"causes",
+        "object":"Decreased head impact exposure among linemen",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":272,
+        "subject":"Full contact practice restriction",
+        "relation":"associated_with",
+        "object":"Decreased head impact exposure among receivers and defensive players",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":272,
+        "subject":"Full contact practice restriction",
+        "relation":"associated_with",
+        "object":"Decreased head impact exposure among running backs and linebackers",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":272,
+        "subject":"Full contact practice restriction",
+        "relation":"does_not_affect",
+        "object":"Impact magnitude",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":504,
+        "subject":"Age",
+        "relation":"affects",
+        "object":"Calvarium Heterogeneity",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":231,
+        "subject":"Head Impacts",
+        "relation":"affects",
+        "object":"Body Sway",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":16,
+        "subject":"Rugby Union Players",
+        "relation":"exposed_to",
+        "object":"Head Impact",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":22,
+        "subject":"Cerebral Palsy",
+        "relation":"associated_with",
+        "object":"Head Banging",
+        "entity_variants":"not_applicable"
+    },
+    {
+        "source_abstract_id":117,
+        "subject":"Contact Sports",
+        "relation":"causes",
+        "object":"Head Impact",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":117,
+        "subject":"Men's Lacrosse",
+        "relation":"higher_than",
+        "object":"Average Head Acceleration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":117,
+        "subject":"Head Impact",
+        "relation":"occurs_more_frequently_during",
+        "object":"Games",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":117,
+        "subject":"Head Impact",
+        "relation":"no_significant_difference_between",
+        "object":"Practice and Games",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":117,
+        "subject":"Quantity of Head Impacts",
+        "relation":"drives",
+        "object":"Head Impact",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":117,
+        "subject":"Headgear Regulations",
+        "relation":"may_affect",
+        "object":"Burden of Head Impact",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":117,
+        "subject":"Practice Regulations",
+        "relation":"may_affect",
+        "object":"Burden of Head Impact",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":155,
+        "subject":"Head Impact Loading",
+        "relation":"influences",
+        "object":"Injury Magnitude",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":155,
+        "subject":"Occipital Head Impact",
+        "relation":"causes",
+        "object":"Brain Injury",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":231,
+        "subject":"Head Impact",
+        "relation":"affects",
+        "object":"Cognitive Performance",
+        "entity_variants":"not applicable"
+    },
+    {
+        "source_abstract_id":272,
+        "subject":"Full Contact Practice Restriction",
+        "relation":"reduces",
+        "object":"Head Impact Exposure",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":272,
+        "subject":"Full Contact Practice Restriction",
+        "relation":"associated_with",
+        "object":"Reduction in Head Impact Frequency",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":272,
+        "subject":"Full Contact Practice Restriction",
+        "relation":"associated_with",
+        "object":"Reduction in Head Impact Magnitude",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":484,
+        "subject":"Head Injury",
+        "relation":"decreases",
+        "object":"P200 Target Amplitude",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":484,
+        "subject":"Head Injury",
+        "relation":"decreases",
+        "object":"Middle Latency Auditory Evoked Potential Amplitudes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":484,
+        "subject":"Head Injury",
+        "relation":"no_direct_causal_link",
+        "object":"P3b Amplitude",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":504,
+        "subject":"Past Head Impacts",
+        "relation":"contributes_to",
+        "object":"Calvarium Heterogeneity",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":617,
+        "subject":"Head Impact",
+        "relation":"no_direct_causal_link",
+        "object":"Cognitive Function",
+        "entity_variants":null
+    }
+]

@@ -1,0 +1,541 @@
+[
+    {
+        "source_abstract_id":29,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Gray Matter Atrophy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":29,
+        "subject":"Moderate to Severe Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Subcortical Gray and White Matter Atrophy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":49,
+        "subject":"Former Boxers",
+        "relation":"associated_with",
+        "object":"Reduced Brain Volume",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":53,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Reduced Brain Volume",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":78,
+        "subject":"Traumatic Brain Injury",
+        "relation":"no_direct_causal_link",
+        "object":"Cerebellar Gray Matter",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":86,
+        "subject":"Traumatic Brain Injury",
+        "relation":"no_direct_causal_link",
+        "object":"Hippocampal Sclerosis",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":124,
+        "subject":"Chronic Traumatic Encephalopathy",
+        "relation":"associated_with",
+        "object":"Hippocampal Sclerosis",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":133,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Amygdala Disruption",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":139,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Brain Volume Loss",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":139,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Whole Brain Volume Loss",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":193,
+        "subject":"Brain Volume Loss",
+        "relation":"correlates_with",
+        "object":"Mini-Mental State Examination Scores",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":212,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Gray Matter Volume Modifications",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":214,
+        "subject":"Mild Cognitive Impairment",
+        "relation":"exhibits",
+        "object":"Greater Longitudinal Declines in Cortical Thickness",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":214,
+        "subject":"Mild Cognitive Impairment",
+        "relation":"associated_with",
+        "object":"Cortical Thickness Decline",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":271,
+        "subject":"Mild traumatic brain injury",
+        "relation":"not_associated_with",
+        "object":"Ventricular volume",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":271,
+        "subject":"Mild traumatic brain injury",
+        "relation":"not_associated_with",
+        "object":"Ventricle-brain ratio",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":296,
+        "subject":"Brain atrophy",
+        "relation":"correlates_with",
+        "object":"Petechial hemorrhages",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":302,
+        "subject":"Traumatic encephalopathy syndrome",
+        "relation":"associated_with",
+        "object":"Magnetic resonance imaging volumetric changes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":302,
+        "subject":"Traumatic encephalopathy syndrome",
+        "relation":"associated_with",
+        "object":"Hippocampal volume decrease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":302,
+        "subject":"Traumatic encephalopathy syndrome",
+        "relation":"associated_with",
+        "object":"Subcortical gray matter volume decrease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":302,
+        "subject":"Traumatic encephalopathy syndrome",
+        "relation":"associated_with",
+        "object":"Total gray matter volume decrease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":302,
+        "subject":"Traumatic encephalopathy syndrome",
+        "relation":"associated_with",
+        "object":"Lateral ventricles volume increase",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":302,
+        "subject":"Traumatic encephalopathy syndrome",
+        "relation":"associated_with",
+        "object":"Inferior lateral ventricles volume increase",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":353,
+        "subject":"Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Ventricle to Brain Ratio",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":388,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Hippocampal Degeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":388,
+        "subject":"Gray Matter Degeneration",
+        "relation":"progresses_to",
+        "object":"Long-Term Clinical Outcome",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":401,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Thalamic Volume Reduction",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":405,
+        "subject":"Gray Matter Damage",
+        "relation":"increases",
+        "object":"Global Efficiency",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":446,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Brain Atrophy",
+        "entity_variants":"right hippocampus"
+    },
+    {
+        "source_abstract_id":468,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Brain Volume Decrease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":468,
+        "subject":"Brain Volume Decrease",
+        "relation":"associated_with",
+        "object":"Clinical Outcomes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":468,
+        "subject":"Preinjury Volumetric Stability",
+        "relation":"modulates",
+        "object":"Brain Volume Decrease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":468,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Intracranial Volume Change",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":468,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Computed Tomography Volume Loss",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":468,
+        "subject":"Brain Volume Decrease",
+        "relation":"associated_with",
+        "object":"Neuroinflammatory Response",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":468,
+        "subject":"Computed Tomography Imaging",
+        "relation":"enables",
+        "object":"Monitoring of Brain Volume Changes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":499,
+        "subject":"Traumatic Impact Exposure",
+        "relation":"causes",
+        "object":"Mammillary Body Volume Reduction",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":499,
+        "subject":"Traumatic Encephalopathy Syndrome Status",
+        "relation":"causes",
+        "object":"Mammillary Body Volume Reduction",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":510,
+        "subject":"Head Trauma",
+        "relation":"causes",
+        "object":"Brain Volume Reduction",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":510,
+        "subject":"Head Trauma",
+        "relation":"affects",
+        "object":"Grey Matter Volume",
+        "entity_variants":"none"
+    },
+    {
+        "source_abstract_id":512,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cortical Volume Reduction",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":602,
+        "subject":"Traumatic Brain Injury",
+        "relation":"affects",
+        "object":"Brain Volume",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":622,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Hippocampal Atrophy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":501,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"influences",
+        "object":"Temporal Lobe Volume Loss",
+        "entity_variants":"mTBI|"
+    },
+    {
+        "source_abstract_id":25,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Deep Gray Matter Atrophy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":27,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cerebral Cortical Atrophy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":29,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Brain Atrophy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":29,
+        "subject":"Traumatic Axonal Injury",
+        "relation":"associated_with",
+        "object":"Brain Atrophy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":29,
+        "subject":"Injury Severity",
+        "relation":"modulates",
+        "object":"Brain Atrophy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":53,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Brain Atrophy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":85,
+        "subject":"Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Brain Atrophy Rate",
+        "entity_variants":"brain_atrophy_rates"
+    },
+    {
+        "source_abstract_id":135,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Brain Atrophy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":139,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Gray Matter Volume Loss",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":139,
+        "subject":"Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Cortical Sulci Atrophy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":193,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Brain Atrophy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":214,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Gray Matter Loss",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":214,
+        "subject":"Mild Cognitive Impairment",
+        "relation":"associated_with",
+        "object":"Gray Matter Loss",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":214,
+        "subject":"Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Cortical Atrophy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":271,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Brain Atrophy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":388,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Gray Matter Degeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":388,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Amygdala Degeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":509,
+        "subject":"Traumatic Brain Injury",
+        "relation":"associated_with",
+        "object":"Medial Temporal Lobe Atrophy",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":524,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Gray Matter Decrease",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":53,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cortical Thinning",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":307,
+        "subject":"Cortical Thickness",
+        "relation":"reduced_in",
+        "object":"Hippocampus",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":307,
+        "subject":"Cortical Thickness",
+        "relation":"reduced_in",
+        "object":"Entorhinal Cortex",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":360,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cortical Thickness",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":360,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cortical Thickness Reduction",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":360,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cortical Thickness Increase",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":360,
+        "subject":"Cortical Thickness",
+        "relation":"correlates_with",
+        "object":"Cortical Surface Area",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":360,
+        "subject":"Cortical Thickness",
+        "relation":"correlates_with",
+        "object":"Cortical Volume Change",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":360,
+        "subject":"Cortical Thickness",
+        "relation":"influenced_by",
+        "object":"Time Post Injury",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":479,
+        "subject":"Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Cortical Lesion Expansion",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":479,
+        "subject":"T1-Weighted Magnetic Resonance Imaging",
+        "relation":"enables",
+        "object":"Cortical Lesion Detection",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":490,
+        "subject":"Cortical Thickness",
+        "relation":"not_causally_linked_to",
+        "object":"Outcomes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":512,
+        "subject":"Cognitive Deficits",
+        "relation":"associated_with",
+        "object":"Cortical Thickness",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":193,
+        "subject":"Brain Volume Loss",
+        "relation":"associated_with",
+        "object":"Montreal Cognitive Assessment",
+        "entity_variants":null
+    }
+]

@@ -1,0 +1,328 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 13,
+    "edge_count": 13
+  },
+  "nodes": [
+    {
+      "id": "Age",
+      "label": "Age",
+      "type": "Physiological Attribute",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0001779"
+      },
+      "synonyms": [
+        "Older Age",
+        "Chronological Age",
+        "Aging",
+        "Older Adults",
+        "Normal Aging"
+      ]
+    },
+    {
+      "id": "Cognition",
+      "label": "Cognition",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0009241"
+      },
+      "synonyms": [
+        "Cognitive Performance",
+        "Cognitive Function",
+        "Long Term Cognitive Function"
+      ]
+    },
+    {
+      "id": "CognitiveImpairment",
+      "label": "Cognitive Disorders",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0338656"
+      },
+      "synonyms": [
+        "Cognitive Decline",
+        "Cognitive Deficits",
+        "Cognitive Disorder",
+        "Cognitive Change",
+        "Longitudinal Cognitive Decline",
+        "Executive Control Deficits"
+      ]
+    },
+    {
+      "id": "CognitiveRecovery",
+      "label": "Cognitive Recovery",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0597163"
+      },
+      "synonyms": [
+        "Cognitive Improvement"
+      ]
+    },
+    {
+      "id": "CerebralAtrophy",
+      "label": "Cerebral Atrophy",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0241816"
+      },
+      "synonyms": [
+        "Brain Volume Loss",
+        "Cortical Atrophy"
+      ]
+    },
+    {
+      "id": "BrainAge",
+      "label": "Brain Age",
+      "type": "Biomarker",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C5691060"
+      },
+      "synonyms": [
+        "Brain Age Gap",
+        "Brain Age Increase"
+      ]
+    },
+    {
+      "id": "NeurologicSymptoms",
+      "label": "Neurologic Symptoms",
+      "type": "Disease",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0027769"
+      },
+      "synonyms": [
+        "Neurological Symptom"
+      ]
+    },
+    {
+      "id": "EmotionalDysregulation",
+      "label": "Emotional lability",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0013975"
+      },
+      "synonyms": [
+        "Emotional-Behavioral Dyscontrol"
+      ]
+    },
+    {
+      "id": "ExecutiveDysfunction",
+      "label": "Executive Dysfunction",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0233633"
+      },
+      "synonyms": [
+        "Executive Attention Deficits"
+      ]
+    },
+    {
+      "id": "InterhemisphericCommunication",
+      "label": "Interhemispheric Transfer",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0021721"
+      },
+      "synonyms": [
+        "Interhemispheric Communication"
+      ]
+    },
+    {
+      "id": "PatientOutcome",
+      "label": "Patient Outcome",
+      "type": "Process",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0439644"
+      },
+      "synonyms": [
+        "Poor Outcomes",
+        "Unfavorable Outcome"
+      ]
+    },
+    {
+      "id": "NursingHomeResidence",
+      "label": "Nursing Home",
+      "type": "Process",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0028691"
+      },
+      "synonyms": [
+        "Stay in Nursing Facility"
+      ]
+    },
+    {
+      "id": "ProteinLevel",
+      "label": "Protein Level",
+      "type": "Biomarker",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "UMLS_CUI": "C0428587"
+      },
+      "synonyms": [
+        "Protein Levels"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "Age",
+      "target": "Cognition",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        83,
+        282,
+        430
+      ],
+      "confidence": "High",
+      "metadata": "Context: Includes confounding effects on performance and association with long-term function"
+    },
+    {
+      "source": "Age",
+      "target": "NeurologicSymptoms",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        70
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "Age",
+      "target": "CognitiveRecovery",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        112,
+        430
+      ],
+      "confidence": "Medium",
+      "metadata": "Conflict: Source 112 cites upregulation; Source 430 cites downregulation of improvement"
+    },
+    {
+      "source": "Age",
+      "target": "CerebralAtrophy",
+      "mechanism": "causes",
+      "evidence_ref": [
+        113,
+        139
+      ],
+      "confidence": "High",
+      "metadata": "Context: Mediates cortical atrophy and confounds brain volume loss"
+    },
+    {
+      "source": "Age",
+      "target": "CognitiveImpairment",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        120,
+        281,
+        309,
+        382,
+        387,
+        397,
+        535,
+        548,
+        551,
+        561,
+        564
+      ],
+      "confidence": "High",
+      "metadata": "Context: Risk factor, predictor, and confounder for cognitive decline and deficits"
+    },
+    {
+      "source": "BrainAge",
+      "target": "CognitiveImpairment",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        161
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Brain Age Gap influences longitudinal decline"
+    },
+    {
+      "source": "Age",
+      "target": "EmotionalDysregulation",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        215
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "Age",
+      "target": "ExecutiveDysfunction",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        374,
+        387
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Affects executive control and attention"
+    },
+    {
+      "source": "Age",
+      "target": "InterhemisphericCommunication",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        389
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "Age",
+      "target": "PatientOutcome",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        399,
+        578
+      ],
+      "confidence": "High",
+      "metadata": "Context: Risk factor for unfavorable/poor outcomes"
+    },
+    {
+      "source": "Age",
+      "target": "BrainAge",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        407
+      ],
+      "confidence": "High",
+      "metadata": "Context: Chronological age modulates brain age; age > 60 increases brain age"
+    },
+    {
+      "source": "Age",
+      "target": "ProteinLevel",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        518
+      ],
+      "confidence": "Low",
+      "metadata": "Context: Confounds protein levels"
+    },
+    {
+      "source": "Age",
+      "target": "NursingHomeResidence",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        621
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Increases duration of stay"
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 6,
+    "edge_count": 5
+  },
+  "nodes": [
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "Traumatic Brain Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111"
+      },
+      "synonyms": [
+        "Mild Traumatic Brain Injury",
+        "Concussion",
+        "TBI",
+        "Mild TBI"
+      ]
+    },
+    {
+      "id": "PerivascularSpace",
+      "label": "Perivascular Space",
+      "type": "Anatomical Structure",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0031023"
+      },
+      "synonyms": [
+        "Virchow-Robin Spaces",
+        "Enlarged Perivascular Spaces",
+        "Perivascular Space Burden"
+      ]
+    },
+    {
+      "id": "Sleep",
+      "label": "Sleep",
+      "type": "Biological Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0037313"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "BrainWasteClearance",
+      "label": "Brain Waste Clearance",
+      "type": "Biological Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C3889656"
+      },
+      "synonyms": [
+        "Glymphatic Clearance",
+        "Glymphatic System",
+        "Waste Clearance"
+      ]
+    },
+    {
+      "id": "PostconcussionSyndrome",
+      "label": "Postconcussion Syndrome",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0032747"
+      },
+      "synonyms": [
+        "Post-Concussion Symptoms",
+        "PCS"
+      ]
+    },
+    {
+      "id": "MemoryDisorder",
+      "label": "Memory Disorders",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0025277"
+      },
+      "synonyms": [
+        "Chronic Memory Problems",
+        "Memory problems",
+        "Amnesia"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "PerivascularSpace",
+      "mechanism": "causes",
+      "evidence_ref": [
+        48,
+        54,
+        131,
+        458,
+        461
+      ],
+      "confidence": "High",
+      "metadata": "Context: Causes enlargement/increased burden of Perivascular Spaces; Note: Ref 48 found no direct causal link."
+    },
+    {
+      "source": "Sleep",
+      "target": "PerivascularSpace",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        54
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Modulates enlargement of Perivascular Spaces"
+    },
+    {
+      "source": "PerivascularSpace",
+      "target": "BrainWasteClearance",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        131
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Mediates clearance function"
+    },
+    {
+      "source": "PerivascularSpace",
+      "target": "PostconcussionSyndrome",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        458,
+        461
+      ],
+      "confidence": "High",
+      "metadata": "Context: Increased burden associated with symptoms"
+    },
+    {
+      "source": "PerivascularSpace",
+      "target": "MemoryDisorder",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        458,
+        461
+      ],
+      "confidence": "High",
+      "metadata": "Context: Predicts chronic memory problems"
+    }
+  ]
+}

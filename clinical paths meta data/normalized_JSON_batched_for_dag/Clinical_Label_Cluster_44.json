@@ -1,0 +1,156 @@
+[
+    {
+        "source_abstract_id":40,
+        "subject":"Vacuole Density",
+        "relation":"highest_in",
+        "object":"Superficial Cortical Layers",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":412,
+        "subject":"Vascular Density of Superficial Vascular Plexus",
+        "relation":"associated_with",
+        "object":"Ganglion Cell Layer Thickness",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":412,
+        "subject":"Ganglion Cell Layer Thickness",
+        "relation":"associated_with",
+        "object":"Vascular Density of Superficial Vascular Plexus",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":412,
+        "subject":"Acute Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Reduced Ganglion Cell Layer Thickness",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":205,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Retinal Nerve Fiber Layer Thinning",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":205,
+        "subject":"Retinal Nerve Fiber Layer Thinning",
+        "relation":"associated_with",
+        "object":"Mild Traumatic Brain Injury Severity",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":205,
+        "subject":"Mild Traumatic Brain Injury Severity",
+        "relation":"causes",
+        "object":"Retinal Nerve Fiber Layer Thinning",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":412,
+        "subject":"Ganglion Cell Loss",
+        "relation":"causes",
+        "object":"Reduced Macular Perfusion",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":412,
+        "subject":"Reduced Macular Perfusion",
+        "relation":"associated_with",
+        "object":"Visual Function Abnormalities",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":412,
+        "subject":"Normal Macular Perfusion",
+        "relation":"precedes",
+        "object":"Ganglion Cell Loss",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":412,
+        "subject":"Visual Function Abnormalities",
+        "relation":"associated_with",
+        "object":"Ganglion Cell Loss",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":412,
+        "subject":"Normal Macular Structure",
+        "relation":"precedes",
+        "object":"Visual Function Abnormalities",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":415,
+        "subject":"Contact Sports",
+        "relation":"causes",
+        "object":"Retinal Nerve Fiber Layer Thinning",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":415,
+        "subject":"Retinal Nerve Fiber Layer Thinning",
+        "relation":"associated_with",
+        "object":"Neurodegeneration",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":415,
+        "subject":"Sports-Related Concussions",
+        "relation":"causes",
+        "object":"Retinal Nerve Fiber Layer Thinning",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":415,
+        "subject":"Retinal Nerve Fiber Layer Thinning",
+        "relation":"associated_with",
+        "object":"Visual Measures",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":532,
+        "subject":"Contact Sports",
+        "relation":"causes",
+        "object":"Macular Thickening",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":532,
+        "subject":"Contact Sports",
+        "relation":"causes",
+        "object":"Retinal Nerve Fiber Layer Thickening",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":532,
+        "subject":"Contact Sports",
+        "relation":"causes",
+        "object":"Macular Thinning",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":532,
+        "subject":"Contact Sports",
+        "relation":"causes",
+        "object":"Retinal Nerve Fiber Layer Thinning",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":532,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Macular Changes",
+        "entity_variants":null
+    },
+    {
+        "source_abstract_id":532,
+        "subject":"Mild Traumatic Brain Injury",
+        "relation":"causes",
+        "object":"Retinal Nerve Fiber Layer Changes",
+        "entity_variants":null
+    }
+]

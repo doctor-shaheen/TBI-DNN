@@ -1,0 +1,656 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 29,
+    "edge_count": 30
+  },
+  "nodes": [
+    {
+      "id": "APOA1",
+      "label": "APOA1",
+      "type": "Protein",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "UMLS_CUI": "C0003567",
+        "HGNC_ID": "HGNC:600",
+        "UniProt_ID": "P02647"
+      },
+      "synonyms": [
+        "Apolipoprotein A1",
+        "ApoA-I"
+      ]
+    },
+    {
+      "id": "APOE",
+      "label": "APOE",
+      "type": "Protein",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "UMLS_CUI": "C0003573",
+        "HGNC_ID": "HGNC:613",
+        "UniProt_ID": "P02649"
+      },
+      "synonyms": [
+        "Apolipoprotein E",
+        "ApoE",
+        "Apolipoprotein E3",
+        "Apolipoprotein E4"
+      ]
+    },
+    {
+      "id": "CLU",
+      "label": "CLU",
+      "type": "Protein",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "UMLS_CUI": "C0009117",
+        "HGNC_ID": "HGNC:2095",
+        "UniProt_ID": "P10909"
+      },
+      "synonyms": [
+        "Apolipoprotein J",
+        "Clusterin",
+        "ApoJ"
+      ]
+    },
+    {
+      "id": "LRP1",
+      "label": "LRP1",
+      "type": "Protein",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "UMLS_CUI": "C0024285",
+        "HGNC_ID": "HGNC:6692",
+        "UniProt_ID": "Q07954"
+      },
+      "synonyms": [
+        "Low-Density Lipoprotein Receptor-Related Protein 1",
+        "CD91"
+      ]
+    },
+    {
+      "id": "NEFH",
+      "label": "NEFH",
+      "type": "Protein",
+      "location": "Neuron",
+      "identifiers": {
+        "UMLS_CUI": "C0027814",
+        "HGNC_ID": "HGNC:7739",
+        "UniProt_ID": "P12036"
+      },
+      "synonyms": [
+        "Neurofilament Heavy Polypeptide",
+        "NF-H"
+      ]
+    },
+    {
+      "id": "OLR1",
+      "label": "OLR1",
+      "type": "Protein",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "UMLS_CUI": "C0908129",
+        "HGNC_ID": "HGNC:8133",
+        "UniProt_ID": "P78380"
+      },
+      "synonyms": [
+        "Oxidized Low-Density Lipoprotein Receptor 1",
+        "LOX-1"
+      ]
+    },
+    {
+      "id": "BDNF",
+      "label": "BDNF",
+      "type": "Protein",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "UMLS_CUI": "C0006085",
+        "HGNC_ID": "HGNC:1033",
+        "UniProt_ID": "P23560"
+      },
+      "synonyms": [
+        "Brain-Derived Neurotrophic Factor"
+      ]
+    },
+    {
+      "id": "SYP",
+      "label": "SYP",
+      "type": "Protein",
+      "location": "Synapse",
+      "identifiers": {
+        "UMLS_CUI": "C0039121",
+        "HGNC_ID": "HGNC:11517",
+        "UniProt_ID": "P08247"
+      },
+      "synonyms": [
+        "Synaptophysin"
+      ]
+    },
+    {
+      "id": "MAPT",
+      "label": "MAPT",
+      "type": "Protein",
+      "location": "Neuron",
+      "identifiers": {
+        "UMLS_CUI": "C0039392",
+        "HGNC_ID": "HGNC:6893",
+        "UniProt_ID": "P10636"
+      },
+      "synonyms": [
+        "Tau Protein",
+        "Microtubule-associated protein tau"
+      ]
+    },
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "Traumatic Brain Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111"
+      },
+      "synonyms": [
+        "TBI",
+        "Repetitive Head Trauma",
+        "Mild Repetitive Traumatic Brain Injury",
+        "Injury"
+      ]
+    },
+    {
+      "id": "NeurodegenerativeDisorders",
+      "label": "Neurodegenerative Disorders",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0524851"
+      },
+      "synonyms": [
+        "Neurodegenerative Diseases",
+        "Neurodegenerative Pathways"
+      ]
+    },
+    {
+      "id": "ChronicTraumaticEncephalopathy",
+      "label": "Chronic Traumatic Encephalopathy",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C2984422"
+      },
+      "synonyms": [
+        "CTE",
+        "Dementia Pugilistica"
+      ]
+    },
+    {
+      "id": "CognitiveImpairment",
+      "label": "Cognitive Impairment",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0338656"
+      },
+      "synonyms": [
+        "Cognitive Decline"
+      ]
+    },
+    {
+      "id": "PhosphatidylinositolBisphosphate",
+      "label": "Phosphatidylinositol 4,5-bisphosphate",
+      "type": "Chemical",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "UMLS_CUI": "C0031668",
+        "ChEBI_ID": "CHEBI:18348"
+      },
+      "synonyms": [
+        "PIP2",
+        "Phosphoinositol Biphosphate"
+      ]
+    },
+    {
+      "id": "GeneRegulatoryNetwork",
+      "label": "Gene Regulatory Network",
+      "type": "Process",
+      "location": "Nucleus",
+      "identifiers": {
+        "UMLS_CUI": "C1517316"
+      },
+      "synonyms": [
+        "Gene Networks"
+      ]
+    },
+    {
+      "id": "CerebrospinalFluidCirculation",
+      "label": "Cerebrospinal Fluid Circulation",
+      "type": "Process",
+      "location": "CSF",
+      "identifiers": {
+        "UMLS_CUI": "C0007806"
+      },
+      "synonyms": [
+        "CSF-ISF Exchange"
+      ]
+    },
+    {
+      "id": "Microgliosis",
+      "label": "Microgliosis",
+      "type": "Process",
+      "location": "Microglia",
+      "identifiers": {
+        "UMLS_CUI": "C0026009"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Astrogliosis",
+      "label": "Astrogliosis",
+      "type": "Process",
+      "location": "Astrocyte",
+      "identifiers": {
+        "UMLS_CUI": "C0017639"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Inflammation",
+      "label": "Inflammation",
+      "type": "Process",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0021368"
+      },
+      "synonyms": [
+        "Inflammatory Response"
+      ]
+    },
+    {
+      "id": "Neurodegeneration",
+      "label": "Neurodegeneration",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027819"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Apoptosis",
+      "label": "Apoptosis",
+      "type": "Process",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "UMLS_CUI": "C0162638"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "PhospholipidMetabolism",
+      "label": "Phospholipid Metabolism",
+      "type": "Process",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "UMLS_CUI": "C0031663"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Myelination",
+      "label": "Myelination",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0026906"
+      },
+      "synonyms": [
+        "Myelination Network"
+      ]
+    },
+    {
+      "id": "NeuronalActivity",
+      "label": "Neuronal Activity",
+      "type": "Process",
+      "location": "Neuron",
+      "identifiers": {
+        "UMLS_CUI": "C0027882"
+      },
+      "synonyms": [
+        "Neuronal Response"
+      ]
+    },
+    {
+      "id": "BloodBrainBarrier",
+      "label": "Blood-Brain Barrier",
+      "type": "Anatomy",
+      "location": "Blood",
+      "identifiers": {
+        "UMLS_CUI": "C0005763"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Microglia",
+      "label": "Microglia",
+      "type": "Cell",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0026009"
+      },
+      "synonyms": [
+        "Activated Microglia"
+      ]
+    },
+    {
+      "id": "GlutamatergicSynapse",
+      "label": "Glutamatergic Synapse",
+      "type": "Cell_Structure",
+      "location": "Synapse",
+      "identifiers": {
+        "UMLS_CUI": "C1269616"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Hippocampus",
+      "label": "Hippocampus",
+      "type": "Anatomy",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0019564"
+      },
+      "synonyms": []
+    }
+  ],
+  "edges": [
+    {
+      "source": "APOA1",
+      "target": "NeurodegenerativeDisorders",
+      "mechanism": "associated_with",
+      "evidence_ref": [
+        18
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "APOE",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        128,
+        235
+      ],
+      "confidence": "High",
+      "metadata": "Context: Upregulation of expression following injury"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "CLU",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        235
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "LRP1",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        25
+      ],
+      "confidence": "Medium",
+      "metadata": "Effect on function"
+    },
+    {
+      "source": "APOE",
+      "target": "GeneRegulatoryNetwork",
+      "mechanism": "regulates",
+      "evidence_ref": [
+        235
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Isoform specific effects"
+    },
+    {
+      "source": "APOE",
+      "target": "NeurodegenerativeDisorders",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        18
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "APOE",
+      "target": "CerebrospinalFluidCirculation",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        25
+      ],
+      "confidence": "Medium",
+      "metadata": "Isoform: E4"
+    },
+    {
+      "source": "APOE",
+      "target": "BloodBrainBarrier",
+      "mechanism": "disrupts",
+      "evidence_ref": [
+        25
+      ],
+      "confidence": "High",
+      "metadata": "Isoform: E4; Impacts integrity"
+    },
+    {
+      "source": "APOE",
+      "target": "MAPT",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        25
+      ],
+      "confidence": "High",
+      "metadata": "Isoform: E4; Affects Tau efflux/clearance"
+    },
+    {
+      "source": "APOE",
+      "target": "NEFH",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        97
+      ],
+      "confidence": "Medium",
+      "metadata": "Isoform: E4"
+    },
+    {
+      "source": "APOE",
+      "target": "OLR1",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        97
+      ],
+      "confidence": "High",
+      "metadata": "Isoform: E4"
+    },
+    {
+      "source": "APOE",
+      "target": "Microgliosis",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        97
+      ],
+      "confidence": "Medium",
+      "metadata": "Isoform: E3; Original relation: binds_to"
+    },
+    {
+      "source": "APOE",
+      "target": "Astrogliosis",
+      "mechanism": "causes",
+      "evidence_ref": [
+        97
+      ],
+      "confidence": "High",
+      "metadata": "Isoform: E4"
+    },
+    {
+      "source": "APOE",
+      "target": "TraumaticBrainInjury",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        108
+      ],
+      "confidence": "High",
+      "metadata": "Isoform: E4; Interacts with outcome"
+    },
+    {
+      "source": "APOE",
+      "target": "Inflammation",
+      "mechanism": "causes",
+      "evidence_ref": [
+        122,
+        309
+      ],
+      "confidence": "High",
+      "metadata": "Isoform: E4; Triggers response"
+    },
+    {
+      "source": "APOE",
+      "target": "Neurodegeneration",
+      "mechanism": "causes",
+      "evidence_ref": [
+        122
+      ],
+      "confidence": "High",
+      "metadata": "Isoform: E4"
+    },
+    {
+      "source": "APOE",
+      "target": "Apoptosis",
+      "mechanism": "activates",
+      "evidence_ref": [
+        122
+      ],
+      "confidence": "High",
+      "metadata": "Isoform: E4"
+    },
+    {
+      "source": "APOE",
+      "target": "Microglia",
+      "mechanism": "activates",
+      "evidence_ref": [
+        122
+      ],
+      "confidence": "High",
+      "metadata": "Isoform: E4"
+    },
+    {
+      "source": "APOE",
+      "target": "BDNF",
+      "mechanism": "regulates",
+      "evidence_ref": [
+        122
+      ],
+      "confidence": "Medium",
+      "metadata": "Isoform: E4; Original relation: triggers"
+    },
+    {
+      "source": "APOE",
+      "target": "PhospholipidMetabolism",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        220
+      ],
+      "confidence": "Medium",
+      "metadata": "Isoform: E4"
+    },
+    {
+      "source": "APOE",
+      "target": "PhosphatidylinositolBisphosphate",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        220
+      ],
+      "confidence": "Medium",
+      "metadata": "Isoform: E4; Impairs levels"
+    },
+    {
+      "source": "APOE",
+      "target": "CognitiveImpairment",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        235
+      ],
+      "confidence": "High",
+      "metadata": "Isoform: E4; Correlates with risk"
+    },
+    {
+      "source": "APOE",
+      "target": "Myelination",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        235
+      ],
+      "confidence": "Medium",
+      "metadata": "Correlates with network"
+    },
+    {
+      "source": "APOE",
+      "target": "GlutamatergicSynapse",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        309
+      ],
+      "confidence": "High",
+      "metadata": "Isoform: E4"
+    },
+    {
+      "source": "APOE",
+      "target": "SYP",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        309
+      ],
+      "confidence": "Medium",
+      "metadata": "Isoform: E3"
+    },
+    {
+      "source": "APOE",
+      "target": "NeuronalActivity",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        309
+      ],
+      "confidence": "Medium",
+      "metadata": "Mediates response"
+    },
+    {
+      "source": "APOE",
+      "target": "Hippocampus",
+      "mechanism": "damages",
+      "evidence_ref": [
+        309
+      ],
+      "confidence": "High",
+      "metadata": "Isoform: E4; Exacerbates pathology"
+    },
+    {
+      "source": "APOE",
+      "target": "Hippocampus",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        309
+      ],
+      "confidence": "Medium",
+      "metadata": "Isoform: E3; Protects against pathology"
+    },
+    {
+      "source": "APOE",
+      "target": "ChronicTraumaticEncephalopathy",
+      "mechanism": "predisposes_to",
+      "evidence_ref": [
+        316
+      ],
+      "confidence": "Medium",
+      "metadata": "Genotype influence"
+    }
+  ]
+}

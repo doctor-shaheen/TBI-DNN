@@ -1,0 +1,868 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 38,
+    "edge_count": 45
+  },
+  "nodes": [
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "Traumatic Brain Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111",
+        "MeSH": "D001930"
+      },
+      "synonyms": [
+        "TBI",
+        "Mild Traumatic Brain Injury",
+        "Concussion",
+        "Head Injury"
+      ]
+    },
+    {
+      "id": "EndocannabinoidSystem",
+      "label": "Endocannabinoid System",
+      "type": "Anatomical Structure",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0014227"
+      },
+      "synonyms": [
+        "ECS"
+      ]
+    },
+    {
+      "id": "T-Lymphocyte",
+      "label": "T-Lymphocyte",
+      "type": "Cell",
+      "location": "Blood",
+      "identifiers": {
+        "UMLS_CUI": "C0039194"
+      },
+      "synonyms": [
+        "T Cells"
+      ]
+    },
+    {
+      "id": "TREM2",
+      "label": "TREM2",
+      "type": "Protein",
+      "location": "Microglia",
+      "identifiers": {
+        "HGNC_ID": "HGNC:17761",
+        "UMLS_CUI": "C1336666"
+      },
+      "synonyms": [
+        "Triggering receptor expressed on myeloid cells 2"
+      ]
+    },
+    {
+      "id": "Macrophage",
+      "label": "Macrophage",
+      "type": "Cell",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0024433"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "NeurologicalRecovery",
+      "label": "Neurological Recovery",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0034937"
+      },
+      "synonyms": [
+        "Recovery"
+      ]
+    },
+    {
+      "id": "ACOD1",
+      "label": "ACOD1",
+      "type": "Protein",
+      "location": "Microglia",
+      "identifiers": {
+        "HGNC_ID": "HGNC:16922",
+        "UMLS_CUI": "C1415848"
+      },
+      "synonyms": [
+        "IRG1",
+        "Immune-responsive gene 1 protein"
+      ]
+    },
+    {
+      "id": "Neuroinflammation",
+      "label": "Neuroinflammation",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0020302"
+      },
+      "synonyms": [
+        "Cortical Inflammation",
+        "Proinflammatory Activation",
+        "Inflammatory Response"
+      ]
+    },
+    {
+      "id": "Neurodegeneration",
+      "label": "Neurodegeneration",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027786"
+      },
+      "synonyms": [
+        "Neuronal Dysfunction",
+        "Neuronal Death"
+      ]
+    },
+    {
+      "id": "MIR21",
+      "label": "MIR21",
+      "type": "RNA",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "HGNC_ID": "HGNC:31598"
+      },
+      "synonyms": [
+        "miR-21a-5p",
+        "MicroRNA 21"
+      ]
+    },
+    {
+      "id": "MIR34A",
+      "label": "MIR34A",
+      "type": "RNA",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "HGNC_ID": "HGNC:31635"
+      },
+      "synonyms": [
+        "miR-34a-5p"
+      ]
+    },
+    {
+      "id": "MIR16",
+      "label": "MIR16",
+      "type": "RNA",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "HGNC_ID": "HGNC:31553"
+      },
+      "synonyms": [
+        "miR-16-3p"
+      ]
+    },
+    {
+      "id": "MIR155",
+      "label": "MIR155",
+      "type": "RNA",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "HGNC_ID": "HGNC:31543"
+      },
+      "synonyms": [
+        "MicroRNA-155-5p"
+      ]
+    },
+    {
+      "id": "STING1",
+      "label": "STING1",
+      "type": "Protein",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "HGNC_ID": "HGNC:21367",
+        "UMLS_CUI": "C1833503"
+      },
+      "synonyms": [
+        "TMEM173",
+        "Stimulator of interferon genes protein",
+        "STING"
+      ]
+    },
+    {
+      "id": "GeneExpression",
+      "label": "Gene Expression",
+      "type": "Process",
+      "location": "Nucleus",
+      "identifiers": {
+        "UMLS_CUI": "C0017351"
+      },
+      "synonyms": [
+        "Transcriptional Landscape",
+        "Differentially Expressed Genes"
+      ]
+    },
+    {
+      "id": "CognitiveImpairment",
+      "label": "Cognitive Impairment",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0338656"
+      },
+      "synonyms": [
+        "Cognitive Deficits"
+      ]
+    },
+    {
+      "id": "Chloroquine",
+      "label": "Chloroquine",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "ChEBI_ID": "CHEBI:3638"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Vadimezan",
+      "label": "Vadimezan",
+      "type": "Chemical",
+      "location": "Systemic",
+      "identifiers": {
+        "ChEBI_ID": "CHEBI:94751"
+      },
+      "synonyms": [
+        "DMXAA"
+      ]
+    },
+    {
+      "id": "Estradiol",
+      "label": "Estradiol",
+      "type": "Chemical",
+      "location": "Blood",
+      "identifiers": {
+        "ChEBI_ID": "CHEBI:16469"
+      },
+      "synonyms": [
+        "17 Beta-Estradiol"
+      ]
+    },
+    {
+      "id": "LHB",
+      "label": "LHB",
+      "type": "Protein",
+      "location": "Blood",
+      "identifiers": {
+        "HGNC_ID": "HGNC:6580"
+      },
+      "synonyms": [
+        "Luteinizing Hormone Beta Subunit",
+        "Luteinizing Hormone"
+      ]
+    },
+    {
+      "id": "Autophagy",
+      "label": "Autophagy",
+      "type": "Process",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "UMLS_CUI": "C0004396"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "UCHL1",
+      "label": "UCHL1",
+      "type": "Protein",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "HGNC_ID": "HGNC:12513"
+      },
+      "synonyms": [
+        "Ubiquitin Carboxyl-Terminal Hydrolase L1"
+      ]
+    },
+    {
+      "id": "ThoracicInjury",
+      "label": "Thoracic Injury",
+      "type": "Disease",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0039982"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "CitrobacterRodentium",
+      "label": "Citrobacter Rodentium",
+      "type": "Organism",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "UMLS_CUI": "C0318596"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Cytokine",
+      "label": "Cytokine",
+      "type": "Protein",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "UMLS_CUI": "C0079189"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "InterferonSignaling",
+      "label": "Interferon Signaling",
+      "type": "Process",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "UMLS_CUI": "C0597305"
+      },
+      "synonyms": [
+        "Type I Interferon Response"
+      ]
+    },
+    {
+      "id": "Exercise",
+      "label": "Exercise",
+      "type": "Process",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0015259"
+      },
+      "synonyms": [
+        "Exercise Preconditioning"
+      ]
+    },
+    {
+      "id": "Proteolysis",
+      "label": "Proteolysis",
+      "type": "Process",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "UMLS_CUI": "C0033606"
+      },
+      "synonyms": [
+        "Protein Degradation"
+      ]
+    },
+    {
+      "id": "ARC",
+      "label": "ARC",
+      "type": "Protein",
+      "location": "Synapse",
+      "identifiers": {
+        "HGNC_ID": "HGNC:648"
+      },
+      "synonyms": [
+        "Activity-Regulated Cytoskeleton-Associated Protein"
+      ]
+    },
+    {
+      "id": "HistoneModification",
+      "label": "Histone Modification",
+      "type": "Process",
+      "location": "Nucleus",
+      "identifiers": {
+        "UMLS_CUI": "C1517523"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Microglia",
+      "label": "Microglia",
+      "type": "Cell",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0026048"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "FAM76B",
+      "label": "FAM76B",
+      "type": "Protein",
+      "location": "Nucleus",
+      "identifiers": {
+        "HGNC_ID": "HGNC:26233"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "BlastInjury",
+      "label": "Blast Injury",
+      "type": "Disease",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0005704"
+      },
+      "synonyms": [
+        "Military exposure"
+      ]
+    },
+    {
+      "id": "TLR2",
+      "label": "TLR2",
+      "type": "Protein",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "HGNC_ID": "HGNC:11848"
+      },
+      "synonyms": [
+        "Toll-like receptor 2"
+      ]
+    },
+    {
+      "id": "TLR4",
+      "label": "TLR4",
+      "type": "Protein",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "HGNC_ID": "HGNC:11850"
+      },
+      "synonyms": [
+        "Toll-like receptor 4"
+      ]
+    },
+    {
+      "id": "TLR9",
+      "label": "TLR9",
+      "type": "Protein",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "HGNC_ID": "HGNC:11855"
+      },
+      "synonyms": [
+        "Toll-like receptor 9"
+      ]
+    },
+    {
+      "id": "CREB1",
+      "label": "CREB1",
+      "type": "Protein",
+      "location": "Nucleus",
+      "identifiers": {
+        "HGNC_ID": "HGNC:2345"
+      },
+      "synonyms": [
+        "CREB Signaling Pathway"
+      ]
+    },
+    {
+      "id": "CalciumHomeostasis",
+      "label": "Calcium Homeostasis",
+      "type": "Process",
+      "location": "Cytoplasm",
+      "identifiers": {
+        "UMLS_CUI": "C0006675"
+      },
+      "synonyms": []
+    }
+  ],
+  "edges": [
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "EndocannabinoidSystem",
+      "mechanism": "activates",
+      "evidence_ref": [
+        40
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "T-Lymphocyte",
+      "target": "TraumaticBrainInjury",
+      "mechanism": "influences",
+      "evidence_ref": [
+        74
+      ],
+      "confidence": "Medium",
+      "metadata": "Influences severity"
+    },
+    {
+      "source": "TREM2",
+      "target": "Macrophage",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        124
+      ],
+      "confidence": "High",
+      "metadata": "Context: Deficiency alters distribution/activation"
+    },
+    {
+      "source": "TREM2",
+      "target": "NeurologicalRecovery",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        124
+      ],
+      "confidence": "Medium",
+      "metadata": "Note: Source claims Deficiency IMPROVES recovery, implying TREM2 hinders it in this context"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "TREM2",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        124,
+        235
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "ACOD1",
+      "target": "Neuroinflammation",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        157
+      ],
+      "confidence": "High",
+      "metadata": "Knockout exacerbates proinflammatory activation"
+    },
+    {
+      "source": "ACOD1",
+      "target": "Neurodegeneration",
+      "mechanism": "prevents",
+      "evidence_ref": [
+        157
+      ],
+      "confidence": "High",
+      "metadata": "Neurodegeneration worsened by knockout"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "MIR21",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        172
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "MIR34A",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        172
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "MIR16",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        172
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "STING1",
+      "mechanism": "activates",
+      "evidence_ref": [
+        198
+      ],
+      "confidence": "High",
+      "metadata": "Induces STING signaling pathway"
+    },
+    {
+      "source": "STING1",
+      "target": "Neuroinflammation",
+      "mechanism": "causes",
+      "evidence_ref": [
+        198,
+        352
+      ],
+      "confidence": "High",
+      "metadata": "Mediates cortical inflammation; Knockout reduces it"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "GeneExpression",
+      "mechanism": "causes",
+      "evidence_ref": [
+        198,
+        271,
+        352,
+        393,
+        1,
+        40,
+        219,
+        325
+      ],
+      "confidence": "High",
+      "metadata": "Induces differentially expressed genes, affects transcriptional landscape"
+    },
+    {
+      "source": "STING1",
+      "target": "GeneExpression",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        198
+      ],
+      "confidence": "Medium",
+      "metadata": "Knockout reduces TBI-induced gene expression"
+    },
+    {
+      "source": "STING1",
+      "target": "CognitiveImpairment",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        204
+      ],
+      "confidence": "High",
+      "metadata": "Knockout reduces deficits"
+    },
+    {
+      "source": "Chloroquine",
+      "target": "GeneExpression",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        204
+      ],
+      "confidence": "Medium",
+      "metadata": "Reverses TBI-induced inflammatory gene expression"
+    },
+    {
+      "source": "Vadimezan",
+      "target": "GeneExpression",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        226
+      ],
+      "confidence": "Medium",
+      "metadata": "Increases inflammatory gene expression"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Estradiol",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        244
+      ],
+      "confidence": "Medium",
+      "metadata": "Causes changes in levels"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "LHB",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        244
+      ],
+      "confidence": "Medium",
+      "metadata": "Causes changes in levels"
+    },
+    {
+      "source": "STING1",
+      "target": "Neurodegeneration",
+      "mechanism": "causes",
+      "evidence_ref": [
+        352
+      ],
+      "confidence": "High",
+      "metadata": "Knockout prevents neuronal dysfunction"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Autophagy",
+      "mechanism": "causes",
+      "evidence_ref": [
+        355
+      ],
+      "confidence": "High",
+      "metadata": "Dysregulation"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "UCHL1",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        387
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "ThoracicInjury",
+      "target": "GeneExpression",
+      "mechanism": "affects",
+      "evidence_ref": [
+        393
+      ],
+      "confidence": "Medium",
+      "metadata": "Hippocampal gene expression"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "T-Lymphocyte",
+      "mechanism": "activates",
+      "evidence_ref": [
+        394
+      ],
+      "confidence": "Medium",
+      "metadata": "Upregulates T Cell response genes"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "InterferonSignaling",
+      "mechanism": "activates",
+      "evidence_ref": [
+        1,
+        226
+      ],
+      "confidence": "High",
+      "metadata": "Upregulates Type I signature and enhances signaling"
+    },
+    {
+      "source": "CitrobacterRodentium",
+      "target": "Cytokine",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        47
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "STING1",
+      "target": "InterferonSignaling",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        204
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Cytokine",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        226,
+        388
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "Exercise",
+      "target": "GeneExpression",
+      "mechanism": "potentiates",
+      "evidence_ref": [
+        260
+      ],
+      "confidence": "Medium",
+      "metadata": "Anti-inflammatory profiles"
+    },
+    {
+      "source": "Cytokine",
+      "target": "Neuroinflammation",
+      "mechanism": "mediates",
+      "evidence_ref": [
+        388
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "Proteolysis",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        34
+      ],
+      "confidence": "Medium",
+      "metadata": "Defects in degradation"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "MIR155",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        172
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "ARC",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        273
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "HistoneModification",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        325
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "Microglia",
+      "target": "GeneExpression",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        204
+      ],
+      "confidence": "Medium",
+      "metadata": "Depletion reverses TBI-induced changes"
+    },
+    {
+      "source": "FAM76B",
+      "target": "Neuroinflammation",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        257
+      ],
+      "confidence": "Medium",
+      "metadata": "Suppresses inflammation"
+    },
+    {
+      "source": "BlastInjury",
+      "target": "TLR2",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        289
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "BlastInjury",
+      "target": "TLR4",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        289
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "BlastInjury",
+      "target": "TLR9",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        289
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "CREB1",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        204
+      ],
+      "confidence": "Medium",
+      "metadata": "Downregulates signaling pathway"
+    },
+    {
+      "source": "ARC",
+      "target": "CalciumHomeostasis",
+      "mechanism": "regulates",
+      "evidence_ref": [
+        273
+      ],
+      "confidence": "Medium"
+    }
+  ]
+}

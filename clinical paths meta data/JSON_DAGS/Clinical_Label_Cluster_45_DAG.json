@@ -1,0 +1,684 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 27,
+    "edge_count": 35
+  },
+  "nodes": [
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "TraumaticBrainInjury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111"
+      },
+      "synonyms": [
+        "Mild Traumatic Brain Injury",
+        "Moderate to Severe Traumatic Brain Injury",
+        "Head Trauma",
+        "Former Boxers",
+        "Traumatic Impact Exposure",
+        "Concussion"
+      ]
+    },
+    {
+      "id": "ChronicTraumaticEncephalopathy",
+      "label": "ChronicTraumaticEncephalopathy",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0011989"
+      },
+      "synonyms": [
+        "CTE",
+        "Dementia pugilistica"
+      ]
+    },
+    {
+      "id": "TraumaticEncephalopathySyndrome",
+      "label": "TraumaticEncephalopathySyndrome",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C4038290"
+      },
+      "synonyms": [
+        "TES"
+      ]
+    },
+    {
+      "id": "BrainAtrophy",
+      "label": "BrainAtrophy",
+      "type": "Pathology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0241816"
+      },
+      "synonyms": [
+        "Brain Volume Loss",
+        "Reduced Brain Volume",
+        "Cerebral Atrophy",
+        "Brain Volume Decrease",
+        "Whole Brain Volume Loss"
+      ]
+    },
+    {
+      "id": "GrayMatterAtrophy",
+      "label": "GrayMatterAtrophy",
+      "type": "Pathology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0241816"
+      },
+      "synonyms": [
+        "Gray Matter Volume Loss",
+        "Gray Matter Degeneration",
+        "Gray Matter Damage",
+        "Subcortical Gray Matter Atrophy",
+        "Deep Gray Matter Atrophy"
+      ]
+    },
+    {
+      "id": "WhiteMatterAtrophy",
+      "label": "WhiteMatterAtrophy",
+      "type": "Pathology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0241816"
+      },
+      "synonyms": [
+        "White Matter Volume Loss"
+      ]
+    },
+    {
+      "id": "HippocampalAtrophy",
+      "label": "HippocampalAtrophy",
+      "type": "Pathology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0751964"
+      },
+      "synonyms": [
+        "Hippocampal Degeneration",
+        "Hippocampal Volume Decrease",
+        "Right Hippocampus Atrophy"
+      ]
+    },
+    {
+      "id": "HippocampalSclerosis",
+      "label": "HippocampalSclerosis",
+      "type": "Pathology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0019572"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "AmygdalaAtrophy",
+      "label": "AmygdalaAtrophy",
+      "type": "Pathology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0002708"
+      },
+      "synonyms": [
+        "Amygdala Disruption",
+        "Amygdala Degeneration"
+      ]
+    },
+    {
+      "id": "ThalamicAtrophy",
+      "label": "ThalamicAtrophy",
+      "type": "Pathology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0039724"
+      },
+      "synonyms": [
+        "Thalamic Volume Reduction"
+      ]
+    },
+    {
+      "id": "MammillaryBodyAtrophy",
+      "label": "MammillaryBodyAtrophy",
+      "type": "Pathology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0024685"
+      },
+      "synonyms": [
+        "Mammillary Body Volume Reduction"
+      ]
+    },
+    {
+      "id": "CorticalAtrophy",
+      "label": "CorticalAtrophy",
+      "type": "Pathology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0235946"
+      },
+      "synonyms": [
+        "Cortical Thinning",
+        "Cortical Volume Reduction",
+        "Cerebral Cortical Atrophy",
+        "Cortical Thickness Decline"
+      ]
+    },
+    {
+      "id": "CorticalThickness",
+      "label": "CorticalThickness",
+      "type": "Physiology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0442654"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Ventriculomegaly",
+      "label": "Ventriculomegaly",
+      "type": "Pathology",
+      "location": "CSF",
+      "identifiers": {
+        "UMLS_CUI": "C0020251"
+      },
+      "synonyms": [
+        "Lateral Ventricles Volume Increase",
+        "Ventricle to Brain Ratio Increase"
+      ]
+    },
+    {
+      "id": "MildCognitiveImpairment",
+      "label": "MildCognitiveImpairment",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0920688"
+      },
+      "synonyms": [
+        "MCI",
+        "Cognitive Deficits"
+      ]
+    },
+    {
+      "id": "Neuroinflammation",
+      "label": "Neuroinflammation",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027814"
+      },
+      "synonyms": [
+        "Neuroinflammatory Response"
+      ]
+    },
+    {
+      "id": "MiniMentalStateExamination",
+      "label": "MiniMentalStateExamination",
+      "type": "Procedure",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0026192"
+      },
+      "synonyms": [
+        "MMSE",
+        "Montreal Cognitive Assessment"
+      ]
+    },
+    {
+      "id": "GlobalEfficiency",
+      "label": "GlobalEfficiency",
+      "type": "Physiology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C2349780"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "PetechialHemorrhage",
+      "label": "PetechialHemorrhage",
+      "type": "Pathology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0031256"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "ClinicalOutcome",
+      "label": "ClinicalOutcome",
+      "type": "Phenotype",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0030054"
+      },
+      "synonyms": [
+        "Long-Term Clinical Outcome"
+      ]
+    },
+    {
+      "id": "TemporalLobeAtrophy",
+      "label": "TemporalLobeAtrophy",
+      "type": "Pathology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0751965"
+      },
+      "synonyms": [
+        "Medial Temporal Lobe Atrophy"
+      ]
+    },
+    {
+      "id": "DiffuseAxonalInjury",
+      "label": "DiffuseAxonalInjury",
+      "type": "Pathology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0270612"
+      },
+      "synonyms": [
+        "Traumatic Axonal Injury"
+      ]
+    },
+    {
+      "id": "InjurySeverity",
+      "label": "InjurySeverity",
+      "type": "Attribute",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0441748"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "CorticalLesion",
+      "label": "CorticalLesion",
+      "type": "Pathology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0553610"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "T1WeightedMRI",
+      "label": "T1WeightedMRI",
+      "type": "Procedure",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C4039866"
+      },
+      "synonyms": [
+        "Computed Tomography Imaging"
+      ]
+    },
+    {
+      "id": "PreinjuryVolumetricStability",
+      "label": "PreinjuryVolumetricStability",
+      "type": "Attribute",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0000000"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "EntorhinalCortexAtrophy",
+      "label": "EntorhinalCortexAtrophy",
+      "type": "Pathology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0014358"
+      },
+      "synonyms": []
+    }
+  ],
+  "edges": [
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "GrayMatterAtrophy",
+      "mechanism": "causes",
+      "evidence_ref": [
+        29,
+        212,
+        214,
+        25,
+        388,
+        524
+      ],
+      "confidence": "High",
+      "metadata": "Includes Deep and Subcortical Gray Matter"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "WhiteMatterAtrophy",
+      "mechanism": "causes",
+      "evidence_ref": [
+        29
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Moderate to Severe TBI"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "BrainAtrophy",
+      "mechanism": "causes",
+      "evidence_ref": [
+        49,
+        53,
+        139,
+        446,
+        468,
+        510,
+        602,
+        29,
+        135,
+        193,
+        271,
+        353,
+        85
+      ],
+      "confidence": "High",
+      "metadata": "Context: Volume loss, rate of atrophy"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "AmygdalaAtrophy",
+      "mechanism": "causes",
+      "evidence_ref": [
+        133,
+        388
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Disruption/Degeneration"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "HippocampalAtrophy",
+      "mechanism": "causes",
+      "evidence_ref": [
+        388,
+        446,
+        622
+      ],
+      "confidence": "High"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "ThalamicAtrophy",
+      "mechanism": "causes",
+      "evidence_ref": [
+        401
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "MammillaryBodyAtrophy",
+      "mechanism": "causes",
+      "evidence_ref": [
+        499
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "CorticalAtrophy",
+      "mechanism": "causes",
+      "evidence_ref": [
+        512,
+        27,
+        53,
+        360,
+        479,
+        139,
+        214
+      ],
+      "confidence": "High",
+      "metadata": "Includes Cortical Thinning, Sulci Atrophy"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "CorticalThickness",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        360
+      ],
+      "confidence": "Low",
+      "metadata": "Context: Increase in thickness (likely acute/swelling or recovery)"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "CorticalThickness",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        360
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Reduction in thickness"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "TemporalLobeAtrophy",
+      "mechanism": "causes",
+      "evidence_ref": [
+        501,
+        509
+      ],
+      "confidence": "Medium",
+      "metadata": "Includes Medial Temporal Lobe"
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "CorticalLesion",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        479
+      ],
+      "confidence": "Medium",
+      "metadata": "Expansion of lesions"
+    },
+    {
+      "source": "ChronicTraumaticEncephalopathy",
+      "target": "HippocampalSclerosis",
+      "mechanism": "associated_with",
+      "evidence_ref": [
+        124
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "TraumaticEncephalopathySyndrome",
+      "target": "HippocampalAtrophy",
+      "mechanism": "associated_with",
+      "evidence_ref": [
+        302
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "TraumaticEncephalopathySyndrome",
+      "target": "GrayMatterAtrophy",
+      "mechanism": "associated_with",
+      "evidence_ref": [
+        302
+      ],
+      "confidence": "Medium",
+      "metadata": "Subcortical and Total Gray Matter"
+    },
+    {
+      "source": "TraumaticEncephalopathySyndrome",
+      "target": "Ventriculomegaly",
+      "mechanism": "associated_with",
+      "evidence_ref": [
+        302
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "TraumaticEncephalopathySyndrome",
+      "target": "MammillaryBodyAtrophy",
+      "mechanism": "causes",
+      "evidence_ref": [
+        499
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "BrainAtrophy",
+      "target": "MiniMentalStateExamination",
+      "mechanism": "correlates_with",
+      "evidence_ref": [
+        193
+      ],
+      "confidence": "Medium",
+      "metadata": "Scores"
+    },
+    {
+      "source": "BrainAtrophy",
+      "target": "PetechialHemorrhage",
+      "mechanism": "correlates_with",
+      "evidence_ref": [
+        296
+      ],
+      "confidence": "Low"
+    },
+    {
+      "source": "BrainAtrophy",
+      "target": "ClinicalOutcome",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        468
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "BrainAtrophy",
+      "target": "Neuroinflammation",
+      "mechanism": "associated_with",
+      "evidence_ref": [
+        468
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "GrayMatterAtrophy",
+      "target": "ClinicalOutcome",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        388
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "GrayMatterAtrophy",
+      "target": "GlobalEfficiency",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        405
+      ],
+      "confidence": "Low",
+      "metadata": "Source states 'Damage increases Global Efficiency'"
+    },
+    {
+      "source": "MildCognitiveImpairment",
+      "target": "CorticalAtrophy",
+      "mechanism": "associated_with",
+      "evidence_ref": [
+        214
+      ],
+      "confidence": "Medium",
+      "metadata": "Declines in thickness"
+    },
+    {
+      "source": "MildCognitiveImpairment",
+      "target": "GrayMatterAtrophy",
+      "mechanism": "associated_with",
+      "evidence_ref": [
+        214
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "PreinjuryVolumetricStability",
+      "target": "BrainAtrophy",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        468
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "DiffuseAxonalInjury",
+      "target": "BrainAtrophy",
+      "mechanism": "associated_with",
+      "evidence_ref": [
+        29
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "InjurySeverity",
+      "target": "BrainAtrophy",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        29
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "source": "CorticalThickness",
+      "target": "HippocampalAtrophy",
+      "mechanism": "associated_with",
+      "evidence_ref": [
+        307
+      ],
+      "confidence": "Medium",
+      "metadata": "Thickness reduced in Hippocampus"
+    },
+    {
+      "source": "CorticalThickness",
+      "target": "EntorhinalCortexAtrophy",
+      "mechanism": "associated_with",
+      "evidence_ref": [
+        307
+      ],
+      "confidence": "Medium",
+      "metadata": "Thickness reduced in Entorhinal Cortex"
+    },
+    {
+      "source": "T1WeightedMRI",
+      "target": "CorticalLesion",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        479
+      ],
+      "confidence": "High",
+      "metadata": "Enables detection"
+    },
+    {
+      "source": "T1WeightedMRI",
+      "target": "BrainAtrophy",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        468
+      ],
+      "confidence": "High",
+      "metadata": "Enables monitoring"
+    },
+    {
+      "source": "MildCognitiveImpairment",
+      "target": "CorticalThickness",
+      "mechanism": "associated_with",
+      "evidence_ref": [
+        512
+      ],
+      "confidence": "Medium"
+    }
+  ]
+}

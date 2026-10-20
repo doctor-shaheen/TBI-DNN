@@ -1,0 +1,389 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 16,
+    "edge_count": 16
+  },
+  "nodes": [
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "Traumatic Brain Injury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111"
+      },
+      "synonyms": [
+        "Mild Traumatic Brain Injury",
+        "Concussion",
+        "Severe Head Injury",
+        "Chronic Traumatic Brain Injury",
+        "Three Mild Traumatic Brain Injuries",
+        "TBI"
+      ]
+    },
+    {
+      "id": "ExecutiveFunction",
+      "label": "Executive Function",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0683312",
+        "GO_ID": "GO:0019327"
+      },
+      "synonyms": [
+        "Executive Control",
+        "Executive Attention",
+        "Visuospatial Executive Abilities",
+        "Executive Functioning"
+      ]
+    },
+    {
+      "id": "Unconsciousness",
+      "label": "Unconsciousness",
+      "type": "Symptom",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0041657"
+      },
+      "synonyms": [
+        "Loss of consciousness",
+        "LOC"
+      ]
+    },
+    {
+      "id": "MildCognitiveImpairment",
+      "label": "Mild Cognitive Impairment",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0917816"
+      },
+      "synonyms": [
+        "MCI"
+      ]
+    },
+    {
+      "id": "CognitiveImpairment",
+      "label": "Cognitive Impairment",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0338656"
+      },
+      "synonyms": [
+        "Cognitive Deficits",
+        "Cognitive Decline",
+        "Cognitive Performance Deficits"
+      ]
+    },
+    {
+      "id": "Anxiety",
+      "label": "Anxiety",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0003467"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "VirtualRealityTherapy",
+      "label": "Virtual Reality Therapy",
+      "type": "Procedure",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "UMLS_CUI": "C2936605"
+      },
+      "synonyms": [
+        "Virtual Reality Training"
+      ]
+    },
+    {
+      "id": "FrontotemporalDementia",
+      "label": "Frontotemporal Dementia",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0011611"
+      },
+      "synonyms": [
+        "Frontotemporal Disorder"
+      ]
+    },
+    {
+      "id": "MusicTherapy",
+      "label": "Music Therapy",
+      "type": "Procedure",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "UMLS_CUI": "C0026863"
+      },
+      "synonyms": [
+        "Neurological Music Therapy"
+      ]
+    },
+    {
+      "id": "TranscranialMagneticStimulation",
+      "label": "Transcranial Magnetic Stimulation",
+      "type": "Procedure",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "UMLS_CUI": "C0349811"
+      },
+      "synonyms": [
+        "Repetitive Transcranial Magnetic Stimulation",
+        "rTMS"
+      ]
+    },
+    {
+      "id": "Rehabilitation",
+      "label": "Rehabilitation",
+      "type": "Procedure",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "UMLS_CUI": "C0034969"
+      },
+      "synonyms": [
+        "Active Rehabilitation"
+      ]
+    },
+    {
+      "id": "CognitiveTherapy",
+      "label": "Cognitive Therapy",
+      "type": "Procedure",
+      "location": "Extracellular_Space",
+      "identifiers": {
+        "UMLS_CUI": "C0009249"
+      },
+      "synonyms": [
+        "Cognitive Training",
+        "Conventional Cognitive Training"
+      ]
+    },
+    {
+      "id": "CerebralBloodFlow",
+      "label": "Cerebral Blood Flow",
+      "type": "Physiology",
+      "location": "Blood",
+      "identifiers": {
+        "UMLS_CUI": "C0007776"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "ReactionTime",
+      "label": "Reaction Time",
+      "type": "Physiology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0034731"
+      },
+      "synonyms": [
+        "Reaction Time Variability"
+      ]
+    },
+    {
+      "id": "BrainConnectivity",
+      "label": "Brain Connectivity",
+      "type": "Physiology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006118"
+      },
+      "synonyms": [
+        "Graph Metrics"
+      ]
+    },
+    {
+      "id": "Behavior",
+      "label": "Behavior",
+      "type": "Process",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0004927"
+      },
+      "synonyms": [
+        "Behavioral Outcomes",
+        "Behavioral Inconsistency"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "ExecutiveFunction",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        67,
+        181,
+        210,
+        218,
+        232,
+        374,
+        387,
+        396,
+        528,
+        597
+      ],
+      "confidence": "High",
+      "metadata": "Context: Causes decline, impairment, deficits, and dysfunction. Variants: Mild, Severe, Chronic, Early Life."
+    },
+    {
+      "source": "Unconsciousness",
+      "target": "ExecutiveFunction",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        210,
+        270
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Duration dependent; LOC 1-20 min increases risk of impairment; LOC <1 min has no significant effect."
+    },
+    {
+      "source": "MildCognitiveImpairment",
+      "target": "ExecutiveFunction",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        214
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Associated with longitudinal decline."
+    },
+    {
+      "source": "CognitiveImpairment",
+      "target": "ExecutiveFunction",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        462,
+        561
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Cognitive deficits/decline associated with executive function impairment."
+    },
+    {
+      "source": "FrontotemporalDementia",
+      "target": "ExecutiveFunction",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        614
+      ],
+      "confidence": "High",
+      "metadata": "Context: Associated with executive dysfunction."
+    },
+    {
+      "source": "VirtualRealityTherapy",
+      "target": "Anxiety",
+      "mechanism": "inhibits",
+      "evidence_ref": [
+        594
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Treats Anxiety."
+    },
+    {
+      "source": "VirtualRealityTherapy",
+      "target": "ExecutiveFunction",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        594
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Treats executive function and visuospatial executive abilities."
+    },
+    {
+      "source": "MusicTherapy",
+      "target": "ExecutiveFunction",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        355
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Treats executive function."
+    },
+    {
+      "source": "TranscranialMagneticStimulation",
+      "target": "ExecutiveFunction",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        365,
+        549
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Treats executive function (Active rTMS)."
+    },
+    {
+      "source": "Rehabilitation",
+      "target": "ExecutiveFunction",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        369
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Active rehabilitation causes executive function improvement."
+    },
+    {
+      "source": "CognitiveTherapy",
+      "target": "ExecutiveFunction",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        549,
+        594
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Treats executive function."
+    },
+    {
+      "source": "CerebralBloodFlow",
+      "target": "ExecutiveFunction",
+      "mechanism": "contributes_to",
+      "evidence_ref": [
+        370
+      ],
+      "confidence": "Low",
+      "metadata": "Context: Association found."
+    },
+    {
+      "source": "ReactionTime",
+      "target": "ExecutiveFunction",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        374
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Reaction time variability negatively associated with executive control."
+    },
+    {
+      "source": "BrainConnectivity",
+      "target": "ExecutiveFunction",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        571
+      ],
+      "confidence": "Low",
+      "metadata": "Context: Graph metrics associated with executive function."
+    },
+    {
+      "source": "ExecutiveFunction",
+      "target": "Behavior",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        269,
+        374
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Impairment associated with behavioral outcomes/inconsistency."
+    },
+    {
+      "source": "Unconsciousness",
+      "target": "ExecutiveFunction",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        270
+      ],
+      "confidence": "Medium",
+      "metadata": "Context: Loss of consciousness predicts executive dysfunction."
+    }
+  ]
+}

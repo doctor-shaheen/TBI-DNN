@@ -1,0 +1,468 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "mode": "Unified_Strict",
+    "node_count": 20,
+    "edge_count": 20
+  },
+  "nodes": [
+    {
+      "id": "GFAP",
+      "label": "GFAP",
+      "type": "Protein",
+      "location": "Astrocyte",
+      "identifiers": {
+        "HGNC_ID": "HGNC:4235",
+        "UMLS_CUI": "C0017628",
+        "UniProt_ID": "P14136"
+      },
+      "synonyms": [
+        "Glial Fibrillary Acidic Protein",
+        "Serum Glial Fibrillary Acidic Protein",
+        "Plasma Glial Fibrillary Acidic Protein"
+      ]
+    },
+    {
+      "id": "BlastInjury",
+      "label": "BlastInjury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0005707"
+      },
+      "synonyms": [
+        "Blast Exposure"
+      ]
+    },
+    {
+      "id": "RepetitiveHeadInjury",
+      "label": "RepetitiveHeadInjury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C4025686"
+      },
+      "synonyms": [
+        "Repetitive Head Impacts",
+        "Collision Sports",
+        "Chronic Traumatic Encephalopathy Risk"
+      ]
+    },
+    {
+      "id": "CerebralAtrophy",
+      "label": "CerebralAtrophy",
+      "type": "Pathology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0235946"
+      },
+      "synonyms": [
+        "Brain Atrophy",
+        "Brain Atrophy Rate"
+      ]
+    },
+    {
+      "id": "NeuronalInjury",
+      "label": "NeuronalInjury",
+      "type": "Pathology",
+      "location": "Neuron",
+      "identifiers": {
+        "UMLS_CUI": "C0270614"
+      },
+      "synonyms": [
+        "Neuronal Damage"
+      ]
+    },
+    {
+      "id": "CognitiveImpairment",
+      "label": "CognitiveImpairment",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0338656"
+      },
+      "synonyms": [
+        "Cognitive Symptoms"
+      ]
+    },
+    {
+      "id": "PRNP",
+      "label": "PRNP",
+      "type": "Protein",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "HGNC_ID": "HGNC:9449",
+        "UMLS_CUI": "C0033100"
+      },
+      "synonyms": [
+        "Cellular Prion Protein",
+        "PrP"
+      ]
+    },
+    {
+      "id": "TraumaticBrainInjury",
+      "label": "TraumaticBrainInjury",
+      "type": "Disease",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0006111"
+      },
+      "synonyms": [
+        "TBI",
+        "Mild Traumatic Brain Injury",
+        "Severe Head Injury"
+      ]
+    },
+    {
+      "id": "ProcessingSpeed",
+      "label": "ProcessingSpeed",
+      "type": "BiologicalProcess",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C4040523"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Unemployment",
+      "label": "Unemployment",
+      "type": "Phenomenon",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0041674"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "WhiteMatterInjury",
+      "label": "WhiteMatterInjury",
+      "type": "Pathology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C3280829"
+      },
+      "synonyms": [
+        "Microstructural Injury",
+        "White Matter Microstructure"
+      ]
+    },
+    {
+      "id": "FunctionalDecline",
+      "label": "FunctionalDecline",
+      "type": "Symptom",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0586948"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "Age",
+      "label": "Age",
+      "type": "BiologicalProcess",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0001779"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "APP",
+      "label": "APP",
+      "type": "Protein",
+      "location": "Cell_Membrane",
+      "identifiers": {
+        "HGNC_ID": "HGNC:620",
+        "UMLS_CUI": "C0002773"
+      },
+      "synonyms": [
+        "Amyloid Beta",
+        "Abeta42",
+        "Amyloid Beta Precursor Protein"
+      ]
+    },
+    {
+      "id": "SurvivalRate",
+      "label": "SurvivalRate",
+      "type": "Phenomenon",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0038908"
+      },
+      "synonyms": [
+        "Survival Time"
+      ]
+    },
+    {
+      "id": "Astrogliosis",
+      "label": "Astrogliosis",
+      "type": "Pathology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0017639"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "MeanDiffusivity",
+      "label": "MeanDiffusivity",
+      "type": "Phenomenon",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C4072210"
+      },
+      "synonyms": [
+        "Cortical Mean Diffusivity"
+      ]
+    },
+    {
+      "id": "RadialDiffusivity",
+      "label": "RadialDiffusivity",
+      "type": "Phenomenon",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C4280590"
+      },
+      "synonyms": [
+        "Cortical Radial Diffusivity"
+      ]
+    },
+    {
+      "id": "Neurodegeneration",
+      "label": "Neurodegeneration",
+      "type": "Pathology",
+      "location": "Brain_Tissue",
+      "identifiers": {
+        "UMLS_CUI": "C0027746"
+      },
+      "synonyms": []
+    },
+    {
+      "id": "HyperbaricOxygenation",
+      "label": "HyperbaricOxygenation",
+      "type": "Therapeutic",
+      "location": "Systemic",
+      "identifiers": {
+        "UMLS_CUI": "C0020468"
+      },
+      "synonyms": [
+        "Hyperbaric Oxygen Therapy"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "BlastInjury",
+      "target": "GFAP",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        225
+      ],
+      "confidence": "High",
+      "metadata": "Context: Serum levels"
+    },
+    {
+      "source": "RepetitiveHeadInjury",
+      "target": "GFAP",
+      "mechanism": "causes",
+      "evidence_ref": [
+        49,
+        60
+      ],
+      "confidence": "High",
+      "metadata": "Context: Plasma levels in former boxers/collision sports"
+    },
+    {
+      "source": "GFAP",
+      "target": "CerebralAtrophy",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        29,
+        85
+      ],
+      "confidence": "High",
+      "metadata": "Context: Serum levels predict atrophy"
+    },
+    {
+      "source": "GFAP",
+      "target": "NeuronalInjury",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        49
+      ],
+      "confidence": "Medium",
+      "metadata": "Source relationship: upregulates (interpreted as biomarker)"
+    },
+    {
+      "source": "GFAP",
+      "target": "CognitiveImpairment",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        95,
+        228
+      ],
+      "confidence": "High",
+      "metadata": "Associated with elevated levels"
+    },
+    {
+      "source": "PRNP",
+      "target": "GFAP",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        208
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    },
+    {
+      "source": "TraumaticBrainInjury",
+      "target": "GFAP",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        228,
+        313,
+        358,
+        361,
+        372,
+        404,
+        442,
+        450,
+        486
+      ],
+      "confidence": "High",
+      "metadata": "Contradictory evidence in Ref 228/450 (no effect); Majority supports upregulation"
+    },
+    {
+      "source": "CognitiveImpairment",
+      "target": "GFAP",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        228
+      ],
+      "confidence": "Medium",
+      "metadata": "Duration of symptoms influences levels"
+    },
+    {
+      "source": "GFAP",
+      "target": "ProcessingSpeed",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        314
+      ],
+      "confidence": "Medium",
+      "metadata": "Predictive relationship"
+    },
+    {
+      "source": "GFAP",
+      "target": "Unemployment",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        358
+      ],
+      "confidence": "Low",
+      "metadata": "Source states 'causes', biologically interpreted as predictive marker for severity"
+    },
+    {
+      "source": "GFAP",
+      "target": "WhiteMatterInjury",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        361,
+        400
+      ],
+      "confidence": "High",
+      "metadata": "Inverse correlation with microstructure integrity"
+    },
+    {
+      "source": "GFAP",
+      "target": "FunctionalDecline",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        361
+      ],
+      "confidence": "Medium",
+      "metadata": "Predicts decline"
+    },
+    {
+      "source": "Age",
+      "target": "GFAP",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        372
+      ],
+      "confidence": "Medium",
+      "metadata": "Age confounds/increases levels"
+    },
+    {
+      "source": "APP",
+      "target": "GFAP",
+      "mechanism": "downregulates",
+      "evidence_ref": [
+        406,
+        518
+      ],
+      "confidence": "Medium",
+      "metadata": "Amyloid Beta (Abeta42/40) context"
+    },
+    {
+      "source": "GFAP",
+      "target": "SurvivalRate",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        417
+      ],
+      "confidence": "Medium",
+      "metadata": "Positivity associated with survival time"
+    },
+    {
+      "source": "Astrogliosis",
+      "target": "GFAP",
+      "mechanism": "upregulates",
+      "evidence_ref": [
+        422
+      ],
+      "confidence": "High",
+      "metadata": "Causes increased deposition"
+    },
+    {
+      "source": "GFAP",
+      "target": "MeanDiffusivity",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        486
+      ],
+      "confidence": "Medium",
+      "metadata": "Source 'binds_to' corrected to biomarker correlation"
+    },
+    {
+      "source": "GFAP",
+      "target": "RadialDiffusivity",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        486
+      ],
+      "confidence": "Medium",
+      "metadata": "Source 'binds_to' corrected to biomarker correlation"
+    },
+    {
+      "source": "GFAP",
+      "target": "Neurodegeneration",
+      "mechanism": "biomarker_for",
+      "evidence_ref": [
+        518
+      ],
+      "confidence": "High",
+      "metadata": "Indicates neurodegeneration"
+    },
+    {
+      "source": "HyperbaricOxygenation",
+      "target": "GFAP",
+      "mechanism": "modulates",
+      "evidence_ref": [
+        552
+      ],
+      "confidence": "Medium",
+      "metadata": ""
+    }
+  ]
+}
