@@ -47,7 +47,21 @@ At the top of the screen, toggle between:
 - **Search**: Use the search bar at the top of the sidebar to filter clusters by keywords (e.g., `tau`, `microglia`, `BBB`, `inflammation`, `biomarker`).
 - **Confidence Filter**: Filter edges by confidence ratings (`High`, `Medium`, or `All`).
 
-### 3. Interactive DAG Canvas
+### 3. Collapsible Sidebars & Canvas Workspace
+To provide a clean, unobstructed view of complex DAG networks:
+- **Collapsible Clusters Explorer (Left)**: Click the **`<`** icon in the sidebar header, the **`Clusters`** button in the top navigation, or press **`[`** on your keyboard. When collapsed, a floating **`Clusters`** tab on the left lets you re-open it instantly.
+- **Collapsible Element Inspector (Right)**: Click the **`>`** icon in the inspector header, the **`Inspector`** button in the top navigation, or press **`]`** on your keyboard. When collapsed, a floating **`Inspector`** tab on the right allows quick restoration.
+- **Auto-Expand on Selection**: Clicking any node or causal edge automatically expands the inspector if it was collapsed.
+- **Minimizable Cluster Banner**: Click the **`−`** button on the floating cluster summary banner to minimize it into a compact pill.
+- **Zen View (Maximize Canvas)**: Click **`Zen View`** in the header or press **`z`** on your keyboard to instantly collapse both sidebars for full-screen graph analysis and presentation.
+- **Keyboard Shortcuts**:
+  - **`[`** : Toggle Left Clusters Explorer
+  - **`]`** : Toggle Right Element Inspector
+  - **`z`** : Toggle Zen View (Full Canvas)
+  - **`f`** : Fit Graph to Screen
+  - **`Esc`** : Clear selection and reset view
+
+### 4. Interactive DAG Canvas
 - **Zoom & Pan**: Use the mouse scroll wheel or trackpad pinch to zoom. Click and drag empty space to pan.
 - **Fit View**: Click the **Fit to Screen** icon in the floating toolbar to re-center the graph.
 - **Layout Modes**:
@@ -56,7 +70,7 @@ At the top of the screen, toggle between:
   - **Free Physics (Force-Directed)**: Organic spring-embedded layout with draggable nodes.
 - **Biological Location Color Coding**: Nodes are automatically colored based on cellular and anatomical compartments (Brain Tissue, Blood, CSF, Synapse, Mitochondria, Astrocyte, Microglia, etc.). Click the **Info** button on the toolbar to toggle the color legend.
 
-### 4. Element Inspection & Evidence Traceability
+### 5. Element Inspection & Evidence Traceability
 Click on any element in the graph to inspect its details in the right sidebar:
 - **Clicking a Node**:
   - Displays the canonical label and ID.
