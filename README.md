@@ -103,7 +103,7 @@ If you utilize this repository, datasets, or the interactive DAG visualizer in y
 
 ```bibtex
 @article{shaheen2026tbi,
-  title={Traumatic Brain Injury and Chronic Neurodegeneration: Unraveling Multiscale Causal Pathways via Domain-Specific Language Embeddings and Directed Acyclic Graph Modeling},
+  title={A Framework for Automated Pathophysiological Pathway Synthesis and Mechanistic Disease Modeling Applied to Traumatic Brain Injury Associated Neurodegeneration},
   author={Shaheen, Ahmed},
   journal={TBI-DNN Research Group},
   year={2026},
