@@ -1,11 +1,11 @@
-# TBI-DNN: Deep Learning & Causal Inference Analysis of Traumatic Brain Injury to Neurodegenerative Dementias
+# A Framework for Automated Pathophysiological Pathway Synthesis and Mechanistic Disease Modeling Applied to Traumatic Brain Injury Associated Neurodegeneration
 
 [![GitHub Repository](https://img.shields.io/badge/GitHub-doctor--shaheen%2FTBI--DNN-blue.svg)](https://github.com/doctor-shaheen/TBI-DNN)
 [![Visualizer](https://img.shields.io/badge/Visualizer-Interactive%20DAG-emerald.svg)](DAG%20visualizer/index.html)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 Official publication repository and data library accompanying the study:
-> **"Traumatic Brain Injury and Chronic Neurodegeneration: Unraveling Multiscale Causal Pathways via Domain-Specific Language Embeddings and Directed Acyclic Graph Modeling"**  
+> **"A Framework for Automated Pathophysiological Pathway Synthesis and Mechanistic Disease Modeling Applied to Traumatic Brain Injury Associated Neurodegeneration"**  
 > *Ahmed Shaheen, MD et al.*
 
 ---
